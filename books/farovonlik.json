@@ -1,0 +1,467 @@
+{
+  "id": "farovonlik",
+  "nomi": "Ahmoqning tajribasi-3: Qanday yashash va farovonlik topish",
+  "muallif": "Mirzakarim Norbekov",
+  "kirish": "Bu kitob baxtni ichki holatdan tashqariga — uyga, oilaga, bolalarga, ota-onaga va kasbga olib chiqadi. Norbekovning asosiy fikri oddiy: odam yolg'iz baxtli bo'la olmaydi. Uning kuchi devorlarga, yaqinlariga, hududlariga va ular bilan tuzgan kelishuvlariga tayanadi. Kitobda uy qurish, oila byudjetini bo'lish, bolalarni mehnatga o'rgatish, ota-onaga xizmat qilish va hayotning haqiqiy maqsadini topish haqidagi juda aniq, ba'zan achchiq maslahatlar bor.",
+  "bolimlar": [
+    {
+      "sarlavha": "O'z hayotingizning bosh direktori",
+      "magiz": [
+        "Sizga hayotni kim o'rgatishi mumkin? Faqat natijasi ko'rinib turgan odam. Agar maslahat beruvchining o'z oilasi, o'z sog'lig'i, o'z ishi yo'q bo'lsa — u nazariyani o'rgatadi, hayotni emas.",
+        "Bir xil mahsulotdan kimdir oshxonada arzon sho'rva pishiradi, kimdir restoranda ikki yuz dollarlik taom qiladi. Farq mahsulotda emas — ustaning malakasida. Hayot ham xuddi shunday: hammamizga bir xil sutka, bir xil kuch berilgan.",
+        "Kashfiyotchilar ko'pincha o'z sohasining mutaxassisi bo'lmagan odamlar. Chunki mutaxassis «bu mumkin emas»ni yaxshi biladi, yangi odam esa bilmaydi va shuning uchun qiladi.",
+        "Hech kim sizni hayotingizning egasi qilib tayinlamaydi. Bu lavozimga o'zingizni o'zingiz tayinlaysiz — xuddi o'zini vazir deb e'lon qilib, keyin haqiqatan vazir bo'lgan odam kabi.",
+        "Oila — bu bir necha «men»ning bir tom ostidagi kelishuvi. Agar har bir «men» faqat o'zini talab qilsa, tom yiqiladi. Uy poydevor, devor va tomdan iborat: poydevor — moddiy asos, devor — munosabatlar, tom — maqsad."
+      ],
+      "tavsiyalar": [
+        "Maslahat olishdan oldin bitta savolni bering: bu odamning shu sohadagi natijasi qanday? Natijasi yo'q odamning maslahati — bepul va qimmat.",
+        "Hayotingizning bosh direktori lavozimini bugun o'z zimmangizga oling: bir hafta davomida «meni majbur qilishdi» degan iborani ishlatmang.",
+        "Yangi ishni boshlashda «bu sohada tajribam yo'q» degan gapni kamchilik emas, ustunlik deb ko'ring — sizda hali «mumkin emas» ro'yxati yo'q.",
+        "Oilangizni tashkilot kabi ko'ring: kimning zimmasida nima bor, kim nima uchun javob beradi — buni ovoz chiqarib kelishib oling.",
+        "Har bir yirik qarordan oldin uchta savolga javob bering: bu poydevorgami, devorgami yoki tomga? Agar uchoviga ham aloqasi bo'lmasa — bu qaror emas, ovunish."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Hayotingizda hozir sizga eng ko'p maslahat beradigan uch odamni yozing. Har birining yonida ular shu sohada erishgan aniq natijani yozing. Ro'yxatga qarab nima ko'ryapsiz?"
+        },
+        {
+          "turi": "test",
+          "savol": "Uzoq vaqtdan beri ko'nglingizdagi ishni boshlay olmayapsiz. Eng ehtimolli sabab nima?",
+          "variantlar": [
+            "Hali sharoit yetilmagan, vaqti kelganda boshlayman",
+            "Men bu sohaning mutaxassisi emasman",
+            "Boshlash uchun ruxsat beradigan odamni kutyapman",
+            "Boshlashdan qo'rqaman, lekin buni «tayyorgarlik» deb atayman"
+          ],
+          "izohlar": [
+            "«Sharoit yetilishi» — hech qachon kelmaydigan sana. Kitob buni eng chiroyli qochish shakli deb ataydi.",
+            "Norbekov aynan buni ustunlik deb hisoblaydi: mutaxassis «mumkin emas»ni biladi, yangi odam esa qilib ko'radi.",
+            "Bu eng ochiq javob. Ruxsat beradigan odam yo'q — o'zingizni o'zingiz tayinlashingiz kerak.",
+            "Rostini aytish — birinchi qadam. Tayyorgarlik deb atalgan qo'rquv yillab davom etishi mumkin."
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Hayotingizdagi qarorlarning necha foizini haqiqatan siz qabul qilyapsiz?",
+          "min": 0,
+          "max": 100,
+          "min_yorliq": "Boshqalar hal qiladi",
+          "max_yorliq": "Men hal qilaman"
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Bosh direktor lavozimiga kirish",
+          "bandlar": [
+            "Bugun kechiktirib yurgan bitta qarorimni qabul qildim",
+            "«Imkonim yo'q» degan gapni «men tanlamadim» ga almashtirib ko'rdim",
+            "Oilamda kim nima uchun javob berishini yozib chiqdim",
+            "Natijasi yo'q odamdan maslahat so'rashni to'xtatdim",
+            "Bugun bittagina ishni oxirigacha yetkazdim"
+          ]
+        }
+      ]
+    },
+    {
+      "sarlavha": "Qayerda yashaysiz: uy va qo'shnilar",
+      "magiz": [
+        "Odam o'zi yashayotgan muhitdan kuchliroq bo'la olmaydi. Guruh hech qachon o'zining eng zaif a'zosidan kuchli emas — oila ham, qo'shnichilik ham shunday.",
+        "Ko'p qavatli uy — bu bir-birining ustiga taxlangan o'nlab notanish hayot. Ularning kayfiyati, janjali, kasali sizning devoringiz orqali o'tadi.",
+        "Ikkilamchi bozordan olingan uyning tarixi bor: undan oldin kim yashagan, u yerda nima bo'lgan. Norbekov devorlar odamlarning hissiyotini uzoq yillar «yozib» olishini aytadi — buni mistika deb emas, muhitning xotirasi deb qarash mumkin.",
+        "Uy — dam olish joyi. Ishni uyga olib kirsangiz, dam oladigan joyingiz qolmaydi va charchoq to'planaveradi.",
+        "Qo'shnini tanlab bo'lmaydi degan gap noto'g'ri: uy tanlayotganda siz aynan qo'shnini ham tanlayapsiz."
+      ],
+      "tavsiyalar": [
+        "Uy tanlayotganda faqat kvadrat metrga emas, atrofdagi odamlarga qarang: kechqurun hovlida kim o'tiradi, ularning gapi qanday.",
+        "Ikkilamchi uy sotib olishdan oldin uning tarixini so'rang — oldingi egalari kim edi, nega ko'chib ketishdi.",
+        "Yangi uyga kirganda uni «o'zingizniki» qiling: tozalash, ta'mirlash, hidni almashtirish — bu ramziy emas, amaliy ish.",
+        "Ish haqidagi gapni uy ostonasida qoldiring. Uyda ish muhokamasi uchun alohida vaqt va joy ajratmang.",
+        "Oilangizdagi eng zaif joyni toping va uni kuchaytiring — jamoaning kuchi shu yerdan o'lchanadi."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Hozirgi uyingizni tasvirlang: unga kirganingizda tanangizda nima bo'ladi — yelkangiz tushadimi yoki taranglashadimi? Nega shunday deb o'ylaysiz?"
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Uy auditi — bir hafta ichida",
+          "bandlar": [
+            "Uyimning eng noqulay burchagini aniqladim",
+            "Bir yildan beri ishlatilmagan narsalarni chiqarib tashladim",
+            "Ish haqidagi suhbatni uyda boshlamadim",
+            "Uyimga birorta yoqimli o'zgarish kiritdim (chiroq, gul, hid, rang)",
+            "Qo'shnilarimdan kamida bittasi bilan yaxshi gaplashdim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Uyingizga kirganingizda kuch olasizmi yoki kuch yo'qotasizmi?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Kuchim tugaydi",
+          "max_yorliq": "Kuch olaman"
+        },
+        {
+          "turi": "taymer",
+          "daqiqa": 20,
+          "korsatma": "Yigirma daqiqa uyingizni «birinchi marta kirgan mehmon» ko'zi bilan aylanib chiqing. Hech narsani tuzatmang, faqat ko'ring va his qiling: qayerda nafas kengayadi, qayerda torayadi. Oxirida bitta burchakni belgilang — shu hafta uni o'zgartirasiz."
+        }
+      ]
+    },
+    {
+      "sarlavha": "Uy qurish: orzudan poydevorgacha",
+      "magiz": [
+        "Uy avval boshda quriladi. Norbekov shogirdlaridan uyni mayda tafsilotigacha tasavvur qilishni so'raydi: eshik qayerda, deraza qayerga qaraydi, oshxonada qanday hid bor.",
+        "Eng qiziq kuzatuv: odam uy qurishni boshlagach, daromadi ko'tariladi. Chunki maqsad aniq bo'lganda kuch ham, imkoniyat ham topiladi.",
+        "«Agar siz uy qurishga qaror qilsangiz, men to'layman» — bu shunchaki hazil emas, balki qarorning o'zi eng qimmat qism ekaniga ishora. Pul qarordan keyin keladi, qarordan oldin emas.",
+        "Kichik boshlash uyat emas: vagonchada yashab, uch yuz dollardan boshlab uy qurgan odamlar bor. Uyat — umuman boshlamaslik.",
+        "Uy — bu nafaqat devor, balki avlodlar uchun qoldiriladigan iz. Ijara odamni vaqtinchalik yashovchiga aylantiradi."
+      ],
+      "tavsiyalar": [
+        "Uyingizni qog'ozga chizing: xonalar, o'lchamlar, oynadan ko'rinadigan manzara. Chizmagan orzu — orzu emas, xayol.",
+        "Qurilish yoki uy olish uchun aniq sana qo'ying. Sanasi yo'q maqsad — istak.",
+        "Har oy daromadingizdan qat'iy bir foizni faqat shu maqsadga ajrating, miqdori kichik bo'lsa ham.",
+        "Birinchi qadamni bugun qiling: yer narxini so'rang, bankka kiring, ustalar bilan gaplashing. Qadam qo'yilgan kundan boshlab imkoniyatlar ko'rina boshlaydi.",
+        "«Pulim yo'q» degan gapni «hali qaror qilmadim» ga almashtirib ko'ring va o'zingizni kuzating."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Kelajakdagi uyingizni yozing — lekin umumiy gap bilan emas: nechta xona, ostonada nima bor, ertalab qaysi derazadan quyosh tushadi, oshxonada qanday hid bor. Iloji boricha ko'proq tafsilot."
+        },
+        {
+          "turi": "slider",
+          "savol": "Shu uyni qurish yoki olishga qanchalik qaror qilgansiz?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Faqat orzu qilaman",
+          "max_yorliq": "Qaror qildim, boshladim"
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Birinchi haqiqiy qadamlar",
+          "bandlar": [
+            "Uyimning chizmasini yoki rasmini qildim",
+            "Aniq sanani belgiladim",
+            "Har oylik jamg'arma miqdorini belgiladim",
+            "Narx-navo bo'yicha kamida uchta manbadan ma'lumot oldim",
+            "Bu maqsad haqida yaqinlarim bilan gaplashdim"
+          ]
+        },
+        {
+          "turi": "test",
+          "savol": "Uy qurishga pul yetmayapti. Kitob nuqtai nazaridan birinchi nima qilish kerak?",
+          "variantlar": [
+            "Pul to'planishini kutish",
+            "Qaror qilib, birinchi qadamni bugun qo'yish",
+            "Maqsadni kichraytirish",
+            "Ijarada yashashda davom etish"
+          ],
+          "izohlar": [
+            "Kutish — eng ko'p uchraydigan va eng uzoq davom etadigan holat. Pul o'z-o'zidan to'planmaydi.",
+            "Kitobning asosiy fikri: qaror va harakatdan keyin daromad ham, imkoniyat ham o'sadi.",
+            "Kichraytirish yomon emas, lekin bu ham qarordan keyin qilinadi, undan oldin emas.",
+            "Ijaraning o'zi yomon emas, lekin u ko'pincha qaror qabul qilmaslikning qulay shakliga aylanadi."
+          ]
+        }
+      ]
+    },
+    {
+      "sarlavha": "Oila o'chog'i: hududlar va kelishuvlar",
+      "magiz": [
+        "Chiroq kuchlanish to'g'ri kelganda yonadi. Kuchlanish oshsa — kuyadi, tushsa — xira yonadi. Oila ham shunday: har bir odamga o'z «kuchlanishi» kerak.",
+        "Eng ko'p janjal hudud aralashishidan chiqadi. Er xotinning oshxonasiga, xotin erning ishiga aralashsa — ikkovi ham o'z joyida emas.",
+        "Har bir odamning o'z hududi bo'lishi kerak: joy, vaqt, qaror. Bu hududga hech kim ruxsatsiz kirmaydi.",
+        "Oila byudjetini oldindan bo'lish kerak — kunlik xarajat, jamg'arma, umumiy maqsad va har birining shaxsiy qismi. Shaxsiy qism hisobot talab qilmaydi, aynan shuning uchun u tinchlik saqlaydi.",
+        "Erkinlik — bu arqonning uzunligi. Arqon qanchalik uzun bo'lsa, odam o'zini shunchalik erkin his qiladi va aslida shunchalik kam ketadi."
+      ],
+      "tavsiyalar": [
+        "Uyda har bir oila a'zosiga tegishli aniq joy ajrating — hatto bitta stol yoki javon bo'lsa ham.",
+        "Sherigingizning hududiga tanqid bilan kirmang: uning ishi, uning xonasi, uning tanlovi.",
+        "Byudjetni ovoz chiqarib bo'ling: kunlik xarajat, jamg'arma, umumiy maqsad, har birining shaxsiy pul qismi.",
+        "Shaxsiy pul qismi bo'yicha hisobot so'ramang — bu ishonchning narxi.",
+        "Bir haftada bir marta oila «kengashi» o'tkazing: kimga nima yetishmayapti, nimani o'zgartiramiz."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Oilangizdagi oxirgi janjalni eslang. Unda kim kimning hududiga kirdi? Endi shu vaziyatni hududlar buzilmagan holda qanday hal qilish mumkin edi — yozing."
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Hududlar va byudjet kelishuvi",
+          "bandlar": [
+            "Uyda har bir a'zoga tegishli joyni belgiladim",
+            "Byudjetni to'rt qismga bo'lib chiqdim",
+            "Shaxsiy pul qismini kelishib oldim",
+            "Bir hafta davomida sherigimning ishiga aralashmadim",
+            "Oila kengashini o'tkazdim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Oilangizda har kim o'z hududida erkinmi?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Doim aralashamiz",
+          "max_yorliq": "Har kim o'z joyida"
+        },
+        {
+          "turi": "test",
+          "savol": "Sherigingiz sizga yoqmaydigan qaror qildi — o'z ishi bo'yicha. Nima qilasiz?",
+          "variantlar": [
+            "To'g'ri yo'lni ko'rsataman, chunki men yaxshiroq bilaman",
+            "Indamayman, lekin ichimda g'ashlanaman",
+            "Fikrimni bir marta aytaman va qarorni unga qoldiraman",
+            "Kelishmovchilikni keyinroq eslatib turaman"
+          ],
+          "izohlar": [
+            "Bu aynan hududga kirish. Natija: qaror emas, janjal.",
+            "Ichda saqlangan norozilik yo'qolmaydi — u boshqa mavzuda portlaydi.",
+            "Kitobning yo'li shu: fikr — sizniki, qaror — uniki. Hudud shunday saqlanadi.",
+            "Eslatib turish — janjalning cho'zilgan shakli. U ishonchni sekin yemiradi."
+          ]
+        }
+      ]
+    },
+    {
+      "sarlavha": "Yaqinlik: yangilanish va sir",
+      "magiz": [
+        "Munosabat bir xillikdan o'ladi. Odam yonidagi odamni to'liq «o'rganib bo'ldim» deb hisoblaganda qiziqish tugaydi.",
+        "Yangilanish — arzon va oddiy ish: soch turmagi, hid, kiyim, ovoz ohangi, kutilmagan taklif. Bu yuzakilik emas, e'tibor belgisi.",
+        "Sir — munosabatning kislorodi. Hamma narsani aytib bo'lgan odam qiziq bo'lmay qoladi.",
+        "Istaklar haqida ochiq gapirish kerak, lekin buni janjal payti emas, tinch paytda qilish kerak. Ko'p juftliklar bir-birining haqiqiy istagini umuman bilmaydi.",
+        "Erkaklarning o'z davrasi, ayollarning o'z davrasi bo'lishi — oilaga qarshi emas, oila foydasiga. Choyxona ham, ayollar gurungi ham bosimni tushiradigan klapan."
+      ],
+      "tavsiyalar": [
+        "Oyiga kamida bir marta tashqi ko'rinishingizda kichik o'zgarish qiling — sherigingiz sezadigan darajada.",
+        "Sherigingiz bilan ikkovingizga tegishli, boshqa hech kim bilmaydigan bitta narsa bo'lsin.",
+        "Istaklar haqidagi suhbatni tinch paytda, ayblovsiz boshlang.",
+        "Har haftada bir marta ikkovingiz uchun alohida vaqt ajrating — bolalarsiz, telefonsiz.",
+        "O'z davrangizni saqlang va sherigingiznikiga hasad qilmang."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Uch ustunli jadval tuzing: «Bizda bor» — «Xohlardim» — «Men uchun mumkin emas». Har bir ustunga kamida uchtadan narsa yozing. Keyin o'rtadagi ustunga qarang: undagi qaysi biri haqida sherigingizga hech qachon aytmagansiz?"
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Bir haftalik yangilanish",
+          "bandlar": [
+            "Tashqi ko'rinishimda bitta o'zgarish qildim",
+            "Sherigimga kutilmagan taklif qildim",
+            "Bir marta bolalarsiz va telefonsiz vaqt o'tkazdik",
+            "Istaklarim haqida tinch paytda gapirdim",
+            "Sherigimning davrasiga hasad qilmadim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Sherigingiz uchun siz hali ham qiziqmisiz — o'zingiz qanday baholaysiz?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Butunlay o'rganilgan",
+          "max_yorliq": "Hali kashf qilinmagan"
+        },
+        {
+          "turi": "taymer",
+          "daqiqa": 15,
+          "korsatma": "O'n besh daqiqa sherigingiz bilan faqat gaplashing — maishiy masalalarsiz, ishsiz, bolalarsiz. Telefonlarni boshqa xonaga qo'ying. Mavzu bitta: «Sen so'nggi paytda nimadan quvonding?» Bo'lim vaqti tugaguncha uni bo'lmang."
+        }
+      ]
+    },
+    {
+      "sarlavha": "Ota-onaga xizmat — farovonlik qonuni",
+      "magiz": [
+        "Norbekovning eng qat'iy maslahati: daromadingizning o'n foizini ota-onangizga bering. Bu xayriya emas — bu qonun, u ishlaydi.",
+        "Ota-onaga qilingan xizmat qaytadi. Kitobda hurmatni «sotib olgan» — ya'ni otasiga muntazam pul va e'tibor bera boshlagan — odamning otasi qanday tiklanib, o'zi ham oyoqqa turgani hikoya qilinadi.",
+        "Ota-ona — tirik ziyoratgoh. Uzoqdagi muqaddas joylarni izlagan odam ko'pincha uyidagisini ko'rmaydi.",
+        "Muvaffaqiyat bilan ota-onaga munosabat o'rtasida bog'liqlik bor: ota-onasini rozi qilgan odamlarning ishi ko'pincha yurishib ketadi.",
+        "«Vaqtim yo'q» degan gap ota-onaga nisbatan ishlamaydi, chunki ularning vaqti tugab boryapti."
+      ],
+      "tavsiyalar": [
+        "Daromadingizdan aniq bir ulush ajrating va uni har oy ota-onangizga bering — miqdori kichik bo'lsa ham muntazam bo'lsin.",
+        "Haftada kamida bir marta qo'ng'iroq qiling, oyiga kamida bir marta borib ko'ring.",
+        "Pulni «kerak emas» deyishsa ham qoldiring — bu sizning qarzingiz emas, hurmatingiz.",
+        "Ota-onangizdan ularning yoshligi haqida so'rang va yozib oling — bu ikkalangizga ham kerak.",
+        "Ota-ona bilan eski janjalni ko'tarmang. Ular o'zgarmaydi, siz o'zgarasiz."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Ota-onangizga (yoki ular yo'q bo'lsa, sizni tarbiyalagan odamga) hech qachon aytmagan minnatdorchiligingizni yozing. Bugun undan bitta jumlani ularga aytib bering."
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Bir oylik amaliyot",
+          "bandlar": [
+            "Daromadimdan aniq ulush ajratdim",
+            "Bu oy ota-onamga yordam berdim",
+            "Haftada kamida bir marta qo'ng'iroq qildim",
+            "Borib ko'rdim yoki uchrashdim",
+            "Eski janjalni ko'tarmadim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Ota-onangiz oldidagi burchingizni qanchalik bajaryapman deb his qilasiz?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Deyarli hech narsa",
+          "max_yorliq": "To'liq bajaryapman"
+        },
+        {
+          "turi": "test",
+          "savol": "«Menga pul kerak emas, o'zingga ishlat» dedi ota-onangiz. Nima qilasiz?",
+          "variantlar": [
+            "Ishonaman va bermayman",
+            "Baribir muntazam beraman",
+            "Bayramlarda katta sovg'a qilaman",
+            "Pul o'rniga faqat vaqt beraman"
+          ],
+          "izohlar": [
+            "Ko'pincha bu odob uchun aytiladi. Kitobda bu javob eng ko'p uchraydigan va eng qulay javob deb ko'rsatilgan.",
+            "Kitobning yo'li shu: muntazamlik miqdordan muhimroq. Bu ularga emas, sizga kerak.",
+            "Katta sovg'a yaxshi, lekin u muntazamlikning o'rnini bosmaydi.",
+            "Vaqt juda qimmat, lekin Norbekov moddiy ulushni alohida ta'kidlaydi — u mas'uliyatni tanaga singdiradi."
+          ]
+        }
+      ]
+    },
+    {
+      "sarlavha": "Bolalar: erkinlik, mehnat va tanlov",
+      "magiz": [
+        "Nolinchi yoshdan olti yoshgacha bolaga maksimal erkinlik kerak. Bu davrda u dunyoni «sehrli» holatda ko'radi va aynan shunda uning ichki kuchi shakllanadi.",
+        "Yetti yoshdan boshlab bolaga haqiqiy mehnat va haqiqiy haq berish kerak. Norbekov o'zining birinchi ishlab topgan pulini alohida eslaydi — u pulning qiymatini shunda bilgan.",
+        "Mashina yuvishdan boshlagan ikki bola keyinchalik yirik biznesmenga aylangan. Ish turi muhim emas — o'z mehnati bilan pul topish tajribasi muhim.",
+        "O'n to'rtdan o'n sakkizgacha — o'tish davri. Bu yoshda ota-onaning gapi ishlamaydi, uchinchi odamning gapi ishlaydi. Shuning uchun bolaning atrofida siz ishonadigan kattalar davrasi bo'lishi kerak.",
+        "Bolani urish tarbiya emas — bu ota-onaning ojizligi. Urilgan bola qo'rquvni o'rganadi, qoidani emas."
+      ],
+      "tavsiyalar": [
+        "Olti yoshgacha ko'proq «mumkin» deng: kir bo'lsin, yiqilsin, sinasin.",
+        "Yetti yoshdan boshlab bolaga uy yumushi emas, haqiqiy ish toping va uni haqini to'lang.",
+        "Bolaga pulni qanday sarflashni o'zi hal qilsin — xato qilsa ham. Bu eng arzon dars.",
+        "O'smir yoshdagi farzandingiz atrofida siz hurmat qiladigan kattalar bo'lsin — ustoz, murabbiy, tog'a. Sizning gapingizni ular yetkazadi.",
+        "Hech qachon urmang. Urish o'rniga oqibatni tanlang: qilgan ishining natijasini o'zi ko'tarsin."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Farzandingiz (yoki kelajakdagi farzandingiz) haqida yozing: unga hozir nimani man qilyapsiz va bu man aslida kimni himoya qilyapti — bolanimi yoki sizning tinchligingizni?"
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Bola bilan ishlash rejasi",
+          "bandlar": [
+            "Kichkina bolaga «mumkin emas»ni kamaytirdim",
+            "Katta bolaga haqiqiy vazifa va haq berdim",
+            "U topgan pulni o'zi sarflashiga ruxsat berdim",
+            "Atrofida ishonchli katta odam borligini tekshirdim",
+            "Bu hafta bir marta ham qo'l ko'tarmadim va baqirmadim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Farzandingizga qanchalik erkinlik berayapsiz?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Hammasini nazorat qilaman",
+          "max_yorliq": "O'zi tanlaydi va javob beradi"
+        },
+        {
+          "turi": "test",
+          "savol": "O'n besh yoshli farzandingiz sizni eshitmayapti. Kitobga ko'ra eng samarali yo'l qaysi?",
+          "variantlar": [
+            "Qattiqroq talab qilish",
+            "Butunlay erkinlikka qo'yib yuborish",
+            "U hurmat qiladigan uchinchi odam orqali gapirish",
+            "Jazolash tizimini kuchaytirish"
+          ],
+          "izohlar": [
+            "O'tish davrida bosim qarshilikni oshiradi — bu yoshdagi bolaning vazifasi aynan ajralish.",
+            "Qo'yib yuborish ham yechim emas: bolaga chegara kerak, lekin uni siz emas, hayot ko'rsatishi mumkin.",
+            "Kitobning tavsiyasi shu: bu yoshda uchinchi odamning gapi ota-onanikidan kuchli ishlaydi.",
+            "Jazo qo'rquvni o'rgatadi, tushunchani emas. Uzoq muddatda aloqani yo'qotasiz."
+          ]
+        },
+        {
+          "turi": "taymer",
+          "daqiqa": 10,
+          "korsatma": "O'n daqiqa farzandingiz bilan faqat uni eshiting. Savol bermang, maslahat bermang, tuzatmang. Faqat «keyin-chi?» deb turing. Agar farzandingiz yo'q bo'lsa — bu mashqni siz uchun muhim bo'lgan yosh odam bilan bajaring."
+        }
+      ]
+    },
+    {
+      "sarlavha": "Kasb, maqsad va bir kunning kuchi",
+      "magiz": [
+        "Har bir kasb odamni o'ziga o'xshatib o'zgartiradi. O'qituvchi hammani o'quvchi deb ko'ra boshlaydi, jarroh — tanani mexanizm deb, reanimatolog — hayotni vaqtincha deb. Bu kasbiy deformatsiya oiladan ham o'tadi.",
+        "Ba'zi ishlar odamga baxt keltirmaydi, chunki ular boshqalarning qarg'ishini yig'adi. Minnatdorchilik ham, qarg'ish ham to'planadi — bu kitobning asosiy iqtisodiy qonuni.",
+        "Maqsadlarni topishning eng aniq usuli: avval yigirmata maqsad yozing. Keyin «bir yilingiz qoldi» deb tasavvur qiling va faqat beshtasini qoldiring. Keyin «yigirma to'rt soatingiz qoldi» deb uchtasini qoldiring. Aynan shu uchtasi — hayotingizning haqiqiy maqsadi.",
+        "Birinchi ro'yxatdagi ko'p narsalar aslida sizniki emas — ular boshqalarning kutgani yoki uzoq muddatli rejalar.",
+        "Kim bir kunni o'ziga bo'ysundira olsa, butun hayotni bo'ysundiradi. Sharqda aytadilar: ertalab tug'ilishing, kechqurun o'lishing kerak.",
+        "Orzu — donolikning zahari. Odam harakat qilmaganda psixikasi bo'shliqni xayol bilan to'ldiradi va u xayol ichida juda faol bo'ladi.",
+        "Odam faqat erisha oladigan narsani orzu qiladi. Ya'ni orzuingiz — bu sizning hali amalga oshirmagan imkoniyatingiz."
+      ],
+      "tavsiyalar": [
+        "Kasbingiz sizga qanday «izlar» qoldirganini yozing va uydagi muomalangizni shu izlardan tozalang.",
+        "Ish tanlashda bitta savolni bering: bu ish odamlarga nima beradi — minnatdorchilikmi yoki norozilikmi?",
+        "Yigirma–besh–uch mashqini yiling boshida va yiling o'rtasida takrorlang.",
+        "«Yigirma to'rt soat» ro'yxatidagi ishlarni ertaga boshlang, keyingi oyga qoldirmang.",
+        "Kechqurun yotishdan oldin kunning barcha ishini yopishga harakat qiling — tugallanmagan ish uyquni ham, ertangi kunni ham yeydi.",
+        "Xayol qilib o'tirganingizni sezsangiz, o'sha xayolning eng kichik amaliy qadamini toping va shuni bugun qiling."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Yigirmata maqsad yozing — hech qanday cheklovsiz. Keyin tasavvur qiling: bir yilingiz qoldi. Faqat beshtasini qoldiring. Endi yigirma to'rt soatingiz qoldi — faqat uchtasini qoldiring. Uchtasini alohida yozib qo'ying: bu sizning hayotingizning haqiqiy maqsadi."
+        },
+        {
+          "turi": "jurnal",
+          "savol": "Yuqoridagi «yigirma to'rt soat» ro'yxatidan bittasini tanlang va uni ertaga bajarish uchun aniq reja yozing: nima, qachon, kim bilan."
+        },
+        {
+          "turi": "test",
+          "savol": "Uzoq vaqtdan beri bitta orzuni ko'tarib yuribsiz, lekin unga qadam qo'ymayapsiz. Kitobga ko'ra bu nimani anglatadi?",
+          "variantlar": [
+            "Bu orzu men uchun juda katta",
+            "Bu orzu — mening amalga oshmagan imkoniyatim",
+            "Vaqti hali kelmagan",
+            "Bu orzu aslida meniki emas"
+          ],
+          "izohlar": [
+            "Norbekov teskarisini aytadi: odam erisha olmaydigan narsani orzu ham qilmaydi.",
+            "Aynan shunday. Orzu — ichingizdagi kuchning hali ishlatilmagan qismi haqidagi signal.",
+            "«Vaqti kelmagan» — harakatsizlikning eng chiroyli nomi. U bir umr davom etishi mumkin.",
+            "Bu ham bo'lishi mumkin — ba'zi orzular boshqalarning kutganidan olingan. Buni tekshirishning yagona yo'li: bitta qadam qo'yib ko'rish."
+          ]
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Bir kunni bo'ysundirish",
+          "bandlar": [
+            "Ertalab kunning uchta asosiy ishini yozdim",
+            "Eng og'ir ishni birinchi qildim",
+            "Xayolga ketganimni sezib, o'rniga bitta qadam qo'ydim",
+            "Kechqurun ishlarimni yopdim",
+            "Ertaga qoldirgan ishimni ochiq yozib qo'ydim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Bugungi kuningizni qanchalik o'zingiz boshqardingiz?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Kun meni boshqardi",
+          "max_yorliq": "Men kunni boshqardim"
+        },
+        {
+          "turi": "taymer",
+          "daqiqa": 25,
+          "korsatma": "Yigirma besh daqiqa — faqat bitta ish. Telefon boshqa xonada. Bu ish «yigirma to'rt soat» ro'yxatingizdagi maqsadga tegishli bo'lsin. Vaqt tugagach, nima qilganingizni bir jumla bilan yozib qo'ying. Kitobning gapi: kim bir kunni bo'ysundirsa, butun hayotni bo'ysundiradi."
+        }
+      ]
+    }
+  ]
+}

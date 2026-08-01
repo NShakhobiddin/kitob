@@ -1,0 +1,299 @@
+{
+  "id": "xatolar",
+  "nomi": "Ahmoqning tajribasi-5: Odamlar qiladigan xatolar",
+  "muallif": "Mirzakarim Norbekov",
+  "kirish": "Muallifning eng kech kitoblaridan biri — u endi qattiq o'qituvchi emas, ko'proq yo'lda uchragan darvesh ohangida gapiradi. Kitob odam qiladigan asosiy xatolar haqida: uxlab yashash, olomonga qo'shilib ketish, ichki qullikka bo'ysunish va dangasalik bilan do'stlashib qolish. Muallif o'zining ikki yillik tajribasini — dangasalikka to'liq bo'ysunib ko'rish tajribasini — ochiq hikoya qiladi. Bu — kitobning kirish qismi va dastlabki ikki bobi asosidagi mag'iz.",
+  "bolimlar": [
+    {
+      "sarlavha": "Bu kitob qanday yozilgan",
+      "magiz": [
+        "Muallif kitob yozish texnologiyasini ochiq aytadi, chunki uni bilmasdan o'qish samarasiz. To'rt vosita bor va ular ataylab qo'llaniladi.",
+        "Birinchi vosita — sodda til. Og'ir ilmiy uslubda yozilgan kitobni ikki sahifadan keyin yopib, eng uzoq javonga qo'yasiz. Aforizmlar to'plami ham javonda changlanadi: hayotiy vaziyatga bog'lanmagan donolik ishlamaydi.",
+        "Ikkinchi vosita — hissiyot. Odatiy kun esda qolmaydi, karnaval va ta'qib esa umrbod esda qoladi. Shuning uchun kitob hazil, haqorat, latifa va keskin o'tishlarga to'la — ular axborotni xotiraga mixlaydi.",
+        "Uchinchi vosita — mavzudan mavzuga sakrash. Bir joyda tugatilmagan fikr boshqa bobda davom etadi. Bu qiziqishni ushlab turadi va o'quvchini o'zi o'ylashga majbur qiladi.",
+        "To'rtinchi vosita — takrorlash. Sayyoradagi axborot hajmi har bir necha oyda ikki barobar oshadi; miya endi bir marta aytilganini eslab qolmaydi. Shuning uchun asosiy fikrlar boshqa so'zlar bilan bir necha bor qaytariladi.",
+        "Darvesh haqidagi tasvir: u qo'rqinchli bo'sh ko'ylakka o'xshaydi — bog'ni oson o'ljadan himoya qiladi. Ochiq ongli odam esa eski shlyapa ortida tabassum qilayotgan bog'bonni ko'radi va shogird bo'lib qoladi.",
+        "Devor orqali o'tishni o'rgangan o'g'ri haqidagi masal: yillar o'tib u nihoyat o'rgandi, lekin ustoz «nega senga bu kerak edi?» deb so'raganda javob topolmadi. Muallifning xulosasi: moddiy natijaga erishgach, qalb yo'lini unutmang; nima uchun ketayotganingizni esda tuting."
+      ],
+      "tavsiyalar": [
+        "Kitobni o'qiyotganda muallifning sizni g'azablantirishga urinishi texnologiya ekanini eslang. G'azab kelganda to'xtang va o'zingizdan so'rang: bu menga nega tegdi?",
+        "«Tushundim» degan tuyg'uga ishonmang. Aynan shu tuyg'u yangi bilimni to'xtatadi.",
+        "O'qigan har bir muhim fikrni o'z hayotingizdagi aniq vaziyatga bog'lang — bog'lanmagan donolik javonda qoladi.",
+        "Boy bo'lganda ham, boylikni o'zingiz kambag'al bo'lganda o'ylagan yorug' g'oyalar uchun ishlating. O'zingizni oltin maqbaraga tiriklay ko'mmang."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Hozir sizni eng ko'p band qilgan maqsadni yozing. Keyin savolga javob bering: agar ertaga unga to'liq erishsangiz, undan keyin nima qilasiz? Devordan o'tishni o'rgangan o'g'ri bu savolga javob topa olmagan edi. Siz topa olasizmi?"
+        },
+        {
+          "turi": "test",
+          "savol": "Kitobni o'qiyotganingizda muallifning qo'pol gapi sizga tegdi. Bu nima demakchi?",
+          "variantlar": [
+            "Muallif tarbiyasiz — kitobni yopish kerak",
+            "U meni ushladi: shu so'z ichimda bor narsaga tegdi",
+            "Menga aloqasi yo'q, bu boshqalar haqida",
+            "Bu shunchaki uslub, e'tibor bermayman"
+          ],
+          "izohlar": [
+            "Bu eng oson javob va shuning uchun ham eng foydasiz. Kitob aynan shu reaksiyaga mo'ljallangan.",
+            "To'g'ri. Odam faqat ichida bor narsani o'ziga qabul qiladi. Bilmagan tilingizda haqoratlangan bo'lsangiz, xafa bo'lmasdingiz.",
+            "«Bu qo'shnim haqida» — eng keng tarqalgan mudofaa. U tekshirishga imkon bermaydi.",
+            "Uslub, ha, lekin unga befarq qolish ham bir usul — hissiyotdan qochish orqali axborotdan ham qochasiz."
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "O'qiganingizni hayotingizga qanchalik tatbiq qilyapsiz — bilib olish emas, qilib ko'rish darajasi?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Faqat o'qiyman",
+          "max_yorliq": "O'qiganimni qilaman"
+        }
+      ]
+    },
+    {
+      "sarlavha": "Uxlayotganlar va uyg'onganlar",
+      "magiz": [
+        "Muallifning statistikasi: odamlarning taxminan ikki foizigina fikrlash, tahlil qilish va chuqur narsalarni his qilish sovg'asini saqlab qoladi. Yangi narsa yaratish qobiliyati bundan ham kamroq odamda qoladi.",
+        "Uxlayotgan va uyg'ongan odam farqini muallif bolalar o'yini orqali tushuntiradi. Bolalar davra qurib o'ynaydi: mashinachalar, qo'g'irchoqlar, konfet qog'ozlari. Ular charchamaydi. Siz esa bir soatdan keyin turib ketishni xohlaysiz — sizda boshqa ishlar bor.",
+        "Endi tasavvur qiling: o'sha bolalar ulg'aydi, o'z bolalarini ko'rdi, lekin baribir o'sha o'yinni o'ynayapti. G'oyalar o'sha, sabablar o'sha, faqat oqibatlar endi haqiqiy. Uyg'ongan odam ana shu davradan asta uzoqlashadi.",
+        "Uyg'ongan odam odamlar daryosini qo'li bilan to'xtata olmasligini tushunadi. U o'z yo'lini topadi va yaqinlarini o'sha daryodan — goh tushuntirib, goh turtib, goh yoqasidan olib — sudrab chiqaradi.",
+        "Ko'rgan odam faqat yorug'likni emas, qorong'ilikni ham ko'radi. Bu — uyg'onishning narxi.",
+        "Kitobning eng amaliy qismi — savollar ro'yxati. Muallif qirq yillik tajribasidan aytadi: odamlarning aksariyati o'z ongini bir necha foizga ishlatadi, uxlaydi, yeydi, ishlaydi, ko'payadi va o'z kechinmalari ostida nima borligi bilan qiziqmaydi."
+      ],
+      "tavsiyalar": [
+        "Ushbu savollar ustida o'ylang: «to'g'ri» va «noto'g'ri» nima? «Yoqadi» va «yoqmaydi» nima? Go'zallik va xunuklik nima?",
+        "So'rang: qaror qabul qilayotganda men o'zim qaror qilyapmanmi yoki ichimda mendan yashiringan manba bormi?",
+        "Istaklaringiz ildizini tahlil qiling. Pulga, hokimiyatga, shuhratga bo'lgan chanqoq qayerdan keldi — o'zingizdanmi yoki sizga singdirilganmi?",
+        "Tug'ilgan joyingizni sevishingiz yoki yomon ko'rishingiz nimadan? Ishonchlaringiz daraxti qaysi urug'dan o'sgan?",
+        "Bu savollar og'ir tuyulsa — bu yaxshi belgi. Ezayotgan narsa, agar ustida ishlasangiz, quvonch manbaiga aylanadi."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Kitobning asosiy uy vazifasi. Quyidagi savollarga yozma javob bering, shoshilmasdan: 1) Men uchun «to'g'ri» nima? 2) Nima uchun aynan shunday deb o'ylayman? 3) Istaklarimning ildizi qayerda — o'zimdami yoki tashqaridanmi? 4) Men nimadan qo'rqaman va bu qo'rquv kimniki?"
+        },
+        {
+          "turi": "taymer",
+          "daqiqa": 15,
+          "korsatma": "Kuzatuvchi mashqi. O'n besh daqiqa odamlar orasida — bekatda, kafeda, ko'chada — o'tiring va shunchaki kuzating. Hech kimni baholamang. Faqat ko'ring: ular qayerga shoshyapti, yuzlarida nima bor, nima haqida gapiryapti. Kitobdagi savol: siz ham shu daryodamisiz yoki qirg'oqdamisiz?"
+        },
+        {
+          "turi": "test",
+          "savol": "Muallifga ko'ra, «uyg'ongan» odamning birinchi belgisi qaysi?",
+          "variantlar": [
+            "Ko'p kitob o'qigani va bilimi",
+            "Moddiy muvaffaqiyati",
+            "O'zining tanlovlari va istaklari ildizini so'roq qila boshlagani",
+            "Boshqalardan ajralib turishga intilishi"
+          ],
+          "izohlar": [
+            "Bilim uxlab yotgan odamda ham bo'ladi. Kitob bilimni emas, o'zini so'roq qilishni birinchi qo'yadi.",
+            "Moddiy muvaffaqiyat — bu poydevor, lekin uyg'onish belgisi emas. Kitobdagi Maykl Rouch misoli buni ko'rsatadi: u pul topdi va o'z yo'liga qaytdi.",
+            "To'g'ri. Uyg'onish «nega men aynan shunday o'ylayapman?» degan savoldan boshlanadi. Shu savolda Xudo o'zini birinchi marta ko'rsatadi, deydi muallif.",
+            "Ajralib turishga intilish — bu ham olomonga bog'liqlikning bir shakli, faqat teskarisi."
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Kunning necha foizini ongli yashaysiz — avtomatik emas, tanlab?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Deyarli avtomatik",
+          "max_yorliq": "Deyarli ongli"
+        }
+      ]
+    },
+    {
+      "sarlavha": "Nima uchun «normal» bo'lish xavfli",
+      "magiz": [
+        "Yuz yil oldin olimlar hisoblab chiqishgan: aholi shu tezlikda o'ssa, otlar soni shunchalik ko'payadiki, ularga yem yetishtirishga butun yer yuzi yetmaydi, shaharlar esa go'ngga to'ladi. Gazetalar dahshat sarlavhalari bilan chiqqan, hukumatlar sarosimaga tushgan.",
+        "Hisobga olinmagan yagona narsa — odamning yangi narsa o'ylab topish qobiliyati edi. Bugun o'sha ot ham, o'sha go'ng ham, o'sha bashoratlar ham yo'q. Muallifning savoli: bugungi qo'rqinchlaringiz o'sha ot go'ngidan nimasi bilan farq qiladi?",
+        "«Normal» — bu «hammaday». Lekin Yaratuvchi nusxa ko'chirmaydi: har bir odam takrorlanmas qilib yaratilgan. Atrofga o'xshab qolishga urinish — bu qimmatbaho olmosni nadoqqog'oz bilan ishqalab, xira toshga aylantirish.",
+        "Grafit va olmos — bir xil uglerod. Farqi: olmos million yillik bosim va ming darajali harorat ostida grafitdan hosil bo'ladi. Grafit chorak dollar turadi, «Pushti yulduz» olmosi 72 million dollarga sotilgan. Har kim o'zi tanlaydi: birovning qo'lidagi qalam bo'lib eskirishmi yoki bosim ostida olmosga aylanishmi.",
+        "Podadagi asosiy qoida — ajralib turmaslik. Aks holda o'zingnikilar yeb qo'yadi. Shuning uchun podada kamchilik tarqaladi, fazilat emas.",
+        "Ikkita tajriba. Birinchisi: yuzta bankani pastidan naycha bilan ulab, hammasiga bir xil suv quying, keyin bittasini to'ldiring — bir necha soniyada suv hammasiga tarqaladi va yana pastda qoladi. Seminardan kuch olib qaytasiz, bir necha kunda uni atrofdagilar yeb qo'yadi.",
+        "Ikkinchi tajriba: birinchi bankaga buloq suvi, qolganlariga botqoq suvi quying. Bir necha soatdan keyin yuzta bankada ham botqoq suvi bo'ladi. Naychalar qanchalik keng bo'lsa, aralashuv shunchalik tez. Jaholatli va ochko'z odamlar orasida qancha ko'p bo'lsangiz, shunchalik tez o'shanday bo'lasiz."
+      ],
+      "tavsiyalar": [
+        "«Normal» so'zini qaror mezoni sifatida ishlatishni to'xtating. U dangasalar uchun o'ylab topilgan mavhum tushuncha.",
+        "Muhitingizni tanlang. Kim bilan ko'p vaqt o'tkazayotganingizni bilib turing — bu sizning kelajagingiz.",
+        "Kuch beradigan odamlar bilan aloqani ataylab ko'paytiring, kuchni oladiganlar bilan naychani toraytiring.",
+        "Pastga dumalash osonroq, lekin pastda jar bo'lishi mumkin. Avval to'xtang, keyin qadam-baqadam yuqoriga chiqing.",
+        "Ichingizdagi eng yaxshi xususiyatlarni — Yaratuvchi bergan ilohiy chiziqlarni — izlang va rivojlantiring. Boshqalarga o'xshash bo'lishga urinmang."
+      ],
+      "mashqlar": [
+        {
+          "turi": "checklist",
+          "sarlavha": "Muhit auditi — atrofingizni tekshiring",
+          "bandlar": [
+            "Bugun eng ko'p vaqt o'tkazgan odamlarim kim ekanini yozib chiqdim",
+            "Ularning har biri menga kuch beradimi yoki oladimi — belgiladim",
+            "Kuch oladigan aloqani bugun qisqartirdim",
+            "Kuch beradigan bitta odam bilan aloqaga chiqdim",
+            "Bugun «hamma shunday qiladi» degan sababga tayanib qaror qabul qilmadim"
+          ]
+        },
+        {
+          "turi": "test",
+          "savol": "Seminardan yoki yaxshi kitobdan kuch olib qaytdingiz, lekin bir necha kunda hammasi so'nib qoldi. Kitobga ko'ra sabab nima?",
+          "variantlar": [
+            "Bilim yaxshi emas edi",
+            "Irodam kuchsiz",
+            "Muhit — atrofdagilar bilan «naycha» orqali muvozanatga keldingiz",
+            "Bu normal, hech narsa qilib bo'lmaydi"
+          ],
+          "izohlar": [
+            "Bilim aybdor emas. Yuzta bankaning tajribasida suv sifati emas, ulanish hal qiladi.",
+            "Iroda muhim, lekin u yolg'iz butun muhitga qarshi tura olmaydi. Muallif buni ochiq aytadi.",
+            "To'g'ri. Bu kitobdagi ikkita bankali tajribaning aynan ma'nosi. Yechim — irodani zo'riqtirish emas, naychalarni toraytirish va manbani ko'paytirish.",
+            "Aksincha — bu tuzatiladigan narsa. Faqat irodadan emas, muhitdan boshlash kerak."
+          ]
+        },
+        {
+          "turi": "jurnal",
+          "savol": "O'zingizni grafit va olmos oralig'ida ko'ring. Bugun sizni «ishqalab, xira qilayotgan» narsalar nima? Va aksincha — sizga bosim berib, chiniqtirayotgan narsalar nima? Ikkala ro'yxatni yozing va oxirida bitta qaror qabul qiling."
+        },
+        {
+          "turi": "slider",
+          "savol": "Muhitingiz sizni yuqoriga tortyaptimi yoki pastga?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Pastga tortadi",
+          "max_yorliq": "Yuqoriga tortadi"
+        }
+      ]
+    },
+    {
+      "sarlavha": "Nafs — ichkaridagi qullik",
+      "magiz": [
+        "Sharqda «nafs» degan keng tushuncha bor. Muallif G'arbda unga sinonim topa olmaganini aytadi va uni obraz orqali tushuntiradi.",
+        "Nafsni tayyorlash uchun odam bo'yidagi bo'sh qozon kerak. Unga jaholat, hasad, ochko'zlik, to'ymaslik, uyatsizlik, pastkashlik, manmanlik, kek saqlash, yolg'onchilik solinadi — bu birinchi tomchi. Keyin cheksiz ochko'zlik, har qanday yo'l bilan shuhratga intilish, oyoq osti qilingan taqdirlar ustidan hokimiyatga chiqish — ikkinchi tomchi.",
+        "Qozon ostiga o'zidan, Xudodan va insoniyatdan umidini uzgan odamlarning kechinmalaridan yoqilgan o'tin qo'yiladi. Aralashma Odam Atodan beri qaynatiladi.",
+        "Nafs hamma narsani teshib o'tadi: tana va aql, fikr va tuyg'u, borliqning eng pasti va eng yuqorisi. U insoniyatni millatlarga, sayyorani davlatlarga, davlatni shaharlarga, shaharni uylarga bo'ladi. Va har bir uyda o'z qullarini saqlaydi.",
+        "Nafsning bir zarrasi bir qorindan chiqqan bolalarni murosasiz dushmanga aylantirishi mumkin. Uning yengil hidi eng mustahkam oilani ham tarqatib yuboradi.",
+        "Nafs tekkan narsasini buzadi: erkin tug'ilganni qulga, buyukni tuban, shaharni vayrona, jannatni cho'l, haqiqatni yolg'on qiladi.",
+        "Unga qarshilikdan boshlanadigan narsa — ma'naviy kuch. Har bir odamda, millatda, sivilizatsiyada bu ariqcha shu qarshilikdan boshlanadi va ariqcha-ariqcha qo'shilib buyuk daryoga aylanadi."
+      ],
+      "tavsiyalar": [
+        "Nafsning sizdagi aniq shaklini toping. U hammada boshqacha: kimdadir hasad, kimdadir manmanlik, kimdadir to'ymaslik.",
+        "Uni yo'q qilishga urinmang — avval tanib oling. Nomlanmagan narsa bilan kurashib bo'lmaydi.",
+        "Pastga dumalayotganingizni sezsangiz, avval to'xtash kerak. Keyin qadam-baqadam yuqoriga. Bu og'irroq, lekin boshqa yo'l yo'q.",
+        "Har bir kichik qarshilik — ariqcha. Katta o'zgarish bir kunda kelmaydi, u shu ariqchalardan yig'iladi.",
+        "Cho'qqiga chiqqaningizda pastga qarab afsuslanmang — atrofdagi yangi cho'qqilarga qarang. Yo'l shundan davom etadi."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "O'z «qozon»ingizni yozing. Ichingizda nafsning qaysi tarkibiy qismlari kuchli: hasadmi, ochko'zlikmi, manmanlikmi, kek saqlashmi, to'ymaslikmi? Uyalmang — bu ro'yxatni hech kim ko'rmaydi. Har birining yoniga yozing: u oxirgi marta qachon va qanday vaziyatda ko'rindi?"
+        },
+        {
+          "turi": "test",
+          "savol": "Nafsga qarshilik qanday boshlanadi?",
+          "variantlar": [
+            "Uni butunlay yo'q qilish bilan",
+            "Uni tanib olish va har kuni kichik qarshilik ko'rsatish bilan",
+            "Undan qochish — jamiyatdan uzoqlashish bilan",
+            "Boshqalarda uni ko'rsatib berish bilan"
+          ],
+          "izohlar": [
+            "Butunlay yo'q qilish — mumkin emas va zarur ham emas. Muallif inson tabiatidagi hech narsani bejiz emas deydi.",
+            "To'g'ri. Kitobdagi obraz: ariqcha-ariqcha qo'shilib daryo bo'ladi. Har kungi kichik qarshilik — o'sha ariqcha.",
+            "Qochish yechim emas. Nafs sizning ichingizda, u sizni tog'ga ham ergashadi.",
+            "Bu eng oson va eng foydasiz yo'l — boshqadagi kamchilikni ko'rish o'zingiznikini ko'rmaslikning eng qulay usuli."
+          ]
+        },
+        {
+          "turi": "taymer",
+          "daqiqa": 10,
+          "korsatma": "To'xtash mashqi. Kitobdagi tavsiya: jar tomon dumalayotganingizni sezsangiz, avval to'xtash kerak. O'n daqiqa hech narsa qilmang. Rejalashtirmang, hal qilmang, telefonga qaramang. Faqat to'xtang. Bu sizga qiyin tuyulsa — demak, tezlik haqiqatan yuqori bo'lgan."
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Bugungi kichik qarshiliklar",
+          "bandlar": [
+            "Hasad kelganini sezdim va uni nomladim",
+            "Bir marta ochko'zligimga yon bermadim",
+            "Kimnidir kamsitish istagidan tiyildim",
+            "Kek saqlash o'rniga kechirishni tanladim",
+            "Bugun bittagina bo'lsa ham beg'araz yaxshilik qildim"
+          ]
+        }
+      ]
+    },
+    {
+      "sarlavha": "Dangasalik taxti",
+      "magiz": [
+        "Ko'pchilik dangasalikni passiv narsa deb o'ylaydi: yotib, cho'zilib dam olasan, keyin yana tetiksan. Aslida u o'z qurbonidan ancha tetikroq: u sizning fikrlaringizni fikrlaydi va sizning sezgi a'zolaringiz bilan sezadi.",
+        "Dangasalik — bir vaqtning o'zida buyuk narsa: u talab yaratadi, shuning uchun ixtirolarning ko'pi undan tug'iladi.",
+        "Tunggi osmonda yulduzlarga qaraymiz, ular orasidagi qorong'ilikka emas. Nima ko'proq — yulduzlarmi yoki bo'shliqmi? Haqiqiy ijodiy faollik ham kosmosdagi yulduzlar kabi kam.",
+        "Muallifning shaxsiy tajribasi. Qirq yillik maktabining diplom ishida «dangasalik» mavzusida bir necha bor yiqildi. Keyin qaror qildi: uch oy dangasalikka to'liq bo'ysunib yashash. Mashqlarni bekor qildi, kitob, film, safar — hammasini to'xtatdi, telefonni o'chirdi.",
+        "Uch oyda hech narsa o'zgarmadi, faqat olti kilogramm vazn qo'shildi. U muddatni yarim yilga, keyin bir yilga uzaytirdi. Birinchi yil oxirida vazn 100 kilogrammga yaqinlashdi. Miya esa aytardi: «Mana baxt shu — iningda o'tir, qolgani o'zi joyiga tushadi».",
+        "Ikkinchi yil oxirida kiyim o'lchami 50 dan 54 ga, vazn 78 dan 104 ga chiqdi. Oyoqlar shishardi, hojatxonaga borish marafonga aylandi, uy atrofida bir aylanish Everestga kislorodsiz chiqishdek tuyulardi. Shifoxonada beshta dori — umrbod ichish uchun yozib berildi. Keyinroq vazn 114 kilogrammga yetdi.",
+        "Doira yopiq: ortiqcha vazn odamni dangasa qiladi, dangasalik esa vaznni oshiradi.",
+        "Muallifning xulosasi: to'g'ridan-to'g'ri hujum ishlamaydi. «Har qanday to'g'ridan-to'g'ri bostirish boshlang'ich nuqtaga qaytish bilan tugaydi». U dangasalikni xushomad bilan tutdi: «Nimani xohlaysan, malikam? Hammasini qilaman» — va shu payt qochish rejasini tayyorladi.",
+        "Reja — piyoda yurish. 150 kilometrlik marshrut. Birinchi kuni to'xtash oralig'i o'n qadamgacha qisqardi; kechqurun u yotgan holida uyquga ketdi va ertalab shu holatda uyg'ondi. «Qanday o'lmaganimga hayronman» — birinchi fikri shu bo'lgan.",
+        "Ettinchi kun hal qiluvchi bo'ldi. Guruhda Arkusha ismli odam bor edi — shifokorlar xatosi tufayli deyarli falajlangan, hassa bilan yuradigan. Muallif uning yonida yurdi va dam olishni taklif qilmoqchi bo'lganda vijdoni tutdi: «U bir oyoq va bir qo'l bilan yuryapti, sen ikkovi bilan». Ular o'n besh kilometrlik yo'lni to'xtamasdan bosib o'tdi va guruhdan bir necha kilometr uzoqlashdi.",
+        "Bir yildan keyin Arkusha nega to'xtamaganini tushuntirdi: «Agar o'tirsam, charchoqdan boshqa turolmasdim — butun og'irlik bir oyoqda».",
+        "Muallifning yakuni: birovga qo'rquv, birovga uyat yordam beradi. Har kimning o'z shaxsiy muzasi bor, uni topish kerak.",
+        "U dangasalikni yenggan deb aytmaydi. «Hujum qilmaslik shartnomasi» tuzganini aytadi: chegara belgilangan, ba'zan u buzadi, ba'zan muallif. Lekin yomon tinchlik yaxshi urushdan afzal.",
+        "Dangasalik faqat zarar emas. Charchoq hissi bo'lmasa, sport zalida mushaklar uzilib ketardi. Tabiat bergan har bir narsa o'z vazifasiga xizmat qiladi — yuz yil oldin olimlar odam tanasidagi 200 ga yaqin a'zoni «keraksiz» deb ro'yxatga olishgan edi."
+      ],
+      "tavsiyalar": [
+        "Dangasalik bilan to'g'ridan-to'g'ri kurashmang — u sizdan kuchli, chunki u sizsiz. Uni chetlab o'ting: o'zingizni ortga qaytish imkoni yo'q sharoitga qo'ying.",
+        "Muallifning usuli: kelishuv qiling. «Xohlaganingni qilaman, faqat menga bitta kichkina yaxshilik qil» — va shu vaqtda haqiqiy qadamni tayyorlang.",
+        "Bir necha oy harakatsiz hayot — bu allaqachon tuzoq. Kapkan yog'langan, ovozsiz yopiladi; yopilgandan keyin chiqish ancha qiyin.",
+        "O'zingizga «shaxsiy muza» toping — qo'rquvmi, uyatmi, g'ururmi. Sizni harakatga soladigan aniq tuyg'uni bilib oling va undan foydalaning.",
+        "Dangasalikni butunlay yo'q qilmang — u himoya klapani. Unga vaqt ajrating, lekin chegarasini belgilang.",
+        "O'zingizni sizdan og'irroq sharoitdagi odam yonida sinab ko'ring. Arkusha effekti: yoningizdagi odam to'xtamasa, siz ham to'xtamaysiz."
+      ],
+      "mashqlar": [
+        {
+          "turi": "test",
+          "savol": "Dangasalik sizni to'xtatmoqchi bo'lganda, kitobga ko'ra eng samarali javob qaysi?",
+          "variantlar": [
+            "Iroda bilan to'g'ridan-to'g'ri bostirish",
+            "Ortga qaytish imkoni yo'q sharoitga o'zingizni qo'yish",
+            "Ertaga boshlashga kelishish",
+            "Uni butunlay yo'q qilishga urinish"
+          ],
+          "izohlar": [
+            "Muallif ikki yil shuni sinab ko'rdi. Natija: «Har qanday to'g'ridan-to'g'ri bostirish boshlang'ich nuqtaga qaytish bilan tugaydi».",
+            "To'g'ri. Muallif aynan shuni qildi — tog'da yarim yo'lda turib, orqaga qaytish oldinga borishdan qiyinroq ekanini ko'rdi va yurishdan boshqa chorasi qolmadi.",
+            "«Ertaga» — dangasalikning eng sevimli so'zi. U hech qachon kelmaydi.",
+            "Charchoq va dangasalik bejiz berilmagan. Ularsiz odam ortiqcha zo'riqishdan sinadi."
+          ]
+        },
+        {
+          "turi": "taymer",
+          "daqiqa": 20,
+          "korsatma": "Arkusha mashqi. Yigirma daqiqa to'xtamasdan yuring — tashqarida, yaxshisi tekis bo'lmagan yo'lda. Qoida bitta: to'xtamaslik. Charchoq kelganda o'zingizga savol bering: «Meni hozir nima to'xtatmoqchi — tana yoki dangasalik?» Kitobdagi hikoyada bir oyoqda yurgan odam butun guruhni ortda qoldirgan edi."
+        },
+        {
+          "turi": "jurnal",
+          "savol": "Dangasalik bilan «hujum qilmaslik shartnomasi» tuzing va uni yozing. Chegarani aniq belgilang: qaysi vaqt uniki, qaysi vaqt siziki. Keyin yozing: sizning shaxsiy muzangiz nima — qo'rquvmi, uyatmi, g'ururmi, sevgimi? Sizni haqiqatan o'rnidan turg'izadigan tuyg'uni toping."
+        },
+        {
+          "turi": "slider",
+          "savol": "So'nggi bir haftada dangasalik bilan hisob qanday? 1 — u butunlay boshqardi, 10 — chegarani men ushladim.",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "U boshqardi",
+          "max_yorliq": "Men ushladim"
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Kapkanning belgilari — o'zingizda tekshiring",
+          "bandlar": [
+            "Kundalik jismoniy yuklamani tashlab qo'yganman",
+            "Kitob, film, yangi bilim — hammasi «keyinroq»ga surilgan",
+            "Uydan chiqmaslik menga tobora yoqib boryapti",
+            "Vazn yoki umumiy holat sezilarli o'zgargan",
+            "«Bu yerda baxt» degan ichki ovoz meni inimda ushlab turibdi"
+          ]
+        }
+      ]
+    }
+  ]
+}

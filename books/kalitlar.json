@@ -1,0 +1,501 @@
+{
+  "id": "kalitlar",
+  "nomi": "Ahmoqning tajribasi-2: O'zingizga kalitlar",
+  "muallif": "Mirzakarim Norbekov",
+  "kirish": "Birinchi kitob sog'liq haqida bo'lsa, bu kitob butun hayot haqida. Muallif sufiy an'anasidagi «hayotning 495 tomoni» tushunchasidan kelib chiqadi: tana, aql, ruh, oila, ish, dam olish, tashqi ko'rinish — bularning biri kasal bo'lsa, qolganlari ham to'liq ishlamaydi. Kitob to'qqiz «tepki»dan iborat va har birining oxirida uy vazifasi bor. Muallif ogohlantiradi: vazifalarni bajarmasdan keyingi bobga o'tish taqiqlanadi.",
+  "bolimlar": [
+    {
+      "sarlavha": "Asosiy kalit: bilish emas, harakat",
+      "magiz": [
+        "Muallifning butun tizimi bitta so'zga tayanadi — majburlash. Sevimli insoningiz hozir avtobusda ketayotgan bo'lsa, siz esa yumshoq kresloda o'tirgan bo'lsangiz, uchrashish ehtimoli nolga teng. Tog' Muhammadga kelmasa, Muhammad tog'ni kelishga majbur qiladi.",
+        "Baxt ham, muvaffaqiyat ham faqat o'qib o'rganilsa — zerikarli narsa. Ular haqida bilish va ularni yashash — ikki boshqa narsa.",
+        "Sufiy an'anasida odam hayotining 495 tomoni bor: aql, tana, oila, ovqat, jinsiylik, ota-onalik, sog'liq, uy, ish. Ulardan biri yo'q yoki kasal bo'lsa, odamni umr bo'yi qoniqmaslik hissi ta'qib qiladi.",
+        "Uch tashqi ustoz: millatingiz va uning an'analari, jinsingiz tabiati, dinigiz. Bularning yoshi ming yillar bilan o'lchanadi va ular millionlab odamlarning tajribasini o'ziga singdirgan. To'rtinchi, ichki ustoz — sezgi.",
+        "To'rt erkinlik: moddiy, aqliy, ruhiy va ma'naviy. Ular ketma-ket egallanadi. Moddiy erkinlik eng osoni va eng birinchisi — poydevor. Poydevorsiz bino qurib bo'lmaydi.",
+        "Talabalar tajribasi: eng yaxshi talabalarga yiliga 50 ming yevro grant taklif qilingan, shart — bir oydan keyin kelib olish. Har safar zaldagilarning atigi 10 foizi qaytib kelgan. Hech narsa qilish shart emas edi — shunchaki kelish kerak edi.",
+        "Inson doim inertlikka, hech narsa qilmaslikka intiladi. «Men dangasaman» deb tan olish — kuchli odamlarning ishi. Zaiflik esa doim yolg'on va o'zini aldash bilan qoplanadi: «menda shunday fikr bor», «men haqman, boshqalar noto'g'ri»."
+      ],
+      "tavsiyalar": [
+        "Kundalik boshlang — qog'ozdami yoki telefondami, farqi yo'q. Barcha o'zgarishlar va vazifalar shu yerda qayd etiladi.",
+        "Eng maxfiy orzularingizni eslang va ularni o'nga ko'paytiring. Keyin qanday amalga oshirish mumkinligini o'ylay boshlang.",
+        "Hayotingizning aynan qaysi tomonida boshqalardan yaxshiroq ekaningizni toping. O'sha yerdagi qarash va ko'nikmalaringizni boshqa, zaif tomonga ko'chiring.",
+        "Sizga tashqaridan singdirilgan qadriyatlarni izlang: siz aslida nima uchun kurashyapsiz — o'zingiz tanlaganingiz uchunmi yoki televizor va atrofdagilar aytgani uchunmi?",
+        "Tayyor ko'rsatma izlashni to'xtating. Fikrlash san'ati uch yuz jild tavsiyadan ishonchliroq tayanchdir."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Orzularingiz ro'yxatini yozing — keyin har birini o'nga ko'paytiring. Uyalmang, kim ko'rardi. Yozib bo'lgach, bittasini tanlang va ostiga yozing: buni amalga oshirish uchun bugun, ertaga, shu hafta aynan nima qilaman?"
+        },
+        {
+          "turi": "test",
+          "savol": "Yangi ish yoki o'zgarishni boshlashdan oldin ichingizdan qaysi ovoz chiqadi?",
+          "variantlar": [
+            "Menda imkoniyat yo'q — pul, vaqt, sharoit yetishmaydi",
+            "Avval yaxshilab tayyorlanay, keyin boshlayman",
+            "Boshqalar ham qilmayapti-ku, demak bunga hojat yo'q",
+            "Nima qilishim mumkinligini bugundan qidiraman"
+          ],
+          "izohlar": [
+            "«Agar menda bo'lganda edi...» — bu Janob Qulaylikning eng sevimli jumlasi. U hayotingizni har safar keyingi safarga suradi.",
+            "Grant taklif qilingan talabalarning 90 foizi aynan shu javob bilan yo'q bo'lgan. Tayyorgarlik cheksiz davom etishi mumkin — u harakatning o'rnini bosadi.",
+            "Olomonga qarab qaror qabul qilish eng oson yo'l. Muallifning javobi: olomon minglab yildan beri o'zgarmagan, undan yo'l ko'rsatkichi chiqmaydi.",
+            "Yagona ishlaydigan retsept shu: o'ylash va harakat qilish. Ikkalasi birga."
+          ]
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "To'rt ustozdan foydalanish — har kuni bittasiga murojaat qiling",
+          "bandlar": [
+            "Millatim an'analaridan bugun bitta narsani eslab, qo'lladim",
+            "O'z jinsim tabiatidan eng yaxshisini oldim, boshqasiga taqlid qilmadim",
+            "Dinim yoki e'tiqodimdagi bitta ko'rsatmani amalda bajardim",
+            "Qaror qabul qilishdan oldin sezgimni tingladim",
+            "Bugungi bitta muammoni «bu vaziyatda ustozim nima qilardi?» savoli bilan hal qildim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "To'rt erkinlikdan qaysi darajadasiz? 1 — kunlik ehtiyoj uchun kurashaman, 10 — moddiy, aqliy va ruhiy jihatdan erkin his qilaman.",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Ehtiyoj qulligi",
+          "max_yorliq": "Erkinlik"
+        }
+      ]
+    },
+    {
+      "sarlavha": "Ovqat: kayfiyat va kuchning manbai",
+      "magiz": [
+        "Hamma uchun bir xil ishlaydigan retsept tabiatda yo'q. Bir odamga foyda beradigan taom boshqasiga teskari ta'sir qiladi. Mol go'shti birovni uyquga soladi, ikkinchisini tetiklashtiradi.",
+        "Sharq tibbiyotidagi tushuncha: har bir taomning tabiati bor — sovuq, issiq, nam yoki quruq. Sizning tabiatingizga mos taom qo'shimcha faollik va ish qobiliyati beradi.",
+        "Bir xil taom kunning turli vaqtida qarama-qarshi ta'sir ko'rsatishi mumkin. Olov endi yonganda ustiga bel bilan tuproq tashlasangiz nima bo'ladi? Ovqat bilan ham xuddi shunday.",
+        "Mos kelmaydigan mahsulotlar uch xil: go'sht bilan sut (reaksiya tezligi pasayadi), tez hazm bo'ladigan bilan sekin hazm bo'ladigan (bo'tqa go'sht ustida achiy boshlaydi), butunlay boshqa ferment talab qiladiganlar. Ular orasida kamida ikki soat bo'lishi kerak.",
+        "Mevani tushdan oldin yeng. Olma yigirma daqiqada hazm bo'ladi, og'ir taom ustiga tushsa esa bir necha soat navbat kutib turadi va aynib boshlaydi.",
+        "To'yganlik signali oshqozondan miyaga yigirma daqiqada boradi. Shoshib yesangiz, ikki-uch barobar ortiqcha yeb qo'yasiz.",
+        "Mikroelementlar. Ko'p bolali onalar tengdoshlaridan keskin farq qiladi — homiladorlikda organizm yetishmayotgan moddalarni qidirishga majbur bo'ladi va bu yoshartiradi. Yillar davomida bir xil ovqat yeyish bu sezgirlikni o'ldiradi."
+      ],
+      "tavsiyalar": [
+        "Uch oy davomida kundalik yuriting: qaysi ovqat sizni asabiylashtiradi, qaysi biri kuch beradi, qaysi biri uyquga soladi. Ovqatdan oldin va keyin holatingizni yuz balllik shkalada yozing.",
+        "Ratsioningizni kengaytiring. Haftada ikki kun aholisi yuz millionlardan oshgan xalqlar oshxonasini — hind, xitoy taomlarini sinab ko'ring. Restoran imkoni bo'lmasa, uyda pishirishni o'rganing.",
+        "Sekin yeng, har luqmani ta'mini his qilib chaynang. Uch foyda: ko'proq zavq, tezroq to'yish, ortiqcha yemaslik.",
+        "Har qanday parhez va tizimni ko'r-ko'rona qabul qilmang — o'zingizda sinab ko'ring va natijani yozib boring.",
+        "Ertalab och qoringa 150-200 gramm issiq suv iching. Sovuq suv spazm beradi, iliq suv esa ko'ngil aynitadi — suv yoqimli issiq bo'lishi kerak.",
+        "Kuch beradigan mahsulotlar ro'yxatini tuzing va uni ko'z oldingizda saqlang."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Bugungi ovqat kundaligini yozing. Namuna: «Ertalab, kayfiyat 90%, nima yedim, keyin kayfiyat 110%, tanamda nima o'zgardi». Kamida bitta taomni shu tarzda kuzating. Uch oydan keyin qonuniyat o'zi ko'rinadi."
+        },
+        {
+          "turi": "slider",
+          "savol": "Bugungi asosiy taomdan keyin holatingiz qanday o'zgardi?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Kuchimni oldi",
+          "max_yorliq": "Kuch berdi"
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Ovqat bo'yicha bugungi vazifalar",
+          "bandlar": [
+            "Sekin, chaynab, telefonsiz va gazetasiz yedim",
+            "Mevani og'ir taomdan oldin yedim",
+            "Mos kelmaydigan mahsulotlarni aralashtirmadim",
+            "Ertalab och qoringa bir stakan issiq suv ichdim",
+            "Bugun avval yemagan bitta yangi taomni sinab ko'rdim",
+            "Ovqatdan oldingi va keyingi holatimni kundalikka yozdim"
+          ]
+        },
+        {
+          "turi": "test",
+          "savol": "Muallifga ko'ra, ovqatlanish bo'yicha eng to'g'ri yondashuv qaysi?",
+          "variantlar": [
+            "Mashhur parhezni topib, unga qat'iy amal qilish",
+            "O'z organizmingizni kuzatib, o'zingizga mos ratsionni topish",
+            "Faqat milliy taomlar bilan cheklanish",
+            "Iloji boricha kam ovqat yeyish"
+          ],
+          "izohlar": [
+            "Ko'r-ko'rona amal qilish xavfli: birovga foyda bergan narsa sizga zarar berishi mumkin. Muallif buni qat'iy takrorlaydi.",
+            "To'g'ri. Umumiy retsept tabiatda yo'q. Kuzatish, sinash, yozib borish — yagona ishonchli yo'l.",
+            "Milliy oshxonani sevish kerak, lekin haftada ikki kun boshqa xalqlar taomiga ochiq bo'ling — ratsion kengaymasa, mikroelementlar yetishmaydi.",
+            "Gap miqdorda emas, moslikda. Ortiqcha yemaslik muhim, lekin och qolish yechim emas."
+          ]
+        }
+      ]
+    },
+    {
+      "sarlavha": "Tana: 24 yoshdan keyingi kurash",
+      "magiz": [
+        "24 yoshgacha tetiklik va optimizmni tana o'zi beradi — gormonal fon yuqori. 24 yoshdan keyin jarayon teskari aylanadi: endi tana kayfiyatni pasaytiradi, va uni aql, iroda va ruh majburlashi kerak.",
+        "Qarilik bir kunda kelmaydi. U 24 yoshdan boshlanadi va sekin o'sadi. Uni ichingizdan izlang: 18 yoshli o'zingiz bilan bugungi o'zingiz orasida aynan nima o'zgardi?",
+        "Kitobdagi eng kuchli hikoya: tizza kosasi yo'q, birinchi guruh nogironi, 100 kilogramm ayol sport zaliga o'zi kira olmasdi — uni odamlar olib kirardi. Ikki yarim yil zalning bir burchagida bir-ikki harakat qilib, kuchsizlikdan yiqilardi. Keyinchalik ekstremal bodibilding bo'yicha jahon chempioni bo'ldi va o'z biznesini ochdi. Uni tanasi emas, aqli qutqargan: aql orqali iroda va ruhni ishga solgan.",
+        "Sport — bu faqat mushak emas. Sport «yuz marta yiqilib, yuz marta turish» ko'nikmasini beradi. Oddiy odam birinchi to'siqda yiqilib yig'laydi; shu ko'nikmani mashq qilgan odam shunchaki turadi, kiyimini qoqadi va davom etadi.",
+        "Uch manba kuch ishlab chiqaradi yoki uni yutadi: tana, aql, ruh. Har biri yo kuch beradi, yo dotatsiyada yashaydi.",
+        "Muallifning laboratoriya tajribalari: to'shakni ikki haftada bir marta issiq bug' bilan tozalash tetiklikni ~28 foizga, ho'l sochiq bilan ishqalanish ~70 foizga oshirgan. Ikkala guruh ham tajriba mavzusidan bexabar edi.",
+        "O'pka hajmi 24 yoshdan keyin kamaya boradi: 50 yoshda ikki barobar, 60 yoshda uch barobar. Bu birinchi navbatda xotira, fikrlash tezligi va kayfiyatda aks etadi."
+      ],
+      "tavsiyalar": [
+        "Haftada taxminan 10 soat tanangiz bilan shug'ullaning. Tur muhim emas — yugurish, gimnastika, yoga, sigun, suzish. Muhimi muntazamlik.",
+        "Birinchi 5-10 kun mashqqa borishdan oldin ertalabki fikrlaringizni kuzating: sizni aynan nima to'xtatmoqchi bo'ladi? Dangasalikning qiyofasini va dalillarini eslab qoling.",
+        "Natija kutmang: sifat o'zgarishi taxminan uch oydan keyin boshlanadi. Birinchi mashg'ulotlar foyda bermaydi — ular yo'lni ochadi.",
+        "Faollikni oshiring, lekin uyqu hisobidan emas. 6-8 soat uyqu — eng kam me'yor.",
+        "Har kuni 30-40 daqiqa toza havoda yuring, ayniqsa aqliy mehnat qilsangiz.",
+        "Suv muolajalarini sinab ko'ring: qaysi biri — iliq, issiq, muzdek yoki kontrast dush — sizga tetiklik beradi? Ishqalanishdan keyin krem ishlating.",
+        "To'shak jihozlarini ikki haftada bir marta issiq bug' bilan dazmollang."
+      ],
+      "mashqlar": [
+        {
+          "turi": "taymer",
+          "daqiqa": 5,
+          "korsatma": "Kitobdagi «pul bosadigan dastgoh» mashqi. Ikkala qo'lni yon tomondan boshdan yuqoriga ko'taring, keyin har birini 45 daraja pastga tushiring. Kaftni musht qiling, bosh barmoqni polga qarating. Besh daqiqa shu holatda turing. Qo'lni ushlab turadigan tuyg'uni eslab qoling — muallifga ko'ra sog'liq, muvaffaqiyat va yaratuvchanlik aynan shu tuyg'udan tug'iladi. Qo'lni tushirishga undaydigan tuyg'u esa kasallik, mag'lubiyat va xafagarchilikning manbai."
+        },
+        {
+          "turi": "taymer",
+          "daqiqa": 5,
+          "korsatma": "Nafas mashqi — «nafasni cho'zish». Ochiq deraza oldida yoki toza havoda tik turing. Qo'llarni yon tomondan yuqoriga ko'tarib, sakkizgacha sanaguncha nafas oling. Bir zum ushlab turing, keyin erkin nafas chiqaring va qo'llarni tushiring. Keyingi safar o'ngacha, keyin o'n ikkigacha, o'n to'rtgacha — shu tarzda besh-olti marta. Sanoq tezligi doim bir xil bo'lsin."
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Tana uchun haftalik minimum",
+          "bandlar": [
+            "Bu hafta kamida 10 soat jismoniy mashq qildim",
+            "Har kuni 30-40 daqiqa toza havoda yurdim",
+            "Ertalab ho'l sochiq bilan ishqalandim yoki dush qabul qildim",
+            "Nafas mashqlarini bajardim",
+            "To'shak jihozlarini bug' bilan tozaladim",
+            "Kamida 6-8 soat uxladim",
+            "Quyosh yoki havo vannasini oldim"
+          ]
+        },
+        {
+          "turi": "jurnal",
+          "savol": "18 yoshli o'zingizni eslang. O'sha odam bilan bugungi o'zingiz orasidagi farqni yozing: nimadan zavqlanardingiz, nimalarga vaqtingiz yetardi, tanangiz qanday edi? Endi yozing: shu farqning qaysi qismi haqiqatan yosh, qaysi qismi shunchaki dangasalik?"
+        },
+        {
+          "turi": "slider",
+          "savol": "Hozir tanangiz sizga kuch beryaptimi yoki kuchingizni olyaptimi?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Kuchimni olyapti",
+          "max_yorliq": "Kuch beryapti"
+        }
+      ]
+    },
+    {
+      "sarlavha": "Tashqi ko'rinish: ko'zguga rostini ayting",
+      "magiz": [
+        "Tashqi ko'rinishingiz — o'zingizga va atrofdagilarga munosabatingizning moddiylashgan shakli. Kiyim, soch, hid, poyabzal — bularning hammasi bir soat ichida o'zgaradi, lekin hayotingizni butunlay o'zgartirishi mumkin.",
+        "Muhim tamoyil: o'zingizni chetdan ko'ra olmaysiz. Qo'y o'zidan kabob qila olmaganidek, odam ham o'zini eng yaxshi ko'rinishda kiyintira olmaydi. Sizga tashqi ko'z — maslahatchi kerak, va u sizning didingiz bilan emas, o'z didi bilan qaraydigan odam bo'lishi kerak.",
+        "Maslahatchini tanlashda uchta shart: u sizga yoqishi, siz unga yoqishingiz va u qanday maqsad uchun tanlayotganini aniq bilishi kerak. Uchrashuv uchunmi, ish muzokarasi uchunmi — bular butunlay boshqa kiyim.",
+        "Qimmat degani yaxshi degani emas. Qimmatlik va did — ikki boshqa narsa. Odamlar kiyimingizning narxiga emas, sizga yarashishiga qaraydi.",
+        "Kiyim xotiraga ega. U sizning holatlaringizni — quvonch, g'azab, tushkunlikni yig'adi. Vaqt o'tib toza va butun kiyim ham kayfiyatingizni pasaytira boshlaydi. Shuning uchun garderobni yangilab turish kerak.",
+        "Tashqi atributlarga — uzuk, tatuirovka, o'ta ko'zga tashlanadigan belgilarga ehtiyoj ko'pincha ichki ishonchsizlikni qoplaydi. Muallifning kuzatuvi: jangovar sport chempionatlarida yorqin tashqi atributli sportchilar birinchi bosqichlardayoq chiqib ketadi, finalga esa tashqi tomondan eng oddiy ko'rinadiganlar chiqadi.",
+        "Eng yaxshi pardoz — tabassum. U yigirma yoshni olib tashlaydi, terini yaxshi ko'rsatadi va hech narsa turmaydi. Qovog'i solingan yuz esa har qanday go'zallikni yo'qqa chiqaradi."
+      ],
+      "tavsiyalar": [
+        "O'zingizga did maslahatchisi toping. Pulingiz yetmasa — do'st, hamkasb yoki tanishlaringizdan so'rang. Odamlar yordam berishni yaxshi ko'radi.",
+        "Kamida uch xil odamdan maslahat oling, bitta fikr bilan cheklanmang.",
+        "Sochingizni o'zingiz kesmang. Soch turmagi — sizning reklamangiz; uni mutaxassisga ishoning.",
+        "Atirni modaga qarab emas, vaqt sinovidan o'tganiga qarab tanlang. 20-30 yil bozorda turgan atir — sinalgan atir. Do'konda ketma-ket uchtadan ko'p hidlamang, keyin tashqariga chiqib rezeptorlarni dam oldiring.",
+        "Deodorantga suyanmang — kuniga yuvinish yetarli. Tabiiy hid begonalashtirmaydi.",
+        "Erkaklar uchun alohida: yiliga kamida bir marta garderobni yangilang, hatto yoqmasa ham. Bu ish, xuddi tish yuvish kabi, majburiy.",
+        "Ranglarning odamga ta'siri haqida bir-ikki kitob o'qing — bu kadr tanlashda ham, tanishuvda ham asqotadi."
+      ],
+      "mashqlar": [
+        {
+          "turi": "taymer",
+          "daqiqa": 3,
+          "korsatma": "Ko'zgu oldida uch daqiqa. O'zingizga chetdan kelgan begona odamdek qarang. Sochingiz, kiyimingiz, poyabzalingiz, qomatingiz nima deyapti? Baholamang, faqat ko'ring. Oxirgi daqiqada tabassum yarating va farqni kuzating — kitob aytadi: tabassum yigirma yoshni olib tashlaydi."
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Tashqi ko'rinish bo'yicha vazifalar",
+          "bandlar": [
+            "O'zimga did maslahatchisi topdim",
+            "Uning yordami bilan garderobni ko'rib chiqdim",
+            "To'g'ri sartaroshni topdim",
+            "Sifatli, vaqt sinovidan o'tgan atirni tanladim",
+            "Ichki ishonchsizlikni qoplayotgan ortiqcha atributlardan voz kechdim",
+            "Bugun kun davomida tabassumni saqladim"
+          ]
+        },
+        {
+          "turi": "test",
+          "savol": "Muallifga ko'ra, tashqi atributlarga (ko'p uzuk, ko'zga tashlanadigan belgilar, o'ta g'ayrioddiy ko'rinish) kuchli ehtiyoj nimadan darak beradi?",
+          "variantlar": [
+            "Yorqin va erkin shaxsiyatdan",
+            "Ichki ishonchsizlik va uni qoplash urinishidan",
+            "Yaxshi did va zamonaviylikdan",
+            "Moddiy imkoniyatdan"
+          ],
+          "izohlar": [
+            "Muallif bunga qo'shilmaydi: haqiqiy erkinlik tashqi tasdiqqa muhtoj emas.",
+            "To'g'ri. Kitobdagi qoida: ichki jihatdan qanchalik kuchli bo'lsangiz, tashqi «doping»ga shunchalik ehtiyoj qolmaydi. Bu qoida deyarli istisnosiz ishlaydi.",
+            "Did — bu boshqa narsa. Did o'zini ko'rsatishga emas, o'zingizga yarashishga qaraydi.",
+            "Pul bu yerda hal qiluvchi emas: 50 ming yevro bering ham, uch kunda did o'zgarmaydi."
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Bugun o'zingizni qanday ko'rinishda olamga chiqardingiz?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Qanday bo'lsa shunday",
+          "max_yorliq": "O'ylab, tanlab"
+        }
+      ]
+    },
+    {
+      "sarlavha": "Ichingizdagi qishloq: subshaxslar va ichki kuzatuvchi",
+      "magiz": [
+        "Hayotingizdagi muammolarni yaratadigan sizdan boshqa hech kim yo'q. Zaif odam mas'uliyatni kimgadir yuklashga urinadi va shundan yanada zaiflashadi; kuchli odam mas'uliyatni o'ziga oladi va shundan yanada kuchayadi.",
+        "Har biringiz bitta odam emas — butun bir qishloqsiz. U yerda o'z donishmandingiz va o'z ahmog'ingiz, o'z vijdonlingiz va vijdonsizingiz, o'z yolg'onchingiz va o'z orzugo'yingiz bor. Ularning har biri — subshaxs, ya'ni shaxsning bir parchasi.",
+        "Vazifa — bu qishloqda aholini ro'yxatga olish va tartib o'rnatish. Har bir subshaxsga o'z vaqtini bering. Dangasalikka ham, qo'rquvga ham — ularga ham vaqt kerak, lekin faqat ajratilgan vaqtda.",
+        "Ruh — bu ichingizdagi kuzatuvchi. Muvaffaqiyatda ham, quvonchda ham, qo'rquvda ham ichingizda shunchaki kuzatib turadigan bir qism bor. Hozir, shu satrlarni o'qiyotganingizda ham u bor. Uni toping — bu sizning ruhingiz.",
+        "Ruh tana, aql va qalbdan kuch oladi. Ulardan birining zaiflashuvi ruhni zaiflashtiradi. Ruhning asosiy tayanchi esa iroda — o'z qo'rquvingiz va istamasligingizni yengish qobiliyati.",
+        "Iroda mayda kundalik g'alabalardan quriladi. Har qanday harakat yo irodani, yo irodasizlikni mashq qiladi. Uchinchi variant yo'q.",
+        "G'urur va manmanlikni aralashtirmang. Manmanlik zaiflikdan boshlanadi: ildizi qo'rquv, tanasi nafrat, shoxlari xafagarchilik, mevasi mojaro. G'urur esa ruh kuchidan boshlanadi: u haqoratni tushunmaydi, chunki haqorat unga tegishli emas.",
+        "Sizni haqorat tegsa, demak siz o'sha so'zni o'zingizga oldingiz — ichingizda o'zingiz yomon ko'radigan tomonni tanidingiz."
+      ],
+      "tavsiyalar": [
+        "Salbiy va ijobiy xarakter xususiyatlaringiz ro'yxatini tuzing. Bu barcha keyingi ishning asosi.",
+        "Haftalik jadval tuzing: qaysi xususiyatni qachon va qayerda qo'llaysiz. Jadvaldan chekinmang.",
+        "Ichingizga «postbon» qo'ying — dangasalik yoki zaiflik yaqinlashganda signal beradigan kuzatuvchi. Bir-bir yarim oyda bu refleksga aylanadi.",
+        "Har kuni ichki kuzatuvchingizni — ruhingizni eslang. Unga qanchalik ko'p e'tibor bersangiz, u shunchalik kuchayadi.",
+        "Zaifliklarni birma-bir oling. Hammasini birdan yengib bo'lmaydi; har biri ustida ma'lum vaqt mashq qiling.",
+        "Kimdir sizni haqorat qilganda, avval o'zingizdan so'rang: nega bu menga tegdi? Javob doim ichkarida."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Ichingizdagi «qishloq»ni yozib chiqing. Kimlar yashaydi? Mehnatkash, dangasa, qo'rqoq, jasur, yolg'onchi, orzugo'y, vijdonli... Har birini nomlang va yozing: qaysi biri qachon foydali, qachon zarar keltiradi? Keyin har biriga haftada qaysi vaqtni ajratasiz — shuni belgilang."
+        },
+        {
+          "turi": "taymer",
+          "daqiqa": 5,
+          "korsatma": "Ichki kuzatuvchini topish. Tinch o'tiring. Fikrlaringizni to'xtatishga urinmang — ular kelaversin. Buning o'rniga ichingizdan fikrlarni kuzatayotgan qismni izlang. U hech narsani baholamaydi, xafa bo'lmaydi, quvonmaydi — faqat qayd etadi. Kitobga ko'ra bu sizning ruhingiz. Uni topsangiz, shu holatda qolishga harakat qiling."
+        },
+        {
+          "turi": "test",
+          "savol": "Kimdir sizni qattiq gap bilan haqorat qildi. Kitobdagi mezon bo'yicha, sizning reaksiyangiz nimani ko'rsatadi?",
+          "variantlar": [
+            "Darhol javob qaytardim, jahlim chiqdi",
+            "Ichimda uzoq aylandi, kechqurun ham o'yladim",
+            "Hech narsa his qilmadim — bu menga tegishli emas edi",
+            "Haqoratlagan odamga achindim"
+          ],
+          "izohlar": [
+            "Kitob tilida bu manmanlik reaksiyasi: siz o'sha so'zni o'zingizga qabul qildingiz. Nima uchun aynan shu so'z tekkanini yozib qo'ying — o'sha yerda zaifligingiz.",
+            "Bu ham qabul qilishning bir shakli, faqat sekin harakat qiladigan turi. Uzoq aylanishning o'zi javobning bir qismi.",
+            "Bu g'urur reaksiyasi. G'urur haqoratni tushunmaydi, chunki u haqiqatga to'g'ri kelmaydi. Kitobdagi misol: senbernar mayda shitirlashga qulog'ini ham qimirlatmaydi.",
+            "Bu ham kuch belgisi. Ikki yashar bola sizni musht bilan urganda urishmaganingizdek — kuch farqini bilgan odam xafa bo'lmaydi."
+          ]
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Ichki postbon — bugun nimani ushladingiz?",
+          "bandlar": [
+            "Dangasalik yaqinlashganini o'z vaqtida sezdim",
+            "Bahona to'qishni boshlaganimda o'zimni to'xtatdim",
+            "Bitta ishni «istamasam ham» bajardim",
+            "Kimnidir ayblashdan tiyildim, mas'uliyatni o'zimga oldim",
+            "Kun oxirida ichki kuzatuvchimni esladim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Bugun iroda va irodasizlik kurashida hisob qanday tugadi?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Dangasalik yutdi",
+          "max_yorliq": "Iroda yutdi"
+        }
+      ]
+    },
+    {
+      "sarlavha": "Dam olishni ham bilish kerak",
+      "magiz": [
+        "Necha soat uxlash kerak? Uyg'onguncha. O'zingizni zo'rlamang. To'rt-besh soat — kam; bu to'qson yoshda yetadi. Me'yor — kamida 6-8 soat.",
+        "Odamlar turlicha: kimdir tong qushi, kimdir tungi qush; kimga kunduzgi uyqu kerak, kimga qat'iy man qilingan; kimdir boshini shimolga qo'yib yaxshi uxlaydi, kimdir janubga. Bu variantlarni faqat o'zingiz sinab topasiz.",
+        "Kitobdagi hikoya: bir odam har kuni soat 5 da uyg'onib, 16:00 dan keyin butunlay ishlamay qolardi. Yechim kutilmagan joyda topildi — kunduzi 10 daqiqalik dush unga kechgacha faollik qaytardi. Bir tarozida 10 daqiqa, ikkinchisida — har kuni besh soat qo'shimcha hayot.",
+        "Dangasalik ham kerak — u saqlagich. Usiz odam ortiqcha zo'riqishdan «kuyib ketadi». Uni butunlay yo'q qilish kerak emas.",
+        "Yechim: dangasalikka o'z vaqtini bering. Uyqu uchun vaqt ajratilgan-ku. Dangasalik uchun ham ajrating — shanba va yakshanba. Bu kunlarda unga to'liq bo'ysuning, dushanbadan jumagacha esa u sizga tegmasin.",
+        "Quyosh — alohida mavzu. Uzoq quyoshsiz yashash butun holatni pasaytiradi. Qishda har uch oyda bir marta 7-10 kunga quyoshli joyga chiqishga harakat qiling.",
+        "Miya uchun eng yaxshi dam — rejim yo'q dam. Besh yulduzli mehmonxona ham rejim: soat shunda, tadbir bunda. Eng samarali dam — yurish, sayohat, oddiy sharoit, erkinlik. Bir haftadan keyin miya bolanikidek toza bo'ladi.",
+        "Katta g'oyalar ish paytida emas, dam olishda keladi — chunki siz muammoning ichida emas, chetida turasiz. Chetdan esa doim yaxshiroq ko'rinadi."
+      ],
+      "tavsiyalar": [
+        "Uch oy davomida uyqu bilan tajriba qiling: qachon yotish, qachon turish, qancha uxlash, qattiq yoki yumshoq joyda. Natijalarni yozib boring.",
+        "Shanba va yakshanbani dangasalikka ajrating. Uy yumushlari va tozalashni boshqa kunga — hatto dushanbaga — ko'chiring.",
+        "Uy ahliga ham tushuntiring: ota-ona ham odam. Shu ikki kunda ular ham o'z ishlari bilan band bo'lsin.",
+        "Yiliga kamida ikki marta 7-10 kundan quyoshli joyga chiqing. Quyoshli joyda yashasangiz — teskarisiga, salqinga.",
+        "Yana ikki marta «yovvoyi» dam olish rejalashtiring: shahar yo'q, sivilizatsiya yo'q, tabiat va yurish.",
+        "Ishdan chiqib ketolmayotgan bo'lsangiz, o'rinbosarlaringizni ko'rib chiqing. Siz bormisiz, yo'qmisiz — tashkilot ishlashi kerak."
+      ],
+      "mashqlar": [
+        {
+          "turi": "checklist",
+          "sarlavha": "Dam olish rejasi",
+          "bandlar": [
+            "Uyqu bilan tajriba qilishni boshladim va natijalarni yozyapman",
+            "Shanba-yakshanbani dangasalik uchun ajratdim",
+            "Uy yumushlarini dam olish kunlaridan boshqa kunga ko'chirdim",
+            "Yillik jadvalga ikkita quyoshli ta'til qo'ydim",
+            "Yillik jadvalga ikkita tabiatdagi «yovvoyi» ta'til qo'ydim",
+            "Bugun kamida bir marta ishdan butunlay uzildim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "So'nggi bir haftada haqiqatan dam oldingizmi — ya'ni ishdan butunlay uzilib?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Umuman yo'q",
+          "max_yorliq": "To'liq dam oldim"
+        },
+        {
+          "turi": "jurnal",
+          "savol": "Dangasalik bilan shartnoma tuzing va uni yozing. Namuna: «Shanba va yakshanba — to'liq seniki. Nima desang qilaman. Ammo dushanbadan jumagacha sen menga tegmaysan». Keyin yozing: shu ikki kunda aynan nima qilasiz — nima sizga rostdan dam beradi?"
+        },
+        {
+          "turi": "taymer",
+          "daqiqa": 10,
+          "korsatma": "Hech narsa qilmaslik mashqi. O'n daqiqa. Telefon yo'q, kitob yo'q, televizor yo'q, reja yo'q. Deraza yonida yoki tashqarida o'tiring. Miyangiz «foydali» bir narsa taklif qila boshlaydi — rad eting. Kitobdagi kuzatuv: eng yaxshi g'oyalar aynan shunday paytlarda keladi, chunki siz muammoning ichida emas, chetida turasiz."
+        }
+      ]
+    },
+    {
+      "sarlavha": "Erkak va ayol: ikki boshqa dunyo",
+      "magiz": [
+        "Muallifning asosiy tezisi: erkak va ayol bir-biridan aqlliroq yoki ahmoqroq emas — ular boshqacha. Ularning miyasi turli sxema bo'yicha ishlaydi.",
+        "Erkakda nutq markazi bitta — u gapirayotganda eshita olmaydi, eshitayotganda gapira olmaydi. Ayolda ikkita — u bir vaqtda gapirishi, eshitishi, tahlil qilishi va yana gapirishi mumkin. «Erkak gapirganda ayol jim tursin» degan gap shundan chiqqan; bu ustunlik emas, fiziologik cheklov.",
+        "Muallif mantiqni chumolining tezligiga, sezgini esa yorug'lik tezligiga qiyoslaydi. Sezgi — bu mantiqiy yechimni bir zumda topish qobiliyati.",
+        "Ayol yangi bilimni osonlik bilan qabul qiladi, lekin kamdan-kam qo'llaydi. Erkak yangi bilimni qiyinchilik bilan qabul qiladi — chunki unga eski ishonchini tortib olayotgandek tuyuladi — lekin qabul qilgach, uni to'liq ishlatadi.",
+        "Munosabatlarning asosi — bahs emas, e'tirof. Bir odam kelib maqtasa, u boshqa yuztadan ajralib turadi. Bu ikkala jinsga ham tegishli: hamma iltifotga ochiq.",
+        "Muallifning asosiy maslahati: odamga eng yaxshi tomonini ko'rsatish imkonini bering. G'amxo'rlik qilish, yordam berish, himoya qilish imkonini bering — u siz bilan o'zini kuchli his qilsin.",
+        "Yaqin odamni tanlashda muallif oilaga va tarbiyaga qarashni maslahat beradi: odamda vijdon va or tushunchasi bormi? «Aqlli, lekin eng noqulay paytda pichoq uradigan» odamdan ko'ra soddaroq, lekin oriyatli odam yaxshiroq."
+      ],
+      "tavsiyalar": [
+        "Bahslashmang. Suhbatdoshingiz noto'g'ri gapirsa ham, darhol tuzatishga shoshilmang — bu himoya instinktini yoqadi va u sizni eshitmay qo'yadi.",
+        "Kishini uning o'z hududida — qiziqishlari joyida qidiring. Sportchi sport maydonchasida, kitobxon kutubxonada, hayvon sevuvchi hayvonlar do'konida bo'ladi.",
+        "O'zingizni majburan boshqa qilib ko'rsatmang. Sizga yaqinlashgan odam sizni aynan shunday holda yoqtirdi.",
+        "Tanishuvda tabassum eng qisqa yo'l — u masofani kamaytiradi.",
+        "Yordam berayotganda ehtiyot bo'ling: zaif odamga qilingan yordam ko'pincha unga sizning zaifligiga guvoh bo'lganingizni eslatib turadi va nafratga aylanadi. Kuchli odam esa yordam uchun minnatdorchilik bilan javob beradi.",
+        "Odamni sinash uchun oddiy savol: «sizda zaifliklar bormi?» Batafsil javob bergan — kuchli odam. «Deyarli yo'q» degan yoki mavzuni burgan — zaif odam."
+      ],
+      "mashqlar": [
+        {
+          "turi": "checklist",
+          "sarlavha": "Kitobning eng qat'iy vazifasi: 10 kunda 10 tanishuv",
+          "bandlar": [
+            "1-2-kun: ikki yangi odam bilan tanishdim",
+            "3-4-kun: yana ikkita",
+            "5-6-kun: yana ikkita",
+            "7-8-kun: yana ikkita",
+            "9-10-kun: oxirgi ikkitasi",
+            "Har kuni tanishuv natijasini kundalikka yozdim"
+          ]
+        },
+        {
+          "turi": "jurnal",
+          "savol": "Bugungi tanishuvni yozing: qanday boshladingiz, birinchi daqiqada nima his qildingiz, keyin nima o'zgardi? Kitob va'da qiladi: bu vazifadan keyin tanishuv azobdan zavqqa aylanadi. Tekshiring va yozing — sizda qanday bo'ldi?"
+        },
+        {
+          "turi": "test",
+          "savol": "Suhbatdoshingiz aniq noto'g'ri gapiryapti. Kitobga ko'ra eng foydali xatti-harakat qaysi?",
+          "variantlar": [
+            "Darhol to'g'rilash — haqiqat muhim",
+            "Eshitish, keyin savol berish orqali o'zi ko'rishiga yordam berish",
+            "Rozi bo'lgandek qilib, ichdan kulish",
+            "Suhbatni to'xtatish"
+          ],
+          "izohlar": [
+            "Darhol to'g'rilash himoya instinktini yoqadi. Muallifning tasviri: odam qalqon va nayzani oladi va endi sizni umuman eshitmaydi.",
+            "To'g'ri. Bahs emas, savol. Odam o'z xulosasiga o'zi kelsa, uni qabul qiladi; sizniki bo'lsa — rad etadi.",
+            "Ikkiyuzlamachilik uzoq ishlamaydi. Kitobning aytishicha, samimiyatni yasab bo'lmaydi — odamlar buni sezadi.",
+            "Ba'zan to'g'ri, lekin bu munosabat qurish emas, undan qochish."
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Bugun atrofingizdagi odamlarga o'zining eng yaxshi tomonini ko'rsatish imkonini berdingizmi?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Yo'q, faqat o'zim gapirdim",
+          "max_yorliq": "Ha, ularga o'rin berdim"
+        }
+      ]
+    },
+    {
+      "sarlavha": "Ish, pul va erkinlik",
+      "magiz": [
+        "Uylanish suvga sakrashga o'xshaydi. Yigirma yoshda — hovuz chetidan; yigirma besh-o'ttizda — uch metrlik minoradan; o'ttiz-o'ttiz beshda — o'n metrlik minoradan; qirqdan keyin — parashyutsiz samolyotdan. Balandlik yillar bilan o'sadi, suv esa o'sha suvligicha qoladi.",
+        "Xuddi shu qonun ish ochishga ham tegishli. Qancha kech qolsangiz, odatiy aylanma yugurishdan uzilish shunchalik qiyin bo'ladi.",
+        "Biznes-rejada «bering» so'zi bo'lmasligi kerak. Bu so'z paydo bo'lishi — sizning aniq zaifligingiz ko'rsatkichi. Muallifning talabasi 100 million dollar so'ragan; muallif undan «qo'lingizda eng ko'p qancha pul bo'lgan?» deb so'ragan va javob «bir necha ming» bo'lgan. Demak byudjet ham shuncha.",
+        "Akustika hikoyasi: 3 000 dollarga yig'ilgan tizim yevropalik brend nomi ostida, eksklyuziv suratlar orqali reklama qilinib, birinchi nusxasi yarim million dollarga sotilgan. Reklama uchun ham pul sarflanmagan — jurnallarning o'zi suratlar uchun to'lagan. Muallifning xulosasi: har doim zaif odam to'laydi, kuchli odamga to'lashadi.",
+        "Pulga qarash muhim. Pul — bu vosita, moddiy almashinuv vositasi, o'zgargan vaqt va mehnat. Pulni yovuzlik deb bilsangiz, undan qutulishga intilasiz — bu qashshoqlikka eng tez yo'l.",
+        "Ish faqat pul uchun qurilsa, siz uni yomon ko'ra boshlaysiz va oxirida o'zingiz yo'q qilasiz. Ishni mehr asosida quring: xodimlar — sizning oilangiz, ularning maoshi — sizning tashvishingiz. Moliyaviy tomon o'z-o'zidan yaxshilana boshlaydi.",
+        "To'qqiz kuch: tananing ichki kuchi — sog'liq, tashqi kuchi — moddiy imkoniyat; aqlning ichki kuchi — intellekt, tashqi kuchi — axborot; qalbning ichki kuchi — his-tuyg'ular, tashqi kuchi — siz sevadigan olam; ruhning ichki kuchi — iroda. Ular teng rivojlanishi kerak.",
+        "Odam — piramida. Asosi tana, keyin aql, keyin qalb, cho'qqisida ruh. Piramidani cho'qqisidan qurish mumkin emas. Uyda yeyishga narsa yo'q bo'lsa, ma'naviyat haqidagi suhbat bekor."
+      ],
+      "tavsiyalar": [
+        "Cheksiz pulingiz bo'lganda ham qilishni istaydigan uchta ishni yozing. Sizning yo'lingiz shu uchtaning orasida yotadi.",
+        "Biznes-rejangizni tekshiring: unda «bering» so'zi bormi? Bo'lsa — o'sha yerda sizning zaifligingiz.",
+        "Boshlash uchun byudjetni real imkoniyatingizdan oling, xayoliy summadan emas.",
+        "Kadr tanlashda odamning oilasiga va vijdon tushunchasiga qarang. Ochko'zlik boshqariladiganmi yoki o'z-o'zidan ketyaptimi — buni aniqlang.",
+        "Yaqin doirangizga faqat besh-olti kishini kiriting — ularga hayotingizni ishonasiz, ular sizga. Tanlashda o'ta ehtiyotkor bo'ling.",
+        "Pulni maqsad emas, orzuingizning qurilish materiali sifatida ko'ring.",
+        "Piramidani pastdan quring: avval poydevor — moddiy erkinlik, keyin bilim, keyin o'zini bilish, keyin ruh."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Uchta ish yozing: agar pulingiz cheksiz bo'lsa, baribir nima bilan shug'ullanardingiz? Shoshmang, uchtasini ham yozing. Keyin har birining ostiga yozing: bu ishning eng kichik, bugundan boshlash mumkin bo'lgan shakli qanday ko'rinadi?"
+        },
+        {
+          "turi": "test",
+          "savol": "Rejangizda «shuncha pul bo'lganida edi» degan jumla bor. Kitobga ko'ra bu nimani anglatadi?",
+          "variantlar": [
+            "Loyihaning kattaligini — bu yaxshi belgi",
+            "Aniq zaiflik nuqtasini — bilim, ruh yoki fikrlashdagi bo'shliqni",
+            "Investor topish vaqti kelganini",
+            "Hozircha kutish kerakligini"
+          ],
+          "izohlar": [
+            "Kattalik emas, tayyorgarlikning yo'qligi. Muallif: boshqaring bilmagan begona pul sizni butunlay boshqarib bo'lmaydigan qiladi.",
+            "To'g'ri. Kitobdagi qoida: «bering» so'zi paydo bo'lgan joyda sizning axborot, qalb yoki ruh jihatidan zaifligingiz turadi.",
+            "Investor sizning zaifligingizni to'ldirmaydi — u faqat uni kattalashtiradi.",
+            "Kutish — hech qachon yechim emas. Byudjetni bor imkoniyatdan oling va bugundan boshlang."
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "To'qqiz kuchdan qaysi biri sizda eng kuchsiz? Umumiy muvozanatingizni baholang.",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Bir tomonga og'gan",
+          "max_yorliq": "Muvozanatli"
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Piramidani pastdan qurish",
+          "bandlar": [
+            "Moddiy poydevorim ustida aniq ish qilyapman",
+            "Har hafta yangi bilim olyapman va uni qo'llayapman",
+            "Sevadigan ishim bilan shug'ullanyapman yoki uni izlayapman",
+            "Kundalik mayda g'alabalar bilan irodani mashq qilyapman",
+            "Yaqin doiramni ongli ravishda tanlayapman"
+          ]
+        },
+        {
+          "turi": "taymer",
+          "daqiqa": 15,
+          "korsatma": "Laboratoriya mashqi. O'n besh daqiqa qog'oz va qalam bilan o'tiring va bitta g'oyani boshdan oxirigacha «aylantirib» chiqing: kim sotadi, kim sotib oladi, tannarx qancha, kim qancha oladi, qayerda tiqilinch chiqadi. Muallif buni katta sarmoyaning o'rnini bosadigan ish deydi: stol ustida hal qilingan muammo real hayotda pulga tushmaydi."
+        }
+      ]
+    }
+  ]
+}
