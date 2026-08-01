@@ -1,71 +1,49 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#0f0a1e">
+<meta name="theme-color" content="#eef1f8">
 <title>Kitob Mag'zi</title>
 
 <script src="https://telegram.org/js/telegram-web-app.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 <style>
   :root {
-    --fon-1: #0f0a1e;
-    --fon-2: #1a1033;
-    --oltin: #d4af37;
-    --oltin-xira: rgba(212, 175, 55, .18);
-    --matn: #e8e4f0;
-    --matn-xira: #a79ec2;
-    --karta: rgba(255, 255, 255, .045);
-    --chegara: rgba(255, 255, 255, .09);
-    --serif: "Playfair Display", Georgia, "Times New Roman", serif;
-    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --fon: #eef1f8;
+    --karta: #ffffff;
+    --asos: #1e3a8a;
+    --asos-tim: #152a63;
+    --asos-yorug: #2c4fb0;
+    --asos-och: #e7ecfb;
+    --asos-och-2: #f2f5fd;
+    --matn: #16204a;
+    --matn-xira: #7b86a8;
+    --chegara: #e4e9f6;
+    --soya: 0 6px 22px rgba(30, 58, 138, .07);
+    --soya-past: 0 2px 10px rgba(30, 58, 138, .05);
+    --sans: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   }
 
   * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
 
-  html, body {
-    margin: 0;
-    padding: 0;
-    min-height: 100%;
-    background: var(--fon-1);
-  }
+  html, body { margin: 0; padding: 0; min-height: 100%; background: var(--fon); }
 
   body {
     font-family: var(--sans);
     color: var(--matn);
-    font-size: 16px;
+    font-size: 15px;
     line-height: 1.6;
-    background: linear-gradient(170deg, #0f0a1e 0%, #1a1033 55%, #14092a 100%);
-    background-attachment: fixed;
     overflow-x: hidden;
   }
 
-  /* Yulduzchalar — faqat CSS, rasmsiz */
-  body::before,
-  body::after {
-    content: "";
-    position: fixed;
-    inset: 0;
-    pointer-events: none;
-    z-index: 0;
-  }
+  /* Fondagi yumshoq ko'k shakllar — rasmsiz, faqat CSS */
   body::before {
-    background-image:
-      radial-gradient(1.4px 1.4px at 12% 18%, rgba(255,255,255,.75), transparent),
-      radial-gradient(1.2px 1.2px at 78% 9%,  rgba(255,255,255,.55), transparent),
-      radial-gradient(1.6px 1.6px at 34% 62%, rgba(212,175,55,.55), transparent),
-      radial-gradient(1.1px 1.1px at 88% 47%, rgba(255,255,255,.5), transparent),
-      radial-gradient(1.3px 1.3px at 57% 84%, rgba(255,255,255,.45), transparent),
-      radial-gradient(1.5px 1.5px at 21% 92%, rgba(212,175,55,.4), transparent),
-      radial-gradient(1.1px 1.1px at 66% 33%, rgba(255,255,255,.4), transparent),
-      radial-gradient(1.2px 1.2px at 5% 55%,  rgba(255,255,255,.35), transparent);
-    opacity: .8;
-  }
-  body::after {
+    content: "";
+    position: fixed; inset: 0; pointer-events: none; z-index: 0;
     background:
-      radial-gradient(90% 55% at 50% -8%, rgba(120, 80, 190, .28), transparent 70%),
-      radial-gradient(60% 40% at 90% 100%, rgba(212, 175, 55, .07), transparent 70%);
+      radial-gradient(58% 38% at 88% 4%, rgba(30, 58, 138, .12), transparent 70%),
+      radial-gradient(46% 30% at 4% 96%, rgba(30, 58, 138, .08), transparent 70%);
   }
 
   #ildiz { position: relative; z-index: 1; }
@@ -73,107 +51,181 @@
   .qobiq {
     max-width: 620px;
     margin: 0 auto;
-    padding: 22px 16px calc(40px + env(safe-area-inset-bottom));
+    padding: 14px 16px calc(96px + env(safe-area-inset-bottom));
   }
 
-  h1, h2, h3, h4 { font-family: var(--serif); font-weight: 700; margin: 0; line-height: 1.25; }
+  h1, h2, h3, h4 { font-weight: 600; margin: 0; line-height: 1.3; letter-spacing: -.01em; }
 
-  /* ---------- Sarlavha ---------- */
-  .bosh { text-align: center; padding: 18px 0 26px; }
-  .bosh .belgi { font-size: 26px; letter-spacing: .3em; color: var(--oltin); opacity: .85; }
-  .bosh h1 {
-    font-size: 30px;
-    margin: 8px 0 6px;
-    background: linear-gradient(100deg, #f4e3a8, var(--oltin) 55%, #b08f28);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
+  /* ---------- Yuqori panel ---------- */
+  .panel {
+    display: flex; align-items: center; gap: 12px;
+    padding: 6px 0 16px;
   }
-  .bosh p { margin: 0; color: var(--matn-xira); font-size: 14px; }
-  .ajratgich {
-    width: 120px; height: 1px; margin: 16px auto 0;
-    background: linear-gradient(90deg, transparent, var(--oltin), transparent);
-    opacity: .6;
+  .panel h2 { flex: 1; text-align: center; font-size: 17px; }
+  .dumaloq-tug {
+    flex: 0 0 auto; width: 40px; height: 40px; border-radius: 13px;
+    display: grid; place-items: center; cursor: pointer;
+    background: var(--karta); border: 1px solid var(--chegara);
+    color: var(--asos); box-shadow: var(--soya-past);
+    font-size: 16px; font-family: var(--sans); position: relative;
+    transition: transform .14s ease, background .18s;
+  }
+  .dumaloq-tug:active { transform: scale(.93); }
+  .dumaloq-tug .nuqta {
+    position: absolute; top: 7px; right: 7px;
+    min-width: 15px; height: 15px; padding: 0 4px; border-radius: 999px;
+    background: #e0364f; color: #fff; font-size: 9.5px; font-weight: 600;
+    display: grid; place-items: center; line-height: 1;
   }
 
-  /* ---------- Kitob kartalari ---------- */
-  .kartalar { display: flex; flex-direction: column; gap: 14px; }
+  /* ---------- Salom bloki ---------- */
+  .salom h1 { font-size: 26px; font-weight: 700; color: var(--asos); }
+  .salom p { margin: 2px 0 0; color: var(--matn-xira); font-size: 14px; }
+
+  .qidiruv {
+    display: flex; align-items: center; gap: 10px;
+    background: var(--karta); border: 1px solid var(--chegara);
+    border-radius: 999px; padding: 12px 18px; margin: 18px 0;
+    box-shadow: var(--soya-past);
+  }
+  .qidiruv svg { flex: 0 0 auto; color: var(--matn-xira); }
+  .qidiruv input {
+    flex: 1; min-width: 0; border: 0; background: none; outline: none;
+    font-family: var(--sans); font-size: 14.5px; color: var(--matn);
+  }
+  .qidiruv input::placeholder { color: var(--matn-xira); }
+  .qidiruv button {
+    background: none; border: 0; color: var(--matn-xira);
+    font-size: 18px; cursor: pointer; padding: 0; line-height: 1;
+  }
+
+  /* ---------- Xush kelibsiz banneri ---------- */
+  .banner {
+    display: flex; align-items: center; gap: 12px;
+    background: var(--karta); border: 1.5px solid var(--asos-och);
+    border-radius: 20px; padding: 16px 18px; box-shadow: var(--soya);
+  }
+  .banner-matn { flex: 1; min-width: 0; }
+  .banner-matn h3 { font-size: 16px; font-weight: 600; color: var(--asos); margin-bottom: 3px; }
+  .banner-matn p { margin: 0; font-size: 13.5px; color: var(--matn-xira); line-height: 1.45; }
+  .banner-rasm {
+    flex: 0 0 auto; width: 74px; height: 62px;
+    display: grid; place-items: center;
+    background: var(--asos-och); border-radius: 16px; color: var(--asos);
+  }
+
+  /* ---------- Bo'lim sarlavhasi (ro'yxatlar uchun) ---------- */
+  .satr-bosh {
+    display: flex; align-items: baseline; justify-content: space-between;
+    margin: 26px 0 12px;
+  }
+  .satr-bosh h3 { font-size: 17px; font-weight: 600; }
+  .satr-bosh span { font-size: 13px; color: var(--matn-xira); }
+
+  /* ---------- Kitob kartalari (2 ustunli) ---------- */
+  .kartalar { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
 
   .kitob-karta {
-    display: flex;
-    gap: 14px;
-    align-items: center;
-    padding: 12px;
-    border: 1px solid var(--chegara);
-    border-radius: 16px;
-    background: var(--karta);
-    cursor: pointer;
-    text-align: left;
-    width: 100%;
-    color: inherit;
-    font: inherit;
-    transition: transform .18s ease, border-color .18s ease, background .18s ease;
+    display: flex; flex-direction: column; align-items: stretch;
+    background: var(--asos-och-2); border: 1px solid var(--chegara);
+    border-radius: 20px; padding: 14px; cursor: pointer;
+    text-align: left; width: 100%; color: inherit; font: inherit;
+    box-shadow: var(--soya-past);
+    transition: transform .16s ease, box-shadow .18s ease;
   }
-  .kitob-karta:active { transform: scale(.985); }
-  .kitob-karta:hover { border-color: var(--oltin-xira); background: rgba(255,255,255,.07); }
+  .kitob-karta:active { transform: scale(.975); }
+  .kitob-karta:hover { box-shadow: var(--soya); }
+
+  .kitob-karta.faol {
+    background: linear-gradient(158deg, var(--asos-yorug), var(--asos-tim));
+    border-color: transparent;
+    box-shadow: 0 10px 26px rgba(21, 42, 99, .28);
+    color: #fff;
+  }
+
+  .karta-yuqori { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; }
+  .karta-sana { font-size: 11px; color: var(--matn-xira); }
+  .kitob-karta.faol .karta-sana { color: rgba(255,255,255,.7); }
+  .karta-nuqta { color: var(--matn-xira); font-size: 15px; line-height: 1; }
+  .kitob-karta.faol .karta-nuqta { color: rgba(255,255,255,.7); }
 
   .muqova {
-    flex: 0 0 auto;
-    width: 62px; height: 86px;
-    border-radius: 6px 10px 10px 6px;
-    display: flex; align-items: flex-end; justify-content: center;
-    padding-bottom: 8px;
-    box-shadow: 0 6px 18px rgba(0,0,0,.45), inset 0 0 0 1px rgba(255,255,255,.12);
-    position: relative;
-    overflow: hidden;
+    flex: 0 0 auto; width: 36px; height: 36px; border-radius: 11px;
+    display: grid; place-items: center; color: #fff; font-size: 15px;
+    box-shadow: 0 4px 12px rgba(21, 42, 99, .18);
   }
-  .muqova::before {
-    content: "";
-    position: absolute; left: 0; top: 0; bottom: 0; width: 6px;
-    background: rgba(0,0,0,.28);
-  }
-  .muqova span { font-size: 17px; opacity: .9; }
 
-  .kitob-matn { min-width: 0; }
-  .kitob-matn h3 { font-size: 17px; margin-bottom: 3px; }
-  .kitob-matn .muallif { font-size: 13px; color: var(--oltin); opacity: .85; }
-  .kitob-matn .tavsif {
-    font-size: 13px; color: var(--matn-xira); margin-top: 5px;
+  .kitob-matn { min-width: 0; flex: 1; }
+  .kitob-matn h3 {
+    font-size: 14.5px; font-weight: 600; margin-bottom: 2px;
     display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
   }
-
-  /* ---------- Kitob sahifasi ---------- */
-  .orqaga {
-    background: none; border: 1px solid var(--chegara); color: var(--matn-xira);
-    border-radius: 999px; padding: 7px 15px; font-size: 13px; font-family: var(--sans);
-    cursor: pointer; margin-bottom: 18px; transition: border-color .18s, color .18s;
+  .kitob-matn .muallif {
+    font-size: 11.5px; color: var(--matn-xira);
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
   }
-  .orqaga:hover { border-color: var(--oltin-xira); color: var(--oltin); }
+  .kitob-karta.faol .kitob-matn .muallif { color: rgba(255,255,255,.72); }
+  .kitob-matn .tavsif {
+    font-size: 12px; color: var(--matn-xira); margin-top: 6px; line-height: 1.45;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+  }
+  .kitob-karta.faol .kitob-matn .tavsif { color: rgba(255,255,255,.75); }
 
-  .kitob-bosh { text-align: center; margin-bottom: 22px; }
-  .kitob-bosh h2 { font-size: 25px; margin-bottom: 6px; }
-  .kitob-bosh .muallif { color: var(--oltin); font-size: 14px; }
+  .karta-jarayon { margin-top: 14px; }
+  .karta-jarayon .yorliq { font-size: 11px; color: var(--matn-xira); margin-bottom: 6px; }
+  .kitob-karta.faol .karta-jarayon .yorliq { color: rgba(255,255,255,.75); }
+  .karta-jarayon .qator { display: flex; align-items: center; gap: 8px; }
+  .karta-jarayon .foiz { font-size: 11px; color: var(--matn-xira); font-weight: 500; }
+  .kitob-karta.faol .karta-jarayon .foiz { color: #fff; }
+
+  .progress-chiziq {
+    flex: 1; height: 5px; border-radius: 999px; background: rgba(30, 58, 138, .12);
+    overflow: hidden;
+  }
+  .kitob-karta.faol .progress-chiziq { background: rgba(255,255,255,.22); }
+  .progress-chiziq i {
+    display: block; height: 100%; border-radius: 999px;
+    background: var(--asos); transition: width .35s ease;
+  }
+  .kitob-karta.faol .progress-chiziq i { background: #fff; }
+
+  /* ---------- Kitob sahifasi: navy hero ---------- */
+  .hero {
+    background: linear-gradient(158deg, var(--asos-yorug), var(--asos-tim));
+    border-radius: 24px; padding: 22px 20px; color: #fff;
+    box-shadow: 0 12px 30px rgba(21, 42, 99, .26);
+    text-align: center; margin-bottom: 18px;
+  }
+  .hero-muqova {
+    width: 74px; height: 74px; border-radius: 24px; margin: 0 auto 14px;
+    display: grid; place-items: center; font-size: 28px;
+    background: rgba(255,255,255,.14); border: 1.5px solid rgba(255,255,255,.22);
+  }
+  .hero h2 { font-size: 19px; font-weight: 600; margin-bottom: 4px; }
+  .hero .muallif { font-size: 13px; color: rgba(255,255,255,.75); }
+  .hero-stat {
+    display: flex; margin-top: 18px; padding-top: 16px;
+    border-top: 1px solid rgba(255,255,255,.16);
+  }
+  .hero-stat div { flex: 1; }
+  .hero-stat b { display: block; font-size: 20px; font-weight: 600; line-height: 1.2; }
+  .hero-stat span { font-size: 11.5px; color: rgba(255,255,255,.7); }
+
   .kirish {
-    margin: 18px 0 0;
-    padding: 14px 16px;
-    border-left: 2px solid var(--oltin);
-    background: rgba(212,175,55,.05);
-    border-radius: 0 12px 12px 0;
-    font-size: 14.5px;
-    color: var(--matn-xira);
-    text-align: left;
+    background: var(--karta); border: 1px solid var(--chegara);
+    border-radius: 18px; padding: 16px 18px; margin-bottom: 18px;
+    font-size: 14px; color: var(--matn-xira); line-height: 1.6;
+    box-shadow: var(--soya-past);
   }
 
   /* ---------- Akkordeon ---------- */
   .bolim {
-    border: 1px solid var(--chegara);
-    border-radius: 16px;
-    background: var(--karta);
-    margin-bottom: 12px;
-    overflow: hidden;
-    transition: border-color .2s ease;
+    background: var(--karta); border: 1px solid var(--chegara);
+    border-radius: 20px; margin-bottom: 12px; overflow: hidden;
+    box-shadow: var(--soya-past);
+    transition: box-shadow .2s ease;
   }
-  .bolim.ochiq { border-color: var(--oltin-xira); }
+  .bolim.ochiq { box-shadow: var(--soya); }
 
   .bolim-tugma {
     width: 100%; display: flex; align-items: center; gap: 12px;
@@ -181,14 +233,14 @@
     font: inherit; text-align: left; cursor: pointer;
   }
   .raqam {
-    flex: 0 0 auto; width: 30px; height: 30px; border-radius: 50%;
+    flex: 0 0 auto; width: 36px; height: 36px; border-radius: 12px;
     display: grid; place-items: center;
-    border: 1px solid var(--oltin-xira); color: var(--oltin);
-    font-family: var(--serif); font-size: 14px;
-    background: rgba(212,175,55,.07);
+    background: var(--asos-och); color: var(--asos);
+    font-size: 14px; font-weight: 600;
   }
-  .bolim-tugma h4 { flex: 1; font-size: 16px; }
-  .strelka { color: var(--oltin); opacity: .7; transition: transform .25s ease; font-size: 12px; }
+  .bolim.ochiq .raqam { background: var(--asos); color: #fff; }
+  .bolim-tugma h4 { flex: 1; font-size: 15px; font-weight: 600; }
+  .strelka { color: var(--asos); opacity: .6; transition: transform .25s ease; font-size: 11px; }
   .bolim.ochiq .strelka { transform: rotate(180deg); }
 
   .bolim-ich { padding: 0 16px 18px; animation: ochil .28s ease; }
@@ -197,243 +249,305 @@
   .qism { margin-top: 18px; }
   .qism-sarlavha {
     display: flex; align-items: center; gap: 8px;
-    font-family: var(--serif); font-size: 13px; letter-spacing: .1em;
-    text-transform: uppercase; color: var(--oltin); margin-bottom: 10px;
+    font-size: 11.5px; letter-spacing: .09em; font-weight: 600;
+    text-transform: uppercase; color: var(--asos); margin-bottom: 11px;
   }
   .qism-sarlavha::after {
-    content: ""; flex: 1; height: 1px;
-    background: linear-gradient(90deg, var(--oltin-xira), transparent);
+    content: ""; flex: 1; height: 1px; background: var(--chegara);
   }
 
   ul.magiz { list-style: none; margin: 0; padding: 0; }
-  ul.magiz li {
-    position: relative; padding-left: 20px; margin-bottom: 10px; font-size: 15px;
-  }
+  ul.magiz li { position: relative; padding-left: 18px; margin-bottom: 10px; font-size: 14.5px; }
   ul.magiz li::before {
-    content: "◈"; position: absolute; left: 0; top: 0;
-    color: var(--oltin); opacity: .6; font-size: 11px;
+    content: ""; position: absolute; left: 0; top: 9px;
+    width: 6px; height: 6px; border-radius: 50%; background: var(--asos); opacity: .45;
   }
 
   ol.tavsiyalar { margin: 0; padding-left: 20px; }
-  ol.tavsiyalar li { margin-bottom: 9px; font-size: 15px; }
-  ol.tavsiyalar li::marker { color: var(--oltin); font-family: var(--serif); }
+  ol.tavsiyalar li { margin-bottom: 9px; font-size: 14.5px; }
+  ol.tavsiyalar li::marker { color: var(--asos); font-weight: 600; }
 
   /* ---------- Mashqlar ---------- */
   .mashq {
-    border: 1px solid var(--chegara);
-    background: rgba(15, 10, 30, .5);
-    border-radius: 14px;
-    padding: 14px;
-    margin-bottom: 12px;
+    background: var(--asos-och-2); border: 1px solid var(--chegara);
+    border-radius: 18px; padding: 15px; margin-bottom: 12px;
   }
   .mashq-turi {
-    display: inline-block; font-size: 10.5px; letter-spacing: .12em; text-transform: uppercase;
-    color: var(--oltin); background: rgba(212,175,55,.1);
-    border: 1px solid var(--oltin-xira); border-radius: 999px;
-    padding: 2px 9px; margin-bottom: 9px;
+    display: inline-block; font-size: 10px; letter-spacing: .1em; text-transform: uppercase;
+    font-weight: 600; color: var(--asos); background: var(--asos-och);
+    border-radius: 999px; padding: 4px 11px; margin-bottom: 10px;
   }
-  .mashq-savol { font-size: 15px; margin-bottom: 12px; }
+  .mashq-savol { font-size: 14.5px; margin-bottom: 12px; font-weight: 500; }
 
   textarea {
-    width: 100%; min-height: 110px; resize: vertical;
-    background: rgba(0,0,0,.28); color: var(--matn);
-    border: 1px solid var(--chegara); border-radius: 10px;
-    padding: 11px 12px; font-family: var(--sans); font-size: 15px; line-height: 1.55;
-    transition: border-color .18s;
+    width: 100%; min-height: 108px; resize: vertical;
+    background: var(--karta); color: var(--matn);
+    border: 1px solid var(--chegara); border-radius: 14px;
+    padding: 12px 14px; font-family: var(--sans); font-size: 14.5px; line-height: 1.55;
+    transition: border-color .18s, box-shadow .18s;
   }
-  textarea:focus { outline: none; border-color: var(--oltin); }
-  textarea::placeholder { color: rgba(167,158,194,.5); }
+  textarea:focus { outline: none; border-color: var(--asos); box-shadow: 0 0 0 3px rgba(30,58,138,.09); }
+  textarea::placeholder { color: var(--matn-xira); }
 
-  .holat { font-size: 12px; color: var(--matn-xira); margin-top: 7px; min-height: 16px; }
-  .holat.saqlandi { color: var(--oltin); }
+  .holat { font-size: 11.5px; color: var(--matn-xira); margin-top: 8px; min-height: 16px; }
+  .holat.saqlandi { color: var(--asos); font-weight: 500; }
 
   .band {
     display: flex; gap: 11px; align-items: flex-start;
-    padding: 9px 0; cursor: pointer; font-size: 15px;
+    padding: 9px 0; cursor: pointer; font-size: 14.5px;
   }
-  .band + .band { border-top: 1px solid rgba(255,255,255,.05); }
+  .band + .band { border-top: 1px solid var(--chegara); }
   .quti {
     flex: 0 0 auto; width: 21px; height: 21px; margin-top: 1px;
-    border: 1px solid var(--chegara); border-radius: 6px;
-    display: grid; place-items: center; font-size: 12px; color: var(--fon-1);
+    border: 1.5px solid #cdd6ee; border-radius: 7px; background: var(--karta);
+    display: grid; place-items: center; font-size: 12px; color: #fff;
     transition: all .18s ease;
   }
-  .band.belgili .quti { background: var(--oltin); border-color: var(--oltin); }
+  .band.belgili .quti { background: var(--asos); border-color: var(--asos); }
   .band.belgili .yorliq { color: var(--matn-xira); text-decoration: line-through; }
 
-  .progress-chiziq {
-    height: 4px; border-radius: 999px; background: rgba(255,255,255,.08);
-    overflow: hidden; margin-top: 12px;
-  }
-  .progress-chiziq i {
-    display: block; height: 100%; border-radius: 999px;
-    background: linear-gradient(90deg, #b08f28, var(--oltin));
-    transition: width .3s ease;
-  }
+  .mashq .progress-chiziq { margin-top: 12px; }
 
   input[type=range] {
     width: 100%; -webkit-appearance: none; appearance: none;
     background: transparent; margin: 6px 0;
   }
   input[type=range]::-webkit-slider-runnable-track {
-    height: 4px; border-radius: 999px; background: rgba(255,255,255,.12);
+    height: 5px; border-radius: 999px; background: rgba(30,58,138,.14);
   }
   input[type=range]::-webkit-slider-thumb {
     -webkit-appearance: none; appearance: none;
-    width: 20px; height: 20px; border-radius: 50%; margin-top: -8px;
-    background: var(--oltin); border: 0;
-    box-shadow: 0 0 0 5px rgba(212,175,55,.16);
+    width: 20px; height: 20px; border-radius: 50%; margin-top: -7.5px;
+    background: var(--asos); border: 2px solid #fff;
+    box-shadow: 0 2px 8px rgba(30,58,138,.35);
   }
-  input[type=range]::-moz-range-track { height: 4px; border-radius: 999px; background: rgba(255,255,255,.12); }
+  input[type=range]::-moz-range-track { height: 5px; border-radius: 999px; background: rgba(30,58,138,.14); }
   input[type=range]::-moz-range-thumb {
-    width: 20px; height: 20px; border-radius: 50%; border: 0; background: var(--oltin);
-    box-shadow: 0 0 0 5px rgba(212,175,55,.16);
+    width: 20px; height: 20px; border-radius: 50%; border: 2px solid #fff; background: var(--asos);
+    box-shadow: 0 2px 8px rgba(30,58,138,.35);
   }
 
   .slider-qiymat {
-    text-align: center; font-family: var(--serif); font-size: 30px; color: var(--oltin);
+    text-align: center; font-size: 30px; font-weight: 700; color: var(--asos);
     line-height: 1.1; margin-bottom: 4px;
   }
-  .yorliqlar { display: flex; justify-content: space-between; font-size: 12px; color: var(--matn-xira); }
+  .yorliqlar { display: flex; justify-content: space-between; font-size: 11.5px; color: var(--matn-xira); }
 
   .taymer-orin { display: flex; flex-direction: column; align-items: center; gap: 14px; }
   .halqa { position: relative; width: 132px; height: 132px; }
   .halqa svg { transform: rotate(-90deg); display: block; }
-  .halqa circle { fill: none; stroke-width: 5; stroke-linecap: round; }
-  .halqa .iz { stroke: rgba(255,255,255,.09); }
-  .halqa .yoy { stroke: var(--oltin); transition: stroke-dashoffset 1s linear; }
+  .halqa circle { fill: none; stroke-width: 7; stroke-linecap: round; }
+  .halqa .iz { stroke: rgba(30,58,138,.11); }
+  .halqa .yoy { stroke: var(--asos); transition: stroke-dashoffset 1s linear; }
   .halqa .vaqt {
     position: absolute; inset: 0; display: grid; place-items: center;
-    font-family: var(--serif); font-size: 27px; color: var(--matn);
+    font-size: 26px; font-weight: 600; color: var(--matn);
   }
 
   .tugmalar { display: flex; gap: 9px; flex-wrap: wrap; justify-content: center; }
   .tug {
-    background: rgba(212,175,55,.1); border: 1px solid var(--oltin-xira);
-    color: var(--oltin); border-radius: 999px; padding: 8px 18px;
-    font-family: var(--sans); font-size: 14px; cursor: pointer;
+    background: var(--karta); border: 1px solid var(--chegara);
+    color: var(--asos); border-radius: 999px; padding: 9px 18px;
+    font-family: var(--sans); font-size: 13.5px; font-weight: 500; cursor: pointer;
+    box-shadow: var(--soya-past);
     transition: background .18s, transform .12s;
   }
   .tug:active { transform: scale(.95); }
-  .tug.asosiy { background: var(--oltin); color: #1a1033; border-color: var(--oltin); font-weight: 600; }
-  .tug.jim { background: none; color: var(--matn-xira); border-color: var(--chegara); }
-  .tug:disabled { opacity: .4; cursor: default; transform: none; }
+  .tug.asosiy {
+    background: var(--asos); color: #fff; border-color: var(--asos); font-weight: 600;
+    box-shadow: 0 6px 16px rgba(30,58,138,.26);
+  }
+  .tug.jim { background: none; color: var(--matn-xira); box-shadow: none; }
+  .tug:disabled { opacity: .45; cursor: default; transform: none; box-shadow: none; }
 
   .variant {
     display: block; width: 100%; text-align: left;
-    background: rgba(0,0,0,.25); border: 1px solid var(--chegara);
-    color: var(--matn); border-radius: 11px; padding: 11px 13px;
-    font: inherit; font-size: 15px; cursor: pointer; margin-bottom: 8px;
+    background: var(--karta); border: 1px solid var(--chegara);
+    color: var(--matn); border-radius: 14px; padding: 12px 14px;
+    font: inherit; font-size: 14.5px; cursor: pointer; margin-bottom: 8px;
     transition: all .18s ease;
   }
-  .variant:hover { border-color: var(--oltin-xira); }
-  .variant.tanlangan { border-color: var(--oltin); background: rgba(212,175,55,.1); color: var(--oltin); }
-  .variant .harf {
-    display: inline-grid; place-items: center; width: 21px; height: 21px;
-    border-radius: 50%; border: 1px solid var(--oltin-xira);
-    font-size: 12px; margin-right: 9px; color: var(--oltin); vertical-align: -4px;
+  .variant:hover { border-color: #c6d1ee; }
+  .variant.tanlangan {
+    border-color: var(--asos); background: var(--asos-och); color: var(--asos); font-weight: 500;
   }
+  .variant .harf {
+    display: inline-grid; place-items: center; width: 22px; height: 22px;
+    border-radius: 50%; background: var(--asos-och); color: var(--asos);
+    font-size: 11.5px; font-weight: 600; margin-right: 10px; vertical-align: -5px;
+  }
+  .variant.tanlangan .harf { background: var(--asos); color: #fff; }
 
   /* --- Tush kundaligi --- */
   input[type=text], input[type=time] {
-    background: rgba(0,0,0,.28); color: var(--matn);
-    border: 1px solid var(--chegara); border-radius: 10px;
-    padding: 10px 12px; font-family: var(--sans); font-size: 14.5px;
-    transition: border-color .18s;
+    background: var(--karta); color: var(--matn);
+    border: 1px solid var(--chegara); border-radius: 14px;
+    padding: 11px 14px; font-family: var(--sans); font-size: 14px;
+    transition: border-color .18s, box-shadow .18s;
   }
-  input[type=text]:focus, input[type=time]:focus { outline: none; border-color: var(--oltin); }
-  input[type=text]::placeholder { color: rgba(167,158,194,.5); }
+  input[type=text]:focus, input[type=time]:focus {
+    outline: none; border-color: var(--asos); box-shadow: 0 0 0 3px rgba(30,58,138,.09);
+  }
+  input[type=text]::placeholder { color: var(--matn-xira); }
   input[type=text] { width: 100%; margin-top: 8px; }
-  input[type=time] { color-scheme: dark; }
 
   .yozuv {
-    border: 1px solid var(--chegara); border-radius: 11px;
-    background: rgba(0,0,0,.22); margin-bottom: 8px; overflow: hidden;
+    background: var(--karta); border: 1px solid var(--chegara);
+    border-radius: 14px; margin-bottom: 8px; overflow: hidden;
   }
   .yozuv-bosh {
     display: flex; align-items: center; gap: 9px; width: 100%;
     background: none; border: 0; color: var(--matn); font: inherit;
-    padding: 10px 12px; cursor: pointer; text-align: left;
+    padding: 11px 13px; cursor: pointer; text-align: left;
   }
-  .yozuv-sana { color: var(--oltin); font-size: 13px; flex: 0 0 auto; }
+  .yozuv-sana { color: var(--asos); font-size: 12px; font-weight: 500; flex: 0 0 auto; }
   .yozuv-qisqa {
-    flex: 1; min-width: 0; font-size: 13.5px; color: var(--matn-xira);
+    flex: 1; min-width: 0; font-size: 13px; color: var(--matn-xira);
     white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
   }
-  .yozuv-strelka { flex: 0 0 auto; color: var(--oltin); opacity: .6; font-size: 10px; }
-  .yozuv-tan { padding: 0 12px 12px; font-size: 14.5px; white-space: pre-wrap; animation: ochil .28s ease; }
+  .yozuv-strelka { flex: 0 0 auto; color: var(--asos); opacity: .55; font-size: 10px; }
+  .yozuv-tan { padding: 0 13px 13px; font-size: 14px; white-space: pre-wrap; animation: ochil .28s ease; }
   .nishonlar { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 9px; }
   .nishon {
-    font-size: 11.5px; color: var(--oltin); background: rgba(212,175,55,.09);
-    border: 1px solid var(--oltin-xira); border-radius: 999px; padding: 3px 9px;
+    font-size: 11.5px; font-weight: 500; color: var(--asos); background: var(--asos-och);
+    border-radius: 999px; padding: 4px 10px;
   }
-  .nishon b { font-weight: 600; opacity: .7; margin-left: 4px; }
+  .nishon b { font-weight: 600; opacity: .6; margin-left: 4px; }
 
   /* --- Eslatma --- */
   .qatorlar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
   .vaqt-nishon {
-    display: inline-flex; align-items: center; gap: 7px;
-    border: 1px solid var(--oltin-xira); background: rgba(212,175,55,.09);
-    color: var(--oltin); border-radius: 999px; padding: 5px 8px 5px 12px;
-    font-size: 14px; font-variant-numeric: tabular-nums;
+    display: inline-flex; align-items: center; gap: 6px;
+    background: var(--asos-och); color: var(--asos);
+    border-radius: 999px; padding: 6px 9px 6px 13px;
+    font-size: 13.5px; font-weight: 500; font-variant-numeric: tabular-nums;
   }
-  .vaqt-nishon.ochiq-holat { opacity: .4; }
+  .vaqt-nishon.ochiq-holat { opacity: .45; }
   .vaqt-nishon button {
     background: none; border: 0; color: inherit; cursor: pointer;
-    font-size: 15px; line-height: 1; padding: 0 2px; opacity: .65;
+    font-size: 15px; line-height: 1; padding: 0 2px; opacity: .6;
   }
   .vaqt-nishon button:hover { opacity: 1; }
   .kalit-tugma {
     display: flex; align-items: center; gap: 10px; width: 100%;
-    background: none; border: 0; color: var(--matn); font: inherit;
+    background: none; border: 0; color: var(--matn); font: inherit; font-weight: 500;
     cursor: pointer; padding: 0; margin-bottom: 12px; text-align: left;
   }
   .kalit-yugurt {
-    flex: 0 0 auto; width: 42px; height: 24px; border-radius: 999px;
-    background: rgba(255,255,255,.1); border: 1px solid var(--chegara);
-    position: relative; transition: background .2s, border-color .2s;
+    flex: 0 0 auto; width: 44px; height: 25px; border-radius: 999px;
+    background: #d7deef; position: relative; transition: background .2s;
   }
   .kalit-yugurt::after {
-    content: ''; position: absolute; top: 2px; left: 2px;
-    width: 18px; height: 18px; border-radius: 50%;
-    background: var(--matn-xira); transition: transform .2s, background .2s;
+    content: ''; position: absolute; top: 3px; left: 3px;
+    width: 19px; height: 19px; border-radius: 50%;
+    background: #fff; box-shadow: 0 1px 4px rgba(21,42,99,.25);
+    transition: transform .2s;
   }
-  .kalit-tugma.yoniq .kalit-yugurt { background: rgba(212,175,55,.25); border-color: var(--oltin); }
-  .kalit-tugma.yoniq .kalit-yugurt::after { transform: translateX(18px); background: var(--oltin); }
+  .kalit-tugma.yoniq .kalit-yugurt { background: var(--asos); }
+  .kalit-tugma.yoniq .kalit-yugurt::after { transform: translateX(19px); }
 
   .izoh {
-    margin-top: 4px; padding: 12px 14px; font-size: 14.5px;
-    border-left: 2px solid var(--oltin); border-radius: 0 10px 10px 0;
-    background: rgba(212,175,55,.06); color: var(--matn-xira);
+    margin-top: 4px; padding: 13px 15px; font-size: 14px;
+    border-radius: 14px; background: var(--asos-och); color: #3d4a7a;
     animation: ochil .28s ease;
   }
 
-  .xabar { text-align: center; color: var(--matn-xira); padding: 48px 20px; font-size: 15px; }
-  .xabar .belgi { font-size: 34px; color: var(--oltin); opacity: .55; display: block; margin-bottom: 12px; }
+  /* ---------- Ro'yxat qatorlari (Jarayon / Kundalik / Eslatmalar) ---------- */
+  .qator-karta {
+    display: flex; align-items: center; gap: 13px; width: 100%;
+    background: var(--karta); border: 1px solid var(--chegara);
+    border-radius: 18px; padding: 13px 15px; margin-bottom: 10px;
+    box-shadow: var(--soya-past); cursor: pointer;
+    font: inherit; color: inherit; text-align: left;
+    transition: transform .16s ease, box-shadow .18s;
+  }
+  .qator-karta:active { transform: scale(.985); }
+  .qator-karta.jim { cursor: default; }
+  .qator-karta.jim:active { transform: none; }
+  .qator-nishon {
+    flex: 0 0 auto; width: 44px; height: 44px; border-radius: 14px;
+    display: grid; place-items: center; font-size: 18px;
+    background: var(--asos-och); color: var(--asos);
+  }
+  .qator-matn { flex: 1; min-width: 0; }
+  .qator-matn h4 {
+    font-size: 14.5px; font-weight: 600; margin-bottom: 2px;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .qator-matn p { margin: 0; font-size: 12.5px; color: var(--matn-xira); }
+  .qator-son { flex: 0 0 auto; font-size: 14px; font-weight: 600; color: var(--asos); }
+
+  .stat-panel {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 8px;
+  }
+  .stat-quti {
+    background: var(--karta); border: 1px solid var(--chegara); border-radius: 18px;
+    padding: 15px 10px; text-align: center; box-shadow: var(--soya-past);
+  }
+  .stat-quti b { display: block; font-size: 22px; font-weight: 700; color: var(--asos); line-height: 1.2; }
+  .stat-quti span { font-size: 11.5px; color: var(--matn-xira); }
+
+  /* ---------- Pastki navigatsiya ---------- */
+  .past-nav {
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 20;
+    display: flex; justify-content: center;
+    padding: 0 12px calc(10px + env(safe-area-inset-bottom));
+    pointer-events: none;
+  }
+  .past-nav-ich {
+    display: flex; width: 100%; max-width: 420px;
+    background: var(--karta); border: 1px solid var(--chegara);
+    border-radius: 22px; padding: 8px 6px;
+    box-shadow: 0 -2px 22px rgba(30, 58, 138, .12);
+    pointer-events: auto;
+  }
+  .nav-tug {
+    flex: 1; display: flex; flex-direction: column; align-items: center; gap: 3px;
+    background: none; border: 0; cursor: pointer; padding: 5px 2px;
+    color: var(--matn-xira); font-family: var(--sans); font-size: 10.5px; font-weight: 500;
+    transition: color .18s;
+  }
+  .nav-tug .nav-belgi {
+    width: 34px; height: 30px; border-radius: 11px;
+    display: grid; place-items: center; font-size: 16px;
+    transition: background .2s, color .2s;
+  }
+  .nav-tug.faol { color: var(--asos); }
+  .nav-tug.faol .nav-belgi { background: var(--asos-och); }
+
+  /* ---------- Umumiy ---------- */
+  .xabar { text-align: center; color: var(--matn-xira); padding: 44px 20px; font-size: 14.5px; }
+  .xabar .belgi {
+    width: 62px; height: 62px; margin: 0 auto 14px; border-radius: 22px;
+    display: grid; place-items: center; font-size: 26px;
+    background: var(--asos-och); color: var(--asos);
+  }
 
   .yuklanmoqda { display: grid; place-items: center; padding: 60px 0; }
   .aylana {
     width: 30px; height: 30px; border-radius: 50%;
-    border: 2px solid var(--oltin-xira); border-top-color: var(--oltin);
+    border: 3px solid rgba(30,58,138,.15); border-top-color: var(--asos);
     animation: aylan .8s linear infinite;
   }
   @keyframes aylan { to { transform: rotate(360deg); } }
 
-  .izohcha { text-align: center; font-size: 12px; color: rgba(167,158,194,.6); margin-top: 30px; }
+  .izohcha { text-align: center; font-size: 11.5px; color: var(--matn-xira); margin-top: 26px; }
 
   @media (max-width: 400px) {
-    .qobiq { padding: 16px 12px 34px; }
-    .bosh h1 { font-size: 25px; }
-    .kitob-bosh h2 { font-size: 21px; }
-    .muqova { width: 54px; height: 76px; }
+    .qobiq { padding: 12px 13px calc(94px + env(safe-area-inset-bottom)); }
+    .salom h1 { font-size: 23px; }
+    .kartalar { gap: 10px; }
+    .kitob-karta { padding: 12px; border-radius: 18px; }
     .bolim-tugma { padding: 13px 13px; gap: 10px; }
     .bolim-ich { padding: 0 13px 16px; }
+    .hero { padding: 20px 16px; }
   }
 
   @media (prefers-reduced-motion: reduce) {
     * { animation-duration: .01ms !important; transition-duration: .01ms !important; }
   }
 </style>
+
 
 <div id="ildiz">
   <div class="yuklanmoqda"><div class="aylana"></div></div>
@@ -460,8 +574,8 @@ function tgTayyor() {
   try {
     TG.ready();
     TG.expand();
-    if (TG.setHeaderColor) TG.setHeaderColor('#0f0a1e');
-    if (TG.setBackgroundColor) TG.setBackgroundColor('#0f0a1e');
+    if (TG.setHeaderColor) TG.setHeaderColor('#eef1f8');
+    if (TG.setBackgroundColor) TG.setBackgroundColor('#eef1f8');
     if (TG.enableClosingConfirmation) TG.enableClosingConfirmation();
   } catch (e) {}
 }
@@ -492,6 +606,28 @@ function backButton(korsat, ishlov) {
   } catch (e) { return function () {}; }
 }
 
+/* Hex rangni to'qlashtirish — muqova va hero gradienti uchun */
+function qoraytir(hex, ulush) {
+  try {
+    const u = typeof ulush === 'number' ? ulush : .45;
+    const t = String(hex).replace('#', '');
+    const to = t.length === 3 ? t.split('').map(function (c) { return c + c; }).join('') : t;
+    const n = parseInt(to, 16);
+    const r = Math.round(((n >> 16) & 255) * (1 - u));
+    const g = Math.round(((n >> 8) & 255) * (1 - u));
+    const b = Math.round((n & 255) * (1 - u));
+    return 'rgb(' + r + ',' + g + ',' + b + ')';
+  } catch (e) { return '#152a63'; }
+}
+
+/* Telegram foydalanuvchisining ismi — bo'lmasa null */
+function tgIsm() {
+  try {
+    const u = TG && TG.initDataUnsafe ? TG.initDataUnsafe.user : null;
+    return u && u.first_name ? u.first_name : null;
+  } catch (e) { return null; }
+}
+
 /* ==================== localStorage yordamchilari ==================== */
 
 function kalit(kitobId, bolimIdx, mashqIdx) {
@@ -506,9 +642,35 @@ function oqi(k, standart) {
   } catch (e) { return standart; }
 }
 
+/* Saqlash hodisasiga obuna — jarayon foizi jonli yangilanishi uchun */
+const tinglovchilar = [];
+let ogohSoat = null;
+
+function ogohlantir() {
+  if (ogohSoat) clearTimeout(ogohSoat);
+  ogohSoat = setTimeout(function () {
+    ogohSoat = null;
+    tinglovchilar.slice().forEach(function (f) { try { f(); } catch (e) {} });
+  }, 250);
+}
+
 function yoz(k, qiymat) {
-  try { window.localStorage.setItem(k, JSON.stringify(qiymat)); return true; }
+  try { window.localStorage.setItem(k, JSON.stringify(qiymat)); ogohlantir(); return true; }
   catch (e) { return false; }
+}
+
+/* Har safar biror javob saqlanganda ortadigan hisoblagich */
+function useSaqlashVersiya() {
+  const [versiya, oVersiya] = useState(0);
+  useEffect(function () {
+    function ishlov() { oVersiya(function (v) { return v + 1; }); }
+    tinglovchilar.push(ishlov);
+    return function () {
+      const i = tinglovchilar.indexOf(ishlov);
+      if (i !== -1) tinglovchilar.splice(i, 1);
+    };
+  }, []);
+  return versiya;
 }
 
 /* Saqlangan qiymatni komponent ichida boshqarish uchun umumiy hook */
@@ -530,6 +692,54 @@ function useSaqlash(k, standart) {
   }, []);
 
   return [qiymat, yangila, saqlandi];
+}
+
+/* ==================== Jarayon hisobi ==================== */
+
+/* Mashq "bajarilgan" deb hisoblanadimi — saqlangan qiymatga qarab */
+function mashqBajarilgan(m, q) {
+  if (q === null || q === undefined) return false;
+  switch (m.turi) {
+    case 'jurnal': return typeof q === 'string' && q.trim().length > 0;
+    case 'checklist': return Array.isArray(q) && (m.bandlar || []).length > 0 && q.length >= m.bandlar.length;
+    case 'slider': return typeof q === 'number';
+    case 'test': return q !== null;
+    case 'taymer': return Boolean(q && q.marta);
+    case 'kundalik': return Array.isArray(q) && q.length > 0;
+    case 'eslatma': return Boolean(q && q.yoniq);
+    default: return false;
+  }
+}
+
+/* Kitob bo'yicha: jami mashq, bajarilgani va foizi */
+function kitobHisob(kitob) {
+  let jami = 0, bajarildi = 0;
+  (kitob.bolimlar || []).forEach(function (b, bi) {
+    (b.mashqlar || []).forEach(function (m, mi) {
+      jami++;
+      if (mashqBajarilgan(m, oqi(kalit(kitob.id, bi, mi), null))) bajarildi++;
+    });
+  });
+  return { jami: jami, bajarildi: bajarildi, foiz: jami ? Math.round(bajarildi / jami * 100) : 0 };
+}
+
+/* Barcha kitoblardan berilgan turdagi mashqlarni yig'ish */
+function mashqlarniYig(barcha, turi) {
+  const natija = [];
+  Object.keys(barcha || {}).forEach(function (id) {
+    const kitob = barcha[id];
+    if (!kitob) return;
+    (kitob.bolimlar || []).forEach(function (b, bi) {
+      (b.mashqlar || []).forEach(function (m, mi) {
+        if (m.turi !== turi) return;
+        natija.push({
+          kitobId: id, kitobNomi: kitob.nomi, bolim: b.sarlavha,
+          m: m, k: kalit(id, bi, mi), qiymat: oqi(kalit(id, bi, mi), null)
+        });
+      });
+    });
+  });
+  return natija;
 }
 
 /* ==================== Mashqlar ==================== */
@@ -643,6 +853,15 @@ function Taymer(props) {
   const [qolgan, oQolgan] = useState(jami);
   const [ketmoqda, oKetmoqda] = useState(false);
   const [tugadi, oTugadi] = useState(false);
+  const [natija, yangilaNatija] = useSaqlash(props.k, null);
+  const marta = (natija && natija.marta) || 0;
+
+  /* Tugaganda hisobni oshirib saqlaydi — jarayon foizi shundan chiqadi */
+  const belgilaTugadi = useCallback(function () {
+    const eski = oqi(props.k, null);
+    const n = ((eski && eski.marta) || 0) + 1;
+    yangilaNatija({ marta: n, oxirgi: sanaKalit(new Date()) });
+  }, [props.k, yangilaNatija]);
 
   useEffect(function () {
     if (!ketmoqda) return;
@@ -653,13 +872,14 @@ function Taymer(props) {
           oKetmoqda(false);
           oTugadi(true);
           haptic('success');
+          belgilaTugadi();
           return 0;
         }
         return avvalgi - 1;
       });
     }, 1000);
     return function () { clearInterval(id); };
-  }, [ketmoqda]);
+  }, [ketmoqda, belgilaTugadi]);
 
   function boshla() {
     haptic('medium');
@@ -700,6 +920,9 @@ function Taymer(props) {
           <button className="tug jim" onClick={qayta}>Qayta</button>
         </div>
         {tugadi ? <div className="izoh" style={{ width: '100%' }}>🌙 Mashq tugadi. O'zingizni qanday his qilyapsiz?</div> : null}
+      </div>
+      <div className="holat">
+        {marta ? 'Bu mashqni ' + marta + ' marta bajardingiz' : 'Taymer tugaganda bajarilgan deb belgilanadi'}
       </div>
     </div>
   );
@@ -1151,6 +1374,7 @@ function KitobSahifa(props) {
   const [kitob, oKitob] = useState(null);
   const [xato, oXato] = useState(null);
   const [ochiq, oOchiq] = useState(0);
+  useSaqlashVersiya();
 
   useEffect(function () {
     let bekor = false;
@@ -1167,12 +1391,20 @@ function KitobSahifa(props) {
 
   useEffect(function () { window.scrollTo(0, 0); }, [props.id]);
 
+  const panel = (
+    <div className="panel">
+      <button className="dumaloq-tug orqaga" onClick={props.orqaga} aria-label="Ortga"><Ikonka nom="chap" olcham={18} /></button>
+      <h2>Kitob</h2>
+      <span style={{ width: 40 }} />
+    </div>
+  );
+
   if (xato) {
     return (
       <div>
-        <button className="orqaga" onClick={props.orqaga}>← Ortga</button>
+        {panel}
         <div className="xabar">
-          <span className="belgi">☾</span>
+          <span className="belgi">!</span>
           Kitobni yuklab bo'lmadi.<br /><small>{xato}</small>
         </div>
       </div>
@@ -1182,23 +1414,36 @@ function KitobSahifa(props) {
   if (!kitob) {
     return (
       <div>
-        <button className="orqaga" onClick={props.orqaga}>← Ortga</button>
+        {panel}
         <div className="yuklanmoqda"><div className="aylana"></div></div>
       </div>
     );
   }
 
   const bolimlar = kitob.bolimlar || [];
+  const hisob = kitobHisob({ id: kitob.id || props.id, bolimlar: bolimlar });
+  const rang = props.rang || '#1e3a8a';
 
   return (
     <div>
-      <button className="orqaga" onClick={props.orqaga}>← Ortga</button>
+      {panel}
 
-      <div className="kitob-bosh">
+      <div className="hero" style={{ background: 'linear-gradient(158deg, ' + rang + ', ' + qoraytir(rang) + ')' }}>
+        <div className="hero-muqova">✦</div>
         <h2>{kitob.nomi}</h2>
         <div className="muallif">{kitob.muallif}</div>
-        <div className="ajratgich"></div>
-        {kitob.kirish ? <p className="kirish">{kitob.kirish}</p> : null}
+        <div className="hero-stat">
+          <div><b>{bolimlar.length}</b><span>Bo'lim</span></div>
+          <div><b>{hisob.jami}</b><span>Mashq</span></div>
+          <div><b>{hisob.foiz}%</b><span>Bajarildi</span></div>
+        </div>
+      </div>
+
+      {kitob.kirish ? <p className="kirish">{kitob.kirish}</p> : null}
+
+      <div className="satr-bosh">
+        <h3>Bo'limlar</h3>
+        <span>{hisob.bajarildi} / {hisob.jami} mashq</span>
       </div>
 
       {bolimlar.map(function (b, i) {
@@ -1222,48 +1467,177 @@ function KitobSahifa(props) {
   );
 }
 
-/* ==================== Kitoblar ro'yxati ==================== */
+/* ==================== Ikonkalar (chiziqli SVG) ==================== */
+
+const IKONKA = {
+  uy: 'M3 10.6L12 3.5l9 7.1V20a1.5 1.5 0 01-1.5 1.5h-4v-6h-7v6h-4A1.5 1.5 0 013 20z',
+  panel: 'M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h6v6h-6z',
+  jarayon: 'M4 20V10M10 20V4M16 20v-7M22 20H2',
+  qalam: 'M4 20h4L20 8a2.8 2.8 0 00-4-4L4 16z M14 6l4 4',
+  qongiroq: 'M18 9a6 6 0 10-12 0c0 6-2 7-2 7h16s-2-1-2-7M13.7 20a2 2 0 01-3.4 0',
+  chap: 'M15 5l-7 7 7 7',
+  kitob: 'M3 5.5A1.5 1.5 0 014.5 4H9a3 3 0 013 3v12a2.5 2.5 0 00-2.5-2.5H3z M21 5.5A1.5 1.5 0 0019.5 4H15a3 3 0 00-3 3v12a2.5 2.5 0 012.5-2.5H21z'
+};
+
+function Ikonka(props) {
+  const olcham = props.olcham || 20;
+  return (
+    <svg
+      width={olcham} height={olcham} viewBox="0 0 24 24" fill="none"
+      stroke="currentColor" strokeWidth={props.qalinlik || 1.8}
+      strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"
+    >
+      <path d={IKONKA[props.nom] || ''} />
+    </svg>
+  );
+}
+
+/* ==================== Umumiy bo'laklar ==================== */
+
+function Qidiruv(props) {
+  return (
+    <div className="qidiruv">
+      <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round">
+        <circle cx="11" cy="11" r="7" />
+        <path d="M20 20l-3.6-3.6" />
+      </svg>
+      <input
+        type="text"
+        value={props.qiymat}
+        placeholder={props.joy || 'Qidirish'}
+        onChange={function (e) { props.oQiymat(e.target.value); }}
+      />
+      {props.qiymat ? (
+        <button onClick={function () { props.oQiymat(''); }} aria-label="Tozalash">×</button>
+      ) : null}
+    </div>
+  );
+}
+
+function BoshQator(props) {
+  return (
+    <div className="satr-bosh">
+      <h3>{props.nomi}</h3>
+      {props.ong ? <span>{props.ong}</span> : null}
+    </div>
+  );
+}
+
+function Bosh(props) {
+  return (
+    <div className="panel">
+      {props.chap || <span style={{ width: 40 }} />}
+      <h2>{props.nomi}</h2>
+      {props.ong || <span style={{ width: 40 }} />}
+    </div>
+  );
+}
+
+/* ==================== Kitoblar ro'yxati (bosh sahifa) ==================== */
+
+function salomMatni() {
+  const s = new Date().getHours();
+  if (s < 5) return 'Xayrli tun';
+  if (s < 11) return 'Xayrli tong';
+  if (s < 17) return 'Xayrli kun';
+  return 'Xayrli kech';
+}
 
 function Royxat(props) {
+  const [qidiruv, oQidiruv] = useState('');
+  const ism = tgIsm();
+  const oxirgi = oqi('km_oxirgi', null);
+
+  /* Oxirgi ochilgan kitob boshida turadi — "davom ettirish" uchun */
+  const kitoblar = (props.kitoblar || []).slice().sort(function (a, b) {
+    return (b.id === oxirgi ? 1 : 0) - (a.id === oxirgi ? 1 : 0);
+  });
+  const sorov = qidiruv.trim().toLowerCase();
+  const koringan = sorov
+    ? kitoblar.filter(function (k) {
+        return (k.nomi + ' ' + k.muallif + ' ' + (k.tavsif || '')).toLowerCase().indexOf(sorov) !== -1;
+      })
+    : kitoblar;
+
   return (
     <div>
-      <header className="bosh">
-        <div className="belgi">☾ ✦ ☾</div>
-        <h1>Kitob Mag'zi</h1>
-        <p>Psixologiya va o'z-o'zini anglash kitoblarining mag'zi</p>
-        <div className="ajratgich"></div>
-      </header>
+      <Bosh
+        nomi="Bosh sahifa"
+        chap={<button className="dumaloq-tug" onClick={function () { haptic('light'); props.tab('jarayon'); }} aria-label="Jarayon"><Ikonka nom="panel" olcham={18} /></button>}
+        ong={
+          <button className="dumaloq-tug" onClick={function () { haptic('light'); props.tab('eslatma'); }} aria-label="Eslatmalar">
+            <Ikonka nom="qongiroq" olcham={18} />{props.eslatmaSoni ? <span className="nuqta">{props.eslatmaSoni}</span> : null}
+          </button>
+        }
+      />
+
+      <div className="salom">
+        <h1>{ism ? 'Assalomu alaykum, ' + ism + '!' : 'Assalomu alaykum!'}</h1>
+        <p>{salomMatni()}</p>
+      </div>
+
+      <Qidiruv qiymat={qidiruv} oQiymat={oQidiruv} joy="Kitob qidirish" />
+
+      <div className="banner">
+        <div className="banner-matn">
+          <h3>Xush kelibsiz!</h3>
+          <p>Bugun bitta bo'limni oching va mashqlaridan birini bajaring.</p>
+        </div>
+        <div className="banner-rasm">
+          <Ikonka nom="kitob" olcham={34} qalinlik={1.6} />
+        </div>
+      </div>
+
+      <BoshQator
+        nomi="Kitoblar"
+        ong={koringan.length ? koringan.length + ' ta' : null}
+      />
 
       {props.xato ? (
         <div className="xabar">
-          <span className="belgi">☾</span>
+          <span className="belgi">!</span>
           Kitoblar ro'yxatini yuklab bo'lmadi.<br />
           <small>{props.xato}</small>
         </div>
       ) : !props.kitoblar ? (
         <div className="yuklanmoqda"><div className="aylana"></div></div>
-      ) : props.kitoblar.length === 0 ? (
-        <div className="xabar"><span className="belgi">☾</span>Hozircha kitob qo'shilmagan.</div>
+      ) : koringan.length === 0 ? (
+        <div className="xabar">
+          <span className="belgi">☾</span>
+          {sorov ? 'Bunday kitob topilmadi.' : "Hozircha kitob qo'shilmagan."}
+        </div>
       ) : (
         <div className="kartalar">
-          {props.kitoblar.map(function (k) {
-            const rang = k.rang || '#6b4c9a';
+          {koringan.map(function (k) {
+            const rang = k.rang || '#1e3a8a';
+            const kitob = props.barcha ? props.barcha[k.id] : null;
+            const hisob = kitob ? kitobHisob(kitob) : null;
+            const faol = k.id === oxirgi;
             return (
               <button
                 key={k.id}
-                className="kitob-karta"
+                className={'kitob-karta' + (faol ? ' faol' : '')}
                 onClick={function () { props.och(k.id); }}
               >
-                <div
-                  className="muqova"
-                  style={{ background: 'linear-gradient(150deg, ' + rang + ', ' + rang + '55 60%, #0f0a1e)' }}
-                >
-                  <span>✦</span>
+                <div className="karta-yuqori">
+                  <div
+                    className="muqova"
+                    style={{ background: 'linear-gradient(150deg, ' + rang + ', ' + qoraytir(rang, .3) + ')' }}
+                  >✦</div>
+                  <span className="karta-nuqta">⋮</span>
                 </div>
+
                 <div className="kitob-matn">
                   <h3>{k.nomi}</h3>
                   <div className="muallif">{k.muallif}</div>
-                  {k.tavsif ? <div className="tavsif">{k.tavsif}</div> : null}
+                </div>
+
+                <div className="karta-jarayon">
+                  <div className="yorliq">{faol ? 'Davom ettiring' : 'Jarayon'}</div>
+                  <div className="qator">
+                    <div className="progress-chiziq"><i style={{ width: (hisob ? hisob.foiz : 0) + '%' }} /></div>
+                    <span className="foiz">{hisob ? hisob.foiz + '%' : '—'}</span>
+                  </div>
                 </div>
               </button>
             );
@@ -1271,8 +1645,257 @@ function Royxat(props) {
         </div>
       )}
 
-      <div className="izohcha">Har bir kitob — bir kechalik suhbat</div>
+      <div className="izohcha">Javoblaringiz faqat shu qurilmada saqlanadi</div>
     </div>
+  );
+}
+
+/* ==================== Jarayon sahifasi ==================== */
+
+function Jarayon(props) {
+  const kitoblar = props.kitoblar || [];
+  const barcha = props.barcha || {};
+
+  let jami = 0, bajarildi = 0;
+  const qatorlar = kitoblar.map(function (k) {
+    const kitob = barcha[k.id];
+    const h = kitob ? kitobHisob(kitob) : { jami: 0, bajarildi: 0, foiz: 0 };
+    jami += h.jami; bajarildi += h.bajarildi;
+    return { k: k, h: h };
+  });
+
+  /* Kundalik yozuvlari va ketma-ket kunlar — barcha kitoblar bo'ylab */
+  const yozuvlar = [];
+  mashqlarniYig(barcha, 'kundalik').forEach(function (x) {
+    if (Array.isArray(x.qiymat)) x.qiymat.forEach(function (y) { yozuvlar.push(y); });
+  });
+  const kunlar = seriya(yozuvlar.map(function (y) { return y.sana; }));
+
+  return (
+    <div>
+      <Bosh
+        nomi="Jarayon"
+        chap={<button className="dumaloq-tug" onClick={props.orqaga} aria-label="Ortga"><Ikonka nom="chap" olcham={18} /></button>}
+      />
+
+      <div className="stat-panel">
+        <div className="stat-quti"><b>{bajarildi}</b><span>Bajarilgan</span></div>
+        <div className="stat-quti"><b>{jami ? Math.round(bajarildi / jami * 100) : 0}%</b><span>Umumiy</span></div>
+        <div className="stat-quti"><b>{kunlar}</b><span>Ketma-ket kun</span></div>
+      </div>
+
+      <BoshQator nomi="Kitoblar bo'yicha" ong={jami + ' ta mashq'} />
+
+      {qatorlar.length === 0 ? (
+        <div className="yuklanmoqda"><div className="aylana"></div></div>
+      ) : qatorlar.map(function (q) {
+        const rang = q.k.rang || '#1e3a8a';
+        return (
+          <button key={q.k.id} className="qator-karta" onClick={function () { props.och(q.k.id); }}>
+            <div
+              className="qator-nishon"
+              style={{ background: 'linear-gradient(150deg, ' + rang + ', ' + qoraytir(rang, .3) + ')', color: '#fff' }}
+            >✦</div>
+            <div className="qator-matn">
+              <h4>{q.k.nomi}</h4>
+              <p>{q.h.bajarildi} / {q.h.jami} mashq</p>
+              <div className="progress-chiziq" style={{ marginTop: 8 }}>
+                <i style={{ width: q.h.foiz + '%' }} />
+              </div>
+            </div>
+            <span className="qator-son">{q.h.foiz}%</span>
+          </button>
+        );
+      })}
+
+      <div className="izohcha">Foiz saqlangan javoblardan hisoblanadi</div>
+    </div>
+  );
+}
+
+/* ==================== Kundalik sahifasi ==================== */
+
+function KundalikSahifa(props) {
+  const [qidiruv, oQidiruv] = useState('');
+  const barcha = props.barcha || {};
+
+  const hammasi = [];
+  mashqlarniYig(barcha, 'kundalik').forEach(function (x) {
+    if (!Array.isArray(x.qiymat)) return;
+    x.qiymat.forEach(function (y) {
+      hammasi.push({
+        sana: y.sana, vaqt: y.vaqt, matn: y.matn, belgilar: y.belgilar || [],
+        kitobId: x.kitobId, kitobNomi: x.kitobNomi, mashqNomi: x.m.sarlavha || 'Kundalik'
+      });
+    });
+  });
+  mashqlarniYig(barcha, 'jurnal').forEach(function (x) {
+    if (typeof x.qiymat === 'string' && x.qiymat.trim()) {
+      hammasi.push({
+        sana: null, vaqt: null, matn: x.qiymat, belgilar: [],
+        kitobId: x.kitobId, kitobNomi: x.kitobNomi, mashqNomi: 'Jurnal — ' + x.bolim
+      });
+    }
+  });
+  hammasi.sort(function (a, b) { return String(b.sana || '').localeCompare(String(a.sana || '')); });
+
+  const sorov = qidiruv.trim().toLowerCase();
+  const koringan = sorov
+    ? hammasi.filter(function (y) {
+        return (y.matn + ' ' + y.belgilar.join(' ') + ' ' + y.kitobNomi).toLowerCase().indexOf(sorov) !== -1;
+      })
+    : hammasi;
+
+  const kunlar = seriya(hammasi.map(function (y) { return y.sana; }).filter(Boolean));
+
+  return (
+    <div>
+      <Bosh
+        nomi="Kundalik"
+        chap={<button className="dumaloq-tug" onClick={props.orqaga} aria-label="Ortga"><Ikonka nom="chap" olcham={18} /></button>}
+      />
+
+      <div className="stat-panel">
+        <div className="stat-quti"><b>{hammasi.length}</b><span>Yozuv</span></div>
+        <div className="stat-quti"><b>{kunlar}</b><span>Ketma-ket kun</span></div>
+        <div className="stat-quti"><b>{Object.keys(barcha).length}</b><span>Kitob</span></div>
+      </div>
+
+      <Qidiruv qiymat={qidiruv} oQiymat={oQidiruv} joy="Yozuvlar ichidan qidirish" />
+
+      {hammasi.length === 0 ? (
+        <div className="xabar">
+          <span className="belgi"><Ikonka nom="qalam" olcham={26} /></span>
+          Hali yozuv yo'q.<br />
+          <small>Kitoblardagi kundalik va jurnal mashqlariga yozganlaringiz shu yerda to'planadi.</small>
+        </div>
+      ) : koringan.length === 0 ? (
+        <div className="xabar"><span className="belgi">☾</span>Bunday yozuv topilmadi.</div>
+      ) : (
+        koringan.map(function (y, i) {
+          return (
+            <button key={i} className="qator-karta" onClick={function () { props.och(y.kitobId); }}>
+              <div className="qator-nishon"><Ikonka nom={y.sana ? 'kitob' : 'qalam'} /></div>
+              <div className="qator-matn">
+                <h4>{y.sana ? sanaChirey(y.sana) + (y.vaqt ? ' · ' + y.vaqt : '') : y.mashqNomi}</h4>
+                <p style={{ color: '#1e3a8a', fontWeight: 500 }}>{y.kitobNomi}</p>
+                <p style={{ whiteSpace: 'normal', marginTop: 3 }}>{y.matn.length > 90 ? y.matn.slice(0, 90) + '…' : y.matn}</p>
+                {y.belgilar.length ? (
+                  <div className="nishonlar">
+                    {y.belgilar.map(function (b, j) { return <span key={j} className="nishon">{b}</span>; })}
+                  </div>
+                ) : null}
+              </div>
+            </button>
+          );
+        })
+      )}
+    </div>
+  );
+}
+
+/* ==================== Eslatmalar sahifasi ==================== */
+
+function EslatmaSahifa(props) {
+  const barcha = props.barcha || {};
+  const [belgi, oBelgi] = useState(0);
+  const royxat = mashqlarniYig(barcha, 'eslatma');
+
+  function almashtir(x) {
+    haptic('medium');
+    const eski = oqi(x.k, null);
+    const vaqtlar = (eski && eski.vaqtlar) || x.m.vaqtlar || [];
+    yoz(x.k, { yoniq: !(eski && eski.yoniq), vaqtlar: vaqtlar });
+    oBelgi(belgi + 1);
+  }
+
+  const yoniq = royxat.filter(function (x) { return x.qiymat && x.qiymat.yoniq; });
+
+  return (
+    <div>
+      <Bosh
+        nomi="Eslatmalar"
+        chap={<button className="dumaloq-tug" onClick={props.orqaga} aria-label="Ortga"><Ikonka nom="chap" olcham={18} /></button>}
+      />
+
+      <div className="stat-panel">
+        <div className="stat-quti"><b>{yoniq.length}</b><span>Yoqilgan</span></div>
+        <div className="stat-quti"><b>{royxat.length}</b><span>Jami</span></div>
+        <div className="stat-quti">
+          <b>{yoniq.reduce(function (n, x) { return n + ((x.qiymat && x.qiymat.vaqtlar) || []).length; }, 0)}</b>
+          <span>Kunlik signal</span>
+        </div>
+      </div>
+
+      {royxat.length === 0 ? (
+        <div className="xabar">
+          <span className="belgi"><Ikonka nom="qongiroq" olcham={26} /></span>
+          Eslatmali mashq topilmadi.
+        </div>
+      ) : (
+        <div>
+          <BoshQator nomi="Barcha eslatmalar" />
+          {royxat.map(function (x, i) {
+            const yoq = Boolean(x.qiymat && x.qiymat.yoniq);
+            const vaqtlar = (x.qiymat && x.qiymat.vaqtlar) || x.m.vaqtlar || [];
+            return (
+              <div key={i} className="qator-karta jim" style={{ alignItems: 'flex-start' }}>
+                <div className="qator-nishon" style={yoq ? { background: '#1e3a8a', color: '#fff' } : null}><Ikonka nom="qongiroq" /></div>
+                <div className="qator-matn">
+                  <h4>{x.m.sarlavha || 'Eslatma'}</h4>
+                  <p>{x.kitobNomi}</p>
+                  <div className="nishonlar">
+                    {vaqtlar.map(function (v) { return <span key={v} className="nishon">{v}</span>; })}
+                  </div>
+                  <div className="tugmalar" style={{ justifyContent: 'flex-start', marginTop: 10 }}>
+                    <button className={'tug' + (yoq ? '' : ' asosiy')} onClick={function () { almashtir(x); }}>
+                      {yoq ? "O'chirish" : 'Yoqish'}
+                    </button>
+                    <button className="tug jim" onClick={function () { props.och(x.kitobId); }}>Kitobga o'tish</button>
+                  </div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      )}
+
+      <div className="izohcha">
+        Bildirishnoma ilova ochiq turganda ishlaydi. Kun bo'yi eslatish uchun kitob ichidagi
+        «Kalendarga qo'shish» tugmasidan foydalaning.
+      </div>
+    </div>
+  );
+}
+
+/* ==================== Pastki navigatsiya ==================== */
+
+const NAV = [
+  { id: 'kitoblar', belgi: 'uy', nomi: 'Kitoblar' },
+  { id: 'jarayon', belgi: 'jarayon', nomi: 'Jarayon' },
+  { id: 'kundalik', belgi: 'qalam', nomi: 'Kundalik' },
+  { id: 'eslatma', belgi: 'qongiroq', nomi: 'Eslatma' }
+];
+
+function PastNav(props) {
+  return (
+    <nav className="past-nav">
+      <div className="past-nav-ich">
+        {NAV.map(function (n) {
+          return (
+            <button
+              key={n.id}
+              className={'nav-tug' + (props.faol === n.id ? ' faol' : '')}
+              onClick={function () { haptic('select'); props.tanla(n.id); }}
+              aria-current={props.faol === n.id}
+            >
+              <span className="nav-belgi"><Ikonka nom={n.belgi} /></span>
+              {n.nomi}
+            </button>
+          );
+        })}
+      </div>
+    </nav>
   );
 }
 
@@ -1280,24 +1903,49 @@ function Royxat(props) {
 
 function Ilova() {
   const [kitoblar, oKitoblar] = useState(null);
+  const [barcha, oBarcha] = useState({});
   const [xato, oXato] = useState(null);
   const [joriy, oJoriy] = useState(null);
+  const [tab, oTab] = useState('kitoblar');
 
   useEffect(function () { tgTayyor(); }, []);
 
+  /* Ro'yxat, keyin fonda barcha kitoblar — jarayon va kundalik shundan hisoblanadi */
   useEffect(function () {
+    let bekor = false;
     fetch('books/index.json', { cache: 'no-cache' })
       .then(function (r) {
         if (!r.ok) throw new Error('HTTP ' + r.status);
         return r.json();
       })
-      .then(function (d) { oKitoblar((d && d.kitoblar) || []); })
-      .catch(function (e) { oXato(String(e.message || e)); });
+      .then(function (d) {
+        if (bekor) return;
+        const ro = (d && d.kitoblar) || [];
+        oKitoblar(ro);
+        return Promise.all(ro.map(function (k) {
+          return fetch('books/' + k.id + '.json', { cache: 'no-cache' })
+            .then(function (r) { return r.ok ? r.json() : null; })
+            .catch(function () { return null; });
+        })).then(function (natijalar) {
+          if (bekor) return;
+          const xarita = {};
+          ro.forEach(function (k, i) { if (natijalar[i]) xarita[k.id] = natijalar[i]; });
+          oBarcha(xarita);
+        });
+      })
+      .catch(function (e) { if (!bekor) oXato(String(e.message || e)); });
+    return function () { bekor = true; };
   }, []);
 
   const orqaga = useCallback(function () {
     haptic('light');
     oJoriy(null);
+  }, []);
+
+  const och = useCallback(function (id) {
+    haptic('medium');
+    yoz('km_oxirgi', id);
+    oJoriy(id);
   }, []);
 
   /* Telegram BackButton — faqat kitob ichida */
@@ -1315,16 +1963,47 @@ function Ilova() {
     }
   }, [joriy]);
 
+  useEffect(function () { window.scrollTo(0, 0); }, [tab, joriy]);
+
+  const eslatmaSoni = mashqlarniYig(barcha, 'eslatma')
+    .filter(function (x) { return x.qiymat && x.qiymat.yoniq; }).length;
+
+  const joriyKitob = joriy && kitoblar
+    ? kitoblar.filter(function (k) { return k.id === joriy; })[0]
+    : null;
+
+  function tabgaOt(id) {
+    oJoriy(null);
+    oTab(id);
+  }
+
+  let ichi;
+  if (joriy) {
+    ichi = <KitobSahifa id={joriy} orqaga={orqaga} rang={joriyKitob ? joriyKitob.rang : null} />;
+  } else if (tab === 'jarayon') {
+    ichi = <Jarayon kitoblar={kitoblar} barcha={barcha} och={och} orqaga={function () { tabgaOt('kitoblar'); }} />;
+  } else if (tab === 'kundalik') {
+    ichi = <KundalikSahifa barcha={barcha} och={och} orqaga={function () { tabgaOt('kitoblar'); }} />;
+  } else if (tab === 'eslatma') {
+    ichi = <EslatmaSahifa barcha={barcha} och={och} orqaga={function () { tabgaOt('kitoblar'); }} />;
+  } else {
+    ichi = (
+      <Royxat
+        kitoblar={kitoblar}
+        barcha={barcha}
+        xato={xato}
+        och={och}
+        tab={tabgaOt}
+        eslatmaSoni={eslatmaSoni}
+      />
+    );
+  }
+
   return (
-    <div className="qobiq">
-      {joriy
-        ? <KitobSahifa id={joriy} orqaga={orqaga} />
-        : <Royxat
-            kitoblar={kitoblar}
-            xato={xato}
-            och={function (id) { haptic('medium'); oJoriy(id); }}
-          />}
-    </div>
+    <React.Fragment>
+      <div className="qobiq">{ichi}</div>
+      <PastNav faol={joriy ? 'kitoblar' : tab} tanla={tabgaOt} />
+    </React.Fragment>
   );
 }
 

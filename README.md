@@ -9,6 +9,27 @@ interaktiv mashqlarini sodda o'zbek tilida yetkazuvchi Telegram WebApp.
 - Javoblar `localStorage`'da, foydalanuvchi qurilmasida saqlanadi
 - Telegram SDK bo'lmasa (oddiy brauzer) ham to'liq ishlaydi
 
+## Dizayn tizimi
+
+Och fon, oq kartalar va to'q ko'k (navy) urg'u — zamonaviy mobil ilova uslubi.
+
+| Token | Qiymat | Qayerda |
+|---|---|---|
+| `--fon` | `#eef1f8` | sahifa foni |
+| `--karta` | `#ffffff` | kartalar, inputlar |
+| `--asos` | `#1e3a8a` | urg'u rangi, ikonkalar, progress |
+| `--asos-tim` | `#152a63` | gradientning to'q uchi |
+| `--asos-och` | `#e7ecfb` | nishonlar, ikonka fonlari |
+| `--matn` / `--matn-xira` | `#16204a` / `#7b86a8` | asosiy / ikkilamchi matn |
+
+- Shrift: **Poppins** (Google Fonts), tizim sans-serifga tushib qoladi
+- Radiuslar: kartalar 18–24px, tugmalar va nishonlar 999px
+- Soyalar yumshoq va ko'kimtir: `0 6px 22px rgba(30,58,138,.07)`
+- Kitob muqovasi va sahifa hero'si kitobning `rang` maydonidan gradient yasaydi
+- Pastki navigatsiya: **Kitoblar · Jarayon · Kundalik · Eslatma** — to'rttasi ham
+  haqiqiy sahifa, `localStorage`'dagi ma'lumotdan hisoblanadi
+- 380px mobil ekranga moslangan, `prefers-reduced-motion` hurmat qilinadi
+
 ## Fayl strukturasi
 
 ```
@@ -216,6 +237,14 @@ Masalan, `namuna` kitobining 1-bo'limidagi 2-mashq → `km_namuna_0_1`.
 boshqa mashqqa tegishli bo'lib qoladi. Mavjud kitobni tahrirlashda yangi mashqni
 oxiriga qo'shgan ma'qul.
 
+Bundan tashqari `km_oxirgi` kaliti oxirgi ochilgan kitob `id`sini saqlaydi — bosh
+sahifada o'sha kitob birinchi bo'lib, to'q ko'k karta ko'rinishida chiqadi.
+
+**Jarayon foizi** shu javoblardan hisoblanadi. Mashq "bajarilgan" deb belgilanadi:
+`jurnal` — matn bo'sh emas; `checklist` — barcha bandlar belgilangan; `slider` —
+qiymat saqlangan; `test` — variant tanlangan; `taymer` — kamida bir marta oxirigacha
+sanagan; `kundalik` — kamida bitta yozuv; `eslatma` — yoqilgan.
+
 Ma'lumot faqat foydalanuvchi qurilmasida qoladi — hech qayerga yuborilmaydi.
 
 ## Telegram integratsiyasi
@@ -226,6 +255,7 @@ Ma'lumot faqat foydalanuvchi qurilmasida qoladi — hech qayerga yuborilmaydi.
 - Header/fon rangi ilova mavzusiga moslanadi
 - `BackButton` — kitob ichida ko'rsatiladi, chiqishda yashiriladi
 - `HapticFeedback` — kitob ochish, akkordeon, checklist, slider, test va taymer tugashida
+- Foydalanuvchi ismi (`initDataUnsafe.user.first_name`) salomlashuvda ishlatiladi, bo'lmasa umumiy matn
 - SDK topilmasa barcha chaqiruvlar jimgina o'tkazib yuboriladi — oddiy brauzerda xato bermaydi
 
 ## Sinovdan o'tkazilgan
@@ -235,5 +265,6 @@ Namuna kitob 5 ta asosiy mashq turini, `lucid-tush` kitobi esa qolgan ikkitasini
 tekshirilgan: har bir mashq turi ishlaydi, `localStorage` saqlaydi va sahifa
 yangilangandan keyin javoblarni tiklaydi, taymer oxirigacha sanaydi, kundalik yozuvlari
 qo'shiladi/o'chiriladi va belgilar sanaladi, eslatma vaqti kelganda ishga tushadi,
-`.ics` fayl to'g'ri tarkib bilan yuklanadi, Telegram SDK va `Notification` bo'lmagan
-holatda ham JS xatosi chiqmaydi.
+`.ics` fayl to'g'ri tarkib bilan yuklanadi, taymer tugagach bajarilgani saqlanib
+jarayon foizi jonli yangilanadi, pastki navigatsiyaning to'rt sahifasi ham ochiladi,
+Telegram SDK va `Notification` bo'lmagan holatda ham JS xatosi chiqmaydi.
