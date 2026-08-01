@@ -1,6 +1,13 @@
 {
   "kitoblar": [
     {
+      "id": "koz-ochish-kaliti",
+      "nomi": "Ahmoqning tajribasi, yoxud ko'z ochish kaliti",
+      "muallif": "Mirzakarim Norbekov",
+      "rang": "#c2622d",
+      "tavsif": "Kasallik xarakterning ko'zgusi: qomat, tabassum va ichki holat orqali o'zini o'zi tiklash tizimi."
+    },
+    {
       "id": "namuna",
       "nomi": "Ichki Kuzatuvchi",
       "muallif": "Namuna Muallif",
