@@ -28,6 +28,9 @@ Och fon, oq kartalar va to'q ko'k (navy) urg'u — zamonaviy mobil ilova uslubi.
 - Kitob muqovasi va sahifa hero'si kitobning `rang` maydonidan gradient yasaydi
 - Pastki navigatsiya: **Kitoblar · Jarayon · Kundalik · Eslatma** — to'rttasi ham
   haqiqiy sahifa, `localStorage`'dagi ma'lumotdan hisoblanadi
+- Kitob ichida har bir bo'lim ikkita bo'limchaga bo'lingan: **💠 Mag'iz** (mag'iz +
+  amaliy tavsiyalar) va **🌙 Mashqlar**. Bo'lim sarlavhasida bajarilgan mashq
+  hisobi ko'rinadi
 - 380px mobil ekranga moslangan, `prefers-reduced-motion` hurmat qilinadi
 
 ## Fayl strukturasi
@@ -130,6 +133,7 @@ Bu so'rovni `https://api.telegram.org/bot<TOKEN>/sendMessage` manziliga POST qil
       "id": "namuna",
       "nomi": "Kitob nomi",
       "muallif": "Muallif ismi",
+      "turkum": "Turkum nomi (ixtiyoriy)",
       "rang": "#6b4c9a",
       "tavsif": "Bir jumlalik qisqa tavsif"
     }
@@ -139,6 +143,11 @@ Bu so'rovni `https://api.telegram.org/bot<TOKEN>/sendMessage` manziliga POST qil
 
 `id` — fayl nomi bilan bir xil bo'lishi kerak (`books/namuna.json`).
 `rang` — muqova gradientining asosiy rangi.
+
+`turkum` — **ixtiyoriy**. Bir xil `turkum` qiymatiga ega kitoblar bosh sahifada va
+Jarayon sahifasida bitta guruh sarlavhasi ostida chiqadi (masalan «Tentakning
+tajribasi» turkumidagi 4 ta kitob). Turkumsiz kitoblar «Boshqa kitoblar» ostiga
+tushadi va ro'yxat oxirida turadi.
 
 ### `books/{id}.json`
 
@@ -267,4 +276,5 @@ yangilangandan keyin javoblarni tiklaydi, taymer oxirigacha sanaydi, kundalik yo
 qo'shiladi/o'chiriladi va belgilar sanaladi, eslatma vaqti kelganda ishga tushadi,
 `.ics` fayl to'g'ri tarkib bilan yuklanadi, taymer tugagach bajarilgani saqlanib
 jarayon foizi jonli yangilanadi, pastki navigatsiyaning to'rt sahifasi ham ochiladi,
+kitoblar turkum bo'yicha guruhlanadi, bo'limchalar bir-biriga to'g'ri almashadi,
 Telegram SDK va `Notification` bo'lmagan holatda ham JS xatosi chiqmaydi.

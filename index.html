@@ -243,7 +243,33 @@
   .strelka { color: var(--asos); opacity: .6; transition: transform .25s ease; font-size: 11px; }
   .bolim.ochiq .strelka { transform: rotate(180deg); }
 
+  .bolim-tugma .kichik { font-size: 11.5px; color: var(--matn-xira); font-weight: 400; margin-top: 2px; }
+
   .bolim-ich { padding: 0 16px 18px; animation: ochil .28s ease; }
+
+  /* Bo'limchalar: Mag'iz | Mashqlar */
+  .bolimcha-tanlov {
+    display: flex; gap: 5px; padding: 5px;
+    background: var(--asos-och-2); border: 1px solid var(--chegara);
+    border-radius: 14px; margin-bottom: 4px;
+  }
+  .bolimcha-tug {
+    flex: 1; display: flex; align-items: center; justify-content: center; gap: 6px;
+    background: none; border: 0; border-radius: 10px; cursor: pointer;
+    padding: 9px 6px; font-family: var(--sans); font-size: 13px; font-weight: 500;
+    color: var(--matn-xira); transition: background .2s, color .2s, box-shadow .2s;
+  }
+  .bolimcha-tug.faol {
+    background: var(--karta); color: var(--asos); font-weight: 600;
+    box-shadow: var(--soya-past);
+  }
+  .bolimcha-tug .son {
+    font-size: 10.5px; font-weight: 600; line-height: 1;
+    background: var(--asos-och); color: var(--asos);
+    border-radius: 999px; padding: 3px 6px;
+  }
+  .bolimcha-tug.faol .son { background: var(--asos); color: #fff; }
+  .bolimcha-ich { animation: ochil .24s ease; }
   @keyframes ochil { from { opacity: 0; transform: translateY(-6px); } to { opacity: 1; transform: none; } }
 
   .qism { margin-top: 18px; }
@@ -1317,39 +1343,78 @@ function Bolim(props) {
   const magiz = b.magiz || [];
   const tavsiyalar = b.tavsiyalar || [];
   const mashqlar = b.mashqlar || [];
+  /* Ikki bo'limcha: ma'nosi alohida, mashqlar alohida */
+  const [bolimcha, oBolimcha] = useState('magiz');
+
+  const bajarildi = mashqlar.filter(function (m, i) {
+    return mashqBajarilgan(m, oqi(kalit(props.kitobId, props.idx, i), null));
+  }).length;
+
+  function tanla(qaysi) {
+    haptic('select');
+    oBolimcha(qaysi);
+  }
 
   return (
     <section className={'bolim' + (props.ochiq ? ' ochiq' : '')}>
       <button className="bolim-tugma" onClick={props.almashtir} aria-expanded={props.ochiq}>
         <span className="raqam">{props.idx + 1}</span>
-        <h4>{b.sarlavha}</h4>
+        <div style={{ flex: 1, minWidth: 0 }}>
+          <h4>{b.sarlavha}</h4>
+          {mashqlar.length ? (
+            <div className="kichik">{bajarildi} / {mashqlar.length} mashq bajarilgan</div>
+          ) : null}
+        </div>
         <span className="strelka">▼</span>
       </button>
 
       {props.ochiq ? (
         <div className="bolim-ich">
-          {magiz.length ? (
-            <div className="qism">
-              <div className="qism-sarlavha">💠 Mag'iz</div>
-              <ul className="magiz">
-                {magiz.map(function (t, i) { return <li key={i}>{t}</li>; })}
-              </ul>
-            </div>
-          ) : null}
+          <div className="bolimcha-tanlov" role="tablist">
+            <button
+              className={'bolimcha-tug' + (bolimcha === 'magiz' ? ' faol' : '')}
+              onClick={function () { tanla('magiz'); }}
+              role="tab" aria-selected={bolimcha === 'magiz'}
+            >💠 Mag'iz</button>
+            <button
+              className={'bolimcha-tug' + (bolimcha === 'mashq' ? ' faol' : '')}
+              onClick={function () { tanla('mashq'); }}
+              role="tab" aria-selected={bolimcha === 'mashq'}
+            >
+              🌙 Mashqlar
+              {mashqlar.length ? <span className="son">{mashqlar.length}</span> : null}
+            </button>
+          </div>
 
-          {tavsiyalar.length ? (
-            <div className="qism">
-              <div className="qism-sarlavha">🔑 Amaliy tavsiyalar</div>
-              <ol className="tavsiyalar">
-                {tavsiyalar.map(function (t, i) { return <li key={i}>{t}</li>; })}
-              </ol>
-            </div>
-          ) : null}
+          {bolimcha === 'magiz' ? (
+            <div className="bolimcha-ich">
+              {magiz.length ? (
+                <div className="qism">
+                  <div className="qism-sarlavha">💠 Mag'iz</div>
+                  <ul className="magiz">
+                    {magiz.map(function (t, i) { return <li key={i}>{t}</li>; })}
+                  </ul>
+                </div>
+              ) : null}
 
-          {mashqlar.length ? (
-            <div className="qism">
-              <div className="qism-sarlavha">🌙 Mashqlar</div>
-              {mashqlar.map(function (m, i) {
+              {tavsiyalar.length ? (
+                <div className="qism">
+                  <div className="qism-sarlavha">🔑 Amaliy tavsiyalar</div>
+                  <ol className="tavsiyalar">
+                    {tavsiyalar.map(function (t, i) { return <li key={i}>{t}</li>; })}
+                  </ol>
+                </div>
+              ) : null}
+
+              {mashqlar.length ? (
+                <button className="tug asosiy" style={{ marginTop: 16 }} onClick={function () { tanla('mashq'); }}>
+                  Mashqlarga o'tish →
+                </button>
+              ) : null}
+            </div>
+          ) : (
+            <div className="bolimcha-ich qism">
+              {mashqlar.length ? mashqlar.map(function (m, i) {
                 return (
                   <Mashq
                     key={i}
@@ -1359,9 +1424,9 @@ function Bolim(props) {
                     mashqIdx={i}
                   />
                 );
-              })}
+              }) : <div className="holat">Bu bo'limda mashq yo'q.</div>}
             </div>
-          ) : null}
+          )}
         </div>
       ) : null}
     </section>
@@ -1535,6 +1600,29 @@ function Bosh(props) {
 
 /* ==================== Kitoblar ro'yxati (bosh sahifa) ==================== */
 
+/* Kitoblarni "turkum" maydoni bo'yicha guruhlaydi; turkumsizlari oxirida */
+const TURKUMSIZ = 'Boshqa kitoblar';
+
+function turkumlarga(kitoblar, oxirgi) {
+  const tartib = [];
+  const xarita = {};
+  kitoblar.forEach(function (k) {
+    const nomi = k.turkum || TURKUMSIZ;
+    if (!xarita[nomi]) { xarita[nomi] = []; tartib.push(nomi); }
+    xarita[nomi].push(k);
+  });
+  tartib.sort(function (a, b) {
+    return (a === TURKUMSIZ ? 1 : 0) - (b === TURKUMSIZ ? 1 : 0);
+  });
+  return tartib.map(function (nomi) {
+    /* Oxirgi ochilgan kitob o'z turkumi boshida turadi */
+    const ro = xarita[nomi].slice().sort(function (a, b) {
+      return (b.id === oxirgi ? 1 : 0) - (a.id === oxirgi ? 1 : 0);
+    });
+    return { nomi: nomi, kitoblar: ro };
+  });
+}
+
 function salomMatni() {
   const s = new Date().getHours();
   if (s < 5) return 'Xayrli tun';
@@ -1548,10 +1636,7 @@ function Royxat(props) {
   const ism = tgIsm();
   const oxirgi = oqi('km_oxirgi', null);
 
-  /* Oxirgi ochilgan kitob boshida turadi — "davom ettirish" uchun */
-  const kitoblar = (props.kitoblar || []).slice().sort(function (a, b) {
-    return (b.id === oxirgi ? 1 : 0) - (a.id === oxirgi ? 1 : 0);
-  });
+  const kitoblar = props.kitoblar || [];
   const sorov = qidiruv.trim().toLowerCase();
   const koringan = sorov
     ? kitoblar.filter(function (k) {
@@ -1588,11 +1673,6 @@ function Royxat(props) {
         </div>
       </div>
 
-      <BoshQator
-        nomi="Kitoblar"
-        ong={koringan.length ? koringan.length + ' ta' : null}
-      />
-
       {props.xato ? (
         <div className="xabar">
           <span className="belgi">!</span>
@@ -1607,42 +1687,49 @@ function Royxat(props) {
           {sorov ? 'Bunday kitob topilmadi.' : "Hozircha kitob qo'shilmagan."}
         </div>
       ) : (
-        <div className="kartalar">
-          {koringan.map(function (k) {
-            const rang = k.rang || '#1e3a8a';
-            const kitob = props.barcha ? props.barcha[k.id] : null;
-            const hisob = kitob ? kitobHisob(kitob) : null;
-            const faol = k.id === oxirgi;
-            return (
-              <button
-                key={k.id}
-                className={'kitob-karta' + (faol ? ' faol' : '')}
-                onClick={function () { props.och(k.id); }}
-              >
-                <div className="karta-yuqori">
-                  <div
-                    className="muqova"
-                    style={{ background: 'linear-gradient(150deg, ' + rang + ', ' + qoraytir(rang, .3) + ')' }}
-                  >✦</div>
-                  <span className="karta-nuqta">⋮</span>
-                </div>
+        turkumlarga(koringan, oxirgi).map(function (guruh) {
+          return (
+            <div key={guruh.nomi}>
+              <BoshQator nomi={guruh.nomi} ong={guruh.kitoblar.length + ' ta'} />
+              <div className="kartalar">
+                {guruh.kitoblar.map(function (k) {
+                  const rang = k.rang || '#1e3a8a';
+                  const kitob = props.barcha ? props.barcha[k.id] : null;
+                  const hisob = kitob ? kitobHisob(kitob) : null;
+                  const faol = k.id === oxirgi;
+                  return (
+                    <button
+                      key={k.id}
+                      className={'kitob-karta' + (faol ? ' faol' : '')}
+                      onClick={function () { props.och(k.id); }}
+                    >
+                      <div className="karta-yuqori">
+                        <div
+                          className="muqova"
+                          style={{ background: 'linear-gradient(150deg, ' + rang + ', ' + qoraytir(rang, .3) + ')' }}
+                        >✦</div>
+                        <span className="karta-nuqta">⋮</span>
+                      </div>
 
-                <div className="kitob-matn">
-                  <h3>{k.nomi}</h3>
-                  <div className="muallif">{k.muallif}</div>
-                </div>
+                      <div className="kitob-matn">
+                        <h3>{k.nomi}</h3>
+                        <div className="muallif">{k.muallif}</div>
+                      </div>
 
-                <div className="karta-jarayon">
-                  <div className="yorliq">{faol ? 'Davom ettiring' : 'Jarayon'}</div>
-                  <div className="qator">
-                    <div className="progress-chiziq"><i style={{ width: (hisob ? hisob.foiz : 0) + '%' }} /></div>
-                    <span className="foiz">{hisob ? hisob.foiz + '%' : '—'}</span>
-                  </div>
-                </div>
-              </button>
-            );
-          })}
-        </div>
+                      <div className="karta-jarayon">
+                        <div className="yorliq">{faol ? 'Davom ettiring' : 'Jarayon'}</div>
+                        <div className="qator">
+                          <div className="progress-chiziq"><i style={{ width: (hisob ? hisob.foiz : 0) + '%' }} /></div>
+                          <span className="foiz">{hisob ? hisob.foiz + '%' : '—'}</span>
+                        </div>
+                      </div>
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          );
+        })
       )}
 
       <div className="izohcha">Javoblaringiz faqat shu qurilmada saqlanadi</div>
@@ -1684,27 +1771,41 @@ function Jarayon(props) {
         <div className="stat-quti"><b>{kunlar}</b><span>Ketma-ket kun</span></div>
       </div>
 
-      <BoshQator nomi="Kitoblar bo'yicha" ong={jami + ' ta mashq'} />
-
       {qatorlar.length === 0 ? (
         <div className="yuklanmoqda"><div className="aylana"></div></div>
-      ) : qatorlar.map(function (q) {
-        const rang = q.k.rang || '#1e3a8a';
+      ) : turkumlarga(kitoblar).map(function (guruh) {
+        let gJami = 0, gBajarildi = 0;
+        guruh.kitoblar.forEach(function (k) {
+          const kitob = barcha[k.id];
+          if (!kitob) return;
+          const h = kitobHisob(kitob);
+          gJami += h.jami; gBajarildi += h.bajarildi;
+        });
         return (
-          <button key={q.k.id} className="qator-karta" onClick={function () { props.och(q.k.id); }}>
-            <div
-              className="qator-nishon"
-              style={{ background: 'linear-gradient(150deg, ' + rang + ', ' + qoraytir(rang, .3) + ')', color: '#fff' }}
-            >✦</div>
-            <div className="qator-matn">
-              <h4>{q.k.nomi}</h4>
-              <p>{q.h.bajarildi} / {q.h.jami} mashq</p>
-              <div className="progress-chiziq" style={{ marginTop: 8 }}>
-                <i style={{ width: q.h.foiz + '%' }} />
-              </div>
-            </div>
-            <span className="qator-son">{q.h.foiz}%</span>
-          </button>
+          <div key={guruh.nomi}>
+            <BoshQator nomi={guruh.nomi} ong={gBajarildi + ' / ' + gJami + ' mashq'} />
+            {guruh.kitoblar.map(function (k) {
+              const kitob = barcha[k.id];
+              const h = kitob ? kitobHisob(kitob) : { jami: 0, bajarildi: 0, foiz: 0 };
+              const rang = k.rang || '#1e3a8a';
+              return (
+                <button key={k.id} className="qator-karta" onClick={function () { props.och(k.id); }}>
+                  <div
+                    className="qator-nishon"
+                    style={{ background: 'linear-gradient(150deg, ' + rang + ', ' + qoraytir(rang, .3) + ')', color: '#fff' }}
+                  >✦</div>
+                  <div className="qator-matn">
+                    <h4>{k.nomi}</h4>
+                    <p>{h.bajarildi} / {h.jami} mashq</p>
+                    <div className="progress-chiziq" style={{ marginTop: 8 }}>
+                      <i style={{ width: h.foiz + '%' }} />
+                    </div>
+                  </div>
+                  <span className="qator-son">{h.foiz}%</span>
+                </button>
+              );
+            })}
+          </div>
         );
       })}
 

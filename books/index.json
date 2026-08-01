@@ -2,29 +2,33 @@
   "kitoblar": [
     {
       "id": "koz-ochish-kaliti",
-      "nomi": "Ahmoqning tajribasi, yoxud ko'z ochish kaliti",
+      "nomi": "Tentakning tajribasi 1: Ko'z ochish kaliti",
       "muallif": "Mirzakarim Norbekov",
+      "turkum": "Tentakning tajribasi",
       "rang": "#c2622d",
       "tavsif": "Kasallik xarakterning ko'zgusi: qomat, tabassum va ichki holat orqali o'zini o'zi tiklash tizimi."
     },
     {
       "id": "kalitlar",
-      "nomi": "Ahmoqning tajribasi-2: O'zingizga kalitlar",
+      "nomi": "Tentakning tajribasi 2: O'zingizga kalitlar",
       "muallif": "Mirzakarim Norbekov",
+      "turkum": "Tentakning tajribasi",
       "rang": "#3d7a6a",
       "tavsif": "Ovqat, tana, tashqi ko'rinish, dam olish va ish — hayotning barcha tomonlarini o'z qo'lingizga olish kalitlari."
     },
     {
       "id": "farovonlik",
-      "nomi": "Ahmoqning tajribasi-3: Qanday yashash va farovonlik topish",
+      "nomi": "Tentakning tajribasi 3: Qanday yashash va farovonlik topish",
       "muallif": "Mirzakarim Norbekov",
+      "turkum": "Tentakning tajribasi",
       "rang": "#2f5d9e",
       "tavsif": "Uy, oila, bolalar, ota-ona va hayot maqsadi: farovonlik qurilishining amaliy qonunlari."
     },
     {
       "id": "xatolar",
-      "nomi": "Ahmoqning tajribasi-5: Odamlar qiladigan xatolar",
+      "nomi": "Tentakning tajribasi 5: Odamlar qiladigan xatolar",
       "muallif": "Mirzakarim Norbekov",
+      "turkum": "Tentakning tajribasi",
       "rang": "#8c3a52",
       "tavsif": "Uyquda yashash, «normal» bo'lish tuzog'i, nafs va dangasalik — odamni to'xtatib qo'yadigan asosiy xatolar."
     },
