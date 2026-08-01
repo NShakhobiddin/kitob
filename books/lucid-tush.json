@@ -1,0 +1,445 @@
+{
+  "id": "lucid-tush",
+  "nomi": "Lucid tush: ongli tush ko'rish amaliyoti",
+  "muallif": "Uyqu tadqiqotlari asosida",
+  "kirish": "Lucid tush — bu tush ko'rayotganingizni tush ichida bilib turish holati. Bu mistika emas: 1981-yilda Stiven LaBerj laboratoriyada tush ko'ruvchi odam kelishilgan ko'z harakati bilan signal berishini yozib olgan va shundan beri bu holat asboblar bilan o'lchanadi. Eng muhimi — bu o'rganiladigan ko'nikma. Bu bo'limda faqat tadqiqotlarda va ko'p yillik amaliyotda o'zini oqlagan usullar bor: tush kundaligi, reallik tekshiruvi, tush belgilari, MILD, WBTB, SSILD va tush ichida barqaror turish. Kundalik yozish va kun davomida eslatib turish — shu bo'limning ichiga qurilgan, chunki aynan shu ikkitasi natijaning yarmini beradi.",
+  "bolimlar": [
+    {
+      "sarlavha": "Lucid tush nima va u haqiqatan ishlaydimi",
+      "magiz": [
+        "Lucid tush — REM bosqichidagi tush bo'lib, unda siz «bu tush» ekanini anglab turasiz. Ba'zan shunchaki bilib turasiz, ba'zan tush ichidagi voqealarni boshqara olasiz.",
+        "Bu holat isbotlangan: tush ko'ruvchi odam oldindan kelishilgan ko'z harakatlarini qilib, laboratoriyaga «men hozir tushdaman» degan signalni yuborgan. Bu paytda miya REM holatida bo'lgan.",
+        "Odamlarning yarmidan ko'pi hayotida kamida bir marta lucid tush ko'rgan, taxminan har beshinchi odam esa oyiga bir marta yoki undan tez-tez ko'radi. Ya'ni bu kamdan-kam uchraydigan iste'dod emas.",
+        "Lucid tushning eng amaliy foydasi — bosinqirash bilan ishlash. Tushda «bu tush» deb anglagan odam qo'rquv manzarasini boshqacha yakunlashi mumkin va takroriy bosinqirashlar kamayadi.",
+        "Ikkinchi foydasi — mashq. Tushda takrorlangan harakat (musiqa, sport, nutq) uyg'oqlikdagi natijaga ta'sir qilishi tadqiqotlarda ko'rilgan, chunki miyada deyarli o'sha zonalar ishlaydi.",
+        "Muhim haqiqat: birinchi natija odatda darrov kelmaydi. Ko'pchilikda muntazam amaliyotning 2–4-haftasida birinchi lucid tush bo'ladi. Kundalik yozmaganlarda esa deyarli hech qachon bo'lmaydi."
+      ],
+      "tavsiyalar": [
+        "Maqsadni aniq qo'ying: «tushimni boshqarmoqchiman» emas, «tushda tush ko'rayotganimni bilib olmoqchiman». Boshqaruv keyin keladi.",
+        "Kamida uch hafta muntazam ishlashga kelishing. Bir kunlik urinish natija bermaydi.",
+        "Kechalari yetarli uxlang: REM asosan uyquning oxirgi uchdan bir qismida to'planadi. Kam uxlagan odam lucid tush uchun eng qulay soatlarni yo'qotadi.",
+        "Natijani kun sanab emas, kundalikdagi yozuvlar soni bilan o'lchang — bu sizga bog'liq bo'lgan yagona ko'rsatkich.",
+        "Boshqalarning «har kecha lucid tush ko'raman» degan gapiga qarab o'zingizni baholamang. Chastota odamdan odamga juda farq qiladi."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Nima uchun lucid tush ko'rmoqchisiz? Aniq yozing: qo'rquvli tushni to'xtatishmi, biror narsani sinab ko'rishmi, shunchaki qiziqishmi? Bu javob keyinchalik niyat matningizning asosi bo'ladi."
+        },
+        {
+          "turi": "test",
+          "savol": "Bir oy amaliyot qildingiz, lekin hali lucid tush bo'lmadi. Nima qilish to'g'ri?",
+          "variantlar": [
+            "Bu menga berilmagan — to'xtataman",
+            "Kundalikni tekshiraman: tush eslash o'sdimi?",
+            "Kechasi ko'proq uyg'onishga harakat qilaman",
+            "Bir necha kun uxlamay ko'raman"
+          ],
+          "izohlar": [
+            "Bu eng ko'p uchraydigan xato. Ko'nikma sekin o'sadi va ko'pchilikda birinchi natija aynan shu chegaradan keyin keladi.",
+            "To'g'ri yo'l. Tushni eslash — birinchi bosqich. Agar eslash o'sayotgan bo'lsa, tizim ishlayapti, lucidlik keyingi qadam.",
+            "Ko'p uyg'onish uyquni parchalab, REM ni ham buzadi. Uyg'onish rejali bo'lishi kerak, tasodifiy emas.",
+            "Uyqusizlik lucid tushni emas, charchoqni beradi. Uyquni qisqartirish bu amaliyotdagi eng zararli xato."
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Hozir ertalab o'rtacha nechta tush eslaysiz (haftasiga)?",
+          "min": 0,
+          "max": 14,
+          "min_yorliq": "Hech nima",
+          "max_yorliq": "Har kuni bir nechta"
+        }
+      ]
+    },
+    {
+      "sarlavha": "Poydevor: tush kundaligi",
+      "magiz": [
+        "Tush kundaligi — bu amaliyotdagi eng ishonchli va eng ko'p tasdiqlangan qadam. Tushini eslamaydigan odam lucid tushni ham eslay olmaydi.",
+        "Uyg'onganda darrov qimirlamang. Bir necha soniya o'sha holatda yotib, tushni orqasidan oldiga qarab tiklang: oxirgi manzara, undan oldingisi, undan oldingisi.",
+        "Avval kalit so'zlarni yozing (masalan: «suv, eski maktab, kechikish»), keyin batafsil. Batafsil yozishga urinib turib, tush ko'pincha uchib ketadi.",
+        "Parcha ham hisoblanadi. «Faqat qizil rang esimda» degan yozuv ham kundalikni ishlatadi — miya «tush muhim» degan signalni oladi.",
+        "Bir necha hafta yozgach, kundalikda takrorlanuvchi narsalar ko'rina boshlaydi. Aynan shular sizning shaxsiy tush belgilaringiz.",
+        "Kundalikni telefon yoki daftarga yozish farqi yo'q — muhimi, u qo'l yetadigan joyda bo'lsin va uyg'onganda birinchi ish shu bo'lsin."
+      ],
+      "tavsiyalar": [
+        "Kundalikni to'shak yonida saqlang. Turib borib yozadigan bo'lsangiz, tush yo'qoladi.",
+        "Uyg'onganda telefondagi xabarlarni ochmang — tush xotirasi 30–60 soniyada yuviladi.",
+        "Har bir yozuvga belgilar qo'shing: joy, odam, his-tuyg'u, harakat. Belgilar keyin avtomatik sanaladi.",
+        "Hech narsa eslamasangiz ham, «bugun eslamadim» deb yozing. Odat vaqtdan muhimroq.",
+        "Kechqurun yotishdan oldin bir daqiqa: «Ertalab tushimni eslayman» deb o'zingizga aniq niyat bering."
+      ],
+      "mashqlar": [
+        {
+          "turi": "kundalik",
+          "sarlavha": "Tush kundaligi",
+          "korsatma": "Har ertalab shu yerga yozing. Avval kalit so'zlar, keyin tafsilot. Belgilar maydoniga tushdagi joy, odam, his va harakatni vergul bilan kiriting — takrorlanayotgan belgilar avtomatik sanalib, pastda ko'rsatiladi. Aynan o'sha ro'yxat sizning tush belgilaringiz bo'ladi.",
+          "joy_matn": "Kecha tushimda…",
+          "belgi_matn": "Belgilar: suv, eski uy, uchish, kechikish…"
+        },
+        {
+          "turi": "eslatma",
+          "sarlavha": "Ertalabki kundalik eslatmasi",
+          "matn": "Tushingizni yozing. Parcha bo'lsa ham, hozir yozing.",
+          "korsatma": "Uyg'onish vaqtingizdan 5–10 daqiqa keyingi vaqtni qo'ying. Bu eslatma sizni kundalikka qaytaradi — amaliyotning eng ko'p tashlab yuboriladigan qismi aynan shu.",
+          "vaqtlar": ["06:40", "07:10"]
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Ertalabki tartib — har kuni",
+          "bandlar": [
+            "Uyg'onganda 30 soniya qimirlamay yotdim",
+            "Tushni orqasidan oldiga qarab tikladim",
+            "Avval kalit so'zlarni yozdim",
+            "Telefondagi xabarlarni ochishdan oldin yozdim",
+            "Hech narsa eslamasam ham yozuv qoldirdim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Bu hafta kundalikni necha kun yozdingiz?",
+          "min": 0,
+          "max": 7,
+          "min_yorliq": "0 kun",
+          "max_yorliq": "7 kun"
+        }
+      ]
+    },
+    {
+      "sarlavha": "Reallik tekshiruvi: to'g'ri qilish yo'li",
+      "magiz": [
+        "Reallik tekshiruvi — «men hozir tushdamanmi?» degan savolni kunduzi muntazam berish. Bu odat tushga ham o'tadi va o'sha yerda sizni uyg'otadi.",
+        "Eng ishonchli tekshiruv — burun sinovi: burun teshiklarini barmoq bilan bekiting va nafas olishga urining. Tushda havo baribir kiradi. Bu tekshiruv deyarli har doim aniq javob beradi.",
+        "Ikkinchi ishonchli usul — matn yoki raqamli soat: o'qing, boshqa yoqqa qarang, yana o'qing. Tushda yozuv o'zgaradi yoki suzib ketadi.",
+        "Qo'llarga qarash ham ishlaydi: tushda barmoqlar soni, shakli yoki o'lchami g'alati bo'lishi mumkin.",
+        "Eng katta xato — tekshiruvni mexanik qilish. «Albatta uyg'oqman-ku» deb bosib qo'ysangiz, tushda ham xuddi shunday bosib qo'yasiz. Har safar rostdan shubhalaning.",
+        "Tekshiruvni savol bilan boshlang: «Bu yerga qanday kelib qoldim? Oxirgi bir soatni eslay olamanmi?» Tushda bu savolga javob topilmaydi — voqealar joyidan boshlanadi."
+      ],
+      "tavsiyalar": [
+        "Kuniga kamida 8–10 marta tekshiring. Kam qilinsa, odat shakllanmaydi.",
+        "Har safar kamida ikkita usulni birga ishlating — masalan, burun sinovi va matnni ikki marta o'qish.",
+        "Tekshiruvni voqealarga bog'lang: eshikdan o'tganda, telefonni qo'lga olganda, ko'zguga qaraganda, kimdir ismingizni aytganda.",
+        "G'alati bir narsa sezsangiz — darrov tekshiring. Aynan shu odat tushda ishlaydi.",
+        "Tekshirganda tasavvur qiling: «Agar hozir tush bo'lsa, nima qilardim?» Bu savol tushda tayyor javob beradi."
+      ],
+      "mashqlar": [
+        {
+          "turi": "eslatma",
+          "sarlavha": "Reallik tekshiruvi",
+          "matn": "To'xtang. Tushdamisiz? Burningizni bekitib nafas oling. Atrofga qarang: bu yerga qanday keldingiz?",
+          "korsatma": "Kun davomida tarqoq vaqtlarni qo'ying — bir xil intervallar emas, kutilmagan paytlar yaxshiroq ishlaydi. Har eslatmada shunchaki tugmani bosmang: rostdan shubhalanib, ikkita tekshiruvni bajaring.",
+          "vaqtlar": ["09:20", "11:40", "14:10", "16:30", "19:00", "21:20"]
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Tekshiruvni to'g'ri bajarish",
+          "bandlar": [
+            "Burun sinovini qildim (havo kirmadi — demak uyg'oqman)",
+            "Matnni ikki marta o'qidim",
+            "Qo'llarimga diqqat bilan qaradim",
+            "«Bu yerga qanday keldim?» savolini berdim",
+            "Rostdan shubhalandim, mexanik bajarmadim"
+          ]
+        },
+        {
+          "turi": "test",
+          "savol": "Kunduzi tekshiruvni qanday qilsangiz, u tushda ham ishlaydi?",
+          "variantlar": [
+            "Tez va avtomatik — kuniga 30 marta",
+            "Sekin, rostdan shubhalanib — kuniga 8–10 marta",
+            "Faqat ertalab bir marta, diqqat bilan",
+            "Kechqurun yotishdan oldin"
+          ],
+          "izohlar": [
+            "Ko'p qilish yaxshi, lekin avtomatik bajarilgan tekshiruv tushda ham avtomatik «uyg'oqman» javobini beradi. Sifat sondan muhim.",
+            "Aynan shunday. Har safar javob rostdan noma'lum bo'lsin — ana shu shubha tushga o'tadi.",
+            "Bir marta odat hosil qilmaydi. Tekshiruv kun bo'ylab tarqalishi kerak.",
+            "Yotishdan oldingi tekshiruv foydali, lekin u kunduzgi odatning o'rnini bosmaydi."
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Bugun nechta reallik tekshiruvini rostdan shubhalanib bajardingiz?",
+          "min": 0,
+          "max": 15,
+          "min_yorliq": "0",
+          "max_yorliq": "15+"
+        }
+      ]
+    },
+    {
+      "sarlavha": "Tush belgilari: o'zingizning ro'yxatingiz",
+      "magiz": [
+        "Tush belgisi — tushlaringizda qayta-qayta uchraydigan, lekin uyg'oqlikda g'alati bo'lgan narsa. U sizning shaxsiy «signalingiz».",
+        "To'rt turi bor: shakl (o'zgargan tana, g'alati narsalar), kontekst (bolalikdagi uy, allaqachon tugagan ish joyi), harakat (uchish, tishlar to'kilishi, yugurolmaslik) va ichki holat (sababsiz qo'rquv, kuchli sharmandalik hissi).",
+        "Belgilarni o'ylab topib bo'lmaydi — ular faqat kundalikdan chiqadi. Shuning uchun kundalik birinchi, belgilar ikkinchi.",
+        "Eng kuchli usul: har bir belgiga reallik tekshiruvini biriktirish. «Suvni ko'rsam — burun sinovi» deb kelishib oling va kunduzi suv ko'rganingizda haqiqatan bajaring.",
+        "Ko'p odamlarda 3–5 ta asosiy belgi bo'ladi va aynan shular birinchi lucid tushni beradi."
+      ],
+      "tavsiyalar": [
+        "Har hafta kundalikni qayta o'qib chiqing va takrorlangan narsalarni belgilab boring.",
+        "Uchtadan ko'p belgi tanlamang — diqqat tarqalib ketadi.",
+        "Har bir belgi uchun aniq jumla tuzing: «Agar ___ ni ko'rsam, men tushdaman deb o'ylab, burun sinovini qilaman».",
+        "Kunduzi o'sha belgiga o'xshash narsa uchrasa, o'zingizni majburlab tekshiring — bu bog'lanishni mustahkamlaydi.",
+        "Belgilaringiz vaqt o'tib o'zgaradi. Oyiga bir marta ro'yxatni yangilang."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Kundalikni qayta o'qing va uchta eng ko'p takrorlangan belgini yozing. Har birining yoniga jumla tuzing: «Agar ___ ni ko'rsam, darrov reallik tekshiruvini qilaman»."
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Belgilar bilan ishlash",
+          "bandlar": [
+            "Kundalikni qayta o'qib chiqdim",
+            "Uchta asosiy belgini aniqladim",
+            "Har biriga tekshiruv jumlasini tuzdim",
+            "Kunduzi belgiga o'xshash narsani ko'rib, tekshirdim",
+            "Ro'yxatni oy oxirida yangiladim"
+          ]
+        },
+        {
+          "turi": "test",
+          "savol": "Tushlaringizda tez-tez uchib yurasiz. Buni qanday ishlatasiz?",
+          "variantlar": [
+            "Bu shunchaki qiziq tush, ishlatib bo'lmaydi",
+            "Kunduzi uchish haqida o'ylaganda tekshiruv qilaman",
+            "Tushda uchishga harakat qilaman",
+            "Uchish haqidagi kitob o'qiyman"
+          ],
+          "izohlar": [
+            "Aksincha — bu eng qimmatli material. Takrorlanuvchi harakat kuchli tush belgisi.",
+            "To'g'ri. Belgini kunduzgi tekshiruvga bog'lash — uni tushdagi signalga aylantirishning yagona yo'li.",
+            "Tushda harakat qilish uchun avval «bu tush» ekanini bilib olish kerak. Tartib teskari.",
+            "Bilim foydali, lekin u odat hosil qilmaydi. Kerak bo'lgani — kunduzgi takror."
+          ]
+        }
+      ]
+    },
+    {
+      "sarlavha": "MILD va WBTB: eng samarali juftlik",
+      "magiz": [
+        "MILD — «xotira orqali lucid tushni chaqirish» usuli. U tush ko'rish paytiga rejalashtirilgan niyatni joylashtiradi: «Keyingi safar tush ko'rsam, tush ko'rayotganimni bilaman».",
+        "MILD to'liq ko'rinishi: tushdan uyg'oning → tushni eslang → niyat jumlasini bir necha marta, ma'nosini his qilib takrorlang → o'sha tushga qaytganingizni va u yerda «bu tush!» deb anglaganingizni tasavvur qiling → shu bilan uxlab qoling.",
+        "WBTB — «uyg'onib, keyin qaytib uxlash». Uyquga ketganingizdan 4,5–6 soat keyin uyg'oning, 10–30 daqiqa uyg'oq turing, keyin qaytib uxlang. Aynan shundan keyingi uyqu REM ga to'la bo'ladi.",
+        "Eng kuchli natija ikkovi birga ishlaganda chiqadi: WBTB paytida MILD qilish. Katta tadqiqotda shu kombinatsiya bir kechada sezilarli natija bergan, MILD dan keyin 5 daqiqa ichida uxlab qolganlarda esa muvaffaqiyat ulushi bir necha barobar yuqori bo'lgan.",
+        "Muhim tafsilot: uyg'oqlik oynasi qisqa bo'lsin. Yarim soatdan ortiq uyg'oq qolsangiz, qaytib uxlash qiyinlashadi va REM oynasini yo'qotasiz.",
+        "Niyatni yod olish emas, ishonch bilan aytish kerak. Quruq takrorlash ishlamaydi — jumla aytilayotganda tushda turganingizni ko'rishga urining."
+      ],
+      "tavsiyalar": [
+        "WBTB ni ish kunlari emas, dam olish kunlari sinab ko'ring — uyqusiz qolish xavfi kamayadi.",
+        "Uyg'onganda yorug' ekranni yoqmang. Kundalikka yozing yoki xira yorug'da o'tiring.",
+        "Uyg'oqlik oynasini taymerda o'lchang: 15–20 daqiqa yetarli.",
+        "Qaytib yotganingizda MILD jumlasini takrorlang va o'sha tushga qaytganingizni tasavvur qiling. Boshqa narsa haqida o'ylamang.",
+        "Uxlab qololmasangiz, kurashmang — shunchaki jumlani sekin takrorlab yotavering. Yotgan holatning o'zi ham ishlaydi.",
+        "Haftasiga 2–3 kecha yetarli. Har kuni qilish uyquni buzadi va natijani pasaytiradi."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "O'zingizning MILD jumlangizni yozing. Qisqa, aniq va birinchi shaxsda bo'lsin. Masalan: «Keyingi safar tush ko'rsam, tush ko'rayotganimni eslayman va buni bilaman». Keyin: o'sha tushga qaytganingizda birinchi navbatda nima qilishingizni ham yozib qo'ying."
+        },
+        {
+          "turi": "eslatma",
+          "sarlavha": "WBTB uyg'onish",
+          "matn": "WBTB vaqti. 15–20 daqiqa xira yorug'da uyg'oq turing, kundalikni o'qing, keyin MILD bilan qaytib uxlang.",
+          "korsatma": "Uyquga ketish vaqtingizga 4,5–6 soat qo'shib, shu vaqtni qo'ying. Masalan 23:00 da uxlasangiz — 04:00 yoki 05:00. Bu eslatmani telefon budilnigi bilan ham dublyaj qiling.",
+          "vaqtlar": ["04:30"]
+        },
+        {
+          "turi": "taymer",
+          "daqiqa": 18,
+          "korsatma": "WBTB uyg'oqlik oynasi. Taymerni yoqing va shu 18 daqiqada: kundalikdagi oxirgi yozuvni o'qing, bir-ikki reallik tekshiruvini bajaring, MILD jumlangizni sekin takrorlang. Telefonni yorqin qilmang. Taymer tugagach — darrov yoting."
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "WBTB + MILD kechasi",
+          "bandlar": [
+            "Uyg'onish vaqtini oldindan hisobladim (4,5–6 soat)",
+            "Uyg'onganda yorqin ekranni yoqmadim",
+            "Uyg'oqlik oynasi 30 daqiqadan oshmadi",
+            "Yotganimda MILD jumlasini takrorladim",
+            "Tushga qaytganimni va lucid bo'lganimni tasavvur qildim",
+            "Ertalab natijani kundalikka yozdim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "MILD jumlasini aytganda, tushda turganingizni qanchalik aniq his qildingiz?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Quruq takrorladim",
+          "max_yorliq": "Rostdan ko'rdim"
+        }
+      ]
+    },
+    {
+      "sarlavha": "SSILD va WILD: uyg'oqlikdan tushga o'tish",
+      "magiz": [
+        "WILD — uyg'oq ongni saqlagan holda to'g'ridan-to'g'ri tushga kirish. Eng kuchli, lekin eng qiyin usul. U ham WBTB dan keyin eng yaxshi ishlaydi.",
+        "WILD da tanani bo'shashtirasiz, qimirlamaysiz va yopiq ko'z oldidagi manzaralarni (gipnagogik tasvirlar) shunchaki kuzatasiz. Ularni ushlashga urinsangiz — uyg'onib ketasiz.",
+        "SSILD — WILD ning ancha oson varianti. Uyg'ongach, ko'z yumib turib sezgilar bo'ylab aylanasiz: ko'rish (ko'z oldidagi qorong'ulikka qarang), eshitish (atrofdagi tovushlar), sezish (tanadagi og'irlik, harorat).",
+        "SSILD tartibi: 4–6 ta tez aylanish (har biriga bir necha soniya), keyin 3–4 ta sekin aylanish (har biriga 30 soniyacha), keyin oddiy holatda uxlab qoling. Uxlab qolish paytida hech narsa qilmang.",
+        "Uyqu falaji — bu usullarda uchraydigan normal hodisa: ong uyg'ongan, tana esa REM davridagi tabiiy harakatsizlikda. U xavfsiz va bir necha daqiqada o'zi o'tadi.",
+        "Uyqu falajidan chiqish: qarshilik ko'rsatmang, nafasingizga diqqat qiling, bitta barmoq yoki oyoq panjasini qimirlatishga urining. Yoki uni eshik sifatida ishlating — bu holatdan to'g'ridan-to'g'ri lucid tushga o'tish mumkin."
+      ],
+      "tavsiyalar": [
+        "WILD va SSILD ni faqat WBTB dan keyin sinang — kechqurun birinchi uxlashda ular deyarli ishlamaydi.",
+        "Qimirlamaslikka urinmang, shunchaki qulay yoting. Zo'riqish uyquga xalaqit beradi.",
+        "Gipnagogik tasvirlarni tomosha qiling, tahlil qilmang. Tahlil qilish — uyg'onish.",
+        "Uxlab qolayotganingizni sezsangiz, xursand bo'lib ketmang: hayajon darrov uyg'otadi. Xotirjam turing.",
+        "Uyqu falajiga tushsangiz, «bu o'tadi» deb o'zingizga ayting va nafasni sanang. U bir necha daqiqadan oshmaydi.",
+        "Ikki-uch urinishdan keyin natija bo'lmasa, MILD ga qayting. SSILD va WILD hammada bir xil ishlamaydi."
+      ],
+      "mashqlar": [
+        {
+          "turi": "taymer",
+          "daqiqa": 12,
+          "korsatma": "SSILD aylanishlari. Ko'z yumib yoting. Avval tez aylanishlar: ko'rish (ko'z oldidagi qorong'ulikka bir necha soniya qarang) → eshitish (tovushlarni tinglang) → sezish (tanangizni his qiling). Buni 4–6 marta tez takrorlang. Keyin sekin aylanishlar: har bir sezgiga 30 soniyacha. Taymer tugagach hech narsa qilmang — shunchaki uxlab qoling."
+        },
+        {
+          "turi": "jurnal",
+          "savol": "SSILD yoki WILD urinishingizni yozing: nima ko'rdingiz, qayerda uyg'onib ketdingiz, tanangizda nima bo'ldi? Uyqu falaji bo'lgan bo'lsa, undan qanday chiqdingiz?"
+        },
+        {
+          "turi": "test",
+          "savol": "Uxlab ketayotganingizda tanangiz qimirlamayotganini sezdingiz va qo'rquv bosdi. To'g'ri harakat qaysi?",
+          "variantlar": [
+            "Bor kuchim bilan qimirlashga urinaman",
+            "Nafasimga diqqat qilib, bitta barmog'imni qimirlataman",
+            "Qichqirishga urinaman",
+            "Bu xavfli, boshqa hech qachon urinmayman"
+          ],
+          "izohlar": [
+            "Kuch bilan kurashish qo'rquvni oshiradi va holatni cho'zadi. Bu eng ko'p qilinadigan xato.",
+            "To'g'ri. Nafas — sizga qolgan yagona erkin harakat, kichik mushakdan boshlash esa holatdan chiqishning eng oson yo'li.",
+            "Ovoz chiqmaydi va bu yana ham qo'rqitadi. Kuch sarflashning keragi yo'q.",
+            "Uyqu falaji xavfsiz va o'z-o'zidan o'tadi. Undan qo'rqmaslikning o'zi uni qisqartiradi."
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Yotganingizda tanangizni qanchalik bo'shashtira olasiz?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Doim taranglik bor",
+          "max_yorliq": "To'liq bo'shashaman"
+        }
+      ]
+    },
+    {
+      "sarlavha": "Tush ichida: barqarorlik va boshqaruv",
+      "magiz": [
+        "Birinchi lucid tushlar odatda bir necha soniya davom etadi — hayajondan. «Men lucidman!» degan quvonch miyani uyg'otadi.",
+        "Birinchi qilinadigan ish — xotirjamlik. Ovoz chiqarib yoki ichingizda: «Men tushdaman, xotirjamman» deb ayting va nafasni sekinlashtiring.",
+        "Barqarorlashtirishning eng ishonchli usuli — qo'llarni bir-biriga ishqalash. Bu tush tanangizdagi sezgini kuchaytiradi va ongni tushga «bog'laydi».",
+        "Boshqa usullar: o'z o'rningizda aylanish, yaqin narsani ushlab ko'rish, yerga qarash, ovoz chiqarib «aniqlik oshsin» deb aytish. Manzara xiralashsa — darrov shulardan birini qiling.",
+        "Bitta narsaga uzoq tikilmang — tush tarqaladi. Ko'zni harakatlantirib turing.",
+        "Yolg'on uyg'onish — tushda uyg'onganingizni ko'rish. Shuning uchun qoida: har safar uyg'onganda reallik tekshiruvi qiling, hattoki to'shakda ekaningizga ishonchingiz komil bo'lsa ham.",
+        "Kutish effekti: tushda nima bo'lishini kutsangiz, ko'pincha o'sha bo'ladi. Shuning uchun «eshikning orqasida dengiz bor» deb ishonib eshikni oching — boshqarish shunday ishlaydi."
+      ],
+      "tavsiyalar": [
+        "Lucid bo'lganingizda darrov murakkab narsani qilmang — avval 10–15 soniya barqarorlashtiring.",
+        "Bitta oddiy maqsad tanlab qo'ying (masalan, «qo'llarimga qarayman» yoki «derazadan tashqariga chiqaman»). Uzun ro'yxat esdan chiqadi.",
+        "Bosinqirash tushda kelsa, qochmang: to'xtab, tasvirga qarab, undan nima kerakligini so'rang. Ko'p odamda takroriy bosinqirash shundan keyin kamayadi.",
+        "Tush tarqala boshlasa, qo'llarni ishqalab, «tush davom etsin» deb ayting.",
+        "Uyg'onganingizdan keyin darrov yozing — lucid tushlar ham xuddi oddiy tushdek unutiladi."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Lucid bo'lganingizda qiladigan birinchi uchta ishni oldindan yozing — tartibi bilan. Birinchisi barqarorlashtirish bo'lsin, ikkinchisi oddiy sinov, uchinchisi asl maqsadingiz."
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Tush ichidagi tartib",
+          "bandlar": [
+            "«Men tushdaman, xotirjamman» dedim",
+            "Qo'llarimni ishqaladim",
+            "Yerga yoki qo'llarimga qaradim",
+            "Bitta oddiy maqsadni bajardim",
+            "Uyg'onganimda reallik tekshiruvini qildim",
+            "Hammasini kundalikka yozdim"
+          ]
+        },
+        {
+          "turi": "test",
+          "savol": "Lucid bo'ldingiz, lekin manzara xiralashib, uyg'onish yaqinlashdi. Nima qilasiz?",
+          "variantlar": [
+            "Tezroq maqsadimni bajarishga shoshaman",
+            "Qo'llarimni ishqalab, yerga qarayman",
+            "Ko'zimni yumib kutaman",
+            "Uyg'onishga rozi bo'laman"
+          ],
+          "izohlar": [
+            "Shoshilish hayajonni oshiradi va uyg'onishni tezlashtiradi. Avval barqarorlik, keyin maqsad.",
+            "To'g'ri. Sensor sezgini kuchaytirish — tushni saqlashning eng ishonchli usuli.",
+            "Ko'zni yumish tushdagi ko'rish oqimini uzadi va ko'pincha uyg'otadi.",
+            "Ba'zan shunday bo'ladi, lekin barqarorlashtirishni sinamasdan taslim bo'lish — imkoniyatni yo'qotish."
+          ]
+        },
+        {
+          "turi": "kundalik",
+          "sarlavha": "Lucid tushlar kundaligi",
+          "korsatma": "Bu yerga faqat lucid (yoki yarim-lucid) tushlarni yozing. Nima sizni uyg'otdi — qaysi belgi yoki tekshiruv? Qancha davom etdi? Nimadan uzildi? Belgilar maydoniga usul nomini yozing: MILD, WBTB, SSILD, reallik tekshiruvi. Bir necha hafta yozgach, qaysi usul aynan sizda ishlashini raqamlardan ko'rasiz.",
+          "joy_matn": "Lucid bo'ldim, chunki…",
+          "belgi_matn": "Usul: MILD, WBTB, SSILD, belgi…"
+        }
+      ]
+    },
+    {
+      "sarlavha": "Uyqu rejimi: natijaning yarmi shu yerda",
+      "magiz": [
+        "REM uyqusi kechaning oxirgi uchdan bir qismida to'planadi. Uyquni qisqartirgan odam aynan lucid tush uchun eng qulay soatlarni kesib tashlaydi.",
+        "Muntazam rejim — bir vaqtda yotish va turish — tush eslashni ham, lucidlik chastotasini ham oshiradi. Tartibsiz uyqu esa hammasini yo'qqa chiqaradi.",
+        "Alkogol va nasha REM ni bostiradi. Ular tashlab yuborilganda esa «REM qaytishi» bo'ladi — tushlar keskin kuchayadi. Buni bilib turish kundalikdagi g'alati kunlarni tushuntiradi.",
+        "Kechqurun ekran yorug'i uyquga ketishni kechiktiradi va birinchi REM ni siljitadi. Bu to'g'ridan-to'g'ri amaliyotga ta'sir qiladi.",
+        "Tadqiqotlarda eng kuchli natijani bergan modda — galantamin (WBTB bilan birga). Bu dori, retsept bilan qo'llaniladi va o'zboshimchalik bilan ishlatiladigan narsa emas.",
+        "Amaliyot uyquni buzayotganini sezsangiz (kunduzi charchoq, uyquga ketish qiyinlashuvi), WBTB ni kamaytiring. Charchagan miya lucid tush bermaydi.",
+        "Eng ishonchli tartib oddiy: yetarli uyqu + har kuni kundalik + kun bo'yi tekshiruv + haftasiga 2–3 marta WBTB+MILD. Qolgan hamma narsa qo'shimcha."
+      ],
+      "tavsiyalar": [
+        "Har kuni bir xil vaqtda yoting va turing — dam olish kunlari ham.",
+        "Kamida 7 soat uxlang. Amaliyot uchun uyquni qisqartirish — eng zararli xato.",
+        "Yotishdan bir soat oldin ekranni qo'ying yoki yorug'ini pasaytiring.",
+        "Alkogol ichgan kechada WBTB qilmang — natija bo'lmaydi, uyqu esa buziladi.",
+        "Haftada 2–3 kechadan ko'p WBTB qilmang.",
+        "Ikki hafta uyqu sifatini kundalikda kuzatib boring — natija va uyqu o'rtasidagi bog'liqlikni o'zingiz ko'rasiz."
+      ],
+      "mashqlar": [
+        {
+          "turi": "eslatma",
+          "sarlavha": "Yotish vaqti",
+          "matn": "Ekranni qo'ying. Yotishga tayyorlaning va MILD niyatini takrorlang.",
+          "korsatma": "Uyquga ketmoqchi bo'lgan vaqtingizdan 45–60 daqiqa oldingi vaqtni qo'ying. Bu eslatma amaliyotning eng ko'zga tashlanmaydigan, lekin eng ta'sirli qismi — muntazam uyqu.",
+          "vaqtlar": ["22:15"]
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Haftalik uyqu tartibi",
+          "bandlar": [
+            "Har kuni bir xil vaqtda yotdim",
+            "Kamida 7 soat uxladim",
+            "Yotishdan oldin ekranni qo'ydim",
+            "WBTB ni haftasiga 3 martadan oshirmadim",
+            "Kunduzi charchoq sezmadim",
+            "Uyqu sifatini kundalikda belgilab bordim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Bu hafta uyqu rejimingiz qanchalik muntazam bo'ldi?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Har kuni har xil",
+          "max_yorliq": "Soatdek aniq"
+        },
+        {
+          "turi": "jurnal",
+          "savol": "So'nggi ikki haftani ko'rib chiqing: qaysi kechalarda tush eslash kuchli bo'ldi? O'sha kechalarda uyqu, ovqat, ekran va WBTB qanday edi? O'zingiz uchun bitta qoida chiqaring."
+        }
+      ]
+    }
+  ]
+}

@@ -16,7 +16,9 @@ interaktiv mashqlarini sodda o'zbek tilida yetkazuvchi Telegram WebApp.
 ├── index.html          ← butun ilova (React + CSS + mantiq)
 ├── books/
 │   ├── index.json      ← kitoblar ro'yxati
-│   └── namuna.json     ← namuna kitob ("Ichki Kuzatuvchi")
+│   ├── namuna.json     ← namuna kitob ("Ichki Kuzatuvchi")
+│   ├── lucid-tush.json ← Lucid tush amaliyoti (kundalik + eslatmali bo'lim)
+│   └── *.json          ← qolgan kitoblar
 └── README.md
 ```
 
@@ -147,6 +149,8 @@ Har bir mashq `bolimlar[].mashqlar[]` ichida turadi va `turi` maydoni bilan aniq
 | `slider` | `savol`, `min`, `max`, `min_yorliq`, `max_yorliq` | Qiymat saqlanadi; oldingi qiymat bo'lsa "O'tgan safar: X" chiqadi |
 | `taymer` | `daqiqa`, `korsatma` | Boshlash / pauza / qayta, aylana progress, tugaganda haptic + xabar |
 | `test` | `savol`, `variantlar[]`, `izohlar[]` | Variant tanlanganda mos izoh ochiladi (to'g'ri/noto'g'ri yo'q) |
+| `kundalik` | `sarlavha`, `korsatma`, `joy_matn`, `belgi_matn` | Sanali ko'p yozuvli kundalik; belgilar sanaladi, ketma-ket kunlar seriyasi ko'rsatiladi |
+| `eslatma` | `sarlavha`, `matn`, `korsatma`, `vaqtlar[]` | Kunlik eslatma vaqtlari; ilova ochiq turganda bildirishnoma, `.ics` orqali telefon kalendariga eksport |
 
 ```json
 { "turi": "jurnal", "savol": "Yozma savol matni" }
@@ -161,9 +165,42 @@ Har bir mashq `bolimlar[].mashqlar[]` ichida turadi va `turi` maydoni bilan aniq
 { "turi": "test", "savol": "Savol",
   "variantlar": ["A", "B", "C"],
   "izohlar": ["A tanlansa izoh", "B izoh", "C izoh"] }
+
+{ "turi": "kundalik", "sarlavha": "Tush kundaligi",
+  "korsatma": "Qanday to'ldirish kerakligi haqida ko'rsatma",
+  "joy_matn": "Textarea placeholder",
+  "belgi_matn": "Belgilar maydoni placeholder" }
+
+{ "turi": "eslatma", "sarlavha": "Reallik tekshiruvi",
+  "matn": "Eslatma chiqqanda ko'rinadigan matn",
+  "korsatma": "Vaqtlarni qanday tanlash kerakligi haqida ko'rsatma",
+  "vaqtlar": ["09:20", "14:10", "19:00"] }
 ```
 
 `izohlar` massivi `variantlar` bilan bir tartibda bo'lishi kerak.
+
+### `kundalik` haqida
+
+Oddiy `jurnal`dan farqi — bitta matn emas, **sanali yozuvlar ro'yxati**. Foydalanuvchi
+har safar yangi yozuv qo'shadi, eskilarini ochib o'qiydi yoki o'chiradi. Vergul bilan
+kiritilgan belgilar barcha yozuvlar bo'yicha sanaladi va eng ko'p takrorlangan 8 tasi
+nishon sifatida ko'rsatiladi — tush belgilarini topish shu orqali ishlaydi. Yozuvlar
+ketma-ket kunlar seriyasi ham hisoblanadi.
+
+### `eslatma` haqida
+
+`vaqtlar[]` — standart vaqtlar; foydalanuvchi ularni o'chirib, o'zinikini qo'sha oladi.
+Eslatma yoqilganda ilova har 15 soniyada vaqtni tekshiradi va mos kelganda:
+
+1. haptic beradi va ilova ichida xabar ko'rsatadi;
+2. `Notification` API mavjud va ruxsat berilgan bo'lsa, tizim bildirishnomasini chiqaradi.
+
+**Cheklov:** brauzer bildirishnomasi faqat ilova ochiq turganda ishlaydi (serversiz
+ilovada push yuboradigan joy yo'q). Shuning uchun har bir eslatmada **«Kalendarga
+qo'shish»** tugmasi bor — u `RRULE:FREQ=DAILY` va `VALARM` bilan `.ics` fayl yaratadi,
+foydalanuvchi uni telefon kalendariga qo'shsa, eslatma ilovadan mustaqil ishlaydi.
+`Notification` yo'q bo'lsa yoki ruxsat berilmagan bo'lsa ham ilova xato bermaydi —
+eslatma faqat ilova ichida ko'rinadi.
 
 ## Saqlash mantiqi
 
@@ -193,7 +230,10 @@ Ma'lumot faqat foydalanuvchi qurilmasida qoladi — hech qayerga yuborilmaydi.
 
 ## Sinovdan o'tkazilgan
 
-Namuna kitob barcha 5 mashq turini o'z ichiga oladi. Chromium (380px mobil ekran) da
+Namuna kitob 5 ta asosiy mashq turini, `lucid-tush` kitobi esa qolgan ikkitasini
+(`kundalik`, `eslatma`) ham o'z ichiga oladi. Chromium (380px mobil ekran) da
 tekshirilgan: har bir mashq turi ishlaydi, `localStorage` saqlaydi va sahifa
-yangilangandan keyin javoblarni tiklaydi, taymer oxirigacha sanaydi, Telegram SDK
-bo'lmagan holatda ham JS xatosi chiqmaydi.
+yangilangandan keyin javoblarni tiklaydi, taymer oxirigacha sanaydi, kundalik yozuvlari
+qo'shiladi/o'chiriladi va belgilar sanaladi, eslatma vaqti kelganda ishga tushadi,
+`.ics` fayl to'g'ri tarkib bilan yuklanadi, Telegram SDK va `Notification` bo'lmagan
+holatda ham JS xatosi chiqmaydi.

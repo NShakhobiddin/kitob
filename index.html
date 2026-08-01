@@ -317,6 +317,7 @@
   .tug:active { transform: scale(.95); }
   .tug.asosiy { background: var(--oltin); color: #1a1033; border-color: var(--oltin); font-weight: 600; }
   .tug.jim { background: none; color: var(--matn-xira); border-color: var(--chegara); }
+  .tug:disabled { opacity: .4; cursor: default; transform: none; }
 
   .variant {
     display: block; width: 100%; text-align: left;
@@ -332,6 +333,73 @@
     border-radius: 50%; border: 1px solid var(--oltin-xira);
     font-size: 12px; margin-right: 9px; color: var(--oltin); vertical-align: -4px;
   }
+
+  /* --- Tush kundaligi --- */
+  input[type=text], input[type=time] {
+    background: rgba(0,0,0,.28); color: var(--matn);
+    border: 1px solid var(--chegara); border-radius: 10px;
+    padding: 10px 12px; font-family: var(--sans); font-size: 14.5px;
+    transition: border-color .18s;
+  }
+  input[type=text]:focus, input[type=time]:focus { outline: none; border-color: var(--oltin); }
+  input[type=text]::placeholder { color: rgba(167,158,194,.5); }
+  input[type=text] { width: 100%; margin-top: 8px; }
+  input[type=time] { color-scheme: dark; }
+
+  .yozuv {
+    border: 1px solid var(--chegara); border-radius: 11px;
+    background: rgba(0,0,0,.22); margin-bottom: 8px; overflow: hidden;
+  }
+  .yozuv-bosh {
+    display: flex; align-items: center; gap: 9px; width: 100%;
+    background: none; border: 0; color: var(--matn); font: inherit;
+    padding: 10px 12px; cursor: pointer; text-align: left;
+  }
+  .yozuv-sana { color: var(--oltin); font-size: 13px; flex: 0 0 auto; }
+  .yozuv-qisqa {
+    flex: 1; min-width: 0; font-size: 13.5px; color: var(--matn-xira);
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .yozuv-strelka { flex: 0 0 auto; color: var(--oltin); opacity: .6; font-size: 10px; }
+  .yozuv-tan { padding: 0 12px 12px; font-size: 14.5px; white-space: pre-wrap; animation: ochil .28s ease; }
+  .nishonlar { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 9px; }
+  .nishon {
+    font-size: 11.5px; color: var(--oltin); background: rgba(212,175,55,.09);
+    border: 1px solid var(--oltin-xira); border-radius: 999px; padding: 3px 9px;
+  }
+  .nishon b { font-weight: 600; opacity: .7; margin-left: 4px; }
+
+  /* --- Eslatma --- */
+  .qatorlar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  .vaqt-nishon {
+    display: inline-flex; align-items: center; gap: 7px;
+    border: 1px solid var(--oltin-xira); background: rgba(212,175,55,.09);
+    color: var(--oltin); border-radius: 999px; padding: 5px 8px 5px 12px;
+    font-size: 14px; font-variant-numeric: tabular-nums;
+  }
+  .vaqt-nishon.ochiq-holat { opacity: .4; }
+  .vaqt-nishon button {
+    background: none; border: 0; color: inherit; cursor: pointer;
+    font-size: 15px; line-height: 1; padding: 0 2px; opacity: .65;
+  }
+  .vaqt-nishon button:hover { opacity: 1; }
+  .kalit-tugma {
+    display: flex; align-items: center; gap: 10px; width: 100%;
+    background: none; border: 0; color: var(--matn); font: inherit;
+    cursor: pointer; padding: 0; margin-bottom: 12px; text-align: left;
+  }
+  .kalit-yugurt {
+    flex: 0 0 auto; width: 42px; height: 24px; border-radius: 999px;
+    background: rgba(255,255,255,.1); border: 1px solid var(--chegara);
+    position: relative; transition: background .2s, border-color .2s;
+  }
+  .kalit-yugurt::after {
+    content: ''; position: absolute; top: 2px; left: 2px;
+    width: 18px; height: 18px; border-radius: 50%;
+    background: var(--matn-xira); transition: transform .2s, background .2s;
+  }
+  .kalit-tugma.yoniq .kalit-yugurt { background: rgba(212,175,55,.25); border-color: var(--oltin); }
+  .kalit-tugma.yoniq .kalit-yugurt::after { transform: translateX(18px); background: var(--oltin); }
 
   .izoh {
     margin-top: 4px; padding: 12px 14px; font-size: 14.5px;
@@ -670,6 +738,341 @@ function Test(props) {
   );
 }
 
+/* --- Sana yordamchilari --- */
+const OYLAR = ['yanv', 'fev', 'mart', 'apr', 'may', 'iyun', 'iyul', 'avg', 'sent', 'okt', 'noy', 'dek'];
+
+function ikki(n) { return n < 10 ? '0' + n : String(n); }
+
+function sanaKalit(d) {
+  return d.getFullYear() + '-' + ikki(d.getMonth() + 1) + '-' + ikki(d.getDate());
+}
+
+function sanaChirey(kalitMatn) {
+  const q = String(kalitMatn || '').split('-');
+  if (q.length !== 3) return kalitMatn || '';
+  return Number(q[2]) + ' ' + (OYLAR[Number(q[1]) - 1] || '') ;
+}
+
+/* Ketma-ket kunlar seriyasi: bugundan (yoki kechadan) orqaga sanaladi */
+function seriya(sanalar) {
+  const bor = {};
+  sanalar.forEach(function (s) { bor[s] = true; });
+  const kun = new Date();
+  if (!bor[sanaKalit(kun)]) kun.setDate(kun.getDate() - 1);
+  let n = 0;
+  while (bor[sanaKalit(kun)]) { n++; kun.setDate(kun.getDate() - 1); }
+  return n;
+}
+
+/* --- Kundalik: sanali yozuvlar + belgilar chastotasi --- */
+function Kundalik(props) {
+  const [yozuvlar, yangila, saqlandi] = useSaqlash(props.k, []);
+  const royxat = Array.isArray(yozuvlar) ? yozuvlar : [];
+  const [matn, oMatn] = useState('');
+  const [belgi, oBelgi] = useState('');
+  const [ochiq, oOchiq] = useState(null);
+
+  function qosh() {
+    const tan = matn.trim();
+    if (!tan) return;
+    haptic('success');
+    const bel = belgi.split(',').map(function (s) { return s.trim(); }).filter(Boolean);
+    const hozir = new Date();
+    yangila([{
+      sana: sanaKalit(hozir),
+      vaqt: ikki(hozir.getHours()) + ':' + ikki(hozir.getMinutes()),
+      matn: tan,
+      belgilar: bel
+    }].concat(royxat));
+    oMatn(''); oBelgi(''); oOchiq(null);
+  }
+
+  function ochir(i) {
+    haptic('warning');
+    yangila(royxat.filter(function (_, j) { return j !== i; }));
+    oOchiq(null);
+  }
+
+  /* Takrorlanuvchi belgilar — "tush belgilari"ni shu yerdan topasiz */
+  const hisob = {};
+  royxat.forEach(function (y) {
+    (y.belgilar || []).forEach(function (b) {
+      const n = b.toLowerCase();
+      hisob[n] = (hisob[n] || 0) + 1;
+    });
+  });
+  const tez = Object.keys(hisob)
+    .sort(function (a, b) { return hisob[b] - hisob[a]; })
+    .slice(0, 8);
+
+  const kunlar = seriya(royxat.map(function (y) { return y.sana; }));
+
+  return (
+    <div className="mashq">
+      <span className="mashq-turi">🌙 Kundalik</span>
+      {props.m.sarlavha ? <div className="mashq-savol">{props.m.sarlavha}</div> : null}
+      {props.m.korsatma ? <div className="izoh" style={{ marginBottom: 12 }}>{props.m.korsatma}</div> : null}
+
+      <textarea
+        value={matn}
+        placeholder={props.m.joy_matn || 'Eslaganingizni yozing — parcha bo‘lsa ham…'}
+        onChange={function (e) { oMatn(e.target.value); }}
+      />
+      <input
+        type="text"
+        value={belgi}
+        placeholder={props.m.belgi_matn || 'Belgilar, vergul bilan: suv, maktab, uchish'}
+        onChange={function (e) { oBelgi(e.target.value); }}
+      />
+      <div className="tugmalar" style={{ justifyContent: 'flex-start', marginTop: 10 }}>
+        <button className="tug asosiy" onClick={qosh} disabled={!matn.trim()}>Yozuvni saqlash</button>
+      </div>
+
+      {tez.length ? (
+        <div style={{ marginTop: 14 }}>
+          <div className="holat">Takrorlanayotgan belgilar — ehtimoliy tush belgilaringiz:</div>
+          <div className="nishonlar">
+            {tez.map(function (b) {
+              return <span key={b} className="nishon">{b}<b>{hisob[b]}</b></span>;
+            })}
+          </div>
+        </div>
+      ) : null}
+
+      {royxat.length ? (
+        <div style={{ marginTop: 14 }}>
+          {royxat.map(function (y, i) {
+            return (
+              <div key={i} className="yozuv">
+                <button
+                  className="yozuv-bosh"
+                  onClick={function () { haptic('select'); oOchiq(ochiq === i ? null : i); }}
+                  aria-expanded={ochiq === i}
+                >
+                  <span className="yozuv-sana">{sanaChirey(y.sana)}{y.vaqt ? ' · ' + y.vaqt : ''}</span>
+                  <span className="yozuv-qisqa">{y.matn}</span>
+                  <span className="yozuv-strelka">{ochiq === i ? '▲' : '▼'}</span>
+                </button>
+                {ochiq === i ? (
+                  <div className="yozuv-tan">
+                    {y.matn}
+                    {(y.belgilar || []).length ? (
+                      <div className="nishonlar">
+                        {y.belgilar.map(function (b, j) { return <span key={j} className="nishon">{b}</span>; })}
+                      </div>
+                    ) : null}
+                    <div className="tugmalar" style={{ justifyContent: 'flex-start', marginTop: 10 }}>
+                      <button className="tug jim" onClick={function () { ochir(i); }}>O'chirish</button>
+                    </div>
+                  </div>
+                ) : null}
+              </div>
+            );
+          })}
+        </div>
+      ) : null}
+
+      <div className={'holat' + (saqlandi ? ' saqlandi' : '')}>
+        {saqlandi
+          ? '✓ Saqlandi'
+          : (royxat.length
+              ? royxat.length + ' ta yozuv' + (kunlar > 1 ? ' · ketma-ket ' + kunlar + ' kun' : '')
+              : 'Hali yozuv yo‘q. Eng qisqa parcha ham hisoblanadi.')}
+      </div>
+    </div>
+  );
+}
+
+/* --- Eslatma: bildirishnoma + kalendarga eksport --- */
+function bildirishnomaHolati() {
+  try {
+    if (typeof window.Notification === 'undefined') return 'yoq';
+    return window.Notification.permission;
+  } catch (e) { return 'yoq'; }
+}
+
+function Eslatma(props) {
+  const standart = {
+    yoniq: false,
+    vaqtlar: Array.isArray(props.m.vaqtlar) && props.m.vaqtlar.length
+      ? props.m.vaqtlar
+      : ['09:00', '13:00', '17:00', '21:00']
+  };
+  const [holat, yangila] = useSaqlash(props.k, standart);
+  const h = (holat && typeof holat === 'object') ? holat : standart;
+  const vaqtlar = Array.isArray(h.vaqtlar) ? h.vaqtlar : standart.vaqtlar;
+
+  const [ruxsat, oRuxsat] = useState(bildirishnomaHolati);
+  const [yangi, oYangi] = useState('12:00');
+  const [xabar, oXabar] = useState(null);
+  const oxirgi = useRef('');
+
+  const sarlavha = props.m.sarlavha || 'Eslatma';
+  const matn = props.m.matn || 'Reallik tekshiruvi vaqti keldi.';
+
+  /* Ilova ochiq turganda vaqtni kuzatib boradi */
+  useEffect(function () {
+    if (!h.yoniq || !vaqtlar.length) return;
+    function tekshir() {
+      const d = new Date();
+      const hozir = ikki(d.getHours()) + ':' + ikki(d.getMinutes());
+      if (vaqtlar.indexOf(hozir) === -1) return;
+      const belgi = sanaKalit(d) + ' ' + hozir;
+      if (oxirgi.current === belgi) return;
+      oxirgi.current = belgi;
+      haptic('warning');
+      oXabar(matn);
+      try {
+        if (typeof window.Notification !== 'undefined' && window.Notification.permission === 'granted') {
+          new window.Notification(sarlavha, { body: matn });
+        }
+      } catch (e) { /* bildirishnoma yo'q bo'lsa ham ilova ishlayveradi */ }
+    }
+    tekshir();
+    const id = setInterval(tekshir, 15000);
+    return function () { clearInterval(id); };
+  }, [h.yoniq, vaqtlar.join(','), sarlavha, matn]);
+
+  function almashtir() {
+    haptic('medium');
+    const keyingi = !h.yoniq;
+    yangila({ yoniq: keyingi, vaqtlar: vaqtlar });
+    if (keyingi) soraRuxsat();
+    else oXabar(null);
+  }
+
+  function soraRuxsat() {
+    try {
+      if (typeof window.Notification === 'undefined') return;
+      if (window.Notification.permission === 'default') {
+        window.Notification.requestPermission().then(function (r) { oRuxsat(r); });
+      } else {
+        oRuxsat(window.Notification.permission);
+      }
+    } catch (e) { oRuxsat('yoq'); }
+  }
+
+  function vaqtQosh() {
+    if (!yangi || vaqtlar.indexOf(yangi) !== -1) return;
+    haptic('select');
+    const r = vaqtlar.concat([yangi]).sort();
+    yangila({ yoniq: h.yoniq, vaqtlar: r });
+  }
+
+  function vaqtOchir(v) {
+    haptic('light');
+    yangila({ yoniq: h.yoniq, vaqtlar: vaqtlar.filter(function (x) { return x !== v; }) });
+  }
+
+  /* Telefon kalendariga har kuni takrorlanuvchi eslatma sifatida yuklab olish */
+  function kalendarga() {
+    haptic('medium');
+    const d = new Date();
+    const bugun = String(d.getFullYear()) + ikki(d.getMonth() + 1) + ikki(d.getDate());
+    const qismlar = [
+      'BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Kitob Magzi//UZ//', 'CALSCALE:GREGORIAN'
+    ];
+    vaqtlar.forEach(function (v, i) {
+      const soat = v.replace(':', '') + '00';
+      qismlar.push(
+        'BEGIN:VEVENT',
+        'UID:' + props.k + '-' + i + '-' + bugun + '@kitob-magzi',
+        'DTSTAMP:' + bugun + 'T000000Z',
+        'DTSTART:' + bugun + 'T' + soat,
+        'DURATION:PT5M',
+        'RRULE:FREQ=DAILY',
+        'SUMMARY:' + sarlavha,
+        'DESCRIPTION:' + matn.replace(/\n/g, ' '),
+        'BEGIN:VALARM', 'TRIGGER:PT0M', 'ACTION:DISPLAY',
+        'DESCRIPTION:' + sarlavha, 'END:VALARM',
+        'END:VEVENT'
+      );
+    });
+    qismlar.push('END:VCALENDAR');
+    try {
+      const blob = new Blob([qismlar.join('\r\n')], { type: 'text/calendar' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url; a.download = 'eslatma.ics';
+      document.body.appendChild(a); a.click();
+      document.body.removeChild(a);
+      setTimeout(function () { URL.revokeObjectURL(url); }, 4000);
+    } catch (e) {
+      oXabar('Bu yerda faylni yuklab bo‘lmadi. Ilovani brauzerda oching yoki vaqtlarni telefon eslatmasiga qo‘lda kiriting.');
+    }
+  }
+
+  /* Keyingi eslatmagacha qancha qolgani */
+  function keyingiVaqt() {
+    if (!vaqtlar.length) return null;
+    const d = new Date();
+    const hozir = d.getHours() * 60 + d.getMinutes();
+    let eng = null;
+    vaqtlar.forEach(function (v) {
+      const q = v.split(':');
+      let daq = Number(q[0]) * 60 + Number(q[1]) - hozir;
+      if (daq <= 0) daq += 24 * 60;
+      if (eng === null || daq < eng) eng = daq;
+    });
+    if (eng === null) return null;
+    const s = Math.floor(eng / 60);
+    return s ? s + ' soat ' + (eng % 60) + ' daqiqa' : eng + ' daqiqa';
+  }
+
+  const qoldi = h.yoniq ? keyingiVaqt() : null;
+
+  return (
+    <div className="mashq">
+      <span className="mashq-turi">🔔 Eslatma</span>
+      <div className="mashq-savol">{sarlavha}</div>
+      {props.m.korsatma ? <div className="izoh" style={{ marginBottom: 12 }}>{props.m.korsatma}</div> : null}
+
+      <button className={'kalit-tugma' + (h.yoniq ? ' yoniq' : '')} onClick={almashtir} aria-pressed={h.yoniq}>
+        <span className="kalit-yugurt" />
+        <span>{h.yoniq ? 'Eslatma yoqilgan' : 'Eslatmani yoqish'}</span>
+      </button>
+
+      <div className="qatorlar">
+        {vaqtlar.map(function (v) {
+          return (
+            <span key={v} className={'vaqt-nishon' + (h.yoniq ? '' : ' ochiq-holat')}>
+              {v}
+              <button onClick={function () { vaqtOchir(v); }} aria-label={v + ' ni o‘chirish'}>×</button>
+            </span>
+          );
+        })}
+      </div>
+
+      <div className="qatorlar" style={{ marginTop: 10 }}>
+        <input type="time" value={yangi} onChange={function (e) { oYangi(e.target.value); }} />
+        <button className="tug" onClick={vaqtQosh}>Vaqt qo'shish</button>
+        <button className="tug jim" onClick={kalendarga}>Kalendarga qo'shish</button>
+      </div>
+
+      {ruxsat === 'denied' && h.yoniq ? (
+        <div className="holat">Bildirishnomaga ruxsat berilmagan — eslatma ilova ichida ko‘rinadi.</div>
+      ) : null}
+      {ruxsat === 'default' && h.yoniq ? (
+        <div className="tugmalar" style={{ justifyContent: 'flex-start', marginTop: 10 }}>
+          <button className="tug" onClick={soraRuxsat}>Bildirishnomaga ruxsat berish</button>
+        </div>
+      ) : null}
+
+      {xabar ? <div className="izoh" style={{ marginTop: 12 }}>🔔 {xabar}</div> : null}
+
+      <div className="holat">
+        {h.yoniq
+          ? (qoldi ? 'Keyingi eslatma ' + qoldi + 'dan keyin' : 'Vaqt qo‘shing')
+          : 'Vaqtlar shu qurilmada saqlanadi'}
+      </div>
+      <div className="holat">
+        Bildirishnoma ilova ochiq turganda ishlaydi. Kun bo‘yi eslatib turishi uchun
+        «Kalendarga qo‘shish» tugmasi orqali telefon kalendariga o‘tkazing.
+      </div>
+    </div>
+  );
+}
+
 /* --- Mashq turini tanlovchi --- */
 function Mashq(props) {
   const m = props.m;
@@ -679,6 +1082,8 @@ function Mashq(props) {
   if (m.turi === 'slider') return <Slider m={m} k={k} />;
   if (m.turi === 'taymer') return <Taymer m={m} k={k} />;
   if (m.turi === 'test') return <Test m={m} k={k} />;
+  if (m.turi === 'kundalik') return <Kundalik m={m} k={k} />;
+  if (m.turi === 'eslatma') return <Eslatma m={m} k={k} />;
   return null;
 }
 

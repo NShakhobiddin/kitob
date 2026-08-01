@@ -29,6 +29,13 @@
       "tavsif": "Uyquda yashash, «normal» bo'lish tuzog'i, nafs va dangasalik — odamni to'xtatib qo'yadigan asosiy xatolar."
     },
     {
+      "id": "lucid-tush",
+      "nomi": "Lucid tush: ongli tush ko'rish amaliyoti",
+      "muallif": "Uyqu tadqiqotlari asosida",
+      "rang": "#4a3a9e",
+      "tavsif": "Tush kundaligi, reallik tekshiruvi, MILD, WBTB va SSILD — tushda o'zini anglashning tasdiqlangan usullari, eslatmalar bilan."
+    },
+    {
       "id": "namuna",
       "nomi": "Ichki Kuzatuvchi",
       "muallif": "Namuna Muallif",
