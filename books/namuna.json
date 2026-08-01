@@ -1,0 +1,119 @@
+{
+  "id": "namuna",
+  "nomi": "Ichki Kuzatuvchi",
+  "muallif": "Namuna Muallif",
+  "kirish": "Bu kitob oddiy bir haqiqatdan boshlanadi: siz o'z fikrlaringiz emassiz, siz ularni kuzatayotgan odamsiz. Kitob fikr bilan o'zingiz orasida kichkina bo'shliq ochishni o'rgatadi. Aynan o'sha bo'shliqda tanlov erkinligi yashaydi.",
+  "bolimlar": [
+    {
+      "sarlavha": "Fikr — buyruq emas, taklif",
+      "magiz": [
+        "Kunda boshimizdan minglab fikr o'tadi, lekin biz ularning ko'pini tanlab olmaymiz — ular o'z-o'zidan keladi.",
+        "Muammo fikrning kelishida emas, unga darrov ishonib qo'yishimizda. \"Men uddalay olmayman\" degan fikr — hukm emas, shunchaki miya taklif qilgan bitta jumla.",
+        "Fikrni kuzatgan zahoti uning ustingizdagi kuchi kamayadi. \"Men qo'rqyapman\" bilan \"Menda qo'rquv fikri paydo bo'ldi\" — bu ikki xil holat.",
+        "Ichki kuzatuvchi — bu sizning ichingizdagi tinch qism: u baholamaydi, faqat ko'radi."
+      ],
+      "tavsiyalar": [
+        "Kuchli fikr kelganda uni ovoz chiqarib nomlang: \"Bu — tashvish fikri\". Nomlash uni chetga suradi.",
+        "Fikringiz oldiga \"Men shunday deb o'ylayapman\" jumlasini qo'shib ko'ring — masalan, \"Men hamma meni tanqid qilyapti deb o'ylayapman\".",
+        "Kuniga uch marta, atigi 30 soniya, hech narsa qilmasdan bosh ichingizda nima bo'layotganini kuzating.",
+        "Fikrni yo'qotishga urinmang — u bilan tortishmang. Kuzatilgan fikr o'zi so'nadi."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Bugun sizni eng ko'p band qilgan fikr qaysi edi? Uni aynan qanday bo'lsa, o'sha so'zlar bilan yozing. So'ng ostiga yozing: bu fikr fakt edimi yoki taxminmi?"
+        },
+        {
+          "turi": "slider",
+          "savol": "Hozir fikrlaringizdan qanchalik uzoqdasiz? 1 — fikr bilan butunlay qo'shilib ketganman, 10 — uni chetdan tinch kuzatyapman.",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Qo'shilib ketganman",
+          "max_yorliq": "Kuzatyapman"
+        },
+        {
+          "turi": "taymer",
+          "daqiqa": 3,
+          "korsatma": "Ko'zingizni yumib o'tiring. Hech narsa qilmang, faqat nafasingizni sezing. Fikr kelsa — quvmang, uni osmondagi bulut kabi o'tib ketishiga ruxsat bering. \"Mana yana bir fikr\" deb ichingizda ayting va nafasga qayting."
+        },
+        {
+          "turi": "test",
+          "savol": "Kutilmagan tanqid eshitganingizda ichingizda birinchi bo'lib nima uyg'onadi?",
+          "variantlar": [
+            "Darrov o'zimni oqlashga kirishaman",
+            "Jim bo'lib qolaman, lekin ichimda uzoq aylanadi",
+            "Chetga surib qo'yaman, go'yo eshitmagandek",
+            "Bir zum to'xtab, unda haqiqat bormi deb o'ylayman"
+          ],
+          "izohlar": [
+            "Oqlanish — tez himoya. U sizni og'riqdan asraydi, lekin eshitish imkonini o'g'irlaydi. Keyingi safar javob berishdan oldin uch marta nafas oling.",
+            "Ichkarida aylanish — bu ham reaksiya, faqat sekin harakat qiladigan turi. Uni yozib qo'yish aylanishni to'xtatadi.",
+            "Chetga surish qisqa muddatda yengillik beradi, lekin fikr yo'qolmaydi — u faqat pastroq qavatga tushadi va keyin boshqa shaklda qaytadi.",
+            "Bu — ichki kuzatuvchining ovozi. Uni har safar mashq qilganingizda o'sha bo'shliq kengayadi."
+          ]
+        }
+      ]
+    },
+    {
+      "sarlavha": "Reaksiya va javob orasidagi bo'shliq",
+      "magiz": [
+        "Reaksiya — avtomatik, javob — tanlangan. Ular orasidagi farq bir necha soniya.",
+        "Tanamiz fikrdan tezroq harakat qiladi: jag' qisiladi, nafas tezlashadi. Shu belgilarni sezish — bo'shliqqa kiradigan eshik.",
+        "Bo'shliqni kengaytirishning eng arzon usuli — sekin nafas chiqarish. Uzun nafas chiqarish tanaga \"xavf yo'q\" degan signal beradi.",
+        "Har safar avtomatik reaksiyani bir marta to'xtatganingizda, miya yangi yo'lni o'rganadi. Bu — irodaning emas, takrorlashning ishi."
+      ],
+      "tavsiyalar": [
+        "Asabiylashganingizda javob berishdan oldin 4 soniya nafas oling, 6 soniya chiqaring.",
+        "Telefonda achchiq xabar kelsa, javobni yozing — lekin yubormang. 20 daqiqadan keyin qayta o'qing.",
+        "Kun davomida bir marta \"to'xtash nuqtasi\" belgilang: masalan, uyga kirishdan oldin eshik oldida 10 soniya turing.",
+        "Reaksiyangizni keyinroq yozib qo'ying: nima bo'ldi, tanamda nima sezdim, nima qildim, nima qilishim mumkin edi."
+      ],
+      "mashqlar": [
+        {
+          "turi": "checklist",
+          "sarlavha": "Bugun bo'shliqni kengaytirish uchun nimalarni qildingiz?",
+          "bandlar": [
+            "Kamida bir marta javob berishdan oldin to'xtadim",
+            "Tanamdagi keskinlikni sezib, uni bo'shatdim",
+            "Uzun nafas chiqarish mashqini bajardim",
+            "Bitta xabarga darrov javob yozmadim",
+            "Kunni yakunlab, bitta reaksiyamni tahlil qildim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "So'nggi bir haftada avtomatik reaksiyalaringizni qanchalik nazorat qila oldingiz?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Butunlay avtomatik",
+          "max_yorliq": "Deyarli har safar tanladim"
+        },
+        {
+          "turi": "test",
+          "savol": "Keskin vaziyatda tanangizda birinchi bo'lib qayerda kuchlanish paydo bo'ladi?",
+          "variantlar": [
+            "Ko'krak va nafasda — nafas tezlashadi",
+            "Yelka va bo'yinda — qotib qolaman",
+            "Qorinda — ichim siqiladi",
+            "Boshda — fikrlar tezlashib ketadi"
+          ],
+          "izohlar": [
+            "Nafas — eng tez ishlaydigan tugma. Sekin va uzun nafas chiqarish tananing xavf signalini bir necha soniyada pasaytiradi.",
+            "Yelka qotishi — kurashga tayyorlanish belgisi. Yelkani ko'tarib, keyin keskin tashlash bu kuchlanishni bo'shatadi.",
+            "Qorin — ehtiyotkorlik va qo'rquv joyi. Bir qo'lni qoringa qo'yib, nafasingiz qo'lni ko'tarayotganini kuzating.",
+            "Fikr tezlashuvi tanadagi signaldan qochish usuli bo'lishi mumkin. Diqqatni oyoq kaftlaringizga tushiring — bu miyani hozirgi lahzaga qaytaradi."
+          ]
+        },
+        {
+          "turi": "jurnal",
+          "savol": "Bugun pushaymon bo'lgan bitta reaksiyangizni eslang. Uni yozing va so'ng shu savolga javob bering: o'sha lahzada 5 soniya to'xtaganingizda nima boshqacha bo'lardi?"
+        },
+        {
+          "turi": "taymer",
+          "daqiqa": 5,
+          "korsatma": "Tinch o'tiring va butun diqqatni faqat nafas chiqarishga qarating. Nafas olishni sanamang — faqat chiqarishni sanang: bir, ikki, uch… o'ngacha, so'ng yana boshdan. Adashsangiz xafa bo'lmang, shunchaki birdan boshlang."
+        }
+      ]
+    }
+  ]
+}

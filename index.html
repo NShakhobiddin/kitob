@@ -1,0 +1,927 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0f0a1e">
+<title>Kitob Mag'zi</title>
+
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --fon-1: #0f0a1e;
+    --fon-2: #1a1033;
+    --oltin: #d4af37;
+    --oltin-xira: rgba(212, 175, 55, .18);
+    --matn: #e8e4f0;
+    --matn-xira: #a79ec2;
+    --karta: rgba(255, 255, 255, .045);
+    --chegara: rgba(255, 255, 255, .09);
+    --serif: "Playfair Display", Georgia, "Times New Roman", serif;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    background: var(--fon-1);
+  }
+
+  body {
+    font-family: var(--sans);
+    color: var(--matn);
+    font-size: 16px;
+    line-height: 1.6;
+    background: linear-gradient(170deg, #0f0a1e 0%, #1a1033 55%, #14092a 100%);
+    background-attachment: fixed;
+    overflow-x: hidden;
+  }
+
+  /* Yulduzchalar — faqat CSS, rasmsiz */
+  body::before,
+  body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+  }
+  body::before {
+    background-image:
+      radial-gradient(1.4px 1.4px at 12% 18%, rgba(255,255,255,.75), transparent),
+      radial-gradient(1.2px 1.2px at 78% 9%,  rgba(255,255,255,.55), transparent),
+      radial-gradient(1.6px 1.6px at 34% 62%, rgba(212,175,55,.55), transparent),
+      radial-gradient(1.1px 1.1px at 88% 47%, rgba(255,255,255,.5), transparent),
+      radial-gradient(1.3px 1.3px at 57% 84%, rgba(255,255,255,.45), transparent),
+      radial-gradient(1.5px 1.5px at 21% 92%, rgba(212,175,55,.4), transparent),
+      radial-gradient(1.1px 1.1px at 66% 33%, rgba(255,255,255,.4), transparent),
+      radial-gradient(1.2px 1.2px at 5% 55%,  rgba(255,255,255,.35), transparent);
+    opacity: .8;
+  }
+  body::after {
+    background:
+      radial-gradient(90% 55% at 50% -8%, rgba(120, 80, 190, .28), transparent 70%),
+      radial-gradient(60% 40% at 90% 100%, rgba(212, 175, 55, .07), transparent 70%);
+  }
+
+  #ildiz { position: relative; z-index: 1; }
+
+  .qobiq {
+    max-width: 620px;
+    margin: 0 auto;
+    padding: 22px 16px calc(40px + env(safe-area-inset-bottom));
+  }
+
+  h1, h2, h3, h4 { font-family: var(--serif); font-weight: 700; margin: 0; line-height: 1.25; }
+
+  /* ---------- Sarlavha ---------- */
+  .bosh { text-align: center; padding: 18px 0 26px; }
+  .bosh .belgi { font-size: 26px; letter-spacing: .3em; color: var(--oltin); opacity: .85; }
+  .bosh h1 {
+    font-size: 30px;
+    margin: 8px 0 6px;
+    background: linear-gradient(100deg, #f4e3a8, var(--oltin) 55%, #b08f28);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .bosh p { margin: 0; color: var(--matn-xira); font-size: 14px; }
+  .ajratgich {
+    width: 120px; height: 1px; margin: 16px auto 0;
+    background: linear-gradient(90deg, transparent, var(--oltin), transparent);
+    opacity: .6;
+  }
+
+  /* ---------- Kitob kartalari ---------- */
+  .kartalar { display: flex; flex-direction: column; gap: 14px; }
+
+  .kitob-karta {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    padding: 12px;
+    border: 1px solid var(--chegara);
+    border-radius: 16px;
+    background: var(--karta);
+    cursor: pointer;
+    text-align: left;
+    width: 100%;
+    color: inherit;
+    font: inherit;
+    transition: transform .18s ease, border-color .18s ease, background .18s ease;
+  }
+  .kitob-karta:active { transform: scale(.985); }
+  .kitob-karta:hover { border-color: var(--oltin-xira); background: rgba(255,255,255,.07); }
+
+  .muqova {
+    flex: 0 0 auto;
+    width: 62px; height: 86px;
+    border-radius: 6px 10px 10px 6px;
+    display: flex; align-items: flex-end; justify-content: center;
+    padding-bottom: 8px;
+    box-shadow: 0 6px 18px rgba(0,0,0,.45), inset 0 0 0 1px rgba(255,255,255,.12);
+    position: relative;
+    overflow: hidden;
+  }
+  .muqova::before {
+    content: "";
+    position: absolute; left: 0; top: 0; bottom: 0; width: 6px;
+    background: rgba(0,0,0,.28);
+  }
+  .muqova span { font-size: 17px; opacity: .9; }
+
+  .kitob-matn { min-width: 0; }
+  .kitob-matn h3 { font-size: 17px; margin-bottom: 3px; }
+  .kitob-matn .muallif { font-size: 13px; color: var(--oltin); opacity: .85; }
+  .kitob-matn .tavsif {
+    font-size: 13px; color: var(--matn-xira); margin-top: 5px;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+  }
+
+  /* ---------- Kitob sahifasi ---------- */
+  .orqaga {
+    background: none; border: 1px solid var(--chegara); color: var(--matn-xira);
+    border-radius: 999px; padding: 7px 15px; font-size: 13px; font-family: var(--sans);
+    cursor: pointer; margin-bottom: 18px; transition: border-color .18s, color .18s;
+  }
+  .orqaga:hover { border-color: var(--oltin-xira); color: var(--oltin); }
+
+  .kitob-bosh { text-align: center; margin-bottom: 22px; }
+  .kitob-bosh h2 { font-size: 25px; margin-bottom: 6px; }
+  .kitob-bosh .muallif { color: var(--oltin); font-size: 14px; }
+  .kirish {
+    margin: 18px 0 0;
+    padding: 14px 16px;
+    border-left: 2px solid var(--oltin);
+    background: rgba(212,175,55,.05);
+    border-radius: 0 12px 12px 0;
+    font-size: 14.5px;
+    color: var(--matn-xira);
+    text-align: left;
+  }
+
+  /* ---------- Akkordeon ---------- */
+  .bolim {
+    border: 1px solid var(--chegara);
+    border-radius: 16px;
+    background: var(--karta);
+    margin-bottom: 12px;
+    overflow: hidden;
+    transition: border-color .2s ease;
+  }
+  .bolim.ochiq { border-color: var(--oltin-xira); }
+
+  .bolim-tugma {
+    width: 100%; display: flex; align-items: center; gap: 12px;
+    padding: 15px 16px; background: none; border: 0; color: inherit;
+    font: inherit; text-align: left; cursor: pointer;
+  }
+  .raqam {
+    flex: 0 0 auto; width: 30px; height: 30px; border-radius: 50%;
+    display: grid; place-items: center;
+    border: 1px solid var(--oltin-xira); color: var(--oltin);
+    font-family: var(--serif); font-size: 14px;
+    background: rgba(212,175,55,.07);
+  }
+  .bolim-tugma h4 { flex: 1; font-size: 16px; }
+  .strelka { color: var(--oltin); opacity: .7; transition: transform .25s ease; font-size: 12px; }
+  .bolim.ochiq .strelka { transform: rotate(180deg); }
+
+  .bolim-ich { padding: 0 16px 18px; animation: ochil .28s ease; }
+  @keyframes ochil { from { opacity: 0; transform: translateY(-6px); } to { opacity: 1; transform: none; } }
+
+  .qism { margin-top: 18px; }
+  .qism-sarlavha {
+    display: flex; align-items: center; gap: 8px;
+    font-family: var(--serif); font-size: 13px; letter-spacing: .1em;
+    text-transform: uppercase; color: var(--oltin); margin-bottom: 10px;
+  }
+  .qism-sarlavha::after {
+    content: ""; flex: 1; height: 1px;
+    background: linear-gradient(90deg, var(--oltin-xira), transparent);
+  }
+
+  ul.magiz { list-style: none; margin: 0; padding: 0; }
+  ul.magiz li {
+    position: relative; padding-left: 20px; margin-bottom: 10px; font-size: 15px;
+  }
+  ul.magiz li::before {
+    content: "◈"; position: absolute; left: 0; top: 0;
+    color: var(--oltin); opacity: .6; font-size: 11px;
+  }
+
+  ol.tavsiyalar { margin: 0; padding-left: 20px; }
+  ol.tavsiyalar li { margin-bottom: 9px; font-size: 15px; }
+  ol.tavsiyalar li::marker { color: var(--oltin); font-family: var(--serif); }
+
+  /* ---------- Mashqlar ---------- */
+  .mashq {
+    border: 1px solid var(--chegara);
+    background: rgba(15, 10, 30, .5);
+    border-radius: 14px;
+    padding: 14px;
+    margin-bottom: 12px;
+  }
+  .mashq-turi {
+    display: inline-block; font-size: 10.5px; letter-spacing: .12em; text-transform: uppercase;
+    color: var(--oltin); background: rgba(212,175,55,.1);
+    border: 1px solid var(--oltin-xira); border-radius: 999px;
+    padding: 2px 9px; margin-bottom: 9px;
+  }
+  .mashq-savol { font-size: 15px; margin-bottom: 12px; }
+
+  textarea {
+    width: 100%; min-height: 110px; resize: vertical;
+    background: rgba(0,0,0,.28); color: var(--matn);
+    border: 1px solid var(--chegara); border-radius: 10px;
+    padding: 11px 12px; font-family: var(--sans); font-size: 15px; line-height: 1.55;
+    transition: border-color .18s;
+  }
+  textarea:focus { outline: none; border-color: var(--oltin); }
+  textarea::placeholder { color: rgba(167,158,194,.5); }
+
+  .holat { font-size: 12px; color: var(--matn-xira); margin-top: 7px; min-height: 16px; }
+  .holat.saqlandi { color: var(--oltin); }
+
+  .band {
+    display: flex; gap: 11px; align-items: flex-start;
+    padding: 9px 0; cursor: pointer; font-size: 15px;
+  }
+  .band + .band { border-top: 1px solid rgba(255,255,255,.05); }
+  .quti {
+    flex: 0 0 auto; width: 21px; height: 21px; margin-top: 1px;
+    border: 1px solid var(--chegara); border-radius: 6px;
+    display: grid; place-items: center; font-size: 12px; color: var(--fon-1);
+    transition: all .18s ease;
+  }
+  .band.belgili .quti { background: var(--oltin); border-color: var(--oltin); }
+  .band.belgili .yorliq { color: var(--matn-xira); text-decoration: line-through; }
+
+  .progress-chiziq {
+    height: 4px; border-radius: 999px; background: rgba(255,255,255,.08);
+    overflow: hidden; margin-top: 12px;
+  }
+  .progress-chiziq i {
+    display: block; height: 100%; border-radius: 999px;
+    background: linear-gradient(90deg, #b08f28, var(--oltin));
+    transition: width .3s ease;
+  }
+
+  input[type=range] {
+    width: 100%; -webkit-appearance: none; appearance: none;
+    background: transparent; margin: 6px 0;
+  }
+  input[type=range]::-webkit-slider-runnable-track {
+    height: 4px; border-radius: 999px; background: rgba(255,255,255,.12);
+  }
+  input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none; appearance: none;
+    width: 20px; height: 20px; border-radius: 50%; margin-top: -8px;
+    background: var(--oltin); border: 0;
+    box-shadow: 0 0 0 5px rgba(212,175,55,.16);
+  }
+  input[type=range]::-moz-range-track { height: 4px; border-radius: 999px; background: rgba(255,255,255,.12); }
+  input[type=range]::-moz-range-thumb {
+    width: 20px; height: 20px; border-radius: 50%; border: 0; background: var(--oltin);
+    box-shadow: 0 0 0 5px rgba(212,175,55,.16);
+  }
+
+  .slider-qiymat {
+    text-align: center; font-family: var(--serif); font-size: 30px; color: var(--oltin);
+    line-height: 1.1; margin-bottom: 4px;
+  }
+  .yorliqlar { display: flex; justify-content: space-between; font-size: 12px; color: var(--matn-xira); }
+
+  .taymer-orin { display: flex; flex-direction: column; align-items: center; gap: 14px; }
+  .halqa { position: relative; width: 132px; height: 132px; }
+  .halqa svg { transform: rotate(-90deg); display: block; }
+  .halqa circle { fill: none; stroke-width: 5; stroke-linecap: round; }
+  .halqa .iz { stroke: rgba(255,255,255,.09); }
+  .halqa .yoy { stroke: var(--oltin); transition: stroke-dashoffset 1s linear; }
+  .halqa .vaqt {
+    position: absolute; inset: 0; display: grid; place-items: center;
+    font-family: var(--serif); font-size: 27px; color: var(--matn);
+  }
+
+  .tugmalar { display: flex; gap: 9px; flex-wrap: wrap; justify-content: center; }
+  .tug {
+    background: rgba(212,175,55,.1); border: 1px solid var(--oltin-xira);
+    color: var(--oltin); border-radius: 999px; padding: 8px 18px;
+    font-family: var(--sans); font-size: 14px; cursor: pointer;
+    transition: background .18s, transform .12s;
+  }
+  .tug:active { transform: scale(.95); }
+  .tug.asosiy { background: var(--oltin); color: #1a1033; border-color: var(--oltin); font-weight: 600; }
+  .tug.jim { background: none; color: var(--matn-xira); border-color: var(--chegara); }
+
+  .variant {
+    display: block; width: 100%; text-align: left;
+    background: rgba(0,0,0,.25); border: 1px solid var(--chegara);
+    color: var(--matn); border-radius: 11px; padding: 11px 13px;
+    font: inherit; font-size: 15px; cursor: pointer; margin-bottom: 8px;
+    transition: all .18s ease;
+  }
+  .variant:hover { border-color: var(--oltin-xira); }
+  .variant.tanlangan { border-color: var(--oltin); background: rgba(212,175,55,.1); color: var(--oltin); }
+  .variant .harf {
+    display: inline-grid; place-items: center; width: 21px; height: 21px;
+    border-radius: 50%; border: 1px solid var(--oltin-xira);
+    font-size: 12px; margin-right: 9px; color: var(--oltin); vertical-align: -4px;
+  }
+
+  .izoh {
+    margin-top: 4px; padding: 12px 14px; font-size: 14.5px;
+    border-left: 2px solid var(--oltin); border-radius: 0 10px 10px 0;
+    background: rgba(212,175,55,.06); color: var(--matn-xira);
+    animation: ochil .28s ease;
+  }
+
+  .xabar { text-align: center; color: var(--matn-xira); padding: 48px 20px; font-size: 15px; }
+  .xabar .belgi { font-size: 34px; color: var(--oltin); opacity: .55; display: block; margin-bottom: 12px; }
+
+  .yuklanmoqda { display: grid; place-items: center; padding: 60px 0; }
+  .aylana {
+    width: 30px; height: 30px; border-radius: 50%;
+    border: 2px solid var(--oltin-xira); border-top-color: var(--oltin);
+    animation: aylan .8s linear infinite;
+  }
+  @keyframes aylan { to { transform: rotate(360deg); } }
+
+  .izohcha { text-align: center; font-size: 12px; color: rgba(167,158,194,.6); margin-top: 30px; }
+
+  @media (max-width: 400px) {
+    .qobiq { padding: 16px 12px 34px; }
+    .bosh h1 { font-size: 25px; }
+    .kitob-bosh h2 { font-size: 21px; }
+    .muqova { width: 54px; height: 76px; }
+    .bolim-tugma { padding: 13px 13px; gap: 10px; }
+    .bolim-ich { padding: 0 13px 16px; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+  }
+</style>
+
+<div id="ildiz">
+  <div class="yuklanmoqda"><div class="aylana"></div></div>
+</div>
+
+<script src="https://unpkg.com/react@18.3.1/umd/react.production.min.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js" crossorigin></script>
+<script src="https://unpkg.com/@babel/standalone@7.25.6/babel.min.js"></script>
+
+<script type="text/babel" data-presets="react">
+const { useState, useEffect, useRef, useCallback } = React;
+
+/* ==================== Telegram WebApp (xavfsiz o'ram) ==================== */
+/* SDK bo'lmasa ham (oddiy brauzer) hech qanday xato bermaydi */
+
+const TG = (function () {
+  try {
+    return window.Telegram && window.Telegram.WebApp ? window.Telegram.WebApp : null;
+  } catch (e) { return null; }
+})();
+
+function tgTayyor() {
+  if (!TG) return;
+  try {
+    TG.ready();
+    TG.expand();
+    if (TG.setHeaderColor) TG.setHeaderColor('#0f0a1e');
+    if (TG.setBackgroundColor) TG.setBackgroundColor('#0f0a1e');
+    if (TG.enableClosingConfirmation) TG.enableClosingConfirmation();
+  } catch (e) {}
+}
+
+function haptic(tur) {
+  if (!TG || !TG.HapticFeedback) return;
+  try {
+    if (tur === 'success' || tur === 'warning' || tur === 'error') {
+      TG.HapticFeedback.notificationOccurred(tur);
+    } else if (tur === 'select') {
+      TG.HapticFeedback.selectionChanged();
+    } else {
+      TG.HapticFeedback.impactOccurred(tur || 'light');
+    }
+  } catch (e) {}
+}
+
+/* BackButton — kitob ichida ko'rsatiladi */
+function backButton(korsat, ishlov) {
+  if (!TG || !TG.BackButton) return function () {};
+  try {
+    if (!korsat) { TG.BackButton.hide(); return function () {}; }
+    TG.BackButton.onClick(ishlov);
+    TG.BackButton.show();
+    return function () {
+      try { TG.BackButton.offClick(ishlov); TG.BackButton.hide(); } catch (e) {}
+    };
+  } catch (e) { return function () {}; }
+}
+
+/* ==================== localStorage yordamchilari ==================== */
+
+function kalit(kitobId, bolimIdx, mashqIdx) {
+  return 'km_' + kitobId + '_' + bolimIdx + '_' + mashqIdx;
+}
+
+function oqi(k, standart) {
+  try {
+    const xom = window.localStorage.getItem(k);
+    if (xom === null) return standart;
+    return JSON.parse(xom);
+  } catch (e) { return standart; }
+}
+
+function yoz(k, qiymat) {
+  try { window.localStorage.setItem(k, JSON.stringify(qiymat)); return true; }
+  catch (e) { return false; }
+}
+
+/* Saqlangan qiymatni komponent ichida boshqarish uchun umumiy hook */
+function useSaqlash(k, standart) {
+  const [qiymat, oQiymat] = useState(function () { return oqi(k, standart); });
+  const [saqlandi, oSaqlandi] = useState(false);
+  const soat = useRef(null);
+
+  const yangila = useCallback(function (yangi) {
+    oQiymat(yangi);
+    yoz(k, yangi);
+    oSaqlandi(true);
+    if (soat.current) clearTimeout(soat.current);
+    soat.current = setTimeout(function () { oSaqlandi(false); }, 1600);
+  }, [k]);
+
+  useEffect(function () {
+    return function () { if (soat.current) clearTimeout(soat.current); };
+  }, []);
+
+  return [qiymat, yangila, saqlandi];
+}
+
+/* ==================== Mashqlar ==================== */
+
+/* --- Jurnal: textarea + avtosaqlash --- */
+function Jurnal(props) {
+  const [matn, yangila, saqlandi] = useSaqlash(props.k, '');
+  return (
+    <div className="mashq">
+      <span className="mashq-turi">✍️ Jurnal</span>
+      <div className="mashq-savol">{props.m.savol}</div>
+      <textarea
+        value={matn}
+        placeholder="Bu yerga yozing…"
+        onChange={function (e) { yangila(e.target.value); }}
+      />
+      <div className={'holat' + (saqlandi ? ' saqlandi' : '')}>
+        {saqlandi ? '✓ Saqlandi' : (matn ? matn.trim().split(/\s+/).filter(Boolean).length + ' so‘z' : 'Yozganingiz shu qurilmada saqlanadi')}
+      </div>
+    </div>
+  );
+}
+
+/* --- Checklist: belgilar + progress --- */
+function Checklist(props) {
+  const bandlar = props.m.bandlar || [];
+  const [belgilar, yangila] = useSaqlash(props.k, []);
+  const xavfsiz = Array.isArray(belgilar) ? belgilar : [];
+
+  function almashtir(i) {
+    haptic('select');
+    const yangi = xavfsiz.indexOf(i) === -1
+      ? xavfsiz.concat([i])
+      : xavfsiz.filter(function (x) { return x !== i; });
+    yangila(yangi);
+    if (yangi.length === bandlar.length && bandlar.length > 0) haptic('success');
+  }
+
+  const foiz = bandlar.length ? Math.round(xavfsiz.length / bandlar.length * 100) : 0;
+
+  return (
+    <div className="mashq">
+      <span className="mashq-turi">☑️ Ro'yxat</span>
+      {props.m.sarlavha ? <div className="mashq-savol">{props.m.sarlavha}</div> : null}
+      <div>
+        {bandlar.map(function (band, i) {
+          const bor = xavfsiz.indexOf(i) !== -1;
+          return (
+            <div
+              key={i}
+              className={'band' + (bor ? ' belgili' : '')}
+              role="checkbox"
+              aria-checked={bor}
+              tabIndex={0}
+              onClick={function () { almashtir(i); }}
+              onKeyDown={function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); almashtir(i); } }}
+            >
+              <span className="quti">{bor ? '✓' : ''}</span>
+              <span className="yorliq">{band}</span>
+            </div>
+          );
+        })}
+      </div>
+      <div className="progress-chiziq"><i style={{ width: foiz + '%' }} /></div>
+      <div className="holat">{xavfsiz.length} / {bandlar.length} bajarildi — {foiz}%</div>
+    </div>
+  );
+}
+
+/* --- Slider: qiymat + "O'tgan safar" --- */
+function Slider(props) {
+  const min = typeof props.m.min === 'number' ? props.m.min : 1;
+  const max = typeof props.m.max === 'number' ? props.m.max : 10;
+  const oldingi = useRef(oqi(props.k, null));
+  const [qiymat, yangila, saqlandi] = useSaqlash(
+    props.k,
+    oldingi.current === null ? Math.round((min + max) / 2) : oldingi.current
+  );
+
+  return (
+    <div className="mashq">
+      <span className="mashq-turi">🎚 Baholash</span>
+      <div className="mashq-savol">{props.m.savol}</div>
+      <div className="slider-qiymat">{qiymat}</div>
+      <input
+        type="range"
+        min={min}
+        max={max}
+        step={1}
+        value={qiymat}
+        onChange={function (e) { yangila(Number(e.target.value)); }}
+        onMouseUp={function () { haptic('light'); }}
+        onTouchEnd={function () { haptic('light'); }}
+      />
+      <div className="yorliqlar">
+        <span>{props.m.min_yorliq || min}</span>
+        <span>{props.m.max_yorliq || max}</span>
+      </div>
+      <div className={'holat' + (saqlandi ? ' saqlandi' : '')}>
+        {oldingi.current !== null
+          ? 'O‘tgan safar: ' + oldingi.current
+          : (saqlandi ? '✓ Saqlandi' : 'Qiymat avtomatik saqlanadi')}
+      </div>
+    </div>
+  );
+}
+
+/* --- Taymer: aylana progress + boshlash/pauza/qayta --- */
+function Taymer(props) {
+  const jami = Math.max(1, Math.round((props.m.daqiqa || 5) * 60));
+  const [qolgan, oQolgan] = useState(jami);
+  const [ketmoqda, oKetmoqda] = useState(false);
+  const [tugadi, oTugadi] = useState(false);
+
+  useEffect(function () {
+    if (!ketmoqda) return;
+    const id = setInterval(function () {
+      oQolgan(function (avvalgi) {
+        if (avvalgi <= 1) {
+          clearInterval(id);
+          oKetmoqda(false);
+          oTugadi(true);
+          haptic('success');
+          return 0;
+        }
+        return avvalgi - 1;
+      });
+    }, 1000);
+    return function () { clearInterval(id); };
+  }, [ketmoqda]);
+
+  function boshla() {
+    haptic('medium');
+    if (tugadi) { oQolgan(jami); oTugadi(false); }
+    oKetmoqda(!ketmoqda);
+  }
+  function qayta() {
+    haptic('light');
+    oKetmoqda(false); oTugadi(false); oQolgan(jami);
+  }
+
+  const daq = Math.floor(qolgan / 60);
+  const son = qolgan % 60;
+  const R = 60;
+  const uzunlik = 2 * Math.PI * R;
+  const ulush = qolgan / jami;
+
+  return (
+    <div className="mashq">
+      <span className="mashq-turi">⏳ Taymer</span>
+      {props.m.korsatma ? <div className="mashq-savol">{props.m.korsatma}</div> : null}
+      <div className="taymer-orin">
+        <div className="halqa">
+          <svg width="132" height="132" viewBox="0 0 132 132">
+            <circle className="iz" cx="66" cy="66" r={R} />
+            <circle
+              className="yoy" cx="66" cy="66" r={R}
+              strokeDasharray={uzunlik}
+              strokeDashoffset={uzunlik * (1 - ulush)}
+            />
+          </svg>
+          <div className="vaqt">{daq}:{son < 10 ? '0' + son : son}</div>
+        </div>
+        <div className="tugmalar">
+          <button className="tug asosiy" onClick={boshla}>
+            {tugadi ? 'Qaytadan' : (ketmoqda ? 'Pauza' : (qolgan === jami ? 'Boshlash' : 'Davom ettirish'))}
+          </button>
+          <button className="tug jim" onClick={qayta}>Qayta</button>
+        </div>
+        {tugadi ? <div className="izoh" style={{ width: '100%' }}>🌙 Mashq tugadi. O'zingizni qanday his qilyapsiz?</div> : null}
+      </div>
+    </div>
+  );
+}
+
+/* --- Test: variant tanlanganda izoh ochiladi --- */
+function Test(props) {
+  const variantlar = props.m.variantlar || [];
+  const izohlar = props.m.izohlar || [];
+  const [tanlov, yangila] = useSaqlash(props.k, null);
+  const harflar = 'ABCDEFGH';
+
+  function tanla(i) {
+    haptic('select');
+    yangila(tanlov === i ? null : i);
+  }
+
+  return (
+    <div className="mashq">
+      <span className="mashq-turi">🔮 Savol</span>
+      <div className="mashq-savol">{props.m.savol}</div>
+      {variantlar.map(function (v, i) {
+        return (
+          <button
+            key={i}
+            className={'variant' + (tanlov === i ? ' tanlangan' : '')}
+            onClick={function () { tanla(i); }}
+          >
+            <span className="harf">{harflar[i] || (i + 1)}</span>{v}
+          </button>
+        );
+      })}
+      {tanlov !== null && izohlar[tanlov] ? <div className="izoh">{izohlar[tanlov]}</div> : null}
+      <div className="holat">To'g'ri yoki noto'g'ri javob yo'q — bu o'zingizni anglash uchun.</div>
+    </div>
+  );
+}
+
+/* --- Mashq turini tanlovchi --- */
+function Mashq(props) {
+  const m = props.m;
+  const k = kalit(props.kitobId, props.bolimIdx, props.mashqIdx);
+  if (m.turi === 'jurnal') return <Jurnal m={m} k={k} />;
+  if (m.turi === 'checklist') return <Checklist m={m} k={k} />;
+  if (m.turi === 'slider') return <Slider m={m} k={k} />;
+  if (m.turi === 'taymer') return <Taymer m={m} k={k} />;
+  if (m.turi === 'test') return <Test m={m} k={k} />;
+  return null;
+}
+
+/* ==================== Bo'lim (akkordeon) ==================== */
+
+function Bolim(props) {
+  const b = props.b;
+  const magiz = b.magiz || [];
+  const tavsiyalar = b.tavsiyalar || [];
+  const mashqlar = b.mashqlar || [];
+
+  return (
+    <section className={'bolim' + (props.ochiq ? ' ochiq' : '')}>
+      <button className="bolim-tugma" onClick={props.almashtir} aria-expanded={props.ochiq}>
+        <span className="raqam">{props.idx + 1}</span>
+        <h4>{b.sarlavha}</h4>
+        <span className="strelka">▼</span>
+      </button>
+
+      {props.ochiq ? (
+        <div className="bolim-ich">
+          {magiz.length ? (
+            <div className="qism">
+              <div className="qism-sarlavha">💠 Mag'iz</div>
+              <ul className="magiz">
+                {magiz.map(function (t, i) { return <li key={i}>{t}</li>; })}
+              </ul>
+            </div>
+          ) : null}
+
+          {tavsiyalar.length ? (
+            <div className="qism">
+              <div className="qism-sarlavha">🔑 Amaliy tavsiyalar</div>
+              <ol className="tavsiyalar">
+                {tavsiyalar.map(function (t, i) { return <li key={i}>{t}</li>; })}
+              </ol>
+            </div>
+          ) : null}
+
+          {mashqlar.length ? (
+            <div className="qism">
+              <div className="qism-sarlavha">🌙 Mashqlar</div>
+              {mashqlar.map(function (m, i) {
+                return (
+                  <Mashq
+                    key={i}
+                    m={m}
+                    kitobId={props.kitobId}
+                    bolimIdx={props.idx}
+                    mashqIdx={i}
+                  />
+                );
+              })}
+            </div>
+          ) : null}
+        </div>
+      ) : null}
+    </section>
+  );
+}
+
+/* ==================== Kitob sahifasi ==================== */
+
+function KitobSahifa(props) {
+  const [kitob, oKitob] = useState(null);
+  const [xato, oXato] = useState(null);
+  const [ochiq, oOchiq] = useState(0);
+
+  useEffect(function () {
+    let bekor = false;
+    oKitob(null); oXato(null);
+    fetch('books/' + props.id + '.json', { cache: 'no-cache' })
+      .then(function (r) {
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        return r.json();
+      })
+      .then(function (d) { if (!bekor) oKitob(d); })
+      .catch(function (e) { if (!bekor) oXato(String(e.message || e)); });
+    return function () { bekor = true; };
+  }, [props.id]);
+
+  useEffect(function () { window.scrollTo(0, 0); }, [props.id]);
+
+  if (xato) {
+    return (
+      <div>
+        <button className="orqaga" onClick={props.orqaga}>← Ortga</button>
+        <div className="xabar">
+          <span className="belgi">☾</span>
+          Kitobni yuklab bo'lmadi.<br /><small>{xato}</small>
+        </div>
+      </div>
+    );
+  }
+
+  if (!kitob) {
+    return (
+      <div>
+        <button className="orqaga" onClick={props.orqaga}>← Ortga</button>
+        <div className="yuklanmoqda"><div className="aylana"></div></div>
+      </div>
+    );
+  }
+
+  const bolimlar = kitob.bolimlar || [];
+
+  return (
+    <div>
+      <button className="orqaga" onClick={props.orqaga}>← Ortga</button>
+
+      <div className="kitob-bosh">
+        <h2>{kitob.nomi}</h2>
+        <div className="muallif">{kitob.muallif}</div>
+        <div className="ajratgich"></div>
+        {kitob.kirish ? <p className="kirish">{kitob.kirish}</p> : null}
+      </div>
+
+      {bolimlar.map(function (b, i) {
+        return (
+          <Bolim
+            key={i}
+            b={b}
+            idx={i}
+            kitobId={kitob.id || props.id}
+            ochiq={ochiq === i}
+            almashtir={function () {
+              haptic('light');
+              oOchiq(ochiq === i ? -1 : i);
+            }}
+          />
+        );
+      })}
+
+      <div className="izohcha">Javoblaringiz faqat shu qurilmada saqlanadi.</div>
+    </div>
+  );
+}
+
+/* ==================== Kitoblar ro'yxati ==================== */
+
+function Royxat(props) {
+  return (
+    <div>
+      <header className="bosh">
+        <div className="belgi">☾ ✦ ☾</div>
+        <h1>Kitob Mag'zi</h1>
+        <p>Psixologiya va o'z-o'zini anglash kitoblarining mag'zi</p>
+        <div className="ajratgich"></div>
+      </header>
+
+      {props.xato ? (
+        <div className="xabar">
+          <span className="belgi">☾</span>
+          Kitoblar ro'yxatini yuklab bo'lmadi.<br />
+          <small>{props.xato}</small>
+        </div>
+      ) : !props.kitoblar ? (
+        <div className="yuklanmoqda"><div className="aylana"></div></div>
+      ) : props.kitoblar.length === 0 ? (
+        <div className="xabar"><span className="belgi">☾</span>Hozircha kitob qo'shilmagan.</div>
+      ) : (
+        <div className="kartalar">
+          {props.kitoblar.map(function (k) {
+            const rang = k.rang || '#6b4c9a';
+            return (
+              <button
+                key={k.id}
+                className="kitob-karta"
+                onClick={function () { props.och(k.id); }}
+              >
+                <div
+                  className="muqova"
+                  style={{ background: 'linear-gradient(150deg, ' + rang + ', ' + rang + '55 60%, #0f0a1e)' }}
+                >
+                  <span>✦</span>
+                </div>
+                <div className="kitob-matn">
+                  <h3>{k.nomi}</h3>
+                  <div className="muallif">{k.muallif}</div>
+                  {k.tavsif ? <div className="tavsif">{k.tavsif}</div> : null}
+                </div>
+              </button>
+            );
+          })}
+        </div>
+      )}
+
+      <div className="izohcha">Har bir kitob — bir kechalik suhbat</div>
+    </div>
+  );
+}
+
+/* ==================== Ilova ==================== */
+
+function Ilova() {
+  const [kitoblar, oKitoblar] = useState(null);
+  const [xato, oXato] = useState(null);
+  const [joriy, oJoriy] = useState(null);
+
+  useEffect(function () { tgTayyor(); }, []);
+
+  useEffect(function () {
+    fetch('books/index.json', { cache: 'no-cache' })
+      .then(function (r) {
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        return r.json();
+      })
+      .then(function (d) { oKitoblar((d && d.kitoblar) || []); })
+      .catch(function (e) { oXato(String(e.message || e)); });
+  }, []);
+
+  const orqaga = useCallback(function () {
+    haptic('light');
+    oJoriy(null);
+  }, []);
+
+  /* Telegram BackButton — faqat kitob ichida */
+  useEffect(function () {
+    return backButton(Boolean(joriy), orqaga);
+  }, [joriy, orqaga]);
+
+  /* Brauzer "orqaga" tugmasi ham ishlasin */
+  useEffect(function () {
+    function popstate() { oJoriy(null); }
+    if (joriy) {
+      window.history.pushState({ kitob: joriy }, '');
+      window.addEventListener('popstate', popstate);
+      return function () { window.removeEventListener('popstate', popstate); };
+    }
+  }, [joriy]);
+
+  return (
+    <div className="qobiq">
+      {joriy
+        ? <KitobSahifa id={joriy} orqaga={orqaga} />
+        : <Royxat
+            kitoblar={kitoblar}
+            xato={xato}
+            och={function (id) { haptic('medium'); oJoriy(id); }}
+          />}
+    </div>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById('ildiz')).render(<Ilova />);
+</script>

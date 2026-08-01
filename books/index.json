@@ -1,0 +1,11 @@
+{
+  "kitoblar": [
+    {
+      "id": "namuna",
+      "nomi": "Ichki Kuzatuvchi",
+      "muallif": "Namuna Muallif",
+      "rang": "#6b4c9a",
+      "tavsif": "O'z fikrlaringizni chetdan kuzatishni o'rganish va shoshilinch reaksiyalardan xalos bo'lish haqida."
+    }
+  ]
+}
