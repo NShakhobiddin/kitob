@@ -2,7 +2,7 @@
   "id": "xatolar",
   "nomi": "Tentakning tajribasi 5: Odamlar qiladigan xatolar",
   "muallif": "Mirzakarim Norbekov",
-  "kirish": "Muallifning eng kech kitoblaridan biri — u endi qattiq o'qituvchi emas, ko'proq yo'lda uchragan darvesh ohangida gapiradi. Kitob odam qiladigan asosiy xatolar haqida: uxlab yashash, olomonga qo'shilib ketish, ichki qullikka bo'ysunish va dangasalik bilan do'stlashib qolish. Muallif o'zining ikki yillik tajribasini — dangasalikka to'liq bo'ysunib ko'rish tajribasini — ochiq hikoya qiladi. Bu — kitobning kirish qismi va dastlabki ikki bobi asosidagi mag'iz.",
+  "kirish": "Muallifning eng kech kitoblaridan biri: u endi qattiq o'qituvchi emas, yo'lda uchragan darvesh ohangida gapiradi. Kitob so'zboshi va ikki katta bobdan iborat — «nega normal bo'lish xavfli» va «Dangasalik hazratlarining taxti». Uning markazida muallifning ikki yillik shaxsiy tajribasi turadi: u dangasalikka ataylab to'liq bo'ysunib yashab ko'rgan va nima bo'lganini yashirmasdan yozgan.",
   "bolimlar": [
     {
       "sarlavha": "Bu kitob qanday yozilgan",
@@ -66,8 +66,8 @@
         "Ushbu savollar ustida o'ylang: «to'g'ri» va «noto'g'ri» nima? «Yoqadi» va «yoqmaydi» nima? Go'zallik va xunuklik nima?",
         "So'rang: qaror qabul qilayotganda men o'zim qaror qilyapmanmi yoki ichimda mendan yashiringan manba bormi?",
         "Istaklaringiz ildizini tahlil qiling. Pulga, hokimiyatga, shuhratga bo'lgan chanqoq qayerdan keldi — o'zingizdanmi yoki sizga singdirilganmi?",
-        "Tug'ilgan joyingizni sevishingiz yoki yomon ko'rishingiz nimadan? Ishonchlaringiz daraxti qaysi urug'dan o'sgan?",
-        "Bu savollar og'ir tuyulsa — bu yaxshi belgi. Ezayotgan narsa, agar ustida ishlasangiz, quvonch manbaiga aylanadi."
+        "Tug'ilgan joyingizni sevishingiz yoki yomon ko'rishingizning sababini yozib chiqing va ishonchlaringiz qaysi urug'dan o'sganini tekshiring.",
+        "Bu savollar og'ir tuyulsa, ulardan qochmang: ezayotgan narsani ustida ishlab, quvonch manbaiga aylantiring."
       ],
       "mashqlar": [
         {
@@ -169,7 +169,7 @@
       "sarlavha": "Nafs — ichkaridagi qullik",
       "magiz": [
         "Sharqda «nafs» degan keng tushuncha bor. Muallif G'arbda unga sinonim topa olmaganini aytadi va uni obraz orqali tushuntiradi.",
-        "Nafsni tayyorlash uchun odam bo'yidagi bo'sh qozon kerak. Unga jaholat, hasad, ochko'zlik, to'ymaslik, uyatsizlik, pastkashlik, manmanlik, kek saqlash, yolg'onchilik solinadi — bu birinchi tomchi. Keyin cheksiz ochko'zlik, har qanday yo'l bilan shuhratga intilish, oyoq osti qilingan taqdirlar ustidan hokimiyatga chiqish — ikkinchi tomchi.",
+        "Nafsni tayyorlash uchun odam bo'yidagi bo'sh qozon kerak. Unga jaholat, hasad, ochko'zlik, uyatsizlik, manmanlik va kek saqlash solinadi — bu birinchi tomchi. Keyin cheksiz to'ymaslik va oyoq osti qilingan taqdirlar ustidan hokimiyatga intilish qo'shiladi.",
         "Qozon ostiga o'zidan, Xudodan va insoniyatdan umidini uzgan odamlarning kechinmalaridan yoqilgan o'tin qo'yiladi. Aralashma Odam Atodan beri qaynatiladi.",
         "Nafs hamma narsani teshib o'tadi: tana va aql, fikr va tuyg'u, borliqning eng pasti va eng yuqorisi. U insoniyatni millatlarga, sayyorani davlatlarga, davlatni shaharlarga, shaharni uylarga bo'ladi. Va har bir uyda o'z qullarini saqlaydi.",
         "Nafsning bir zarrasi bir qorindan chiqqan bolalarni murosasiz dushmanga aylantirishi mumkin. Uning yengil hidi eng mustahkam oilani ham tarqatib yuboradi.",
@@ -180,7 +180,7 @@
         "Nafsning sizdagi aniq shaklini toping. U hammada boshqacha: kimdadir hasad, kimdadir manmanlik, kimdadir to'ymaslik.",
         "Uni yo'q qilishga urinmang — avval tanib oling. Nomlanmagan narsa bilan kurashib bo'lmaydi.",
         "Pastga dumalayotganingizni sezsangiz, avval to'xtash kerak. Keyin qadam-baqadam yuqoriga. Bu og'irroq, lekin boshqa yo'l yo'q.",
-        "Har bir kichik qarshilik — ariqcha. Katta o'zgarish bir kunda kelmaydi, u shu ariqchalardan yig'iladi.",
+        "Har bir kichik qarshilikni ariqcha deb sanang va uni har kuni takrorlang: katta o'zgarish bir kunda emas, shu ariqchalardan yig'iladi.",
         "Cho'qqiga chiqqaningizda pastga qarab afsuslanmang — atrofdagi yangi cho'qqilarga qarang. Yo'l shundan davom etadi."
       ],
       "mashqlar": [
@@ -225,25 +225,22 @@
     {
       "sarlavha": "Dangasalik taxti",
       "magiz": [
-        "Ko'pchilik dangasalikni passiv narsa deb o'ylaydi: yotib, cho'zilib dam olasan, keyin yana tetiksan. Aslida u o'z qurbonidan ancha tetikroq: u sizning fikrlaringizni fikrlaydi va sizning sezgi a'zolaringiz bilan sezadi.",
-        "Dangasalik — bir vaqtning o'zida buyuk narsa: u talab yaratadi, shuning uchun ixtirolarning ko'pi undan tug'iladi.",
-        "Tunggi osmonda yulduzlarga qaraymiz, ular orasidagi qorong'ilikka emas. Nima ko'proq — yulduzlarmi yoki bo'shliqmi? Haqiqiy ijodiy faollik ham kosmosdagi yulduzlar kabi kam.",
-        "Muallifning shaxsiy tajribasi. Qirq yillik maktabining diplom ishida «dangasalik» mavzusida bir necha bor yiqildi. Keyin qaror qildi: uch oy dangasalikka to'liq bo'ysunib yashash. Mashqlarni bekor qildi, kitob, film, safar — hammasini to'xtatdi, telefonni o'chirdi.",
-        "Uch oyda hech narsa o'zgarmadi, faqat olti kilogramm vazn qo'shildi. U muddatni yarim yilga, keyin bir yilga uzaytirdi. Birinchi yil oxirida vazn 100 kilogrammga yaqinlashdi. Miya esa aytardi: «Mana baxt shu — iningda o'tir, qolgani o'zi joyiga tushadi».",
-        "Ikkinchi yil oxirida kiyim o'lchami 50 dan 54 ga, vazn 78 dan 104 ga chiqdi. Oyoqlar shishardi, hojatxonaga borish marafonga aylandi, uy atrofida bir aylanish Everestga kislorodsiz chiqishdek tuyulardi. Shifoxonada beshta dori — umrbod ichish uchun yozib berildi. Keyinroq vazn 114 kilogrammga yetdi.",
-        "Doira yopiq: ortiqcha vazn odamni dangasa qiladi, dangasalik esa vaznni oshiradi.",
-        "Muallifning xulosasi: to'g'ridan-to'g'ri hujum ishlamaydi. «Har qanday to'g'ridan-to'g'ri bostirish boshlang'ich nuqtaga qaytish bilan tugaydi». U dangasalikni xushomad bilan tutdi: «Nimani xohlaysan, malikam? Hammasini qilaman» — va shu payt qochish rejasini tayyorladi.",
-        "Reja — piyoda yurish. 150 kilometrlik marshrut. Birinchi kuni to'xtash oralig'i o'n qadamgacha qisqardi; kechqurun u yotgan holida uyquga ketdi va ertalab shu holatda uyg'ondi. «Qanday o'lmaganimga hayronman» — birinchi fikri shu bo'lgan.",
-        "Ettinchi kun hal qiluvchi bo'ldi. Guruhda Arkusha ismli odam bor edi — shifokorlar xatosi tufayli deyarli falajlangan, hassa bilan yuradigan. Muallif uning yonida yurdi va dam olishni taklif qilmoqchi bo'lganda vijdoni tutdi: «U bir oyoq va bir qo'l bilan yuryapti, sen ikkovi bilan». Ular o'n besh kilometrlik yo'lni to'xtamasdan bosib o'tdi va guruhdan bir necha kilometr uzoqlashdi.",
-        "Bir yildan keyin Arkusha nega to'xtamaganini tushuntirdi: «Agar o'tirsam, charchoqdan boshqa turolmasdim — butun og'irlik bir oyoqda».",
-        "Muallifning yakuni: birovga qo'rquv, birovga uyat yordam beradi. Har kimning o'z shaxsiy muzasi bor, uni topish kerak.",
-        "U dangasalikni yenggan deb aytmaydi. «Hujum qilmaslik shartnomasi» tuzganini aytadi: chegara belgilangan, ba'zan u buzadi, ba'zan muallif. Lekin yomon tinchlik yaxshi urushdan afzal.",
-        "Dangasalik faqat zarar emas. Charchoq hissi bo'lmasa, sport zalida mushaklar uzilib ketardi. Tabiat bergan har bir narsa o'z vazifasiga xizmat qiladi — yuz yil oldin olimlar odam tanasidagi 200 ga yaqin a'zoni «keraksiz» deb ro'yxatga olishgan edi."
+        "Dangasalik passiv emas — u o'z qurbonidan tetikroq. U sizning fikrlaringiz bilan fikrlaydi, sizning sezgi a'zolaringiz bilan sezadi va hech narsa qilmaslik huquqini himoya qilish uchun bir zumda butun bir dalillar armiyasini yig'adi.",
+        "Tungi osmonda biz yulduzlarga qaraymiz, ular orasidagi qorong'ilikka emas. Bo'shliq esa yulduzlardan cheksiz ko'p. Haqiqiy yaratuvchi faollik ham kosmosdagi yulduzlar kabi kam uchraydi.",
+        "Muallifning tajribasi shunday boshlangan: diplom ishida bu mavzuda bir necha bor yiqilgach, u uch oy dangasalikka to'liq bo'ysunib yashashga qaror qilgan. Mashq, kitob, film, safar — hammasi to'xtatilgan, telefon o'chirilgan.",
+        "Uch oyda faqat olti kilogramm qo'shildi, shuning uchun muddat yarim yilga, keyin bir yilga uzaytirildi. Ikkinchi yil oxirida kiyim o'lchami 50 dan 54 ga, vazn 78 dan 104 kilogrammga chiqdi, keyinroq 114 ga yetdi va shifoxonada beshta dori umrbod ichish uchun yozib berildi.",
+        "Doira yopiq: ortiqcha vazn odamni dangasa qiladi, dangasalik esa vaznni oshiradi. Miya esa shu paytda ishontirib turadi: «Mana baxt shu — iningda o'tir, qolgani o'zi joyiga tushadi».",
+        "Muallifning asosiy xulosasi: to'g'ridan-to'g'ri hujum ishlamaydi. Har qanday bostirish boshlang'ich nuqtaga qaytish bilan tugaydi. U dangasalikni xushomad bilan tutgan va shu paytda chiqish rejasini tayyorlagan — 150 kilometrlik piyoda yurish marshruti.",
+        "Ettinchi kun hal qiluvchi bo'lgan. Guruhda Arkusha ismli odam bor edi: shifokorlar xatosi tufayli deyarli falajlangan, hassa bilan yuradigan. Muallif dam olishni taklif qilmoqchi bo'lganda o'zini to'xtatgan — u bir oyoq bilan yuribdi, sen ikkovi bilan. Ular o'n besh kilometrni to'xtamay bosib o'tishgan.",
+        "Arkushaning sababi bir yildan keyin ma'lum bo'lgan: «Agar o'tirsam, charchoqdan boshqa turolmasdim — butun og'irlik bir oyoqda». Birovni qo'rquv, birovni uyat harakatga soladi; har kim o'z turtkisini topishi kerak.",
+        "Ikki sinfdosh masali: biri ishsiz qolgan, biri tadbirkor. Tadbirkor unga ish bergan — chekni bankdan olib kelish, pulni teng bo'lish. Bir necha oyda ishsiz odam kiyingan, mashina va uy olgan, keyin esa xafa bo'la boshlagan: «Ishni yolg'iz men qilaman, pulni teng bo'lamiz». Olingan narsa tez qadrsizlanadi.",
+        "Muallif dangasalikni yengganini aytmaydi. U «hujum qilmaslik shartnomasi» tuzganini aytadi: chegara belgilangan, ba'zan u buzadi, ba'zan muallif — lekin yomon tinchlik yaxshi urushdan afzal.",
+        "Dangasalik faqat zarar emas: charchoq hissi bo'lmasa, sport zalida mushaklar uzilib ketardi. Yuz yil oldin olimlar odam tanasidagi 200 ga yaqin a'zoni «keraksiz» deb ro'yxatga olishgan, biri esa yo'g'on ichakni olib tashlash bo'yicha mingga yaqin operatsiya qilgan edi."
       ],
       "tavsiyalar": [
         "Dangasalik bilan to'g'ridan-to'g'ri kurashmang — u sizdan kuchli, chunki u sizsiz. Uni chetlab o'ting: o'zingizni ortga qaytish imkoni yo'q sharoitga qo'ying.",
         "Muallifning usuli: kelishuv qiling. «Xohlaganingni qilaman, faqat menga bitta kichkina yaxshilik qil» — va shu vaqtda haqiqiy qadamni tayyorlang.",
-        "Bir necha oy harakatsiz hayot — bu allaqachon tuzoq. Kapkan yog'langan, ovozsiz yopiladi; yopilgandan keyin chiqish ancha qiyin.",
+        "Bir necha oy harakatsiz yashaganingizni sezsangiz, buni allaqachon qo'yilgan kapkan deb biling va bugunoq birinchi qadamni qo'ying.",
         "O'zingizga «shaxsiy muza» toping — qo'rquvmi, uyatmi, g'ururmi. Sizni harakatga soladigan aniq tuyg'uni bilib oling va undan foydalaning.",
         "Dangasalikni butunlay yo'q qilmang — u himoya klapani. Unga vaqt ajrating, lekin chegarasini belgilang.",
         "O'zingizni sizdan og'irroq sharoitdagi odam yonida sinab ko'ring. Arkusha effekti: yoningizdagi odam to'xtamasa, siz ham to'xtamaysiz."
@@ -269,6 +266,23 @@
           "turi": "taymer",
           "daqiqa": 20,
           "korsatma": "Arkusha mashqi. Yigirma daqiqa to'xtamasdan yuring — tashqarida, yaxshisi tekis bo'lmagan yo'lda. Qoida bitta: to'xtamaslik. Charchoq kelganda o'zingizga savol bering: «Meni hozir nima to'xtatmoqchi — tana yoki dangasalik?» Kitobdagi hikoyada bir oyoqda yurgan odam butun guruhni ortda qoldirgan edi."
+        },
+        {
+          "turi": "eslatma",
+          "sarlavha": "Kundalik yurish eslatmasi",
+          "matn": "Chiqing va yuring. Bugun to'xtash uchun bahona qidirmang.",
+          "korsatma": "Muallif dangasalikdan yurish orqali chiqqan va oxirida kuniga o'ttiz kilometrgacha bosadigan bo'lgan. Eslatmani kuningizdagi eng bo'sh vaqtga qo'ying va bir hafta o'chirmang: harakat qaytmaguncha shartnoma kuchga kirmaydi.",
+          "vaqtlar": [
+            "07:30",
+            "18:00"
+          ]
+        },
+        {
+          "turi": "kundalik",
+          "sarlavha": "Ikki yillik doiradan chiqish daftari",
+          "korsatma": "Har kuni bitta qatordan yozing: bugun tanam necha daqiqa harakatda bo'ldi, dangasalik qaysi paytda va qanday bahona bilan keldi, men nima qildim. Belgilar maydoniga bahonalarni kiriting — eng ko'p takrorlangani sizning asosiy to'sig'ingiz. Muallif buni ikki yil kuzatgandan keyingina yechim topgan.",
+          "joy_matn": "Bugun qancha harakat qildim, dangasalik qachon keldi…",
+          "belgi_matn": "Bahonalar: charchadim, ertaga, vaqt yo'q, ob-havo…"
         },
         {
           "turi": "jurnal",
