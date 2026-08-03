@@ -28,6 +28,8 @@ Och fon, oq kartalar va to'q ko'k (navy) urg'u — zamonaviy mobil ilova uslubi.
 - Kitob muqovasi va sahifa hero'si kitobning `rang` maydonidan gradient yasaydi
 - Pastki navigatsiya: **Kitoblar · Jarayon · Kundalik · Eslatma** — to'rttasi ham
   haqiqiy sahifa, `localStorage`'dagi ma'lumotdan hisoblanadi
+- Bir turkumga tegishli kitoblar bosh sahifada bitta kartaga yig'iladi va alohida
+  turkum sahifasi orqali ochiladi
 - Kitob ichida har bir bo'lim ikkita bo'limchaga bo'lingan: **💠 Mag'iz** (mag'iz +
   amaliy tavsiyalar) va **🌙 Mashqlar**. Bo'lim sarlavhasida bajarilgan mashq
   hisobi ko'rinadi
@@ -145,10 +147,20 @@ Bu so'rovni `https://api.telegram.org/bot<TOKEN>/sendMessage` manziliga POST qil
 `id` — fayl nomi bilan bir xil bo'lishi kerak (`books/namuna.json`).
 `rang` — muqova gradientining asosiy rangi.
 
-`turkum` — **ixtiyoriy**. Bir xil `turkum` qiymatiga ega kitoblar bosh sahifada va
-Jarayon sahifasida bitta guruh sarlavhasi ostida chiqadi (masalan «Tentakning
-tajribasi» turkumidagi 5 ta kitob). Turkumsiz kitoblar «Boshqa kitoblar» ostiga
-tushadi va ro'yxat oxirida turadi.
+`turkum` — **ixtiyoriy**. Bir xil `turkum` qiymatiga ega kitoblar bosh sahifada
+alohida ko'rinmaydi: ular **bitta turkum kartasi**ga yig'iladi. Kartada turkum
+nomi, kitoblar soni, muallif va turkumning umumiy jarayoni ko'rsatiladi. Kartani
+bosganda **turkum sahifasi** ochiladi — u yerda hero statistikasi (kitob / mashq /
+bajarildi %) va turkumdagi kitoblar ro'yxati bo'ladi.
+
+Navigatsiya: bosh sahifa → turkum → kitob. «Ortga» tugmasi (Telegram BackButton va
+brauzer tugmasi ham) kitobdan turkumga, turkumdan bosh sahifaga qaytaradi. Jarayon,
+Kundalik yoki Eslatma sahifasidan turkumdagi kitob ochilsa, ortga qaytish o'sha
+kitobning turkumiga olib boradi.
+
+Turkumsiz kitoblar «Boshqa kitoblar» sarlavhasi ostida oddiy kartalar sifatida
+chiqadi. Qidiruv turkumni e'tiborga olmaydi — u barcha kitoblar bo'ylab ishlaydi va
+natijalarni tekis ro'yxat qilib ko'rsatadi.
 
 ### `books/{id}.json`
 
@@ -277,5 +289,6 @@ yangilangandan keyin javoblarni tiklaydi, taymer oxirigacha sanaydi, kundalik yo
 qo'shiladi/o'chiriladi va belgilar sanaladi, eslatma vaqti kelganda ishga tushadi,
 `.ics` fayl to'g'ri tarkib bilan yuklanadi, taymer tugagach bajarilgani saqlanib
 jarayon foizi jonli yangilanadi, pastki navigatsiyaning to'rt sahifasi ham ochiladi,
-kitoblar turkum bo'yicha guruhlanadi, bo'limchalar bir-biriga to'g'ri almashadi,
+kitoblar turkum kartasi orqali ochiladi va ortga qaytish zanjiri (kitob → turkum →
+bosh sahifa) ishlaydi, bo'limchalar bir-biriga to'g'ri almashadi,
 Telegram SDK va `Notification` bo'lmagan holatda ham JS xatosi chiqmaydi.

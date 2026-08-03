@@ -189,6 +189,42 @@
   }
   .kitob-karta.faol .progress-chiziq i { background: #fff; }
 
+  /* ---------- Turkum kartasi ---------- */
+  .turkum-karta {
+    display: flex; align-items: center; gap: 14px; width: 100%;
+    background: var(--karta); border: 1px solid var(--chegara);
+    border-radius: 20px; padding: 15px 16px; margin-bottom: 12px;
+    box-shadow: var(--soya); cursor: pointer;
+    font: inherit; color: inherit; text-align: left;
+    transition: transform .16s ease, box-shadow .18s ease;
+  }
+  .turkum-karta:active { transform: scale(.985); }
+  .turkum-karta.faol { border-color: var(--asos); }
+
+  .turkum-muqovalar { flex: 0 0 auto; display: flex; }
+  .turkum-muqovalar span {
+    width: 38px; height: 50px; border-radius: 10px;
+    display: grid; place-items: center; color: #fff; font-size: 13px;
+    border: 2px solid var(--karta);
+    box-shadow: 0 3px 10px rgba(21, 42, 99, .18);
+  }
+  .turkum-muqovalar span + span { margin-left: -20px; }
+
+  .turkum-matn { flex: 1; min-width: 0; }
+  .turkum-matn h3 { font-size: 15.5px; font-weight: 600; margin-bottom: 2px; }
+  .turkum-matn .muallif { font-size: 12px; color: var(--matn-xira); }
+  .turkum-matn .karta-jarayon { margin-top: 10px; }
+  .turkum-strelka { flex: 0 0 auto; color: var(--asos); opacity: .5; font-size: 20px; line-height: 1; }
+
+  .hero .hero-muqovalar { justify-content: center; margin-bottom: 14px; }
+  .hero .hero-muqovalar span {
+    width: 46px; height: 62px; border-radius: 13px; font-size: 15px;
+    border-color: rgba(255,255,255,.28);
+  }
+  .hero .hero-muqovalar span + span { margin-left: -22px; }
+
+  .qator-karta.joriy { border-color: var(--asos); }
+
   /* ---------- Kitob sahifasi: navy hero ---------- */
   .hero {
     background: linear-gradient(158deg, var(--asos-yorug), var(--asos-tim));
@@ -1623,6 +1659,100 @@ function turkumlarga(kitoblar, oxirgi) {
   });
 }
 
+/* Bir nechta kitobning umumiy jarayoni */
+function guruhHisob(kitoblar, barcha) {
+  let jami = 0, bajarildi = 0;
+  (kitoblar || []).forEach(function (k) {
+    const kitob = barcha ? barcha[k.id] : null;
+    if (!kitob) return;
+    const h = kitobHisob(kitob);
+    jami += h.jami; bajarildi += h.bajarildi;
+  });
+  return { jami: jami, bajarildi: bajarildi, foiz: jami ? Math.round(bajarildi / jami * 100) : 0 };
+}
+
+/* --- Bitta kitob kartasi (2 ustunli to'r uchun) --- */
+function KitobKarta(props) {
+  const k = props.k;
+  const rang = k.rang || '#1e3a8a';
+  const kitob = props.barcha ? props.barcha[k.id] : null;
+  const hisob = kitob ? kitobHisob(kitob) : null;
+  const faol = k.id === props.oxirgi;
+
+  return (
+    <button
+      className={'kitob-karta' + (faol ? ' faol' : '')}
+      onClick={function () { props.och(k.id); }}
+    >
+      <div className="karta-yuqori">
+        <div
+          className="muqova"
+          style={{ background: 'linear-gradient(150deg, ' + rang + ', ' + qoraytir(rang, .3) + ')' }}
+        >✦</div>
+        <span className="karta-nuqta">⋮</span>
+      </div>
+
+      <div className="kitob-matn">
+        <h3>{k.nomi}</h3>
+        <div className="muallif">{k.muallif}</div>
+      </div>
+
+      <div className="karta-jarayon">
+        <div className="yorliq">{faol ? 'Davom ettiring' : 'Jarayon'}</div>
+        <div className="qator">
+          <div className="progress-chiziq"><i style={{ width: (hisob ? hisob.foiz : 0) + '%' }} /></div>
+          <span className="foiz">{hisob ? hisob.foiz + '%' : '—'}</span>
+        </div>
+      </div>
+    </button>
+  );
+}
+
+/* --- Turkum kartasi: bosilganda turkum sahifasi ochiladi --- */
+function TurkumKarta(props) {
+  const guruh = props.guruh;
+  const kitoblar = guruh.kitoblar || [];
+  const hisob = guruhHisob(kitoblar, props.barcha);
+  const ichida = kitoblar.some(function (k) { return k.id === props.oxirgi; });
+  const muallif = kitoblar.length && kitoblar.every(function (k) { return k.muallif === kitoblar[0].muallif; })
+    ? kitoblar[0].muallif : null;
+
+  return (
+    <button className={'turkum-karta' + (ichida ? ' faol' : '')} onClick={props.och}>
+      <div className="turkum-muqovalar">
+        {kitoblar.slice(0, 4).map(function (k, i) {
+          const rang = k.rang || '#1e3a8a';
+          return (
+            <span
+              key={k.id}
+              style={{
+                background: 'linear-gradient(150deg, ' + rang + ', ' + qoraytir(rang, .3) + ')',
+                zIndex: 4 - i
+              }}
+            >✦</span>
+          );
+        })}
+      </div>
+
+      <div className="turkum-matn">
+        <h3>{guruh.nomi}</h3>
+        <div className="muallif">
+          {kitoblar.length} kitob{muallif ? ' · ' + muallif : ''}
+        </div>
+        <div className="karta-jarayon">
+          <div className="yorliq">{ichida ? 'Davom ettiring' : hisob.bajarildi + ' / ' + hisob.jami + ' mashq'}</div>
+          <div className="qator">
+            <div className="progress-chiziq"><i style={{ width: hisob.foiz + '%' }} /></div>
+            <span className="foiz">{hisob.foiz}%</span>
+          </div>
+        </div>
+      </div>
+
+      <span className="turkum-strelka">›</span>
+    </button>
+  );
+}
+
 function salomMatni() {
   const s = new Date().getHours();
   if (s < 5) return 'Xayrli tun';
@@ -1643,6 +1773,13 @@ function Royxat(props) {
         return (k.nomi + ' ' + k.muallif + ' ' + (k.tavsif || '')).toLowerCase().indexOf(sorov) !== -1;
       })
     : kitoblar;
+
+  /* Turkumga tegishli kitoblar bitta kartaga yig'iladi, qolganlari alohida */
+  const guruhlar = turkumlarga(kitoblar, oxirgi);
+  const turkumlar = guruhlar.filter(function (g) { return g.nomi !== TURKUMSIZ; });
+  const yakkalar = guruhlar
+    .filter(function (g) { return g.nomi === TURKUMSIZ; })
+    .reduce(function (r, g) { return r.concat(g.kitoblar); }, []);
 
   return (
     <div>
@@ -1686,53 +1823,126 @@ function Royxat(props) {
           <span className="belgi">☾</span>
           {sorov ? 'Bunday kitob topilmadi.' : "Hozircha kitob qo'shilmagan."}
         </div>
+      ) : sorov ? (
+        <div>
+          <BoshQator nomi="Topilgan kitoblar" ong={koringan.length + ' ta'} />
+          <div className="kartalar">
+            {koringan.map(function (k) {
+              return (
+                <KitobKarta key={k.id} k={k} barcha={props.barcha} oxirgi={oxirgi} och={props.och} />
+              );
+            })}
+          </div>
+        </div>
       ) : (
-        turkumlarga(koringan, oxirgi).map(function (guruh) {
-          return (
-            <div key={guruh.nomi}>
-              <BoshQator nomi={guruh.nomi} ong={guruh.kitoblar.length + ' ta'} />
+        <div>
+          {turkumlar.length ? (
+            <div>
+              <BoshQator nomi="Turkumlar" ong={turkumlar.length + ' ta'} />
+              {turkumlar.map(function (guruh) {
+                return (
+                  <TurkumKarta
+                    key={guruh.nomi}
+                    guruh={guruh}
+                    barcha={props.barcha}
+                    oxirgi={oxirgi}
+                    och={function () { props.turkumniOch(guruh.nomi); }}
+                  />
+                );
+              })}
+            </div>
+          ) : null}
+
+          {yakkalar.length ? (
+            <div>
+              <BoshQator nomi={turkumlar.length ? 'Boshqa kitoblar' : 'Kitoblar'} ong={yakkalar.length + ' ta'} />
               <div className="kartalar">
-                {guruh.kitoblar.map(function (k) {
-                  const rang = k.rang || '#1e3a8a';
-                  const kitob = props.barcha ? props.barcha[k.id] : null;
-                  const hisob = kitob ? kitobHisob(kitob) : null;
-                  const faol = k.id === oxirgi;
+                {yakkalar.map(function (k) {
                   return (
-                    <button
-                      key={k.id}
-                      className={'kitob-karta' + (faol ? ' faol' : '')}
-                      onClick={function () { props.och(k.id); }}
-                    >
-                      <div className="karta-yuqori">
-                        <div
-                          className="muqova"
-                          style={{ background: 'linear-gradient(150deg, ' + rang + ', ' + qoraytir(rang, .3) + ')' }}
-                        >✦</div>
-                        <span className="karta-nuqta">⋮</span>
-                      </div>
-
-                      <div className="kitob-matn">
-                        <h3>{k.nomi}</h3>
-                        <div className="muallif">{k.muallif}</div>
-                      </div>
-
-                      <div className="karta-jarayon">
-                        <div className="yorliq">{faol ? 'Davom ettiring' : 'Jarayon'}</div>
-                        <div className="qator">
-                          <div className="progress-chiziq"><i style={{ width: (hisob ? hisob.foiz : 0) + '%' }} /></div>
-                          <span className="foiz">{hisob ? hisob.foiz + '%' : '—'}</span>
-                        </div>
-                      </div>
-                    </button>
+                    <KitobKarta key={k.id} k={k} barcha={props.barcha} oxirgi={oxirgi} och={props.och} />
                   );
                 })}
               </div>
             </div>
-          );
-        })
+          ) : null}
+        </div>
       )}
 
       <div className="izohcha">Javoblaringiz faqat shu qurilmada saqlanadi</div>
+    </div>
+  );
+}
+
+/* ==================== Turkum sahifasi ==================== */
+
+function TurkumSahifa(props) {
+  useSaqlashVersiya();
+  const oxirgi = oqi('km_oxirgi', null);
+  const kitoblar = (props.kitoblar || []).filter(function (k) { return k.turkum === props.nomi; });
+  const hisob = guruhHisob(kitoblar, props.barcha);
+  const muallif = kitoblar.length && kitoblar.every(function (k) { return k.muallif === kitoblar[0].muallif; })
+    ? kitoblar[0].muallif : null;
+
+  return (
+    <div>
+      <Bosh
+        nomi="Turkum"
+        chap={<button className="dumaloq-tug orqaga" onClick={props.orqaga} aria-label="Ortga"><Ikonka nom="chap" olcham={18} /></button>}
+      />
+
+      <div className="hero">
+        <div className="turkum-muqovalar hero-muqovalar">
+          {kitoblar.slice(0, 4).map(function (k, i) {
+            const rang = k.rang || '#1e3a8a';
+            return (
+              <span
+                key={k.id}
+                style={{
+                  background: 'linear-gradient(150deg, ' + rang + ', ' + qoraytir(rang, .3) + ')',
+                  zIndex: 4 - i
+                }}
+              >✦</span>
+            );
+          })}
+        </div>
+        <h2>{props.nomi}</h2>
+        {muallif ? <div className="muallif">{muallif}</div> : null}
+        <div className="hero-stat">
+          <div><b>{kitoblar.length}</b><span>Kitob</span></div>
+          <div><b>{hisob.jami}</b><span>Mashq</span></div>
+          <div><b>{hisob.foiz}%</b><span>Bajarildi</span></div>
+        </div>
+      </div>
+
+      <BoshQator nomi="Kitoblar" ong={hisob.bajarildi + ' / ' + hisob.jami + ' mashq'} />
+
+      {kitoblar.map(function (k, i) {
+        const kitob = props.barcha ? props.barcha[k.id] : null;
+        const h = kitob ? kitobHisob(kitob) : { jami: 0, bajarildi: 0, foiz: 0 };
+        const rang = k.rang || '#1e3a8a';
+        return (
+          <button
+            key={k.id}
+            className={'qator-karta' + (k.id === oxirgi ? ' joriy' : '')}
+            onClick={function () { props.och(k.id); }}
+          >
+            <div
+              className="qator-nishon"
+              style={{ background: 'linear-gradient(150deg, ' + rang + ', ' + qoraytir(rang, .3) + ')', color: '#fff' }}
+            >{i + 1}</div>
+            <div className="qator-matn">
+              <h4 style={{ whiteSpace: 'normal' }}>{k.nomi}</h4>
+              <p>{k.tavsif}</p>
+              <div className="qator" style={{ display: 'flex', alignItems: 'center', gap: 8, marginTop: 8 }}>
+                <div className="progress-chiziq"><i style={{ width: h.foiz + '%' }} /></div>
+                <span className="foiz" style={{ fontSize: 11, color: 'var(--matn-xira)' }}>{h.foiz}%</span>
+              </div>
+            </div>
+          </button>
+        );
+      })}
+
+      <div className="izohcha">Turkumdagi barcha kitoblar bitta joyda</div>
     </div>
   );
 }
@@ -2007,6 +2217,7 @@ function Ilova() {
   const [barcha, oBarcha] = useState({});
   const [xato, oXato] = useState(null);
   const [joriy, oJoriy] = useState(null);
+  const [turkum, oTurkum] = useState(null);
   const [tab, oTab] = useState('kitoblar');
 
   useEffect(function () { tgTayyor(); }, []);
@@ -2038,10 +2249,12 @@ function Ilova() {
     return function () { bekor = true; };
   }, []);
 
+  /* Ortga: kitobdan turkumga, turkumdan bosh sahifaga */
   const orqaga = useCallback(function () {
     haptic('light');
-    oJoriy(null);
-  }, []);
+    if (joriy) oJoriy(null);
+    else oTurkum(null);
+  }, [joriy]);
 
   const och = useCallback(function (id) {
     haptic('medium');
@@ -2049,22 +2262,34 @@ function Ilova() {
     oJoriy(id);
   }, []);
 
-  /* Telegram BackButton — faqat kitob ichida */
+  /* Turkumdan tashqaridagi kitob ochilsa, turkum konteksti tozalanadi */
+  const ochYakka = useCallback(function (id) {
+    oTurkum(null);
+    och(id);
+  }, [och]);
+
+  const turkumniOch = useCallback(function (nomi) {
+    haptic('medium');
+    oTurkum(nomi);
+  }, []);
+
+  /* Telegram BackButton — kitob va turkum ichida */
+  const ichkarida = Boolean(joriy || turkum);
   useEffect(function () {
-    return backButton(Boolean(joriy), orqaga);
-  }, [joriy, orqaga]);
+    return backButton(ichkarida, orqaga);
+  }, [ichkarida, orqaga]);
 
   /* Brauzer "orqaga" tugmasi ham ishlasin */
   useEffect(function () {
-    function popstate() { oJoriy(null); }
-    if (joriy) {
-      window.history.pushState({ kitob: joriy }, '');
+    function popstate() { orqaga(); }
+    if (ichkarida) {
+      window.history.pushState({ ichkari: true }, '');
       window.addEventListener('popstate', popstate);
       return function () { window.removeEventListener('popstate', popstate); };
     }
-  }, [joriy]);
+  }, [ichkarida, orqaga]);
 
-  useEffect(function () { window.scrollTo(0, 0); }, [tab, joriy]);
+  useEffect(function () { window.scrollTo(0, 0); }, [tab, joriy, turkum]);
 
   const eslatmaSoni = mashqlarniYig(barcha, 'eslatma')
     .filter(function (x) { return x.qiymat && x.qiymat.yoniq; }).length;
@@ -2075,25 +2300,37 @@ function Ilova() {
 
   function tabgaOt(id) {
     oJoriy(null);
+    oTurkum(null);
     oTab(id);
+  }
+
+  /* Boshqa sahifalardan kitob ochilganda uning turkumiga qaytadigan bo'lsin */
+  function qayerdanBolsa(id) {
+    const k = (kitoblar || []).filter(function (x) { return x.id === id; })[0];
+    oTurkum(k && k.turkum ? k.turkum : null);
+    oTab('kitoblar');
+    och(id);
   }
 
   let ichi;
   if (joriy) {
     ichi = <KitobSahifa id={joriy} orqaga={orqaga} rang={joriyKitob ? joriyKitob.rang : null} />;
+  } else if (turkum) {
+    ichi = <TurkumSahifa nomi={turkum} kitoblar={kitoblar} barcha={barcha} och={och} orqaga={orqaga} />;
   } else if (tab === 'jarayon') {
-    ichi = <Jarayon kitoblar={kitoblar} barcha={barcha} och={och} orqaga={function () { tabgaOt('kitoblar'); }} />;
+    ichi = <Jarayon kitoblar={kitoblar} barcha={barcha} och={qayerdanBolsa} orqaga={function () { tabgaOt('kitoblar'); }} />;
   } else if (tab === 'kundalik') {
-    ichi = <KundalikSahifa barcha={barcha} och={och} orqaga={function () { tabgaOt('kitoblar'); }} />;
+    ichi = <KundalikSahifa barcha={barcha} och={qayerdanBolsa} orqaga={function () { tabgaOt('kitoblar'); }} />;
   } else if (tab === 'eslatma') {
-    ichi = <EslatmaSahifa barcha={barcha} och={och} orqaga={function () { tabgaOt('kitoblar'); }} />;
+    ichi = <EslatmaSahifa barcha={barcha} och={qayerdanBolsa} orqaga={function () { tabgaOt('kitoblar'); }} />;
   } else {
     ichi = (
       <Royxat
         kitoblar={kitoblar}
         barcha={barcha}
         xato={xato}
-        och={och}
+        och={ochYakka}
+        turkumniOch={turkumniOch}
         tab={tabgaOt}
         eslatmaSoni={eslatmaSoni}
       />
