@@ -36,6 +36,12 @@ Och fon, oq kartalar va to'q ko'k (navy) urg'u — zamonaviy mobil ilova uslubi.
 - **Muqovalar**: `books/muqova/{id}.webp` (420×560) va `{id}-k.webp` (140×187).
   Nisbat CSS da qat'iy 3:4 — rasm kelguncha ham joy band, sahifa sakramaydi.
   Rasm yo'q yoki yuklanmasa, kitobning `rang` maydonidan gradient qaytadi
+- **Ketma-ketlik ikki ottenkada**: ketma-ket bo'limlar va mashqlar navbatma-navbat
+  ikki xil ko'k ottenkada (`--asos` #1e3a8a va `--asos-b` #5470b8) chiziladi —
+  fon, chap chekka chizig'i, raqam nishoni, progress va tugmalar shu bilan
+  ajraladi. Mashqlar raqamlangan va vertikal chiziq bilan bog'langan
+- Bo'lim yoki bo'limcha tanlanganda sahifa o'sha bo'limning **boshiga** suriladi
+  (yopishqoq panel balandligi hisobga olinadi)
 - 380px mobil ekranga moslangan, `prefers-reduced-motion` hurmat qilinadi
 
 ## Barqarorlik (app-like)

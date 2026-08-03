@@ -17,6 +17,11 @@
     --asos-yorug: #2c4fb0;
     --asos-och: #e7ecfb;
     --asos-och-2: #f2f5fd;
+
+    /* Ketma-ketlikni ajratish uchun ikkinchi ottenka (bir xil ko'k oilasidan) */
+    --asos-b: #5470b8;
+    --asos-b-och: #eaf0fb;
+    --karta-b: #f5f8ff;
     --matn: #16204a;
     --matn-xira: #7b86a8;
     --chegara: #e4e9f6;
@@ -316,6 +321,29 @@
   }
   .bolim.ochiq { box-shadow: var(--soya); }
 
+  /* --- Ketma-ket bo'limlar ikki xil ottenkada --- */
+  .bolim.ottenka-b { background: var(--karta-b); }
+  .bolim.ottenka-b .raqam { background: var(--asos-b-och); color: var(--asos-b); }
+  .bolim.ottenka-b.ochiq .raqam { background: var(--asos-b); color: #fff; }
+  .bolim.ottenka-b .strelka { color: var(--asos-b); }
+  .bolim.ottenka-b .qism-sarlavha { color: var(--asos-b); }
+  .bolim.ottenka-b ul.magiz li::before { background: var(--asos-b); }
+  .bolim.ottenka-b ol.tavsiyalar li::marker { color: var(--asos-b); }
+  .bolim.ottenka-b .bolimcha-tug.faol { color: var(--asos-b); }
+  .bolim.ottenka-b .bolimcha-tug .son { background: var(--asos-b-och); color: var(--asos-b); }
+  .bolim.ottenka-b .bolimcha-tug.faol .son { background: var(--asos-b); color: #fff; }
+  .bolim.ottenka-b .tug.asosiy {
+    background: var(--asos-b); border-color: var(--asos-b);
+    box-shadow: 0 6px 16px rgba(84, 112, 184, .3);
+  }
+  /* Chap chekkadagi rangli chiziq — ketma-ketlik ko'zga darrov tashlanadi */
+  .bolim { position: relative; }
+  .bolim::before {
+    content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 4px;
+    background: var(--asos); opacity: .55;
+  }
+  .bolim.ottenka-b::before { background: var(--asos-b); }
+
   .bolim-tugma {
     width: 100%; display: flex; align-items: center; gap: 12px;
     padding: 15px 16px; background: none; border: 0; color: inherit;
@@ -383,6 +411,57 @@
   ol.tavsiyalar li::marker { color: var(--asos); font-weight: 600; }
 
   /* ---------- Mashqlar ---------- */
+  /* Har bir mashq raqamlangan va ketma-ket ikki ottenkada */
+  .mashq-orin { position: relative; padding-left: 30px; }
+  .mashq-raqam {
+    position: absolute; left: 0; top: 15px;
+    width: 22px; height: 22px; border-radius: 50%;
+    display: grid; place-items: center;
+    font-size: 11px; font-weight: 600;
+    background: var(--asos-och); color: var(--asos);
+  }
+  /* Toq raqamlar ochiq, juftlari to'ldirilgan — ketma-ketlik darrov ko'rinadi */
+  .mashq-orin.ottenka-b .mashq-raqam { background: var(--asos-b); color: #fff; }
+  .mashq-orin.bajarildi .mashq-raqam { background: var(--asos); color: #fff; }
+  .mashq-orin.ottenka-b.bajarildi .mashq-raqam {
+    background: var(--asos-b); color: #fff; box-shadow: 0 0 0 3px var(--asos-b-och);
+  }
+  .mashq-orin.ottenka-a.bajarildi .mashq-raqam { box-shadow: 0 0 0 3px var(--asos-och); }
+  /* Raqamlarni bog'lab turuvchi vertikal chiziq */
+  .mashq-orin::before {
+    content: ""; position: absolute; left: 10.5px; top: 39px; bottom: 0; width: 2px;
+    border-radius: 2px; background: var(--asos-och);
+  }
+  .mashq-orin:last-child::before { display: none; }
+
+  .mashq-orin.ottenka-b .mashq { background: var(--karta); border-color: #e2e9f8; }
+  .mashq-orin.ottenka-b .mashq-turi { background: var(--asos-b-och); color: var(--asos-b); }
+  .mashq-orin.ottenka-b .slider-qiymat { color: var(--asos-b); }
+  .mashq-orin.ottenka-b .band.belgili .quti { background: var(--asos-b); border-color: var(--asos-b); }
+  .mashq-orin.ottenka-b .progress-chiziq i { background: var(--asos-b); }
+  .mashq-orin.ottenka-b .halqa .yoy { stroke: var(--asos-b); }
+  .mashq-orin.ottenka-b .variant.tanlangan { border-color: var(--asos-b); background: var(--asos-b-och); color: var(--asos-b); }
+  .mashq-orin.ottenka-b .variant .harf { background: var(--asos-b-och); color: var(--asos-b); }
+  .mashq-orin.ottenka-b .variant.tanlangan .harf { background: var(--asos-b); color: #fff; }
+  .mashq-orin.ottenka-b .izoh { background: var(--asos-b-och); }
+  .mashq-orin.ottenka-b .nishon { background: var(--asos-b-och); color: var(--asos-b); }
+  .mashq-orin.ottenka-b .vaqt-nishon { background: var(--asos-b-och); color: var(--asos-b); }
+  .mashq-orin.ottenka-b .kalit-tugma.yoniq .kalit-yugurt { background: var(--asos-b); }
+  .mashq-orin.ottenka-b .tug { color: var(--asos-b); }
+  .mashq-orin.ottenka-b .tug.asosiy {
+    background: var(--asos-b); color: #fff; border-color: var(--asos-b);
+    box-shadow: 0 6px 16px rgba(84, 112, 184, .3);
+  }
+  .mashq-orin.ottenka-b .tug.jim { color: var(--matn-xira); }
+  .mashq-orin.ottenka-b .holat.saqlandi { color: var(--asos-b); }
+  .mashq-orin.ottenka-b .yozuv-sana,
+  .mashq-orin.ottenka-b .yozuv-strelka { color: var(--asos-b); }
+  .mashq-orin.ottenka-b textarea:focus,
+  .mashq-orin.ottenka-b input[type=text]:focus,
+  .mashq-orin.ottenka-b input[type=time]:focus {
+    border-color: var(--asos-b); box-shadow: 0 0 0 3px rgba(84, 112, 184, .12);
+  }
+
   .mashq {
     background: var(--asos-och-2); border: 1px solid var(--chegara);
     border-radius: var(--r-orta); padding: 15px; margin-bottom: var(--bo-3);
@@ -1484,17 +1563,29 @@ function Eslatma(props) {
 }
 
 /* --- Mashq turini tanlovchi --- */
+/* Ketma-ket mashqlar ikki xil ottenkada beriladi va tartib raqami ko'rsatiladi */
 function Mashq(props) {
   const m = props.m;
-  const k = kalit(props.kitobId, props.bolimIdx, props.mashqIdx);
-  if (m.turi === 'jurnal') return <Jurnal m={m} k={k} />;
-  if (m.turi === 'checklist') return <Checklist m={m} k={k} />;
-  if (m.turi === 'slider') return <Slider m={m} k={k} />;
-  if (m.turi === 'taymer') return <Taymer m={m} k={k} />;
-  if (m.turi === 'test') return <Test m={m} k={k} />;
-  if (m.turi === 'kundalik') return <Kundalik m={m} k={k} />;
-  if (m.turi === 'eslatma') return <Eslatma m={m} k={k} />;
-  return null;
+  const i = props.mashqIdx;
+  const k = kalit(props.kitobId, props.bolimIdx, i);
+  const bajarildi = mashqBajarilgan(m, oqi(k, null));
+
+  let ichi = null;
+  if (m.turi === 'jurnal') ichi = <Jurnal m={m} k={k} />;
+  else if (m.turi === 'checklist') ichi = <Checklist m={m} k={k} />;
+  else if (m.turi === 'slider') ichi = <Slider m={m} k={k} />;
+  else if (m.turi === 'taymer') ichi = <Taymer m={m} k={k} />;
+  else if (m.turi === 'test') ichi = <Test m={m} k={k} />;
+  else if (m.turi === 'kundalik') ichi = <Kundalik m={m} k={k} />;
+  else if (m.turi === 'eslatma') ichi = <Eslatma m={m} k={k} />;
+  if (!ichi) return null;
+
+  return (
+    <div className={'mashq-orin' + (i % 2 ? ' ottenka-b' : ' ottenka-a') + (bajarildi ? ' bajarildi' : '')}>
+      <div className="mashq-raqam">{bajarildi ? '✓' : i + 1}</div>
+      {ichi}
+    </div>
+  );
 }
 
 /* ==================== Bo'lim (akkordeon) ==================== */
@@ -1506,18 +1597,46 @@ function Bolim(props) {
   const mashqlar = b.mashqlar || [];
   /* Ikki bo'limcha: ma'nosi alohida, mashqlar alohida */
   const [bolimcha, oBolimcha] = useState('magiz');
+  const orin = useRef(null);
+  const birinchi = useRef(true);
 
   const bajarildi = mashqlar.filter(function (m, i) {
     return mashqBajarilgan(m, oqi(kalit(props.kitobId, props.idx, i), null));
   }).length;
 
+  /* Bo'lim sarlavhasini ekran tepasiga olib chiqadi — yopishqoq panel hisobga olinadi */
+  const tepaga = useCallback(function (silliq) {
+    const el = orin.current;
+    if (!el) return;
+    const panel = document.querySelector('.panel');
+    const past = panel ? panel.getBoundingClientRect().height : 0;
+    const y = (window.scrollY || 0) + el.getBoundingClientRect().top - past - 8;
+    try {
+      window.scrollTo({ top: Math.max(0, y), behavior: silliq ? 'smooth' : 'auto' });
+    } catch (e) { window.scrollTo(0, Math.max(0, y)); }
+  }, []);
+
+  /* Bo'lim ochilganda uning boshiga suriladi (sahifa yuklanishida emas) */
+  useEffect(function () {
+    if (birinchi.current) { birinchi.current = false; return; }
+    if (!props.ochiq) return;
+    const id = requestAnimationFrame(function () { tepaga(true); });
+    return function () { cancelAnimationFrame(id); };
+  }, [props.ochiq, tepaga]);
+
   function tanla(qaysi) {
+    if (qaysi === bolimcha) return;
     haptic('select');
     oBolimcha(qaysi);
+    /* Bo'limcha almashganda ham boshidan ko'rsatiladi */
+    requestAnimationFrame(function () { tepaga(true); });
   }
 
   return (
-    <section className={'bolim' + (props.ochiq ? ' ochiq' : '')}>
+    <section
+      ref={orin}
+      className={'bolim' + (props.ochiq ? ' ochiq' : '') + (props.idx % 2 ? ' ottenka-b' : ' ottenka-a')}
+    >
       <button className="bolim-tugma" onClick={props.almashtir} aria-expanded={props.ochiq}>
         <span className="raqam">{props.idx + 1}</span>
         <div style={{ flex: 1, minWidth: 0 }}>
