@@ -1,0 +1,523 @@
+{
+  "id": "intuitsiya",
+  "nomi": "Tentakning tajribasi 6: Intuitsiya qanday ishlaydi",
+  "muallif": "Mirzakarim Norbekov",
+  "kirish": "Bu kitob oltinchi tuyg'u — intuitsiya haqida. Muallifning asosiy da'vosi oddiy: intuitsiya sehr emas, u deyarli har bir odamda bor va sport zalidagi mushak kabi mashq qilinadi. Kitob intuitsiya nima ekanini, u nima beradi, uni nima o'chiradi, mashq qilayotganlar qanday xato qilishini va eng muhimi — qora-oq kartalar bilan aniq qanday ishlashni ko'rsatadi. Muallif tayyor retsept bermaydi: uning maqsadi — siz o'zingizni tahlil qilishni, to'g'ri va noto'g'ri qaror paytidagi ichki holatni farqlashni o'rganishingiz.",
+  "bolimlar": [
+    {
+      "sarlavha": "Axborot dengizi va nega bu kitob shunday yozilgan",
+      "magiz": [
+        "Bugun odam har kunidan ko'p axborot oladi, lekin u shu qadar qarama-qarshiki, qayerda haqiqat, qayerda yolg'on — ajratib bo'lmaydi. Natijada odam hamma narsaga shubha qila boshlaydi: o'z fikriga, o'z qaroriga, o'ziga.",
+        "Shubhadan xato qilish qo'rquvi tug'iladi. Qo'rquvdan esa kutish: «hayot o'zi o'zgarar», «sehrgar kelib hassasini silkitar». Odam shu kutish ichida o'z taqdirini buzadi.",
+        "Muallif ataylab qisqa, aniq ko'rsatma bermaydi. Uning fikricha, o'zingiz izlab topgan bilim tayyor berilgan bilimdan ancha qimmat: «Vazifangiz — qumni oltindan ajratish. Shunda bilim sizniki bo'ladi».",
+        "Kitob tezlashtirilgan o'qitish qoidalari bo'yicha yozilgan: bo'sh gap bo'lmasin; bilim qiziqarli hikoya ichida berilsin; til sodda bo'lsin; muhim narsa kamida uch marta takrorlansin; ma'lumot tugallanmagan holda va bir necha mavzu almashib berilsin; har bir bo'lak hissiyotga o'ralsin.",
+        "Nega takror? Chunki miya axborot oqimidan himoyalanadi: yangi narsani birinchi eshitganda umumiy tarzda eslab qoladi. Muallif: «Birinchi safar meni ahmoq deb o'ylaysiz. Ikkinchi safar o'zingizni. Uchinchi safar esa tushunasiz».",
+        "Sarob va vohа masali: cho'lda oldingizda voha ko'rinsa, u sarobmi yoki haqiqiymi — buni faqat unga qarab yurib bilasiz. O'tirib kutsangiz, ikkalasi ham javob bermaydi."
+      ],
+      "tavsiyalar": [
+        "Kitobning qo'pol yoki hazil ohangiga xafa bo'lmang. Muallif buni ataylab qiladi: hissiyot bo'lmasa, axborot yoddan chiqadi.",
+        "Bir o'qishda hammasini tushunishga urinmang. Mavzular ataylab uzilib, keyin qaytadi — bu diqqatni ushlab turish uchun.",
+        "O'qiganingizni «bildim» deb yopmang. Bilim urug'i faqat mehnat tuprog'ida unadi.",
+        "Har bir bobdan keyin bitta savol bering: bundan bugun nimani qilaman?",
+        "Muallifning o'z ogohlantirishi: agar psixiatr nazoratida bo'lsangiz yoki shu yo'nalishda dori qabul qilayotgan bo'lsangiz, bu mashqlar bilan shug'ullanmang."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "So'nggi bir oyda qabul qilmagan, cho'zib yurgan uchta qarорingizni yozing. Har birining yoniga sababini yozing. Endi qarang: sabablar ichida nechtasi haqiqiy to'siq va nechtasi shunchaki shubha?"
+        },
+        {
+          "turi": "test",
+          "savol": "Muallifning qo'pol hazili sizga tegdi. Kitobga ko'ra bu nimani anglatadi?",
+          "variantlar": [
+            "Muallif tarbiyasiz, o'qishni to'xtataman",
+            "Bu ataylab qilingan — hissiyot axborotni eslab qolishga yordam beradi",
+            "Menga aloqasi yo'q, boshqalar haqida",
+            "E'tibor bermayman, faqat foydali joyini olaman"
+          ],
+          "izohlar": [
+            "Kitob aynan shu javobni beradiganlarni birinchi bobdayoq «xayr» deb kuzatadi. Xafa bo'lish — kuchsizlik belgisi deb yozadi muallif.",
+            "To'g'ri. Muallifning oltinchi qoidasi: axborot hissiyotga o'ralishi kerak, aks holda «bu-bu-bu» bo'lib o'tib ketadi.",
+            "Bu eng qulay mudofaa. U tekshirishga imkon bermaydi.",
+            "Bu ham yo'l, lekin hissiyotdan qochib, siz axborotni ham yuzaki qabul qilasiz."
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Kunlik qarorlaringizda o'z fikringizga qanchalik ishonasiz?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Doim ikkilanaman",
+          "max_yorliq": "O'zimga ishonaman"
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "O'qishga tayyorgarlik",
+          "bandlar": [
+            "Bu kitobdan nima olmoqchiligimni bir jumlada yozdim",
+            "Xafa bo'lmasdan oxirigacha o'qishga kelishdim",
+            "Har bobdan keyin bitta amaliy qadam belgilashga qaror qildim",
+            "Mashqlar uchun haftada uch kunni ajratdim",
+            "Muallifning ogohlantirishini o'qidim va o'zimga tegishli emasligini tekshirdim"
+          ]
+        }
+      ]
+    },
+    {
+      "sarlavha": "Bilim — urug', mehnat — tuproq",
+      "magiz": [
+        "O'rik danagi masali: daraxt bog'bonning mehnati, meva daraxtning mehnati, danak esa — bilim. Danakni ramkaga solib devorga ossangiz, undan hech narsa unmaydi. Bilim faqat tuproqqa tushib, mehnat bilan sug'orilgandagina hosil beradi.",
+        "Bir necha qizil diplomli, universitet faxri bo'lgan odamlar hayotda muvaffaqiyatsiz bo'lib chiqadi. Chunki ular danak yig'ishgan, lekin uni ekishmagan.",
+        "Fikringiz, xursandchiligingiz va noroziligingiz ko'pincha sizniki emas — atrofdagi yuz kilometrdan yig'ilgan axborot. Shuning uchun bir shahar aholisi bir xil narsa sotadi, keyin «kimdir ko'z tegdi» deb yuradi.",
+        "Muvaffaqiyatning universal formulasi ikkita almashuvdan iborat: pulga bo'lgan ochko'zlikni bilimga chanqoqlikka almashtiring, bilimga chanqoqlikni esa harakatga chanqoqlikka.",
+        "Eng yaxshi ish — o'z orzusini amalga oshirayotgan odamda chiqadi. Muallif tayyorlagan millionerlar pul topish uchun emas, sutkasiga 24 soat qila oladigan ish topish uchun o'tirib tanlashgan.",
+        "Yangi ishni boshlaganlar uchun murabbiy — endigina yurishni o'rgangan bola. U yiqiladi va yana turadi. Yiqilib, o'tirib qoladigan bola bo'lmaydi.",
+        "Zambiya masali: italiyaliklar afrikaliklarga pomidor ekishni o'rgatishdi, hosil ajoyib bo'ldi — keyin daryodan begemotlar chiqib hammasini yeb ketdi. «Nega aytmadingiz?» — «Siz so'ramadingiz-ku». Avval eshiting, keyin o'ylang, keyin taklif qiling."
+      ],
+      "tavsiyalar": [
+        "Katta daftar oling va kamida 100 ta orzuingizni yozing. «Uyalaman, qo'rqaman, arzimayman» degan cheklovlarni qo'yib turing.",
+        "Ro'yxatdagi eng katta orzuni oling va uni amalga oshirishni shu hafta oxirigacha boshlang. Bajarilgach — keyingisiga o'ting.",
+        "Ish tanlashda «bundan qancha topaman?» emas, «buni sevib qila olamanmi?» deb so'rang. Har qanday ishni shahar, mamlakat, sayyora miqyosiga kengaytirish mumkin.",
+        "O'qigan har bir bilimni bir hafta ichida bitta amaliy harakatga aylantiring — aks holda u danak bo'lib qoladi.",
+        "Yordam berishdan oldin so'rang va eshiting. So'ralmagan yordam ko'pincha begemotga yem bo'ladi.",
+        "«Bugun vaqt noto'g'ri, sharoit noto'g'ri» degan gapni tashlang. Muallif: har bir uyg'ongan kuningiz — so'nggi o'n ming yillikdagi eng qulay kun."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Orzular ro'yxatini shu yerdan boshlang. Kamida 30 tasini yozing — cheklovsiz, mantiqsiz bo'lsa ham. Yozib bo'lgach, oxirida bittasini tanlab, uning yoniga «shu hafta qiladigan birinchi qadam» ni yozing."
+        },
+        {
+          "turi": "test",
+          "savol": "Ikki yildan beri bilim to'playsiz: kurslar, kitoblar, videolar. Natija esa yo'q. Kitobga ko'ra sabab nima?",
+          "variantlar": [
+            "Bilim yetarli emas, yana o'qish kerak",
+            "Danaklarni yig'yapsiz, lekin ekmayapsiz",
+            "Noto'g'ri o'qituvchilarni tanlagansiz",
+            "Vaqti hali kelmagan"
+          ],
+          "izohlar": [
+            "Bu eng qulay javob va aynan shuning uchun eng xavflisi. Yana bir kurs — harakatdan qochishning chiroyli shakli.",
+            "Aynan shunday. Kitobning asosiy tashbehi: bilim — urug', mehnat — tuproq. Ekilmagan urug' hosil bermaydi.",
+            "Ba'zan shunday bo'ladi, lekin qizil diplomli muvaffaqiyatsizlar bunga eng yaxshi javob.",
+            "«Vaqti kelmagan» — dangasalikning eng ko'p ishlatiladigan niqobi."
+          ]
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Urug'ni ekish — bir hafta",
+          "bandlar": [
+            "Orzular ro'yxatini yozdim",
+            "Eng katta orzuni tanladim",
+            "Birinchi qadamga aniq sana qo'ydim",
+            "Bu hafta o'qigan bitta bilimni amalda sinab ko'rdim",
+            "Bugun kimgadir yordam berishdan oldin uni eshitdim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Bilganlaringizning necha foizini haqiqatan qilyapsiz?",
+          "min": 0,
+          "max": 100,
+          "min_yorliq": "Faqat bilaman",
+          "max_yorliq": "Bilganimni qilaman"
+        }
+      ]
+    },
+    {
+      "sarlavha": "Intuitsiya nima va u kimda bor",
+      "magiz": [
+        "Intuitsiya deyarli har bir odamda bor. Juda kam odamda u tug'ma kuchli, juda kam odamda esa uni umuman mashq qilib bo'lmaydi — qolgan hammada u shunchaki uxlab yotibdi.",
+        "Muallifning ta'rifi: intuitsiya — bu kelajak haqidagi xotira. O'tmishni eslash bilan «kelajakni eslash» o'xshash, farqi shundaki: o'tmishda variant yo'q, kelajakda esa cheksiz variant bor. O'tmishda tanlov yo'q, kelajakda bor.",
+        "Intuitsiya odatda uch holatda uyg'onadi: kuchli hissiyotda (sevgi yoki o'lim xavfi), asab tizimi haddan tashqari zo'riqqanda va — eng foydalisi — muntazam zerikarli mashqda.",
+        "Zo'riqish orqali kelgan intuitsiya organizmni yeydi. Shuning uchun kitob ikkinchi yo'lni emas, uchinchi — mashq yo'lini tanlashni maslahat beradi.",
+        "Deja vyu — bu ko'pincha ishlatilmayotgan intuitsiyaning ortiqcha faolligi. Uni tekshirish mumkin: shu holat kelganda darrov «hozir Vasya kiradi va shuni aytadi» deb yozib qo'ying va bir necha soniya kuting.",
+        "Muallif 90-yillardan beri muvaffaqiyatli tadbirkorlarni qora-oq kartalar bilan tekshirib kelgan va aniq bog'liqlik ko'rgan: odam qanchalik yuqori darajada ishlasa, intuitsiyasi shunchalik rivojlangan.",
+        "Intuitsiya mashqi sport zalidagi mashq bilan bir xil. Birinchi kuni 400 kilogramm shtangani ko'tara olmaysiz va birinchi kuni to'g'ri javob topolmasligingiz ham mumkin — bu normal.",
+        "Dangasalik hech qachon «menga erinish» demaydi. U eng usta xameleon: nega ertaga boshlash kerakligiga aqlli sabab topib beradi."
+      ],
+      "tavsiyalar": [
+        "Boshida natijaga emas, muntazamlikka qarang: haftada 3–5 marta, 30–40 daqiqadan.",
+        "To'g'ri chiqmagan kunlarda o'zingizni koyimang — zalga borganingiz uchun maqtang. Bir kunlik zal natija bermaydi, lekin odat shundan boshlanadi.",
+        "Deja vyu holatini his qilsangiz, uni «charchoq» deb yozmang — darrov nima bo'lishini qog'ozga tushiring va tekshiring.",
+        "«Ishoning, lekin tekshiring». Intuitsiya aytganini boshida ko'r-ko'rona qabul qilmang, faktlar to'plang.",
+        "Aqlni tashlab qo'ymang. Aql ham kerak, intuitsiya ham — quloq ko'zdan yaxshi emas, hammasining o'z o'rni bor."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Hayotingizda «ichimdan sezgandim» degan holatni eslang: qaror qabul qilishdan oldin nimadir sizni to'xtatmoqchi bo'lgan, lekin siz aql bilan boshqacha qilgansiz. Nima bo'lgan? O'sha paytda tanangizda qanday sezgi bo'lganini iloji boricha aniq yozing."
+        },
+        {
+          "turi": "test",
+          "savol": "Birinchi mashqda 20 tadan 9 tasi to'g'ri chiqdi. Kitobga ko'ra bu nima degani?",
+          "variantlar": [
+            "Menda intuitsiya yo'q, tashlayman",
+            "Bu tasodif, hech qanday ma'noga ega emas",
+            "Bu birinchi kun — natija emas, mashq boshlangani muhim",
+            "Demak men allaqachon ustaman"
+          ],
+          "izohlar": [
+            "Bu aynan kitob kutgan javob — dangasalikning birinchi so'zi. Zalga bir marta borib, tashlab yuborish bilan bir xil.",
+            "Tasodif yoki yo'q — buni bir necha hafta natija yozgandan keyin ko'rasiz, birinchi kundan emas.",
+            "To'g'ri. Kitob: birinchi kuni o'zingizni natija uchun emas, vaqt topib mashq qilganingiz uchun maqtang.",
+            "Bu «yulduz kasalligi» — kitob uni mashq qiluvchilarning asosiy xatolaridan biri deb ataydi."
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Intuitsiyangiz hozir qay darajada ishlaydi deb o'ylaysiz?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Umuman eshitmayman",
+          "max_yorliq": "Tez-tez to'g'ri chiqadi"
+        },
+        {
+          "turi": "eslatma",
+          "sarlavha": "Deja vyu daftarchasi",
+          "matn": "To'xtang va o'zingizni tekshiring: bugun «bu allaqachon bo'lgan» degan holat bo'ldimi? Bo'lgan bo'lsa, hozir yozib qo'ying.",
+          "korsatma": "Kuniga ikki-uch marta, tarqoq vaqtlarni qo'ying. Maqsad — bu holatlarni e'tiborsiz o'tkazib yubormaslik, chunki kitobga ko'ra aynan ular intuitsiyaning uyg'onish belgisi.",
+          "vaqtlar": ["13:00", "18:30", "22:00"]
+        }
+      ]
+    },
+    {
+      "sarlavha": "Intuitsiya nima beradi",
+      "magiz": [
+        "Birinchi ustunlik — tezlik. Tog'dan tushishning ikki yo'li bor: 1500 kilometrlik spiral yo'l (mantiq) va 50 kilometrlik to'g'ri so'qmoq (intuitsiya). Matematika ikkinchisining foydasiga.",
+        "Ikkinchi ustunlik — kelajak haqidagi axborot. Muallifning Ustozi unga o'n yillik hayot rejasini daftarga yozib bergan: qaysi yili nima bo'lishi, kim kelishi, qaysi variantni tanlash kerakligi. «Hammasi bir kun aniqligida to'g'ri chiqdi». Yana o'n yillikni so'raganda Ustoz rad etgan: «Endi o'zing ko'rishni o'rganishing kerak».",
+        "Uchinchi ustunlik — yopiq axborotga kirish. To'rtinchisi — aniqlik.",
+        "Yaponiyalik kamonchi masali: eng zo'r ustani izlab yurib, u har bir daraxtga nishonning aynan markaziga tekkan o'qlarni ko'radi. Sirini so'rasa: mahalliy «tentak» avval o'q otadi, keyin o'q tekkan joyga nishon chizadi. Chetdan qaraganda intuitsiyali odam aynan shu qishloq tentagiga o'xshaydi.",
+        "Hamma bir tomonga yugurganda u boshqa tomonga ketadi; hamma sotib olayotganda u sotadi; hamma maosh qidirayotganda u ishdan bo'shab, o'z ishini boshlaydi. Keyin: «Ahmoqqa omad kulib boqdi» deyishadi. Aslida uning axboroti ko'proq edi.",
+        "Intuitsiya aniq fan emas — u kompas. Sizda maqsad paydo bo'ladi, kompas yo'nalishni ko'rsatadi.",
+        "Qumsalon (peschanitsa) tashbehi: kattalar ham bolalar kabi qumsalonda o'tiradi, faqat o'yinchoqlari yiriklashgan — mashina, uy, pul, kim kuchli. Odamlarning 90 % dan ortig'i shu qumsalondan chiqmasdan o'tib ketadi. Intuitsiya — qumsalon bilan haqiqiy hayot orasidagi eshik.",
+        "Mendeleyev jadvalini tushida ko'rgan. Eynshteyn: «Kashfiyotlarimni o'z tushimdan o'g'irlayman». Nyuton daraxt tagida, Arximed vannada. Har kimning oltinchi tuyg'usi bilan gaplashadigan o'z usuli bor."
+      ],
+      "tavsiyalar": [
+        "Katta qaror oldidan o'zingizga savol bering: «Bir yildan keyin bu qarorning natijasi meni qoniqtiradimi?» va javobni his qilib ko'ring, hisoblab emas.",
+        "Intuitsiyani mantiq o'rniga emas, mantiq bilan yonma-yon ishlating: qayerda zinapoya, qayerda lift kerakligini ajrating.",
+        "O'n yillik rejangizni yozing. Aniq bo'lmasa ham — yozilgan reja yozilmaganidan ustun.",
+        "Boshqalar «omadi kelibdi» deganda xafa bo'lmang: chetdan intuitsiya har doim omadga o'xshaydi.",
+        "Qumsalon savolini o'zingizga bering: bugun kurashayotgan narsangiz besh yildan keyin ham muhim bo'ladimi?",
+        "Ilhom kelgan paytni behuda o'tkazmang — Mendeleyevning jadvali ham, sizning yechimingiz ham aynan shunday paytda keladi."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "O'n yillik rejangizni yozishni shu yerdan boshlang. Uch soha bo'yicha: ish, oila, o'zingiz. Har birida o'n yildan keyin qayerda bo'lishni xohlaysiz? Aniq yozing, umumiy so'zlarsiz."
+        },
+        {
+          "turi": "test",
+          "savol": "Hamma bir yo'nalishga yuguryapti, sizning ichingiz esa boshqa tomonni ko'rsatyapti. Nima qilasiz?",
+          "variantlar": [
+            "Ko'pchilik adashmaydi — ular bilan boraman",
+            "To'xtab, ichki sezgimni yozib qo'yaman va kichik hajmda sinab ko'raman",
+            "Darrov hammaning teskarisiga o'taman",
+            "Hech nima qilmayman, kuzataman"
+          ],
+          "izohlar": [
+            "Kitob buni «taqlid yo'li» deb ataydi: eng yaxshi natija — oldingi odamning orqasiga tumshuq tirash.",
+            "Eng to'g'ri javob. Kitobning qoidasi: «Ishoning, lekin tekshiring». Sezgini kichik xavf bilan sinab ko'ring.",
+            "Teskari qilish ham taqlidning bir turi — faqat belgisi o'zgargan. Bu tanlov emas.",
+            "Kuzatish yomon emas, lekin harakatsiz kuzatish oxir-oqibat kutishga aylanadi."
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Bugungi tashvishlaringiz besh yildan keyin ham muhim bo'ladimi?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Deyarli hech qaysi",
+          "max_yorliq": "Hammasi muhim"
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Kompasni sinash",
+          "bandlar": [
+            "O'n yillik rejamning birinchi variantini yozdim",
+            "Bitta qarorni his qilib, keyin mantiq bilan tekshirdim",
+            "«Omadi keldi» deb hisoblagan bir odamning yo'lini o'rganib chiqdim",
+            "Ilhom kelgan paytda uni yozib qo'ydim",
+            "Bir hafta davomida bitta qumsalon janjaliga qo'shilmadim"
+          ]
+        }
+      ]
+    },
+    {
+      "sarlavha": "Intuitsiyani qanday yoqish kerak",
+      "magiz": [
+        "Muallif so'fiylar oldiga borganida yopiq ko'z bilan bir vaqtda harakat qilayotgan guruhni ko'rib, «bularni takrorlash uchun butun umr kerak» deb qochmoqchi bo'ladi. Aslida ular ham birinchi marta shu harakatni qilishayotgan edi: ular oyoq-qo'llarini boshlovchiga ishonib topshirgan va faqat unga xalaqit bermagan.",
+        "Sir ko'zda emas edi. Ustoz «hammasini olishing mumkin» deganda ko'zni emas, yurak bilan ko'rishni nazarda tutgan edi. Diqqatni yurakka jamlash va to'liq ishonish — kalit shu.",
+        "Mashqning ikki turi bor: «zal»dagi mashq va hayotdagi mashq. Ikkalasi ham kerak.",
+        "Zaldagi mashqning uch usuli: kartalar (yoki tanga, rangli toshcha, qalam — nima bilan ishlash muhim emas); meridianlar bilan maxsus energetik mashqlar; va intuitsiya trenajyori.",
+        "Trenajyor tarixi: harbiy kursantlar uchun tasodifiy nishon chiqadigan qurilma yasalgan — noto'g'ri tomonga qaratsang, tok uradi. Bir necha hafta ichida kursantlar qorong'ida, nishon chiqishidan oldin qo'lni to'g'ri yo'naltirishni o'rgangan.",
+        "«Mushak xotirasi oddiy xotiradan ancha ishonchli. Velosipedni bir marta o'rgansangiz, umrbod unutmaysiz. Barmog'ingiz sizdan aqlliroq — tanani eshiting».",
+        "Xavfsizlik texnikasi. Charchab ketmang: mashq paytida o'zingizni holdan toydirmang va albatta uxlang. Stress orqali intuitsiyani chaqirish — bizning yo'limiz emas. Trenajyor bilan esa keksa odamlar, asab va yurak kasalligi bo'lganlar shug'ullanmasin; organizmga elektr asbob o'rnatilgan bo'lsa — qat'iyan mumkin emas."
+      ],
+      "tavsiyalar": [
+        "Boshlang'ich rejim: haftada 3–5 marta, 30–40 daqiqadan. Haftasiga ikki-uch soat yetarli.",
+        "Mashq oldidan diqqatni boshga emas, yurakka jamlang va natijani nazorat qilishga urinmang.",
+        "Charchoq va uyqusizlik ustiga mashq qilmang — bu natijani emas, faqat zararni beradi.",
+        "Kundalik hayotda tanangizni eshiting: qaror oldidan yelka, ko'krak, oshqozonda nima bo'layotganini kuzating.",
+        "Zaldagi mashqni hayotdagi mashq bilan qo'shib olib boring — faqat kartalar bilan chegaralanish natija bermaydi."
+      ],
+      "mashqlar": [
+        {
+          "turi": "taymer",
+          "daqiqa": 35,
+          "korsatma": "Asosiy mashq seansi. Kitobdagi rejim: 30–40 daqiqa, tanaffussiz. Shu vaqt ichida qora-oq kartalar bilan ishlang (yoki ikki xil rangli qog'oz bo'lagi bilan). Har safar javob berishdan oldin diqqatni yurakka jamlang, javob bergach kartani ochib tekshiring va ikki alohida to'plamga ajrating."
+        },
+        {
+          "turi": "eslatma",
+          "sarlavha": "Mashq vaqti",
+          "matn": "Mashq vaqti keldi: 30–40 daqiqa kartalar bilan. Natijani kundalikka yozishni unutmang.",
+          "korsatma": "Haftada 3–5 kunga mos vaqtni qo'ying. Kitob aynan muntazamlikni talab qiladi: bir marta zalga borish natija bermaydi.",
+          "vaqtlar": ["19:30"]
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Xavfsizlik va rejim",
+          "bandlar": [
+            "Haftalik jadval tuzdim (3–5 kun, 30–40 daqiqa)",
+            "Charchagan yoki uyqusiz holatda mashq qilmadim",
+            "Mashq oldidan diqqatni yurakka jamladim",
+            "Natijani nazorat qilishga urinmadim",
+            "Muallifning ogohlantirishlarini o'qib chiqdim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Bu hafta necha marta mashq qildingiz?",
+          "min": 0,
+          "max": 7,
+          "min_yorliq": "0 marta",
+          "max_yorliq": "7 marta"
+        }
+      ]
+    },
+    {
+      "sarlavha": "Dushmanlar: aql, pauza va qo'rquv",
+      "magiz": [
+        "Birinchi dushman — aql va mantiq. Quloq bilan kamalakni ko'rib bo'lmaydi. Intuitsiya ishlamasa, uning o'rnini aql egallaydi va bo'shliqni o'z xayollari bilan to'ldiradi.",
+        "Mushuk, it va odamni yuz kilometr uzoqqa olib borib qo'ysangiz: aqli eng past mushuk osongina qaytadi, it bir necha kilometrdan keyin adasha boshlaydi, yuksak aqlli odam esa uchinchi o'tloqdayoq butunlay yo'qoladi.",
+        "Aql — «ko'r Myunxauzen»: undan biror narsa so'rasangiz, yuzta javob chiqaradi va javoblarning bir-biriga zid bo'lishi uni umuman bezovta qilmaydi. Muallif mashg'ulotda musht qilib yumgan qo'lini ko'rsatib «nechta barmoq ochilgan?» deb so'raydi — javob baribir tug'iladi.",
+        "Ikkinchi dushman — pauza. Oltinchi tuyg'u uchun vaqt cheklovi yo'q, javob darrov keladi. Mantiqqa esa doim vaqt kerak. Pauza qilsangiz, javobni mantiq beradi.",
+        "Boshida intuitsiya mushukka o'xshaydi: uch-to'rt soniya ko'rinadi va g'oyib bo'ladi. Darrov sodiq it — aql yugurib kelib, sizga navbatdagi o'lik kalamushni tashlaydi.",
+        "Uchinchi to'siq — hissiyot va tinchlik yo'qligi. Hissiyot — jonning hududi. Kitobdagi usul: hissiyotlarni ataylab bir necha daqiqada almashtirib, «mayatnik» kabi tebratish, so'ng to'liq xotirjamlikka kirish. Xotirjamlik — bu nazorat. Intuitsiya holatida siz xotirjamsiz.",
+        "Qo'rquv yo'qolmaydi va yo'qolmasligi ham kerak — qo'rquvsizlar dinozavr qornida hazm bo'lib ketishgan. Lekin qo'rquv chegarasini o'zgartiradi: o'zingizdan qo'rqmay qo'ysangiz, bola paydo bo'lgach bola uchun qo'rqasiz.",
+        "Qo'rquv — bu bog'lanish. Undan qutulish uchun nimani yo'qotishdan qo'rqayotganingizni toping.",
+        "O'zingizga ishonchsizlik — bilim yetishmasligi, boshqa hech narsa emas. Muallif olti yil mashq qilgan, lekin haqiqiy jangda sinamaguncha qo'rquvi ketmagan. Amaliyotsiz ishonchsizlik siz bilan birga mashq qiladi.",
+        "Qorong'i so'qmoq tashbehi: kunduzi bemalol yurasiz, kechasi har qadam qo'rqinchli. Qo'rquvni ong yaratadi — axborot yetishmasligi bo'shliq qoldiradi, bo'shliqni esa xayol to'ldiradi. Tong otganda «Barmaley» malina butasi bo'lib chiqadi."
+      ],
+      "tavsiyalar": [
+        "Javob berishda pauza qilmang. Karta ochilishi bilan birinchi kelgan javobni ayting — o'ylab o'tirsangiz, javobni mantiq beradi.",
+        "Mashqdan oldin hissiyot mayatnigini bajaring: quvonch → g'azab → g'am → zavq, har biriga bir daqiqa, so'ng to'liq tinchlik.",
+        "To'g'ri chiqqanda quvonmang, xato chiqqanda xafa bo'lmang — ikkalasi ham mantiqni chaqiradi.",
+        "Qo'rquvingizni yozing va yoniga «nimani yo'qotishdan qo'rqaman?» degan javobni yozing. Bog'lanishni topsangiz, qo'rquv kichrayadi.",
+        "Ishonchsizlikni o'qish bilan yenga olmaysiz. Kichik bo'lsa ham amaliy qadam qo'ying — ishonch faqat shundan tug'iladi.",
+        "Qorong'i joyni yorituvchi narsa — axborot. Qo'rqayotgan narsangiz haqida aniq ma'lumot to'plang."
+      ],
+      "mashqlar": [
+        {
+          "turi": "taymer",
+          "daqiqa": 6,
+          "korsatma": "Hissiyot mayatnigi. Har bir daqiqada holatni teskarisiga almashtiring: 1) quvonch — yaxshi xabar keldi deb tasavvur qiling, qomatni tiklang, tabassum qiling; 2) g'azab — sizni nohaq ayblashdi; 3) g'am — yelka tushdi, tabassum ketdi; 4) zavq — osmon ko'k, siz sog'siz va tiriksiz; 5) yana g'azab; 6) to'liq tinchlik — hech qanday hissiyot yo'q, faqat xotirjamlik. Oxirgi daqiqadagi holat — intuitsiya holati."
+        },
+        {
+          "turi": "jurnal",
+          "savol": "Hozir sizni to'xtatib turgan bitta qo'rquvni yozing. Keyin savolga javob bering: bu qo'rquv orqali men nimani yo'qotishdan qo'rqyapman? Topgan javobingiz — bog'lanishingiz."
+        },
+        {
+          "turi": "test",
+          "savol": "Kartani qo'lga oldingiz. Birinchi sezgi «oq» dedi, keyin o'ylab «yo'q, qora bo'lishi kerak» deb qaror qildingiz. Kitobga ko'ra nima sodir bo'ldi?",
+          "variantlar": [
+            "Intuitsiya o'zini tuzatdi",
+            "Pauza mantiqni chaqirdi va u javobni almashtirdi",
+            "Ikkinchi javob har doim aniqroq",
+            "Bu shunchaki tasodif"
+          ],
+          "izohlar": [
+            "Intuitsiya o'zini tuzatmaydi — u javobni darrov beradi va jim bo'ladi.",
+            "To'g'ri. Kitobning ikkinchi dushmani — aynan pauza. Mantiqqa vaqt kerak, intuitsiyaga yo'q.",
+            "Aksincha: ikkinchi javob deyarli har doim mantiqniki bo'ladi.",
+            "Bu tasodif emas, balki takrorlanadigan mexanizm — shuning uchun uni nom bilan atash muhim."
+          ]
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Dushmanlarni ushlash",
+          "bandlar": [
+            "Bugungi mashqda pauza qilmadim",
+            "To'g'ri javobdan quvonmadim, xatodan xafa bo'lmadim",
+            "Mashqdan oldin hissiyot mayatnigini bajardim",
+            "Bitta qo'rquvimni yozib, bog'lanishini topdim",
+            "Qo'rqayotgan ishim bo'yicha bitta kichik amaliy qadam qo'ydim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Mashq paytida qanchalik xotirjam bo'la oldingiz?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Aql tinmadi",
+          "max_yorliq": "To'liq tinchlik"
+        }
+      ]
+    },
+    {
+      "sarlavha": "Xatolar, intizom va tana",
+      "magiz": [
+        "Mashq qiluvchilarning birinchi xatosi — tushunmagan narsasini «yaxshilashga» urinish. Bir necha oy shug'ullangach, «yulduz kasalligi» boshlanadi: tizimga boshqa tizimlardan elementlar qo'shiladi.",
+        "«Yaxshilash» nimaga o'xshashini muallif shunday ko'rsatadi: ellik yillik konyak, yumshoq pishloq, baliq sho'rva, shokolad, kabob, achchiq qalampir, bodring tuzlamasi, borsh, xantal, olma quymog'i va cho'chqa yog'ini bitta qozonga solib, yaxshilab aralashtiring. Ta'mi qanday bo'ladi?",
+        "Yaxshi shogirdning uch fazilati: diqqat, sabr va itoat. Bir so'z bilan — INTIZOM.",
+        "Rektor darsi: har qanday taklifingiz oldidan ikki kun pauza qo'ying. Bu iyerarxiyaning har bosqichida ishlaydi. Yangi boshlagan odam esa kamida bir oy o'ylashi kerak.",
+        "Ikkinchi xato — o'zini majburlab ishlash. Agar har safar o'zingizni zo'rlashingiz kerak bo'lsa, tashlab yuborish ehtimoli 99,9 %.",
+        "Odam qisqa lekin kuchli noqulaylikdan qochish uchun uzoq davom etadigan kichik noqulaylikka chidaydi. Shuning uchun tish og'rig'i bilan yillab yuradi, lekin shifokorga bormaydi.",
+        "Yechim: maqsadga zavq ulang. Mashq azob emas, sun'iy yaratilgan sevgi mashg'uloti bo'lishi kerak. Barcha yaratuvchi harakatlar uchun zavq markazi javob beradi.",
+        "Uchinchi xato — o'ziga ishonmaslik. Kursda suzishni bilmagan ayol akvalangchilar bilan 20 metr chuqurlikda yarim soat suzgan — chunki ishongan. Shubha davolashda ham, rivojlanishda ham asosiy dushman.",
+        "Do'stlar: tana, aql va jon. Ular bir-biriga ta'sir qiladi va uchalasi ruhga, ruh esa intuitsiya hududiga chiqadi.",
+        "Turnikda necha daqiqa osilasiz? Sport qiziqishi uchun — uch daqiqa. Har daqiqasiga kilogramm oltin va sog'liq va'da qilinsa — to'rt daqiqa. Endi jarlik ustida bir qo'lingiz bilan shoxda, ikkinchi qo'lingizda esa bolangiz osilib tursa — qancha? Farqni sezdingizmi? Bukilmas niyat — tana bilan ishlashning birinchi siri.",
+        "Ikkinchi sir — o'z-o'ziga ishontirish. Uchinchi sir — o'zingizni kichik boladek seving, tanangizga mehr bilan munosabatda bo'ling.",
+        "Kasallik ko'pincha odamning hayotida qiladigan ishi qolmaganda paydo bo'ladi: sevadigan odam bo'lmasa, o'ziga dard o'ylab topib, uni allalaydi. Hayotda maqsad har doim bor — yo uni o'zingiz tanlaysiz, yo u o'zi paydo bo'ladi."
+      ],
+      "tavsiyalar": [
+        "Tizimni «yaxshilashdan» oldin uni oxirigacha bajarib ko'ring. Yangi g'oyangizni kamida bir oy ushlab turing.",
+        "Har qanday taklif yoki katta g'oya oldidan ikki kunlik pauza qoidasini joriy qiling.",
+        "Mashqni majburlash emas, zavqqa aylantiring: joy, vaqt, holat — hammasini o'zingizga yoqadigan qilib tanlang.",
+        "Maqsadni maksimal qilib qo'ying. Chegara qanchalik baland bo'lsa, pastki bosqichlar shunchalik oson o'tiladi.",
+        "Sog'likni tiklashni kechiktirmang — u qolgan hamma narsaning poydevori. Og'riq butun dunyoni hojatxona o'lchamiga toraytiradi.",
+        "Tanani qo'llab turish uchun haftada uch marta mashq yetarli: engil, yoqimli charchoq darajasida, haddan tashqari yuk bilan emas.",
+        "Ertalab qomatni tiklang, kayfiyatni ko'taring va yuz ifodangizni o'zgartiring — jismoniy holat hissiyotni boshqaradi."
+      ],
+      "mashqlar": [
+        {
+          "turi": "test",
+          "savol": "Uch oy mashq qildingiz va tizimga o'zingizning qo'shimchangizni kiritmoqchisiz. Kitob nima deydi?",
+          "variantlar": [
+            "Ajoyib — ijodkorlik rivojlanish belgisi",
+            "Bu «yulduz kasalligi» — avval tizimni oxirigacha bajarib ko'ring",
+            "Faqat ustoz ruxsati bilan",
+            "Farqi yo'q, natija muhim"
+          ],
+          "izohlar": [
+            "Kitob buni aynan boshlovchilarning eng ko'p qiladigan xatosi deb ataydi.",
+            "To'g'ri. Muallif buni konyak, borsh va shokoladni bitta qozonga solishga qiyoslaydi.",
+            "Ruxsat masalasi emas — masala shundaki, siz hali tizimning ichki mantiqini ko'rmadingiz.",
+            "Natija muhim, lekin aralashtirilgan tizim natija bermaydi."
+          ]
+        },
+        {
+          "turi": "jurnal",
+          "savol": "Turnik sinovini o'zingizga qo'llang: bugungi maqsadingizga qanday kuch bilan yopishgansiz — «sport qiziqishi uchun» darajadami yoki «bolamning qo'lini ushlab turibman» darajadami? Rostini yozing va nima o'zgarishi kerakligini qo'shing."
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Intizom va tana",
+          "bandlar": [
+            "Bu hafta tizimga o'zimdan qo'shimcha kiritmadim",
+            "Katta g'oyani ikki kun ushlab turdim",
+            "Mashqni o'zimga yoqadigan qilib tashkil qildim",
+            "Haftada uch marta jismoniy mashq qildim",
+            "Ertalab qomat va yuz ifodasi bilan ishladim",
+            "Bugun o'zimni koyimadim"
+          ]
+        },
+        {
+          "turi": "taymer",
+          "daqiqa": 8,
+          "korsatma": "Bukilmas niyat mashqi. Ko'zni yumib o'tiring. Avval maqsadingizni oddiy holatda tasavvur qiling. Keyin uni jarlik ustidagi bola holatiga ko'chiring: siz uni qo'yib yubora olmaysiz. Shu kuchni tanangizda his qiling — yelkada, qo'lda, nafasda. Vaqt tugagunicha shu holatni ushlab turing."
+        },
+        {
+          "turi": "slider",
+          "savol": "Maqsadingizga qanday kuch bilan yopishgansiz?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Sport qiziqishi uchun",
+          "max_yorliq": "Bolamning qo'lini ushlagandek"
+        }
+      ]
+    },
+    {
+      "sarlavha": "Amaliyot: kartalar, hayot va chegaralar",
+      "magiz": [
+        "Tayyorgarlik: qora va oq kartani oling. Har biriga qarab, tanangizda qanday sezgi paydo bo'lishini kuzating. Buni bir necha marta takrorlab, ikki rangga bo'lgan sezgi farqini aniq toping. Ko'pchilikda qora kartaga xavf tuyg'usi keladi.",
+        "«Haqiqat/Yolg'on» mashqi: kartalarni rangi pastga qaratib aralashtiring, yuqoridagisini oling, javobni ayting, keyin ochib tekshiring. To'g'ri — bir to'plamga, xato — ikkinchisiga. Butun paketni shunday o'tkazib, foizni kundalikka yozing.",
+        "Bu juftlikka istagan ma'noni bog'lash mumkin: haqiqat–yolg'on, mumkin–mumkin emas, ha–yo'q, foydali–zararli.",
+        "«Oldindan ko'rish» mashqi: kartaga tegmasdan, uni qanday olib, ag'darib, rangini ko'rayotganingizni tasavvur qiling — bir necha soniya oldinga qarang. Keyin haqiqatan oling va tekshiring.",
+        "«Bilish holati»: atrofga qarang — shkaf, kitob, oyna. Siz o'ylamaysiz, shunchaki bilasiz. Hech qanday hissiyot, shubha yo'q. Shu holatni eslab qoling va yuqoridagi kartaning rangini xuddi shunday «bilib» turing.",
+        "ENG MUHIM QOIDA: natijaga bog'lanmang. Maqsad ko'proq kartani topish emas — to'g'ri javob paytidagi va xato paytidagi ichki holatni bir-biridan ajratishni o'rganish. Kartalar — asbob, intuitsiyaga eshik, xolos.",
+        "Qora-oq kartalarda 80–90 % ga chiqmaguncha rangli kartalarga o'tmang. Keyingi bosqichlar: rangli kartalar, raqamlar (1–9), hissiyot rasmlari, tabiat manzaralari.",
+        "Variantlar ko'p bo'lganda: darrov bittasiga to'xtamang — o'ylamasdan yarmini tashlang, qolganini yana yarmiga bo'ling. Variant kamayganda mantiq oldinga chiqadi; uni to'xtatish uchun bir vaqtda chap oyoq bilan tepinib, ko'zni pirpiratib, burun bilan hidlab, o'ng qo'lni aylantirib turib javobni ayting.",
+        "Hayotdagi mashq muhimroq: uchrashuvda karta paketini chiqarib o'tira olmaysiz. Yo'lda ketayotib «shuncha soniyadan keyin qizil mashina uchraydi» deb sinang; transport kutayotganda haydovchi erkakmi yoki ayolmi, mashinada nechta odam borligini ayting; uydan chiqishdan oldin birinchi kim uchrashini his qiling.",
+        "Bunday paytda intuitsiyani xayoldan ajratish o'rganiladi — kurslarda «erkak chiqadi» degan odamga qarshi it yugurib chiqadi.",
+        "Chegaralar. Muallif qat'iy taqiqlaydi: raqamlar bilan ishlashni qimor va lotereyaga ishlatmang. Bu usulni lotereyaga ishlatgan psixolog qamalgan. Qimor biznesining egalari haqidagi kuzatuv ham shunga ishora qiladi.",
+        "Halol va harom haqidagi masal: bola payg'ambar bilan hazillashgani uchun «tug'ilishingga bog'langan harom o'zini bildirdi» deb eshitadi — sababi, otasi o'sha kechasi qo'shnining panjarasidan ikkita taxta sindirib olib, suv isitgan edi. Muallif farzandlariga: «Halol bo'lmasa, uyga bir tiyin ham olib kelmang» deydi.",
+        "Uch fil va toshbaqa: birinchi fil — ota-onangiz, ikkinchisi — siz va juftingiz, uchinchisi — farzandlaringiz. Toshbaqa esa moddiy asos, sizning ishingiz. Bittasini olib tashlang — zanjir uziladi.",
+        "Oxirgi xulosa: ikki yo'l bor — taqlid yo'li va izlanish yo'li. Ustaning yo'li faqat uniki. Sizning asosiy vazifangiz — haqiqiy yo'lni yolg'onidan ajratishni o'rganish. Buning uchun intuitsiya kerak."
+      ],
+      "tavsiyalar": [
+        "Har bir seansdan keyin foizni kundalikka yozing. Faqat foizni emas — javob paytidagi holatni ham: tanangizda nima bo'ldi, qanday sezgi keldi.",
+        "To'g'ri javob berganingizda o'sha holatni eslab qoling va uni vaqt bo'yicha cho'zishga harakat qiling.",
+        "Bir necha kartani birdan oling: sezgi bir xilmi yoki har xil? Bir xil bo'lsa — bitta rang, har xil bo'lsa — qaysi rang ko'proq?",
+        "Raqamlar bilan ishlaganda kuzating: qaysi raqamlar bo'ynidan bosib keladi, qaysilari devor tagida jim turadi? Keyin tekshiring — yolg'onchisi qaysi biri?",
+        "Kundalik hayotda eng oddiy vaziyatlarda mashq qiling: transport kutayotganda, yo'lda, uydan chiqishdan oldin.",
+        "Har qanday katta uchrashuvdan oldin ichki ovozingizni yozib qo'ying va keyin natijani solishtiring — shunda «ichki tarozi» shakllanadi.",
+        "Intuitsiyani qimor, lotereya va shunga o'xshash joylarga ishlatmang. Kitob buni ochiq taqiqlaydi.",
+        "Uch filni tekshiring: ota-onangiz bilan aloqangiz, juftingiz bilan munosabatingiz, farzandlaringiz. Qaysi biri zaif — shu yerdan boshlang."
+      ],
+      "mashqlar": [
+        {
+          "turi": "kundalik",
+          "sarlavha": "Intuitsiya kundaligi",
+          "korsatma": "Kitobning talabi: har bir seansdan keyin natijani foizda yozing. Faqat raqam emas — to'g'ri va xato javob paytidagi ichki holatingizni ham yozing: tanangizda nima bo'ldi, sezgi qayerdan keldi, aql qachon aralashdi. Belgilar maydoniga mashq turini yozing: qora-oq, rangli, raqam, hayotda. Bir necha hafta yozgach, qaysi holatda aniqroq bo'lishingizni raqamlardan ko'rasiz.",
+          "joy_matn": "Bugungi seans: 40 tadan … tasi to'g'ri (…%). Holat: …",
+          "belgi_matn": "Turi: qora-oq, rangli, raqam, hayotda…"
+        },
+        {
+          "turi": "taymer",
+          "daqiqa": 30,
+          "korsatma": "«Haqiqat/Yolg'on» seansi. Kartalarni rangi pastga qaratib aralashtiring. Yuqoridagisini oling, pauza qilmasdan rangini ayting, ochib tekshiring va ikki to'plamga ajrating. Paket tugaguncha davom eting, keyin qaytadan. Eslatma: to'g'ri chiqqanda quvonmang, xato chiqqanda xafa bo'lmang — vazifa ko'proq topish emas, holatni farqlash."
+        },
+        {
+          "turi": "slider",
+          "savol": "Bugungi seansda necha foiz to'g'ri chiqdi?",
+          "min": 0,
+          "max": 100,
+          "min_yorliq": "0%",
+          "max_yorliq": "100%"
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Hayotdagi mashq — bir kun",
+          "bandlar": [
+            "Uydan chiqishdan oldin birinchi kim uchrashini aytdim",
+            "Transport kutayotganda kelayotgan mashina haqida taxmin qildim",
+            "Yo'lda vaqt bilan bog'liq bitta bashorat qildim va tekshirdim",
+            "Bitta odam haqidagi birinchi taassurotimni yozib qo'ydim",
+            "Kechqurun to'g'ri va xato chiqqan holatlarni solishtirdim"
+          ]
+        },
+        {
+          "turi": "test",
+          "savol": "Bir oy mashq qildingiz, natija 85 % ga chiqdi. Endi nima qilasiz?",
+          "variantlar": [
+            "Lotereya biletini sinab ko'raman",
+            "Rangli kartalar va raqamlarga o'taman",
+            "Yetarli, to'xtataman",
+            "Hammaga qobiliyatimni ko'rsataman"
+          ],
+          "izohlar": [
+            "Kitob buni ochiq taqiqlaydi. Bu usulni lotereyaga ishlatgan odamning taqdiri kitobda alohida hikoya qilingan.",
+            "To'g'ri. Kitobning tartibi aynan shunday: 80–90 % dan keyin ranglar, keyin raqamlar, hissiyotlar va manzaralar.",
+            "80–90 % — bu boshlanish, oxiri emas. Zalga borishni to'xtatgan odam bilan bir xil.",
+            "Ko'rsatish — «yulduz kasalligi»ning boshlanishi. Kitob buni birinchi xato deb ataydi."
+          ]
+        },
+        {
+          "turi": "jurnal",
+          "savol": "Uch filni tekshiring: ota-onangiz bilan aloqangiz, juftingiz bilan munosabatingiz, farzandlaringiz (yoki kelajakdagi oilangiz). Har biriga 1 dan 10 gacha baho qo'ying va eng past bahoni olgan yo'nalish bo'yicha shu hafta qiladigan bitta aniq ishni yozing."
+        }
+      ]
+    }
+  ]
+}
