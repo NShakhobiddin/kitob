@@ -147,7 +147,7 @@ Bu so'rovni `https://api.telegram.org/bot<TOKEN>/sendMessage` manziliga POST qil
 
 `turkum` — **ixtiyoriy**. Bir xil `turkum` qiymatiga ega kitoblar bosh sahifada va
 Jarayon sahifasida bitta guruh sarlavhasi ostida chiqadi (masalan «Tentakning
-tajribasi» turkumidagi 4 ta kitob). Turkumsiz kitoblar «Boshqa kitoblar» ostiga
+tajribasi» turkumidagi 5 ta kitob). Turkumsiz kitoblar «Boshqa kitoblar» ostiga
 tushadi va ro'yxat oxirida turadi.
 
 ### `books/{id}.json`
