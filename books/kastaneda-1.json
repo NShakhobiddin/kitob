@@ -99,7 +99,7 @@
         },
         {
           "turi": "checklist",
-          "sarlavha": "Tanani eshitish — bir hafta",
+          "sarlavha": "Sitio: tananing signallarini o'lchash",
           "bandlar": [
             "Uyimda o'z joyimni topdim",
             "Ish joyimda ham sinab ko'rdim",
@@ -240,7 +240,7 @@
         },
         {
           "turi": "slider",
-          "savol": "Qo'rquv sizni qanchalik to'xtatib turibdi?",
+          "savol": "Birinchi dushman bugun sizni necha marta orqaga qaytardi? 1 — har safar, 10 — bir marta ham emas.",
           "min": 1,
           "max": 10,
           "min_yorliq": "Umuman to'xtatmaydi",
@@ -310,7 +310,7 @@
         "Yengish yo'li: kuch aslida unga tegishli emasligini va hech qachon tegishli bo'lmasligini tushunish. Va o'zini tuta bilish — bilganini xotirjam, manfaatsiz ishlatish. O'zini tuta bilmasa, aniqlik va kuch illyuziyadan ham yomon."
       ],
       "tavsiyalar": [
-        "Qo'lingizga kuch (lavozim, pul, ta'sir) kelganda birinchi savol: bu menikimi yoki menga vaqtincha berilganmi?",
+        "Qo'lingizga kuch — lavozim, pul, ta'sir — kelganda darrov so'rang: bu menikimi yoki menga vaqtincha berilganmi? Javobni yozib qo'ying.",
         "Kuch paydo bo'lgach, atrofingizdagilar sizga rostini aytishda davom etyaptimi — buni tekshiring.",
         "«Men xo'jayinman» degan asosda qabul qilingan qarorlarni alohida belgilab boring.",
         "Har oy o'zingizga savol bering: so'nggi paytda kimgadir keraksiz qattiqlik qildimmi?",
@@ -339,7 +339,7 @@
         },
         {
           "turi": "checklist",
-          "sarlavha": "Kuchni tekshirish",
+          "sarlavha": "Uchinchi dushmanni sinash: kuch qo'lda",
           "bandlar": [
             "Menda qanday kuch borligini yozib chiqdim",
             "Qo'limdan kelgan bir ishni ataylab qilmadim",

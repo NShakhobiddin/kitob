@@ -28,7 +28,7 @@
         },
         {
           "turi": "checklist",
-          "sarlavha": "Orolni tozalash — bir hafta",
+          "sarlavha": "Tonal orolini tozalash",
           "bandlar": [
             "Orolimning ro'yxatini yozdim",
             "Ortiqchalarini belgiladim",
@@ -72,7 +72,7 @@
         "Nagval haqida gapirib bo'lmaydi, lekin unga tegib bo'ladi. Odam buni sezadi: fikr to'xtaydi, dunyo bir zumda boshqacha bo'ladi.",
         "Xatolik — nagvalni tonal tili bilan tushuntirishga urinish. Kastaneda butun kitob davomida shu xatoni qiladi.",
         "Nagvalni ta'qib qilish ham xato. Don Xuan aytadi: tonal to'g'ri turgan bo'lsa, nagval o'zi keladi.",
-        "Amaliy ma'nosi: hayotda tushuntirib bo'lmaydigan narsaga joy qoldiring. Hamma narsani izohlashga urinish — kuchni yeydigan odat."
+        "Hayotda tushuntirib bo'lmaydigan narsaga joy qoldiring. Hamma narsani izohlashga urinish — tonalni charchatadigan va kuchni yeydigan odat."
       ],
       "tavsiyalar": [
         "Kuniga bir marta tushuntirib bo'lmaydigan narsani ataylab tushuntirmasdan qoldiring.",
@@ -121,7 +121,7 @@
       "mashqlar": [
         {
           "turi": "checklist",
-          "sarlavha": "Jangchi kuni",
+          "sarlavha": "Jangchining to'rt kayfiyati",
           "bandlar": [
             "Ertalab uchta asosiy ishni belgiladim",
             "Bugun bir marta ham nolimadim",
@@ -158,7 +158,7 @@
         "Bu tavsifni bizga tashqaridan berishgan: ota-ona, til, maktab, muhit. Va biz uni har kuni o'zimizga takrorlaymiz.",
         "Ustozning vazifasi — pufakni ochish emas, uni bir chetdan ko'rsatish: qarang, siz aks bilan ish qilyapsiz.",
         "Pufak yomon narsa emas — usiz idrok imkonsiz. Lekin uning borligini bilish va bilmaslik — ikki xil hayot.",
-        "Amaliy xulosa: sizga «shunday» bo'lib ko'ringan narsalarning katta qismi tavsif. Uni o'zgartirish mumkin, lekin avval uni ko'rish kerak."
+        "Sizga «shunchaki shunday» bo'lib ko'ringan narsalarning katta qismi — tavsif, ya'ni o'rgatilgan qarash. Uni o'zgartirish mumkin, lekin avval uni tavsif ekanini ko'rish kerak."
       ],
       "tavsiyalar": [
         "«Dunyo shunday» degan har bir jumlangizni tekshiring: bu fakt-mi yoki tavsif?",
@@ -190,7 +190,7 @@
         },
         {
           "turi": "checklist",
-          "sarlavha": "Pufakni ko'rish",
+          "sarlavha": "Tavsifni ochish: idrok pufagi",
           "bandlar": [
             "Beshta «shunday» ishonchimni yozdim",
             "Bittasini tekshirib ko'rdim",
@@ -209,7 +209,7 @@
         "Tush bu yerda uyqu emas, boshqa idrok holati. Unga kirish uchun diqqat kerak, uyqu emas.",
         "Kastaneda buni tushunolmaydi: qaysi biri haqiqiy? Don Xuan javob bermaydi — savol noto'g'ri qo'yilgan.",
         "Bu mavzu keyinchalik alohida kitobga — «Tush ko'rish san'ati»ga aylanadi. Bu yerda esa faqat eshik ochiladi.",
-        "Amaliy o'zagi bitta: tushga e'tibor bering. Eslanmagan tush yo'q tush bilan barobar."
+        "Tushdagi tana amaliyoti bitta talabdan boshlanadi — tushga e'tibor berish. Eslanmagan tush ko'rilmagan tush bilan barobar."
       ],
       "tavsiyalar": [
         "Tushingizni har ertalab yozib boring — bu barcha keyingi amaliyotning poydevori.",
@@ -221,21 +221,24 @@
       "mashqlar": [
         {
           "turi": "kundalik",
-          "sarlavha": "Tush kundaligi",
+          "sarlavha": "Tushdagi tana daftari",
           "korsatma": "Har ertalab tushingizni shu yerga yozing. Avval kalit so'zlar, keyin tafsilot. Belgilar maydoniga tushdagi joy, odam, his va harakatni vergul bilan kiriting — takrorlanayotgan belgilar avtomatik sanaladi va pastda ko'rsatiladi. Hech narsa eslamasangiz ham «eslamadim» deb yozing: odat vaqtdan muhimroq.",
           "joy_matn": "Kecha tushimda…",
           "belgi_matn": "Belgilar: suv, uy, uchish, notanish odam…"
         },
         {
           "turi": "eslatma",
-          "sarlavha": "Tushni yozish vaqti",
+          "sarlavha": "Qo'llarni topish niyati",
           "matn": "Tushingizni yozing — parcha bo'lsa ham, hozir yozing.",
           "korsatma": "Uyg'onish vaqtingizdan 5–10 daqiqa keyingi vaqtni qo'ying. Tush xotirasi bir necha daqiqada yuviladi.",
-          "vaqtlar": ["06:50", "07:20"]
+          "vaqtlar": [
+            "06:50",
+            "07:20"
+          ]
         },
         {
           "turi": "checklist",
-          "sarlavha": "Tushga e'tibor",
+          "sarlavha": "Tushda diqqatni ushlash",
           "bandlar": [
             "Uyg'onganda qimirlamay yotdim",
             "Tushni orqasidan tikladim",
@@ -246,7 +249,7 @@
         },
         {
           "turi": "slider",
-          "savol": "Bu hafta necha kun tushingizni yozdingiz?",
+          "savol": "Bu hafta tushingizda qo'llaringizni necha marta topa oldingiz?",
           "min": 0,
           "max": 7,
           "min_yorliq": "0 kun",
@@ -305,7 +308,7 @@
         },
         {
           "turi": "slider",
-          "savol": "Bilim va harakatingiz nisbati qanday?",
+          "savol": "Jarlik oldida turibsiz: kafolatsiz sakrashga qanchalik tayyorsiz?",
           "min": 1,
           "max": 10,
           "min_yorliq": "Faqat bilaman",

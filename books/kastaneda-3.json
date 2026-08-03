@@ -16,7 +16,7 @@
       ],
       "tavsiyalar": [
         "Bir hafta davomida o'zingiz haqingizda kamroq gapiring — savolga qisqa javob bering va mavzuni almashtiring.",
-        "«Men shunday odamman» degan jumlani ushlang. Uni «shu vaqtgacha shunday qilib keldim» ga almashtiring.",
+        "«Men shunday odamman» degan jumlani ushlang va uni «men shu paytgacha shunday yo'l tutdim» ga almashtiring.",
         "Sizni «biladigan» odamlarni hayron qoldiradigan bitta ish qiling — kichik bo'lsa ham.",
         "Ijtimoiy tarmoqda o'zingiz haqingizda avtomatik hisobot berishni bir muddat to'xtatib ko'ring.",
         "Eski hikoyalaringizni takrorlashni to'xtating: har takror sizni o'sha odam qilib qoldiradi."
@@ -28,7 +28,7 @@
         },
         {
           "turi": "checklist",
-          "sarlavha": "Tarixni o'chirish — bir hafta",
+          "sarlavha": "Tuman yaratish: shaxsiy tarixni o'chirish",
           "bandlar": [
             "Bu hafta o'zim haqimda kamroq gapirdim",
             "Bitta eski hikoyani takrorlamadim",
@@ -47,7 +47,7 @@
         },
         {
           "turi": "test",
-          "savol": "Shaxsiy tarixni o'chirishning maqsadi nima?",
+          "savol": "Don Xuan nima uchun Karlosdan shaxsiy tarixini o'chirishni talab qildi?",
           "variantlar": [
             "Odamlarni aldash",
             "Boshqalarning va o'zining kutishlaridan ozod bo'lish",
@@ -131,7 +131,7 @@
       "mashqlar": [
         {
           "turi": "jurnal",
-          "savol": "Hozir sizni bezovta qilayotgan uchta narsani yozing. Har birining yoniga o'limdan so'rang va javobni yozing: bu haqiqatan muhimmi? Nechtasi qoldi?"
+          "savol": "Don Xuan o'limni chap yelkangizdan bir qadam narida turadi, deydi. Hozir sizni bezovta qilayotgan uchta narsani yozing va har birida shu yelkaga o'girilib so'rang: shu narsa rostdan shuncha joyni egallashga arziydimi? Javobni yozing."
         },
         {
           "turi": "test",
@@ -162,7 +162,7 @@
         },
         {
           "turi": "slider",
-          "savol": "Bugungi tashvishlaringiz o'lim yonida qanchalik og'ir?",
+          "savol": "Chap yelkangizdagi maslahatchini bugun necha marta esladingiz?",
           "min": 1,
           "max": 10,
           "min_yorliq": "Deyarli vaznsiz",
@@ -237,7 +237,7 @@
         },
         {
           "turi": "checklist",
-          "sarlavha": "Ovchi haftasi",
+          "sarlavha": "Ovchining tartibi: odatlarni buzish",
           "bandlar": [
             "Uchta odatimni ataylab o'zgartirdim",
             "Boshqa yo'ldan yurdim",
@@ -307,7 +307,7 @@
         },
         {
           "turi": "checklist",
-          "sarlavha": "Qilmaslik amaliyoti",
+          "sarlavha": "Qilmaslik: soyalar va oraliqlar",
           "bandlar": [
             "Soyalar mashqini bajardim",
             "Oraliqlar mashqini bajardim",

@@ -49,7 +49,7 @@
         },
         {
           "turi": "slider",
-          "savol": "Ichki suhbatingiz kun davomida qanchalik tinim beradi?",
+          "savol": "Bugun dunyoni necha marta to'xtata oldingiz — ichki gapsiz qolgan lahzalar ko'pmi?",
           "min": 1,
           "max": 10,
           "min_yorliq": "Bir soniya ham tinmaydi",
@@ -92,7 +92,7 @@
         },
         {
           "turi": "slider",
-          "savol": "Boshqalarning fikri sizga qanchalik ta'sir qiladi?",
+          "savol": "O'zini muhim sanash bugun sizdan qancha kuch olib ketdi?",
           "min": 1,
           "max": 10,
           "min_yorliq": "Deyarli ta'sir qilmaydi",
@@ -164,7 +164,7 @@
         },
         {
           "turi": "checklist",
-          "sarlavha": "Bir hafta amaliyot",
+          "sarlavha": "Nazorat qilingan ahmoqlik — bir hafta",
           "bandlar": [
             "Bitta ishni natijani o'ylamasdan oxirigacha qildim",
             "Muvaffaqiyatsizlikdan keyin o'zimni koyimadim",
@@ -199,7 +199,7 @@
         },
         {
           "turi": "checklist",
-          "sarlavha": "Vaqtni tozalash",
+          "sarlavha": "Vaqtni ovlash: kuch beradigan soatlar",
           "bandlar": [
             "Kunimni soatlab yozib chiqdim",
             "Kuch oladigan bitta odatni bugun qisqartirdim",
@@ -275,11 +275,11 @@
       "mashqlar": [
         {
           "turi": "jurnal",
-          "savol": "Kuchingiz oqib ketadigan beshta teshikni yozing. Har birining yoniga uni bir oz yopish uchun qiladigan bitta aniq harakatni yozing."
+          "savol": "Don Xuan ko'rish uchun ortiqcha kuch kerakligini aytadi. Kuchingiz oqib ketadigan beshta joyni toping — odam, odat, majburiyat yoki fikr bo'lishi mumkin. Har birining yoniga bugun bajariladigan bitta aniq harakat yozing."
         },
         {
           "turi": "checklist",
-          "sarlavha": "Teshiklarni yopish",
+          "sarlavha": "Ko'rishga tayyorgarlik: ortiqcha kuchni yig'ish",
           "bandlar": [
             "Kuch teshiklarim ro'yxatini yozdim",
             "Tugallanmagan bitta ishni yopdim",
