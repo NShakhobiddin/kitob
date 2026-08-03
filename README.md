@@ -30,10 +30,33 @@ Och fon, oq kartalar va to'q ko'k (navy) urg'u — zamonaviy mobil ilova uslubi.
   haqiqiy sahifa, `localStorage`'dagi ma'lumotdan hisoblanadi
 - Bir turkumga tegishli kitoblar bosh sahifada bitta kartaga yig'iladi va alohida
   turkum sahifasi orqali ochiladi
-- Kitob ichida har bir bo'lim ikkita bo'limchaga bo'lingan: **💠 Mag'iz** (mag'iz +
+- Kitob ichida har bir bo'lim ikkita bo'limchaga bo'lingan: **💠 Ma'nosi** (mag'iz +
   amaliy tavsiyalar) va **🌙 Mashqlar**. Bo'lim sarlavhasida bajarilgan mashq
   hisobi ko'rinadi
+- **Muqovalar**: `books/muqova/{id}.webp` (420×560) va `{id}-k.webp` (140×187).
+  Nisbat CSS da qat'iy 3:4 — rasm kelguncha ham joy band, sahifa sakramaydi.
+  Rasm yo'q yoki yuklanmasa, kitobning `rang` maydonidan gradient qaytadi
 - 380px mobil ekranga moslangan, `prefers-reduced-motion` hurmat qilinadi
+
+## Barqarorlik (app-like)
+
+- **Telegramda to'liq ekran**: `expand()` + `requestFullscreen()` (Bot API 8.0+),
+  `disableVerticalSwipes()` — pastga tortganda ilova yopilmaydi
+- Xavfsiz hudud va oyna balandligi `safeAreaInset` / `contentSafeAreaInset` /
+  `viewportStableHeight` dan CSS o'zgaruvchilariga uzatiladi va
+  `safeAreaChanged` / `fullscreenChanged` hodisalarida yangilanadi
+- Barcha kitoblar boshida bir marta yuklanadi — kitobni ochish **bir zumda**,
+  spinner yo'q
+- Yuklanayotganda **skelet karkas**: birinchi bo'yoqda ham, React yuklanguncha ham
+- **Surilma holati** har bir ko'rinish uchun saqlanadi va qaytganda tiklanadi
+  (foydalanuvchi o'zi surса — tiklash bekor qilinadi)
+- Oxirgi tab va turkum eslab qolinadi: ilova qayerda qoldirilgan bo'lsa, o'sha yerda ochiladi
+- Yuqori panel **sticky**, surilganda ajratgich chizig'i chiqadi
+- 2 ustunli kartalar teng balandlikda (`grid-auto-rows: 1fr` + sarlavhaga
+  ikki qatorlik `min-height`)
+- Yuklash xatosida **«Qayta urinish»** tugmasi
+- `overscroll-behavior: none`, `touch-action: manipulation` — sakrash va
+  tasodifiy zum yo'q
 
 ## Fayl strukturasi
 
@@ -41,7 +64,8 @@ Och fon, oq kartalar va to'q ko'k (navy) urg'u — zamonaviy mobil ilova uslubi.
 .
 ├── index.html          ← butun ilova (React + CSS + mantiq)
 ├── books/
-│   ├── index.json      ← kitoblar ro'yxati
+│   ├── index.json      ← turkumlar + kitoblar ro'yxati
+│   ├── muqova/         ← kitob va turkum muqovalari (webp)
 │   ├── namuna.json     ← namuna kitob ("Ichki Kuzatuvchi")
 │   ├── lucid-tush.json ← Lucid tush amaliyoti (kundalik + eslatmali bo'lim)
 │   ├── intuitsiya.json ← Norbekov turkumidagi 6-kitob
@@ -132,18 +156,30 @@ Bu so'rovni `https://api.telegram.org/bot<TOKEN>/sendMessage` manziliga POST qil
 
 ```json
 {
+  "turkumlar": [
+    { "nomi": "Turkum nomi", "muqova": "muqova/turkum-nomi.webp" }
+  ],
   "kitoblar": [
     {
       "id": "namuna",
       "nomi": "Kitob nomi",
       "muallif": "Muallif ismi",
       "turkum": "Turkum nomi (ixtiyoriy)",
+      "muqova": "muqova/namuna.webp",
       "rang": "#6b4c9a",
       "tavsif": "Bir jumlalik qisqa tavsif"
     }
   ]
 }
 ```
+
+`muqova` — **ixtiyoriy**. 3:4 nisbatdagi rasm; `books/muqova/` ichida ikki
+o'lchamda saqlanadi: `{nom}.webp` (420×560, katta ko'rinishlar uchun) va
+`{nom}-k.webp` (140×187, kichik ro'yxatlar uchun). Frontend kichik joylarda
+`-k` variantini o'zi tanlaydi. Muqova bo'lmasa yoki yuklanmasa, `rang`
+maydonidan gradient chiziladi — dizayn buzilmaydi.
+
+`turkumlar` — ixtiyoriy; faqat turkum muqovasini belgilash uchun.
 
 `id` — fayl nomi bilan bir xil bo'lishi kerak (`books/namuna.json`).
 `rang` — muqova gradientining asosiy rangi.

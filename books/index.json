@@ -1,10 +1,21 @@
 {
+  "turkumlar": [
+    {
+      "nomi": "Tentakning tajribasi",
+      "muqova": "muqova/turkum-norbekov.webp"
+    },
+    {
+      "nomi": "Karlos Kastaneda",
+      "muqova": "muqova/turkum-kastaneda.webp"
+    }
+  ],
   "kitoblar": [
     {
       "id": "koz-ochish-kaliti",
       "nomi": "Tentakning tajribasi 1: Ko'z ochish kaliti",
       "muallif": "Mirzakarim Norbekov",
       "turkum": "Tentakning tajribasi",
+      "muqova": "muqova/koz-ochish-kaliti.webp",
       "rang": "#c2622d",
       "tavsif": "Kasallik xarakterning ko'zgusi: qomat, tabassum va ichki holat orqali o'zini o'zi tiklash tizimi."
     },
@@ -13,6 +24,7 @@
       "nomi": "Tentakning tajribasi 2: O'zingizga kalitlar",
       "muallif": "Mirzakarim Norbekov",
       "turkum": "Tentakning tajribasi",
+      "muqova": "muqova/kalitlar.webp",
       "rang": "#3d7a6a",
       "tavsif": "Ovqat, tana, tashqi ko'rinish, dam olish va ish — hayotning barcha tomonlarini o'z qo'lingizga olish kalitlari."
     },
@@ -21,6 +33,7 @@
       "nomi": "Tentakning tajribasi 3: Qanday yashash va farovonlik topish",
       "muallif": "Mirzakarim Norbekov",
       "turkum": "Tentakning tajribasi",
+      "muqova": "muqova/farovonlik.webp",
       "rang": "#2f5d9e",
       "tavsif": "Uy, oila, bolalar, ota-ona va hayot maqsadi: farovonlik qurilishining amaliy qonunlari."
     },
@@ -29,6 +42,7 @@
       "nomi": "Tentakning tajribasi 5: Odamlar qiladigan xatolar",
       "muallif": "Mirzakarim Norbekov",
       "turkum": "Tentakning tajribasi",
+      "muqova": "muqova/xatolar.webp",
       "rang": "#8c3a52",
       "tavsif": "Uyquda yashash, «normal» bo'lish tuzog'i, nafs va dangasalik — odamni to'xtatib qo'yadigan asosiy xatolar."
     },
@@ -37,6 +51,7 @@
       "nomi": "Tentakning tajribasi 6: Intuitsiya qanday ishlaydi",
       "muallif": "Mirzakarim Norbekov",
       "turkum": "Tentakning tajribasi",
+      "muqova": "muqova/intuitsiya.webp",
       "rang": "#8a6a1e",
       "tavsif": "Oltinchi tuyg'u — mashq qilinadigan ko'nikma: kartalar bilan tayyorgarlik, aql va pauza dushmanlari, kundalik natijalar."
     },
@@ -45,6 +60,7 @@
       "nomi": "Kastaneda 1: Don Xuanning ta'limoti",
       "muallif": "Karlos Kastaneda",
       "turkum": "Karlos Kastaneda",
+      "muqova": "muqova/kastaneda-1.webp",
       "rang": "#6d4426",
       "tavsif": "Shogirdlikning boshlanishi, o'z joyingizni topish va bilim odamining to'rt dushmani: qo'rquv, aniqlik, kuch, qarilik."
     },
@@ -53,6 +69,7 @@
       "nomi": "Kastaneda 2: Alohida reallik",
       "muallif": "Karlos Kastaneda",
       "turkum": "Karlos Kastaneda",
+      "muqova": "muqova/kastaneda-2.webp",
       "rang": "#35617a",
       "tavsif": "Qarash va ko'rish farqi, ichki suhbatni to'xtatish va nazorat qilingan ahmoqlik."
     },
@@ -61,6 +78,7 @@
       "nomi": "Kastaneda 3: Ikstlanga sayohat",
       "muallif": "Karlos Kastaneda",
       "turkum": "Karlos Kastaneda",
+      "muqova": "muqova/kastaneda-3.webp",
       "rang": "#a05c2e",
       "tavsif": "Eng amaliy kitob: shaxsiy tarixni o'chirish, o'limni maslahatchi qilish, odatlarni buzish va «qilmaslik»."
     },
@@ -69,6 +87,7 @@
       "nomi": "Kastaneda 4: Kuch haqidagi ertaklar",
       "muallif": "Karlos Kastaneda",
       "turkum": "Karlos Kastaneda",
+      "muqova": "muqova/kastaneda-4.webp",
       "rang": "#5b3f7a",
       "tavsif": "Tonal va nagval, «tonal orolini tozalash», jangchi strategiyasi va idrok pufagi."
     },
@@ -77,6 +96,7 @@
       "nomi": "Kastaneda 5: Kuchning ikkinchi halqasi",
       "muallif": "Karlos Kastaneda",
       "turkum": "Karlos Kastaneda",
+      "muqova": "muqova/kastaneda-5.webp",
       "rang": "#2f6b5c",
       "tavsif": "Ustoz ketgach nima bo'ladi: tush ko'rish san'ati, ikkinchi diqqat va o'zgarishning narxi."
     },
@@ -85,6 +105,7 @@
       "nomi": "Kastaneda 6: Burgutning sovg'asi",
       "muallif": "Karlos Kastaneda",
       "turkum": "Karlos Kastaneda",
+      "muqova": "muqova/kastaneda-6.webp",
       "rang": "#8a4356",
       "tavsif": "Qayta ko'rish amaliyoti: butun hayotni eslab, unda qolgan kuchni qaytarish."
     },
@@ -93,6 +114,7 @@
       "nomi": "Kastaneda 7: Ichkaridan yonuvchi olov",
       "muallif": "Karlos Kastaneda",
       "turkum": "Karlos Kastaneda",
+      "muqova": "muqova/kastaneda-7.webp",
       "rang": "#b0512a",
       "tavsif": "Yig'ish nuqtasi, idrokning tuzilishi va «mayda zolimlar» bilan ishlash."
     },
@@ -101,6 +123,7 @@
       "nomi": "Kastaneda 8: Sukunatning kuchi",
       "muallif": "Karlos Kastaneda",
       "turkum": "Karlos Kastaneda",
+      "muqova": "muqova/kastaneda-8.webp",
       "rang": "#3f5aa0",
       "tavsif": "Ichki sukunat, niyat va ta'qibchining to'rt holati: shafqatsizlik, hiyla, sabr, mehr."
     },
@@ -109,6 +132,7 @@
       "nomi": "Kastaneda 9: Tush ko'rish san'ati",
       "muallif": "Karlos Kastaneda",
       "turkum": "Karlos Kastaneda",
+      "muqova": "muqova/kastaneda-9.webp",
       "rang": "#7b3f8f",
       "tavsif": "Tush ko'rishning to'rt darvozasi, tushdagi diqqat va yo'ldagi tuzoqlar."
     },
@@ -117,6 +141,7 @@
       "nomi": "Kastaneda 10: Cheksizlikning faol tomoni",
       "muallif": "Karlos Kastaneda",
       "turkum": "Karlos Kastaneda",
+      "muqova": "muqova/kastaneda-10.webp",
       "rang": "#1f6b4a",
       "tavsif": "Hayot albomi, qayta ko'rishning aniq usuli va jangchi-sayohatchi tushunchasi."
     },
@@ -125,6 +150,7 @@
       "nomi": "Kastaneda 11: Vaqt g'ildiragi",
       "muallif": "Karlos Kastaneda",
       "turkum": "Karlos Kastaneda",
+      "muqova": "muqova/kastaneda-11.webp",
       "rang": "#7a6a2a",
       "tavsif": "Turkumning o'zagi: don Xuanning eng muhim fikrlari mavzular bo'yicha yig'ilgan."
     },
