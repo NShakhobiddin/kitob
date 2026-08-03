@@ -177,7 +177,11 @@
           "sarlavha": "Deja vyu daftarchasi",
           "matn": "To'xtang va o'zingizni tekshiring: bugun «bu allaqachon bo'lgan» degan holat bo'ldimi? Bo'lgan bo'lsa, hozir yozib qo'ying.",
           "korsatma": "Kuniga ikki-uch marta, tarqoq vaqtlarni qo'ying. Maqsad — bu holatlarni e'tiborsiz o'tkazib yubormaslik, chunki kitobga ko'ra aynan ular intuitsiyaning uyg'onish belgisi.",
-          "vaqtlar": ["13:00", "18:30", "22:00"]
+          "vaqtlar": [
+            "13:00",
+            "18:30",
+            "22:00"
+          ]
         }
       ]
     },
@@ -185,7 +189,7 @@
       "sarlavha": "Intuitsiya nima beradi",
       "magiz": [
         "Birinchi ustunlik — tezlik. Tog'dan tushishning ikki yo'li bor: 1500 kilometrlik spiral yo'l (mantiq) va 50 kilometrlik to'g'ri so'qmoq (intuitsiya). Matematika ikkinchisining foydasiga.",
-        "Ikkinchi ustunlik — kelajak haqidagi axborot. Muallifning Ustozi unga o'n yillik hayot rejasini daftarga yozib bergan: qaysi yili nima bo'lishi, kim kelishi, qaysi variantni tanlash kerakligi. «Hammasi bir kun aniqligida to'g'ri chiqdi». Yana o'n yillikni so'raganda Ustoz rad etgan: «Endi o'zing ko'rishni o'rganishing kerak».",
+        "Ikkinchi ustunlik — kelajak haqidagi axborot. Ustozi muallifga o'n yillik hayot rejasini daftarga yozib bergan va o'sha reja aynan amalga oshgan. Muallifning izohi: bu bashorat emas, oqibatlarni oldindan hisoblash.",
         "Uchinchi ustunlik — yopiq axborotga kirish. To'rtinchisi — aniqlik.",
         "Yaponiyalik kamonchi masali: eng zo'r ustani izlab yurib, u har bir daraxtga nishonning aynan markaziga tekkan o'qlarni ko'radi. Sirini so'rasa: mahalliy «tentak» avval o'q otadi, keyin o'q tekkan joyga nishon chizadi. Chetdan qaraganda intuitsiyali odam aynan shu qishloq tentagiga o'xshaydi.",
         "Hamma bir tomonga yugurganda u boshqa tomonga ketadi; hamma sotib olayotganda u sotadi; hamma maosh qidirayotganda u ishdan bo'shab, o'z ishini boshlaydi. Keyin: «Ahmoqqa omad kulib boqdi» deyishadi. Aslida uning axboroti ko'proq edi.",
@@ -272,7 +276,9 @@
           "sarlavha": "Mashq vaqti",
           "matn": "Mashq vaqti keldi: 30–40 daqiqa kartalar bilan. Natijani kundalikka yozishni unutmang.",
           "korsatma": "Haftada 3–5 kunga mos vaqtni qo'ying. Kitob aynan muntazamlikni talab qiladi: bir marta zalga borish natija bermaydi.",
-          "vaqtlar": ["19:30"]
+          "vaqtlar": [
+            "19:30"
+          ]
         },
         {
           "turi": "checklist",
@@ -365,7 +371,7 @@
       ]
     },
     {
-      "sarlavha": "Xatolar, intizom va tana",
+      "sarlavha": "Mashq qiluvchilarning uch xatosi",
       "magiz": [
         "Mashq qiluvchilarning birinchi xatosi — tushunmagan narsasini «yaxshilashga» urinish. Bir necha oy shug'ullangach, «yulduz kasalligi» boshlanadi: tizimga boshqa tizimlardan elementlar qo'shiladi.",
         "«Yaxshilash» nimaga o'xshashini muallif shunday ko'rsatadi: ellik yillik konyak, yumshoq pishloq, baliq sho'rva, shokolad, kabob, achchiq qalampir, bodring tuzlamasi, borsh, xantal, olma quymog'i va cho'chqa yog'ini bitta qozonga solib, yaxshilab aralashtiring. Ta'mi qanday bo'ladi?",
@@ -374,20 +380,13 @@
         "Ikkinchi xato — o'zini majburlab ishlash. Agar har safar o'zingizni zo'rlashingiz kerak bo'lsa, tashlab yuborish ehtimoli 99,9 %.",
         "Odam qisqa lekin kuchli noqulaylikdan qochish uchun uzoq davom etadigan kichik noqulaylikka chidaydi. Shuning uchun tish og'rig'i bilan yillab yuradi, lekin shifokorga bormaydi.",
         "Yechim: maqsadga zavq ulang. Mashq azob emas, sun'iy yaratilgan sevgi mashg'uloti bo'lishi kerak. Barcha yaratuvchi harakatlar uchun zavq markazi javob beradi.",
-        "Uchinchi xato — o'ziga ishonmaslik. Kursda suzishni bilmagan ayol akvalangchilar bilan 20 metr chuqurlikda yarim soat suzgan — chunki ishongan. Shubha davolashda ham, rivojlanishda ham asosiy dushman.",
-        "Do'stlar: tana, aql va jon. Ular bir-biriga ta'sir qiladi va uchalasi ruhga, ruh esa intuitsiya hududiga chiqadi.",
-        "Turnikda necha daqiqa osilasiz? Sport qiziqishi uchun — uch daqiqa. Har daqiqasiga kilogramm oltin va sog'liq va'da qilinsa — to'rt daqiqa. Endi jarlik ustida bir qo'lingiz bilan shoxda, ikkinchi qo'lingizda esa bolangiz osilib tursa — qancha? Farqni sezdingizmi? Bukilmas niyat — tana bilan ishlashning birinchi siri.",
-        "Ikkinchi sir — o'z-o'ziga ishontirish. Uchinchi sir — o'zingizni kichik boladek seving, tanangizga mehr bilan munosabatda bo'ling.",
-        "Kasallik ko'pincha odamning hayotida qiladigan ishi qolmaganda paydo bo'ladi: sevadigan odam bo'lmasa, o'ziga dard o'ylab topib, uni allalaydi. Hayotda maqsad har doim bor — yo uni o'zingiz tanlaysiz, yo u o'zi paydo bo'ladi."
+        "Uchinchi xato — o'ziga ishonmaslik. Kursda suzishni bilmagan ayol akvalangchilar bilan 20 metr chuqurlikda yarim soat suzgan — chunki ishongan. Shubha davolashda ham, rivojlanishda ham asosiy dushman."
       ],
       "tavsiyalar": [
         "Tizimni «yaxshilashdan» oldin uni oxirigacha bajarib ko'ring. Yangi g'oyangizni kamida bir oy ushlab turing.",
         "Har qanday taklif yoki katta g'oya oldidan ikki kunlik pauza qoidasini joriy qiling.",
         "Mashqni majburlash emas, zavqqa aylantiring: joy, vaqt, holat — hammasini o'zingizga yoqadigan qilib tanlang.",
-        "Maqsadni maksimal qilib qo'ying. Chegara qanchalik baland bo'lsa, pastki bosqichlar shunchalik oson o'tiladi.",
-        "Sog'likni tiklashni kechiktirmang — u qolgan hamma narsaning poydevori. Og'riq butun dunyoni hojatxona o'lchamiga toraytiradi.",
-        "Tanani qo'llab turish uchun haftada uch marta mashq yetarli: engil, yoqimli charchoq darajasida, haddan tashqari yuk bilan emas.",
-        "Ertalab qomatni tiklang, kayfiyatni ko'taring va yuz ifodangizni o'zgartiring — jismoniy holat hissiyotni boshqaradi."
+        "Maqsadni maksimal qilib qo'ying. Chegara qanchalik baland bo'lsa, pastki bosqichlar shunchalik oson o'tiladi."
       ],
       "mashqlar": [
         {
@@ -421,7 +420,30 @@
             "Ertalab qomat va yuz ifodasi bilan ishladim",
             "Bugun o'zimni koyimadim"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "sarlavha": "Do'stlar: tana, aql va jon",
+      "magiz": [
+        "Uch do'st bir-birini o'zgartiradi: tana holati ishonch va orzuga, aql bilimga, jon esa istak va hissiyotga bog'liq. Uchalasi ruhga chiqadi, ruh esa intuitsiya hududida ko'rinadi.",
+        "Aql bilim bilan oziqlanadi. Axborot yetarli bo'lganda u tinch va vaziyatga ishonchli; axborot kam bo'lganda qo'rquv va shubha paydo bo'lib, tana bilan jonni ham zaiflashtiradi.",
+        "O'tkir jismoniy og'riq dunyoni bitta xona o'lchamiga toraytiradi va barcha orzuni oqizib yuboradi. Surunkali kasallik esa kayfiyatni, xulqni va rejalarni surunkali bo'shashtiradi.",
+        "Turnikda necha daqiqa osilasiz? Sport qiziqishi uchun uch daqiqa. Har daqiqasiga oltin va sog'liq va'da qilinsa — to'rt daqiqa. Endi jarlik ustida bir qo'lingiz shoxda, ikkinchi qo'lingizda farzandingiz osilib tursa — qancha? Farq niyatning kuchida.",
+        "Muallif haqiqiy voqeani keltiradi: bir ayol balkondan osilib, farzandini bir necha soat ushlab turgan. Qutqaruvchilar kelgach, uning qo'lini yarim soat davomida sog'lom erkaklar ocholmagan.",
+        "Tana bilan ishlashning uch siri: bukilmas niyat, o'z-o'ziga ishontirish va o'zingizga kichik boladek mehr bilan munosabatda bo'lish.",
+        "Kasallik ko'pincha odamning hayotida qiladigan ishi qolmaganda paydo bo'ladi: g'amxo'rlik qiladigan odam bo'lmasa, odam o'ziga dard o'ylab topib, o'shani allalay boshlaydi.",
+        "Bolalar kursidagi hodisa: barmog'ining bo'g'ini kesilgan bola kurs davomida uni o'stirib olgan. Muallifning izohi oddiy — bolada «bu mumkin emas» degan fikr umuman yo'q edi."
+      ],
+      "tavsiyalar": [
+        "Sog'likni tiklashni kechiktirmang: u qolgan hamma narsaning poydevori va og'riq butun dunyoni bir xona o'lchamiga toraytiradi.",
+        "Tanani qo'llab turish uchun haftada uch marta mashq qiling: engil, yoqimli charchoq darajasida, haddan tashqari yuklamasiz.",
+        "Ertalab qomatni tiklang, kayfiyatni ko'taring va yuz ifodangizni o'zgartiring — jismoniy holat hissiyotni boshqaradi.",
+        "Aqlni och qoldirmang: har hafta o'z sohangizda yangi bilim oling, chunki axborot yetishmasligi to'g'ridan-to'g'ri qo'rquvga aylanadi.",
+        "Jonni oziqlantiradigan bitta ishni haftalik jadvalingizga qo'ying — sizga quvonch beradigan, natija talab qilmaydigan ish.",
+        "Maqsadingizni «yoqimli bo'lardi» darajasidan «boshqa yo'l yo'q» darajasiga ko'taring: turnik mashqidagi farq aynan shu yerda."
+      ],
+      "mashqlar": [
         {
           "turi": "taymer",
           "daqiqa": 8,
@@ -434,11 +456,38 @@
           "max": 10,
           "min_yorliq": "Sport qiziqishi uchun",
           "max_yorliq": "Bolamning qo'lini ushlagandek"
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Uch do'stni oziqlantirish — bugun",
+          "bandlar": [
+            "Tanamga vaqt ajratdim: mashq yoki uzoq yurish",
+            "Bugun sohaimga oid yangi bir narsa o'rgandim",
+            "Jonimga quvonch beradigan bitta ishni qildim",
+            "O'zimga tanbeh emas, mehr bilan munosabatda bo'ldim",
+            "Uxlashdan oldin uchala do'stning bugungi holatini baholadim"
+          ]
+        },
+        {
+          "turi": "test",
+          "savol": "Kitobga ko'ra, intuitsiyani tez ishga tushirish uchun avval nima bilan ishlash kerak?",
+          "variantlar": [
+            "Faqat maxsus mashqlar bilan",
+            "Tana, aql va jon holati bilan",
+            "Meditatsiya va nafas texnikalari bilan",
+            "Ustoz topish bilan"
+          ],
+          "izohlar": [
+            "Mashqlar keyin keladi. Zaif tana va tinchimagan aql ustida qurilgan mashq natija bermaydi.",
+            "To'g'ri. Uchala do'st ruhga chiqadi, ruh esa intuitsiya ko'rinadigan hudud. Poydevor shu yerda.",
+            "Ular foydali, lekin ular ham o'sha uchta holat ustida ishlaydi — mustaqil yechim emas.",
+            "Ustoz yo'lni qisqartiradi, lekin sizning o'rningizga tanangiz va aqlingiz bilan ishlab bera olmaydi."
+          ]
         }
       ]
     },
     {
-      "sarlavha": "Amaliyot: kartalar, hayot va chegaralar",
+      "sarlavha": "Amaliyot: qora-oq kartalar",
       "magiz": [
         "Tayyorgarlik: qora va oq kartani oling. Har biriga qarab, tanangizda qanday sezgi paydo bo'lishini kuzating. Buni bir necha marta takrorlab, ikki rangga bo'lgan sezgi farqini aniq toping. Ko'pchilikda qora kartaga xavf tuyg'usi keladi.",
         "«Haqiqat/Yolg'on» mashqi: kartalarni rangi pastga qaratib aralashtiring, yuqoridagisini oling, javobni ayting, keyin ochib tekshiring. To'g'ri — bir to'plamga, xato — ikkinchisiga. Butun paketni shunday o'tkazib, foizni kundalikka yozing.",
@@ -447,23 +496,13 @@
         "«Bilish holati»: atrofga qarang — shkaf, kitob, oyna. Siz o'ylamaysiz, shunchaki bilasiz. Hech qanday hissiyot, shubha yo'q. Shu holatni eslab qoling va yuqoridagi kartaning rangini xuddi shunday «bilib» turing.",
         "ENG MUHIM QOIDA: natijaga bog'lanmang. Maqsad ko'proq kartani topish emas — to'g'ri javob paytidagi va xato paytidagi ichki holatni bir-biridan ajratishni o'rganish. Kartalar — asbob, intuitsiyaga eshik, xolos.",
         "Qora-oq kartalarda 80–90 % ga chiqmaguncha rangli kartalarga o'tmang. Keyingi bosqichlar: rangli kartalar, raqamlar (1–9), hissiyot rasmlari, tabiat manzaralari.",
-        "Variantlar ko'p bo'lganda: darrov bittasiga to'xtamang — o'ylamasdan yarmini tashlang, qolganini yana yarmiga bo'ling. Variant kamayganda mantiq oldinga chiqadi; uni to'xtatish uchun bir vaqtda chap oyoq bilan tepinib, ko'zni pirpiratib, burun bilan hidlab, o'ng qo'lni aylantirib turib javobni ayting.",
-        "Hayotdagi mashq muhimroq: uchrashuvda karta paketini chiqarib o'tira olmaysiz. Yo'lda ketayotib «shuncha soniyadan keyin qizil mashina uchraydi» deb sinang; transport kutayotganda haydovchi erkakmi yoki ayolmi, mashinada nechta odam borligini ayting; uydan chiqishdan oldin birinchi kim uchrashini his qiling.",
-        "Bunday paytda intuitsiyani xayoldan ajratish o'rganiladi — kurslarda «erkak chiqadi» degan odamga qarshi it yugurib chiqadi.",
-        "Chegaralar. Muallif qat'iy taqiqlaydi: raqamlar bilan ishlashni qimor va lotereyaga ishlatmang. Bu usulni lotereyaga ishlatgan psixolog qamalgan. Qimor biznesining egalari haqidagi kuzatuv ham shunga ishora qiladi.",
-        "Halol va harom haqidagi masal: bola payg'ambar bilan hazillashgani uchun «tug'ilishingga bog'langan harom o'zini bildirdi» deb eshitadi — sababi, otasi o'sha kechasi qo'shnining panjarasidan ikkita taxta sindirib olib, suv isitgan edi. Muallif farzandlariga: «Halol bo'lmasa, uyga bir tiyin ham olib kelmang» deydi.",
-        "Uch fil va toshbaqa: birinchi fil — ota-onangiz, ikkinchisi — siz va juftingiz, uchinchisi — farzandlaringiz. Toshbaqa esa moddiy asos, sizning ishingiz. Bittasini olib tashlang — zanjir uziladi.",
-        "Oxirgi xulosa: ikki yo'l bor — taqlid yo'li va izlanish yo'li. Ustaning yo'li faqat uniki. Sizning asosiy vazifangiz — haqiqiy yo'lni yolg'onidan ajratishni o'rganish. Buning uchun intuitsiya kerak."
+        "Variantlar ko'p bo'lganda: darrov bittasiga to'xtamang — o'ylamasdan yarmini tashlang, qolganini yana yarmiga bo'ling. Variant kamayganda mantiq oldinga chiqadi; uni to'xtatish uchun bir vaqtda chap oyoq bilan tepinib, ko'zni pirpiratib, burun bilan hidlab, o'ng qo'lni aylantirib turib javobni ayting."
       ],
       "tavsiyalar": [
         "Har bir seansdan keyin foizni kundalikka yozing. Faqat foizni emas — javob paytidagi holatni ham: tanangizda nima bo'ldi, qanday sezgi keldi.",
         "To'g'ri javob berganingizda o'sha holatni eslab qoling va uni vaqt bo'yicha cho'zishga harakat qiling.",
         "Bir necha kartani birdan oling: sezgi bir xilmi yoki har xil? Bir xil bo'lsa — bitta rang, har xil bo'lsa — qaysi rang ko'proq?",
-        "Raqamlar bilan ishlaganda kuzating: qaysi raqamlar bo'ynidan bosib keladi, qaysilari devor tagida jim turadi? Keyin tekshiring — yolg'onchisi qaysi biri?",
-        "Kundalik hayotda eng oddiy vaziyatlarda mashq qiling: transport kutayotganda, yo'lda, uydan chiqishdan oldin.",
-        "Har qanday katta uchrashuvdan oldin ichki ovozingizni yozib qo'ying va keyin natijani solishtiring — shunda «ichki tarozi» shakllanadi.",
-        "Intuitsiyani qimor, lotereya va shunga o'xshash joylarga ishlatmang. Kitob buni ochiq taqiqlaydi.",
-        "Uch filni tekshiring: ota-onangiz bilan aloqangiz, juftingiz bilan munosabatingiz, farzandlaringiz. Qaysi biri zaif — shu yerdan boshlang."
+        "Raqamlar bilan ishlaganda kuzating: qaysi raqamlar bo'ynidan bosib keladi, qaysilari devor tagida jim turadi? Keyin tekshiring — yolg'onchisi qaysi biri?"
       ],
       "mashqlar": [
         {
@@ -485,7 +524,26 @@
           "max": 100,
           "min_yorliq": "0%",
           "max_yorliq": "100%"
-        },
+        }
+      ]
+    },
+    {
+      "sarlavha": "Hayotdagi mashq, chegaralar va uch fil",
+      "magiz": [
+        "Hayotdagi mashq muhimroq: uchrashuvda karta paketini chiqarib o'tira olmaysiz. Yo'lda ketayotib «shuncha soniyadan keyin qizil mashina uchraydi» deb sinang; transport kutayotganda haydovchi erkakmi yoki ayolmi, mashinada nechta odam borligini ayting; uydan chiqishdan oldin birinchi kim uchrashini his qiling.",
+        "Bunday paytda intuitsiyani xayoldan ajratish o'rganiladi — kurslarda «erkak chiqadi» degan odamga qarshi it yugurib chiqadi.",
+        "Chegaralar. Muallif qat'iy taqiqlaydi: raqamlar bilan ishlashni qimor va lotereyaga ishlatmang. Bu usulni lotereyaga ishlatgan psixolog qamalgan. Qimor biznesining egalari haqidagi kuzatuv ham shunga ishora qiladi.",
+        "Halol va harom haqidagi masal: bola payg'ambar bilan hazillashgani uchun «tug'ilishingga bog'langan harom o'zini bildirdi» deb eshitadi — sababi, otasi o'sha kechasi qo'shnining panjarasidan ikkita taxta sindirib olib, suv isitgan edi. Muallif farzandlariga: «Halol bo'lmasa, uyga bir tiyin ham olib kelmang» deydi.",
+        "Uch fil va toshbaqa: birinchi fil — ota-onangiz, ikkinchisi — siz va juftingiz, uchinchisi — farzandlaringiz. Toshbaqa esa moddiy asos, sizning ishingiz. Bittasini olib tashlang — zanjir uziladi.",
+        "Oxirgi xulosa: ikki yo'l bor — taqlid yo'li va izlanish yo'li. Ustaning yo'li faqat uniki. Sizning asosiy vazifangiz — haqiqiy yo'lni yolg'onidan ajratishni o'rganish. Buning uchun intuitsiya kerak."
+      ],
+      "tavsiyalar": [
+        "Kundalik hayotda eng oddiy vaziyatlarda mashq qiling: transport kutayotganda, yo'lda, uydan chiqishdan oldin.",
+        "Har qanday katta uchrashuvdan oldin ichki ovozingizni yozib qo'ying va keyin natijani solishtiring — shunda «ichki tarozi» shakllanadi.",
+        "Intuitsiyani qimor, lotereya va shunga o'xshash joylarga ishlatmang. Kitob buni ochiq taqiqlaydi.",
+        "Uch filni tekshiring: ota-onangiz bilan aloqangiz, juftingiz bilan munosabatingiz, farzandlaringiz. Qaysi biri zaif — shu yerdan boshlang."
+      ],
+      "mashqlar": [
         {
           "turi": "checklist",
           "sarlavha": "Hayotdagi mashq — bir kun",
@@ -516,6 +574,14 @@
         {
           "turi": "jurnal",
           "savol": "Uch filni tekshiring: ota-onangiz bilan aloqangiz, juftingiz bilan munosabatingiz, farzandlaringiz (yoki kelajakdagi oilangiz). Har biriga 1 dan 10 gacha baho qo'ying va eng past bahoni olgan yo'nalish bo'yicha shu hafta qiladigan bitta aniq ishni yozing."
+        },
+        {
+          "turi": "slider",
+          "savol": "Uch filingiz hozir qanchalik mustahkam turibdi — ota-ona, juft va farzandlar bilan aloqangiz?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Zanjir uzilgan",
+          "max_yorliq": "Uchalasi ham joyida"
         }
       ]
     }
