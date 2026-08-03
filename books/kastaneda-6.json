@@ -25,7 +25,7 @@
       "mashqlar": [
         {
           "turi": "kundalik",
-          "sarlavha": "Qayta ko'rish kundaligi",
+          "sarlavha": "Qayta ko'rish ro'yxati va nafas daftari",
           "korsatma": "Har seansdan keyin shu yerga yozing: bugun kimni yoki qaysi voqeani qayta ko'rdingiz, nima eslandi, tanangizda nima o'zgardi. Belgilar maydoniga davrni yozing — «hozirgi ish», «universitet», «maktab», «bolalik». Bir necha hafta yozgach, qaysi davr eng ko'p kuch olayotganini raqamlardan ko'rasiz.",
           "joy_matn": "Bugun qayta ko'rdim: … Eslandi: …",
           "belgi_matn": "Davr: hozirgi ish, universitet, maktab, bolalik…"
@@ -37,18 +37,20 @@
         },
         {
           "turi": "jurnal",
-          "savol": "Qayta ko'rish ro'yxatingizni shu yerdan boshlang. Hozirgi hayotingizdan orqaga qarab, uchratgan odamlarni yozing — kamida 30 ta ism. Tartib muhim: yangidan eskiga."
+          "savol": "Qayta ko'rish ro'yxatini shu yerdan boshlang: hozirgi hayotingizdan orqaga qarab, uchratgan odamlarni birma-bir yozing — ish, o'qish, qo'shni, qarindosh. Tartib muhim: eng oxirgisidan eng birinchisiga qarab yuring."
         },
         {
           "turi": "eslatma",
-          "sarlavha": "Qayta ko'rish vaqti",
+          "sarlavha": "Burgutga to'lov: bugungi ro'yxat",
           "matn": "Qayta ko'rish vaqti. Ro'yxatdan keyingi odamni oling va 30 daqiqa eslang.",
           "korsatma": "Kunning tinch vaqtini tanlang — ko'pincha kechqurun. Kitobning talabi muntazamlik: bir necha yillik amaliyot bir necha kunlik zo'riqishdan foydaliroq.",
-          "vaqtlar": ["21:00"]
+          "vaqtlar": [
+            "21:00"
+          ]
         },
         {
           "turi": "slider",
-          "savol": "Bu hafta necha marta qayta ko'rish qildingiz?",
+          "savol": "Ro'yxatingizdan bu hafta nechta odamni ko'rib chiqdingiz?",
           "min": 0,
           "max": 7,
           "min_yorliq": "0 marta",
@@ -76,7 +78,7 @@
       "mashqlar": [
         {
           "turi": "jurnal",
-          "savol": "«Men doim shunday qilaman» deb boshlanadigan beshta jumlani yozing. Har birining yoniga: bu menga nima beradi va nimadan to'sadi?"
+          "savol": "Insoniy shakl — sizning oldindan aniq bo'lgan qiyofangiz. «Men doim shunday qilaman» deb boshlanadigan beshta jumlani yozing va har birining yoniga javob bering: bu qiyofani men tanlaganmanmi yoki u menga o'rnashib qolganmi?"
         },
         {
           "turi": "checklist",
@@ -91,7 +93,7 @@
         },
         {
           "turi": "test",
-          "savol": "«Insoniy shaklni yo'qotish» nimani anglatadi?",
+          "savol": "Don Xuanning tilida «insoniy shakl» nima va uni yo'qotish nimaga olib keladi?",
           "variantlar": [
             "Shaxsiyatni yo'qotish",
             "Qat'iy, oldindan aniq reaksiyalardan ozod bo'lish",
@@ -121,7 +123,7 @@
         "Kitob ongning ikki holatini ajratadi: «o'ng tomon» — kundalik, oddiy ong; «chap tomon» — g'ayrioddiy holat.",
         "Muhim tafsilot: chap tomonda bo'lgan voqealar o'ng tomonda eslanmaydi. Odam ularni faqat o'sha holatga qaytganda eslaydi.",
         "Kastaneda o'z daftarlaridan o'zi yozgan, lekin butunlay unutgan voqealarni topadi — bu uning uchun eng chuqur zarbalardan biri.",
-        "Amaliy o'xshashligi bor: kuchli hissiyot, o'ta charchoq yoki qattiq stress paytidagi voqealar boshqacha «saqlanadi».",
+        "Kuchli hissiyot, o'ta charchoq yoki qattiq bosim paytidagi voqealar xotirada boshqacha saqlanadi: ular odatiy eslash bilan chiqmaydi, lekin tegishli holatga qaytilganda birdan ochiladi.",
         "Shuning uchun kitobda holatlar bilan ishlash muhim: siz o'zingizni qaysi holatda topsangiz, o'sha holatning xotirasi ochiladi.",
         "Xulosa: bitta odamda bitta xotira yo'q. Holatlar o'zgarganda, o'zingiz haqingizdagi bilim ham o'zgaradi."
       ],
@@ -144,7 +146,7 @@
         },
         {
           "turi": "slider",
-          "savol": "Holatingiz qarorlaringizga qanchalik ta'sir qiladi?",
+          "savol": "Bugungi qarorlaringizni holatingiz qay darajada belgilab berdi?",
           "min": 1,
           "max": 10,
           "min_yorliq": "Deyarli ta'sir qilmaydi",
@@ -160,7 +162,7 @@
         "Lekin ko'rganlar bir narsani payqashgan: Burgut bitta yo'lni ochiq qoldirgan. Bu — uning sovg'asi.",
         "Yo'l shunday: o'z hayot tajribasini Burgutga o'zi berib, hayot kuchini saqlab qolgan odam o'tib ketishi mumkin.",
         "Qayta ko'rish aynan shu uchun kerak: u odamning butun hayot tajribasini yig'ib, uni «berib yuborish» mumkin qiladi.",
-        "Bu tasvirni mistik deb ham, majoziy deb ham o'qish mumkin. Majoziy o'qishda ma'no aniq: o'z hayotingizni to'liq ko'rib chiqmaguningizcha, undan ozod bo'la olmaysiz."
+        "Burgut o'lgan odamdan uning butun hayotiy tajribasini oladi va faqat o'z hayotini to'liq eslab, unga «to'lov»ni tayyorlagan odamgina erkin o'tadi. O'z hayotini ko'rib chiqmagan odam undan ozod bo'la olmaydi."
       ],
       "tavsiyalar": [
         "Hayotingizni «tugallanmagan ishlar ro'yxati» deb ko'ring va uni yopishni boshlang.",
@@ -176,7 +178,7 @@
         },
         {
           "turi": "checklist",
-          "sarlavha": "Tugallanmaganlarni yopish",
+          "sarlavha": "To'lovni tayyorlash: yopilmagan ishlar",
           "bandlar": [
             "Tugallanmaganlar ro'yxatini yozdim",
             "Bitta aytilmagan gapni aytdim",
@@ -203,7 +205,7 @@
         "Har bir a'zoning tabiiy moyilligi bor: kimdir tushda kuchli, kimdir odamlar bilan ishlashda, kimdir tartibda.",
         "Xato — hammani bir xil qilishga urinish. Guruh kuchi turlilikda, bir xillikda emas.",
         "Yetakchining vazifasi buyruq berish emas, har kimni o'z o'rniga qo'yish.",
-        "Amaliy xulosa: o'z moyilligingizni toping va unga qarshi kurashmang. Zaif tomoningizni kuchaytirishdan ko'ra kuchli tomoningizni ishlatish samaraliroq."
+        "O'z moyilligingizni toping va unga qarshi kurashmang. Nagval qoidasida har kimga o'z tabiatiga mos o'rin beriladi: zaif tomonni tortishdan ko'ra kuchli tomonni ishlatish guruhga ham, odamning o'ziga ham ko'proq foyda beradi."
       ],
       "tavsiyalar": [
         "O'zingizning tabiiy moyilligingizni aniqlang: nima sizga oson keladi va boshqalarga qiyin?",
@@ -257,7 +259,7 @@
         "Eng muhimi: qayta ko'rish o'tmishni o'zgartirmaydi. U o'tmishga bog'langan kuchni qaytaradi. Farq katta."
       ],
       "tavsiyalar": [
-        "Haftada kamida uch marta, har safar 20–40 daqiqa. Muntazamlik uzunlikdan muhimroq.",
+        "Qayta ko'rishni haftada kamida uch marta, har safar 20–40 daqiqadan bajaring: muntazamlik seans uzunligidan muhimroq.",
         "Ro'yxat tartibini buzmang — tartibsiz eslash jarayonni cho'zadi.",
         "Og'riqli voqeada to'xtab qolsangiz, uni bir necha seansga bo'ling.",
         "Har seansdan keyin holatingizni yozing: yengillik bormi, charchoqmi?",
@@ -271,7 +273,7 @@
         },
         {
           "turi": "checklist",
-          "sarlavha": "Muntazam amaliyot",
+          "sarlavha": "Qayta ko'rish tartibi — uzoq muddat",
           "bandlar": [
             "Bu hafta kamida uch seans qildim",
             "Ro'yxat tartibini buzmadim",

@@ -12,7 +12,7 @@
         "Yangi ko'ruvchilar ularning kutubxonasini emas, xatosini o'rgangan. Ularning birinchi qoidasi — erkinlik, kuch emas.",
         "Ikkinchi qoidasi — «bexatolik»: hech qanday holatda ham eng yaxshi qilingan harakat. Bu mukammallik emas, bu doimiy sifat.",
         "Uchinchisi — kamtarlik. Ko'ruvchi o'zining bilimini ustunlik deb ko'rmaydi, chunki koinot oldida bilimning hajmi ahamiyatsiz.",
-        "Amaliy xulosa: har qanday amaliyotda maqsadni tekshirib turing. Kuch to'plash maqsad bo'lsa, u sizni tuzoqqa oladi."
+        "Har qanday amaliyotda maqsadni tekshirib turing: qadimgi ko'ruvchilar kuchni vosita emas, maqsad qilib olishgan va aynan shu ularni o'z kashfiyotlarining tuzog'iga tushirgan."
       ],
       "tavsiyalar": [
         "Har qanday o'zgarish yo'lida maqsadni yozib qo'ying: erkinlikmi yoki kuchmi?",
@@ -52,7 +52,7 @@
         },
         {
           "turi": "checklist",
-          "sarlavha": "Yo'nalishni tekshirish",
+          "sarlavha": "Maqsadni tekshirish: kuchmi yoki erkinlik",
           "bandlar": [
             "Maqsadimni yozib aniqladim",
             "Bilimimni ustunlik sifatida ishlatmadim",
@@ -103,7 +103,7 @@
         },
         {
           "turi": "checklist",
-          "sarlavha": "Zolim bilan ishlash",
+          "sarlavha": "Mayda zolim bilan mashq",
           "bandlar": [
             "Mayda zolimimni aniqladim",
             "Uni mashq deb qayta nomladim",
@@ -184,7 +184,7 @@
         "Birinchi diqqat o'ta konservativ: u har qanday yangilikni eski qolipga tushirishga harakat qiladi.",
         "Kitobda «inson matritsasi» degan tushuncha ham bor — barcha odamlarga umumiy bo'lgan idrok qolipi.",
         "Odamlarni bog'lab turgan narsa ham shu: biz bir xil qolipdan qaraymiz va shuning uchun bir-birimizni tushunamiz.",
-        "Amaliy ma'nosi: sizning «tabiiy» reaksiyalaringizning katta qismi tabiiy emas — ular umumiy qolipning ishi. Ularni ko'rish mumkin."
+        "Sizning «tabiiy» reaksiyalaringizning katta qismi tabiiy emas — ular birinchi diqqat o'rgatgan umumiy qolipning ishi. Ularni to'xtatishdan oldin ularni ko'rish kerak."
       ],
       "tavsiyalar": [
         "Kun davomida avtomatik reaksiyalaringizni sanang: nechtasi haqiqatan sizniki?",
@@ -200,7 +200,7 @@
         },
         {
           "turi": "checklist",
-          "sarlavha": "Avtomatikni sekinlashtirish",
+          "sarlavha": "Inson matritsasidan chiqish qadamlari",
           "bandlar": [
             "Avtomatik reaksiyalarimni sanadim",
             "Bir marta javob berishdan oldin to'xtadim",
@@ -211,7 +211,7 @@
         },
         {
           "turi": "slider",
-          "savol": "Reaksiyalaringizning necha foizi avtomatik?",
+          "savol": "Bugungi javoblaringiz orasida o'ylab aytilgani qanchasi bo'ldi?",
           "min": 0,
           "max": 100,
           "min_yorliq": "0%",
@@ -227,7 +227,7 @@
         "Tush ko'rish — uyqu holatida diqqatni ushlab turish. Uning maydoni — tush.",
         "Ikkalasini bog'lab turadigan narsa — «niyat». Bu istak emas, xohish ham emas: bu qat'iy, so'zsiz yo'naltirish.",
         "Don Xuanning ta'kidi: niyat aqldan emas, butun tanadan chiqadi. Shuning uchun uni «xohlayman» deb emas, aniq va qisqa qilib qo'yish kerak.",
-        "Amaliy o'zagi: har kuni bitta aniq niyatni ushlab turish — va uni tekshirish."
+        "Ta'qib amaliyotining o'zagi oddiy: har kuni bitta aniq niyatni ushlab turish va kun oxirida uning bajarilgan-bajarilmaganini tekshirish. Tekshirilmagan niyat niyat emas, xohish."
       ],
       "tavsiyalar": [
         "Ta'qibni kundalik hayotdan boshlang: bitta xatti-harakatingizni bir hafta kuzating.",
@@ -246,11 +246,14 @@
           "sarlavha": "Niyatni takrorlash",
           "matn": "Niyatingizni takrorlang. Aniq, qisqa, o'zingizga.",
           "korsatma": "Ertalabki va kechki vaqtni qo'ying — kunning ikki chegarasi. Har safar mexanik takrorlamang: jumlani aytganda uni tanangizda his qiling.",
-          "vaqtlar": ["07:30", "22:30"]
+          "vaqtlar": [
+            "07:30",
+            "22:30"
+          ]
         },
         {
           "turi": "checklist",
-          "sarlavha": "Ta'qib va tush — bir hafta",
+          "sarlavha": "Ta'qibchining kunlik tartibi",
           "bandlar": [
             "Bitta xatti-harakatimni bir hafta kuzatdim",
             "Niyatimni qisqa va aniq yozdim",
@@ -261,7 +264,7 @@
         },
         {
           "turi": "slider",
-          "savol": "Niyatingizni qanchalik qat'iy ushlab tura oldingiz?",
+          "savol": "Bugungi bitta niyatingiz kun oxirigacha yetib keldimi?",
           "min": 1,
           "max": 10,
           "min_yorliq": "Unutib qo'ydim",
@@ -273,7 +276,7 @@
       "sarlavha": "Ichkaridan yonuvchi olov",
       "magiz": [
         "Kitobning nomi turkumdagi eng oxirgi tushunchaga ishora qiladi: ko'ruvchi butun energiyasini bir joyga yig'ib, boshqa holatga o'tishi mumkin.",
-        "Bu tasvirni harfma-harf qabul qilish shart emas. Uning ma'nosi: to'liq yig'ilgan odam butunlay boshqacha bo'lishi mumkin.",
+        "Don Xuanning guruhi ichkaridan yonuvchi olov orqali ketadi — bu turkumning eng chekka tasviri. Undagi o'lchanadigan ma'no bitta: butun kuchi bir joyga yig'ilgan odam butunlay boshqacha ishlay boshlaydi.",
         "Buning sharti bitta va u qattiq: kuch to'liq yig'ilgan bo'lishi kerak. Tarqalgan kuch bilan hech narsa bo'lmaydi.",
         "Shuning uchun butun turkumdagi amaliyotlar — qayta ko'rish, o'zini muhim sanashdan voz kechish, odatlarni buzish — bitta ishni qiladi: kuchni to'playdi.",
         "Don Xuanning oxirgi so'zlari qat'iy: hech kim sizni bu yerga olib bormaydi. Ustoz faqat ko'rsatadi.",
@@ -293,7 +296,7 @@
         },
         {
           "turi": "checklist",
-          "sarlavha": "Kuchni to'plash",
+          "sarlavha": "Butun kuchni bir joyga yig'ish",
           "bandlar": [
             "Kuch teshiklarimni aniqladim",
             "Bittasini bu hafta kamaytirdim",

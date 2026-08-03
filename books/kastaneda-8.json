@@ -11,7 +11,7 @@
         "Don Xuanning ta'kidi: imkoniyat har doim keladi. Uni sezmaslikning yagona sababi — ichki gapirishning shovqini.",
         "Odam o'zining «juda muhim»ligi bilan band bo'lgani uchun tashqaridagi belgilarni ko'rmaydi.",
         "Ruh — bu mistik shaxs emas. Kitobda u koinotning harakatlantiruvchi qismi, «niyat»ning boshqacha nomi.",
-        "Amaliy ma'nosi: hayotingizdagi burilish nuqtalari ko'pincha kichik, sezilmas hodisalar sifatida keladi va biz ularni o'tkazib yuboramiz.",
+        "Ruh o'zini kichik va sezilmas hodisalarda ko'rsatadi: tasodifiy taklif, e'tibordan chetda qolgan uchrashuv, o'z-o'zidan kelgan fikr. Hayotdagi burilish nuqtalari aynan shunday kiyimda keladi va ko'pincha o'tkazib yuboriladi.",
         "Birinchi qadam shuning uchun oddiy: kamroq gapirish va ko'proq kuzatish."
       ],
       "tavsiyalar": [
@@ -33,7 +33,7 @@
         },
         {
           "turi": "slider",
-          "savol": "Ichki gapirishingiz kun davomida qanchalik baland?",
+          "savol": "Ruh bugun necha marta belgi berdi va siz uni payqadingizmi?",
           "min": 1,
           "max": 10,
           "min_yorliq": "Deyarli jim",
@@ -41,7 +41,7 @@
         },
         {
           "turi": "checklist",
-          "sarlavha": "Kuzatuvni yoqish",
+          "sarlavha": "Ruhning belgilarini payqash",
           "bandlar": [
             "Bugun uch marta to'xtab, atrofga qaradim",
             "Ichki gapirishimni bir marta sezdim",
@@ -60,7 +60,7 @@
         "Don Xuanning qarashi qattiq: turtki jazо emas. U shunchaki e'tibor bermagan odamni harakatga keltirishning yagona qolgan usuli.",
         "Turtkini boshdan kechirgan odamning ikki yo'li bor: uni «adolatsizlik» deb yozib, o'sha yerda qolish yoki uni boshlanish deb ko'rish.",
         "Nagval Xulianning hikoyasi shuni ko'rsatadi: u o'lim yoqasida edi va aynan o'sha holat uni butunlay o'zgartirgan.",
-        "Amaliy xulosa: og'ir voqeadan keyin savol o'zgaradi. «Nima uchun men?» o'rniga «bu meni qayerga surdi?»"
+        "Og'ir voqeadan keyin savolni almashtirish kerak: «nima uchun men?» degan savol javobsiz aylanadi, «bu meni qayerga surdi?» degan savol esa turtkining yo'nalishini ko'rsatadi."
       ],
       "tavsiyalar": [
         "Og'ir voqeadan keyin bir muddat kutib, keyin savolni o'zgartiring: bu meni qayerga surdi?",
@@ -100,7 +100,7 @@
         },
         {
           "turi": "checklist",
-          "sarlavha": "Turtki bilan ishlash",
+          "sarlavha": "Turtkini qayta ko'rib chiqish",
           "bandlar": [
             "Turtkilarim ro'yxatini yozdim",
             "Har biridan keyin nima o'zgarganini yozdim",
@@ -114,7 +114,7 @@
     {
       "sarlavha": "Ichki sukunat",
       "magiz": [
-        "Butun kitobning amaliy o'zagi: ichki sukunat. Bu fikrsizlik emas — bu ichki gapirishning uzilishi.",
+        "Kitobning o'zagi — ichki sukunat. Bu fikrsizlik emas: fikrlar kelaversin, uziladigan narsa ularga qo'shilib ketadigan ichki gapirish. Sukunat vaqti to'planib boradi va bir kun kelib o'zi ochiladi.",
         "Odam dunyoni to'xtovsiz o'ziga gapirib beradi va shu gapirish orqali dunyoni bir xil holda ushlab turadi. Gapirish uzilsa, ushlash ham bo'shashadi.",
         "Don Xuanning usuli oddiy va zerikarli: har kuni bir oz. Sukunatda o'tirilgan vaqt to'planadi va bir kun kelib «chegara» buziladi.",
         "Har bir odamda o'z chegarasi bor: kimdadir o'n daqiqa, kimdadir bir soat. Uni oldindan bilib bo'lmaydi, faqat to'plash kerak.",
@@ -136,14 +136,16 @@
         },
         {
           "turi": "eslatma",
-          "sarlavha": "Sukunat vaqti",
+          "sarlavha": "Sukunat seansi vaqti",
           "matn": "Sukunat vaqti. 15 daqiqa — telefon boshqa xonada.",
           "korsatma": "Bir xil vaqtni tanlang va uni o'zgartirmang. Kitobning talabi — muntazamlik: to'plangan daqiqalar bir kun kelib chegarani buzadi.",
-          "vaqtlar": ["06:30"]
+          "vaqtlar": [
+            "06:30"
+          ]
         },
         {
           "turi": "kundalik",
-          "sarlavha": "Sukunat kundaligi",
+          "sarlavha": "Ichki sukunat daftari",
           "korsatma": "Har seansdan keyin yozing: necha daqiqa o'tirdingiz, ichki gapirish qanchalik baland edi, qaysi lahzada u uzildi. Belgilar maydoniga holatingizni yozing — «tinch», «shovqinli», «charchoq», «uyquchan». Bir necha hafta yozgach, qaysi vaqt va holat sizga mos kelishini ko'rasiz.",
           "joy_matn": "Bugun … daqiqa. Ichki gapirish: …",
           "belgi_matn": "Holat: tinch, shovqinli, charchoq, ertalab…"
@@ -166,12 +168,12 @@
         "Shuning uchun ichki sukunat shunchalik muhim: gapirish davom etar ekan, ulanish bo'lmaydi.",
         "Niyatni chaqirish usuli sodda: aniq, qisqa va takroriy. Uzun tushuntirish niyatni emas, aqlni band qiladi.",
         "Don Xuan takrorlaydi: niyat aqldan emas, butun mavjudlikdan chiqadi. Shuning uchun uni his qilish kerak, o'ylash emas.",
-        "Amaliy o'lchov: niyat ishlaganda odam «harakat qilaman» demaydi — u shunchaki qiladi."
+        "Niyatning ishlayotganini bitta belgidan bilish mumkin: odam «harakat qilaman» demay qo'yadi. Bu ibora saqlanib turgan ekan, hali niyat emas, xohish bor."
       ],
       "tavsiyalar": [
         "Niyatni bitta qisqa jumlada yozing. «Harakat qilaman», «urinaman» so'zlarini olib tashlang.",
         "Uni kuniga ikki marta — ertalab va yotishdan oldin — his qilib takrorlang.",
-        "Niyatni ko'p qilmang: bir vaqtda bitta.",
+        "Niyatni ko'p qilmang — bir vaqtda faqat bittasini ushlang, chunki bo'lingan diqqat niyatni oddiy xohishga aylantiradi.",
         "Niyat va reja farqini saqlang: reja qadamlarni, niyat yo'nalishni beradi. Ikkalasi ham kerak.",
         "Hafta oxirida tekshiring: niyat harakatga aylandimi yoki faqat takrorlandimi?"
       ],
@@ -241,7 +243,7 @@
         },
         {
           "turi": "checklist",
-          "sarlavha": "To'rt holat — bir hafta",
+          "sarlavha": "To'rt holatni birma-bir sinash",
           "bandlar": [
             "«Men bechora» degan fikrni to'xtatdim",
             "Bir vaziyatda yondashuvni o'zgartirdim",
@@ -268,7 +270,7 @@
         },
         {
           "turi": "slider",
-          "savol": "O'zingizga qanchalik ko'p achinasiz?",
+          "savol": "Bugun o'z-o'ziga achinish sizni necha marta ushladi?",
           "min": 1,
           "max": 10,
           "min_yorliq": "Umuman achinmayman",
@@ -288,7 +290,7 @@
       ],
       "tavsiyalar": [
         "Boshqara oladigan narsangizni va boshqara olmaydiganingizni ikki ustunga yozing.",
-        "Kuchni faqat birinchi ustunga sarflang.",
+        "Kuchingizni faqat «men boshqara olaman» ustuniga sarflang, ikkinchi ustundagi narsalar bilan savdolashishga urinmang.",
         "Natija uchun savdolashmang: «men shuncha qildim, endi menga shu kerak» degan hisobni to'xtating.",
         "Tayyorgarlikni kundalik va zerikarli qiling — u aynan shunday ishlaydi.",
         "Natija kelmasa, tayyorgarlikni tekshiring, koinotni emas."

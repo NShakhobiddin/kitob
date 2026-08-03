@@ -44,7 +44,7 @@
         },
         {
           "turi": "checklist",
-          "sarlavha": "Tayanchsiz hafta",
+          "sarlavha": "Ustozsiz birinchi hafta",
           "bandlar": [
             "Bir hafta hech kimga hisobot bermay davom etdim",
             "Tartibimni tashqi nazoratsiz saqladim",
@@ -83,21 +83,26 @@
       "mashqlar": [
         {
           "turi": "kundalik",
-          "sarlavha": "Tush kundaligi",
+          "sarlavha": "Tush ko'rish daftari: to'rt marta qarash",
           "korsatma": "Har ertalab yozing. Belgilar maydoniga tushdagi joy, odam, harakat va hisni kiriting — takrorlanadigan belgilar avtomatik sanaladi. Aynan o'sha takroriy belgilar sizning tushdagi «signal»laringiz bo'ladi.",
           "joy_matn": "Kecha tushimda…",
           "belgi_matn": "Belgilar: qo'l, uy, suv, uchish…"
         },
         {
           "turi": "eslatma",
-          "sarlavha": "Qo'lga qarash",
+          "sarlavha": "Uyquga yotishdan oldingi niyat",
           "matn": "To'xtang va qo'lingizga qarang. Bu tushmi? Barmoqlaringizni sanang.",
           "korsatma": "Kun davomida tarqoq vaqtlarni qo'ying. Har safar mexanik emas, rostdan shubhalanib bajaring — aynan shu shubha tushga o'tadi.",
-          "vaqtlar": ["10:00", "13:30", "16:45", "20:15"]
+          "vaqtlar": [
+            "10:00",
+            "13:30",
+            "16:45",
+            "20:15"
+          ]
         },
         {
           "turi": "checklist",
-          "sarlavha": "Tush amaliyoti",
+          "sarlavha": "Tush ko'rish san'ati — kunlik tartib",
           "bandlar": [
             "Yotishdan oldin niyat aytdim",
             "Ertalab tushni yozdim",
@@ -108,7 +113,7 @@
         },
         {
           "turi": "slider",
-          "savol": "Tushingizni qanchalik aniq eslaysiz?",
+          "savol": "Ertalab tushingizdan qancha tafsilot qolyapti?",
           "min": 1,
           "max": 10,
           "min_yorliq": "Deyarli hech narsa",
@@ -124,7 +129,7 @@
         "Ikkinchi diqqatga kirishning eng ochiq eshigi — tush. Shuning uchun tush ko'rish shu qadar muhim.",
         "Kitobning muhim ogohlantirishi: ikkinchi diqqatga tayyorgarliksiz kirish xavfli. Guruh a'zolarining ko'pi shu yerda adashadi.",
         "Ikkinchi diqqatda ko'rilgan narsa oddiy xotira kabi eslanmaydi. Uni «eslash» alohida mehnat talab qiladi.",
-        "Amaliy ma'nosi: idrokning odatiy chegarasi tabiiy chegara emas, o'rgatilgan chegara. Uni kengaytirish mumkin, lekin sekin va tartib bilan."
+        "Idrokning odatiy chegarasi tabiiy emas, o'rgatilgan chegara. Uni kengaytirish mumkin, lekin faqat sekin va tartib bilan — birdaniga surilgan diqqat odamni qaytarib emas, sindirib yuboradi."
       ],
       "tavsiyalar": [
         "Idrokni kengaytirishga urinishdan oldin kundalik hayotingizni tartibga soling.",
@@ -172,7 +177,7 @@
     {
       "sarlavha": "O'zgarishning narxi",
       "magiz": [
-        "Don Soledadning o'zgarishi kitobning eng kuchli tasviri: keksa, bo'shashgan ayol bir necha yilda butunlay boshqa odamga aylanadi — kuchli, tez, xavfli.",
+        "Don Soledad Karlosni tanib bo'lmas darajada o'zgargan holda kutib oladi: bir necha yil oldin keksa va bo'shashgan ayol endi kuchli, tez va xavfli. O'zgarish uni yumshatmagan, aksincha, qattiq qilgan.",
         "Lekin bu o'zgarish bepul emas. U eski hayotining hamma narsasidan voz kechgan: uy, odat, oiladagi o'rin, hattoki farzandlari bilan aloqasi.",
         "Kitob buni romantik qilmaydi. O'zgargan odam yaxshiroq bo'lishi shart emas — u boshqa bo'ladi.",
         "Guruhning boshqa a'zolari ham xuddi shunday: har birining kuchi bor va har birining yo'qotgani bor.",
@@ -193,7 +198,7 @@
         },
         {
           "turi": "slider",
-          "savol": "O'zgarish narxini to'lashga qanchalik tayyorsiz?",
+          "savol": "Voz kechish ro'yxatingizni ko'rgach, o'zgarish hali ham arziydimi?",
           "min": 1,
           "max": 10,
           "min_yorliq": "Faqat yaxshi tomonini olaman",
@@ -220,7 +225,7 @@
         "Har bir a'zoning o'z vazifasi bor va u vazifani boshqa hech kim bajara olmaydi. Rollarni aralashtirish guruhni buzadi.",
         "Kastanedaning muammosi — u yetakchi bo'lishi kerak, lekin buni istamaydi va bilmaydi. Rol qabul qilinmaguncha guruh ishlamaydi.",
         "Kitobning halol tomoni: guruh o'z-o'zidan shakllanmaydi. Ustozsiz qolgan guruh dastlab kurashadi, keyin kelishadi yoki tarqaydi.",
-        "Amaliy xulosa: har qanday jamoada eng katta xavf kuchning yetishmasligi emas, kelishuvning yetishmasligi."
+        "Har qanday jamoada eng katta xavf kuchning yetishmasligi emas, kelishuvning yetishmasligi. Guruh a'zolari alohida kuchli bo'lsa ham, kim nima uchun javob berishini bilmasa, birinchi bosimda tarqaladi."
       ],
       "tavsiyalar": [
         "Jamoada rollarni ovoz chiqarib kelishib oling — «o'zi tushunarli» degan narsa yo'q.",
@@ -277,7 +282,7 @@
         "Kitobning eng g'alati qismi: guruh a'zolari birga o'tkazgan voqealarni turlicha eslashadi, ba'zilarini esa umuman eslashmaydi.",
         "Don Xuanning tushuntirishi: ikkinchi diqqatda bo'lgan voqealar oddiy xotiraga tushmaydi. Ularni eslash uchun o'sha holatga qaytish kerak.",
         "Bu keyingi kitoblarda «eslash» degan alohida mavzuga aylanadi va u aslida o'z hayotini qayta ko'rish amaliyoti bilan bog'lanadi.",
-        "Amaliy ma'nosi butunlay real: kuchli hissiyot yoki o'ta charchoq paytidagi voqealarni odam boshqacha eslaydi yoki umuman eslamaydi.",
+        "Kuchli hissiyot yoki o'ta charchoq paytidagi voqealarni odam butunlay boshqacha eslaydi yoki umuman eslamaydi. Kitobdagi «ikkinchi diqqatdagi xotira» tushunchasi shu tajribaga tayanadi.",
         "Shuning uchun yozuv shu qadar muhim: xotira o'zgaradi, yozuv esa qoladi.",
         "Kastaneda o'z daftarlarini qayta o'qib, o'zi yozgan, lekin eslamaydigan voqealarni topadi — bu kitobning eng ta'sirli lahzalaridan biri."
       ],
@@ -300,7 +305,7 @@
         },
         {
           "turi": "checklist",
-          "sarlavha": "Xotira bilan ishlash",
+          "sarlavha": "Yo'qolgan xotiralarni qidirish",
           "bandlar": [
             "Bugungi muhim voqeani o'sha kuni yozdim",
             "Eski yozuvimni qayta o'qidim",
@@ -311,7 +316,7 @@
         },
         {
           "turi": "slider",
-          "savol": "So'nggi bir yilni qanchalik aniq eslaysiz?",
+          "savol": "Oydan oyga eslaganda so'nggi yilingiz qanchalik to'lgan chiqdi?",
           "min": 1,
           "max": 10,
           "min_yorliq": "Deyarli hech narsa",
