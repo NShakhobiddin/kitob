@@ -2,431 +2,448 @@
   "id": "koz-ochish-kaliti",
   "nomi": "Tentakning tajribasi 1: Ko'z ochish kaliti",
   "muallif": "Mirzakarim Norbekov",
-  "kirish": "Yigirma yoshida birinchi guruh nogironi bo'lgan, buyraklari ishlamay qolgan yigit shifokorlardan umid uzilgach, o'zini o'zi tiklashga kirishadi va keyinchalik minglab odamga shu yo'lni o'rgatadi. Kitobning asosiy fikri sodda: mashq emas, mashqni qanday ichki holat bilan bajarganingiz hal qiladi. Muallif ataylab qo'pol, kinoyali til bilan yozadi — bu uning «tezkor o'qitish» usuli: sizni tinch holatdan chiqarib, o'zingizga qarashga majburlash.",
+  "kirish": "Kitobning butun tizimi bitta ketma-ketlikka quriladi: qomat va mimika → kayfiyat → ishonch → natija. Norbekov teskarisidan boradi — avval tanaga g'olib holatini majburan berasiz, keyin ichki holat unga moslashadi. Shu asosda ko'rishni tiklash, umurtqa va bo'g'in mashqlari beriladi. Bu yerda kitobning o'z mashqlari — mushak korseti, Oktava, limon obrazi, jadval bilan 3×30 soniya va ko'z mashqlari to'plami — asl ketma-ketligida keltirilgan.",
   "bolimlar": [
     {
       "sarlavha": "Surunkali bemorning portreti",
       "magiz": [
-        "Muallifning asosiy formulasi: xarakter va taqdir — kasallikka teng. Ya'ni sog'liqni o'zgartirmoqchi bo'lsangiz, avval xarakterni o'zgartirish kerak, uni esa quruq nasihat bilan o'zgartirib bo'lmaydi.",
-        "Bemorlar ikki toifa. Birinchisi — kayfiyati jismoniy holatidan yuqori odamlar; ular tez tuzaladi. Ikkinchisi — kayfiyati jismoniy holatidan ancha past «aqlli» odamlar; ular o'n yillab kasal yuradi va o'z kasalligining alohidaligini isbotlab charchamaydi.",
-        "Har bir surunkali kasallik odamga yashirin «foyda» beradi: e'tibor, ayanch, mehr, javobgarlikdan qutulish, hayotdagi maqsad. Shuning uchun ong osti darajasida odam tuzalishga qarshilik ko'rsatadi.",
-        "Muallif o'limga mahkum 600 bemorga taklifnoma yuborgan. Birinchi safar 12 kishi, ikkinchi safar 78 kishi kelgan; qattiq saralashdan keyin 15 kishi qolgan. Shulardan 13 tasi to'qqiz oyda sog'aygan. Yetti yildan keyin qolgan 600 kishidan atigi 26 tasi tirik edi.",
-        "Bemor kutib o'tirsa, shifokor kasallik bilan yolg'iz qoladi. Ibn Sino aytgan: bizlar uchtamiz — sen, men va kasallik; qaysi tomonni tanlasang, o'sha yengadi.",
-        "Muallifning o'z xatosi: olti yil davomida kuniga 6-8 soat mashq qilgan — yugurish, muzli suvda cho'milish, mixli taxtada uxlash — natija nol. Chunki u mashq bilan birga shubha, umidsizlik va o'zini o'zi qiynashni ham mashq qilgan edi. Ustozi ko'rsatgan ichki holatni qo'shgach, uch kunda birinchi natija paydo bo'lgan."
+        "Surunkali kasallik odamga yashirin foyda beradi: e'tibor, ayanch, mas'uliyatdan ozod bo'lish va hayotga tayyor sabab. Ong osti darajasida odam shu foydadan voz kechishga qarshilik qiladi.",
+        "Norbekov bemorlarni ikki toifaga bo'ladi. Birinchisi — kayfiyati jismoniy holatidan yuqori odamlar; ular tez tuzaladi. Ikkinchisi — kayfiyati holatidan past «aqlli»lar; ular yillab kasal yuradi va kasalligining alohidaligini isbotlab charchamaydi.",
+        "«Meniki alohida holat» degan jumla — tuzalmaslikni oqlashning eng keng tarqalgan shakli.",
+        "Muallif olti yil davomida kuniga 6–8 soat mashq qilgan: yugurish, muzli suvda cho'milish, mixli taxtada yotish. Natija bo'lmagan — chunki u mashq bilan birga shubha, umidsizlik va o'zini qiynashni ham mashq qilgan.",
+        "Ustozi ko'rsatgan ichki holatni qo'shgach, uch kunda birinchi natija paydo bo'lgan.",
+        "Kitobning sharti: shifokor tayinlagan muolajani tashlamang, lekin unga o'z ichki ishtirokingizni qo'shing. Tomoshabin bo'lgan bemor tuzalmaydi."
       ],
       "tavsiyalar": [
-        "O'zingizga halol savol bering: kasalligim menga nima beryapti? E'tiborimi, ayanchmi, ishdan qochish imkonimi? Javobni yozib qo'ying.",
-        "Shifokorga og'riqdan qutulish uchun emas, sog'liq uchun boring. Tish og'rigandan keyingina shifokorga borish — sog'liqqa munosabatning aynan o'zi.",
-        "Kasalligingiz haqida gapirishni keskin kamaytiring. Har bir hikoya uni ichingizda mustahkamlaydi.",
-        "Davolanishda tomoshabin bo'lmang. Shifokor tayinlagan har bir muolajaga o'zingizning ichki ishtirokingizni qo'shing.",
-        "«Meniki alohida holat» degan fikrni tutib oling. Bu — tuzalmaslikni oqlashning eng keng tarqalgan shakli."
+        "O'zingizga halol savol bering: kasalligim menga nima beryapti — e'tiborni, ayanchni, ishdan qochish imkoniyatini?",
+        "«Meniki alohida holat» degan fikrni ushlab qoling va uni ovoz chiqarib takrorlashni to'xtating.",
+        "Kasalligingiz haqida gapirishni keskin kamaytiring: har bir hikoya uni ichingizda mustahkamlaydi.",
+        "Davolanishda tomoshabin bo'lmang — har bir muolajaga o'z ichki ishtirokingizni qo'shing.",
+        "Bir hafta davomida shifokorga kasallik uchun emas, sog'liq uchun boring."
       ],
       "mashqlar": [
         {
           "turi": "test",
-          "savol": "O'zingizga halol qarang: sog'lig'ingiz haqida gapirganda ichingizdan qaysi ovoz kuchliroq chiqadi?",
+          "savol": "Sog'lig'ingiz haqida gapirganda ichingizdan qaysi ovoz kuchliroq chiqadi?",
           "variantlar": [
-            "Menda hammasi joyida bo'ladi, bu vaqtinchalik",
+            "Menda hammasi joyida, bu vaqtinchalik",
             "Mening holatim juda murakkab, buni hech kim tushunmaydi",
             "Shifokorlar bilmaydi, men ko'p o'qiganman",
             "Bir kun kelib o'z-o'zidan yaxshilanib qoladi"
           ],
           "izohlar": [
-            "Kitob tilida bu — kayfiyati jismoniy holatidan yuqori odam. Aynan shunday odamlar tez tiklanadi. Bu holatni saqlang, u sizning eng katta resursingiz.",
-            "Bu «alohida kasallik» pozitsiyasi. U sizni e'tibor bilan ta'minlaydi, lekin ayni paytda tuzalishdan uzoqlashtiradi. Kasalligingiz sizga aynan nima berayotganini yozib chiqing.",
-            "Bilim ko'p, harakat yo'q — muallif buni «o'lik bilim» deydi. Kitobdagi ibora: mudroq bilimlar bilan yuklangan eshakdan farqingiz nimada?",
-            "Kutish — eng passiv holat. Kutgan odam davolanishda ishtirok etmaydi, ya'ni shifokorni kasallik bilan yolg'iz qoldiradi."
+            "Kitob bu javobni birinchi toifaga qo'yadi — kayfiyati holatidan yuqori odam tez tuzaladi.",
+            "Eng ko'p uchraydigan javob va u tuzalmaslikni ushlab turadi: alohida holatni isbotlash o'zi ish bo'lib qoladi.",
+            "Bilim to'plash foydali, lekin u ichki holat o'rnini bosmaydi.",
+            "Kutish — kitob bo'yicha eng samarasiz holat. O'z-o'zidan hech narsa bo'lmaydi."
           ]
         },
         {
           "turi": "jurnal",
-          "savol": "Kasalligingiz yoki muammoyingiz sizga qanday yashirin «foyda» berishi mumkin? Uyalmasdan yozing: e'tibor, ayanch, javobgarlikdan qochish, suhbat mavzusi, o'zini oqlash. Keyin yozing: shu foydalarni boshqa yo'l bilan qanday olish mumkin?"
+          "savol": "Kasalligingiz yoki muammoyingiz sizga qanday yashirin foyda beryapti? Uyalmasdan yozing: e'tibor, ayanch, javobgarlikdan qochish, suhbat mavzusi. Keyin yozing: shu foydalarni boshqa yo'l bilan qanday olish mumkin?"
         },
         {
           "turi": "slider",
-          "savol": "Bugun kayfiyatingiz jismoniy holatingizga nisbatan qayerda? 1 — kayfiyat holatdan ancha past, 10 — kayfiyat holatdan ancha yuqori.",
+          "savol": "Bugungi kayfiyatingiz jismoniy holatingizdan qay darajada yuqori?",
           "min": 1,
           "max": 10,
-          "min_yorliq": "Kayfiyat pastda",
-          "max_yorliq": "Kayfiyat yuqorida"
+          "min_yorliq": "Holatimdan ancha past",
+          "max_yorliq": "Holatimdan ancha yuqori"
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Birinchi hafta — kasallikdan uzoqlashish",
+          "bandlar": [
+            "Kasalligim haqida bugun hech kimga gapirmadim",
+            "«Meniki alohida holat» degan fikrni to'xtatdim",
+            "Muolajani tashlamadim, lekin unga ichki ishtirokimni qo'shdim",
+            "Kasallikning menga beradigan foydasini yozib chiqdim",
+            "Bugun sog'lig'im uchun bitta ish qildim"
+          ]
         }
       ]
     },
     {
       "sarlavha": "«Normal» bo'lish tuzog'i",
       "magiz": [
-        "Norma — bu ko'pchilik qabul qilgan narsa. U odamni oldindan belgilangan ramkaga soladi: buvi ko'zoynakda va to'quv bilan, bobo tayoq bilan qovog'i solingan bo'lishi kerak. Metroda kulib, xirgoyi qilib ketsangiz — darrov «g'ayritabiiy»ga chiqasiz.",
-        "Olomon doim tinchlikka intiladi. Tinchlikning oxirgi bosqichi esa — abadiy tinchlik. Shuning uchun olomon boshidanoq harakatsiz.",
-        "Shaxs bo'lish og'ir, chunki shaxs har doim yolg'iz — u avtomatik ravishda cho'qqiga chiqadi. Lekin kulrang massada chayqalib yurish undan ham og'ir.",
-        "Kasallik ko'pincha o'zini past baholaydigan odamda uzoq turadi. Dala hovlidagi bitta taxta yoki zanglagan mix uning hayotidan qimmatroq bo'lib qoladi.",
-        "Kitobdagi asosiy strategiya — sun'iy ravishda mantiqsiz yo'l tutish: natijani kutib emas, natijadan oldin quvonishni boshlash. Chunki tuzalishdan ko'ra tuzalayotganingizga quvonish osonroq, va u darhol ishlaydi.",
-        "Takrorlangan xatti-harakatdan odat, odatdan xarakter, xarakterdan taqdir tug'iladi. Bugun kechagidan bir zarra ko'proq o'zini hurmat qilish — ertaga sizni boshqa odam qiladi."
+        "Norma — bu ko'pchilikning o'rtacha holati, sog'liq emas. Buvi ko'zoynakda va to'quv bilan, bobo tayoq bilan, metroda o'tirgan odam esa oldinga tikilgan holda bo'lishi kerak — bu qoidani hech kim yozmagan, lekin hamma bajaradi.",
+        "Metroda o'zingizga kuylab, tabassum bilan o'tiring — darrov «g'alati»lar toifasiga o'tasiz.",
+        "Kasallikni yoshga bog'lash ham shu normaning bir qismi: «yoshim yetdi» degan jumla tuzalishning eng qulay to'sig'i.",
+        "Ko'zoynak qulay yechim, lekin u ko'zga ishlashni to'xtatishga ruxsat beradi. Ish qilinmagan mushak zaiflashadi.",
+        "Kitobning talabi qattiq: boshqalarday bo'lishni tanlasangiz, boshqalarday natijaga ega bo'lasiz.",
+        "Har qanday o'zgarish avval «g'alati» ko'rinadi. Buni chidash — narxning bir qismi."
       ],
       "tavsiyalar": [
-        "Kuniga bir marta ataylab «normal» xatti-harakatdan chiqing: ko'chada tabassum bilan yuring, notanish odamga salom bering, avtobusda tik o'tiring.",
-        "Sizni kimdir mazax qilsa yoki g'alati qarasa — bu atrof bosimi. Uni shaxsiy hujum deb qabul qilmang, shunchaki qaytadan tabassumga qayting.",
-        "Kuniga kamida bir marta o'zingiz bilan yolg'iz qoling. Kasb, rol, unvon emas — o'zingizni o'rganing.",
-        "Har kuni o'zingizga bitta kichik hurmat qo'shing: bugun qilgan ishingiz uchun o'zingizga jismonan seziladigan minnatdorchilik yarating.",
-        "«Hamma shunday qiladi» degan gapni qaror qabul qilish asosi sifatida ishlatmang."
-      ],
-      "mashqlar": [
-        {
-          "turi": "jurnal",
-          "savol": "Umringizda hech qachon bir soat o'zingiz bilan tanishib o'tirganmisiz? Hoziroq boshlang. Yozing: men kimman — lavozimim, kasbim, rolim emas. Nimani sevaman, nimadan qo'rqaman, nimani orzu qilgan edim va uni qachon tashlab qo'ydim?"
-        },
-        {
-          "turi": "checklist",
-          "sarlavha": "Bugun stereotipdan chiqish uchun nima qildingiz?",
-          "bandlar": [
-            "Ko'chada tabassum bilan va tik qomatda yurdim",
-            "Odamlar oldida o'zimni tutishimni «hamma shunday» deb emas, o'zim tanladim",
-            "Kasallik yoki muammoim haqida hech kimga shikoyat qilmadim",
-            "Bir kichik ishim uchun o'zimga minnatdorchilik bildirdim",
-            "O'zim bilan kamida 10 daqiqa yolg'iz qoldim"
-          ]
-        },
-        {
-          "turi": "taymer",
-          "daqiqa": 10,
-          "korsatma": "O'zingiz bilan uchrashuv. Telefonni chetga qo'ying. Hech narsa qilmang, hech narsani hal qilmang. Faqat ichingizdagi ovozni tinglang: u sizga nima deyapti? Kitobda aytilishicha, biz eng ko'p o'zimizdan qochamiz — shuning uchun birinchi daqiqalar noqulay bo'ladi. Shunchaki o'tiravering."
-        },
-        {
-          "turi": "slider",
-          "savol": "Hayotingizda o'zingizni qanchalik shaxs sifatida namoyon qildingiz? Boshqalarning fikri emas, o'zingiznikini baholang.",
-          "min": 1,
-          "max": 10,
-          "min_yorliq": "Olomon ichida",
-          "max_yorliq": "O'zim bo'lib yashayapman"
-        }
-      ]
-    },
-    {
-      "sarlavha": "Ishonch chegarasi: kutish emas, harakat",
-      "magiz": [
-        "Muallif shkalasi: ko'r bo'lishni xohlayman — yaxshi ko'rishni xohlamayman — ishonmayman — shubhalanaman — umid qilaman — ishonaman — bilaman — yaxshi ko'raman — yaxshi ko'ryapman. Ishonch — bu sog'liq bilan kasallik orasidagi chegara.",
-        "«Shubhalanaman» va «ishonmayman» — bir xil narsa, faqat biri chiroyli qog'ozga o'ralgan. Shubhalanish uchun butun tibbiyotni bilish kerak; bilmaysiz — demak bu shunchaki harakat qilmaslikning bahonasi.",
-        "Umid — illyuziyaning eng oliy shakli. U hech narsaga majburlamaydi: «qachon?» degan savolga uning javobi doim bitta — «bilmayman, umid qiling».",
-        "Ishonch esa majbur qiladi. Agar sog'ayishimga ishonaman desangiz-u, barmog'ingizni qimirlatmasangiz — siz inert odamsiz, ya'ni kasallik tomonidasiz.",
-        "Mantiq tuzog'i shunday ishlaydi: aql faktga tayanadi, fakt esa — kasallik. Demak aql hech qachon sog'ayishga ishonmaydi. Doira yopiladi. Uni buzishning yagona yo'li — mantiqsiz yo'l: avval qomat va tabassum, keyin quvonch, keyin natija.",
-        "Diqqat cheklangan. Bir vaqtda butun tanani qamrab bo'lmaydi — shuning uchun aniq bir a'zoni tanlab, unga har kuni diqqat qaratish kerak."
-      ],
-      "tavsiyalar": [
-        "«Xohlayman» so'zini kundalik nutqingizdan olib tashlang. «Xohlayman» — ong ostiga «menda yo'q» degan xabarni yozadi.",
-        "Har bir maqsad uchun aniq muddat qo'ying. Muddatsiz maqsad — maqsad emas.",
-        "Kuniga bir marta o'zingizdan hisobot oling: bugun shu maqsad uchun aynan nima qildim?",
-        "Bir vaqtning o'zida bitta-ikkitadan ortiq nosog' a'zo yoki muammo ustida ishlamang — diqqat bo'linadi.",
-        "Natijani ko'rgandan keyin emas, natijadan oldin quvonishni mashq qiling. Sun'iy quvonch ham ishlaydi."
+        "Bugun jamoat joyida ataylab qomatingizni tiklab, tabassum bilan yuring.",
+        "«Yoshim yetdi» degan iborani bir hafta ishlatmang va o'rniga «hali mashq qilmadim» deng.",
+        "Ko'zoynakni mashq paytida yechib turing — kitobning talabi shu.",
+        "O'zingizga savol bering: bu qarorni men tanladimmi yoki hamma shunday qilgani uchun qildimmi?",
+        "Atrofdagilarning «g'alati» degan bahosini javob emas, o'lchov deb qabul qiling."
       ],
       "mashqlar": [
         {
           "turi": "test",
-          "savol": "Muallifning shkalasi. Hozir o'z maqsadingizga (sog'liq, ish, o'zgarish) nisbatan qayerda turibsiz? Bitta javob tanlang.",
+          "savol": "Ko'chada qomatingizni tiklab, tabassum qilib yurdingiz. Odamlar g'alati qarayapti. Nima qilasiz?",
           "variantlar": [
-            "Ishonmayman — bunday bo'lishi mumkin emas",
-            "Shubhalanaman — balki bo'lar, balki yo'q",
-            "Umid qilaman — bir kun kelib bo'lar",
-            "Bilaman va bugundan harakat qilaman"
+            "Odatdagi holatimga qaytaman",
+            "Davom etaman — bu narxning bir qismi",
+            "Faqat yolg'iz bo'lganda qilaman",
+            "Bu bema'nilik, tashlab yuboraman"
           ],
           "izohlar": [
-            "Muallif buni chegaraning narigi tomoni deydi. Bu javob bilan hech qanday tizim ishlamaydi — chunki siz kasallik tomonida turibsiz.",
-            "Shubha — dangasalikning agressiv shakli. U ensangizga o'rnatilgan ko'zga o'xshaydi: faqat orqaga, o'tgan mag'lubiyatlarga qaraydi.",
-            "Umid hech narsaga majburlamaydi va shuning uchun eng xavfli javob. «Umid oxirida o'ladi», chunki o'shanda o'ldiradigan odam qolmaydi.",
-            "Faqat shu javob harakat bilan bog'liq. Ishonch majbur qiladi: ishonsangiz, bugun aniq nima qilishingizni ayta olishingiz kerak."
+            "Kitobda aynan shu qadam «norma»ga qaytish deb ataladi va u butun ishni to'xtatadi.",
+            "Kitobning talabi shu: o'zgarish avval g'alati ko'rinadi, keyin natija beradi.",
+            "Yolg'iz bo'lganda qilingan mashq ijtimoiy bosim ostida sinalmaydi — u yarim mashq.",
+            "Bu ham tanlov, lekin unda hech narsa o'zgarmaydi."
           ]
         },
         {
           "turi": "jurnal",
-          "savol": "Yuqoridagi javobingizni yozing va uning ostiga aniq reja tuzing: qaysi bitta maqsad, qancha muddatda, har kuni qaysi vaqtda va necha daqiqa. Muddatsiz va vaqtsiz reja — bu shunchaki xohish."
+          "savol": "Hayotingizda «hamma shunday qiladi» degan sabab bilan qilayotgan uchta ishni yozing. Har birining yoniga: agar buni to'xtatsam, aniq nima yo'qotaman?"
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Normadan chiqish — bir kun",
+          "bandlar": [
+            "Jamoat joyida qomatni tiklab yurdim",
+            "«Yoshim yetdi» demadim",
+            "Mashq paytida ko'zoynakni yechdim",
+            "Bitta odatiy harakatimni ataylab boshqacha qildim",
+            "Birovning bahosiga qarab qaytmadim"
+          ]
         },
         {
           "turi": "slider",
-          "savol": "Bugun maqsadingiz uchun qancha real harakat qildingiz? Niyat emas, harakat.",
+          "savol": "Qarorlaringizda «hamma shunday qiladi» degan sabab qanchalik kuchli?",
           "min": 1,
           "max": 10,
-          "min_yorliq": "Faqat o'yladim",
-          "max_yorliq": "Rejani to'liq bajardim"
+          "min_yorliq": "Umuman ta'sir qilmaydi",
+          "max_yorliq": "Deyarli hammasi shundan"
         }
       ]
     },
     {
-      "sarlavha": "Mushak korseti: tanadan kayfiyatga",
+      "sarlavha": "Mushak korseti: qomat, mimika, kayfiyat",
       "magiz": [
-        "Muallif tog'dagi olovparastlar ibodatxonasiga davolanish sirini izlab boradi. U yerda hech kim hech kimni davolamaydi — yagona qoida: qovog'ini solib yurish gunoh sanaladi. Qirq kundan keyin guruhdagi odamlarning surunkali kasalliklari ketadi, kimdir ko'zoynagini yo'qotadi, kimningdir qulog'i eshita boshlaydi.",
-        "Sir tabassum va tik qomatda ekan. Muallif buni keyin poliklinika sport zalida tekshirib ko'radi: odamlar kuniga bir-ikki soat shunchaki tabassum va to'g'ri qomat bilan yurishgan — yaxshilanish hammada kuzatilgan.",
-        "Ichimizda uch «aka-uka» bor: fikrlash markazi, hissiyot markazi va mushaklarni boshqaradigan iroda markazi. Ular doim bir-biriga qo'shiladi — biri qayoqqa ketsa, ikkitasi ergashadi.",
-        "Kayfiyatni ushlab turish qiyin — u simob tomchisiga o'xshaydi. Fikrni boshqarish undan ham qiyin — u gavjum vokzal maydoni. Eng osoni — mushakni ushlab turish. Shuning uchun boshqaruv aynan mushak korseti orqali olinadi.",
-        "Amaliy tekshiruv: oyna oldida besh daqiqa soxta tabassum bilan turing. Besh daqiqadan keyin siz haqiqatan quvona boshlaysiz va fikrlaringiz ham o'zgaradi.",
-        "Formula teskari yo'nalishda ishlaydi: avval mushak korseti (tik qomat, tabassum), keyin sun'iy ichki quvonch, keyin sog'ayish obrazi — va faqat shundan keyin natija."
+        "Ichki holatni to'g'ridan-to'g'ri buyurib bo'lmaydi, lekin tanaga buyurish mumkin. Tana holati o'zgargach, ichki holat unga moslashadi.",
+        "«Mushak korseti» ikki narsadan iborat: qomat va yuz ifodasi. Ular birga ushlanadi va mashq davomida bir soniyaga ham bo'shatilmaydi.",
+        "Kitobdagi ta'rif ataylab kulgili: to'ygan yamyamning mimikasi va mag'rur kurkaning qomati. Kulgililik yodda saqlash uchun kerak.",
+        "Ustoz Norbekovga mashq paytida takrorlagan: «Yuzing sovuq bo'lib qoldi, yuzing o'lik. Qomatni, mimikani tuzat. Hissiyot yarat».",
+        "Kayfiyat sun'iy ko'tariladi va bu aldash emas — siz tanaga to'g'ri buyruq berayapsiz. Tabiiy kayfiyatni kutish — kutishning yana bir shakli.",
+        "Korset yo'qolgan zahoti mashq to'xtaydi. Shuning uchun har 2–3 soniyada uni tekshirib turish kerak."
       ],
       "tavsiyalar": [
-        "Qomatni tekshirish uchun oddiy usul: kuraklar orasiga yong'oq qisib turgandek his qiling va shu holatda yuring.",
-        "Kuniga bir necha marta o'zingizni tekshiring: yelkam qayerda, yuzimda nima ifoda bor? Yo'qotgan bo'lsangiz — shu zahoti tiklang.",
-        "Kayfiyatingizni ko'tarmoqchi bo'lsangiz, kayfiyat bilan emas, yuz va yelka bilan boshlang. Bu eng qisqa yo'l.",
-        "Ko'chada, odamlar orasida ham mushak korsetini saqlang — aynan o'sha yerda atrof bosimi eng kuchli va aynan o'sha yerda mashq eng foydali.",
-        "Yoqimsiz suhbatdan keyin darhol qomat va tabassumni tiklang: bu holatning tanaga o'tishiga yo'l qo'ymaydi."
+        "Ertalab turgan zahoti yelkani orqaga, ko'krakni oldinga oling va yuzga tabassum qo'ying — kayfiyat kutmasdan.",
+        "Mashq davomida har 2–3 soniyada korsetni tekshiring: qomat joyidami, tabassum joyidami?",
+        "Kayfiyatni sun'iy ko'taring va uni pog'onama-pog'ona oshiring — bir marta emas, to'lqin bilan.",
+        "Yuz ifodasini sozlang: «yangi yil archasini birinchi ko'rgan besh yoshli bola» ifodasi.",
+        "Kun davomida uch marta to'xtab, qomat va mimikani qayta tiklang."
       ],
       "mashqlar": [
         {
           "turi": "taymer",
           "daqiqa": 5,
-          "korsatma": "Oyna oldiga boring va sun'iy, hatto soxta tabassum yarating. Yelkani to'g'rilang, boshni yuqoriga torting. Besh daqiqa shu holatda turing. Kulgili tuyulsa — yaxshi, bu ham hissiyot. Kitobdagi va'da: besh daqiqadan keyin kayfiyat va fikrlar o'zgara boshlaydi."
-        },
-        {
-          "turi": "checklist",
-          "sarlavha": "Bugun mushak korsetini qayerda ushlab turdingiz?",
-          "bandlar": [
-            "Ertalab uyg'onganimdan keyin darhol qomatni tikladim",
-            "Ish/o'qish joyida kamida uch marta tekshirib turdim",
-            "Ko'chada, odamlar orasida tabassumni saqladim",
-            "Yoqimsiz suhbatdan keyin qomat va tabassumni qayta tikladim",
-            "Kechqurun kunni tik qomat bilan yakunladim"
-          ]
+          "korsatma": "Mushak korseti. Yelkani orqaga, ko'krakni oldinga oling, yuzga tabassum qo'ying. Shu holatni besh daqiqa uzmasdan ushlang. Har 2–3 soniyada o'zingizni tekshiring: qomat joyidami? Tabassum joyidami? Bo'shashgan bo'lsangiz, jazolamang — qayta tiklang va davom eting."
         },
         {
           "turi": "slider",
-          "savol": "Bugungi kunning necha foizida qomat va tabassumni ongli ravishda ushlab turdingiz?",
+          "savol": "Korsetni ushlab turgach kayfiyatingiz qanday o'zgardi?",
           "min": 1,
           "max": 10,
-          "min_yorliq": "Deyarli hech",
-          "max_yorliq": "Deyarli doim"
+          "min_yorliq": "Umuman o'zgarmadi",
+          "max_yorliq": "Sezilarli ko'tarildi"
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Kunlik korset tekshiruvi",
+          "bandlar": [
+            "Ertalab turgan zahoti qomatni tikladim",
+            "Kayfiyat kelmasdan turib tabassum qo'ydim",
+            "Kun davomida uch marta korsetni qayta tikladim",
+            "Mashq paytida korsetni uzmadim",
+            "Kechqurun kunni korset bilan yakunladim"
+          ]
+        },
+        {
+          "turi": "test",
+          "savol": "Mashq paytida kayfiyat yo'q. Kitobga ko'ra nima qilish kerak?",
+          "variantlar": [
+            "Kayfiyat kelguncha kutish",
+            "Qomat va mimikani majburan qo'yib, kayfiyatni sun'iy ko'tarish",
+            "Mashqni boshqa kunga qoldirish",
+            "Kuchliroq harakat qilish"
+          ],
+          "izohlar": [
+            "Kutish — kitobda eng ko'p tanqid qilinadigan holat. Kayfiyat o'zi kelmaydi.",
+            "To'g'ri. Butun tizim shu ketma-ketlikka quriladi: tana holati → kayfiyat → natija.",
+            "Qoldirilgan mashq — qilinmagan mashq. Korsetni qo'yish uchun kayfiyat shart emas.",
+            "Kuch bu yerda yordam bermaydi; masala holatda, zo'riqishda emas."
+          ]
         }
       ]
     },
     {
-      "sarlavha": "To'rt chuqur: nima sizni to'xtatadi",
+      "sarlavha": "Ishonch va iroda: kim uyda xo'jayin",
       "magiz": [
-        "Birinchi chuqur — shartli refleks va odat. Yomon ko'rish kasallik emas, yomon odat, deydi muallif. Yangi odat aqlga «balansga olinishi» uchun 20-40 kun kerak. Shuning uchun tizim qirq kunlik davrga qurilgan.",
-        "Ikkinchi chuqur — qo'yilmagan vazifa. Muallif uchta shaharda tajriba o'tkazadi: Qo'stanayda ko'rish ustida ishlashga majbur qiladi — ko'rish tiklanadi, ichak va uyqu joyida qoladi. Rudniyda uyqu va ichak ustida ishlanadi — ular tuzaladi, ko'zoynak esa joyida qoladi. Lisakovskda oyoq tomirlari ustida ishlanadi — to'qqiz mashg'ulotda varikoz ketadi, ko'z esa avvalgidek. Xulosa: diqqat qayerga qaratilsa, natija ham o'sha yerda.",
-        "Uchinchi chuqur — dangasalik. Uning shakllari: bolalarcha «xohlamayman»; aqlli «imkonim yo'q, yoshim boshqa, uzoq yashayman»; faol «juda bandman, vaqtim yo'q»; agressiv «ishonmayman, bu bema'nilik, sharlatanlik». «Tushundim» ham dangasalikning bir shakli: tushunish bor joyda yangi bilim yo'q, chunki siz yangi narsani eski tajribangizga moslab qo'yasiz.",
-        "Har kungi kichkina g'alaba irodani, har kungi mikroskopik yon berish esa dangasalikni o'stiradi. Uchinchi yo'l yo'q.",
-        "To'rtinchi chuqur — o'zidan norozilik. «Chuti-chut yetmadi» degan odam umr bo'yi baxtdan bir kun orqada yuradi. Ozgina kasal, ozgina o'lik, ozgina homilador degani bo'lmaganidek, ozgina baxtsiz ham bo'lmaydi.",
-        "Istaklar kosasi haqidagi masal: podshoh qirq qop oltinni tilanchi otasining yog'och kosasiga to'kadi — kosa baribir bo'sh qoladi, chunki u istaklardan yasalgan. Siz ham unga yoshligingizni, sog'ligingizni va tinchligingizni tashlab kelyapsiz.",
-        "Past o'z-o'zini baholash — eng kuchli buzuvchi kuch. O'zini sevmagan odam boshqani ham seva olmaydi: bo'sh qozondan hech kimga ovqat bera olmaysiz."
+        "Dangasalik hech qachon «erinyapman» demaydi. U aqlli sabab keltiradi: hozir vaqti emas, sharoit noqulay, dushanbadan boshlayman.",
+        "Iroda katta qahramonlikdan emas, kichik va takroriy g'alabalardan o'sadi. Har kuni bajarilgan bitta kichik ish irodani oshiradi.",
+        "Odam bir vaqtning o'zida ham mashq qilib, ham shubhalanolmaydi — ikkalasi bir-birini yo'qqa chiqaradi.",
+        "Norbekov shubhani chiqarish uchun oddiy o'lchov beradi: erkak ekaningizga shubha qilasizmi? Yo'q. Ana shu «bilish» holatini sog'ayish masalasiga ham ko'chirish kerak.",
+        "«Xohlayman» va «qaror qildim» — ikki xil holat. Birinchisi kutadi, ikkinchisi qiladi.",
+        "Isbotlash ehtiyoji paydo bo'lgan joyda mashq to'xtaydi: natijani boshqalar uchun emas, o'zingiz uchun qiling."
       ],
       "tavsiyalar": [
-        "Bitta aniq maqsad tanlang, muddat qo'ying va uni har kuni ikki marta beshtadan daqiqa «ko'zdan kechiring» — nazoratsiz maqsad ishlamaydi.",
-        "Yangi odat uchun o'zingizga qirq kun bering va shu davrda kunni o'tkazib yubormang.",
-        "Dangasalik hujum qilganda uni nomlang: «bu — vaqtim yo'q shaklidagi dangasalik». Nomlangan dangasalik kuchini yo'qotadi.",
-        "Maxsus sharoit kutmang. Mashqni har qanday vaziyatda — transportda, navbatda, uyda bajaring; dangasalik aynan «sharoit yo'q» degan bahonaga tayanadi.",
-        "Salbiy va ijobiy xarakter xususiyatlari ro'yxatini o'z qo'lingiz bilan yozing. Tayyor ro'yxat — o'lik ro'yxat, u ishlamaydi.",
-        "Kuniga bir marta o'zingizni bir narsa uchun maqtang — hatto arzimas ish uchun ham. Baxt kichik narsalardan yig'iladi, osmondan g'isht kabi tushmaydi."
+        "Dangasalik aqlli sabab keltirganda uni nom bilan ayting: «bu erinish» — va mashqni boshlang.",
+        "Kunlik mashqni imkon qadar kichik qiling, lekin uni har kuni bajaring.",
+        "Shubha paydo bo'lsa, uni bahslashmasdan chetga suring va mashqni davom ettiring.",
+        "«Xohlayman» degan jumlani «qaror qildim» ga almashtirib, ovoz chiqarib ayting.",
+        "Natijangizni bir oy hech kimga aytmang — faqat o'zingiz uchun qiling."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Bugun dangasaligingiz sizga qanday sabab keltirdi? Uning jumlasini so'zma-so'z yozing. Endi yoniga yozing: bu sabab rostmi yoki niqobmi?"
+        },
+        {
+          "turi": "slider",
+          "savol": "Sog'ayishingizga qanchalik ishonasiz — «bilish» darajasidami yoki «umid» darajasidami?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Shubhalanaman",
+          "max_yorliq": "Bilaman"
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Iroda — kichik g'alabalar",
+          "bandlar": [
+            "Bugungi mashqni erinishga qaramay bajardim",
+            "Dangasalikning sababiga nom berdim",
+            "Shubha bilan bahslashmadim",
+            "«Xohlayman»ni «qaror qildim»ga almashtirdim",
+            "Natijamni hech kimga maqtanmadim"
+          ]
+        }
+      ]
+    },
+    {
+      "sarlavha": "Oktava — ruhni mashq qilish",
+      "magiz": [
+        "Oktava — kitobdagi markaziy mashq. Bu tananing emas, ruhning mashqi: ichkarida ishonch, kuch va qudrat hissini ongli ravishda yaratish.",
+        "Norbekov uni tasvir orqali beradi: yo'lda sizga qarab bir yoshli bola yuguryapti. Siz uni ko'tarasiz, u quchoqlaydi, iliq lablari bilan o'padi va atrofdagi hamma narsa yo'qoladi.",
+        "Shu lahzada ikki narsa bir vaqtda paydo bo'ladi: kichkintoy oldida o'zingizni kuchli himoyachi deb his qilasiz va ayni paytda ko'nglingiz noziklik bilan to'ladi. Oktavaning tarkibi shu.",
+        "Ikkinchi qismi — «shunday bo'ladi» degan ichki bilish. O'z sehriga ishongan mehribon sehrgar kabi: buyruq berasiz va ketasiz.",
+        "Kitobdagi masal buni ko'rsatadi: uch chol musiqa haqida bahslashadi, uchinchisi eng yaxshi musiqa kechasi hangraydigan eshak ovozi deydi — chunki o'sha ovoz uni o'n sakkiz yoshli yigitga aylantiradi. Har kimning o'z «eshak hangrashi» bor.",
+        "Mashqning tartibi: avval hissiyotni sun'iy uyg'otasiz, keyin uni bosqichma-bosqich kuchaytirasiz — butun tanada, ayniqsa kasal a'zo sohasida yangraguncha.",
+        "Ichki intilish tanada hukmron bo'lishi kerak: yaratishga begona barcha fikr va tuyg'ularni bosib tashlaydigan darajada."
+      ],
+      "tavsiyalar": [
+        "O'zingizning «eshak hangrashingiz»ni toping: sizni bir zumda kuchli va yosh qiladigan aniq xotira.",
+        "Mashqni shu tasvirdan boshlang, keyin hissiyotni to'lqin bilan bosqichma-bosqich oshiring.",
+        "Hissiyotni bosh bilan emas, ko'krak sohasida his qiling va u yerdan butun tanaga tarqating.",
+        "Kasal yoki zaif a'zoni shu to'lqin bilan yuvib chiqing, unga alohida diqqat bering.",
+        "Oktavani har kuni bir xil vaqtda bajaring — bu holat takrordan mustahkamlanadi.",
+        "Mashq oxirida o'zingizga minnatdorchilik to'lqinini yuboring."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Sizning «eshak hangrashingiz» nima? Sizni bir zumda kuchli, yosh va xursand qiladigan aniq xotirani yozing — joyi, hidi, ovozi bilan. Bu Oktava mashqingizning tayanchi bo'ladi."
+        },
+        {
+          "turi": "taymer",
+          "daqiqa": 7,
+          "korsatma": "Oktava. Qomat va tabassumni qo'ying. Ko'z yumib, o'z tasviringizni chaqiring — sizga qarab yugurayotgan bola yoki o'zingiz topgan xotira. Uni his qiling: kuch va noziklik bir vaqtda. Endi bu hissiyotni to'lqin bilan oshiring — yana, yana, butun tanaga yoyilguncha. Kasal yoki zaif joyni shu to'lqin bilan yuving. Oxirgi daqiqada «shunday bo'ladi» degan xotirjam bilishni ushlang."
+        },
+        {
+          "turi": "slider",
+          "savol": "Oktava paytida hissiyot qay darajada ko'tarildi?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Hech narsa sezmadim",
+          "max_yorliq": "Butun tanada yangradi"
+        },
+        {
+          "turi": "test",
+          "savol": "Oktavaning asosi nima?",
+          "variantlar": [
+            "Kuchli xohish va zo'r berish",
+            "Kuch va noziklikning bir vaqtdagi holati hamda «shunday bo'ladi» degan bilish",
+            "Chuqur nafas olish",
+            "Ijobiy jumlalarni takrorlash"
+          ],
+          "izohlar": [
+            "Zo'r berish teskari natija beradi — kitob buni alohida ogohlantiradi.",
+            "To'g'ri. Kitobdagi ta'rif aynan shu ikki qismdan iborat: himoyachi kuchi va mehr, ustiga xotirjam bilish.",
+            "Nafas yordamchi, lekin Oktavaning o'zagi emas.",
+            "So'zni takrorlash yetarli emas — hissiyot yaratilishi kerak."
+          ]
+        }
+      ]
+    },
+    {
+      "sarlavha": "Tasavvur moddiy: limon obrazi",
+      "magiz": [
+        "Kitob tasavvurning tanaga ta'sirini bitta sinov bilan ko'rsatadi. Ko'zni yumib, pishgan limonni tasavvur qilasiz: qo'lga olasiz, g'adir-budur po'stini, og'irligini, hidini his qilasiz.",
+        "Keyin uni kesasiz va olma kabi yeysiz: sovuq, nordon, xushbo'y sharbat butun og'izga tarqaladi.",
+        "Aksariyat odamda shu paytda so'lak ajraladi, jag' tortishadi, yuz burishadi. Limon yo'q — reaksiya bor.",
+        "Xulosa butun tizimning poydevori: tana haqiqiy narsa bilan aniq tasavvur qilingan narsani ajratmaydi.",
+        "Shuning uchun sog'ayish tasviri ham xuddi shunday aniqlik bilan yaratilishi kerak: rangi, harorati, sezgisi bilan.",
+        "Umumiy «yaxshi bo'laman» degan fikr ishlamaydi. Ishlaydigani — hid, ta'm, harorat darajasidagi tafsilot."
+      ],
+      "tavsiyalar": [
+        "Sog'ayish tasvirini beshta sezgi bilan yarating: qanday ko'rinadi, qanday sezgi beradi, harorati qanday.",
+        "Tasavvurni bosh bilan emas, tana bilan qiling — reaksiya paydo bo'lgunicha davom eting.",
+        "Kuniga bir marta limon sinovini takrorlab, tasavvuringiz qanchalik aniq ishlayotganini tekshiring.",
+        "Tasavvur paytida qomat va tabassumni ushlab turing.",
+        "Sog'aygan holatingizni kelasi zamonda emas, hozirgi zamonda tasavvur qiling."
       ],
       "mashqlar": [
         {
           "turi": "taymer",
-          "daqiqa": 10,
-          "korsatma": "«Qo'llar yonga» — kitobning eng mashhur mashqi. Tik turing, to'g'rilangan qo'llarni yon tomondan yelkadan sal yuqoriroq, taxminan 45 daraja burchakda ko'taring. Kaftlarni musht qiling, bosh barmoqni to'liq to'g'rilab, polga qaratib buring. O'n daqiqa shu holatda turing. Charchoq boshlanganda ichingizda ikki kuch kurashadi: «ushla» degan iroda va «tushir» degan dangasalik. Qaysi biri sizga yaqinroq ekanini kuzating."
+          "daqiqa": 4,
+          "korsatma": "Limon sinovi. Qulay o'tiring, ko'zni yuming. Pishgan limonni tasavvur qiling: qo'lingizga oling, g'adir-budur po'stini, og'irligini, rangini, hidini his qiling. Endi uni kesing — sharbat oqadi. Bo'lagini olib, olma kabi yeng: sovuq, nordon, xushbo'y sharbat og'izga tarqaladi. Yutib yuboring va po'sti bilan chaynashda davom eting. Og'zingizda nima bo'layotganini kuzating."
         },
         {
           "turi": "test",
-          "savol": "Ishni keyinga surganingizda dangasalik sizga qaysi shaklda keladi?",
+          "savol": "Limon sinovida tanangizda nima bo'ldi?",
           "variantlar": [
-            "Shunchaki xohlamayman, keyinroq qilaman",
-            "Vaqtim yo'q, men juda bandman",
-            "Menda sharoit yo'q, uy shovqinli, joy tor",
-            "Bularning hammasi bema'nilik, men ishonmayman"
+            "So'lak ajraldi yoki jag' tortishdi",
+            "Yuzim burishdi",
+            "Hech narsa bo'lmadi",
+            "Faqat limonni ko'rdim, ta'mini sezmadim"
           ],
           "izohlar": [
-            "Bu — dangasalikning eng ochiq, bolalarcha shakli. Yaxshi tomoni: uni tanish oson. Uni yengish uchun bahs qilish shart emas, shunchaki boshlang.",
-            "«Ishbilarmon kolbasa» shakli. Muallif buni shunday tarjima qiladi: menda yashashga vaqt yo'q. Kuniga 15 daqiqa topolmaydigan odam nimaga vaqt topayotganini bir kuzatib ko'ring.",
-            "Sharoit hech qachon ideal bo'lmaydi — dala hovlida chivin, dengiz bo'yida shamol xalaqit beradi. Yechim bitta: mashqni bor sharoitda, yurgan yeringizda bajaring.",
-            "Bu — agressiv shakl, dangasalikning eng kuchli qurollangan ko'rinishi. U o'zini aqlli shubha qilib ko'rsatadi, aslida esa harakat qilmaslikni himoya qiladi."
+            "Kitobning asosiy dalili: tana haqiqiy limon bilan tasavvur qilingan limonni ajratmaydi.",
+            "Xuddi shu — reaksiya bor, limon yo'q. Demak tasavvur tanaga to'g'ridan-to'g'ri ta'sir qiladi.",
+            "Bu ham normal. Tasavvur mashq qilinadi: tafsilotni oshiring — hid, harorat, og'irlik.",
+            "Ko'rish yetarli emas. Tasvirni ta'm va sezgi darajasiga tushiring."
           ]
         },
         {
           "turi": "jurnal",
-          "savol": "Ikki ustun yozing. Chapda — o'zingizda yo'qotmoqchi bo'lgan salbiy xarakter xususiyatlari. O'ngda — kuchaytirmoqchi bo'lgan ijobiy xususiyatlar. Tayyor ro'yxatdan ko'chirmang, o'zingiz o'ylab toping. Bu ro'yxat keyingi barcha mashqlarning asosi bo'ladi."
+          "savol": "Sog'aygan holatingizni beshta sezgi bilan yozing: nima ko'rasiz, nima eshitasiz, tanangizda qanday sezgi bor, qanday hid, qanday ta'm? Umumiy so'zlarsiz — faqat tafsilot."
         },
         {
           "turi": "slider",
-          "savol": "Yashab o'tgan yillaringiz uchun o'zingizga umumiy baho qo'ying. Shoshilmang, ichki ovozingizni tinglang.",
+          "savol": "Tasavvuringiz tanangizda reaksiya chaqirdimi?",
           "min": 1,
           "max": 10,
-          "min_yorliq": "Deyarli hech narsa",
-          "max_yorliq": "To'liq qanoat"
-        },
-        {
-          "turi": "checklist",
-          "sarlavha": "Bugun dangasalik ustidan qanday kichik g'alabalar qozondingiz?",
-          "bandlar": [
-            "Rejalashtirgan mashqni kechiktirmasdan bajardim",
-            "«Sharoit yo'q» bahonasini qabul qilmadim",
-            "Bitta ishni «xohlamasam ham» oxirigacha yetkazdim",
-            "Bugungi natijam uchun o'zimga minnatdorchilik bildirdim",
-            "O'zimni boshqalar bilan salbiy taqqoslamadim"
-          ]
+          "min_yorliq": "Umuman yo'q",
+          "max_yorliq": "Kuchli reaksiya"
         }
       ]
     },
     {
-      "sarlavha": "Tasavvur moddiy: limon obrazi va Oktava",
+      "sarlavha": "Ko'rishni tiklash: jadval va 3×30 soniya",
       "magiz": [
-        "Limon obrazi. Ko'zni yumib, pishgan limonni qo'lga oling, hidlang, olmadek tishlang va chaynang. Og'izda so'lak paydo bo'ladi. Siz bezlarga buyruq bermadingiz — organizm obrazga javob berdi. Xulosa: fikr va obraz moddiy.",
-        "«Sog'lom bo'lishni xohlayman» degan gap organizm uchun «bengal yong'og'i» degan uydirma so'z bilan bir xil — u nimani bajarishni bilmaydi. Tana so'zga emas, obrazga javob beradi.",
-        "Besh barmoq obrazi. Kaftni yuz oldiga tuting va bitta barmoqni uzoq, mehr bilan kuzating. Bir necha soniyada u boshqalardan farq qila boshlaydi: iliqlik, og'irlik, sanchiq, puls. Diqqat qayerga yo'naltirilsa, o'sha yerda sezgirlik va qon aylanishi o'zgaradi.",
-        "Bolalar so'z bilan emas, obraz bilan fikrlaydi va shuning uchun tez tuzaladi. Qandli diabetli uch yashar qizcha suvli vannachada o'tirib «men shakarman, men shakarman» deb takrorlagan — chunki shakar suvda eriydi. Bolalar uchun bu o'yin emas, haqiqat.",
-        "Yoshlik obrazi — kitobning markaziy tasavvur mashqi: sharshara ostida turib o'tmish, xafagarchilik va kasallikni yuvib tashlash; osmonga ko'tarilib bo'ronning kuchini o'ziga singdirish; keyin oynada o'zini yosh, sog'lom va tetik ko'rish. So'ng shu obraz bilan raqsga tushish.",
-        "Oktava — ruhni tarbiyalash mashqi. Bu «sog'lom bo'lishni xohlayman» degan tilanchilik emas, «shunday bo'ladi» degan ichki buyruq. Oktava — ishonch, kuch, qudrat bilan mehr, nazokat va parvoz hissining qorishmasi. Tashqi tomondan u ko'rinmaydi: yuzda yengil tabassum, orqa tik, nafas tekis.",
-        "Har kimning o'z Oktavasi bor. Kitobdagi hikoyada bir chol uchun bu — kechasi hangragan eshak ovozi, chunki u ovoz cholga o'zining o'n sakkiz yoshligini, ilk uchrashuvini qaytaradi."
+        "Jadval — qog'oz bo'lagi va u o'zi hech narsa bermaydi. Uning vazifasi bitta: hissiyot bilan ishlayotganingizni ko'rsatib turadigan ko'rsatkich bo'lish.",
+        "Shuning uchun jadvalga tikilinmaydi. Unga «o'tib ketayotgandek» qaraladi, diqqat esa ichki holatga qaratiladi.",
+        "Mashqning aniq tartibi: ishchi qatorga ikki ko'z bilan yengil va silliq o'ngga-chapga sirpanib qaraysiz, hech narsada to'xtamaysiz — va har 2–3 soniyada kayfiyatni yana bir pog'ona ko'tarasiz.",
+        "Bir yondashuv — 30 soniyadan uch marta. Bir seansda uchta yondashuv qilinadi.",
+        "Ko'rish emas, ichki holat kuzatiladi. Siz ko'zga avans berasiz, ular esa unga moslasha boshlaydi.",
+        "«Turaman va ko'rishim yaxshilanishini kutaman» — kitobda bu eng samarasiz yondashuv deb ataladi.",
+        "Har yondashuvdan keyin ko'zni bo'shashtiruvchi mashqlar qilinadi va jadvalga yorug'lik boshqa burchakdan tushadigan qilib joy o'zgartiriladi.",
+        "Kitobning o'z xavfsizlik qoidasi: ko'zni zo'riqtirish natijani teskari qiladi. Ko'zni pirpiratib turing, qisib qaramang va keng ochib yubormang."
       ],
       "tavsiyalar": [
-        "«Sog'lom bo'lishni xohlayman» o'rniga aniq obraz yarating: o'zingizni qanday ko'rmoqchisiz — yuzingiz, qomatingiz, ko'zingiz, ichki holatingiz qanday bo'ladi?",
-        "Nosog' a'zoga bir necha oylik chaqaloqday munosabatda bo'ling. Chaqaloq yig'lasa, ovozini o'chirmaysiz — sababini topib bartaraf qilasiz.",
-        "Mashqni faqat Oktava holatida bajaring. Boshingiz begona fikrlar bilan to'la bo'lsa, butun mehnat behuda ketadi.",
-        "Yaratgan yoshlik obrazingizni har kuni bir marta esga oling. Dushda turganingizda o'zingizni o'sha sharshara ostida tasavvur qiling.",
-        "Oktava paytida hech qanday zo'riqish bo'lmasin: yurak tinch ursin, bosh tiniq, nafas tekis bo'lsin. Bu — kuch ishlatish emas, egalik holati."
-      ],
-      "mashqlar": [
-        {
-          "turi": "taymer",
-          "daqiqa": 3,
-          "korsatma": "Besh barmoq obrazi. Kaftingizni yuz oldiga tuting va bitta barmoqni tanlang. Undan ko'zingizni uzmasdan, mehr bilan kuzating — ichini va tashqarisini. Tabassumni unutmang. Uch daqiqada shu barmoqda iliqlik, og'irlik, sanchiq yoki pulsatsiya paydo bo'lishini kuzating. Shu mexanizm keyinchalik ko'z yoki boshqa a'zo bilan ishlashda qo'llaniladi."
-        },
-        {
-          "turi": "taymer",
-          "daqiqa": 10,
-          "korsatma": "Yoshlik obrazi. Ko'zni yuming. Okean bo'yidagi uydan chiqib, sharshara tomon boryapsiz. Suv ostiga kiring: har bir tomchida quyosh nuri bor. Suv sizdan o'tib, barcha xafagarchilik, shubha va charchoqni yuvib ketmoqda. Keyin osmonga ko'tariling — bulutlar, momaqaldiroq, yomg'ir. Ularning kuchini o'zingizga singdiring. Uyga qayting, oynaga qarang va o'zingizni sog'lom, tetik, yosh ko'ring. Bu obrazni eslab qoling — u sizning etaloningiz."
-        },
-        {
-          "turi": "jurnal",
-          "savol": "Sizning Oktavangiz nima? Hayotingizdagi qaysi lahza sizni kuchli, yosh, chegarasiz his qildirgan? Bolangizni birinchi marta quchoqlaganingizmi, ilk sevgingizmi, biror g'alabangizmi? Uni imkon qadar batafsil yozing — hidlari, ranglari, ovozlari bilan. Bu yozuv keyingi barcha mashqlar uchun ichki manba bo'ladi."
-        },
-        {
-          "turi": "test",
-          "savol": "Kitobga ko'ra, organizm qaysi buyruqqa aniq javob beradi?",
-          "variantlar": [
-            "«Sog'lom bo'lishni xohlayman» degan so'zga",
-            "Aniq, hissiy va tasvirli obrazga",
-            "Kasallikning tibbiy nomini takrorlashga",
-            "Boshqa odamning maslahatiga"
-          ],
-          "izohlar": [
-            "Bu organizm uchun uydirma so'z bilan bir xil. U so'raydi: xo'jayin, nima qilay, menga tushunarli tilda ko'rsat.",
-            "To'g'ri. Limon obrazi aynan shuni ko'rsatadi: siz so'lak bezlariga buyruq bermadingiz, obraz o'zi ishlatdi. Shuning uchun maqsadni obrazga aylantirish kerak.",
-            "Tashxis nomini takrorlash kasallikni ongda mustahkamlaydi. Kitobda buni «kasallikni himoya qilish» deb ataladi.",
-            "Boshqaning maslahati sizning ichki holatingizni almashtira olmaydi. Muallif takrorlaydi: xarakter tashqaridan emas, ichkaridan eritiladi."
-          ]
-        }
-      ]
-    },
-    {
-      "sarlavha": "Ko'rishni tiklash mexanizmi",
-      "magiz": [
-        "Butun mexanizm uchta so'zga sig'adi: mushak korseti — kayfiyat — natija. Qomat va tabassumni oling, keyin ko'rish yaxshilana boshlaguncha kayfiyatni ko'taring. Yaxshilanmasa — kayfiyatni yana ko'taring.",
-        "Mashq jadvali — mo''jiza emas, oddiy qog'oz. U indikator: siz ichki ishlayapsizmi yoki shunchaki qarab o'tiribsizmi, shuni ko'rsatadi. Kuchingizning 90 foizi mushak korseti va kayfiyatga, atigi 10 foizi texnikaga ketishi kerak.",
-        "Ish qatori — yuqorisini yaxshi ko'rasiz, pastini xiralashib ko'rasiz, o'sha chegaradagi qator. Ko'z «talab qilsa» ham chegarani shoshib pastga surmang: bu xavfsizlik texnikasi.",
-        "Jadvalga to'g'ridan-to'g'ri tikilmang, o'tayotgandek qarang. Siz qatorni emas, ichki holatingizni kuzatasiz — ko'z o'zi moslashadi.",
-        "Yaxshilanish to'lqinsimon boradi: bir necha soat ko'tarilish, keyin qisqa pasayish, keyin yana ko'tarilish. Muhimi: ko'tarilish davri har doim pasayish davridan uzunroq bo'ladi, egri chiziq esa doim yuqoriga qarab ketadi.",
-        "Uch bosqich: ishga tushirish (2-3 kun), tiklash (dioptriyaga qarab), moslashuv (20-40 kun). Uchinchi bosqichni tashlab yuborish — natijani yo'qotishning eng keng tarqalgan sababi, chunki miya yangi normani hali «balansga olmagan» bo'ladi.",
-        "Avtomatizm — har qanday yaxshi boshlanishning dushmani. Bir ayol +7 dioptriyadan 5 tasini olib tashlagan-u, qolgan ikkitasi qimirlamagan: chunki u tinchlanib, mashqni mexanik bajara boshlagan."
-      ],
-      "tavsiyalar": [
-        "Bir seansda uchta yondashuv, har biri 30 soniyadan uch marta. Kuniga ikki marta — ertalab va tushdan keyin, jami 10 daqiqadan.",
-        "Bugundanoq kuchsizroq ko'zoynakka o'ting. Eski ko'zoynakni besh daqiqaga ham kiymang — o'nlab yillik odat bir zumda qaytadi.",
-        "Bir dioptriyaga 4-6 kun bering. Tez surish jarayonni to'xtatadi: tabiat shoshilishni yoqtirmaydi.",
-        "Ko'zni qisib yoki kattalashtirib qaramang, ko'z pirillatishni unutmang — har qanday zo'riqish teskari natija beradi.",
-        "Boshqa ko'zoynak taqadigan odamlar bilan bu mavzuda bahslashmang, ayniqsa moslashuv bosqichi tugagunicha. Bitta shubhali gap butun mehnatni yo'qqa chiqaradi.",
-        "Natija chiqa boshlagach to'xtamang. Maxovik ishga tushdi — endi uning harakatini saqlab turish kerak."
+        "Seans oldidan bir oyoqda sakrang va yuzdan «juda aqlli» ifodani oling — kitobning o'z ko'rsatmasi.",
+        "Jadvalni o'z masofangizda ushlang va faqat ishchi qatorga qarang.",
+        "Har 2–3 soniyada kayfiyatni bir pog'ona oshiring, aks holda 30 soniya bo'sh o'tadi.",
+        "Ko'rish yaxshilanishining birinchi uchquni paydo bo'lgach, kayfiyatni o'sha darajada ushlang.",
+        "Har yondashuvdan keyin ko'zni bo'shashtiring va jadvalga yorug'lik boshqa burchakdan tushsin.",
+        "Ko'zni zo'riqtirmang: og'riq yoki charchoq paydo bo'lsa, mashqni to'xtating."
       ],
       "mashqlar": [
         {
           "turi": "taymer",
           "daqiqa": 0.5,
-          "korsatma": "Bitta 30 soniyalik yondashuv. Qomatni to'g'rilang, tabassum yarating. Ichingizda hozir bir oz yaxshiroq ko'rishingizdan quvonch uyg'oting. Jadvalning ish qatori bo'ylab o'ngga-chapga yengil sirg'aling, hech narsaga tikilmang. Har 2-3 soniyada kayfiyatni yana bir pog'ona ko'taring. Bir seansda bu 30 soniyani uch marta, jami uchta yondashuvda takrorlaysiz."
+          "korsatma": "Jadval bilan bitta 30 soniyalik bosqich. Qomat, tabassum, kayfiyat joyida. Jadvalni o'z masofangizda ushlang. Ishchi qatorga ikki ko'z bilan yengil sirpanib qarang: o'ngga-chapga, hech narsada to'xtamasdan. Har 2–3 soniyada kayfiyatni bir pog'ona oshiring. Pirpiratishni unutmang. Bir yondashuv — shu taymerni ketma-ket uch marta."
         },
         {
-          "turi": "test",
-          "savol": "Jadval bilan ishlayapsiz, lekin natija yo'q. Kitobga ko'ra birinchi navbatda nimani tekshirish kerak?",
-          "variantlar": [
-            "Jadvalning sifati va yorug'likni",
-            "Mushak korseti va kayfiyat darajasini",
-            "Ko'zning charchaganini",
-            "Tashxisning og'irligini"
-          ],
-          "izohlar": [
-            "Jadval — bir parcha qog'oz. Yorug'lik burchagini o'zgartirish foydali, lekin sabab u yerda emas.",
-            "To'g'ri. Muallifning javobi doim bitta: qomatni tiklang va kayfiyatni ko'ring boshlaguncha ko'taring. Kuchning 90 foizi shu yerga ketishi kerak.",
-            "Charchoq bo'lsa bo'shashish mashqini bajaring, lekin bu asosiy sabab emas. Zo'riqish esa aksincha, natijani to'xtatadi.",
-            "Muallif tashxisni sabab deb qabul qilmaydi: tizim kasallikka emas, surunkali bemorning xarakteriga qarshi kurashadi."
-          ]
+          "turi": "kundalik",
+          "sarlavha": "Ko'rish kundaligi",
+          "korsatma": "Har seansdan keyin yozing: qaysi qator bilan ishladingiz, uchqunlar bo'ldimi, kayfiyatni qay darajada ushlay oldingiz. Belgilar maydoniga sharoitni yozing — ertalab, kechqurun, tabiiy yorug'lik, sun'iy yorug'lik, charchoq. Bir necha hafta yozgach, qaysi sharoitda natija yaxshiroq ekanini raqamlardan ko'rasiz.",
+          "joy_matn": "Bugungi seans: … qator. Uchqun: … Kayfiyat: …",
+          "belgi_matn": "Sharoit: ertalab, kechqurun, tabiiy yorug'lik, charchoq…"
         },
         {
           "turi": "checklist",
-          "sarlavha": "Xavfsizlik texnikasi — har seansda tekshiring",
+          "sarlavha": "Seans tartibi va xavfsizlik",
           "bandlar": [
-            "Mashqni ko'zoynaksiz bajardim",
-            "Eski, kuchli ko'zoynakni bugun umuman kiymadim",
-            "Ish qatorini shoshilib pastga surmadim",
-            "Ko'zni qisib yoki kattalashtirib qaramadim, muntazam pirillatib turdim",
-            "Ish mashqidan keyin bo'shashish mashqini bajardim",
-            "Natija chiqqanda tinchlanib qolmadim, davom ettirdim"
+            "Seans oldidan qomat va mimikani sozladim",
+            "Jadvalga tikilmadim — sirpanib qaradim",
+            "Har 2–3 soniyada kayfiyatni oshirdim",
+            "Uch yondashuvni bajardim (har biri 3×30 soniya)",
+            "Yondashuvlar orasida ko'zni bo'shashtirdim",
+            "Ko'zni zo'riqtirmadim, pirpiratib turdim"
           ]
         },
         {
           "turi": "slider",
-          "savol": "Bugungi mashqda kuchingizning qancha qismi ichki holatga (qomat, tabassum, quvonch) ketdi? Kitobdagi me'yor — 9 dan yuqori.",
+          "savol": "Seans davomida kayfiyatni qanchalik ushlab tura oldingiz?",
           "min": 1,
           "max": 10,
-          "min_yorliq": "Hammasi texnikaga",
-          "max_yorliq": "Hammasi ichki holatga"
+          "min_yorliq": "Darrov so'ndi",
+          "max_yorliq": "Oxirigacha ushladim"
         }
       ]
     },
     {
-      "sarlavha": "Kundalik amaliyot va uzoq yo'l",
+      "sarlavha": "Ko'z mashqlari va kunlik amaliyot",
       "magiz": [
-        "Ko'z butun organizmdan ajralgan holda yashamaydi. Shuning uchun tizimda bo'g'in gimnastikasi va umurtqa mashqlari majburiy: umurtqadagi siqilish nerv ildizlarini bosadi, qon aylanishini buzadi va bu ko'rishga ham ta'sir qiladi.",
-        "Har bir mashqda 90 foiz e'tibor texnikaga emas, o'zingizda tarbiyalamoqchi bo'lgan xarakter xususiyatiga qaratilishi kerak. Mexanik bajarish — hech qayerga olib bormaydigan yo'l.",
-        "Nafas qoidasi oddiy: har qanday kuchlanishga nafas chiqarish, bo'shashishga nafas olish to'g'ri keladi. Nafasni hech qachon ushlab turmang.",
-        "Bo'shashish mashqi («hammasiga befarq» holati): kaftlarni ishqalab isiting, ko'zga qo'ying, yorug'lik o'tmasin, lekin kipriklar kaftga tegmasin. Ichkarida to'liq bo'shliq va befarqlik holatini yarating. Bo'shashish ish mashqidan kamida ikki barobar uzoq bo'lishi kerak.",
-        "Quyosh bilan ishlash qat'iy qoidaga bo'ysunadi: quyoshga faqat chiqish yoki botish paytida, ufqda uning yarim doirasi ko'rinib turganda qaralади. Quyosh tepada bo'lganda bu mashq mutlaqo mumkin emas.",
-        "Ko'z bilan nafas olish: burun orqali nafas oling va chiqaring, diqqatni ko'zga ko'chiring. Nafas olishdagi salqinlik ko'zga eng yaxshisini beradi, chiqarishdagi iliqlik esa xalaqit berayotgan hamma narsani olib ketadi. Bu mashqni istalgan joyda bajarish mumkin.",
-        "Kitobning oxirgi maslahati: mashqni vaqt va joyga qattiq bog'lamang — aynan shu bog'liqlikdan dangasalik foydalanadi. Ko'z mashqlarini bekatda, transportda, navbatda ham bajarish mumkin."
+        "Ko'z mashqlari kitobda qat'iy ketma-ketlikda beriladi — murakkablik oshib boradi va tartibni buzish mumkin emas.",
+        "Birinchi to'rttasi yo'nalishlar: yuqoriga, pastga, chapga, o'ngga. Muhimi shundaki, ko'z harakati fikran davom ettiriladi — go'yo tepa suyagiga, bo'yin bezi tomonga yoki quloq orqasiga qarayotgandek.",
+        "«Kapalak»: bosh qimirlamaydi, faqat ko'z ishlaydi. Qarash pastki chap → yuqori o'ng → pastki o'ng → yuqori chap burchakka, keyin teskarisiga. So'ng ko'z tez-tez va yengil pirpiratiladi.",
+        "«Sakkizlik»: yuz doirasida imkon qadar katta gorizontal sakkizlik chiziladi — bir tomonga bir necha marta, keyin ikkinchisiga.",
+        "G'ilaylik mashqi burun uchiga, keyin burun ustiga, keyin qosh orasidagi nuqtaga qarab bajariladi; har safar oldinga va yon tomonga tarqatib, har yo'nalishda 7–8 marta.",
+        "«Katta doira»: oldingizda katta oltin rangli soat siferblatini tasavvur qiling va har bir raqamni belgilab, sekin aylanib chiqing. Burchaklarni kesmang — chiziq tekis bo'lsin.",
+        "1–8-mashqlar uch bosqichda bajariladi: avval ochiq ko'z bilan, keyin yumuq ko'z bilan, so'ng faqat fikran.",
+        "Umurtqa va bo'g'in mashqlari ham shu tizimning bir qismi: qomatsiz mashq natija bermaydi."
       ],
       "tavsiyalar": [
-        "Har kuni bo'g'in gimnastikasini bajaring: birinchi hafta 35 daqiqa, o'zlashtirgach 15-20 daqiqa yetadi.",
-        "Har bir harakatda ro'yxatingizdan bitta ijobiy xarakter xususiyatini tanlang va uni jismonan his qilishga harakat qiling.",
-        "Ertalab och qoringa bir stakan issiq qaynatilgan suv iching va uning tomirlaringizni tozalayotganini tasavvur qiling.",
-        "Ko'z mashqlarini kuniga kamida bir marta 10 daqiqa bajaring, eng yaxshisi — jadval bilan ishlashdan oldin.",
-        "Bo'shashish mashqlarini imkon qadar tez-tez qiling: ular ko'rishni tiklashni tezlashtiradi va butun nerv tizimiga foydali.",
-        "Bo'yingizni o'lchab qo'ying — umurtqalar orasidagi masofa tiklanishi hisobiga odatda 1-3 santimetr o'sish kuzatiladi.",
-        "Har kuni ertalab o'zingizda tinchlik, quvonch, nazokat, go'zallik, kuch va mehr borligini iroda kuchi bilan yarating. Nima mashq qilinsa, o'sha rivojlanadi."
+        "Mashqlarni kitobdagi tartibda bajaring — o'rnini almashtirmang.",
+        "Bosh qimirlamasin: faqat ko'z ishlasin, bo'yin bo'sh tursin.",
+        "Har mashqdan keyin ko'zni tez-tez va yengil pirpiratib bo'shashtiring.",
+        "G'ilaylik mashqini tinch sharoitda qiling — hech kim va hech narsa cho'chitmasin.",
+        "Har uchala bosqichni bajaring: ochiq ko'z, yumuq ko'z, fikran.",
+        "Kunlik majmuani bir vaqtda bajaring va uni transport yoki navbat kutgan paytga ham ko'chiring."
       ],
       "mashqlar": [
         {
+          "turi": "taymer",
+          "daqiqa": 6,
+          "korsatma": "Ko'z mashqlari to'plami. Bosh qimirlamaydi. 1) Yuqoriga qarang, diqqatni tepa suyagiga davom ettiring. 2) Pastga — diqqat bo'yin bezi tomonga. 3) Chapga — diqqat chap quloq orqasiga. 4) O'ngga — o'ng quloq orqasiga. 5) Kapalak: pastki chap → yuqori o'ng → pastki o'ng → yuqori chap, keyin teskarisiga. 6) Sakkizlik: katta gorizontal sakkizlik, ikki tomonga. 7) Katta doira: oltin siferblat bo'ylab sekin, burchaklarni kesmasdan. Har mashqdan keyin yengil pirpiratib bo'shashtiring."
+        },
+        {
           "turi": "checklist",
-          "sarlavha": "Kunlik reja — kitobdagi majburiy ro'yxat",
+          "sarlavha": "Kunlik majmua",
           "bandlar": [
-            "Bo'g'in va umurtqa gimnastikasi (15-35 daqiqa)",
-            "Deraza oynasidagi belgi va uzoqdagi buyum bilan mashq (2 marta 10 daqiqadan)",
-            "Ko'z uchun mashqlar: Kapalak, Sakkizlik, Katta doira (10 daqiqa)",
-            "Bo'shashish mashqlari (kamida 10 daqiqa)",
-            "Jadval bilan ishlash (ertalab va tushdan keyin)",
-            "Quyosh bilan ishlash (ertalab, 10 daqiqagacha)",
-            "Ko'z bilan nafas olish (kun davomida, imkon bo'lganda)"
+            "Qomat va mimikani sozladim",
+            "Ko'z mashqlarini kitobdagi tartibda bajardim",
+            "Har mashqdan keyin bo'shashtirdim",
+            "Uchala bosqichni bajardim: ochiq, yumuq, fikran",
+            "Umurtqa va bo'g'in mashqlarini qildim",
+            "Jadval bilan uch yondashuv qildim",
+            "Oktavani bajardim"
           ]
         },
         {
-          "turi": "taymer",
-          "daqiqa": 5,
-          "korsatma": "Bo'shashish mashqi. Kaftlaringizni ishqalab isiting. Barmoqlarni peshonada chalishtiring, jimjilaklar asosini burun ustiga — ko'zoynak dastasi turadigan joyga qo'ying. Kaftlarni kosachaday qiling: yorug'lik o'tmasin, lekin kipriklar kaftga tegmasin. Ko'z qovoqlarini yuming. Jag', til, yelka, qo'l — hammasi bo'sh. Ichkarida to'liq befarqlik va bo'shliq holatini yarating. Qorong'ilikni yoki paydo bo'layotgan tasvirlarni kuzatib turing."
-        },
-        {
-          "turi": "taymer",
-          "daqiqa": 15,
-          "korsatma": "Bo'g'in gimnastikasi. Quloq suprasidan boshlang: pastga, yuqoriga, yon tomonga torting, aylantiring. Keyin qo'l panjalari, bilak, tirsak, yelka; so'ng oyoq panjalari, tizza, chanoq-son bo'g'imlari. Har bir harakatda kuchlanish va yengil bo'shashishni almashtiring, kuchlanishda nafas chiqaring. Eng muhimi: har harakatda ro'yxatingizdan bitta ijobiy xususiyatni — masalan, qat'iyat yoki mehrni — o'zingizda jismonan uyg'otishga harakat qiling."
-        },
-        {
-          "turi": "jurnal",
-          "savol": "Bugungi mashqlar davomida o'zingizda qaysi xarakter xususiyatini tarbiyaladingiz? Uni his qila oldingizmi yoki mashqni mexanik bajardingizmi? Halol yozing — bu yozuv sizning haqiqiy o'sish o'lchovingiz."
+          "turi": "eslatma",
+          "sarlavha": "Kunlik mashq vaqti",
+          "matn": "Mashq vaqti. Qomat, tabassum, kayfiyat — keyin majmua.",
+          "korsatma": "Kuniga ikki vaqt qo'ying — ertalab va kechqurun. Kitobning talabi muntazamlik: uzun lekin siyrak mashq qisqa lekin kunlik mashqdan past turadi.",
+          "vaqtlar": [
+            "07:00",
+            "19:00"
+          ]
         },
         {
           "turi": "slider",
-          "savol": "Bugungi mashqlaringizni mexanik emas, ichki holat bilan bajardingizmi?",
-          "min": 1,
-          "max": 10,
-          "min_yorliq": "Butunlay mexanik",
-          "max_yorliq": "To'liq ichki holat bilan"
+          "savol": "Bu hafta necha kun majmuani to'liq bajardingiz?",
+          "min": 0,
+          "max": 7,
+          "min_yorliq": "0 kun",
+          "max_yorliq": "7 kun"
         }
       ]
     }
