@@ -1714,8 +1714,9 @@ function TurkumKarta(props) {
   const kitoblar = guruh.kitoblar || [];
   const hisob = guruhHisob(kitoblar, props.barcha);
   const ichida = kitoblar.some(function (k) { return k.id === props.oxirgi; });
-  const muallif = kitoblar.length && kitoblar.every(function (k) { return k.muallif === kitoblar[0].muallif; })
+  const bir = kitoblar.length && kitoblar.every(function (k) { return k.muallif === kitoblar[0].muallif; })
     ? kitoblar[0].muallif : null;
+  const muallif = bir && bir !== guruh.nomi ? bir : null;
 
   return (
     <button className={'turkum-karta' + (ichida ? ' faol' : '')} onClick={props.och}>
@@ -1880,8 +1881,9 @@ function TurkumSahifa(props) {
   const oxirgi = oqi('km_oxirgi', null);
   const kitoblar = (props.kitoblar || []).filter(function (k) { return k.turkum === props.nomi; });
   const hisob = guruhHisob(kitoblar, props.barcha);
-  const muallif = kitoblar.length && kitoblar.every(function (k) { return k.muallif === kitoblar[0].muallif; })
+  const bir = kitoblar.length && kitoblar.every(function (k) { return k.muallif === kitoblar[0].muallif; })
     ? kitoblar[0].muallif : null;
+  const muallif = bir && bir !== props.nomi ? bir : null;
 
   return (
     <div>

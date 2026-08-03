@@ -1,0 +1,389 @@
+{
+  "id": "kastaneda-3",
+  "nomi": "Kastaneda 3: Ikstlanga sayohat",
+  "muallif": "Karlos Kastaneda",
+  "kirish": "Turkumdagi eng amaliy kitob. Bu yerda don Xuan «jangchi yo'li»ning aniq mashqlarini beradi: shaxsiy tarixni o'chirish, o'zini muhim sanashdan voz kechish, o'limni maslahatchi qilish, mas'uliyatni o'z zimmasiga olish, ovchi va yetib bo'lmaydigan bo'lish, odатlarni buzish va «qilmaslik». Har biri alohida topshiriq — o'qib emas, bajarib o'zlashtiriladi.",
+  "bolimlar": [
+    {
+      "sarlavha": "Shaxsiy tarixni o'chirish",
+      "magiz": [
+        "Atrofdagilar sizni bilishadi deb o'ylashadi: kimligingizni, nima qilishingizni, nimaga qodir emasligingizni. Bu bilim sizni bir joyda mahkam ushlab turadi.",
+        "Don Xuanning taklifi radikal: o'zingiz haqingizdagi ma'lumotni asta-sekin olib tashlang. Hech kimga to'liq hisobot bermang.",
+        "Buning maqsadi yolg'on emas — tuman yaratish. Sizni aniq biladigan odamlar sizdan aniq narsani kutadi va shu kutish sizni qamab qo'yadi.",
+        "Eng qiyin qismi — o'zingiz ham o'z tarixingizga ishonasiz. «Men shunday odamman» degan jumla har kuni takrorlanadi va o'zini tasdiqlaydi.",
+        "Don Xuanning o'zi hech kimga o'zi haqida aniq gapirmaydi: uning yoshi, o'tmishi, oilasi noaniq. Bu qochish emas, erkinlik.",
+        "Shaxsiy tarixni o'chirgan odam yengil bo'ladi: uni hech kim oldindan hisoblab bo'lmaydi, shu jumladan o'zi ham."
+      ],
+      "tavsiyalar": [
+        "Bir hafta davomida o'zingiz haqingizda kamroq gapiring — savolga qisqa javob bering va mavzuni almashtiring.",
+        "«Men shunday odamman» degan jumlani ushlang. Uni «shu vaqtgacha shunday qilib keldim» ga almashtiring.",
+        "Sizni «biladigan» odamlarni hayron qoldiradigan bitta ish qiling — kichik bo'lsa ham.",
+        "Ijtimoiy tarmoqda o'zingiz haqingizda avtomatik hisobot berishni bir muddat to'xtatib ko'ring.",
+        "Eski hikoyalaringizni takrorlashni to'xtating: har takror sizni o'sha odam qilib qoldiradi."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "O'zingiz haqingizda eng ko'p takrorlaydigan uchta hikoyani yozing. Har birining yoniga savol: bu hikoya menga nima beradi va nimadan ozod qilmaydi?"
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Tarixni o'chirish — bir hafta",
+          "bandlar": [
+            "Bu hafta o'zim haqimda kamroq gapirdim",
+            "Bitta eski hikoyani takrorlamadim",
+            "«Men shunday odamman» jumlasini o'zgartirdim",
+            "Meni biladiganlarni hayron qoldiradigan ish qildim",
+            "Kimgadir to'liq hisobot bermadim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Atrofdagilar sizni qanchalik oldindan bilib turishadi?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Meni hech kim hisoblay olmaydi",
+          "max_yorliq": "Hamma nima qilishimni biladi"
+        },
+        {
+          "turi": "test",
+          "savol": "Shaxsiy tarixni o'chirishning maqsadi nima?",
+          "variantlar": [
+            "Odamlarni aldash",
+            "Boshqalarning va o'zining kutishlaridan ozod bo'lish",
+            "Yolg'iz qolish",
+            "O'tmishni unutish"
+          ],
+          "izohlar": [
+            "Aldash emas. Masala ma'lumotning kamayishida, uning buzilishida emas.",
+            "To'g'ri. Aniq bilingan odam aniq kutishlarga qamalgan bo'ladi.",
+            "Yolg'izlik maqsad emas. Aksincha, odam odamlar bilan erkinroq bo'ladi.",
+            "O'tmishni unutish shart emas — uni har kuni takrorlashni to'xtatish kerak."
+          ]
+        }
+      ]
+    },
+    {
+      "sarlavha": "O'zini muhim sanashdan voz kechish",
+      "magiz": [
+        "Don Xuan uni odamning eng katta yukini deb ataydi: umrining katta qismi o'zini himoya qilish va qadrini talab qilishga ketadi.",
+        "O'zini muhim sanagan odam doim xafa bo'lishi kerak. Xafalik esa har safar bir bo'lak kuchni olib ketadi.",
+        "Bu tuyg'u o'zini boshqalar orqali ko'radi: «u menga qanday qaradi», «meni qadrladimi». Shuning uchun u odamni boshqalarning qo'liga beradi.",
+        "Don Xuan mashqni juda oddiy qiladi: o'simlik bilan gaplashish, uni hurmat qilish, chumolidan uzr so'rash. Maqsad kulgili bo'lish emas — o'zining markaziy o'rnidan tushish.",
+        "O'zini muhim sanashdan voz kechgan odam yengillashadi va aynan shundan keyin uning e'tibori tashqariga qaray boshlaydi.",
+        "Bu bir martalik qaror emas. U har kuni, har suhbatda qaytadan sinaladi."
+      ],
+      "tavsiyalar": [
+        "Kuniga bir marta o'zingizni past qo'yib ko'ring: kimningdir gapiga bahslashmasdan quloq soling.",
+        "Xafa bo'lganingizda darrov reaksiya qilmang — 24 soat kuting.",
+        "Sizga e'tibor bermagan odamni ichingizda oqlang: ehtimol u shunchaki band.",
+        "Kichik jonzot yoki o'simlikka e'tibor bering — bu «markaz men emas» mashqi.",
+        "Har hafta yakunida xafalik sonini sanang. Kamayayaptimi?"
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Bugun o'z qadringizni himoya qilishga qancha vaqt va kuch ketdi? Aniq holatlarni yozing. Har birining yoniga: bu himoya nimani saqlab qoldi?"
+        },
+        {
+          "turi": "taymer",
+          "daqiqa": 10,
+          "korsatma": "«Markaz men emas» mashqi. O'n daqiqa tashqarida yoki deraza oldida turing va faqat sizga aloqasi bo'lmagan narsalarni kuzating: o'simlik, hasharot, bulut, notanish odam. Ular sizsiz ham bor. Har safar fikr o'zingizga qaytsa, uni sezing va yana tashqariga qayting."
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Yukni kamaytirish",
+          "bandlar": [
+            "Bugun bir bahsdan voz kechdim",
+            "Xafalikka 24 soat kutib javob berdim",
+            "Kimningdir e'tiborsizligini oqladim",
+            "Kichik jonzotga e'tibor berdim",
+            "Bu hafta xafalik sonim kamaydi"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "O'z qadringizni himoya qilishga qancha kuch ketyapti?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Deyarli hech",
+          "max_yorliq": "Kuchimning ko'p qismi"
+        }
+      ]
+    },
+    {
+      "sarlavha": "O'lim — maslahatchi",
+      "magiz": [
+        "Don Xuanning eng mashhur maslahati: o'lim chap yelkangizda, bir qo'l masofasida turadi. Har doim.",
+        "Bu qo'rqitish uchun emas. O'lim — eng adolatli maslahatchi: har qanday holatda u haqiqiy muhimni ahamiyatsizdan ajratib beradi.",
+        "Ikkilanganingizda o'limga o'giriling va so'rang: bu haqiqatan muhimmi? Javob deyarli har doim aniq keladi.",
+        "Kastaneda buni qabul qilishga qiynaladi — u o'limni uzoq va noaniq narsa deb ko'radi. Don Xuan esa uni har lahzada mavjud deb ko'rsatadi.",
+        "Odam o'lishini eslasa, arzimas narsaga jahl qilmaydi va muhim narsani keyinga surmaydi.",
+        "Bu tushuncha butun kitobni bog'lab turadi: shaxsiy tarix, o'zini muhim sanash, odatlar — ularning hammasi o'lim yonida vaznini yo'qotadi."
+      ],
+      "tavsiyalar": [
+        "Ikkilanganingizda chap yelkangizga o'giriling va savol bering: bu o'lim yonida qanchalik muhim?",
+        "Kunni shu savol bilan boshlang: agar bu oxirgi kunim bo'lsa, bugun nima qilmagan bo'lardim?",
+        "Xafa bo'lganda o'limni eslang — xafaliklarning ko'pi shu yerda tarqaydi.",
+        "Muhim gapni keyinga surmang: aytiladigan gap bugun aytilsin.",
+        "Bu mashqni g'amgin qilmang. Uning maqsadi — hayotni tiniqlashtirish, uni og'irlashtirish emas."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Hozir sizni bezovta qilayotgan uchta narsani yozing. Har birining yoniga o'limdan so'rang va javobni yozing: bu haqiqatan muhimmi? Nechtasi qoldi?"
+        },
+        {
+          "turi": "test",
+          "savol": "O'limni maslahatchi qilishning maqsadi nima?",
+          "variantlar": [
+            "Doim qo'rquvda yashash",
+            "Muhimni ahamiyatsizdan ajratish",
+            "Hayotdan zavq olishni to'xtatish",
+            "Boshqalarni jiddiyroq qilish"
+          ],
+          "izohlar": [
+            "Aksincha. O'lim qo'rquvni emas, tiniqlikni beradi.",
+            "To'g'ri. Kitobdagi ta'rif: o'lim — eng adolatli maslahatchi.",
+            "Kitob buni aytmaydi: don Xuan ko'p kuladi va hayotdan zavq oladi.",
+            "Bu boshqalar haqida emas — faqat o'zingiz haqingizda."
+          ]
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "O'lim yonida yashash",
+          "bandlar": [
+            "Kunni «agar bu oxirgi kun bo'lsa» savoli bilan boshladim",
+            "Bitta ikkilanishni o'lim maslahatchisi bilan hal qildim",
+            "Muhim gapni bugun aytdim",
+            "Arzimas narsaga jahl qilmadim",
+            "Kunni tugallanmagan ish qoldirmasdan yopdim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Bugungi tashvishlaringiz o'lim yonida qanchalik og'ir?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Deyarli vaznsiz",
+          "max_yorliq": "Juda og'ir"
+        }
+      ]
+    },
+    {
+      "sarlavha": "Mas'uliyatni o'z zimmangizga olish",
+      "magiz": [
+        "Don Xuanning qoidasi: qilingan har bir ish uchun to'liq javobgarlik o'zingizda. Sharoit, odamlar, davr — hech biri sabab emas.",
+        "Bu og'ir tuyuladi, lekin aslida yengillashtiradi: mas'uliyatni o'ziga olgan odam boshqalarni ayblashga kuch sarflamaydi.",
+        "Jangchi qaror qabul qilishdan oldin uzoq o'ylaydi. Lekin qaror qabul qilingach, shubhalanmaydi va afsuslanmaydi.",
+        "Afsus — kuchni yeyishning eng samarali usuli. Qilingan ish qilindi; unga qaytish faqat bugungi kuchni oladi.",
+        "Har bir harakat oxirgi jang bo'lishi mumkin degan qarash bilan qilinadi. Shuning uchun u to'liq va sifatli bo'ladi.",
+        "Kastanedaning odati — sabab izlash. Don Xuan har safar uni qaytaradi: sabab emas, qaror."
+      ],
+      "tavsiyalar": [
+        "Qaror qabul qilishdan oldin o'ylang, qabul qilgach — afsuslanmang.",
+        "Bir hafta davomida «majbur bo'ldim» degan iborani ishlatmang. Uning o'rniga «men tanladim» deng.",
+        "Ayblash paydo bo'lsa, savol bering: bu vaziyatda mening qismim qaysi edi?",
+        "Har bir ishni «bu oxirgi bo'lishi mumkin» qarashi bilan qiling — sifat o'z-o'zidan ko'tariladi.",
+        "Qabul qilgan qarorlaringizni yozib boring: bu javobgarlikni ko'rinadigan qiladi."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "So'nggi paytda kimnidir yoki nimanidir ayblagan holatingizni yozing. Endi faqat o'z qismingizni yozing — boshqalarni umuman eslatmasdan. Nima ko'ryapsiz?"
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Javobgarlik amaliyoti",
+          "bandlar": [
+            "Bu hafta «majbur bo'ldim» demadim",
+            "Qabul qilgan qarorimdan afsuslanmadim",
+            "Bitta vaziyatda o'z qismimni topdim",
+            "Qarorlarimni yozib bordim",
+            "Bitta ishni «oxirgi bo'lishi mumkin» sifatida qildim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Hayotingizdagi voqealar uchun javobgarlikni qanchalik o'zingizga olasiz?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Ko'pincha sharoit aybdor",
+          "max_yorliq": "To'liq men javobgarman"
+        }
+      ]
+    },
+    {
+      "sarlavha": "Ovchi bo'lish va odatlarni buzish",
+      "magiz": [
+        "Ovchi o'ljasini qanday tutadi? Uning odatlarini o'rganib. Har bir jonzotning takrorlanadigan yo'li bor va aynan shu yo'l uni tutiladigan qiladi.",
+        "Don Xuan buni odamga qaratadi: sizning ham odatlaringiz bor va ular sizni oldindan hisoblanadigan qiladi. Odatlari bor odam — o'lja.",
+        "Ovchi bo'lish — atrofni kuzatish va o'z odatlaridan ozod bo'lish. U aniq vaqtda ovqatlanmaydi, aniq yo'ldan yurmaydi, aniq vaqtda uxlamaydi.",
+        "Bu tartibsizlik emas: ovchi rejim tuzadi, lekin rejimning quli bo'lmaydi. Farq shundaki, u har safar tanlaydi.",
+        "«Yetib bo'lmaydigan» bo'lish shu yerdan chiqadi: o'zini har doim mavjud qilib qo'ymaslik, aloqani va vaqtni o'zi belgilash.",
+        "Yetib bo'lmaydigan bo'lish — yashirinish emas. Bu o'zini tugatib qo'ymaslik: bir joyda hamma narsangizni sarflamaslik."
+      ],
+      "tavsiyalar": [
+        "Bir hafta davomida uchta kundalik odatingizni ataylab o'zgartiring: yo'l, ovqat vaqti, ertalabki tartib.",
+        "O'zingizni kuzating: kun davomida nima avtomatik bo'lyapti?",
+        "Doimo mavjud bo'lmang — javob berish vaqtingizni o'zingiz belgilang.",
+        "Sevgan narsangizni cheksiz iste'mol qilmang: uni saqlab qo'yish ham ovchining ishi.",
+        "Yangi joyga borsangiz, avval kuzating: kim qayerda, nima qachon bo'ladi."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Bir kuningizni odatlar bo'yicha yozib chiqing: soat nechada nima qilasiz? Ro'yxatga qarab, sizni oldindan hisoblash qanchalik oson? Uchta odatni belgilang — shu hafta ularni o'zgartirasiz."
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Ovchi haftasi",
+          "bandlar": [
+            "Uchta odatimni ataylab o'zgartirdim",
+            "Boshqa yo'ldan yurdim",
+            "Xabarga darrov javob bermadim",
+            "Sevgan narsamni cheklab ishlatdim",
+            "Yangi joyda avval kuzatdim, keyin harakat qildim"
+          ]
+        },
+        {
+          "turi": "test",
+          "savol": "«Yetib bo'lmaydigan bo'lish» nimani anglatadi?",
+          "variantlar": [
+            "Odamlardan yashirinish",
+            "O'zini tugatib qo'ymaslik, aloqani o'zi belgilash",
+            "Hech kimga ishonmaslik",
+            "Yolg'iz yashash"
+          ],
+          "izohlar": [
+            "Yashirinish emas — jangchi odamlar orasida yashaydi.",
+            "To'g'ri. Kitobdagi ma'no: bir joyda o'zini butunlay sarflamaslik.",
+            "Ishonch masalasi emas. Masala kuchni taqsimlashda.",
+            "Yolg'izlik shart emas; masala aloqaning sifatida."
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Kuningizning necha foizi avtomatik odatlardan iborat?",
+          "min": 0,
+          "max": 100,
+          "min_yorliq": "0%",
+          "max_yorliq": "100%"
+        }
+      ]
+    },
+    {
+      "sarlavha": "Qilmaslik va kuch yurishi",
+      "magiz": [
+        "«Qilmaslik» (neqilish) — don Xuanning eng g'alati va eng kuchli mashqi. Uning ta'rifi: bu tananing harakati, uni tushuntirib bo'lmaydi, faqat bajarish mumkin.",
+        "Qilish — dunyoni odatdagidek ushlab turadigan hamma narsa: narsalarga nom berish, ularni tanish, ular haqidagi bilim. Qilmaslik — shu odatni uzish.",
+        "Amaliy shakli oddiy: soyalarga qarash, narsaning o'zi o'rniga uning oralig'iga qarash, barg emas — barglar orasidagi bo'shliqni ko'rish.",
+        "Maqsadi — idrokni odatdan chiqarish. Don Xuan aytadi: dunyoni to'xtatish aynan qilmaslik orqali bo'ladi, ko'rish esa shundan keyin keladi.",
+        "«Kuch yurishi» — qorong'ida tez yurish usuli: tana bir oz oldinga egilgan, tizzalar baland ko'tariladi, qadam kalta, ko'z faqat oldingi yerga qaraydi, chetga qaralmaydi.",
+        "Uning maqsadi ham bir xil: ko'zni odatdagi fokusdan chiqarish va tanaga ishonish. Don Xuan buni «joyni topish» mashqi bilan bir xil deb ataydi — ikkalasi ham ishonch va o'zini qo'yib yuborishni talab qiladi."
+      ],
+      "tavsiyalar": [
+        "Kuniga bir necha daqiqa narsalarga emas, ularning soyalariga qarang.",
+        "Barglar, panjara yoki bino oralig'idagi bo'shliqlarni ko'rishni mashq qiling — narsani emas, orasini.",
+        "Nomlashni sekinlashtiring: ko'rgan narsangizga nom bermasdan bir necha soniya ushlab turing.",
+        "Xavfsiz joyda xira yorug'da sekin yuring: ko'zni oldingi yerga qadab, chetga qaramasdan.",
+        "Bu mashqlarni natija kutmasdan bajaring — ularning ta'siri sekin va bilvosita.",
+        "Xavfsizlik: kuch yurishini notanish yoki xavfli joyda, zinapoyada yoki yo'l yaqinida qilmang."
+      ],
+      "mashqlar": [
+        {
+          "turi": "taymer",
+          "daqiqa": 10,
+          "korsatma": "Soyalar mashqi. O'n daqiqa daraxt, panjara yoki bino soyasiga qarang — narsaning o'ziga emas, aynan soyasiga. Soyaning chegarasini, shaklini, o'zgarishini kuzating. Fikr nom bera boshlasa, yana soyaga qayting."
+        },
+        {
+          "turi": "taymer",
+          "daqiqa": 8,
+          "korsatma": "Oraliqlar mashqi. Sakkiz daqiqa faqat bo'shliqlarni ko'ring: barglar orasidagi osmon, binolar orasidagi havo, narsalar orasidagi masofa. Narsalarni emas — oraliqni. Bu «qilmaslik»ning eng oddiy shakli."
+        },
+        {
+          "turi": "jurnal",
+          "savol": "Soyalar va oraliqlar mashqidan keyin nima o'zgardi? Ko'rish, tanadagi sezgi, fikrlarning tezligi — nimani sezdingiz? Hech narsa sezmagan bo'lsangiz, shuni ham yozing."
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Qilmaslik amaliyoti",
+          "bandlar": [
+            "Soyalar mashqini bajardim",
+            "Oraliqlar mashqini bajardim",
+            "Nomlashni bir marta sekinlashtirdim",
+            "Xira yorug'da sekin yurishni xavfsiz joyda sinab ko'rdim",
+            "Natija kutmasdan bajardim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Dunyoga nom bermasdan qarash sizga qanchalik qiyin?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Oson",
+          "max_yorliq": "Juda qiyin"
+        }
+      ]
+    },
+    {
+      "sarlavha": "Ikstlanga sayohat",
+      "magiz": [
+        "Kitobning nomi don Xenaroning hikoyasidan olingan: u bir kuni odatdagi dunyosini yo'qotadi va o'z qishlog'i — Ikstlanga qaytmoqchi bo'ladi.",
+        "Yo'lda unga tanish odamlar uchraydi. Ular tanish ko'rinadi, gapiradi, salomlashadi — lekin ularning hech biri haqiqiy emas. Ular faqat fantom.",
+        "Xenaro hech qachon Ikstlanga yetmaydi. U yo'lda qoladi va yurishda davom etadi.",
+        "Bu — butun turkumning eng achchiq tasviri: bir marta dunyoni boshqacha ko'rgan odam eski dunyosiga qaytolmaydi. Eski uy joyida, lekin u endi uy emas.",
+        "Don Xuan buni fojia deb emas, jangchining taqdiri deb ko'rsatadi. Yo'l uy emas — yo'lning o'zi manzil.",
+        "Kastaneda uchun bu ogohlantirish: agar shu yo'ldan yursang, orqaga qaytish bo'lmaydi. Va bu — tanlov."
+      ],
+      "tavsiyalar": [
+        "O'zgarishni boshlashdan oldin bilib qo'ying: eski holatga to'liq qaytish bo'lmaydi.",
+        "Eski muhitingiz sizni tushunmasligi mumkin — buni xiyonat deb emas, tabiiy deb qabul qiling.",
+        "«Ikstlan»ingizni aniqlang: qaytmoqchi bo'lgan holat qaysi? U hali ham mavjudmi?",
+        "Yo'lni manzil deb ko'ring — bu haqiqatan yengillashtiradi.",
+        "O'zgarishdan keyin yangi aloqalar quring; eskilarini majburan saqlashga urinmang."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Sizning «Ikstlan»ingiz nima — qaytishni istaydigan qaysi holat, qaysi davr, qaysi o'zingiz? Uni yozing. Keyin rostini yozing: u hali ham mavjudmi yoki faqat xotirada?"
+        },
+        {
+          "turi": "test",
+          "savol": "Xenaro nima uchun Ikstlanga yetmaydi?",
+          "variantlar": [
+            "Yo'lni bilmaydi",
+            "Bir marta dunyoni boshqacha ko'rgan odam eski dunyosiga qaytolmaydi",
+            "Uni yo'lda to'xtatishadi",
+            "U qaytishni xohlamaydi"
+          ],
+          "izohlar": [
+            "Yo'lni biladi — masala yo'lda emas.",
+            "Aynan shunday. Uy joyida, lekin u endi uy emas.",
+            "Uchragan odamlar uni to'xtatmaydi — ular shunchaki haqiqiy emas.",
+            "Aksincha, u juda qaytmoqchi. Fojianing kuchi ham shunda."
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "O'zgarishga tayyormisiz — qaytish bo'lmasligini bilib turib?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Qaytishni xohlayman",
+          "max_yorliq": "Oldinga tayyorman"
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Yo'lni qabul qilish",
+          "bandlar": [
+            "«Ikstlan»imni aniqladim",
+            "Eski holatga qaytish mumkin emasligini qabul qildim",
+            "Meni tushunmagan odamni ayblamadim",
+            "Yangi bitta aloqa qurdim",
+            "Bugungi qadamni yo'lning o'zi deb ko'rdim"
+          ]
+        }
+      ]
+    }
+  ]
+}

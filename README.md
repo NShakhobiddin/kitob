@@ -45,6 +45,7 @@ Och fon, oq kartalar va to'q ko'k (navy) urg'u — zamonaviy mobil ilova uslubi.
 │   ├── namuna.json     ← namuna kitob ("Ichki Kuzatuvchi")
 │   ├── lucid-tush.json ← Lucid tush amaliyoti (kundalik + eslatmali bo'lim)
 │   ├── intuitsiya.json ← Norbekov turkumidagi 6-kitob
+│   ├── kastaneda-*.json ← Karlos Kastaneda turkumi (11 ta kitob)
 │   └── *.json          ← qolgan kitoblar
 └── README.md
 ```

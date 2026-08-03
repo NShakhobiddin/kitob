@@ -1,0 +1,298 @@
+{
+  "id": "kastaneda-6",
+  "nomi": "Kastaneda 6: Burgutning sovg'asi",
+  "muallif": "Karlos Kastaneda",
+  "kirish": "Oltinchi kitobning markazida turkumdagi eng kuchli amaliyot turadi — «qayta ko'rish»: butun hayotingizni odam-odam, voqea-voqea eslab chiqish va o'sha voqealarda qolgan kuchingizni qaytarib olish. Bundan tashqari kitob «insoniy shaklni yo'qotish», o'ng va chap tomon ongi hamda Burgut haqidagi tasvirni beradi: Burgut har bir tirik jonning tajribasini yutadi, lekin ko'rganlar uchun bitta chiqish yo'li qoldirgan.",
+  "bolimlar": [
+    {
+      "sarlavha": "Qayta ko'rish: hayotni eslab chiqish",
+      "magiz": [
+        "Amaliyotning mohiyati oddiy: hayotingizda uchratgan barcha odamlarni ro'yxat qiling — bugundan orqaga, eng boshigacha.",
+        "Keyin ro'yxatning birinchi odamidan boshlab, u bilan bog'liq hamma narsani eslang. Hammasini: gaplar, joylar, hidlar, kiyim, o'zingizning holatingiz.",
+        "Hozirgi kundan o'tmishga qarab borish yaxshiroq: yaqin xotiralar tiniq va ular eslash qobiliyatini o'tkirlashtiradi.",
+        "Eslash nafas bilan birga qilinadi: sekin va ongli nafas olib, boshni o'ngdan chapga yelpigichdek sal burish; chiqarishda ham xuddi shunday.",
+        "Nima uchun bu kerak? Qayta ko'rish odamning hayotidagi butun axlatni qo'zg'atib, yuzaga chiqaradi. Va shu bilan birga o'sha voqealarda qolib ketgan kuchni qaytaradi.",
+        "Kitobning tashbehi: yangi narsani kiritish uchun joy kerak. Agar siz kundalik hayot narsalari bilan to'la bo'lsangiz, yangi narsaga joy yo'q. Qayta ko'rish ana shu joyni yaratadi."
+      ],
+      "tavsiyalar": [
+        "Ro'yxatni bugundan boshlang: hozirgi ish, so'ngra oldingi ish, universitet, maktab, bolalik.",
+        "Bir kunda bitta odamni oling. Shoshilmang — ro'yxat yillar davomida ishlanadi.",
+        "Eslash paytida sekin va ongli nafas oling; nafas bu amaliyotning ajralmas qismi.",
+        "Xotira og'riqli bo'lsa, uni qайta yashamang — chetdan kuzating.",
+        "Yozib boring: qaysi odam, qaysi voqea, nima eslandi va nima o'zgardi.",
+        "Eslash tartibini qat'iy qiling. Kastanedaning o'zi tartibsiz qilib, natijani sekinlashtirgan."
+      ],
+      "mashqlar": [
+        {
+          "turi": "kundalik",
+          "sarlavha": "Qayta ko'rish kundaligi",
+          "korsatma": "Har seansdan keyin shu yerga yozing: bugun kimni yoki qaysi voqeani qayta ko'rdingiz, nima eslandi, tanangizda nima o'zgardi. Belgilar maydoniga davrni yozing — «hozirgi ish», «universitet», «maktab», «bolalik». Bir necha hafta yozgach, qaysi davr eng ko'p kuch olayotganini raqamlardan ko'rasiz.",
+          "joy_matn": "Bugun qayta ko'rdim: … Eslandi: …",
+          "belgi_matn": "Davr: hozirgi ish, universitet, maktab, bolalik…"
+        },
+        {
+          "turi": "taymer",
+          "daqiqa": 30,
+          "korsatma": "Qayta ko'rish seansi. Tinch joyda o'tiring. Ro'yxatingizdan bitta odamni oling. Uni eslang: birinchi uchrashuv, joy, uning ovozi, siz nima his qildingiz. Eslash paytida sekin nafas oling va boshni o'ngdan chapga sal buring; nafas chiqarganda chapdan o'ngga. Baholmang, kechirmang, tuzatmang — faqat eslang va nafas oling."
+        },
+        {
+          "turi": "jurnal",
+          "savol": "Qayta ko'rish ro'yxatingizni shu yerdan boshlang. Hozirgi hayotingizdan orqaga qarab, uchratgan odamlarni yozing — kamida 30 ta ism. Tartib muhim: yangidan eskiga."
+        },
+        {
+          "turi": "eslatma",
+          "sarlavha": "Qayta ko'rish vaqti",
+          "matn": "Qayta ko'rish vaqti. Ro'yxatdan keyingi odamni oling va 30 daqiqa eslang.",
+          "korsatma": "Kunning tinch vaqtini tanlang — ko'pincha kechqurun. Kitobning talabi muntazamlik: bir necha yillik amaliyot bir necha kunlik zo'riqishdan foydaliroq.",
+          "vaqtlar": ["21:00"]
+        },
+        {
+          "turi": "slider",
+          "savol": "Bu hafta necha marta qayta ko'rish qildingiz?",
+          "min": 0,
+          "max": 7,
+          "min_yorliq": "0 marta",
+          "max_yorliq": "7 marta"
+        }
+      ]
+    },
+    {
+      "sarlavha": "Insoniy shaklni yo'qotish",
+      "magiz": [
+        "«Insoniy shakl» — bu odamni o'zi qilib turadigan qat'iy tuzilma: odatlar, reaksiyalar, o'zi haqidagi tasavvur.",
+        "U qulay, chunki u tanish. Lekin u ayni paytda qamoq: shakl bor ekan, odam har safar bir xil javob beradi.",
+        "Shaklni yo'qotish — o'zini yo'qotish emas. Bu qat'iylikning yo'qolishi: odam endi vaziyatga qarab boshqacha bo'la oladi.",
+        "La Gorda buni birinchi bo'lib bosib o'tadi va uning o'zgarishi ko'zga ko'rinadi: u yengil, tez va oldindan hisoblab bo'lmaydigan bo'ladi.",
+        "Shaklni yo'qotishning yo'li — qayta ko'rish. Eski voqealardan kuch qaytgach, shakl o'zi bo'shashadi.",
+        "Ogohlantirish: bu jarayon yoqimli emas. Odam bir muddat o'zini yo'qotgandek his qiladi — eskisi ketgan, yangisi hali kelmagan."
+      ],
+      "tavsiyalar": [
+        "«Men doim shunday qilaman» degan jumlalaringizni ro'yxat qiling — bu sizning shaklingiz.",
+        "Bir hafta davomida odatiy reaksiyangizni ataylab boshqasiga almashtiring.",
+        "O'zingizni «shunday odam» deb ta'riflashni to'xtating — hech bo'lmasa gapirganda.",
+        "O'tish davrida o'zingizni yo'qotgandek his qilsangiz, bu normal — shoshilib eski qolipga qaytmang.",
+        "Yangi vaziyatlarga ataylab kiring: shakl faqat tanish sharoitda ushlanadi."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "«Men doim shunday qilaman» deb boshlanadigan beshta jumlani yozing. Har birining yoniga: bu menga nima beradi va nimadan to'sadi?"
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Shaklni bo'shatish",
+          "bandlar": [
+            "Odatiy reaksiyalarim ro'yxatini yozdim",
+            "Bittasini ataylab boshqasiga almashtirdim",
+            "O'zimni «shunday odam» deb ta'riflamadim",
+            "Yangi, notanish vaziyatga kirdim",
+            "O'zimni yo'qotgandek his qilganda eski qolipga qaytmadim"
+          ]
+        },
+        {
+          "turi": "test",
+          "savol": "«Insoniy shaklni yo'qotish» nimani anglatadi?",
+          "variantlar": [
+            "Shaxsiyatni yo'qotish",
+            "Qat'iy, oldindan aniq reaksiyalardan ozod bo'lish",
+            "Odamlardan uzoqlashish",
+            "Xotirani yo'qotish"
+          ],
+          "izohlar": [
+            "Shaxsiyat yo'qolmaydi — qat'iylik yo'qoladi.",
+            "To'g'ri. Odam vaziyatga qarab boshqacha bo'la oladigan holatga o'tadi.",
+            "Uzoqlashish shart emas; aksincha, aloqa yengillashadi.",
+            "Xotira bilan aloqasi yo'q — bu reaksiya tuzilmasi haqida."
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Reaksiyalaringiz qanchalik oldindan aniq?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Har safar boshqacha",
+          "max_yorliq": "Doim bir xil"
+        }
+      ]
+    },
+    {
+      "sarlavha": "O'ng va chap tomon ongi",
+      "magiz": [
+        "Kitob ongning ikki holatini ajratadi: «o'ng tomon» — kundalik, oddiy ong; «chap tomon» — g'ayrioddiy holat.",
+        "Muhim tafsilot: chap tomonda bo'lgan voqealar o'ng tomonda eslanmaydi. Odam ularni faqat o'sha holatga qaytganda eslaydi.",
+        "Kastaneda o'z daftarlaridan o'zi yozgan, lekin butunlay unutgan voqealarni topadi — bu uning uchun eng chuqur zarbalardan biri.",
+        "Amaliy o'xshashligi bor: kuchli hissiyot, o'ta charchoq yoki qattiq stress paytidagi voqealar boshqacha «saqlanadi».",
+        "Shuning uchun kitobda holatlar bilan ishlash muhim: siz o'zingizni qaysi holatda topsangiz, o'sha holatning xotirasi ochiladi.",
+        "Xulosa: bitta odamda bitta xotira yo'q. Holatlar o'zgarganda, o'zingiz haqingizdagi bilim ham o'zgaradi."
+      ],
+      "tavsiyalar": [
+        "Muhim qarorni turli holatlarda tekshiring: charchagan, tetik, xursand va tinch paytda.",
+        "Kuchli holatda qilingan va'dalarni yozib qo'ying — o'sha holat tugagach ular boshqacha ko'rinadi.",
+        "Bir voqeaning turli versiyalarini yozing: bugungi, bir haftadan keyingi, bir oydan keyingi.",
+        "O'zingizni bir necha holatda kuzating: qaysi holatda qanday odam bo'lasiz?",
+        "Kundalik yuriting: holatlar orasidagi ko'prik — bu yozuv."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "O'zingizni to'rt holatda tasvirlang: charchaganda, tetikda, jahlingiz chiqqanda va xotirjam bo'lganda. Har birida qanday odam bo'lasiz? Qaysi biri «asl siz»?"
+        },
+        {
+          "turi": "taymer",
+          "daqiqa": 10,
+          "korsatma": "Holat kuzatuvi. O'n daqiqa hozirgi holatingizni kuzating — fikrlaringizni emas, holatni. Tanangiz qanday? Nafas qanday? Fikrlar tez yoki sekin? Bu holatda dunyo qanday ko'rinadi? Oxirida uch jumla yozing."
+        },
+        {
+          "turi": "slider",
+          "savol": "Holatingiz qarorlaringizga qanchalik ta'sir qiladi?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Deyarli ta'sir qilmaydi",
+          "max_yorliq": "Butunlay boshqaradi"
+        }
+      ]
+    },
+    {
+      "sarlavha": "Burgut va uning sovg'asi",
+      "magiz": [
+        "Kitobning markaziy tasviri: Burgut — koinotdagi ulkan kuch. U har bir tirik jonning o'limi paytida uning ongini, ya'ni butun hayot tajribasini yutadi.",
+        "Bu shafqatsizlik emas, qonun. Burgut hech kimni jazolamaydi va hech kimni mukofotlamaydi — u shunchaki shunday ishlaydi.",
+        "Lekin ko'rganlar bir narsani payqashgan: Burgut bitta yo'lni ochiq qoldirgan. Bu — uning sovg'asi.",
+        "Yo'l shunday: o'z hayot tajribasini Burgutga o'zi berib, hayot kuchini saqlab qolgan odam o'tib ketishi mumkin.",
+        "Qayta ko'rish aynan shu uchun kerak: u odamning butun hayot tajribasini yig'ib, uni «berib yuborish» mumkin qiladi.",
+        "Bu tasvirni mistik deb ham, majoziy deb ham o'qish mumkin. Majoziy o'qishda ma'no aniq: o'z hayotingizni to'liq ko'rib chiqmaguningizcha, undan ozod bo'la olmaysiz."
+      ],
+      "tavsiyalar": [
+        "Hayotingizni «tugallanmagan ishlar ro'yxati» deb ko'ring va uni yopishni boshlang.",
+        "Kimdandir qarzdor bo'lsangiz — moddiy yoki ma'naviy — uni yoping.",
+        "Kechirilmagan holatlarni ro'yxat qiling. Kechirish shart emas, lekin ko'rish shart.",
+        "Har oy bir marta savol bering: hozir o'lsam, nima tugallanmagan qoladi?",
+        "Amaliyotni «o'limga tayyorgarlik» emas, «hayotni yengillashtirish» deb qabul qiling."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Hozir o'lsangiz, nima tugallanmagan qoladi? Ro'yxat qiling — aytilmagan gaplar, yopilmagan ishlar, uzilgan aloqalar. Keyin bittasini tanlab, shu hafta yopiladigan qilib belgilang."
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Tugallanmaganlarni yopish",
+          "bandlar": [
+            "Tugallanmaganlar ro'yxatini yozdim",
+            "Bitta aytilmagan gapni aytdim",
+            "Bitta qarzni yopdim",
+            "Kechirilmagan holatlarni yozib chiqdim",
+            "Bu oy ro'yxatim qisqardi"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Hayotingizda tugallanmagan ishlar qanchalik ko'p?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Deyarli yo'q",
+          "max_yorliq": "Juda ko'p"
+        }
+      ]
+    },
+    {
+      "sarlavha": "Nagval qoidasi va jangchilar guruhi",
+      "magiz": [
+        "Kitobning uchinchi qismi guruhning tuzilishini tavsiflaydi: nagval, nagval-ayol, tush ko'ruvchilar va ta'qibchilar, har birining aniq o'rni bor.",
+        "Qoidaning ma'nosi mistikada emas: guruh tasodifiy yig'ilgan odamlar emas, bir-birini to'ldiruvchi vazifalar tizimi.",
+        "Har bir a'zoning tabiiy moyilligi bor: kimdir tushda kuchli, kimdir odamlar bilan ishlashda, kimdir tartibda.",
+        "Xato — hammani bir xil qilishga urinish. Guruh kuchi turlilikda, bir xillikda emas.",
+        "Yetakchining vazifasi buyruq berish emas, har kimni o'z o'rniga qo'yish.",
+        "Amaliy xulosa: o'z moyilligingizni toping va unga qarshi kurashmang. Zaif tomoningizni kuchaytirishdan ko'ra kuchli tomoningizni ishlatish samaraliroq."
+      ],
+      "tavsiyalar": [
+        "O'zingizning tabiiy moyilligingizni aniqlang: nima sizga oson keladi va boshqalarga qiyin?",
+        "Jamoada odamlarni moyilligiga qarab joylashtiring, teng qilib emas.",
+        "Zaif tomoningizni yo'qotishga urinmang — uni qoplaydigan odam toping.",
+        "«Hamma hamma ishni qila olishi kerak» degan qoidadan voz keching.",
+        "Yetakchi bo'lsangiz, o'z ishingizni qilish o'rniga odamlarni joylashtiring."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Sizga oson keladigan, lekin boshqalarga qiyin bo'lgan uchta narsani yozing. Bu sizning moyilligingiz. Hozirgi ishingizda u qanchalik ishlatilyapti?"
+        },
+        {
+          "turi": "test",
+          "savol": "Guruhning kuchi nimada?",
+          "variantlar": [
+            "Hamma bir xil tayyorgarlikda bo'lishida",
+            "Har kimning o'z o'rni va vazifasi bo'lishida",
+            "Yetakchining kuchida",
+            "A'zolar sonida"
+          ],
+          "izohlar": [
+            "Bir xillik guruhni zaiflashtiradi — kitobning butun tuzilishi buning aksi.",
+            "To'g'ri. Nagval qoidasi aynan vazifalar taqsimoti haqida.",
+            "Yetakchi muhim, lekin uning ishi ham odamlarni joylashtirish.",
+            "Son emas, tuzilish muhim."
+          ]
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "O'z o'rningizni topish",
+          "bandlar": [
+            "Moyilligimni yozib aniqladim",
+            "Uni hozirgi ishimda qanchalik ishlatayotganimni tekshirdim",
+            "Zaif tomonimni qoplaydigan odamni topdim",
+            "Birovning ishini o'zimga olmadim",
+            "Jamoada bitta rolni aniqlashtirdim"
+          ]
+        }
+      ]
+    },
+    {
+      "sarlavha": "Qayta ko'rishni oxirigacha olib borish",
+      "magiz": [
+        "Qayta ko'rish bir-ikki seansda tugamaydi. Bu yillar davom etadigan ish va uning natijasi ham sekin keladi.",
+        "Kastanedaning xatosi — tartibsizlik. U ro'yxat bo'yicha emas, xotira qayoqqa olib borsa o'sha yoqqa yurgan va shu bilan jarayonni cho'zgan.",
+        "To'g'ri tartib: ro'yxat, keyin odamlar bo'yicha ketma-ket, yangidan eskiga.",
+        "Natijasi ikki xil: birinchisi — yengillik, ikkinchisi — xotiraning o'tkirlashuvi. Odam eslamagan narsalarini eslay boshlaydi.",
+        "Amaliyot og'riqli bo'lishi mumkin: yopib qo'yilgan voqealar chiqadi. Kitobning maslahati — kurashmang, kuzating va nafas oling.",
+        "Eng muhimi: qayta ko'rish o'tmishni o'zgartirmaydi. U o'tmishga bog'langan kuchni qaytaradi. Farq katta."
+      ],
+      "tavsiyalar": [
+        "Haftada kamida uch marta, har safar 20–40 daqiqa. Muntazamlik uzunlikdan muhimroq.",
+        "Ro'yxat tartibini buzmang — tartibsiz eslash jarayonni cho'zadi.",
+        "Og'riqli voqeada to'xtab qolsangiz, uni bir necha seansga bo'ling.",
+        "Har seansdan keyin holatingizni yozing: yengillik bormi, charchoqmi?",
+        "Bu amaliyotni terapiya o'rniga qo'ymang. Og'ir travma bilan mutaxassis bilan ishlash kerak."
+      ],
+      "mashqlar": [
+        {
+          "turi": "taymer",
+          "daqiqa": 25,
+          "korsatma": "Qayta ko'rish seansi — davomi. Ro'yxatdan keyingi odamni oling. Uni birinchi ko'rgan joyingizdan boshlang va oxirgi uchrashuvgacha keling. Sekin nafas oling, boshni yelpigichdek buring. Baho bermang. Vaqt tugagach, kundalikka yozing."
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Muntazam amaliyot",
+          "bandlar": [
+            "Bu hafta kamida uch seans qildim",
+            "Ro'yxat tartibini buzmadim",
+            "Nafas bilan birga eslash qildim",
+            "Har seansdan keyin holatimni yozdim",
+            "Og'ir voqeani bo'lib-bo'lib oldim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Qayta ko'rishdan keyin o'zingizni qanday his qilyapsiz?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Og'irlashdim",
+          "max_yorliq": "Yengillashdim"
+        },
+        {
+          "turi": "jurnal",
+          "savol": "Qayta ko'rishni bir necha hafta qilgach: nima o'zgardi? Xotirangiz, uyqungiz, kayfiyatingiz, odamlarga munosabatingiz. Hech narsa o'zgarmagan bo'lsa, shuni ham yozing."
+        }
+      ]
+    }
+  ]
+}

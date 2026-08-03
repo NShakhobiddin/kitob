@@ -1,0 +1,272 @@
+{
+  "id": "kastaneda-11",
+  "nomi": "Kastaneda 11: Vaqt g'ildiragi",
+  "muallif": "Karlos Kastaneda",
+  "kirish": "Oxirgi kitob yangi hikoya emas — bu turkumning o'zagi. Kastaneda birinchi sakkiz kitobdan don Xuanning eng muhim gaplarini yig'ib, ularga qisqa izohlar qo'shgan. Shuning uchun bu kitobni oxirida ham, boshida ham o'qish mumkin. Bu yerda uning asosiy fikrlari mavzular bo'yicha guruhlangan: jangchi holati, o'lim, kuchni tejash, harakat va erkinlik.",
+  "bolimlar": [
+    {
+      "sarlavha": "Vaqt g'ildiragi",
+      "magiz": [
+        "Kitobning nomi don Xuanning tasviridan olingan: vaqt — cheksiz uzunlikdagi ariqlar tizimi, ular bo'ylab hamma narsa harakatlanadi.",
+        "Oddiy odam bu g'ildirak bilan birga surilib boradi va uni ko'rmaydi. Ko'ruvchi esa unga qaray oladi.",
+        "Bu tasvirning amaliy ma'nosi: hayotimiz bizni oldinga surib boradi va biz uni tanlov deb o'ylaymiz.",
+        "Kitobning tuzilishi ham shu fikrni takrorlaydi: bir xil gaplar turli kitoblarda, turli sharoitlarda takrorlanadi va har safar boshqacha eshitiladi.",
+        "Bu — takrorlashning ma'nosi: eshitilgan gap tushunilgan gap emas. Bir xil gap sizning holatingiz o'zgargach ochiladi.",
+        "Shuning uchun bu kitobni bir marta o'qib qo'yish mumkin emas. U qayta-qayta ochiladigan kitob."
+      ],
+      "tavsiyalar": [
+        "Bu kitobdagi fikrlarni bir marta emas, davriy o'qing — oyiga bir bo'lim.",
+        "Sizga eng ko'p tegayotgan gapni belgilang: u sizning hozirgi joyingizni ko'rsatadi.",
+        "Bir yil oldin sizga ta'sir qilgan gapni bugun qayta o'qing — farqni ko'ring.",
+        "Ko'p gapni bir vaqtda olishga urinmang: bittasini olib, uni bir oy yashab ko'ring.",
+        "Har oy bitta fikrni tanlab, uni amaliyotga aylantiring."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Bu turkumdagi qaysi fikr sizga eng ko'p tegdi? Uni yozing va yoniga sabab yozing: nima uchun aynan shu? Bu javob hozirgi holatingiz haqida ko'p narsa aytadi."
+        },
+        {
+          "turi": "eslatma",
+          "sarlavha": "Oylik qayta o'qish",
+          "matn": "Bitta fikrni tanlang va uni shu oy davomida yashab ko'ring.",
+          "korsatma": "Oyiga bir marta qulay vaqtni qo'ying. Kitobning butun mantiqi takrorda: bir xil gap holat o'zgargach boshqacha ochiladi.",
+          "vaqtlar": ["19:00"]
+        },
+        {
+          "turi": "slider",
+          "savol": "O'qigan g'oyalaringizni qanchalik amalga aylantirasiz?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Faqat o'qiyman",
+          "max_yorliq": "Deyarli hammasini sinayman"
+        }
+      ]
+    },
+    {
+      "sarlavha": "Jangchi holati",
+      "magiz": [
+        "Jangchi hech qachon o'zini qurbon deb hisoblamaydi. U yutqazishi mumkin, lekin nolimaydi.",
+        "Jangchi qaror qabul qilishdan oldin uzoq o'ylaydi, qabul qilgach — shubhalanmaydi va afsuslanmaydi.",
+        "U har bir harakatni oxirgisi bo'lishi mumkin deb qiladi. Shuning uchun uning harakati to'liq va sifatli.",
+        "Jangchi hech narsani yengil qabul qilmaydi, lekin hech narsani og'irlashtirmaydi ham. U ikkalasi orasida turadi.",
+        "Uning kuchi cheklangan va u buni biladi. Shuning uchun u behuda janglarni tanlamaydi.",
+        "Jangchi bo'lish tug'ma sifat emas — bu har kuni qayta tanlanadigan holat."
+      ],
+      "tavsiyalar": [
+        "Nolishni to'xtating: u hech narsani o'zgartirmaydi va kuchni yeydi.",
+        "Qaror qabul qilgach afsuslanmang — o'ylash qarordan oldin bo'ladi.",
+        "Behuda janglarni tanlamang: har bahsga kirish shart emas.",
+        "Har bir ishni «oxirgi bo'lishi mumkin» qarashi bilan qiling.",
+        "Kuningizni jangchi holatida boshlang: uchta asosiy ish, aniq va oz."
+      ],
+      "mashqlar": [
+        {
+          "turi": "checklist",
+          "sarlavha": "Jangchi kuni",
+          "bandlar": [
+            "Bugun nolimadim",
+            "Qabul qilgan qarorimdan afsuslanmadim",
+            "Bitta behuda bahsga kirmadim",
+            "Bitta ishni to'liq bajardim",
+            "Kunni uchta asosiy ish bilan boshladim"
+          ]
+        },
+        {
+          "turi": "jurnal",
+          "savol": "Bugun qaysi lahzada o'zingizni qurbon deb his qildingiz? Vaziyatni yozing. Endi uni jangchi tilida qayta yozing — «meni majbur qilishdi» o'rniga «men tanladim»."
+        },
+        {
+          "turi": "slider",
+          "savol": "Bugun qanchalik jangchi holatida edingiz?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Qurbon holatida",
+          "max_yorliq": "To'liq jangchi"
+        },
+        {
+          "turi": "test",
+          "savol": "Jangchi qaror qabul qilgach nima qiladi?",
+          "variantlar": [
+            "Qayta-qayta tekshiradi",
+            "Shubhalanmaydi va afsuslanmaydi",
+            "Boshqalardan tasdiq so'raydi",
+            "Natijani kutadi"
+          ],
+          "izohlar": [
+            "Tekshirish qarordan oldin bo'ladi.",
+            "To'g'ri. O'ylash oldin, harakat keyin — bu tartib buzilmaydi.",
+            "Tasdiq izlash — o'zini muhim sanashning bir shakli.",
+            "Kutish emas, harakat. Natija esa uning ishi emas."
+          ]
+        }
+      ]
+    },
+    {
+      "sarlavha": "O'lim va vaqt",
+      "magiz": [
+        "O'lim chap yelkada, bir qo'l masofasida turadi. U har doim shu yerda.",
+        "U qo'rqitish uchun emas — u maslahatchi. Ikkilanganingizda unga o'giriling va so'rang: bu haqiqatan muhimmi?",
+        "O'lim yonida hamma narsa o'z o'lchamini topadi: arzimas narsa arzimas bo'lib qoladi, muhimi esa aniq ko'rinadi.",
+        "Vaqtimiz cheksiz emas va bu bizning eng katta ustunligimiz: aynan cheklovlik tanlovni ma'noli qiladi.",
+        "Don Xuanning talabi: hech narsani keyinga surmang. Aytilishi kerak bo'lgan gap bugun aytilsin.",
+        "Bu qarash odamni g'amgin qilmaydi — u yengillashtiradi. Chunki og'irlikning katta qismi arzimas narsalardan iborat."
+      ],
+      "tavsiyalar": [
+        "Ikkilanganda o'limdan so'rang — javob deyarli har doim tez keladi.",
+        "Kunni «agar bu oxirgi kunim bo'lsa» savoli bilan boshlang.",
+        "Muhim gapni bugun ayting.",
+        "Arzimas narsaga jahl qilishni sezsangiz, o'limni eslang.",
+        "Bu mashqni og'ir qilmang: uning maqsadi tiniqlik, qayg'u emas."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Bugun sizni bezovta qilgan uch narsani yozing. Har biriga o'limdan so'rang va javobni yozing. Nechtasi qoldi?"
+        },
+        {
+          "turi": "taymer",
+          "daqiqa": 10,
+          "korsatma": "O'lim maslahatchisi mashqi. O'n daqiqa tinch o'tiring va hozirgi eng katta muammoingizni o'ylang. Endi tasavvur qiling: chap yelkangizda o'lim turibdi. Undan so'rang: bu haqiqatan muhimmi? Javobni kutmang — u o'zi keladi. Oxirida bir jumla yozing."
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Kunni yopish",
+          "bandlar": [
+            "Kunni «oxirgi kun» savoli bilan boshladim",
+            "Muhim gapni bugun aytdim",
+            "Arzimas narsaga jahl qilmadim",
+            "Bitta ishni keyinga surmadim",
+            "Kunni tugallanmagan qoldirmadim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Bugungi tashvishlaringiz o'lim yonida qanchalik og'ir?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Deyarli vaznsiz",
+          "max_yorliq": "Juda og'ir"
+        }
+      ]
+    },
+    {
+      "sarlavha": "Kuchni tejash",
+      "magiz": [
+        "Odamning kuchi cheklangan va uning katta qismi behuda ketadi: xafalik, tashvish, o'zini oqlash, boshqalarni ayblash.",
+        "Eng katta teshik — o'zini muhim sanash. U doim ozuqa talab qiladi va hech qachon to'ymaydi.",
+        "Ikkinchi teshik — ichki suhbat. U to'xtovsiz ishlaydi va dunyoni o'sha holida ushlab turadi.",
+        "Uchinchisi — tugallanmagan ishlar va aytilmagan gaplar. Ular fon rejimida ishlab, kuchni yeydi.",
+        "Don Xuanning qoidasi: yangi narsa qo'shishdan oldin oqishni to'xtat. Kuchsiz odamda hech qanday amaliyot ishlamaydi.",
+        "Kuchni tejashning eng qisqa yo'li — kamroq gapirish, kamroq xafa bo'lish, kamroq oqlanish."
+      ],
+      "tavsiyalar": [
+        "Kunda bir marta o'zingizni oqlash imkoniyatidan voz keching.",
+        "Xafalikni 24 soatga kechiktiring — ko'pi shu vaqt ichida o'zi tarqaydi.",
+        "Tugallanmagan ishlar ro'yxatini yozing va haftada bittasini yoping.",
+        "Kamroq gapiring: tashqi gapirish ichki gapirishni oziqlantiradi.",
+        "Har hafta yakunida savol bering: kuchim bu hafta qayerga ko'proq ketdi?"
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Bu hafta kuchingiz ketgan beshta joyni yozing. Har birining yoniga: buni kamaytirish uchun bitta aniq harakat."
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Teshiklarni yopish",
+          "bandlar": [
+            "Bugun o'zimni oqlamadim",
+            "Xafalikni 24 soatga kechiktirdim",
+            "Bitta tugallanmagan ishni yopdim",
+            "Kamroq gapirdim",
+            "Hafta oxirida kuch hisobini qildim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Kuchingiz bu hafta qanday saqlandi?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Butunlay oqib ketdi",
+          "max_yorliq": "Yaxshi saqlandi"
+        },
+        {
+          "turi": "test",
+          "savol": "Don Xuanga ko'ra, eng katta kuch teshigi qaysi?",
+          "variantlar": [
+            "Jismoniy mehnat",
+            "O'zini juda muhim sanash",
+            "Uyqusizlik",
+            "Ko'p o'ylash"
+          ],
+          "izohlar": [
+            "Jismoniy mehnat charchatadi, lekin u kuchni bu ma'noda yemaydi.",
+            "To'g'ri. Turkumning boshidan oxirigacha takrorlanadigan asosiy fikr.",
+            "Uyqu muhim, lekin bu boshqa daraja.",
+            "O'ylash emas — to'xtovsiz ichki gapirish. Farq bor."
+          ]
+        }
+      ]
+    },
+    {
+      "sarlavha": "Harakat va erkinlik",
+      "magiz": [
+        "Turkumning yakuniy o'lchovi oddiy: bilim harakatda tasdiqlanadi. Bajarilmagan bilim — bilim emas.",
+        "Don Xuan tushuntirishni oxirigacha berganda ham aytadi: undan keyin faqat harakat qoladi.",
+        "Erkinlik bu yerda tanlov emas — bu holat. Odam o'zini muhim sanashdan, o'tmishdan va kutishlardan ozod bo'lganda erkin bo'ladi.",
+        "Ozodlikning narxi bor va u yuqori: eski hayotning bir qismi qoladi. Turkumdagi barcha qahramonlar buni to'lashgan.",
+        "Yo'lni tanlashning yagona o'lchovi turkum boshida berilgan va oxirigacha o'zgarmaydi: bu yo'lda yurak bormi?",
+        "Oxirgi fikr esa eng oddiy: yo'l manzil emas. Yo'lning o'zi manzil va shuning uchun bugungi qadam yagona haqiqiy narsa."
+      ],
+      "tavsiyalar": [
+        "Ma'lumot to'plashni to'xtatib, bittasini bajarishga o'ting.",
+        "Har bir yirik tanlovni «bu yo'lda yurak bormi?» savoli bilan tekshiring.",
+        "Erkinlik narxini oldindan hisoblang — u bepul emas.",
+        "Bugungi qadamni ertangi rejadan ustun qo'ying.",
+        "Turkumdan bitta amaliyotni tanlang va uni bir yil davomida qiling. Qolganini keyin."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Bu turkumdagi barcha amaliyotlardan bittasini tanlang — bir yil davomida qiladiganingizni. Uni yozing va yoniga sabab yozing: nima uchun aynan shu?"
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Yakuniy tanlov",
+          "bandlar": [
+            "Bitta amaliyotni tanladim",
+            "Uni bir yilga rejalashtirdim",
+            "Boshqa amaliyotlarni vaqtincha to'xtatdim",
+            "Yangi kitob o'qish o'rniga mashq qildim",
+            "Birinchi qadamni bugun qo'ydim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Bilim va harakatingiz nisbati hozir qanday?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Faqat bilaman",
+          "max_yorliq": "Bilganimni qilaman"
+        },
+        {
+          "turi": "test",
+          "savol": "Turkumdagi yo'l tanlashning yagona o'lchovi qaysi?",
+          "variantlar": [
+            "Qaysi biri foydaliroq",
+            "Bu yo'lda yurak bormi?",
+            "Qaysi biri qisqaroq",
+            "Boshqalar nimani tanlagan"
+          ],
+          "izohlar": [
+            "Foyda o'lchovi turkumda ishlatilmaydi.",
+            "To'g'ri. Bu o'lchov birinchi kitobda berilib, oxirgisigacha o'zgarmaydi.",
+            "Hamma yo'l bir xil uzunlikda — kitobning ta'kidi shu.",
+            "Boshqalarning tanlovi — taqlid yo'li."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "id": "kastaneda-1",
+  "nomi": "Kastaneda 1: Don Xuanning ta'limoti",
+  "muallif": "Karlos Kastaneda",
+  "kirish": "Birinchi kitob — antropologiya talabasining yaki hindusi don Xuan Matus bilan uchrashuvi va shogirdlikning boshlanishi. Bu yerda keyingi o'n kitobning poydevori quriladi: bilim tekin berilmaydi, uni tana bilan topish kerak, va bilim yo'lida odamni to'rtta muqarrar dushman kutadi — qo'rquv, aniqlik, kuch va qarilik. Kitobda don Xuan ta'limotining o'simliklar bilan bog'liq qismi ham bor; bu yerda faqat uning ma'nosi beriladi, hech qanday amaliyoti emas.",
+  "bolimlar": [
+    {
+      "sarlavha": "Shogirdlik: nima uchun o'rganasiz",
+      "magiz": [
+        "Kastaneda don Xuanga oddiy tadqiqotchi sifatida keladi: ma'lumot yig'moqchi, savol bermoqchi, yozib olmoqchi. Ustoz esa uni ma'lumot beruvchi emas, shogird sifatida qabul qiladi.",
+        "Don Xuanning birinchi sharti: «Mening dunyomda hech narsa tekin berilmaydi, bilim esa umuman». O'rganish istagi o'z-o'zidan yetarli sabab emas — u qandaydir mehnat bilan to'lanishi kerak.",
+        "Uning o'qitish usuli tushuntirish emas, vazifa berish. Savolga javob o'rniga topshiriq beriladi; javob esa topshiriqni bajarish jarayonida tug'iladi.",
+        "Kastaneda doim yozib oladi va tahlil qiladi. Don Xuan buni to'xtatmaydi, lekin qayta-qayta ko'rsatadi: daftar tanani almashtira olmaydi.",
+        "Kitobning ohangi shu yerdan boshlanadi: shogird nima bo'layotganini tushunmaydi, ustoz esa tushuntirishga shoshilmaydi — chunki tushuntirilgan narsa o'rganilmagan narsa bo'lib qoladi."
+      ],
+      "tavsiyalar": [
+        "O'rganishni boshlashdan oldin o'zingizga ayting: men bundan nimani olmoqchiman va buning uchun nima to'layman?",
+        "Faqat o'qish bilan cheklanmang. Har bir g'oyani tanangiz bilan sinab ko'radigan bitta topshiriqqa aylantiring.",
+        "Tushunmagan narsangizni darrov rad etmang — uni «hozircha tushunmadim» qutisiga qo'ying va amaliyotni davom ettiring.",
+        "Ustoz yoki manba tanlaganda uning tushuntirishiga emas, natijasiga qarang.",
+        "Yozib borish foydali, lekin yozuv amaliyotning o'rnini bosmasin."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Nima uchun o'zingizni o'zgartirmoqchisiz? Chiroyli so'zlarsiz, rostini yozing. Keyin savolga javob bering: bu maqsad uchun nimadan voz kechishga tayyorman?"
+        },
+        {
+          "turi": "test",
+          "savol": "Don Xuan savolingizga javob o'rniga g'alati topshiriq berdi. Nima qilasiz?",
+          "variantlar": [
+            "Javobini talab qilaman — vaqtim behuda ketmasin",
+            "Topshiriqni bajaraman, javob keyin kelishiga ishonaman",
+            "O'zim kitoblardan javob topaman",
+            "Bu ahmoqona deb, tashlab ketaman"
+          ],
+          "izohlar": [
+            "Aynan Kastaneda shunday qiladi va butun kitob davomida shundan yutqazadi.",
+            "Kitobning butun mantiqi shu: bilim tushuntirishdan emas, bajarishdan keladi.",
+            "Kitob o'qish yomon emas, lekin don Xuanning fikricha, bilim tanada joylashadi — sahifada emas.",
+            "Bu ham javob, lekin unda hech narsa sinalmaydi."
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Yangi narsani o'rganganda: ko'proq o'qiysizmi yoki ko'proq qilasizmi?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Faqat o'qiyman",
+          "max_yorliq": "Faqat qilaman"
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Shogird pozitsiyasi",
+          "bandlar": [
+            "Maqsadimni bir jumlada yozdim",
+            "Buning uchun to'laydigan narsamni aniqladim",
+            "Bu hafta bitta g'oyani amalda sinab ko'rdim",
+            "Tushunmagan narsani darrov rad etmadim",
+            "Yozuvni amaliyot bilan almashtirmadim"
+          ]
+        }
+      ]
+    },
+    {
+      "sarlavha": "O'z joyingizni topish",
+      "magiz": [
+        "Birinchi topshiriq shunday: ayvonda o'zingga mos «joy»ni top — bunda o'zingni kuchli va baxtli his qilasan. Boshqa hech qanday izoh yo'q.",
+        "Kastaneda mantiq bilan hisoblaydi: ayvon kichkina, lekin joylar cheksiz ko'p, o'lchamlari ham noma'lum. Bu hisob uni hech qayerga olib bormaydi.",
+        "Don Xuan qat'iy turadi: bir hafta ketsa ham topish kerak, aks holda ketaverishi mumkin. U o'zi javobni biladi va aldab bo'lmaydi.",
+        "Yechim faqat mantiq to'xtaganda keladi: Kastaneda charchab, joylarni «his qila» boshlaydi va nihoyat farqni ko'radi — bir joyda tinch, boshqasida noqulay.",
+        "Bu topshiriqning ma'nosi joyda emas. Ma'nosi shundaki: tana o'z javobini bilishi mumkin, faqat aql unga so'z bermaydi.",
+        "Xuddi shu tamoyil keyinchalik butun kitobda takrorlanadi — «kuch yurishi» ham, «ko'rish» ham xuddi shu ishonch va tanani eshitishni talab qiladi."
+      ],
+      "tavsiyalar": [
+        "Uyingizda yoki ish joyingizda o'z «joy»ingizni izlang: qayerda tinch, qayerda taranglashasiz? Buni hisoblab emas, o'tirib his qilib toping.",
+        "Kun davomida bir necha marta to'xtab, tanangizdan so'rang: hozir bu yerda o'zimni qanday his qilyapman?",
+        "Javob darrov kelmasa, shoshilmang. Kastanedaga ham bir necha soat kerak bo'lgan.",
+        "Tanangizning javobini «shunchaki tuyulyapti» deb o'chirmang — uni yozib qo'ying va keyin tekshiring.",
+        "Muhim qaror oldidan ikki variantni tasavvur qiling va har birida tanangizda nima bo'layotganini kuzating."
+      ],
+      "mashqlar": [
+        {
+          "turi": "taymer",
+          "daqiqa": 20,
+          "korsatma": "«O'z joyingni top» mashqi. Xonangizda yoki hovlida yigirma daqiqa aylaning va turli joylarda to'xtang. Har joyda bir necha soniya turing va tanangizni kuzating: yelka, ko'krak, nafas. Hisoblamang, taqqoslamang — faqat his qiling. Oxirida bitta joyni tanlang."
+        },
+        {
+          "turi": "jurnal",
+          "savol": "Topgan joyingizni tasvirlang: u yerda tanangizda nima o'zgardi? Va eng noqulay joy qayerda edi? Ikkalasini ham yozing — farq muhim."
+        },
+        {
+          "turi": "slider",
+          "savol": "Tanangizning signallarini qanchalik eshitasiz?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Umuman e'tibor bermayman",
+          "max_yorliq": "Doim eshitaman"
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Tanani eshitish — bir hafta",
+          "bandlar": [
+            "Uyimda o'z joyimni topdim",
+            "Ish joyimda ham sinab ko'rdim",
+            "Kunda uch marta to'xtab tanamni kuzatdim",
+            "Bitta qarorni tana sezgisi bilan tekshirdim",
+            "Sezgini «tuyuldi» deb o'chirmadim"
+          ]
+        }
+      ]
+    },
+    {
+      "sarlavha": "Bilim odami — bu kim",
+      "magiz": [
+        "Don Xuanning ta'rifi qisqa: bilim odami — bu bilim izlash yo'lida chin dildan yurgan va uni yenga olgan odam.",
+        "Bu unvon emas, holat. Uni bir marta olib, saqlab qo'yib bo'lmaydi — har kuni qaytadan tasdiqlanadi.",
+        "Bilim odami bo'lishga hech kim majbur emas va hech kim tayinlamaydi. Bu qaror butunlay odamning o'zida.",
+        "Bilim izlash — uzoq va yolg'iz yo'l. Unda dam olish joyi yo'q, faqat harakat bor.",
+        "Butun kitobning eng mashhur o'lchovi ham shu yerda: yo'lni tanlaganda bitta savol bering — bu yo'lda yurak bormi? Yuragi bor yo'l sizni kuchaytiradi, yuragi yo'q yo'l — la'natlaydi."
+      ],
+      "tavsiyalar": [
+        "Har bir yirik tanlov oldidan bitta savolni bering: «Bu yo'lda yurak bormi?» Javob aql bilan emas, ichdan keladi.",
+        "Yuragi yo'q yo'lni tanlaganingizni sezsangiz, undan chiqish uchun uzr izlamang — shunchaki chiqing.",
+        "Bilimni unvon deb emas, kundalik holat deb ko'ring: bugun men o'rganyapmanmi yoki takrorlayapmanmi?",
+        "Yo'lda yolg'izlik bo'lishini oldindan qabul qiling — bu muvaffaqiyatsizlik belgisi emas.",
+        "Bir joyda uzoq to'xtab qolsangiz, o'zingizga savol bering: men dam olyapmanmi yoki to'xtab qoldimmi?"
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Hozir yurayotgan uchta yo'lingizni yozing — ish, munosabat, mashg'ulot. Har birining yoniga rostini yozing: bu yo'lda yurak bormi? Javob «yo'q» bo'lgan yo'l bilan nima qilasiz?"
+        },
+        {
+          "turi": "test",
+          "savol": "Yaxshi maosh, barqaror ish, lekin har kuni ichingiz bo'sh. Kitobning o'lchovi bo'yicha bu nima?",
+          "variantlar": [
+            "Bu normal — ish yoqishi shart emas",
+            "Bu yuragi yo'q yo'l; u sizni sekin zaiflashtiradi",
+            "Vaqt o'tib ko'nikasiz",
+            "Muammo ishda emas, kayfiyatda"
+          ],
+          "izohlar": [
+            "Don Xuan bunga rozi bo'lmaydi: yo'lning ikki turi bor va ikkalasi ham bir xil uzunlikda.",
+            "Aynan shunday. Kitobning o'lchovi qat'iy: yuragi bor yo'l kuch beradi, yuragi yo'g'i kuchni oladi.",
+            "Ko'nikish — yo'lni tanlash emas, undan voz kechish.",
+            "Kayfiyat ham muhim, lekin bo'shlik uzoq davom etsa, u kayfiyat emas — yo'nalish."
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Hozirgi asosiy yo'lingizda yurak bormi?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Butunlay yo'q",
+          "max_yorliq": "To'liq bor"
+        }
+      ]
+    },
+    {
+      "sarlavha": "Ittifoqchi va o'simliklar",
+      "magiz": [
+        "Don Xuan ta'limotida «ittifoqchi» — bilim odamiga kuch beradigan, lekin uni sinaydigan mustaqil kuch. U do'st emas ham, dushman ham emas: u bo'ysundiriladi yoki bo'ysundiradi.",
+        "Ittifoqchi bilan uchrashish qo'rqinchli va xavfli deb tasvirlanadi. Don Xuanning fikricha, tayyor bo'lmagan odam bunga yaqinlashmasligi kerak.",
+        "Kitobda bu tajribalar an'anaviy o'simliklar orqali beriladi — bu yaki va meksika an'anasining bir qismi. Shu ilovada ularning hech qanday amaliyoti berilmaydi, faqat ma'nosi.",
+        "Ma'nosi esa oddiy: odamni o'zgartiradigan har qanday kuchli tajriba tayyorgarlik, hurmat va aniq maqsad talab qiladi. Qiziqish uchun kirilgan joydan qaytib chiqib bo'lmasligi mumkin.",
+        "Keyingi kitoblarda don Xuanning o'zi shu yo'ldan voz kechadi va Kastanedaga aytadi: o'simliklar unga faqat qattiq boshi tufayli kerak bo'lgan, aslida ular shart emas.",
+        "Bu — butun turkumdagi eng muhim tuzatishlardan biri: kuch tashqi vositada emas, diqqat va niyatda."
+      ],
+      "tavsiyalar": [
+        "Hayotingizni o'zgartiradigan har qanday kuchli tajribaga tayyorgarliksiz kirmang.",
+        "«Qiziqish uchun» degan sabab bilan qaytib chiqish qiyin bo'lgan joyga kirmang.",
+        "Kuchni tashqi vositadan izlamang: don Xuanning o'zi keyinchalik buni ortiqcha deb aytadi.",
+        "Sizni kuchaytiradigan va zaiflashtiradigan narsalarni ro'yxat qilib yozing — bu sizning shaxsiy «ittifoqchilar» xaritangiz.",
+        "Har qanday kuchli tajribadan keyin uni yozib qo'ying: nima berdi, nima oldi?"
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Ikki ustun yozing: «meni kuchaytiradigan narsalar» va «meni zaiflashtiradigan narsalar». Har biriga kamida beshtadan yozing. Keyin ikkinchi ustunga qarang: bu hafta qaysinisidan bittasini kamaytirasiz?"
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Tayyorgarlik qoidasi",
+          "bandlar": [
+            "Kuchaytiruvchi va zaiflashtiruvchi ro'yxatini yozdim",
+            "Zaiflashtiruvchilardan bittasini bu hafta kamaytirdim",
+            "«Qiziqish uchun» qilinadigan bitta ishdan voz kechdim",
+            "Kuchli tajribadan keyin uni yozib qo'ydim",
+            "Kuchni tashqi vositadan izlamadim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Hayotingizda kuchaytiruvchi va zaiflashtiruvchilar nisbati qanday?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Ko'proq zaiflashtiradi",
+          "max_yorliq": "Ko'proq kuchaytiradi"
+        }
+      ]
+    },
+    {
+      "sarlavha": "Birinchi dushman: Qo'rquv",
+      "magiz": [
+        "Bilim izlagan odam oldida to'rtta muqarrar dushman turadi. Ularni chetlab o'tib bo'lmaydi — faqat yengish mumkin.",
+        "Birinchisi — Qo'rquv. Don Xuan uni «dahshatli, ayyor va shafqatsiz» deb ataydi: u har burchak ortida poylab turadi.",
+        "Qo'rquv o'rganishning boshida keladi, aynan bilim ko'paya boshlaganda. Odam qochsa, izlanishi shu yerda tugaydi.",
+        "Yengilgan odam o'lmaydi — u shunchaki hech qachon o'rganmaydi. U bo'sh gapiruvchi yoki qo'rqoq, zararsiz odamchaga aylanadi.",
+        "Yengish yo'li bitta va u juda oddiy: qochmaslik. Qo'rquvga qaramay keyingi qadamni qo'yish, keyin yana bittasini. To'liq qo'rqqan holda, lekin to'xtamay.",
+        "Bir kun kelib qo'rquv chekinadi va odam o'zida ishonch paydo bo'lganini sezadi. O'shanda u birinchi dushmanni yengganini aniq ayta oladi."
+      ],
+      "tavsiyalar": [
+        "Qo'rquvni yo'qotishga urinmang — u yo'qolmaydi. Uni ushlab turgan holda qadam qo'ying.",
+        "Eng kichik qadamni tanlang: qo'rquvni yengish uchun katta jasorat emas, takroriy kichik harakat kerak.",
+        "Qochganingizni sezsangiz, uni to'g'ri nomlang: «men qo'rqdim» — «hozir vaqti emas» emas.",
+        "Qo'rqinchli ishni ertalabga qo'ying: kechga surilgan qo'rquv kattalashadi.",
+        "Har bir qo'yilgan qadamni yozib boring — ishonch aynan shu ro'yxatdan o'sadi."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Hozir sizni to'xtatib turgan qo'rquvni yozing. Keyin uning ostidagi eng kichik qadamni yozing — bugun bajarish mumkin bo'lgan darajada kichik."
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Qo'rquvga qarshi qadamlar",
+          "bandlar": [
+            "Qo'rquvimni aniq nom bilan yozdim",
+            "Eng kichik qadamni belgiladim",
+            "Bugun shu qadamni qo'ydim",
+            "Qochganimni «vaqti emas» deb yashirmadim",
+            "Qo'yilgan qadamni yozib qo'ydim"
+          ]
+        },
+        {
+          "turi": "taymer",
+          "daqiqa": 10,
+          "korsatma": "O'n daqiqa — faqat qo'rqayotgan ishingiz uchun. Uni tugatish shart emas, boshlash yetarli. Telefon boshqa xonada. Taymer tugagach, nima qilganingizni bir jumlada yozing."
+        },
+        {
+          "turi": "slider",
+          "savol": "Qo'rquv sizni qanchalik to'xtatib turibdi?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Umuman to'xtatmaydi",
+          "max_yorliq": "Butunlay to'xtatgan"
+        }
+      ]
+    },
+    {
+      "sarlavha": "Ikkinchi dushman: Aniqlik",
+      "magiz": [
+        "Qo'rquv yengilgach, aniqlik keladi. U qo'rquvni tarqatadi — lekin ayni paytda ko'r qiladi.",
+        "Aniqlik odamga o'zidan shubhalanmaslikni beradi. U hamma narsani teshib ko'ryapman deb ishonadi va hech nimadan qaytmaydi.",
+        "Bu — eng shirin aldanish. Odam kutish kerak bo'lganda oldinga otiladi, harakat kerak bo'lganda kutadi.",
+        "Yengilgan odam o'lmaydi: u quvnoq va jasur jangchi yoki masxaraboz bo'lib qoladi. Lekin u boshqa hech narsa o'rganmaydi.",
+        "Yengish yo'li: aniqlikni faqat ko'rish uchun ishlatish, sabr bilan kutish va har bir yangi qadamdan oldin hammasini o'lchash. Va eng muhimi — aniqligining aslida illyuziya ekanini bilish.",
+        "Bir kun kelib odam ko'radi: aniqlik shunchaki ko'z oldidagi nuqta edi. Shundagina u haqiqiy kuchga yetadi."
+      ],
+      "tavsiyalar": [
+        "«Endi hammasi tushunarli» degan holatni xavf signali deb qabul qiling.",
+        "Har bir katta qarordan oldin bitta savol bering: men buni bilyapmanmi yoki bilaman deb o'ylayapmanmi?",
+        "O'zingizga qarshi dalil izlang. Topa olmasangiz, izlash usulingizda xato bor.",
+        "Sabrni mashq qiling: kutish kerak bo'lgan joyni ataylab kuting.",
+        "Fikringizni bir necha kun ushlab turing va keyin qayta o'qing — aniqlik ko'pincha shu paytda so'nadi."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Hozir o'zingiz aniq bilaman deb hisoblagan bitta narsani yozing. Endi unga qarshi uchta dalilni topib yozing. Yozgach: birinchi ishonchingiz o'zgardimi?"
+        },
+        {
+          "turi": "test",
+          "savol": "Uzoq izlanishdan keyin nihoyat «hammasi tushunarli» bo'ldi. Don Xuan bunga nima deydi?",
+          "variantlar": [
+            "Tabriklayman, siz yetdingiz",
+            "Ehtiyot bo'ling — bu ikkinchi dushman",
+            "Endi boshqalarga o'rgatishingiz mumkin",
+            "Bu shunchaki charchoq"
+          ],
+          "izohlar": [
+            "Aynan shunday o'ylagan odam to'xtab qoladi — kitobdagi ta'rif bo'yicha.",
+            "To'g'ri. Aniqlik qo'rquvni tarqatadi, lekin ko'r qiladi va o'rganishni to'xtatadi.",
+            "O'rgatish yomon emas, lekin «hammasini bilaman» holatidan o'rgatilgan narsa aniqlikni mustahkamlaydi.",
+            "Charchoq boshqa narsa. Bu — ishonchning haddan oshgan shakli."
+          ]
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Aniqlikni sinash",
+          "bandlar": [
+            "Ishonchim komil bo'lgan bitta fikrni yozdim",
+            "Unga qarshi uchta dalil topdim",
+            "Bitta qarorni bir necha kun ushlab turdim",
+            "Kutish kerak bo'lgan joyda kutdim",
+            "«Hammasi tushunarli» degan holatni tekshirdim"
+          ]
+        }
+      ]
+    },
+    {
+      "sarlavha": "Uchinchi dushman: Kuch",
+      "magiz": [
+        "Aniqlik yengilgach, odam kuchga yetadi. Uzoq quvgan narsasi nihoyat qo'lida: u xohlaganini qila oladi.",
+        "Don Xuan buni eng dahshatli dushman deb ataydi. Chunki taslim bo'lish oson — kuch egasi haqiqatan yengilmas bo'lib tuyuladi.",
+        "Kuch odamni sezdirmasdan o'zgartiradi: u avval o'ylab tavakkal qiladi, keyin esa shunchaki qonun o'rnatadi, chunki u — xo'jayin.",
+        "Shu bosqichda odam dushmanni deyarli hech qachon sezmaydi. U shafqatsiz va injiq bo'lib qolganini bilmaydi.",
+        "Kuchdan yengilgan odam u bilan nima qilishni bilmay o'ladi. Kuch uning taqdiridagi yukka aylanadi.",
+        "Yengish yo'li: kuch aslida unga tegishli emasligini va hech qachon tegishli bo'lmasligini tushunish. Va o'zini tuta bilish — bilganini xotirjam, manfaatsiz ishlatish. O'zini tuta bilmasa, aniqlik va kuch illyuziyadan ham yomon."
+      ],
+      "tavsiyalar": [
+        "Qo'lingizga kuch (lavozim, pul, ta'sir) kelganda birinchi savol: bu menikimi yoki menga vaqtincha berilganmi?",
+        "Kuch paydo bo'lgach, atrofingizdagilar sizga rostini aytishda davom etyaptimi — buni tekshiring.",
+        "«Men xo'jayinman» degan asosda qabul qilingan qarorlarni alohida belgilab boring.",
+        "Har oy o'zingizga savol bering: so'nggi paytda kimgadir keraksiz qattiqlik qildimmi?",
+        "Kuchni sinash uchun uni ishlatmaslikni mashq qiling: qo'lingizdan kelgan, lekin qilmagan narsani ataylab tanlang."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Hozir sizda qanday kuch bor — lavozim, bilim, pul, ta'sir, oiladagi o'rin? Ro'yxat qiling. Har birining yoniga yozing: bu kuchni oxirgi marta qachon o'z manfaatim uchun ishlatdim?"
+        },
+        {
+          "turi": "test",
+          "savol": "Qo'lingizda kuch bor va hech kim sizga e'tiroz bildirmayapti. Bu nimadan darak?",
+          "variantlar": [
+            "Men to'g'ri qaror qabul qilyapman",
+            "Atrofimdagilar rostini aytishni to'xtatgan bo'lishi mumkin",
+            "Jamoa yaxshi shakllangan",
+            "Bu tabiiy holat"
+          ],
+          "izohlar": [
+            "Ehtimol. Lekin e'tirozning yo'qligi to'g'rilikning dalili emas.",
+            "Kitobning ogohlantirishi aynan shu: uchinchi dushman sezilmasdan keladi.",
+            "Yaxshi jamoada ham e'tiroz bo'ladi. E'tirozsizlik — signal.",
+            "Tabiiy holat emas: bu ko'pincha qo'rquvning natijasi."
+          ]
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Kuchni tekshirish",
+          "bandlar": [
+            "Menda qanday kuch borligini yozib chiqdim",
+            "Qo'limdan kelgan bir ishni ataylab qilmadim",
+            "Kimdandir ochiq e'tiroz so'radim",
+            "«Men xo'jayinman» asosidagi qarorimni qayta ko'rdim",
+            "Bu oy keraksiz qattiqlik qilmadim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Qo'lingizdagi kuchni qanchalik xotirjam va manfaatsiz ishlatasiz?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Ko'pincha o'zim uchun",
+          "max_yorliq": "Xotirjam va manfaatsiz"
+        }
+      ]
+    },
+    {
+      "sarlavha": "To'rtinchi dushman: Qarilik",
+      "magiz": [
+        "Uchtasi yengilgach, oxirgi dushman ogohlantirishsiz keladi: Qarilik. Don Xuan uni eng shafqatsizi deb ataydi — uni yengib bo'lmaydi, faqat mag'lubiyatni cho'zish mumkin.",
+        "Bu davrda odam qo'rquvdan xalos, aniqligi tinch, kuchi qo'lida. Lekin uni yengib bo'lmas bir istak egallaydi: dam olish, yotish, unutish.",
+        "Agar u shu istakka yo'l bersa, o'zini charchoq bilan allalasa — oxirgi kurashni boy beradi va yaramas cholga aylanadi.",
+        "Chekinish istagi aniqligini xiralashtiradi, butun kuchini va bilimini yo'qqa chiqaradi.",
+        "Lekin agar odam charchoqni silkitib tashlab, taqdirini oxirigacha yashasa — uni haqiqatan bilim odami deb atash mumkin. Garchi qisqa vaqtga, oxirgi dushmanni bir zumga chetga surgan paytgina bo'lsa ham.",
+        "Don Xuanning xulosasi: aniqlik, kuch va bilimning o'sha bir lahzasining o'zi ham yetarli."
+      ],
+      "tavsiyalar": [
+        "Dam olishni charchoqqa taslim bo'lishdan ajrating: birinchisi rejalashtiriladi, ikkinchisi sudrab ketadi.",
+        "«Endi menga bu kerak emas» degan fikr paydo bo'lsa, uni alohida tekshiring — bu ko'pincha qarilik ovozi.",
+        "Yoshdan qat'i nazar, har oy bitta yangi narsani boshlang — hattoki kichik bo'lsa ham.",
+        "Kunni oxirigacha yashash — kitobning o'lchovi. Bugungi ishni ertaga surish odat bo'lib qolmasin.",
+        "Natijani umr bo'yicha emas, bir lahza bo'yicha o'lchang: bugun aniq va kuchli bo'lgan bir lahza bormidi?"
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "So'nggi bir yilda «endi menga bu kerak emas» deb voz kechgan narsangizni yozing. Rostini ayting: bu pishib yetilgan qaror edimi yoki charchoq edimi?"
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Charchoqqa taslim bo'lmaslik",
+          "bandlar": [
+            "Bu oy bitta yangi narsani boshladim",
+            "Dam olishni rejalashtirib oldim, sudralib emas",
+            "Bugungi ishni ertaga surmadim",
+            "«Kerak emas» degan fikrni tekshirdim",
+            "Bugun aniq va kuchli bo'lgan bir lahzani yozib qo'ydim"
+          ]
+        },
+        {
+          "turi": "taymer",
+          "daqiqa": 15,
+          "korsatma": "Kunni yakunlash mashqi. O'n besh daqiqa: bugungi kunni boshidan oxirigacha eslab chiqing. Qaysi lahzada aniq va kuchli edingiz? Qaysi lahzada chekinish istagiga yo'l berdingiz? Baholmang, faqat ko'ring. Oxirida ikkalasini bir jumladan yozib qo'ying."
+        },
+        {
+          "turi": "slider",
+          "savol": "Bugun charchoq sizni qanchalik boshqardi?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Umuman boshqarmadi",
+          "max_yorliq": "Butunlay boshqardi"
+        }
+      ]
+    }
+  ]
+}

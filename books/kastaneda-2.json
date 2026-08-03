@@ -1,0 +1,318 @@
+{
+  "id": "kastaneda-2",
+  "nomi": "Kastaneda 2: Alohida reallik",
+  "muallif": "Karlos Kastaneda",
+  "kirish": "Ikkinchi kitob «ko'rish» haqida. Don Xuan qarash bilan ko'rishni ajratadi: qarash — narsalarni odat bo'yicha tanish, ko'rish — ularning asl energiyasini idrok qilish. Bunga yetish uchun ikkita to'siq bor — to'xtovsiz ichki suhbat va o'zini juda muhim sanash. Kitobning eng kuchli tushunchasi esa «nazorat qilingan ahmoqlik»: har bir ishni to'liq berilib qilish va ayni paytda uning ahamiyatsizligini bilish.",
+  "bolimlar": [
+    {
+      "sarlavha": "Qarash va ko'rish",
+      "magiz": [
+        "Odam dunyoni ko'rmaydi — u dunyoni taniydi. Ko'z tushgan narsaga ong darrov nom yopishtiradi va shu bilan ish tugaydi.",
+        "Don Xuan «ko'rish» deganda boshqa narsani nazarda tutadi: nomlardan oldin turgan holatni, narsaning o'zi bilan uchrashuvni.",
+        "Ko'rish bilan qarash bir-birini inkor qilmaydi. Bilim odami ikkalasini ham ishlatadi va qachon qaysi biri kerakligini biladi.",
+        "Ko'rish uchun avval ichki suhbatni to'xtatish kerak. Aynan to'xtovsiz gapiruvchi ichki ovoz dunyoni har lahzada eskisi kabi tutib turadi.",
+        "Don Xuanning fikricha, dunyo biz o'ylaganidek qattiq emas — u kelishuv. Biz uni har kuni o'zimizga qaytadan gapirib beramiz.",
+        "Shuning uchun «dunyoni to'xtatish» — bu sehrgarlik emas, balki shu ichki gapirishning uzilishi."
+      ],
+      "tavsiyalar": [
+        "Kuniga bir necha marta bir daqiqaga to'xtang va atrofdagi narsalarga nom bermasdan qarang.",
+        "Ichki suhbatingizni kuzating: u nima haqida gapiryapti? Ko'pincha bir xil narsalarni takrorlaydi.",
+        "Bir hafta davomida odamlarga darrov tavsif bermang — «u shunday odam» degan jumlani ushlab turing.",
+        "Sayr qilganda quloqni ishlatib ko'ring: faqat tovushlarni tinglang, ularni nomlamang.",
+        "Kunning bir qismini gapirmasdan o'tkazing — ichki ovoz ham tashqi gapirishga bog'liq."
+      ],
+      "mashqlar": [
+        {
+          "turi": "taymer",
+          "daqiqa": 12,
+          "korsatma": "Nomsiz qarash. O'n ikki daqiqa bitta joyda o'tiring va atrofga qarang. Har safar ichingizda nom paydo bo'lsa («daraxt», «mashina», «u kech qoldi»), uni sezing va nomsiz ko'rishga qayting. Maqsad nomni yo'qotish emas — uni sezish."
+        },
+        {
+          "turi": "jurnal",
+          "savol": "Bugun ichki suhbatingiz eng ko'p nima haqida gapirdi? Uch-to'rt mavzuni yozing. Ular yangi mavzularmi yoki har kungi takror?"
+        },
+        {
+          "turi": "test",
+          "savol": "Don Xuanga ko'ra «dunyoni to'xtatish» nima demak?",
+          "variantlar": [
+            "Voqealarni jismonan to'xtatish",
+            "Dunyoni o'zimizga gapirib berishni uzish",
+            "Fikrlashni butunlay yo'qotish",
+            "Uzoq muddat sukut saqlash"
+          ],
+          "izohlar": [
+            "Kitob buni nazarda tutmaydi — masala tashqi voqealarda emas.",
+            "To'g'ri. Dunyo — har lahzada o'zimizga takrorlab turadigan tavsif; u uzilganda idrok o'zgaradi.",
+            "Fikrni yo'qotish maqsad emas va imkonsiz. Masala uning uzluksizligida.",
+            "Sukut yordam beradi, lekin o'zi yetarli emas — ichki gapirish sukutda ham davom etishi mumkin."
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Ichki suhbatingiz kun davomida qanchalik tinim beradi?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Bir soniya ham tinmaydi",
+          "max_yorliq": "Ko'pincha jim"
+        }
+      ]
+    },
+    {
+      "sarlavha": "O'zini muhim sanash — asosiy to'siq",
+      "magiz": [
+        "Don Xuanning fikricha, odamning kuchini eng ko'p yeydigan narsa — o'zini juda muhim sanash.",
+        "Bu mag'rurlik emas, balki doimiy hisob-kitob: kim meni qanday ko'rdi, kim nima dedi, meni qadrladimi.",
+        "Bunday odam butun umr xafa bo'lish uchun sabab topadi. Har bir xafalik esa yana bir bo'lak kuchni olib ketadi.",
+        "O'zini muhim sanash odamni juda og'ir qiladi: u har bir gapni o'ziga oladi va shuning uchun hech narsani ko'ra olmaydi.",
+        "Don Xuan buni yengishning eng oddiy yo'lini ko'rsatadi: o'zingizni chetdan ko'rish va kulish. Kulgi bu yerda masxara emas, yengillik.",
+        "Bu tushuncha keyingi kitoblarda markaziy bo'lib qoladi — «shaxsiy tarixni o'chirish» ham, «jangchi holati» ham shundan o'sadi."
+      ],
+      "tavsiyalar": [
+        "Bir hafta davomida xafa bo'lgan har bir holatni yozib boring. Hafta oxirida ro'yxatga qarang.",
+        "Xafa bo'lganingizda o'zingizga savol bering: bu meni haqiqatan zarar qildimi yoki faqat o'z qadrimni tegdimi?",
+        "Kimdir sizni tanqid qilganda javob berishdan oldin uch marta nafas oling.",
+        "Kuniga bir marta o'zingiz ustingizdan kuling — g'ijinmasdan, yengil.",
+        "Sizga e'tibor bermagan odamlarni «hurmatsiz» deb belgilashni to'xtating: ko'pincha ular shunchaki band."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "So'nggi bir haftada xafa bo'lgan uchta holatni yozing. Har birining yoniga javob bering: bu menga qanday real zarar keltirdi? Zarar topilmasa — nima uchun xafa bo'ldingiz?"
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "O'zini muhim sanashni kamaytirish",
+          "bandlar": [
+            "Xafa bo'lgan holatlarni yozib bordim",
+            "Tanqidga darrov javob bermadim",
+            "Bir marta o'zim ustimdan kuldim",
+            "Kimdirning e'tiborsizligini shaxsiy hisoblamadim",
+            "Bugun «meni qanday ko'rishdi?» degan fikrni bir marta to'xtatdim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Boshqalarning fikri sizga qanchalik ta'sir qiladi?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Deyarli ta'sir qilmaydi",
+          "max_yorliq": "Butunlay boshqaradi"
+        },
+        {
+          "turi": "test",
+          "savol": "Yig'ilishda gapingizni kesib o'tishdi. Kitobning mantiqi bo'yicha eng foydali javob qaysi?",
+          "variantlar": [
+            "Darrov e'tiroz bildirish — hurmat talab qilinadi",
+            "Ichda saqlab, keyin eslatib turish",
+            "Vaziyatni ko'rish: bu menga zarar keltirdimi yoki faqat qadrimga tegdimi?",
+            "Butunlay e'tibor bermaslik"
+          ],
+          "izohlar": [
+            "Ba'zan kerak, lekin refleks bo'lib qolsa — bu o'zini muhim sanashning belgisi.",
+            "Ichda saqlangan xafalik yo'qolmaydi, u kuchni sekin yeydi.",
+            "Kitobning yo'li shu: avval ko'ring, keyin qaror qiling. Aksariyat holatda real zarar topilmaydi.",
+            "E'tibor bermaslik va ko'rish boshqa narsa. Birinchisi ko'pincha bosib qo'yishdir."
+          ]
+        }
+      ]
+    },
+    {
+      "sarlavha": "Nazorat qilingan ahmoqlik",
+      "magiz": [
+        "Don Xuan qiladigan hamma ishini «nazorat qilingan ahmoqlik» deb ataydi: u to'liq berilib qiladi va ayni paytda biladiki, bu hech narsani o'zgartirmaydi.",
+        "Bu befarqlik emas. Befarq odam umuman qilmaydi; nazorat qilingan ahmoqlikda esa odam oxirigacha qiladi.",
+        "Farq maqsadda: natijaga bog'lanish yo'q. Shuning uchun muvaffaqiyat ham, muvaffaqiyatsizlik ham odamni sindirmaydi.",
+        "Bu holat odamni odamlarga nisbatan yumshoq qiladi: ular ham o'z ahmoqliklarini qilishmoqda va bunga jahl qilishning ma'nosi yo'q.",
+        "Don Xuanning kulgisi ham shundan: u dunyoga qaraydi, uning kulgili tomonini ko'radi va kuladi. Bu — kuchni saqlashning usuli.",
+        "Uning o'lchovi qat'iy: hamma yo'llar bir xil uzunlikda va hech qayerga olib bormaydi. Shuning uchun yuragi bor yo'lni tanlash mumkin — va bu tanlov bepul emas, bu yagona erkinlik."
+      ],
+      "tavsiyalar": [
+        "Ishni to'liq bajaring, lekin natijani o'zingizning qadringiz deb hisoblamang.",
+        "Muvaffaqiyatsizlikdan keyin o'zingizga bering: men yaxshi qildimmi? Agar ha bo'lsa — ish tugadi.",
+        "Boshqalarning xatosiga jahl qilishdan oldin eslang: ular ham o'z yo'llarida.",
+        "Kuniga bir marta vaziyatning kulgili tomonini ataylab toping.",
+        "Katta tanlovni «qaysi biri foydaliroq?» emas, «qaysi birida yurak bor?» savoli bilan qiling."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Hozir natijasidan qattiq qo'rqayotgan bitta ishingizni yozing. Endi yozing: agar natija umuman ahamiyatsiz bo'lsa, bu ishni qanday qilardingiz? Farqni ko'ring."
+        },
+        {
+          "turi": "test",
+          "savol": "Nazorat qilingan ahmoqlik nima?",
+          "variantlar": [
+            "Hech narsani jiddiy qabul qilmaslik",
+            "To'liq berilib qilish, lekin natijaga bog'lanmaslik",
+            "Kam ishlash va ko'p dam olish",
+            "Boshqalarni aldab, o'zini ahmoq ko'rsatish"
+          ],
+          "izohlar": [
+            "Bu befarqlik. Don Xuan aksincha, har ishni oxirigacha qiladi.",
+            "Aynan shunday: to'liq harakat plus natijadan mustaqillik.",
+            "Bu dangasalik. Kitobda buning aksi aytiladi.",
+            "Bu aldov. Nazorat qilingan ahmoqlik boshqalarga emas, o'ziga qaratilgan."
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Natija sizning o'zingizga bergan bahoyingizni qanchalik o'zgartiradi?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Umuman o'zgartirmaydi",
+          "max_yorliq": "To'liq o'zgartiradi"
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Bir hafta amaliyot",
+          "bandlar": [
+            "Bitta ishni natijani o'ylamasdan oxirigacha qildim",
+            "Muvaffaqiyatsizlikdan keyin o'zimni koyimadim",
+            "Kunda bir marta kulgili tomonni topdim",
+            "Boshqaning xatosiga jahl qilmadim",
+            "Tanlovni «yurak bormi?» savoli bilan qildim"
+          ]
+        }
+      ]
+    },
+    {
+      "sarlavha": "Sabr, vaqt va shoshilish",
+      "magiz": [
+        "Kastaneda doimo shoshiladi: tezroq tushunmoqchi, tezroq natija ko'rmoqchi. Don Xuan buni asosiy to'siqlardan biri deb ko'rsatadi.",
+        "Uning javobi qat'iy: «Sening vaqting yo'q» — lekin bu shoshiling degani emas. Bu behuda narsalarga vaqt sarflamang degani.",
+        "Bilim odami sabrli, chunki u vaqtni o'zi uchun ishlatadi. Shoshilgan odam esa vaqtni yeydi va hech qayerga yetmaydi.",
+        "Don Xuanning o'qitish usuli ham shunga qurilgan: u javobni yillar davomida bo'lib-bo'lib beradi va shogird tayyor bo'lgandagina keyingi bo'lakni qo'shadi.",
+        "Shoshilishning ostida ko'pincha qo'rquv turadi: odam natija ko'rmasa, o'zining qobiliyatsizligidan qo'rqadi.",
+        "Yechim — kutish emas, harakatni davom ettirish. Sabr harakatsizlik emas: bu natijani talab qilmasdan qilishdir."
+      ],
+      "tavsiyalar": [
+        "Yangi amaliyotdan natija kutish muddatini oldindan uzoq qilib belgilang — haftalar emas, oylar.",
+        "Shoshilayotganingizni sezsangiz, o'zingizga savol bering: men nimadan qo'rqyapman?",
+        "Kunni behuda ishlardan tozalang: «vaqtim yo'q» aynan shu yerda ma'noga ega.",
+        "Bir vaqtning o'zida uchtadan ortiq yangi amaliyotni boshlamang.",
+        "Natijani hafta sanab emas, bajarilgan takrorlar sonini sanab o'lchang."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Bugungi kuningizni soatlab yozib chiqing va har bir bo'lakka belgi qo'ying: bu vaqt menga kuch berdimi yoki oldimi? Oxirida hisoblang — necha soat behuda ketdi?"
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Vaqtni tozalash",
+          "bandlar": [
+            "Kunimni soatlab yozib chiqdim",
+            "Kuch oladigan bitta odatni bugun qisqartirdim",
+            "Yangi amaliyotim uchun uzoq muddat belgiladim",
+            "Shoshilganimda qo'rquvimni tekshirdim",
+            "Bir vaqtda uchtadan ortiq narsani boshlamadim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Vaqtingizni o'zingiz boshqaryapsizmi?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Vaqt meni boshqaradi",
+          "max_yorliq": "Men vaqtni boshqaraman"
+        }
+      ]
+    },
+    {
+      "sarlavha": "Qo'riqchi: qo'rquv bilan uchrashuv",
+      "magiz": [
+        "Kitobning markazida Kastanedaning «boshqa dunyo qo'riqchisi» bilan uchrashuvi turadi — dahshatli, ulkan va yaqinlashib bo'lmaydigan narsa.",
+        "Don Xuanning yagona ko'rsatmasi oddiy: qarab tur va har bir harakatini yodda saqla. Kurashma, qochma — kuzat.",
+        "Bu tasvir amaliy ma'noga ega: har bir odamning oldida uni to'xtatib turadigan «qo'riqchi» bor — u qo'rquv, uyat yoki bir voqea shaklida bo'lishi mumkin.",
+        "Qo'riqchi kattaligi bilan qo'rqitadi. Lekin uning kattaligi ko'pincha uni ko'rmaslikdan o'sadi.",
+        "Kastanedaning xatosi takrorlanadi: u kuzatish o'rniga qochadi yoki tahlil qila boshlaydi. Ikkalasi ham aloqani uzadi.",
+        "Kitobning saboqi: qo'rquv oldida turgan holat — bu mag'lubiyat emas, bu ish holati. Undan qochish esa mag'lubiyat."
+      ],
+      "tavsiyalar": [
+        "Sizni eng ko'p to'xtatib turgan narsani qog'ozga tushiring — u yozilgach kichrayadi.",
+        "Qo'rqinchli narsani tahlil qilishdan oldin uni shunchaki kuzating: u qanday ko'rinishda keladi, tanangizda nima bo'ladi?",
+        "Qochish istagini sezganingizda joyingizda qoling — hech bo'lmasa yigirma soniya.",
+        "Qo'riqchingizni bir marta yozib qo'ying va oyiga bir marta qayta o'qing: u o'zgarayaptimi?",
+        "Kuzatishni kurashdan ajrating: kurash charchatadi, kuzatish ma'lumot beradi."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Sizning «qo'riqchingiz» kim yoki nima? Uni tasvirlab yozing: qachon paydo bo'ladi, qanday ko'rinishda keladi, tanangizda nima qiladi. Kurashmang — faqat tasvirlang."
+        },
+        {
+          "turi": "taymer",
+          "daqiqa": 8,
+          "korsatma": "Kuzatuv mashqi. Sakkiz daqiqa qo'rquvingiz haqida o'ylang — lekin uni hal qilmasdan, faqat kuzatib. U qayerdan keladi? Tanangizning qaysi joyida joylashgan? Yechim izlamang. Vaqt tugagach, bitta jumla yozing."
+        },
+        {
+          "turi": "slider",
+          "savol": "Qo'rquv kelganda qochasizmi yoki turasizmi?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Darrov qochaman",
+          "max_yorliq": "Turib kuzataman"
+        }
+      ]
+    },
+    {
+      "sarlavha": "Ko'rishga tayyorgarlik: kuchni yig'ish",
+      "magiz": [
+        "Kitobning xulosasi: ko'rish uchun texnika emas, ortiqcha kuch kerak. Kuchi tugagan odam hech narsa ko'ra olmaydi.",
+        "Kuch qayerga ketadi? Ichki suhbatga, xafaliklarga, o'zini muhim sanashga, behuda tashvishga va tugallanmagan ishlarga.",
+        "Shuning uchun barcha amaliyotlar bitta yo'nalishga qaratilgan: teshiklarni yopish. Yangi narsa qo'shishdan oldin oqib ketayotganini to'xtatish.",
+        "Don Xuan Kastanedaga aytadi: sen o'rganishga tayyor emassan, chunki hamma kuching o'zingni himoya qilishga ketmoqda.",
+        "Tayyorgarlik natijasi darrov ko'rinmaydi. U to'satdan chiqadi — bir kun kelib odam nimanidir birinchi marta boshqacha ko'radi.",
+        "Uchinchi kitob aynan shu tayyorgarlikning aniq ro'yxati bilan boshlanadi: shaxsiy tarixni o'chirish, o'zini muhim sanashdan voz kechish, o'limni maslahatchi qilish."
+      ],
+      "tavsiyalar": [
+        "Kuch teshiklaringizni ro'yxat qiling va eng kattasidan boshlang.",
+        "Tugallanmagan ishlarni yoping — ular fon rejimida kuch yeydi.",
+        "Yangi amaliyot qo'shishdan oldin bitta eski odatni to'xtating.",
+        "Uyquni va ovqatni tartibga soling: kitob buni aytmaydi, lekin kuchsiz tanada hech qanday amaliyot ishlamaydi.",
+        "Har hafta yakunida bitta savol bering: bu hafta kuchim qayerga ko'proq ketdi?"
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Kuchingiz oqib ketadigan beshta teshikni yozing. Har birining yoniga uni bir oz yopish uchun qiladigan bitta aniq harakatni yozing."
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Teshiklarni yopish",
+          "bandlar": [
+            "Kuch teshiklarim ro'yxatini yozdim",
+            "Tugallanmagan bitta ishni yopdim",
+            "Yangi odat qo'shishdan oldin eskisini to'xtatdim",
+            "Bu hafta xafalik ro'yxatim qisqardi",
+            "Uyqu va ovqat tartibimni tekshirdim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Bugungi kuningizni tugatganda kuchingiz qanday edi?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Butunlay tugagan",
+          "max_yorliq": "Hali ko'p"
+        },
+        {
+          "turi": "test",
+          "savol": "Don Xuanga ko'ra, ko'rish uchun eng kerakli narsa nima?",
+          "variantlar": [
+            "To'g'ri texnika",
+            "Ortiqcha kuch",
+            "Tug'ma qobiliyat",
+            "Uzoq meditatsiya"
+          ],
+          "izohlar": [
+            "Texnika ham bor, lekin kuchsiz odamda u ishlamaydi.",
+            "To'g'ri. Butun tayyorgarlik kuch yig'ishga qaratilgan.",
+            "Kitob qobiliyatni inkor qilmaydi, lekin uni hal qiluvchi deb hisoblamaydi.",
+            "Meditatsiya foydali, lekin kuch teshiklari ochiq bo'lsa, u ham yetmaydi."
+          ]
+        }
+      ]
+    }
+  ]
+}

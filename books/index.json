@@ -41,6 +41,94 @@
       "tavsif": "Oltinchi tuyg'u — mashq qilinadigan ko'nikma: kartalar bilan tayyorgarlik, aql va pauza dushmanlari, kundalik natijalar."
     },
     {
+      "id": "kastaneda-1",
+      "nomi": "Kastaneda 1: Don Xuanning ta'limoti",
+      "muallif": "Karlos Kastaneda",
+      "turkum": "Karlos Kastaneda",
+      "rang": "#6d4426",
+      "tavsif": "Shogirdlikning boshlanishi, o'z joyingizni topish va bilim odamining to'rt dushmani: qo'rquv, aniqlik, kuch, qarilik."
+    },
+    {
+      "id": "kastaneda-2",
+      "nomi": "Kastaneda 2: Alohida reallik",
+      "muallif": "Karlos Kastaneda",
+      "turkum": "Karlos Kastaneda",
+      "rang": "#35617a",
+      "tavsif": "Qarash va ko'rish farqi, ichki suhbatni to'xtatish va nazorat qilingan ahmoqlik."
+    },
+    {
+      "id": "kastaneda-3",
+      "nomi": "Kastaneda 3: Ikstlanga sayohat",
+      "muallif": "Karlos Kastaneda",
+      "turkum": "Karlos Kastaneda",
+      "rang": "#a05c2e",
+      "tavsif": "Eng amaliy kitob: shaxsiy tarixni o'chirish, o'limni maslahatchi qilish, odatlarni buzish va «qilmaslik»."
+    },
+    {
+      "id": "kastaneda-4",
+      "nomi": "Kastaneda 4: Kuch haqidagi ertaklar",
+      "muallif": "Karlos Kastaneda",
+      "turkum": "Karlos Kastaneda",
+      "rang": "#5b3f7a",
+      "tavsif": "Tonal va nagval, «tonal orolini tozalash», jangchi strategiyasi va idrok pufagi."
+    },
+    {
+      "id": "kastaneda-5",
+      "nomi": "Kastaneda 5: Kuchning ikkinchi halqasi",
+      "muallif": "Karlos Kastaneda",
+      "turkum": "Karlos Kastaneda",
+      "rang": "#2f6b5c",
+      "tavsif": "Ustoz ketgach nima bo'ladi: tush ko'rish san'ati, ikkinchi diqqat va o'zgarishning narxi."
+    },
+    {
+      "id": "kastaneda-6",
+      "nomi": "Kastaneda 6: Burgutning sovg'asi",
+      "muallif": "Karlos Kastaneda",
+      "turkum": "Karlos Kastaneda",
+      "rang": "#8a4356",
+      "tavsif": "Qayta ko'rish amaliyoti: butun hayotni eslab, unda qolgan kuchni qaytarish."
+    },
+    {
+      "id": "kastaneda-7",
+      "nomi": "Kastaneda 7: Ichkaridan yonuvchi olov",
+      "muallif": "Karlos Kastaneda",
+      "turkum": "Karlos Kastaneda",
+      "rang": "#b0512a",
+      "tavsif": "Yig'ish nuqtasi, idrokning tuzilishi va «mayda zolimlar» bilan ishlash."
+    },
+    {
+      "id": "kastaneda-8",
+      "nomi": "Kastaneda 8: Sukunatning kuchi",
+      "muallif": "Karlos Kastaneda",
+      "turkum": "Karlos Kastaneda",
+      "rang": "#3f5aa0",
+      "tavsif": "Ichki sukunat, niyat va ta'qibchining to'rt holati: shafqatsizlik, hiyla, sabr, mehr."
+    },
+    {
+      "id": "kastaneda-9",
+      "nomi": "Kastaneda 9: Tush ko'rish san'ati",
+      "muallif": "Karlos Kastaneda",
+      "turkum": "Karlos Kastaneda",
+      "rang": "#7b3f8f",
+      "tavsif": "Tush ko'rishning to'rt darvozasi, tushdagi diqqat va yo'ldagi tuzoqlar."
+    },
+    {
+      "id": "kastaneda-10",
+      "nomi": "Kastaneda 10: Cheksizlikning faol tomoni",
+      "muallif": "Karlos Kastaneda",
+      "turkum": "Karlos Kastaneda",
+      "rang": "#1f6b4a",
+      "tavsif": "Hayot albomi, qayta ko'rishning aniq usuli va jangchi-sayohatchi tushunchasi."
+    },
+    {
+      "id": "kastaneda-11",
+      "nomi": "Kastaneda 11: Vaqt g'ildiragi",
+      "muallif": "Karlos Kastaneda",
+      "turkum": "Karlos Kastaneda",
+      "rang": "#7a6a2a",
+      "tavsif": "Turkumning o'zagi: don Xuanning eng muhim fikrlari mavzular bo'yicha yig'ilgan."
+    },
+    {
       "id": "lucid-tush",
       "nomi": "Lucid tush: ongli tush ko'rish amaliyoti",
       "muallif": "Uyqu tadqiqotlari asosida",

@@ -1,0 +1,317 @@
+{
+  "id": "kastaneda-4",
+  "nomi": "Kastaneda 4: Kuch haqidagi ertaklar",
+  "muallif": "Karlos Kastaneda",
+  "kirish": "To'rtinchi kitobda don Xuan o'z ta'limotining asosiy tuzilishini ochadi: odam ikki qismdan iborat — tonal va nagval. Tonal — bu tartib, ism, tushuntirish; nagval — ismsiz va tushuntirib bo'lmaydigan qism. Kitobning amaliy o'zagi «tonal orolini tozalash»: hayotingizdagi keraksiz narsalarni ro'yxatga olib, ularni tartibga solish. Oxirida esa «idrok pufagi» — har birimiz o'z tavsifimiz ichida yashashimiz haqidagi tushuncha.",
+  "bolimlar": [
+    {
+      "sarlavha": "Tonal: tartib oroli",
+      "magiz": [
+        "Don Xuanning taqsimoti oddiy: tonal — bu biz haqimizda va dunyo haqida biladigan hamma narsa. Ismlar, qoidalar, tushuntirishlar, odatlar.",
+        "Tonal tug'ilishdan boshlab shakllanadi va o'limgacha bizni himoya qiladi. U dushman emas — u tashkilotchi.",
+        "Uni orolga qiyoslash mumkin: bu orolda bizning butun dunyomiz joylashgan. Undan tashqarida esa okean — nagval.",
+        "Muammo tonalda emas, uning holatida. Ko'p odamlarda orol tartibsiz: keraksiz narsalar bilan to'la, muhimi burchakda qolgan.",
+        "Don Xuanning talabi shundan: orolni tozalash. Tonal to'g'ri joylashtirilmaguncha nagval haqida gapirishning ma'nosi yo'q.",
+        "Bu — butun turkumdagi eng amaliy g'oyalardan biri: mistika emas, tartib. Avval hayotingizni tartibga soling, keyin g'ayrioddiy narsani izlang."
+      ],
+      "tavsiyalar": [
+        "Hayotingizdagi «orol»ni ro'yxat qiling: nima bor, nima kerak, nima ortiqcha.",
+        "Ortiqchani darrov tashlamang — avval ko'ring va nomlang. Ko'rilmagan narsa qaytib keladi.",
+        "Bir hafta davomida har kuni bitta keraksiz narsani chiqarib tashlang: buyum, obuna, aloqa, odat.",
+        "Tartibni ma'naviy amaliyotdan oldin qo'ying: to'lanmagan qarz va yig'ilgan ish har qanday mashqni bo'g'adi.",
+        "Tonalni dushman deb bilmang — uni yaxshi boshqaruvchi qiling."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Tonal orolingizni yozib chiqing: hayotingizda hozir nima bor? Ish, aloqalar, majburiyatlar, buyumlar, odatlar. Kamida 20 ta band yozing. Keyin har biriga belgi qo'ying: kerak / ortiqcha / bilmayman."
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Orolni tozalash — bir hafta",
+          "bandlar": [
+            "Orolimning ro'yxatini yozdim",
+            "Ortiqchalarini belgiladim",
+            "Bu hafta bitta keraksiz aloqani qisqartirdim",
+            "Bitta yig'ilib qolgan ishni yopdim",
+            "Bitta keraksiz obuna yoki buyumdan voz kechdim",
+            "Muhim narsani ro'yxatning boshiga ko'chirdim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Hayotingizdagi tartib qay darajada?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Butunlay tartibsiz",
+          "max_yorliq": "Hammasi joyida"
+        },
+        {
+          "turi": "test",
+          "savol": "Don Xuanga ko'ra, nagvalga yaqinlashishdan oldin nima qilish kerak?",
+          "variantlar": [
+            "Ko'p meditatsiya qilish",
+            "Tonalni — ya'ni oddiy hayotni tartibga solish",
+            "Ustoz topish",
+            "Kitoblarni o'qib chiqish"
+          ],
+          "izohlar": [
+            "Meditatsiya yordam berishi mumkin, lekin tartibsiz hayot ustiga qurilgan amaliyot ushlanmaydi.",
+            "To'g'ri. Kitobning talabi qat'iy: avval orolni tozalang.",
+            "Ustoz muhim, lekin u ham sizning oroloingizni tozalab bermaydi.",
+            "Kitob o'qish tonalning bir qismi — u orolni tozalamaydi, ba'zan to'ldiradi."
+          ]
+        }
+      ]
+    },
+    {
+      "sarlavha": "Nagval: ismsiz qism",
+      "magiz": [
+        "Nagval — odamdagi va dunyodagi tushuntirib bo'lmaydigan qism. Uni ta'riflab bo'lmaydi, chunki har qanday ta'rif uni tonalga aylantiradi.",
+        "Don Xuan nagvalni «hech narsa yo'q joy» deb ataydi — u yerda ism ham, tartib ham, chegara ham yo'q.",
+        "Nagval haqida gapirib bo'lmaydi, lekin unga tegib bo'ladi. Odam buni sezadi: fikr to'xtaydi, dunyo bir zumda boshqacha bo'ladi.",
+        "Xatolik — nagvalni tonal tili bilan tushuntirishga urinish. Kastaneda butun kitob davomida shu xatoni qiladi.",
+        "Nagvalni ta'qib qilish ham xato. Don Xuan aytadi: tonal to'g'ri turgan bo'lsa, nagval o'zi keladi.",
+        "Amaliy ma'nosi: hayotda tushuntirib bo'lmaydigan narsaga joy qoldiring. Hamma narsani izohlashga urinish — kuchni yeydigan odat."
+      ],
+      "tavsiyalar": [
+        "Kuniga bir marta tushuntirib bo'lmaydigan narsani ataylab tushuntirmasdan qoldiring.",
+        "«Bu shunchaki tasodif» degan izohni to'xtatib turing — izohsiz ham yashab ko'ring.",
+        "Fikr to'xtagan lahzalarni yozib boring: ular qachon, qayerda, qanday holatda keladi?",
+        "Nagvalni ta'qib qilmang. Tartibingizni kuchaytiring — qolgani o'zi keladi.",
+        "San'at, tabiat va musiqa — tushuntirishsiz qabul qilinadigan tajribaning eng oson eshiklari."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Hayotingizda tushuntira olmagan bitta holatni yozing. Uni izohlashga urinmang — faqat tasvirlang: nima bo'ldi, tanangizda nima bo'ldi, keyin nima o'zgardi?"
+        },
+        {
+          "turi": "taymer",
+          "daqiqa": 15,
+          "korsatma": "Izohsiz kuzatuv. O'n besh daqiqa tashqarida yoki deraza oldida o'tiring. Ko'rgan hamma narsani qabul qiling, lekin hech narsani izohlamang: «nima uchun», «demak», «bu shuni bildiradi» degan fikrlar kelsa — sezing va qo'yib yuboring. Faqat qabul qiling."
+        },
+        {
+          "turi": "slider",
+          "savol": "Hamma narsani izohlashga qanchalik ehtiyoj sezasiz?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Izohsiz ham yashayman",
+          "max_yorliq": "Hamma narsa izohlanishi kerak"
+        }
+      ]
+    },
+    {
+      "sarlavha": "Jangchi strategiyasi",
+      "magiz": [
+        "Don Xuan «jangchi» so'zini urush ma'nosida ishlatmaydi. Jangchi — bu hayotga strategiya bilan qaraydigan odam.",
+        "Uning to'rtta asosiy sifati bor: hushyor bo'lish, hurmat qilish, qo'rquvni bilish va o'ziga ishonch. Ular birga ishlaydi.",
+        "Jangchi hech qachon o'zini qurbon deb hisoblamaydi. U yutqazishi mumkin, lekin nolimaydi.",
+        "Uning ustunligi — u har bir vaziyatni oxirgi jang deb qabul qiladi. Shuning uchun uning harakati to'liq.",
+        "Jangchi rejalashtiradi, lekin natijaga yopishmaydi. U tayyorgarlik ko'radi va keyin qo'yib yuboradi.",
+        "Eng muhimi — jangchi vaqtni behuda sarflamaydi. Uning kuchi cheklangan va u buni biladi."
+      ],
+      "tavsiyalar": [
+        "Har kuni ertalab uchta asosiy ishni belgilang — jangchining strategiyasi shu yerdan boshlanadi.",
+        "Nolish paydo bo'lsa, uni to'xtating: nolish vaziyatni o'zgartirmaydi, faqat kuch oladi.",
+        "Vaziyatga kirishdan oldin tayyorgarlik ko'ring, kirgach — natijani qo'yib yuboring.",
+        "Har bir ishni «bu oxirgi bo'lishi mumkin» qarashi bilan qiling.",
+        "Kuchingizni cheklangan resurs deb ko'ring va uni kunlik taqsimlang."
+      ],
+      "mashqlar": [
+        {
+          "turi": "checklist",
+          "sarlavha": "Jangchi kuni",
+          "bandlar": [
+            "Ertalab uchta asosiy ishni belgiladim",
+            "Bugun bir marta ham nolimadim",
+            "Eng og'ir ishni birinchi qildim",
+            "Natijani qo'yib yubordim",
+            "Kuchimni kun bo'ylab taqsimladim",
+            "Kunni yopib, ertangi uchta ishni yozdim"
+          ]
+        },
+        {
+          "turi": "jurnal",
+          "savol": "Hozirgi eng katta vaziyatingizni «jangchi strategiyasi» sifatida yozing: maqsad nima, kuchim qancha, birinchi qadam qaysi, nimadan voz kechaman?"
+        },
+        {
+          "turi": "slider",
+          "savol": "Bugun o'zingizni qurbon deb his qildingizmi?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Umuman yo'q",
+          "max_yorliq": "Kun bo'yi"
+        },
+        {
+          "turi": "taymer",
+          "daqiqa": 25,
+          "korsatma": "Oxirgi jang mashqi. Yigirma besh daqiqa — faqat bitta ish. Uni «bu mening oxirgi ishim bo'lishi mumkin» qarashi bilan qiling: to'liq diqqat, hech qanday chalg'ish. Telefon boshqa xonada. Oxirida farqni bir jumla bilan yozing."
+        }
+      ]
+    },
+    {
+      "sarlavha": "Idrok pufagi",
+      "magiz": [
+        "Don Xuanning tasviri: tug'ilganda har birimiz atrofimizga pufak qo'yiladi. U asta yopiladi va biz butun umr shu pufak ichida yashaymiz.",
+        "Pufakning devorlarida — dunyo haqidagi bizning tavsifimiz. Biz dunyoni emas, o'z tavsifimizning aksini ko'ramiz.",
+        "Bu tavsifni bizga tashqaridan berishgan: ota-ona, til, maktab, muhit. Va biz uni har kuni o'zimizga takrorlaymiz.",
+        "Ustozning vazifasi — pufakni ochish emas, uni bir chetdan ko'rsatish: qarang, siz aks bilan ish qilyapsiz.",
+        "Pufak yomon narsa emas — usiz idrok imkonsiz. Lekin uning borligini bilish va bilmaslik — ikki xil hayot.",
+        "Amaliy xulosa: sizga «shunday» bo'lib ko'ringan narsalarning katta qismi tavsif. Uni o'zgartirish mumkin, lekin avval uni ko'rish kerak."
+      ],
+      "tavsiyalar": [
+        "«Dunyo shunday» degan har bir jumlangizni tekshiring: bu fakt-mi yoki tavsif?",
+        "O'zingizdan butunlay boshqacha qarashdagi odamni tinglang — bahslashmasdan, faqat tinglang.",
+        "Bolalikdan olgan qat'iy qoidalaringizni ro'yxat qiling: qaysilari hali ham ishlaydi?",
+        "Chet tilda yoki boshqa madaniyatda bir narsa boshqacha nomlanishini kuzating — bu pufakni ko'rishning eng oson usuli.",
+        "Kuniga bir marta o'z fikringizga «balki teskarisi to'g'ridir» deb qarab qo'ying."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "«Dunyo shunday» deb ishonadigan beshta narsangizni yozing. Har birining yoniga savol: buni menga kim aytgan va men buni qachon tekshirganman?"
+        },
+        {
+          "turi": "test",
+          "savol": "Idrok pufagi nima?",
+          "variantlar": [
+            "Odamning xayoloti",
+            "Bizga berilgan va biz takrorlaydigan dunyo tavsifi",
+            "Psixologik himoya mexanizmi",
+            "Ongning kasal holati"
+          ],
+          "izohlar": [
+            "Xayolot emas — bu odatdagi, «normal» idrokning o'zi.",
+            "To'g'ri. Biz dunyoni emas, uning devorlariga tushgan o'z tavsifimizni ko'ramiz.",
+            "Himoya vazifasi bor, lekin bu kengroq narsa — butun idrok tuzilishi.",
+            "Kasallik emas. Usiz idrok umuman ishlamaydi."
+          ]
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Pufakni ko'rish",
+          "bandlar": [
+            "Beshta «shunday» ishonchimni yozdim",
+            "Bittasini tekshirib ko'rdim",
+            "Boshqacha qarashdagi odamni bahslashmasdan tingladim",
+            "Bolalikdan qolgan bitta qoidani qayta ko'rdim",
+            "Bir marta «balki teskarisi to'g'ridir» dedim"
+          ]
+        }
+      ]
+    },
+    {
+      "sarlavha": "Tushdagi tana",
+      "magiz": [
+        "Kitobda Kastaneda birinchi marta o'zini tushida ko'radi — va ayni paytda o'sha tushda o'zini tomosha qiladi.",
+        "Don Xuanning tushuntirishi: odam ikkiga bo'lina oladi — «tush ko'ruvchi» va «tushda ko'rinuvchi». Ikkalasi ham u.",
+        "Tush bu yerda uyqu emas, boshqa idrok holati. Unga kirish uchun diqqat kerak, uyqu emas.",
+        "Kastaneda buni tushunolmaydi: qaysi biri haqiqiy? Don Xuan javob bermaydi — savol noto'g'ri qo'yilgan.",
+        "Bu mavzu keyinchalik alohida kitobga — «Tush ko'rish san'ati»ga aylanadi. Bu yerda esa faqat eshik ochiladi.",
+        "Amaliy o'zagi bitta: tushga e'tibor bering. Eslanmagan tush yo'q tush bilan barobar."
+      ],
+      "tavsiyalar": [
+        "Tushingizni har ertalab yozib boring — bu barcha keyingi amaliyotning poydevori.",
+        "Uyg'onganda darrov qimirlamang: bir necha soniya yotib, tushni orqasidan tiklang.",
+        "Tushda o'z qo'lingizni ko'rishni niyat qiling — bu eng qadimiy va eng oddiy usul.",
+        "Tushni tahlil qilmang, avval eslang. Tahlil eslashni buzadi.",
+        "Yetarli uxlang: kam uxlagan odamda tush ham, uni eslash ham yo'qoladi."
+      ],
+      "mashqlar": [
+        {
+          "turi": "kundalik",
+          "sarlavha": "Tush kundaligi",
+          "korsatma": "Har ertalab tushingizni shu yerga yozing. Avval kalit so'zlar, keyin tafsilot. Belgilar maydoniga tushdagi joy, odam, his va harakatni vergul bilan kiriting — takrorlanayotgan belgilar avtomatik sanaladi va pastda ko'rsatiladi. Hech narsa eslamasangiz ham «eslamadim» deb yozing: odat vaqtdan muhimroq.",
+          "joy_matn": "Kecha tushimda…",
+          "belgi_matn": "Belgilar: suv, uy, uchish, notanish odam…"
+        },
+        {
+          "turi": "eslatma",
+          "sarlavha": "Tushni yozish vaqti",
+          "matn": "Tushingizni yozing — parcha bo'lsa ham, hozir yozing.",
+          "korsatma": "Uyg'onish vaqtingizdan 5–10 daqiqa keyingi vaqtni qo'ying. Tush xotirasi bir necha daqiqada yuviladi.",
+          "vaqtlar": ["06:50", "07:20"]
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Tushga e'tibor",
+          "bandlar": [
+            "Uyg'onganda qimirlamay yotdim",
+            "Tushni orqasidan tikladim",
+            "Kundalikka yozdim",
+            "Tushda qo'limni ko'rishni niyat qildim",
+            "Yetarli uxladim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Bu hafta necha kun tushingizni yozdingiz?",
+          "min": 0,
+          "max": 7,
+          "min_yorliq": "0 kun",
+          "max_yorliq": "7 kun"
+        }
+      ]
+    },
+    {
+      "sarlavha": "Sakrash: tushuntirishning oxiri",
+      "magiz": [
+        "Kitob don Xuan va don Xenaroning Kastaneda bilan xayrlashuvi bilan tugaydi. Ular unga «sehrgarlar tushuntirishi»ni to'liq berishadi va ketishadi.",
+        "Xulosa qattiq: tushuntirish oxirigacha berilgan bo'lsa ham, u faqat so'z. Undan keyin faqat harakat qoladi.",
+        "Kastaneda jarlik chetiga chiqadi — bu tasvir butun turkumning ramzi: bilim to'plangan, endi sakrash kerak.",
+        "Sakrash — bu o'lim emas, kafolatdan voz kechish. Hech kim natijani va'da qilmaydi.",
+        "Don Xuanning oxirgi gapi ma'noli: u endi Kastanedaga o'rgatmaydi, chunki o'rgatiladigan narsa qolmadi. Qolgani — yashash.",
+        "Turkumning butun mantiqi shu yerda ko'rinadi: bilim tushuntirishda emas, unga muvofiq yashashda."
+      ],
+      "tavsiyalar": [
+        "Ma'lumot yig'ishni to'xtatib, bittasini qilishga o'ting: siz allaqachon yetarli bilasiz.",
+        "Kafolat kutmang. Kafolat bilan qilingan ish — sinov emas.",
+        "Bilim va harakat orasidagi masofani o'lchang: qaysi biri sizda ko'proq?",
+        "Boshlashdan oldin so'nggi bir savol bering: yana nimani bilishim kerak? Javob «hech narsa» bo'lsa — boshlang.",
+        "Kitobni tugatgach, undagi bitta mashqni tanlang va uni bir oy qiling. Qolganini keyin."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Sizning «jarlik»ingiz nima — bilib turib, lekin qilmayotgan ish? Uni yozing. Keyin yozing: uni qilish uchun qanday kafolat kutyapsiz va u kafolat kelishi mumkinmi?"
+        },
+        {
+          "turi": "test",
+          "savol": "Don Xuan tushuntirishni oxirigacha berdi. Endi nima qoladi?",
+          "variantlar": [
+            "Tushuntirishni yaxshilab o'rganish",
+            "Harakat — chunki tushuntirish faqat so'z",
+            "Yangi ustoz izlash",
+            "Kutish"
+          ],
+          "izohlar": [
+            "Tushuntirish tugadi. Uni takrorlash yangi narsa qo'shmaydi.",
+            "To'g'ri. Kitobning xulosasi: bilim yashashda tasdiqlanadi.",
+            "Yangi ustoz — bu ko'pincha harakatdan qochishning chiroyli shakli.",
+            "Kutish — kitobda eng ko'p tanqid qilinadigan holat."
+          ]
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Sakrashga tayyorgarlik",
+          "bandlar": [
+            "Bilib turib qilmayotgan ishimni yozdim",
+            "Qanday kafolat kutayotganimni aniqladim",
+            "Yangi ma'lumot yig'ishni to'xtatdim",
+            "Bitta mashqni tanlab, bir oyga rejalashtirdim",
+            "Birinchi qadamni qo'ydim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Bilim va harakatingiz nisbati qanday?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Faqat bilaman",
+          "max_yorliq": "Bilganimni qilaman"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "id": "kastaneda-9",
+  "nomi": "Kastaneda 9: Tush ko'rish san'ati",
+  "muallif": "Karlos Kastaneda",
+  "kirish": "Turkumdagi eng tizimli amaliy kitob. Don Xuan tush ko'rishni to'rtta «darvoza» sifatida beradi: har biri aniq vazifa va aniq belgiga ega. Birinchi darvoza — tushda qo'lingizni topish, ikkinchisi — tushdan tushga o'tish, uchinchisi — tush tanasini ko'rish. Kitobda ogohlantirish ham bor: bu yo'lda tuzoqlar bor va ularning eng kattasi — tush ko'rishning o'zi maqsadga aylanib qolishi.",
+  "bolimlar": [
+    {
+      "sarlavha": "Qadimgi sehrgarlar va ularning tuzog'i",
+      "magiz": [
+        "Don Xuan tush ko'rishni qadimgi sehrgarlar kashf qilganini aytadi. Ular bu sohada aql bovar qilmas natijalarga erishishgan.",
+        "Lekin ularning yo'li tuzoq bilan tugagan: ular tush dunyosini shu qadar chuqur o'rganishganki, undan qaytmay qolishgan.",
+        "Yangi sehrgarlarning qoidasi shundan: tush ko'rish maqsad emas, vosita. Maqsad — erkinlik.",
+        "Kitobning ta'rifi aniq: tush ko'rish — bu oddiy tush emas. Bu tushda yig'ish nuqtasini siljigan joyda ushlab turish.",
+        "Bu ko'nikma energiya talab qiladi. Energiyasi yetmagan odam birinchi darvozadan ham o'tolmaydi.",
+        "Energiya qayerdan keladi? Kundalik hayotdagi tartibdan: keraksiz odat, xafalik va o'zini muhim sanashdan voz kechishdan."
+      ],
+      "tavsiyalar": [
+        "Tush ko'rishni maqsad qilmang: uni o'zingizni o'rganish vositasi deb ko'ring.",
+        "Amaliyot boshlashdan oldin uyqu rejimini tartibga soling — bu asosiy energiya manbai.",
+        "Kundalik hayotdagi kuch teshiklarini yopmasangiz, tushda natija bo'lmaydi.",
+        "Tushga ovora bo'lib kundalik hayotni tashlab qo'ymang — bu aynan qadimgilarning tuzog'i.",
+        "Har hafta o'zingizga savol bering: bu amaliyot mening kundalik hayotimni yaxshilayaptimi?"
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Nima uchun tush ko'rishni o'rganmoqchisiz? Uchta sababni yozing. Endi rostini yozing: qaysi biri qiziqish, qaysi biri qochish, qaysi biri haqiqiy maqsad?"
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Energiya poydevori",
+          "bandlar": [
+            "Uyqu vaqtimni tartibga soldim",
+            "Kamida 7 soat uxlayapman",
+            "Bitta kuch teshigini yopdim",
+            "Kundalik ishlarimni tashlab qo'ymadim",
+            "Amaliyot maqsadini yozib aniqladim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Kundalik energiyangiz qay darajada?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Doim charchoq",
+          "max_yorliq": "Kuchim yetarli"
+        },
+        {
+          "turi": "test",
+          "savol": "Qadimgi sehrgarlarning tuzog'i nima edi?",
+          "variantlar": [
+            "Ular kam mashq qilishdi",
+            "Tush dunyosi ular uchun maqsadga aylandi va ular qaytmay qolishdi",
+            "Ular tushni yozib bormadi",
+            "Ular yolg'iz ishlashdi"
+          ],
+          "izohlar": [
+            "Aksincha — ular juda ko'p va juda chuqur mashq qilishdi.",
+            "To'g'ri. Shuning uchun yangi sehrgarlarda tush — vosita, maqsad emas.",
+            "Yozuv muhim, lekin bu ularning asosiy xatosi emas edi.",
+            "Ular guruh bo'lib ishlashardi."
+          ]
+        }
+      ]
+    },
+    {
+      "sarlavha": "Birinchi darvoza: tushda qo'lingizni toping",
+      "magiz": [
+        "Birinchi darvoza shunday ta'riflanadi: uxlab ketayotganingizni yoki tush ko'rayotganingizni anglagan paytda unga yetgan bo'lasiz.",
+        "Amaliy vazifa esa juda aniq: tushda o'z qo'lingizni topib, unga qarash.",
+        "Don Xuanning texnik ko'rsatmasi: qo'lga uzoq tikilmang. Qarang, keyin boshqa narsaga o'ting, keyin qo'lga qayting va yana chetga. Uzoq tikilsangiz, tasvir tarqaydi.",
+        "Nima uchun qo'l? Chunki u har doim yoningizda va uni izlash tushda diqqatni ushlab turadigan vazifa beradi.",
+        "Don Xuanning halol izohi: birinchi darvoza tabiiy to'siq va u aslida energiya darajasi ko'tarilganda o'zi ochiladi. Buni yutuq deb hisoblashga shoshilmang.",
+        "Bu bosqichda eng ko'p qilinadigan xato — natijani majburlash. Majburlash uyquni buzadi va amaliyotni to'xtatadi."
+      ],
+      "tavsiyalar": [
+        "Yotishdan oldin qisqa niyat ayting: «Tushimda qo'limni ko'raman».",
+        "Kunduzi qo'lingizga bir necha marta diqqat bilan qarang — bu odat tushga o'tadi.",
+        "Tushda biror narsani ko'rsangiz, qisqa qarang va chetga o'giring, keyin qayting.",
+        "Har ertalab yozing — yozilmagan tush yo'qolgan tush.",
+        "Natijani majburlamang: uyqu buzilsa, butun amaliyot to'xtaydi."
+      ],
+      "mashqlar": [
+        {
+          "turi": "kundalik",
+          "sarlavha": "Tush kundaligi",
+          "korsatma": "Har ertalab yozing. Avval kalit so'zlar, keyin tafsilot. Belgilar maydoniga tushdagi joy, odam, harakat va hisni kiriting — takrorlanadigan belgilar avtomatik sanaladi va pastda ko'rsatiladi. Qo'lingizni ko'rgan bo'lsangiz, belgilarga «qo'l» deb yozing.",
+          "joy_matn": "Kecha tushimda…",
+          "belgi_matn": "Belgilar: qo'l, uy, suv, uchish, notanish odam…"
+        },
+        {
+          "turi": "eslatma",
+          "sarlavha": "Qo'lga qarash",
+          "matn": "To'xtang. Qo'lingizga qarang. Barmoqlaringizni sanang. Bu tushmi?",
+          "korsatma": "Kun davomida tarqoq vaqtlarni qo'ying. Har safar mexanik bajarmang — rostdan shubhalaning. Aynan shu shubha tushga o'tadi.",
+          "vaqtlar": ["09:40", "12:20", "15:10", "18:40", "21:30"]
+        },
+        {
+          "turi": "eslatma",
+          "sarlavha": "Yotishdan oldingi niyat",
+          "matn": "Niyat ayting: «Tushimda qo'limni ko'raman». Qisqa va aniq.",
+          "korsatma": "Uxlashga yotish vaqtingizni qo'ying. Niyatni gapirib emas, his qilib ayting.",
+          "vaqtlar": ["23:00"]
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Birinchi darvoza",
+          "bandlar": [
+            "Yotishdan oldin niyat aytdim",
+            "Kunduzi qo'limga qaradim",
+            "Ertalab tushni yozdim",
+            "Tushda tikilib qolmadim",
+            "Uyqumni buzmadim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Bu hafta necha kun tushingizni yozdingiz?",
+          "min": 0,
+          "max": 7,
+          "min_yorliq": "0 kun",
+          "max_yorliq": "7 kun"
+        }
+      ]
+    },
+    {
+      "sarlavha": "Ikkinchi darvoza: tushdan tushga",
+      "magiz": [
+        "Ikkinchi darvozaga yetish belgisi: siz tushda uyg'onasiz — lekin bu yana tush bo'lib chiqadi. Yoki bir tushdan boshqasiga o'tasiz.",
+        "Vazifa: tushdan tushga o'tishni boshqarish, tasodifan emas.",
+        "Bu bosqichda diqqat allaqachon o'sgan bo'ladi. Kitobda buni «energiya tanasi»ning uyg'onishi deb ataladi.",
+        "Muhim ogohlantirish: bu bosqichda «yolg'on uyg'onish» tez-tez bo'ladi — siz uyg'ondim deb o'ylaysiz, aslida hali tushdasiz.",
+        "Shuning uchun qoida: har safar uyg'onganda tekshiruv qiling — qo'lingizga qarang, matnni ikki marta o'qing.",
+        "Kastanedaning xatosi bu yerda ham takrorlanadi: u tez o'tmoqchi bo'ladi va shu bilan sekinlashadi."
+      ],
+      "tavsiyalar": [
+        "Har safar uyg'onganingizda tekshiruv qiling — hattoki to'shakda ekaningizga ishonchingiz komil bo'lsa ham.",
+        "Tushda o'tishni sezsangiz, hayajonlanmang: hayajon darrov uyg'otadi.",
+        "Tushni barqarorlashtirish uchun qo'llarni ishqalang yoki yaqin narsani ushlab ko'ring.",
+        "Bir tushdan ikkinchisiga o'tishni maqsad qilib qo'yib, uni kundalikda belgilab boring.",
+        "Shoshilmang. Kitobda bu bosqich oylab, ba'zan yillab davom etadi."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "«Yolg'on uyg'onish» bo'lganmi? Bo'lgan bo'lsa, tasvirlang: qanday sezdingiz, nima g'alati edi? Bo'lmagan bo'lsa, uni tanib olish uchun qanday belgilarga qarashingizni yozing."
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Ikkinchi darvoza",
+          "bandlar": [
+            "Har uyg'onganda tekshiruv qildim",
+            "Tushda hayajonlanmasdan turdim",
+            "Qo'llarni ishqalab tushni barqarorlashtirdim",
+            "O'tishlarni kundalikda belgiladim",
+            "Shoshilmadim"
+          ]
+        },
+        {
+          "turi": "test",
+          "savol": "Tushda uyg'ondingiz, lekin bu yana tush bo'lib chiqdi. Bu nima?",
+          "variantlar": [
+            "Kasallik belgisi",
+            "Yolg'on uyg'onish — ikkinchi darvozaning oddiy hodisasi",
+            "Amaliyotni to'xtatish kerakligini bildiradi",
+            "Tasodif"
+          ],
+          "izohlar": [
+            "Kasallik emas — bu tush ko'rishda keng tarqalgan hodisa.",
+            "To'g'ri. Shuning uchun qoida: har uyg'onganda tekshiruv qiling.",
+            "Aksincha, bu amaliyot ishlayotganining belgisi.",
+            "Tasodif emas — u aynan diqqat o'sganda paydo bo'ladi."
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Tushda o'zingizni qanchalik boshqara olasiz?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Umuman boshqara olmayman",
+          "max_yorliq": "Ko'p narsani boshqaraman"
+        }
+      ]
+    },
+    {
+      "sarlavha": "Uchinchi darvoza va tush tanasi",
+      "magiz": [
+        "Uchinchi darvozaga yetish belgisi: siz tushda o'z uxlab yotgan tanangizni ko'rasiz yoki o'zingizni chetdan ko'rasiz.",
+        "Bu bosqichda «energiya tanasi» to'liq shakllanadi. Kitobda u tush ichida mustaqil harakat qila oladigan qism deb ta'riflanadi.",
+        "Vazifa — tush tanasini kundalik tana bilan birlashtirish: ikkisi bir xil aniqlik bilan idrok qilishi kerak.",
+        "Bu bosqichda tuzoq ham bor: tush shu qadar aniq bo'ladiki, undan chiqish istagi yo'qoladi. Aynan shu joyda qadimgi sehrgarlar qolib ketishgan.",
+        "Kitobning talabi qat'iy: har safar qaytish. Tush qanchalik yaxshi bo'lmasin, kundalik hayot birinchi.",
+        "Amaliy o'lchov ham shu: agar tush amaliyoti kundalik hayotingizni yaxshilamayotgan bo'lsa, yo'nalish noto'g'ri."
+      ],
+      "tavsiyalar": [
+        "Har seansdan keyin kundalik hayotga qayting: ish, aloqa, tartib.",
+        "Tushga qochish vositasi sifatida qaramang — bu eng ko'p uchraydigan tuzoq.",
+        "Tush aniqligini o'lchang: qanchalik aniq eslay olyapsiz?",
+        "Amaliyotning kundalik hayotdagi ta'sirini yozib boring — bu yagona ishonchli o'lchov.",
+        "Uyquni qurbon qilmang: tushni kuchaytiraman deb uyquni qisqartirish — teskari natija beradi."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Bu amaliyot kundalik hayotingizni qanday o'zgartirdi? Aniq yozing: uyqu, kayfiyat, xotira, ish, odamlar bilan aloqa. Agar hech narsa o'zgarmagan bo'lsa, buni ham yozing — bu ham javob."
+        },
+        {
+          "turi": "test",
+          "savol": "Tush shu qadar yaxshiki, undan chiqgingiz kelmayapti. Bu nima?",
+          "variantlar": [
+            "Muvaffaqiyat belgisi",
+            "Aynan kitob ogohlantirgan tuzoq",
+            "Charchoq",
+            "Normal holat, e'tibor bermang"
+          ],
+          "izohlar": [
+            "Aniq tush — yaxshi belgi, lekin qaytishni istamaslik — boshqa narsa.",
+            "To'g'ri. Qadimgi sehrgarlar aynan shu yerda qolib ketishgan.",
+            "Charchoq boshqa alomat beradi.",
+            "E'tibor berish kerak: bu yo'nalishning o'zgarganini bildiradi."
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Amaliyot kundalik hayotingizni yaxshilayaptimi?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Aksincha, buzyapti",
+          "max_yorliq": "Sezilarli yaxshilayapti"
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Muvozanatni saqlash",
+          "bandlar": [
+            "Uyqumni qisqartirmadim",
+            "Kundalik ishlarimni bajardim",
+            "Tushga qochish vositasi sifatida qaramadim",
+            "Amaliyot ta'sirini yozib bordim",
+            "Har safar kundalik hayotga qaytdim"
+          ]
+        }
+      ]
+    },
+    {
+      "sarlavha": "Tushdagi diqqat va tuzoqlar",
+      "magiz": [
+        "Kitobning markaziy tushunchasi — «tush ko'rish diqqati»: tushda narsalarni ushlab tura oladigan diqqat.",
+        "U kundalik diqqatdan farq qiladi: tushda narsalar o'zgaruvchan va ularni faqat diqqat ushlab turadi.",
+        "Diqqatni mashq qilishning yo'li oddiy: tushda bir necha narsani ketma-ket ko'rish va har safar boshlang'ich nuqtaga qaytish.",
+        "Kitobda tush olamidagi «boshqa mavjudotlar» haqida uzun bo'lim bor. Don Xuan ularga nisbatan qat'iy ehtiyotkorlikni talab qiladi.",
+        "Bu qismni harfma-harf yoki majoziy o'qish mumkin. Majoziy o'qishda ma'no aniq: tush olamida sizni o'ziga tortadigan narsalar bor va ular vaqtingizni yeydi.",
+        "Eng amaliy xulosa: har qanday tajribaga aniq maqsad bilan kiring. Maqsadsiz kirilgan joyda odam adashadi."
+      ],
+      "tavsiyalar": [
+        "Tushda bitta aniq vazifa qo'ying — bir tushda bittadan ortiq emas.",
+        "Boshlang'ich nuqta tanlang (qo'lingiz) va har safar unga qayting.",
+        "Tushdagi qiziq narsalarga ergashib ketmang: vazifangizni bajaring va qayting.",
+        "Har seansdan keyin yozing: vazifa bajarildimi? Nima chalg'itdi?",
+        "Qo'rqinchli yoki bosim beruvchi tush bo'lsa, uyg'oning va yozing — kurashmang."
+      ],
+      "mashqlar": [
+        {
+          "turi": "taymer",
+          "daqiqa": 12,
+          "korsatma": "Diqqat mashqi (uyg'oqlikda). O'n ikki daqiqa: bitta narsani boshlang'ich nuqta qilib tanlang. Unga qarang, keyin boshqa narsaga qarang, keyin boshlang'ich nuqtaga qayting. Yana boshqasiga, yana qayting. Bu — tushda ishlatiladigan diqqat sxemasining uyg'oqlikdagi mashqi."
+        },
+        {
+          "turi": "jurnal",
+          "savol": "Keyingi tushingiz uchun bitta aniq vazifa yozing. Faqat bitta. Masalan: «Qo'limga qarayman va keyin xonadan chiqaman». Ertalab natijani shu yerga qo'shib yozing."
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Tushdagi tartib",
+          "bandlar": [
+            "Bitta aniq vazifa qo'ydim",
+            "Boshlang'ich nuqtani belgiladim",
+            "Qiziq narsalarga ergashib ketmadim",
+            "Natijani ertalab yozdim",
+            "Bosim beruvchi tushda kurashmadim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Tushdagi diqqatingiz qanchalik barqaror?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Darrov tarqaydi",
+          "max_yorliq": "Uzoq ushlanadi"
+        }
+      ]
+    },
+    {
+      "sarlavha": "Niyat qanotlarida",
+      "magiz": [
+        "Kitobning yakuniy bo'limi tush ko'rishni niyat bilan bog'laydi: tushdagi harakat ham, uyg'oqlikdagi harakat ham bitta kuchdan chiqadi.",
+        "Don Xuanning xulosasi: tush ko'rish alohida ko'nikma emas. U — diqqatning boshqa sharoitdagi ishi.",
+        "Shuning uchun kunduzgi tartib va tushdagi natija bir-biriga bog'liq: tartibsiz kun tartibsiz tush beradi.",
+        "Turkumning umumiy xulosasi bu yerda takrorlanadi: barcha amaliyotlar bitta narsani qiladi — kuch to'playdi va diqqatni o'tkirlashtiradi.",
+        "Kastanedaning yo'li ham shuni ko'rsatadi: u eng ko'p bilgan, lekin eng sekin o'zlashtirgan shogird — chunki u o'qishni amaliyotdan ustun qo'ygan.",
+        "Kitobning oxirgi ohangi tinch: sizdan talab qilinadigan narsa aniq. Har kuni bir oz, uzoq vaqt davomida."
+      ],
+      "tavsiyalar": [
+        "Kunduzgi tartibingizni tushdagi natijaning bir qismi deb ko'ring.",
+        "Amaliyotni oylik emas, yillik masshtabda rejalashtiring.",
+        "Har oy bir marta kundalikni qayta o'qing: nima o'sdi?",
+        "Bitta amaliyotni oxirigacha olib boring — bir vaqtda ko'pini boshlamang.",
+        "Bilim to'plashni to'xtatib, bor bilganingizni bajaring."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Kundaligingizni qayta o'qing (kamida bir oylik). Nima o'zgardi — eslash, aniqlik, muntazamlik? Uch jumlada yozing. Keyin keyingi oy uchun bitta aniq maqsad qo'ying."
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Uzoq muddatli amaliyot",
+          "bandlar": [
+            "Amaliyotni yillik masshtabda rejalashtirdim",
+            "Kundalikni qayta o'qidim",
+            "Bitta amaliyotni tanlab, boshqalarini to'xtatdim",
+            "Kunduzgi tartibimni mustahkamladim",
+            "Yangi kitob o'qish o'rniga mashq qildim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Bir oy davomida amaliyotni qanchalik muntazam olib bordingiz?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Deyarli qilmadim",
+          "max_yorliq": "Deyarli har kuni"
+        },
+        {
+          "turi": "eslatma",
+          "sarlavha": "Oylik tekshiruv",
+          "matn": "Kundalikni qayta o'qing: bu oy nima o'zgardi? Keyingi oy uchun bitta maqsad qo'ying.",
+          "korsatma": "Oyiga bir marta o'zingizga qulay vaqtni qo'ying. Bu eslatma amaliyotni yo'nalishsiz qolib ketishdan saqlaydi.",
+          "vaqtlar": ["20:00"]
+        }
+      ]
+    }
+  ]
+}

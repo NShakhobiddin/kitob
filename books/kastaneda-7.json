@@ -1,0 +1,321 @@
+{
+  "id": "kastaneda-7",
+  "nomi": "Kastaneda 7: Ichkaridan yonuvchi olov",
+  "muallif": "Karlos Kastaneda",
+  "kirish": "Bu kitob butun turkumning nazariy o'zagi. Don Xuan bu yerda idrokning tuzilishini tushuntiradi: odam yorug' shar bo'lib, undagi «yig'ish nuqtasi» qaysi joyda tursa, o'sha dunyo idrok qilinadi. Bu nuqta bir umr bir joyda turadi va odam uni «reallik» deb ataydi. Kitobning eng amaliy bo'limi esa «mayda zolimlar» haqida: sizni ezayotgan odam — dushman emas, u eng arzon va eng samarali mashq maydoni.",
+  "bolimlar": [
+    {
+      "sarlavha": "Yangi ko'ruvchilar va eski xato",
+      "magiz": [
+        "Don Xuan o'z an'anasini ikkiga bo'ladi: qadimgi ko'ruvchilar va yangi ko'ruvchilar. Farqi bitta — qadimgilar kuchni maqsad qilishgan.",
+        "Qadimgilar juda ko'p narsani bilishgan va shu bilimga mahliyo bo'lishgan. Ular o'z kuchlariga ishonib, ehtiyotkorlikni yo'qotishgan va oxirida yo'q bo'lib ketishgan.",
+        "Yangi ko'ruvchilar ularning kutubxonasini emas, xatosini o'rgangan. Ularning birinchi qoidasi — erkinlik, kuch emas.",
+        "Ikkinchi qoidasi — «bexatolik»: hech qanday holatda ham eng yaxshi qilingan harakat. Bu mukammallik emas, bu doimiy sifat.",
+        "Uchinchisi — kamtarlik. Ko'ruvchi o'zining bilimini ustunlik deb ko'rmaydi, chunki koinot oldida bilimning hajmi ahamiyatsiz.",
+        "Amaliy xulosa: har qanday amaliyotda maqsadni tekshirib turing. Kuch to'plash maqsad bo'lsa, u sizni tuzoqqa oladi."
+      ],
+      "tavsiyalar": [
+        "Har qanday o'zgarish yo'lida maqsadni yozib qo'ying: erkinlikmi yoki kuchmi?",
+        "«Bexatolik»ni mukammallik deb tushunmang: bu «shu sharoitda qo'limdan kelganining eng yaxshisi» degani.",
+        "Bilimingizni ustunlik sifatida ishlatmang — bu qadimgilar xatosining kichik shakli.",
+        "Kuch paydo bo'lgach ehtiyotkorlikni oshiring, kamaytirmang.",
+        "Har oy savol bering: men nima uchun buni qilyapman? Javob o'zgargan bo'lsa, sabab bor."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Hozirgi asosiy amaliyotingiz yoki maqsadingiz nima uchun? Rostini yozing: erkinlik uchunmi, kuch uchunmi, boshqalarga ko'rsatish uchunmi? Uch sababni ham yozing va qaysi biri kuchliroq ekanini belgilang."
+        },
+        {
+          "turi": "test",
+          "savol": "Qadimgi ko'ruvchilarning asosiy xatosi nima edi?",
+          "variantlar": [
+            "Ular kam bilishardi",
+            "Ular kuchni maqsad qilishdi",
+            "Ular juda ko'p mashq qilishdi",
+            "Ular yolg'iz ishlashdi"
+          ],
+          "izohlar": [
+            "Aksincha — ular juda ko'p bilishardi. Muammo bilimda emas edi.",
+            "To'g'ri. Kuch maqsad bo'lganda u tuzoqqa aylanadi — bu butun kitobning ogohlantirishi.",
+            "Mashq ko'pligi muammo emas.",
+            "Ular guruh bo'lib ishlashardi. Masala tashkilotda emas, yo'nalishda."
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Harakatlaringizni «bexatolik» darajasida qanchalik qilyapsiz?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Amal-taqal",
+          "max_yorliq": "Qo'limdan kelganicha eng yaxshi"
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Yo'nalishni tekshirish",
+          "bandlar": [
+            "Maqsadimni yozib aniqladim",
+            "Bilimimni ustunlik sifatida ishlatmadim",
+            "Bitta ishni bexatolik bilan qildim",
+            "Kuch ko'paygan joyda ehtiyotkorlikni oshirdim",
+            "«Nima uchun?» savolini berdim"
+          ]
+        }
+      ]
+    },
+    {
+      "sarlavha": "Mayda zolimlar",
+      "magiz": [
+        "Kitobning eng amaliy tushunchasi: «mayda zolim» — bu sizni ezadigan, kamsitadigan, asabingizni buzadigan odam. Rahbar, qarindosh, qo'shni.",
+        "Don Xuanning qarashi kutilmagan: bunday odam baxtsizlik emas, sovg'a. U bexatolikni mashq qilishning eng arzon maydoni.",
+        "Sabab oddiy: o'zini muhim sanashni haqiqiy sharoitda faqat shunday odam sinaydi. Tinch joyda hech kim buni o'rganmaydi.",
+        "Mashqning qoidasi: zolimga qarshi kurashmang va undan qochmang. Uni strategiya bilan o'rganing — u qachon, nimaga, qanday reaksiya qiladi.",
+        "Nagval Xulian haqidagi hikoya buni ko'rsatadi: eng qattiq ustoz eng ko'p narsa o'rgatgan, chunki uning yonida bo'shashish imkonsiz edi.",
+        "Ogohlantirish: bu zulmni oqlash emas. Gap zarar haqida emas, sizning reaksiyangiz haqida. Zarar bo'lsa — undan chiqish kerak."
+      ],
+      "tavsiyalar": [
+        "O'z «mayda zolim»ingizni aniqlang va uni dushman emas, mashq deb qayta nomlang.",
+        "Uning oldida reaksiyangizni kuzating: nima aynan sizni tegadi? Aynan shu joy sizning zaif nuqtangiz.",
+        "Kurashmang va qochmang: uchinchi yo'l — strategiya. Qachon gapirish, qachon jim turish, qachon chiqib ketishni oldindan rejalashtiring.",
+        "Har uchrashuvdan keyin yozing: bugun o'zimni ushlab tura oldimmi?",
+        "Agar zarar real bo'lsa — sog'liq, xavfsizlik, qadr-qimmat — mashq emas, chiqish kerak. Buni chalkashtirmang."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Sizning «mayda zolim»ingiz kim? Uni tasvirlang: nima qiladi, sizda qanday reaksiya chaqiradi, aynan qaysi so'z yoki harakat sizni ushlaydi? Oxirida yozing: bu mashqmi yoki chiqish kerak bo'lgan zararmi?"
+        },
+        {
+          "turi": "test",
+          "savol": "Rahbaringiz sizni doim kamsitadi. Kitobning yo'li qaysi?",
+          "variantlar": [
+            "Qarshi kurashish va haqiqatni isbotlash",
+            "Chidash va indamaslik",
+            "Uni o'rganish va reaksiyangizni ushlab turish — strategiya bilan",
+            "Darrov ishdan ketish"
+          ],
+          "izohlar": [
+            "Kurash o'zini muhim sanashni oziqlantiradi va kuchni yeydi.",
+            "Chidash va ushlab turish boshqa narsa. Chidash ichda to'planadi.",
+            "To'g'ri. Kitobning butun mantiqi shu: zolim — sizning reaksiyangizni mashq qilish maydoni.",
+            "Ba'zan to'g'ri, lekin reaksiyangiz o'zgarmasa, keyingi joyda yangi zolim topiladi."
+          ]
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Zolim bilan ishlash",
+          "bandlar": [
+            "Mayda zolimimni aniqladim",
+            "Uni mashq deb qayta nomladim",
+            "Uchrashuvdan oldin strategiya tuzdim",
+            "Reaksiyamni ushlab turdim",
+            "Uchrashuvdan keyin natijani yozdim",
+            "Real zarar borligini tekshirdim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Zolim oldida o'zingizni qanchalik ushlab tura oldingiz?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Butunlay yo'qotdim",
+          "max_yorliq": "To'liq ushladim"
+        }
+      ]
+    },
+    {
+      "sarlavha": "Yig'ish nuqtasi",
+      "magiz": [
+        "Don Xuanning tasviri: odam — yorug' tolalardan iborat shar. Uning orqasida, kurak balandligida yorqin nuqta bor — «yig'ish nuqtasi».",
+        "Bu nuqta koinotdagi cheksiz energiya oqimlaridan faqat bir dastasini tanlaydi. Aynan o'sha tanlangan dasta bizning dunyomizni yasaydi.",
+        "Nuqta bir umr deyarli bir joyda turadi. Shuning uchun bizning dunyomiz barqaror va «yagona haqiqiy» bo'lib ko'rinadi.",
+        "Nuqtaning joyini o'zgartirish — idrokning o'zgarishi. Kichik siljish tush, hissiyot yoki charchoqda ham bo'ladi.",
+        "Odamlarning bir xil dunyoni ko'rishi ular bir xil joyda kelishganidan: bola tug'ilganda uning nuqtasi kattalar tomonidan «to'g'ri» joyga qo'yiladi.",
+        "Kitobdagi eng muhim amaliy fikr: idrok o'zgarishi uchun kuch kerak. Kuchsiz odamda nuqta qimirlamaydi va u faqat nazariya to'playdi."
+      ],
+      "tavsiyalar": [
+        "Idrokingizning o'zgargan lahzalarini yozib boring: qachon dunyo boshqacha ko'ringan?",
+        "Kuch to'plash amaliyotini nazariya o'qishdan ustun qo'ying.",
+        "O'z «barqaror joyingiz»ni ko'rish uchun butunlay boshqa muhitga chiqing: boshqa shahar, boshqa til, boshqa kasb odamlari.",
+        "Charchoq, ochlik va uyqusizlikni idrok bilan tajriba qilish uchun ishlatmang — kitob bu yo'lni ma'qullamaydi.",
+        "Idrokning o'zgarishini maqsad qilmang: uni tartib va kuchning natijasi deb ko'ring."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Hayotingizda dunyo butunlay boshqacha ko'ringan lahzani eslang — kasallik, sevgi, katta yo'qotish, uzoq sayohat. O'sha paytda nima o'zgargan edi? Va u qanday qaytdi?"
+        },
+        {
+          "turi": "taymer",
+          "daqiqa": 15,
+          "korsatma": "Idrokni surish mashqi. O'n besh daqiqa tanish xonangizni butunlay notanish joy sifatida ko'rishga harakat qiling: siz bu yerni birinchi marta ko'ryapsiz, hech narsaning nomini bilmaysiz. Har bir narsani shakl, rang va soya sifatida ko'ring. Nom kelsa — sezing va yana notanish qarashga qayting."
+        },
+        {
+          "turi": "test",
+          "savol": "Nima uchun odamlar bir xil dunyoni ko'rishadi?",
+          "variantlar": [
+            "Chunki dunyo bitta va u obyektiv",
+            "Chunki hammaning yig'ish nuqtasi bir xil joyga qo'yilgan",
+            "Chunki ko'zlar bir xil ishlaydi",
+            "Chunki hamma bir xil o'qigan"
+          ],
+          "izohlar": [
+            "Kitob buni inkor qilmaydi, lekin ta'kidlaydi: biz dunyoni emas, undan tanlangan bo'lakni ko'ramiz.",
+            "To'g'ri. Bola tug'ilganda uning nuqtasi kattalar tomonidan bir joyga qo'yiladi.",
+            "Fiziologiya bir xil, lekin masala idrokning tanlovida.",
+            "Ta'lim ta'sir qiladi, lekin bu chuqurroq narsa — idrokning o'zi."
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Dunyoni odatdagidan boshqacha ko'ra olasizmi?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Hech qachon",
+          "max_yorliq": "Tez-tez"
+        }
+      ]
+    },
+    {
+      "sarlavha": "Birinchi diqqat va inson matritsasi",
+      "magiz": [
+        "«Birinchi diqqat» — bu odamning kundalik dunyoni yig'ib turadigan qismi. U tug'ilishdan o'limgacha to'xtovsiz ishlaydi.",
+        "Uning ishi og'ir: har lahzada dunyoni qaytadan tasdiqlash. Shuning uchun odamning kuchining katta qismi shunga ketadi.",
+        "Birinchi diqqat o'ta konservativ: u har qanday yangilikni eski qolipga tushirishga harakat qiladi.",
+        "Kitobda «inson matritsasi» degan tushuncha ham bor — barcha odamlarga umumiy bo'lgan idrok qolipi.",
+        "Odamlarni bog'lab turgan narsa ham shu: biz bir xil qolipdan qaraymiz va shuning uchun bir-birimizni tushunamiz.",
+        "Amaliy ma'nosi: sizning «tabiiy» reaksiyalaringizning katta qismi tabiiy emas — ular umumiy qolipning ishi. Ularni ko'rish mumkin."
+      ],
+      "tavsiyalar": [
+        "Kun davomida avtomatik reaksiyalaringizni sanang: nechtasi haqiqatan sizniki?",
+        "Yangi ma'lumotni eski qolipga tushirishga shoshilmang: «bu men bilgan narsa» degan fikrni to'xtating.",
+        "Bir hafta davomida bitta odatiy fikringizni ataylab tekshiring.",
+        "Odamlarning umumiy reaksiyalarini kuzating — bu qolipni ko'rishning eng oson yo'li.",
+        "Kuchingizni tejang: dunyoni tasdiqlashga ketadigan qismini kamaytiring — bahs, tortishuv, isbotlash."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Bugungi kuningizdagi beshta avtomatik reaksiyani yozing — o'ylab qilmagan javoblaringiz. Har birining yoniga: agar men bir soniya to'xtaganimda, boshqacha qilarmidim?"
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Avtomatikni sekinlashtirish",
+          "bandlar": [
+            "Avtomatik reaksiyalarimni sanadim",
+            "Bir marta javob berishdan oldin to'xtadim",
+            "«Bu men bilgan narsa» degan fikrni tekshirdim",
+            "Bugun bahsdan voz kechdim",
+            "Bitta odatiy fikrimni sinab ko'rdim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Reaksiyalaringizning necha foizi avtomatik?",
+          "min": 0,
+          "max": 100,
+          "min_yorliq": "0%",
+          "max_yorliq": "100%"
+        }
+      ]
+    },
+    {
+      "sarlavha": "Ta'qib, niyat va tush pozitsiyasi",
+      "magiz": [
+        "Kitob amaliyotni ikki yo'lga bo'ladi: «ta'qib» (stalking) va «tush ko'rish». Ikkalasi ham yig'ish nuqtasini siljitishning usullari.",
+        "Ta'qib — kundalik hayot bilan ishlash: o'z xatti-harakatini kuzatish, boshqarish va ataylab o'zgartirish. Uning maydoni — odamlar.",
+        "Tush ko'rish — uyqu holatida diqqatni ushlab turish. Uning maydoni — tush.",
+        "Ikkalasini bog'lab turadigan narsa — «niyat». Bu istak emas, xohish ham emas: bu qat'iy, so'zsiz yo'naltirish.",
+        "Don Xuanning ta'kidi: niyat aqldan emas, butun tanadan chiqadi. Shuning uchun uni «xohlayman» deb emas, aniq va qisqa qilib qo'yish kerak.",
+        "Amaliy o'zagi: har kuni bitta aniq niyatni ushlab turish — va uni tekshirish."
+      ],
+      "tavsiyalar": [
+        "Ta'qibni kundalik hayotdan boshlang: bitta xatti-harakatingizni bir hafta kuzating.",
+        "Niyatni qisqa qiling: bitta jumla, aniq so'zlar, hech qanday «harakat qilaman».",
+        "Niyatni ertalab va yotishdan oldin takrorlang — kunning ikki chegarasi eng kuchli.",
+        "Ikki yo'lni birga olib boring: kunduzi ta'qib, kechasi tush.",
+        "Niyatni tekshiring: hafta oxirida yozing — u bajarildimi yoki shunchaki takrorlandimi?"
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Shu hafta uchun bitta aniq niyat yozing. Qisqa, aniq, birinchi shaxsda, «harakat qilaman»siz. Masalan: «Har kuni ertalab tushimni yozaman». Keyin yozing: buni qanday tekshiraman?"
+        },
+        {
+          "turi": "eslatma",
+          "sarlavha": "Niyatni takrorlash",
+          "matn": "Niyatingizni takrorlang. Aniq, qisqa, o'zingizga.",
+          "korsatma": "Ertalabki va kechki vaqtni qo'ying — kunning ikki chegarasi. Har safar mexanik takrorlamang: jumlani aytganda uni tanangizda his qiling.",
+          "vaqtlar": ["07:30", "22:30"]
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Ta'qib va tush — bir hafta",
+          "bandlar": [
+            "Bitta xatti-harakatimni bir hafta kuzatdim",
+            "Niyatimni qisqa va aniq yozdim",
+            "Ertalab va kechqurun takrorladim",
+            "Tushimni yozdim",
+            "Hafta oxirida niyatni tekshirdim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Niyatingizni qanchalik qat'iy ushlab tura oldingiz?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Unutib qo'ydim",
+          "max_yorliq": "Har kuni ushladim"
+        }
+      ]
+    },
+    {
+      "sarlavha": "Ichkaridan yonuvchi olov",
+      "magiz": [
+        "Kitobning nomi turkumdagi eng oxirgi tushunchaga ishora qiladi: ko'ruvchi butun energiyasini bir joyga yig'ib, boshqa holatga o'tishi mumkin.",
+        "Bu tasvirni harfma-harf qabul qilish shart emas. Uning ma'nosi: to'liq yig'ilgan odam butunlay boshqacha bo'lishi mumkin.",
+        "Buning sharti bitta va u qattiq: kuch to'liq yig'ilgan bo'lishi kerak. Tarqalgan kuch bilan hech narsa bo'lmaydi.",
+        "Shuning uchun butun turkumdagi amaliyotlar — qayta ko'rish, o'zini muhim sanashdan voz kechish, odatlarni buzish — bitta ishni qiladi: kuchni to'playdi.",
+        "Don Xuanning oxirgi so'zlari qat'iy: hech kim sizni bu yerga olib bormaydi. Ustoz faqat ko'rsatadi.",
+        "Kitobning yakuniy o'lchovi ham shu: bilim to'plangan bo'lsa ham, u kuchsiz odamda ishlamaydi. Bilim emas, kuch harakat qiladi."
+      ],
+      "tavsiyalar": [
+        "Kuchni to'plash — bu yangi narsa qo'shish emas, oqishni to'xtatish. Avval teshiklarni yoping.",
+        "Har hafta bitta savol bering: kuchim bu hafta qayerga ko'proq ketdi?",
+        "Bir vaqtning o'zida ko'p amaliyot boshlamang — bu ham kuchni tarqatadi.",
+        "Uyqu, ovqat va harakat — kuchning moddiy asosi. Ularsiz qolgani ishlamaydi.",
+        "Natijani lahzalar bilan o'lchang: bugun to'liq yig'ilgan bir lahza bo'ldimi?"
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Bu hafta kuchingiz qayerga ketdi? Uch-to'rt asosiy manbani yozing. Endi bittasini tanlab, uni kelasi haftada qanday kamaytirishingizni yozing."
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Kuchni to'plash",
+          "bandlar": [
+            "Kuch teshiklarimni aniqladim",
+            "Bittasini bu hafta kamaytirdim",
+            "Yangi amaliyot qo'shmadim, bor bo'lganini mustahkamladim",
+            "Uyqu va harakat tartibini saqladim",
+            "Bugun to'liq yig'ilgan bir lahzani yozib qo'ydim"
+          ]
+        },
+        {
+          "turi": "taymer",
+          "daqiqa": 20,
+          "korsatma": "To'liq yig'ilish mashqi. Yigirma daqiqa — faqat bitta ish, hech qanday chalg'ishsiz. Telefon boshqa xonada. Ish qanday bo'lishi muhim emas — muhimi diqqatning butunligi. Chalg'iganingizni sezsangiz, jazolamasdan qayting. Oxirida holatingizni bir jumla bilan yozing."
+        },
+        {
+          "turi": "slider",
+          "savol": "Hozirgi kuchingizni qanday baholaysiz?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Butunlay tarqalgan",
+          "max_yorliq": "Yig'ilgan"
+        }
+      ]
+    }
+  ]
+}

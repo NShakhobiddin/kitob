@@ -1,0 +1,323 @@
+{
+  "id": "kastaneda-5",
+  "nomi": "Kastaneda 5: Kuchning ikkinchi halqasi",
+  "muallif": "Karlos Kastaneda",
+  "kirish": "Don Xuan ketgach, Kastaneda o'zi bilan birga o'qigan odamlar — la Gorda, singillar va Xenarolar bilan yuzma-yuz qoladi. Ustozsiz qolgan guruh bir-birini sinaydi va shu sinovda ta'limotning amaliy qismi ochiladi: tush ko'rish san'ati, «ikkinchi diqqat» va o'zgarishning haqiqiy narxi. Bu kitob eng qattig'i — u ustoz ketgandan keyin nima bo'lishini ko'rsatadi.",
+  "bolimlar": [
+    {
+      "sarlavha": "Ustoz ketganda",
+      "magiz": [
+        "Ustoz ketgach, Kastaneda o'zini yolg'iz emas, balki himoyasiz his qiladi. U o'rgangan hamma narsa faqat don Xuan yonida ishlagan edi.",
+        "Guruh a'zolari uni kutib olishmaydi — ular sinashadi. Ustozsiz qolgan odamlar birinchi navbatda kim yetakchi ekanini aniqlashadi.",
+        "Bu qattiq, lekin halol tasvir: guruh — bu do'stlik emas, bu birga ishlash. Va ishning shartlari qattiq.",
+        "Kastaneda o'z zaifligini ko'radi: u ko'p bilardi, lekin kam qila olardi. Bilim tayanchsiz qolganda ko'rinadi.",
+        "Kitobning asosiy saboqi shu: tayanchni odamga qo'ymang. Ustoz, rahbar, sherik — ular ketishi mumkin va sizning amaliyotingiz ular bilan ketmasligi kerak.",
+        "Don Sole dadning o'zgarishi buni yana ko'rsatadi: kampirdan kuchli, xavfli va butunlay boshqa odamga aylanish mumkin — lekin bu bepul emas."
+      ],
+      "tavsiyalar": [
+        "Amaliyotingizni bitta odamga bog'lamang: ustoz ketsa ham davom etadigan qilib quring.",
+        "O'zingizga savol bering: bugungi tartibim tashqi nazorat yo'qolganda ham saqlanadimi?",
+        "Guruhda ishlaganda rollarni aniq qiling — noaniqlik keyin kurashga aylanadi.",
+        "Bilim va qobiliyatingizni tayanchsiz holatda tekshiring: bir hafta hech kimga hisobot bermasdan davom eting.",
+        "O'zgarish narxini oldindan hisoblang: eski hayotingizning bir qismi qoladi."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Hozirgi amaliyotingiz yoki tartibingiz kimga yoki nimaga tayanadi — ustoz, sherik, kurs, ilova? Agar ertaga u yo'qolsa, nimasi qoladi? Rostini yozing."
+        },
+        {
+          "turi": "test",
+          "savol": "Ustozingiz yoki rahbaringiz to'satdan ketdi. Kitobning mantiqi bo'yicha birinchi ish nima?",
+          "variantlar": [
+            "Yangi ustoz izlash",
+            "O'z tartibingizni tashqi nazoratsiz davom ettirish",
+            "Amaliyotni to'xtatib, kutish",
+            "Guruhda yetakchilikni egallash"
+          ],
+          "izohlar": [
+            "Kitobda hech kim yangi ustoz topmaydi — ular o'zlari davom etishga majbur bo'lishadi.",
+            "To'g'ri. Amaliyot tashqi nazoratsiz ushlansagina u sizniki.",
+            "Kutish — kitobdagi qahramonlarning ko'pini adashtirgan holat.",
+            "Yetakchilik masalasi keyin keladi; avval o'z tartibingiz."
+          ]
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Tayanchsiz hafta",
+          "bandlar": [
+            "Bir hafta hech kimga hisobot bermay davom etdim",
+            "Tartibimni tashqi nazoratsiz saqladim",
+            "Amaliyotim kimga bog'liqligini aniqladim",
+            "Bitta qismini mustaqil qildim",
+            "O'zgarish narxini yozib chiqdim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Tashqi nazorat yo'qolsa, tartibingiz qanchalik saqlanadi?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Darrov tarqaydi",
+          "max_yorliq": "To'liq saqlanadi"
+        }
+      ]
+    },
+    {
+      "sarlavha": "Tush ko'rish san'ati",
+      "magiz": [
+        "La Gorda va singillar uchun tush ko'rish nazariya emas, kundalik ish. Ular tushni ish joyi deb ko'rishadi.",
+        "Birinchi qadam har doim bir xil: tushda qo'lingizni topish. Bu oddiy topshiriq tushda diqqatni ushlab turishni o'rgatadi.",
+        "Diqqat asosiy: tushda uzoq qarab turolmaslik — bu tushning emas, diqqatning zaifligi.",
+        "Ular tushni yolg'iz emas, birga qilishadi: bir tushda uchrashish, bir-birini ko'rish. Bu qism eng g'aroyibi va tekshirib bo'lmaydigani.",
+        "Amaliy qismi esa aniq: muntazamlik, kundalik, kam narsani lekin har kuni.",
+        "Kastaneda yana orqada qoladi — u ko'p o'qigan, lekin kam mashq qilgan. Kitob shu farqni qayta-qayta ta'kidlaydi."
+      ],
+      "tavsiyalar": [
+        "Yotishdan oldin bitta qisqa niyat ayting: «Tushimda qo'limni ko'raman».",
+        "Tushda biror narsani ko'rsangiz, unga uzoq tikilmang — qarang, chetga o'giring, yana qarang.",
+        "Har ertalab yozing. Yozilmagan tush — yo'q tush.",
+        "Kuniga bir necha marta kunduzi qo'lingizga qarang: bu odat tushga o'tadi.",
+        "Natijani haftalab emas, oylab kuting. Bu ko'nikma sekin o'sadi."
+      ],
+      "mashqlar": [
+        {
+          "turi": "kundalik",
+          "sarlavha": "Tush kundaligi",
+          "korsatma": "Har ertalab yozing. Belgilar maydoniga tushdagi joy, odam, harakat va hisni kiriting — takrorlanadigan belgilar avtomatik sanaladi. Aynan o'sha takroriy belgilar sizning tushdagi «signal»laringiz bo'ladi.",
+          "joy_matn": "Kecha tushimda…",
+          "belgi_matn": "Belgilar: qo'l, uy, suv, uchish…"
+        },
+        {
+          "turi": "eslatma",
+          "sarlavha": "Qo'lga qarash",
+          "matn": "To'xtang va qo'lingizga qarang. Bu tushmi? Barmoqlaringizni sanang.",
+          "korsatma": "Kun davomida tarqoq vaqtlarni qo'ying. Har safar mexanik emas, rostdan shubhalanib bajaring — aynan shu shubha tushga o'tadi.",
+          "vaqtlar": ["10:00", "13:30", "16:45", "20:15"]
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Tush amaliyoti",
+          "bandlar": [
+            "Yotishdan oldin niyat aytdim",
+            "Ertalab tushni yozdim",
+            "Kunduzi qo'limga bir necha marta qaradim",
+            "Tushda biror narsani ko'rsam, tikilmasdan chetga o'girdim",
+            "Bu hafta amaliyotni to'xtatmadim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Tushingizni qanchalik aniq eslaysiz?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Deyarli hech narsa",
+          "max_yorliq": "Tafsilotlari bilan"
+        }
+      ]
+    },
+    {
+      "sarlavha": "Ikkinchi diqqat",
+      "magiz": [
+        "Don Xuanning tizimida diqqat ikkiga bo'linadi. Birinchi diqqat — kundalik dunyoni ushlab turadigan diqqat: u bizga tug'ilishdan o'rgatiladi.",
+        "Ikkinchi diqqat — undan tashqaridagi hamma narsani idrok qiladigan qism. U hammada bor, lekin ishlatilmaydi.",
+        "Ikkinchi diqqatga kirishning eng ochiq eshigi — tush. Shuning uchun tush ko'rish shu qadar muhim.",
+        "Kitobning muhim ogohlantirishi: ikkinchi diqqatga tayyorgarliksiz kirish xavfli. Guruh a'zolarining ko'pi shu yerda adashadi.",
+        "Ikkinchi diqqatda ko'rilgan narsa oddiy xotira kabi eslanmaydi. Uni «eslash» alohida mehnat talab qiladi.",
+        "Amaliy ma'nosi: idrokning odatiy chegarasi tabiiy chegara emas, o'rgatilgan chegara. Uni kengaytirish mumkin, lekin sekin va tartib bilan."
+      ],
+      "tavsiyalar": [
+        "Idrokni kengaytirishga urinishdan oldin kundalik hayotingizni tartibga soling.",
+        "Tayyorgarliksiz kuchli tajribalarga intilmang — kitobda bunday urinishlarning natijasi yaxshi emas.",
+        "G'ayrioddiy tajribani darrov izohlamang: avval yozing, izoh keyin.",
+        "Diqqatni kunduzi mashq qiling: bitta narsaga uzoq qarash — ikkinchi diqqat uchun ham asos.",
+        "Tajribani yolg'iz emas, yozuv bilan tekshiring: xotira o'zgaruvchan."
+      ],
+      "mashqlar": [
+        {
+          "turi": "taymer",
+          "daqiqa": 12,
+          "korsatma": "Diqqat mashqi. O'n ikki daqiqa bitta narsaga qarang — barg, shamchiroq, devordagi dog'. Ko'zni tez-tez pirpiratmang, lekin zo'riqmang ham. Diqqat qochsa, sezing va qayting. Bu — kundalik diqqatni ushlab turish mashqi va u tushda ham ishlaydi."
+        },
+        {
+          "turi": "jurnal",
+          "savol": "Hayotingizda tushuntirib bo'lmagan bir tajribani yozing — tushdami, uyg'oqlikdami. Uni izohlamasdan tasvirlang. Keyin yozing: o'sha paytda holatingiz qanday edi — charchoqmi, hayajonmi, tinchlikmi?"
+        },
+        {
+          "turi": "test",
+          "savol": "Ikkinchi diqqatga eng tabiiy eshik qaysi?",
+          "variantlar": [
+            "Kuchli hissiyot",
+            "Tush",
+            "Uzoq ochlik",
+            "Yolg'izlik"
+          ],
+          "izohlar": [
+            "Hissiyot ham eshik ochadi, lekin u boshqariladigan yo'l emas.",
+            "To'g'ri. Kitobda tush ko'rish aynan shu maqsad uchun tizimli mashq qilinadi.",
+            "Kitob bunday usullarni tavsiya qilmaydi — ular tanani zaiflashtiradi.",
+            "Yolg'izlik sharoit bo'lishi mumkin, lekin o'zi eshik emas."
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Bitta narsaga uzoq diqqat qila olasizmi?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Bir daqiqa ham qiyin",
+          "max_yorliq": "Uzoq ushlab turaman"
+        }
+      ]
+    },
+    {
+      "sarlavha": "O'zgarishning narxi",
+      "magiz": [
+        "Don Soledadning o'zgarishi kitobning eng kuchli tasviri: keksa, bo'shashgan ayol bir necha yilda butunlay boshqa odamga aylanadi — kuchli, tez, xavfli.",
+        "Lekin bu o'zgarish bepul emas. U eski hayotining hamma narsasidan voz kechgan: uy, odat, oiladagi o'rin, hattoki farzandlari bilan aloqasi.",
+        "Kitob buni romantik qilmaydi. O'zgargan odam yaxshiroq bo'lishi shart emas — u boshqa bo'ladi.",
+        "Guruhning boshqa a'zolari ham xuddi shunday: har birining kuchi bor va har birining yo'qotgani bor.",
+        "Kastaneda buni ko'rib qo'rqadi — birinchi marta u o'zgarishning narxini aniq ko'radi.",
+        "Saboq: o'zgarishni xohlaysizmi — narxini oldindan hisoblang. «Faqat yaxshi tomonlarini olaman» degan variant yo'q."
+      ],
+      "tavsiyalar": [
+        "Katta o'zgarishni boshlashdan oldin yozing: nimadan voz kechishim kerak?",
+        "Narxni to'lashga tayyor bo'lmasangiz, o'zgarishni kichraytiring — bu halol yechim.",
+        "O'zgargan odamni qadrlash bilan birga uning yo'qotganini ham ko'ring.",
+        "Yaqinlaringizga o'zgarishingiz ularga qanday ta'sir qilishini oldindan ayting.",
+        "Kuchni maqsad qilmang: kuch o'zi hech narsa emas, u nima uchun ishlatilishiga bog'liq."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Xohlagan o'zgarishingizni yozing. Endi ikkita ustun tuzing: «nima olaman» va «nimadan voz kechaman». Ikkinchi ustunga rostini yozing — kamida uchta band bo'lsin."
+        },
+        {
+          "turi": "slider",
+          "savol": "O'zgarish narxini to'lashga qanchalik tayyorsiz?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Faqat yaxshi tomonini olaman",
+          "max_yorliq": "Narxini bilaman va tayyorman"
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Narxni hisoblash",
+          "bandlar": [
+            "O'zgarishimni aniq yozdim",
+            "Nimadan voz kechishimni yozdim",
+            "Yaqinlarimga ta'sirini o'ylab ko'rdim",
+            "Tayyor bo'lmagan qismini kichraytirdim",
+            "Kuchni maqsad emas, vosita deb belgiladim"
+          ]
+        }
+      ]
+    },
+    {
+      "sarlavha": "Guruh: birga ishlash qoidalari",
+      "magiz": [
+        "Guruh a'zolarining har biri o'z kuchiga ega, lekin ular birga ishlashni bilishmaydi. Shuning uchun ularning kuchi bir-birini yeydi.",
+        "La Gorda buni tushunadi: ular alohida-alohida kuchli, birga esa zaif. Sabab — kelishuvning yo'qligi.",
+        "Har bir a'zoning o'z vazifasi bor va u vazifani boshqa hech kim bajara olmaydi. Rollarni aralashtirish guruhni buzadi.",
+        "Kastanedaning muammosi — u yetakchi bo'lishi kerak, lekin buni istamaydi va bilmaydi. Rol qabul qilinmaguncha guruh ishlamaydi.",
+        "Kitobning halol tomoni: guruh o'z-o'zidan shakllanmaydi. Ustozsiz qolgan guruh dastlab kurashadi, keyin kelishadi yoki tarqaydi.",
+        "Amaliy xulosa: har qanday jamoada eng katta xavf kuchning yetishmasligi emas, kelishuvning yetishmasligi."
+      ],
+      "tavsiyalar": [
+        "Jamoada rollarni ovoz chiqarib kelishib oling — «o'zi tushunarli» degan narsa yo'q.",
+        "Kimningdir vazifasini o'zingizga olmang: bu yordam emas, buzish.",
+        "Yetakchilik sizga tushsa, uni qabul qiling yoki ochiq rad eting — ikkilanish eng yomoni.",
+        "Guruhdagi kelishmovchilikni kuch masalasi emas, kelishuv masalasi deb ko'ring.",
+        "Har oy jamoada bir marta ochiq suhbat o'tkazing: kimga nima yetishmayapti?"
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Ishlaydigan yoki yashaydigan jamoangizni yozing: kim nima uchun javob beradi? Qaysi vazifa hech kimga tegishli emas? Qaysi biri ikki kishida bir vaqtda?"
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Kelishuvni tiklash",
+          "bandlar": [
+            "Jamoadagi rollarni yozib chiqdim",
+            "Egasi yo'q vazifani aniqladim",
+            "Birovning vazifasini o'zimga olmadim",
+            "Ochiq suhbat o'tkazdim",
+            "O'z rolimni aniq qabul qildim yoki rad etdim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Jamoangizda rollar qanchalik aniq?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Hech narsa aniq emas",
+          "max_yorliq": "Hammasi aniq"
+        },
+        {
+          "turi": "test",
+          "savol": "Guruh alohida kuchli, birga zaif. Kitobga ko'ra sabab nima?",
+          "variantlar": [
+            "Kuch yetishmayapti",
+            "Kelishuv yetishmayapti",
+            "Yetakchi juda kuchsiz",
+            "Ular bir-birini yoqtirmaydi"
+          ],
+          "izohlar": [
+            "Kuch bor — muammo uning ishlatilishida.",
+            "To'g'ri. Kitobda guruhning butun inqirozi kelishuvning yo'qligidan.",
+            "Yetakchi muhim, lekin u ham kelishuvsiz hech narsa qila olmaydi.",
+            "Yoqtirish shart emas. Birga ishlash uchun kelishuv kifoya."
+          ]
+        }
+      ]
+    },
+    {
+      "sarlavha": "Eslash: yo'qolgan xotiralar",
+      "magiz": [
+        "Kitobning eng g'alati qismi: guruh a'zolari birga o'tkazgan voqealarni turlicha eslashadi, ba'zilarini esa umuman eslashmaydi.",
+        "Don Xuanning tushuntirishi: ikkinchi diqqatda bo'lgan voqealar oddiy xotiraga tushmaydi. Ularni eslash uchun o'sha holatga qaytish kerak.",
+        "Bu keyingi kitoblarda «eslash» degan alohida mavzuga aylanadi va u aslida o'z hayotini qayta ko'rish amaliyoti bilan bog'lanadi.",
+        "Amaliy ma'nosi butunlay real: kuchli hissiyot yoki o'ta charchoq paytidagi voqealarni odam boshqacha eslaydi yoki umuman eslamaydi.",
+        "Shuning uchun yozuv shu qadar muhim: xotira o'zgaradi, yozuv esa qoladi.",
+        "Kastaneda o'z daftarlarini qayta o'qib, o'zi yozgan, lekin eslamaydigan voqealarni topadi — bu kitobning eng ta'sirli lahzalaridan biri."
+      ],
+      "tavsiyalar": [
+        "Muhim voqealarni o'sha kuni yozing — bir hafta o'tgach ular boshqacha bo'ladi.",
+        "Eski yozuvlaringizni yiliga bir marta qayta o'qing: nimani eslamayotganingizni ko'rasiz.",
+        "Xotirangizga mutlaq ishonmang. U tuzatiladi va bu normal.",
+        "Bir voqeani boshqa ishtirokchi bilan solishtiring — farqni yozing.",
+        "Kuchli hissiyot paytidagi qarorni keyinroq, tinch holatda qayta ko'ring."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Bolaligingizdan bitta aniq voqeani yozing — barcha tafsilotlari bilan. Keyin savolga javob bering: bu haqiqatan mening xotiramimi yoki menga ko'p marta gapirib berilgan hikoyami?"
+        },
+        {
+          "turi": "taymer",
+          "daqiqa": 20,
+          "korsatma": "Eslash mashqi. Yigirma daqiqa — so'nggi bir yilni oydan oyga eslab chiqing. Har oy uchun bitta voqeani toping. Eslay olmagan oylarni belgilang — aynan ular qiziq. Sekin nafas oling va shoshilmang. Oxirida eslay olmagan oylaringizni yozib qo'ying."
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Xotira bilan ishlash",
+          "bandlar": [
+            "Bugungi muhim voqeani o'sha kuni yozdim",
+            "Eski yozuvimni qayta o'qidim",
+            "Bir voqeani boshqa ishtirokchi bilan solishtirdim",
+            "Hissiyot paytidagi qarorimni tinch holatda qayta ko'rdim",
+            "Eslay olmagan davrni belgiladim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "So'nggi bir yilni qanchalik aniq eslaysiz?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Deyarli hech narsa",
+          "max_yorliq": "Oyma-oy eslayman"
+        }
+      ]
+    }
+  ]
+}
