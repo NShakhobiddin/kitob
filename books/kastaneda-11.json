@@ -80,7 +80,7 @@
         },
         {
           "turi": "slider",
-          "savol": "Bugun qanchalik jangchi holatida edingiz?",
+          "savol": "Bugungi vaziyatlarni jangchi tilida qayta o'qidingizmi?",
           "min": 1,
           "max": 10,
           "min_yorliq": "Qurbon holatida",
@@ -144,7 +144,7 @@
         },
         {
           "turi": "slider",
-          "savol": "Bugungi tashvishlaringizdan nechtasi o'lim yonida turib qoldi?",
+          "savol": "O'limdan so'ralgach, tashvishlaringizdan nechtasi qoldi?",
           "min": 1,
           "max": 10,
           "min_yorliq": "Deyarli vaznsiz",

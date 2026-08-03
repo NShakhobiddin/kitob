@@ -82,7 +82,7 @@
         },
         {
           "turi": "checklist",
-          "sarlavha": "Shaklni bo'shatish",
+          "sarlavha": "Insoniy shaklni bo'shatish",
           "bandlar": [
             "Odatiy reaksiyalarim ro'yxatini yozdim",
             "Bittasini ataylab boshqasiga almashtirdim",
@@ -146,7 +146,7 @@
         },
         {
           "turi": "slider",
-          "savol": "Bugungi qarorlaringizni holatingiz qay darajada belgilab berdi?",
+          "savol": "Bugun holatingiz qaroringizdan oldin turdimi?",
           "min": 1,
           "max": 10,
           "min_yorliq": "Deyarli ta'sir qilmaydi",

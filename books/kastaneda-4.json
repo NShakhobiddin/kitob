@@ -238,7 +238,7 @@
         },
         {
           "turi": "checklist",
-          "sarlavha": "Tushda diqqatni ushlash",
+          "sarlavha": "Tushdagi tanani chaqirish",
           "bandlar": [
             "Uyg'onganda qimirlamay yotdim",
             "Tushni orqasidan tikladim",
@@ -249,7 +249,7 @@
         },
         {
           "turi": "slider",
-          "savol": "Bu hafta tushingizda qo'llaringizni necha marta topa oldingiz?",
+          "savol": "Tushda qo'llaringizni necha marta topdingiz?",
           "min": 0,
           "max": 7,
           "min_yorliq": "0 kun",
@@ -297,7 +297,7 @@
         },
         {
           "turi": "checklist",
-          "sarlavha": "Sakrashga tayyorgarlik",
+          "sarlavha": "Tushuntirish tugagach nima qoladi",
           "bandlar": [
             "Bilib turib qilmayotgan ishimni yozdim",
             "Qanday kafolat kutayotganimni aniqladim",

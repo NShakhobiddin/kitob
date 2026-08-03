@@ -44,7 +44,7 @@
         },
         {
           "turi": "slider",
-          "savol": "Bugungi kayfiyatingiz jismoniy holatingizdan qay darajada yuqori?",
+          "savol": "Bugun kayfiyatingizni tanangiz emas, o'zingiz belgiladingizmi?",
           "min": 1,
           "max": 10,
           "min_yorliq": "Holatimdan ancha past",
@@ -103,7 +103,7 @@
         },
         {
           "turi": "checklist",
-          "sarlavha": "Normadan chiqish — bir kun",
+          "sarlavha": "«Normal»dan chiqish sinovi",
           "bandlar": [
             "Jamoat joyida qomatni tiklab yurdim",
             "«Yoshim yetdi» demadim",
@@ -361,7 +361,7 @@
         },
         {
           "turi": "kundalik",
-          "sarlavha": "Ko'rish kundaligi",
+          "sarlavha": "Ko'z mashqlari natijalari",
           "korsatma": "Har seansdan keyin yozing: qaysi qator bilan ishladingiz, uchqunlar bo'ldimi, kayfiyatni qay darajada ushlay oldingiz. Belgilar maydoniga sharoitni yozing — ertalab, kechqurun, tabiiy yorug'lik, sun'iy yorug'lik, charchoq. Bir necha hafta yozgach, qaysi sharoitda natija yaxshiroq ekanini raqamlardan ko'rasiz.",
           "joy_matn": "Bugungi seans: … qator. Uchqun: … Kayfiyat: …",
           "belgi_matn": "Sharoit: ertalab, kechqurun, tabiiy yorug'lik, charchoq…"
@@ -380,7 +380,7 @@
         },
         {
           "turi": "slider",
-          "savol": "Seans davomida kayfiyatni qanchalik ushlab tura oldingiz?",
+          "savol": "Yetti harakatning nechtasini zo'riqmasdan bajardingiz?",
           "min": 1,
           "max": 10,
           "min_yorliq": "Darrov so'ndi",
@@ -429,7 +429,7 @@
         },
         {
           "turi": "eslatma",
-          "sarlavha": "Kunlik mashq vaqti",
+          "sarlavha": "Jadval va 3×30 soniya",
           "matn": "Mashq vaqti. Qomat, tabassum, kayfiyat — keyin majmua.",
           "korsatma": "Kuniga ikki vaqt qo'ying — ertalab va kechqurun. Kitobning talabi muntazamlik: uzun lekin siyrak mashq qisqa lekin kunlik mashqdan past turadi.",
           "vaqtlar": [
@@ -439,7 +439,7 @@
         },
         {
           "turi": "slider",
-          "savol": "Bu hafta necha kun majmuani to'liq bajardingiz?",
+          "savol": "Majmua bu hafta necha kun uzilishsiz davom etdi?",
           "min": 0,
           "max": 7,
           "min_yorliq": "0 kun",

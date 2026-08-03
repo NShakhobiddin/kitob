@@ -92,7 +92,7 @@
         },
         {
           "turi": "slider",
-          "savol": "So'nggi og'ir voqeangizni qanchalik ko'rib chiqdingiz?",
+          "savol": "Turtkini oxirigacha ko'rib chiqdingizmi?",
           "min": 1,
           "max": 10,
           "min_yorliq": "Hali ham ayblab yuraman",

@@ -398,7 +398,7 @@
         },
         {
           "turi": "slider",
-          "savol": "Bugun charchoq sizni qanchalik boshqardi?",
+          "savol": "To'rtinchi dushman bugun sizni necha marta yiqitdi?",
           "min": 1,
           "max": 10,
           "min_yorliq": "Umuman boshqarmadi",

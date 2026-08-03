@@ -290,7 +290,7 @@
         },
         {
           "turi": "slider",
-          "savol": "Bugungi kuningizni tugatganda kuchingiz qanday edi?",
+          "savol": "Kun oxirida ortiqcha kuchdan nima qoldi?",
           "min": 1,
           "max": 10,
           "min_yorliq": "Butunlay tugagan",

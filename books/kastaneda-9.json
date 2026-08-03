@@ -83,7 +83,7 @@
       "mashqlar": [
         {
           "turi": "kundalik",
-          "sarlavha": "To'rt darvoza kundaligi",
+          "sarlavha": "Darvozalar bo'yicha kecha hisoboti",
           "korsatma": "Har ertalab yozing. Avval kalit so'zlar, keyin tafsilot. Belgilar maydoniga tushdagi joy, odam, harakat va hisni kiriting — takrorlanadigan belgilar avtomatik sanaladi va pastda ko'rsatiladi. Qo'lingizni ko'rgan bo'lsangiz, belgilarga «qo'l» deb yozing.",
           "joy_matn": "Kecha tushimda…",
           "belgi_matn": "Belgilar: qo'l, uy, suv, uchish, notanish odam…"
@@ -123,7 +123,7 @@
         },
         {
           "turi": "slider",
-          "savol": "Bu hafta necha kecha tushingizni yozib olishga ulgurdingiz?",
+          "savol": "Bu hafta nechta kechada tush yozuvi qoldi?",
           "min": 0,
           "max": 7,
           "min_yorliq": "0 kun",
@@ -332,7 +332,7 @@
         },
         {
           "turi": "slider",
-          "savol": "Bir oy davomida amaliyotni qanchalik muntazam olib bordingiz?",
+          "savol": "Bir oyda darvozalar bo'yicha qancha yurdingiz?",
           "min": 1,
           "max": 10,
           "min_yorliq": "Deyarli qilmadim",
@@ -340,7 +340,7 @@
         },
         {
           "turi": "eslatma",
-          "sarlavha": "Oylik tekshiruv",
+          "sarlavha": "Oy oxiridagi hisob",
           "matn": "Kundalikni qayta o'qing: bu oy nima o'zgardi? Keyingi oy uchun bitta maqsad qo'ying.",
           "korsatma": "Oyiga bir marta o'zingizga qulay vaqtni qo'ying. Bu eslatma amaliyotni yo'nalishsiz qolib ketishdan saqlaydi.",
           "vaqtlar": [

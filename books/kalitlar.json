@@ -250,7 +250,7 @@
         },
         {
           "turi": "slider",
-          "savol": "Bugun o'zingizni qanday ko'rinishda olamga chiqardingiz?",
+          "savol": "Bugungi kiyimingizni kim tanladi — siz yoki qo'lga ilingani?",
           "min": 1,
           "max": 10,
           "min_yorliq": "Qo'lga ilinganini kiydim",
@@ -412,7 +412,10 @@
           "sarlavha": "10 kunlik tanishuv marafoni",
           "matn": "Bugungi tanishuv qoldi. Ism, tanishtiruv, ikki daqiqa suhbat — shu yetarli.",
           "korsatma": "Kitobning eng qat'iy uy vazifasi: ertadan boshlab ketma-ket o'n kun davomida har kuni yangi odam bilan tanishing. Ko'chada, kafeda, stadionda — qayerda bo'lsa ham. Eslatmani kun davomida chiqadigan vaqtga qo'ying, kechqurunga emas: kechga qolgan vazifa bajarilmaydi.",
-          "vaqtlar": ["13:00", "18:30"]
+          "vaqtlar": [
+            "13:00",
+            "18:30"
+          ]
         },
         {
           "turi": "checklist",
@@ -432,7 +435,7 @@
         },
         {
           "turi": "kundalik",
-          "sarlavha": "Tanishuv kundaligi",
+          "sarlavha": "O'n kunlik tanishuv hisoboti",
           "korsatma": "Kitob talab qiladi: tanishuv natijasini har kuni yozib boring. Qanday boshladingiz, birinchi daqiqada nima his qildingiz, keyin nima o'zgardi? Belgilar maydoniga joyni va his-tuyg'uni kiriting. O'n kundan keyin ro'yxatga qarang: qo'rquv qaysi kuni pasaygan?",
           "joy_matn": "Bugun kim bilan, qayerda, qanday tanishdim…",
           "belgi_matn": "Belgilar: ko'cha, kafe, qo'rquv, tabassum…"
@@ -512,7 +515,7 @@
         },
         {
           "turi": "checklist",
-          "sarlavha": "Sakrashdan oldin",
+          "sarlavha": "Minoradan sakrash: tayyorgarlik",
           "bandlar": [
             "Kechiktirish dalillarimni yozib chiqdim va ularni tekshirdim",
             "Rejamdan «bering» so'zini topib, o'sha bo'shliqni belgiladim",

@@ -194,7 +194,7 @@
         },
         {
           "turi": "checklist",
-          "sarlavha": "Javobgarlik amaliyoti",
+          "sarlavha": "Mas'uliyatni o'ziga olish qadamlari",
           "bandlar": [
             "Bu hafta «majbur bo'ldim» demadim",
             "Qabul qilgan qarorimdan afsuslanmadim",
@@ -264,7 +264,7 @@
         },
         {
           "turi": "slider",
-          "savol": "Kuningizning necha foizi avtomatik odatlardan iborat?",
+          "savol": "Bugungi harakatlaringizni kimdir oldindan aytib bera olardimi?",
           "min": 0,
           "max": 100,
           "min_yorliq": "0%",

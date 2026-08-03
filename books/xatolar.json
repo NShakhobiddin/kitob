@@ -97,7 +97,7 @@
         },
         {
           "turi": "slider",
-          "savol": "Kunning necha foizini ongli yashaysiz — avtomatik emas, tanlab?",
+          "savol": "Bugun uyg'oq yashagan soatlaringiz qancha bo'ldi?",
           "min": 1,
           "max": 10,
           "min_yorliq": "Deyarli avtomatik",
@@ -269,7 +269,7 @@
         },
         {
           "turi": "eslatma",
-          "sarlavha": "Kundalik yurish eslatmasi",
+          "sarlavha": "Bugungi yurish",
           "matn": "Chiqing va yuring. Bugun to'xtash uchun bahona qidirmang.",
           "korsatma": "Muallif dangasalikdan yurish orqali chiqqan va oxirida kuniga o'ttiz kilometrgacha bosadigan bo'lgan. Eslatmani kuningizdagi eng bo'sh vaqtga qo'ying va bir hafta o'chirmang: harakat qaytmaguncha shartnoma kuchga kirmaydi.",
           "vaqtlar": [

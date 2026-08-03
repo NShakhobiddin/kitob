@@ -52,7 +52,7 @@
         },
         {
           "turi": "checklist",
-          "sarlavha": "O'qishga tayyorgarlik",
+          "sarlavha": "Axborot dengizida yo'l tanlash",
           "bandlar": [
             "Bu kitobdan nima olmoqchiligimni bir jumlada yozdim",
             "Xafa bo'lmasdan oxirigacha o'qishga kelishdim",
@@ -228,7 +228,7 @@
         },
         {
           "turi": "slider",
-          "savol": "Bugungi tashvishlaringiz besh yildan keyin ham muhim bo'ladimi?",
+          "savol": "Ichki ovozingiz aytgan narsa keyin qanchalik amalga oshdi?",
           "min": 1,
           "max": 10,
           "min_yorliq": "Deyarli hech qaysi",
@@ -236,7 +236,7 @@
         },
         {
           "turi": "checklist",
-          "sarlavha": "Kompasni sinash",
+          "sarlavha": "Ichki kompasni tekshirib ko'rish",
           "bandlar": [
             "O'n yillik rejamning birinchi variantini yozdim",
             "Bitta qarorni his qilib, keyin mantiq bilan tekshirdim",
@@ -273,7 +273,7 @@
         },
         {
           "turi": "eslatma",
-          "sarlavha": "Mashq vaqti",
+          "sarlavha": "Kartalar bilan kunlik seans",
           "matn": "Mashq vaqti keldi: 30–40 daqiqa kartalar bilan. Natijani kundalikka yozishni unutmang.",
           "korsatma": "Haftada 3–5 kunga mos vaqtni qo'ying. Kitob aynan muntazamlikni talab qiladi: bir marta zalga borish natija bermaydi.",
           "vaqtlar": [
@@ -293,7 +293,7 @@
         },
         {
           "turi": "slider",
-          "savol": "Bu hafta necha marta mashq qildingiz?",
+          "savol": "Bu hafta kartalar bilan nechta seans o'tkazdingiz?",
           "min": 0,
           "max": 7,
           "min_yorliq": "0 marta",
@@ -351,7 +351,7 @@
         },
         {
           "turi": "checklist",
-          "sarlavha": "Dushmanlarni ushlash",
+          "sarlavha": "Aql, pauza va qo'rquvni payqash",
           "bandlar": [
             "Bugungi mashqda pauza qilmadim",
             "To'g'ri javobdan quvonmadim, xatodan xafa bo'lmadim",
@@ -507,7 +507,7 @@
       "mashqlar": [
         {
           "turi": "kundalik",
-          "sarlavha": "Intuitsiya kundaligi",
+          "sarlavha": "Kartalar bo'yicha foiz daftari",
           "korsatma": "Kitobning talabi: har bir seansdan keyin natijani foizda yozing. Faqat raqam emas — to'g'ri va xato javob paytidagi ichki holatingizni ham yozing: tanangizda nima bo'ldi, sezgi qayerdan keldi, aql qachon aralashdi. Belgilar maydoniga mashq turini yozing: qora-oq, rangli, raqam, hayotda. Bir necha hafta yozgach, qaysi holatda aniqroq bo'lishingizni raqamlardan ko'rasiz.",
           "joy_matn": "Bugungi seans: 40 tadan … tasi to'g'ri (…%). Holat: …",
           "belgi_matn": "Turi: qora-oq, rangli, raqam, hayotda…"
@@ -546,7 +546,7 @@
       "mashqlar": [
         {
           "turi": "checklist",
-          "sarlavha": "Hayotdagi mashq — bir kun",
+          "sarlavha": "Ko'chada va transportda mashq",
           "bandlar": [
             "Uydan chiqishdan oldin birinchi kim uchrashini aytdim",
             "Transport kutayotganda kelayotgan mashina haqida taxmin qildim",

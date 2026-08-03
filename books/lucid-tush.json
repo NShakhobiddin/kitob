@@ -72,17 +72,20 @@
       "mashqlar": [
         {
           "turi": "kundalik",
-          "sarlavha": "Tush kundaligi",
+          "sarlavha": "Ertalabki tush yozuvlari",
           "korsatma": "Har ertalab shu yerga yozing. Avval kalit so'zlar, keyin tafsilot. Belgilar maydoniga tushdagi joy, odam, his va harakatni vergul bilan kiriting — takrorlanayotgan belgilar avtomatik sanalib, pastda ko'rsatiladi. Aynan o'sha ro'yxat sizning tush belgilaringiz bo'ladi.",
           "joy_matn": "Kecha tushimda…",
           "belgi_matn": "Belgilar: suv, eski uy, uchish, kechikish…"
         },
         {
           "turi": "eslatma",
-          "sarlavha": "Ertalabki kundalik eslatmasi",
+          "sarlavha": "Uyg'ongach darrov yozish",
           "matn": "Tushingizni yozing. Parcha bo'lsa ham, hozir yozing.",
           "korsatma": "Uyg'onish vaqtingizdan 5–10 daqiqa keyingi vaqtni qo'ying. Bu eslatma sizni kundalikka qaytaradi — amaliyotning eng ko'p tashlab yuboriladigan qismi aynan shu.",
-          "vaqtlar": ["06:40", "07:10"]
+          "vaqtlar": [
+            "06:40",
+            "07:10"
+          ]
         },
         {
           "turi": "checklist",
@@ -97,7 +100,7 @@
         },
         {
           "turi": "slider",
-          "savol": "Bu hafta kundalikni necha kun yozdingiz?",
+          "savol": "Bu hafta ertalabki yozuv necha kun bajarildi?",
           "min": 0,
           "max": 7,
           "min_yorliq": "0 kun",
@@ -125,10 +128,17 @@
       "mashqlar": [
         {
           "turi": "eslatma",
-          "sarlavha": "Reallik tekshiruvi",
+          "sarlavha": "Kunduzgi reallik sinovi",
           "matn": "To'xtang. Tushdamisiz? Burningizni bekitib nafas oling. Atrofga qarang: bu yerga qanday keldingiz?",
           "korsatma": "Kun davomida tarqoq vaqtlarni qo'ying — bir xil intervallar emas, kutilmagan paytlar yaxshiroq ishlaydi. Har eslatmada shunchaki tugmani bosmang: rostdan shubhalanib, ikkita tekshiruvni bajaring.",
-          "vaqtlar": ["09:20", "11:40", "14:10", "16:30", "19:00", "21:20"]
+          "vaqtlar": [
+            "09:20",
+            "11:40",
+            "14:10",
+            "16:30",
+            "19:00",
+            "21:20"
+          ]
         },
         {
           "turi": "checklist",
@@ -190,7 +200,7 @@
         },
         {
           "turi": "checklist",
-          "sarlavha": "Belgilar bilan ishlash",
+          "sarlavha": "Takrorlanuvchi tush belgilarini yig'ish",
           "bandlar": [
             "Kundalikni qayta o'qib chiqdim",
             "Uchta asosiy belgini aniqladim",
@@ -233,7 +243,7 @@
         "Uyg'oqlik oynasini taymerda o'lchang: 15–20 daqiqa yetarli.",
         "Qaytib yotganingizda MILD jumlasini takrorlang va o'sha tushga qaytganingizni tasavvur qiling. Boshqa narsa haqida o'ylamang.",
         "Uxlab qololmasangiz, kurashmang — shunchaki jumlani sekin takrorlab yotavering. Yotgan holatning o'zi ham ishlaydi.",
-        "Haftasiga 2–3 kecha yetarli. Har kuni qilish uyquni buzadi va natijani pasaytiradi."
+        "WBTB ni haftasiga 2–3 kechadan ko'p qilmang: har kuni qilish uyquni parchalab, natijani pasaytiradi."
       ],
       "mashqlar": [
         {
@@ -245,7 +255,9 @@
           "sarlavha": "WBTB uyg'onish",
           "matn": "WBTB vaqti. 15–20 daqiqa xira yorug'da uyg'oq turing, kundalikni o'qing, keyin MILD bilan qaytib uxlang.",
           "korsatma": "Uyquga ketish vaqtingizga 4,5–6 soat qo'shib, shu vaqtni qo'ying. Masalan 23:00 da uxlasangiz — 04:00 yoki 05:00. Bu eslatmani telefon budilnigi bilan ham dublyaj qiling.",
-          "vaqtlar": ["04:30"]
+          "vaqtlar": [
+            "04:30"
+          ]
         },
         {
           "turi": "taymer",
@@ -381,7 +393,7 @@
         },
         {
           "turi": "kundalik",
-          "sarlavha": "Lucid tushlar kundaligi",
+          "sarlavha": "Lucid kechalar hisobi",
           "korsatma": "Bu yerga faqat lucid (yoki yarim-lucid) tushlarni yozing. Nima sizni uyg'otdi — qaysi belgi yoki tekshiruv? Qancha davom etdi? Nimadan uzildi? Belgilar maydoniga usul nomini yozing: MILD, WBTB, SSILD, reallik tekshiruvi. Bir necha hafta yozgach, qaysi usul aynan sizda ishlashini raqamlardan ko'rasiz.",
           "joy_matn": "Lucid bo'ldim, chunki…",
           "belgi_matn": "Usul: MILD, WBTB, SSILD, belgi…"
@@ -404,16 +416,18 @@
         "Kamida 7 soat uxlang. Amaliyot uchun uyquni qisqartirish — eng zararli xato.",
         "Yotishdan bir soat oldin ekranni qo'ying yoki yorug'ini pasaytiring.",
         "Alkogol ichgan kechada WBTB qilmang — natija bo'lmaydi, uyqu esa buziladi.",
-        "Haftada 2–3 kechadan ko'p WBTB qilmang.",
+        "Uyqu rejimini birinchi o'ringa qo'ying: har kuni bir vaqtda yoting va turing, WBTB ni esa faqat rejim barqaror bo'lgan kechalarga rejalashtiring.",
         "Ikki hafta uyqu sifatini kundalikda kuzatib boring — natija va uyqu o'rtasidagi bog'liqlikni o'zingiz ko'rasiz."
       ],
       "mashqlar": [
         {
           "turi": "eslatma",
-          "sarlavha": "Yotish vaqti",
+          "sarlavha": "Kechqurun ekranlarni yopish",
           "matn": "Ekranni qo'ying. Yotishga tayyorlaning va MILD niyatini takrorlang.",
           "korsatma": "Uyquga ketmoqchi bo'lgan vaqtingizdan 45–60 daqiqa oldingi vaqtni qo'ying. Bu eslatma amaliyotning eng ko'zga tashlanmaydigan, lekin eng ta'sirli qismi — muntazam uyqu.",
-          "vaqtlar": ["22:15"]
+          "vaqtlar": [
+            "22:15"
+          ]
         },
         {
           "turi": "checklist",
@@ -429,7 +443,7 @@
         },
         {
           "turi": "slider",
-          "savol": "Bu hafta uyqu rejimingiz qanchalik muntazam bo'ldi?",
+          "savol": "Yotish va turish vaqtingiz bu hafta qanchalik bir xil bo'ldi?",
           "min": 1,
           "max": 10,
           "min_yorliq": "Har kuni har xil",

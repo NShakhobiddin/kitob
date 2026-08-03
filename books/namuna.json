@@ -82,7 +82,7 @@
         },
         {
           "turi": "slider",
-          "savol": "So'nggi bir haftada avtomatik reaksiyalaringizni qanchalik nazorat qila oldingiz?",
+          "savol": "Avtomatik reaksiyani necha marta ushlab qoldingiz?",
           "min": 1,
           "max": 10,
           "min_yorliq": "Butunlay avtomatik",

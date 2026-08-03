@@ -115,7 +115,7 @@
         },
         {
           "turi": "slider",
-          "savol": "Zolim oldida o'zingizni qanchalik ushlab tura oldingiz?",
+          "savol": "Mayda zolim oldida bexatolikni saqlay oldingizmi?",
           "min": 1,
           "max": 10,
           "min_yorliq": "Butunlay yo'qotdim",

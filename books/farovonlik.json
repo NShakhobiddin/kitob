@@ -45,7 +45,7 @@
         },
         {
           "turi": "slider",
-          "savol": "Hayotingizdagi qarorlarning necha foizini haqiqatan siz qabul qilyapsiz?",
+          "savol": "Kechagi kuningizdagi qarorlarning nechtasi rostdan sizniki edi?",
           "min": 0,
           "max": 100,
           "min_yorliq": "Boshqalar hal qiladi",
@@ -313,11 +313,14 @@
           "sarlavha": "Kuniga ikki marta xabar",
           "matn": "Ota-onangizga qo'ng'iroq qiling. Bir daqiqa ham yetadi.",
           "korsatma": "Kitobning talabi aniq: yomg'irda ham, qorda ham, xohlamaganingizda ham — har kuni kamida ikki marta. Eslatmani ertalab va kechqurun qo'ying. Bu odat bo'lgunicha eslatmani o'chirmang.",
-          "vaqtlar": ["09:30", "20:00"]
+          "vaqtlar": [
+            "09:30",
+            "20:00"
+          ]
         },
         {
           "turi": "checklist",
-          "sarlavha": "Bir oylik amaliyot",
+          "sarlavha": "Ota-onaga xizmat: bir oylik tartib",
           "bandlar": [
             "Daromadimdan aniq ulush ajratdim",
             "Bu oy ota-onamga moddiy yordam berdim",
@@ -384,7 +387,7 @@
         },
         {
           "turi": "checklist",
-          "sarlavha": "Bola bilan ishlash rejasi",
+          "sarlavha": "Farzand bilan bir haftalik kelishuv",
           "bandlar": [
             "Kichkina bolaga «mumkin emas»ni kamaytirdim",
             "Katta bolaga haqiqiy vazifa va haq berdim",
@@ -455,7 +458,10 @@
           "sarlavha": "Yigirma to'rt soat — hozirdan boshlandi",
           "matn": "Uchta bandingiz qayerda? Bugun ulardan kamida bittasiga qadam qo'ying.",
           "korsatma": "Muallifning uy vazifasi: yuqoridagi uchta band ertangi kunga qadar bajarilishi kerak. Eslatmani ertalab va tushdan keyin qo'ying va uchta band tugamaguncha o'chirmang.",
-          "vaqtlar": ["08:00", "15:00"]
+          "vaqtlar": [
+            "08:00",
+            "15:00"
+          ]
         },
         {
           "turi": "kundalik",
@@ -494,7 +500,7 @@
         },
         {
           "turi": "slider",
-          "savol": "Bugungi kuningizni qanchalik o'zingiz boshqardingiz?",
+          "savol": "Ertalab tug'ilib, kechqurun o'lish o'lchovi bo'yicha bugun qanday o'tdi?",
           "min": 1,
           "max": 10,
           "min_yorliq": "Kun meni boshqardi",
