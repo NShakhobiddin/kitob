@@ -17,7 +17,7 @@
       "tavsiyalar": [
         "Tush ko'rishni maqsad qilmang: uni o'zingizni o'rganish vositasi deb ko'ring.",
         "Amaliyot boshlashdan oldin uyqu rejimini tartibga soling — bu asosiy energiya manbai.",
-        "Kundalik hayotdagi kuch teshiklarini yopmasangiz, tushda natija bo'lmaydi.",
+        "Avval kundalik hayotdagi kuch teshiklarini yoping: don Xuan tush ko'rishni ortiqcha energiya ustiga quradi, uyg'oqlikda kuch qolmasa, tushda natija chiqmaydi.",
         "Tushga ovora bo'lib kundalik hayotni tashlab qo'ymang — bu aynan qadimgilarning tuzog'i.",
         "Har hafta o'zingizga savol bering: bu amaliyot mening kundalik hayotimni yaxshilayaptimi?"
       ],
@@ -47,7 +47,7 @@
         },
         {
           "turi": "test",
-          "savol": "Qadimgi sehrgarlarning tuzog'i nima edi?",
+          "savol": "Don Xuanga ko'ra, qadimgi sehrgarlar tush ko'rishda nimadan yiqilgan?",
           "variantlar": [
             "Ular kam mashq qilishdi",
             "Tush dunyosi ular uchun maqsadga aylandi va ular qaytmay qolishdi",
@@ -83,28 +83,36 @@
       "mashqlar": [
         {
           "turi": "kundalik",
-          "sarlavha": "Tush kundaligi",
+          "sarlavha": "To'rt darvoza kundaligi",
           "korsatma": "Har ertalab yozing. Avval kalit so'zlar, keyin tafsilot. Belgilar maydoniga tushdagi joy, odam, harakat va hisni kiriting — takrorlanadigan belgilar avtomatik sanaladi va pastda ko'rsatiladi. Qo'lingizni ko'rgan bo'lsangiz, belgilarga «qo'l» deb yozing.",
           "joy_matn": "Kecha tushimda…",
           "belgi_matn": "Belgilar: qo'l, uy, suv, uchish, notanish odam…"
         },
         {
           "turi": "eslatma",
-          "sarlavha": "Qo'lga qarash",
+          "sarlavha": "Kunduzgi qo'l tekshiruvi",
           "matn": "To'xtang. Qo'lingizga qarang. Barmoqlaringizni sanang. Bu tushmi?",
           "korsatma": "Kun davomida tarqoq vaqtlarni qo'ying. Har safar mexanik bajarmang — rostdan shubhalaning. Aynan shu shubha tushga o'tadi.",
-          "vaqtlar": ["09:40", "12:20", "15:10", "18:40", "21:30"]
+          "vaqtlar": [
+            "09:40",
+            "12:20",
+            "15:10",
+            "18:40",
+            "21:30"
+          ]
         },
         {
           "turi": "eslatma",
-          "sarlavha": "Yotishdan oldingi niyat",
+          "sarlavha": "Uyquga kirishdagi vazifa",
           "matn": "Niyat ayting: «Tushimda qo'limni ko'raman». Qisqa va aniq.",
           "korsatma": "Uxlashga yotish vaqtingizni qo'ying. Niyatni gapirib emas, his qilib ayting.",
-          "vaqtlar": ["23:00"]
+          "vaqtlar": [
+            "23:00"
+          ]
         },
         {
           "turi": "checklist",
-          "sarlavha": "Birinchi darvoza",
+          "sarlavha": "Qo'lni topish: kunlik tayyorgarlik",
           "bandlar": [
             "Yotishdan oldin niyat aytdim",
             "Kunduzi qo'limga qaradim",
@@ -115,7 +123,7 @@
         },
         {
           "turi": "slider",
-          "savol": "Bu hafta necha kun tushingizni yozdingiz?",
+          "savol": "Bu hafta necha kecha tushingizni yozib olishga ulgurdingiz?",
           "min": 0,
           "max": 7,
           "min_yorliq": "0 kun",
@@ -127,7 +135,7 @@
       "sarlavha": "Ikkinchi darvoza: tushdan tushga",
       "magiz": [
         "Ikkinchi darvozaga yetish belgisi: siz tushda uyg'onasiz — lekin bu yana tush bo'lib chiqadi. Yoki bir tushdan boshqasiga o'tasiz.",
-        "Vazifa: tushdan tushga o'tishni boshqarish, tasodifan emas.",
+        "Ikkinchi darvozaning vazifasi — tushdan tushga o'tishni boshqarish: uyg'ondim deb o'ylagan joyingiz yana tush bo'lib chiqadi va siz buni tasodifan emas, ataylab qilishingiz kerak.",
         "Bu bosqichda diqqat allaqachon o'sgan bo'ladi. Kitobda buni «energiya tanasi»ning uyg'onishi deb ataladi.",
         "Muhim ogohlantirish: bu bosqichda «yolg'on uyg'onish» tez-tez bo'ladi — siz uyg'ondim deb o'ylaysiz, aslida hali tushdasiz.",
         "Shuning uchun qoida: har safar uyg'onganda tekshiruv qiling — qo'lingizga qarang, matnni ikki marta o'qing.",
@@ -147,7 +155,7 @@
         },
         {
           "turi": "checklist",
-          "sarlavha": "Ikkinchi darvoza",
+          "sarlavha": "Ikkinchi darvoza: tushdan tushga o'tish",
           "bandlar": [
             "Har uyg'onganda tekshiruv qildim",
             "Tushda hayajonlanmasdan turdim",
@@ -174,7 +182,7 @@
         },
         {
           "turi": "slider",
-          "savol": "Tushda o'zingizni qanchalik boshqara olasiz?",
+          "savol": "Yolg'on uyg'onishni necha marta payqadingiz?",
           "min": 1,
           "max": 10,
           "min_yorliq": "Umuman boshqara olmayman",
@@ -248,8 +256,8 @@
         "U kundalik diqqatdan farq qiladi: tushda narsalar o'zgaruvchan va ularni faqat diqqat ushlab turadi.",
         "Diqqatni mashq qilishning yo'li oddiy: tushda bir necha narsani ketma-ket ko'rish va har safar boshlang'ich nuqtaga qaytish.",
         "Kitobda tush olamidagi «boshqa mavjudotlar» haqida uzun bo'lim bor. Don Xuan ularga nisbatan qat'iy ehtiyotkorlikni talab qiladi.",
-        "Bu qismni harfma-harf yoki majoziy o'qish mumkin. Majoziy o'qishda ma'no aniq: tush olamida sizni o'ziga tortadigan narsalar bor va ular vaqtingizni yeydi.",
-        "Eng amaliy xulosa: har qanday tajribaga aniq maqsad bilan kiring. Maqsadsiz kirilgan joyda odam adashadi."
+        "Tush olamida diqqatni o'ziga tortadigan narsalar bor: don Xuan ularni «lazutchik» deb ataydi va ular vaqtni ham, kuchni ham yeydi. Tanish bo'lmagan narsaga ergashish — eng ko'p uchraydigan tuzoq.",
+        "Har qanday tush seansiga aniq va bitta vazifa bilan kiring. Maqsadsiz kirilgan joyda odam adashadi va uyg'onganda qo'lida hech narsa qolmaydi."
       ],
       "tavsiyalar": [
         "Tushda bitta aniq vazifa qo'ying — bir tushda bittadan ortiq emas.",
@@ -270,7 +278,7 @@
         },
         {
           "turi": "checklist",
-          "sarlavha": "Tushdagi tartib",
+          "sarlavha": "Lazutchikka ergashmaslik",
           "bandlar": [
             "Bitta aniq vazifa qo'ydim",
             "Boshlang'ich nuqtani belgiladim",
@@ -313,7 +321,7 @@
         },
         {
           "turi": "checklist",
-          "sarlavha": "Uzoq muddatli amaliyot",
+          "sarlavha": "Bir yillik yo'l: darvozalar tartibi",
           "bandlar": [
             "Amaliyotni yillik masshtabda rejalashtirdim",
             "Kundalikni qayta o'qidim",
@@ -335,7 +343,9 @@
           "sarlavha": "Oylik tekshiruv",
           "matn": "Kundalikni qayta o'qing: bu oy nima o'zgardi? Keyingi oy uchun bitta maqsad qo'ying.",
           "korsatma": "Oyiga bir marta o'zingizga qulay vaqtni qo'ying. Bu eslatma amaliyotni yo'nalishsiz qolib ketishdan saqlaydi.",
-          "vaqtlar": ["20:00"]
+          "vaqtlar": [
+            "20:00"
+          ]
         }
       ]
     }

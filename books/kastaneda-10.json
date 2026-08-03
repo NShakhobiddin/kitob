@@ -24,7 +24,7 @@
       "mashqlar": [
         {
           "turi": "kundalik",
-          "sarlavha": "Hayot albomi",
+          "sarlavha": "Hayot albomi: kuchli lahzalar",
           "korsatma": "Hayotingizni shakllantirgan voqealarni shu yerga yozing — har biri alohida yozuv. Sinov oddiy: bu voqeadan keyin men boshqacha bo'ldimmi? Belgilar maydoniga davrni yozing: bolalik, maktab, o'smirlik, yoshlik, hozirgi davr. Bir necha hafta yozgach, qaysi davr sizni eng ko'p shakllantirganini raqamlardan ko'rasiz.",
           "joy_matn": "Voqea: … Undan keyin men…",
           "belgi_matn": "Davr: bolalik, maktab, yoshlik, hozirgi…"
@@ -72,7 +72,7 @@
       "tavsiyalar": [
         "Ro'yxatni tuzishga vaqt sarflang: u amaliyotning yarmi.",
         "Tartibni buzmang — Kastanedaning o'zi tartibsiz qilib, jarayonni cho'zgan.",
-        "Har seansda bitta odam. Shoshilish bu yerda ishlamaydi.",
+        "Har seansda faqat bitta odamni oling va uni oxirigacha ko'rib chiqing — bu yerda shoshilish natijani butunlay yo'q qiladi.",
         "Nafasni unutmang: u amaliyotning bezagi emas, ajralmas qismi.",
         "Amaliyot chiqargan «axlat»dan qo'rqmang — kitobga ko'ra, uning kuchi aynan shunda.",
         "Og'ir travma bilan mutaxassisga murojaat qiling: bu amaliyot terapiyaning o'rnini bosmaydi."
@@ -85,18 +85,20 @@
         },
         {
           "turi": "jurnal",
-          "savol": "Qayta ko'rish ro'yxatini shu yerdan boshlang: hozirgi hayotingizdan orqaga qarab, uchratgan odamlarni yozing. Ish, o'qish, mahalla, oila. Kamida 40 ta ism yozishga harakat qiling."
+          "savol": "Bu kitobdagi usul odamlardan emas, voqealardan boshlanadi. Hayotingizdagi kuchli voqealarni oxirgisidan birinchisiga qarab yozing: nima bo'ldi, kim bor edi, keyin nima o'zgardi. Ro'yxat to'lgani sayin uni to'ldirib boring."
         },
         {
           "turi": "eslatma",
-          "sarlavha": "Qayta ko'rish vaqti",
+          "sarlavha": "Albom ustidagi kunlik ish",
           "matn": "Qayta ko'rish vaqti. Ro'yxatdan keyingi odamni oling, 30 daqiqa eslang va nafas oling.",
           "korsatma": "Kunning tinch vaqtini tanlang. Kitobning talabi — muntazamlik, uzunlik emas.",
-          "vaqtlar": ["21:15"]
+          "vaqtlar": [
+            "21:15"
+          ]
         },
         {
           "turi": "checklist",
-          "sarlavha": "Amaliyot tartibi",
+          "sarlavha": "Nafas va ro'yxat tartibi",
           "bandlar": [
             "Ro'yxatni yozdim",
             "Yangidan eskiga tartibda boryapman",
@@ -107,7 +109,7 @@
         },
         {
           "turi": "slider",
-          "savol": "Bu hafta necha marta qayta ko'rish qildingiz?",
+          "savol": "Albom sahifalaringizning nechtasi bu hafta nafas bilan tozalandi?",
           "min": 0,
           "max": 7,
           "min_yorliq": "0 marta",
@@ -123,7 +125,7 @@
         "Sehrgarlar bir narsani payqashgan: hayotini to'liq qayta ko'rib chiqqan odam bilan uchrashganda dengiz bir lahzaga ikkilanadi.",
         "Ular ulkan haqiqatni topishgan: dengizga faqat bizning hayot tajribamiz kerak, hayot kuchimiz emas.",
         "Shuning uchun qayta ko'rish shu qadar muhim: u tajribani yig'ib beradi va hayot kuchini saqlab qoladi.",
-        "Bu tasvirni majoziy o'qish ham to'liq ishlaydi: o'z hayotini ko'rib chiqmagan odam undan ozod bo'la olmaydi va uni o'zi bilan sudrab yuradi."
+        "Qayta ko'rilmagan hayot odamning ortidan sudralib yuradi: eski voqealar ongning qorong'i dengizida qolib, hozirgi qarorlarni sekin boshqaradi. Ozod bo'lish faqat ularni ko'rib chiqishdan keyin keladi."
       ],
       "tavsiyalar": [
         "Hayot tajribangizni yuk emas, material deb ko'ring.",
@@ -155,7 +157,7 @@
         },
         {
           "turi": "slider",
-          "savol": "O'tmish hozir sizdan qancha kuch olyapti?",
+          "savol": "Qorong'i dengizdagi qaysi voqea bugun ham sizni ushlab turibdi — og'irligini baholang.",
           "min": 1,
           "max": 10,
           "min_yorliq": "Deyarli olmaydi",
@@ -169,7 +171,7 @@
         "Kitobning yakuniy obrazi — «jangchi-sayohatchi». U hech qayerda qolmaydi va hech narsaga yopishmaydi.",
         "Don Xuan yolg'izlikni jangchi uchun qabul qilib bo'lmaydigan narsa deb ataydi. Sabab: jangchi-sayohatchi yolg'iz emas — uning tayanchi bor.",
         "Bu tayanch — Yer. Kitobda u «onamiz», bizning hamma narsamizning markazi va oxirida hammamiz qaytadigan asos deb ataladi.",
-        "Bu tasvirning amaliy ma'nosi oddiy: odamga tayanch kerak, lekin tayanchni odamga qo'yish xavfli — odamlar ketadi.",
+        "Jangchi-sayohatchiga tayanch kerak, lekin tayanchni odamga qo'yish xavfli: odamlar ketadi. Don Xuan tayanchni yerga va o'z yo'liga qo'yishni o'rgatadi.",
         "Jangchi-sayohatchi rejalashtiradi, lekin joylashib qolmaydi. U har bir joyni vaqtinchalik deb biladi va shuning uchun har bir joydan to'liq oladi.",
         "Kitobning oxirgi ohangi tinch va og'ir: don Xuan ketadi, Kastaneda qoladi. Va u yo'lda davom etishi kerak — chunki boshqa iloji yo'q."
       ],
@@ -192,7 +194,7 @@
         },
         {
           "turi": "checklist",
-          "sarlavha": "Sayohatchi haftasi",
+          "sarlavha": "Tayanchni yerga ko'chirish",
           "bandlar": [
             "Tayanchlarim ro'yxatini yozdim",
             "Bitta odamga bog'liqlikni kamaytirdim",
@@ -235,7 +237,7 @@
         },
         {
           "turi": "checklist",
-          "sarlavha": "Yopilmaganlarni yopish",
+          "sarlavha": "Aytilmaganlarni aytib qo'yish",
           "bandlar": [
             "Aytilmagan gaplar ro'yxatini yozdim",
             "Bittasini aytdim",
@@ -251,7 +253,7 @@
         },
         {
           "turi": "slider",
-          "savol": "Bugun tugasa, ortingizda tugallanmagan narsa ko'pmi?",
+          "savol": "Albomingiz bugun yopilsa, unda yetishmaydigan sahifa bormi?",
           "min": 1,
           "max": 10,
           "min_yorliq": "Deyarli yo'q",

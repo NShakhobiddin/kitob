@@ -9,7 +9,7 @@
       "magiz": [
         "Kitobning nomi don Xuanning tasviridan olingan: vaqt — cheksiz uzunlikdagi ariqlar tizimi, ular bo'ylab hamma narsa harakatlanadi.",
         "Oddiy odam bu g'ildirak bilan birga surilib boradi va uni ko'rmaydi. Ko'ruvchi esa unga qaray oladi.",
-        "Bu tasvirning amaliy ma'nosi: hayotimiz bizni oldinga surib boradi va biz uni tanlov deb o'ylaymiz.",
+        "Vaqt g'ildiragi bizni oldinga surib boradi va biz uning harakatini o'z tanlovimiz deb o'ylaymiz. Jangchi esa g'ildirakning yonida turib, unga o'zi qaraydi.",
         "Kitobning tuzilishi ham shu fikrni takrorlaydi: bir xil gaplar turli kitoblarda, turli sharoitlarda takrorlanadi va har safar boshqacha eshitiladi.",
         "Bu — takrorlashning ma'nosi: eshitilgan gap tushunilgan gap emas. Bir xil gap sizning holatingiz o'zgargach ochiladi.",
         "Shuning uchun bu kitobni bir marta o'qib qo'yish mumkin emas. U qayta-qayta ochiladigan kitob."
@@ -31,7 +31,9 @@
           "sarlavha": "Oylik qayta o'qish",
           "matn": "Bitta fikrni tanlang va uni shu oy davomida yashab ko'ring.",
           "korsatma": "Oyiga bir marta qulay vaqtni qo'ying. Kitobning butun mantiqi takrorda: bir xil gap holat o'zgargach boshqacha ochiladi.",
-          "vaqtlar": ["19:00"]
+          "vaqtlar": [
+            "19:00"
+          ]
         },
         {
           "turi": "slider",
@@ -63,7 +65,7 @@
       "mashqlar": [
         {
           "turi": "checklist",
-          "sarlavha": "Jangchi kuni",
+          "sarlavha": "Turkumning kunlik o'lchovi",
           "bandlar": [
             "Bugun nolimadim",
             "Qabul qilgan qarorimdan afsuslanmadim",
@@ -115,14 +117,14 @@
       "tavsiyalar": [
         "Ikkilanganda o'limdan so'rang — javob deyarli har doim tez keladi.",
         "Kunni «agar bu oxirgi kunim bo'lsa» savoli bilan boshlang.",
-        "Muhim gapni bugun ayting.",
+        "Aytilmagan muhim gapni bugun ayting: o'lim maslahatchi bo'lganda kechiktirishning hech qanday sababi qolmaydi.",
         "Arzimas narsaga jahl qilishni sezsangiz, o'limni eslang.",
         "Bu mashqni og'ir qilmang: uning maqsadi tiniqlik, qayg'u emas."
       ],
       "mashqlar": [
         {
           "turi": "jurnal",
-          "savol": "Bugun sizni bezovta qilgan uch narsani yozing. Har biriga o'limdan so'rang va javobni yozing. Nechtasi qoldi?"
+          "savol": "Turkum bo'yicha eng ko'p takrorlanadigan mashq shu. Bugun sizni bezovta qilgan uch narsani yozing, har biriga o'limdan so'rang va javobni yozing. Oxirida sanang: nechtasi javobdan keyin ham joyida qoldi?"
         },
         {
           "turi": "taymer",
@@ -131,7 +133,7 @@
         },
         {
           "turi": "checklist",
-          "sarlavha": "Kunni yopish",
+          "sarlavha": "Kun oxirida hisob-kitob",
           "bandlar": [
             "Kunni «oxirgi kun» savoli bilan boshladim",
             "Muhim gapni bugun aytdim",
@@ -142,7 +144,7 @@
         },
         {
           "turi": "slider",
-          "savol": "Bugungi tashvishlaringiz o'lim yonida qanchalik og'ir?",
+          "savol": "Bugungi tashvishlaringizdan nechtasi o'lim yonida turib qoldi?",
           "min": 1,
           "max": 10,
           "min_yorliq": "Deyarli vaznsiz",
@@ -174,7 +176,7 @@
         },
         {
           "turi": "checklist",
-          "sarlavha": "Teshiklarni yopish",
+          "sarlavha": "Kuch teshiklarini birma-bir yopish",
           "bandlar": [
             "Bugun o'zimni oqlamadim",
             "Xafalikni 24 soatga kechiktirdim",
@@ -244,7 +246,7 @@
         },
         {
           "turi": "slider",
-          "savol": "Bilim va harakatingiz nisbati hozir qanday?",
+          "savol": "Bir yil davomida qiladigan bitta amaliyotni tanladingizmi?",
           "min": 1,
           "max": 10,
           "min_yorliq": "Faqat bilaman",
