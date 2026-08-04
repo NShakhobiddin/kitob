@@ -1,0 +1,264 @@
+{
+  "id": "transerfing-3",
+  "nomi": "Transerfing 3: Oldinga o'tmishga",
+  "muallif": "Vadim Zeland",
+  "kirish": "Uchinchi bosqich turkumni yopadi va uni amaliyotga o'tkazadi. Bu yerda niyat energiyasi, sog'liq, munosabatlar va o'ziga ishonch bir tizimga bog'lanadi. Kitobning eng ko'p ishlatiladigan amaliy usuli — freyling: olish niyatini berish niyatiga almashtirish. Yakunda esa muallif kitob boshida qo'ygan «Qorovul jumbog'i»ga javob beradi va u juda qisqa chiqadi: siz o'z jangingizni to'xtatganingizda erkin bo'lasiz.",
+  "bolimlar": [
+    {
+      "sarlavha": "1. Energiya va sog'liq: to'plamang, o'tkazing",
+      "magiz": [
+        "Fiziologik energiya harakatning o'ziga sarflanadi, niyat esa erkin energiya hisobiga shakllanadi. Erkin energiya tanadan bir-biriga qarama-qarshi ikki oqim bo'lib o'tadi.",
+        "Zelandning asosiy tuzatishi: energiyani to'plash mumkin emas, uni faqat o'zingizdan erkin o'tkazish mumkin. Yuqori energetika — bu katta zaxira emas, keng energetik kanallar.",
+        "Ko'lda suzib turib, suvni yonoqda zaxira qilib saqlash — energiyani to'plashning aynan shu tashbehi. Energiya har bir nuqtada cheksiz mavjud, uni faqat o'zingizga kiritish kerak.",
+        "Stress holatida niyat energiyasi bloklanadi. Undan chiqishning yagona yo'li — uyg'onish va ahamiyatni tashlash; ahamiyatni tashlash imkoni bo'lmasa, bo'shashishga ham kuch sarflamang.",
+        "Anglash va past ahamiyat darajasi energiya so'ruvchilardan tabiiy himoya bo'lib xizmat qiladi. Himoya qobig'i esa energetik gimnastika bilan mustahkamlanadi.",
+        "Niyat — tirishqoqlik emas, jamlanish. Mashqni e'tiborsiz bajarish foydasiz: diqqat markaziy oqimlarga qaratilishi kerak.",
+        "Sog'liq masalasida ikki o'yin bor: «Kasallik» va «Davolanish». Ichki niyat kasal bo'lish va davolanish, tashqi niyat esa sog'lom hayot tarzida yashash.",
+        "Kasallik mayatniklarining o'yiniga hech qanday holatda kirmang: kasallik haqidagi suhbat va tashvish uni hayotingizga kiritadi.",
+        "Zararli odatdan qutulish kerak emas — undan voz kechish kerak. Buning uchun kurash emas, ahamiyatni pasaytirish talab qilinadi.",
+        "Tana haqidagi g'amxo'rlik erkin niyatning natijasi bo'lishi kerak. Sog'lomlashtiruvchi mashqlar zo'riqish va kuch talab qilmaydi."
+      ],
+      "tavsiyalar": [
+        "Energiyani to'plashga urinmang: uni o'zingizdan ikki oqim bo'lib erkin o'tkazishni mashq qiling.",
+        "Stressni sezganingizda avval uyg'oning va ahamiyatni tashlang; iloji bo'lmasa, bo'shashishga ham kuch sarflamang.",
+        "Har qanday mashqni e'tibor bilan bajaring — diqqatsiz bajarilgan mashq natija bermaydi.",
+        "Kasallik haqidagi suhbatga kirmang va tashxis mayatnigini muhokama qilmang.",
+        "Zararli odat bilan kurashmang — unga bergan ahamiyatingizni pasaytiring va e'tiborni boshqa yoqqa buring.",
+        "Ovqatlanishda tabiat qo'ygan oddiy tartibni buzmang: kitob ko'p kasallikni aynan shu bilan bog'laydi.",
+        "Mushaklarga qanday zo'riqish va bo'shashishni doim eslatib turing — bu qobiliyat mashqsiz yo'qoladi."
+      ],
+      "mashqlar": [
+        {
+          "turi": "taymer",
+          "daqiqa": 7,
+          "korsatma": "Markaziy oqimlar mashqi. Yetti daqiqa tik turing yoki sekin yuring. Tasavvur qiling: bir oqim quyidan yuqoriga umurtqa bo'ylab ko'tarilib boshdan chiqadi, ikkinchisi yuqoridan pastga tushib pastdan chiqadi. Ularni his qilishga zo'riqmang — hozircha faqat tasavvur qiling. Diqqat butun vaqt shu ikki oqimda tursin. Zo'riqmang: kitobning talabi — kuch emas, jamlanish."
+        },
+        {
+          "turi": "eslatma",
+          "sarlavha": "Kalitni burash vaqti",
+          "matn": "Kalitni buring: ikki oqimni tasavvur qiling va mushaklaringiz bo'shashganini kuzating.",
+          "korsatma": "«Kalitni burash» — kitobdagi eng qisqa usul: bir necha soniya, istalgan joyda. Uni kun davomida iloji boricha ko'p qaytaring, ayniqsa nimadandir tashvishlanayotgan paytingizda. Eslatmani kunning uch nuqtasiga qo'ying.",
+          "vaqtlar": [
+            "09:00",
+            "13:30",
+            "17:30"
+          ]
+        },
+        {
+          "turi": "test",
+          "savol": "Zelandga ko'ra, yuqori energetika nima?",
+          "variantlar": [
+            "Ko'p uxlab, yaxshi ovqatlanib to'plangan zaxira",
+            "Keng energetik kanallar — energiyaning erkin o'tishi",
+            "Kuchli iroda",
+            "Uzoq meditatsiya natijasi"
+          ],
+          "izohlar": [
+            "Bu fiziologik energiya. Erkin energiyani to'plash mumkin emas.",
+            "To'g'ri. Kitobning tuzatishi shu: zaxira emas, o'tkazuvchanlik hal qiladi.",
+            "Iroda ichki niyatga tegishli. Zeland bu yerda boshqa narsa haqida gapiryapti.",
+            "Meditatsiya foydali bo'lishi mumkin, lekin kitob energetik gimnastikani ko'rsatadi."
+          ]
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Kunlik energiya tartibi",
+          "bandlar": [
+            "Bugun kalitni kamida besh marta burdim",
+            "Markaziy oqimlar mashqini e'tibor bilan bajardim",
+            "Stressni sezganimda avval ahamiyatni tekshirdim",
+            "Kasallik haqidagi suhbatga kirmadim",
+            "Bitta zararli odatga bergan ahamiyatimni pasaytirdim",
+            "Tanamga zo'riqishsiz g'amxo'rlik qildim"
+          ]
+        }
+      ]
+    },
+    {
+      "sarlavha": "2. Freyling: olishdan berishga",
+      "magiz": [
+        "Freylingning butun formulasi bitta jumlada: olish niyatidan voz keching va uni berish niyatiga almashtiring — shunda voz kechgan narsangizni olasiz.",
+        "Har bir odamning ichki niyati ostida o'z ahamiyati tuyg'usi yotadi. Shuning uchun boshqalarni o'zgartirishga urinmang, o'zingizni ham o'zgartirmang — ularga o'z ichki niyatini amalga oshirishga imkon bering.",
+        "Amaliy savol shundan chiqadi: sherigimning ichki niyati nimaga qaratilgan? Keyin o'z ichki niyatingizni uning niyatini amalga oshirishga buring.",
+        "Muloqotda odam sizning qanchalik qiziqarli ekaningizni emas, o'z ahamiyatini oshirishga qanchalik mos kelishingizni baholaydi.",
+        "Shuning uchun e'tibor tortishning eng qisqa yo'li — o'zi haqida gapirish emas, atrofdagilarga chin dildan qiziqish bildirish.",
+        "Bahs va tanqid — aqlning variantlar oqimi bilan urushi. Boshqalarga suvni qo'llari bilan urishga ruxsat bering.",
+        "Suhbatni boshlaganda odam bilan bir tomonga, oqim bo'ylab buriling. Xatolaringizni himoya qilmang — ularni ongli ravishda tan oling.",
+        "Sherigingizning chastotasiga sozlanishning birinchi va eng oddiy kaliti — uning ismi. Ikkinchisi — tinglash: uni qiziqtirgan narsa haqida gapiring.",
+        "Kichik, og'ir bo'lmagan iltimos odamni o'ziga jalb qiladi: u sizga xizmat qilib, o'z ahamiyatini his qiladi.",
+        "Sovg'a — bu odamga uning bu dunyoda nimadir ahamiyati borligini his qildirish. Agar sovg'a freylega tegsa, u taqdirni o'zgartirishi mumkin.",
+        "Yakuniy qoida: o'z ahamiyatingizdan voz kechganingizda uni ortiqchasi bilan qaytarib olasiz. Freyling bilan shug'ullanayotganda ham o'ynayotgan tomoshabin bo'ling."
+      ],
+      "tavsiyalar": [
+        "Har bir muhim suhbatdan oldin savol bering: bu odamning ichki niyati nimaga qaratilgan?",
+        "Suhbatda e'tiborni o'zingizdan odamga ko'chiring — o'zingizni ko'rsatishga urinmang.",
+        "Odamning ismini ishlating va u qiziqqan mavzuda gapiring.",
+        "Iloji bo'lsa, umuman tanqid qilmang; xatoingizni esa o'zingiz tan oling.",
+        "Odamga o'zini qiziqarli ko'rsatish imkonini bering — bu sizning gapirishingizdan ko'ra ko'proq ish qiladi.",
+        "Xohishingizni odamning xohishi bilan bog'lang: masalani uning ahamiyati nuqtai nazaridan qo'ying.",
+        "Qiziqishni etiket darajasiga tushirmang — yasama ishtirok darrov sezilib qoladi."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Hozir sizga muhim bo'lgan bitta odamni oling — hamkasb, rahbar, mijoz yoki yaqin kishi. Uch savolga javob yozing: 1) Uning ichki niyati nimaga qaratilgan? 2) Men xohlagan narsani u xohlagan narsa bilan qanday bog'lash mumkin? 3) Ertaga men unga qanday aniq narsani beraman? Oxirgi javob jumla emas, harakat bo'lsin."
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Freyling — bir kunlik amaliyot",
+          "bandlar": [
+            "Suhbatni odamning mavzusidan boshladim",
+            "Uning ismini kamida bir marta ishlatdim",
+            "Bugun hech kimni tanqid qilmadim",
+            "O'z xatoimni o'zim tan oldim",
+            "Kimningdir ahamiyatini samimiy tan oldim",
+            "Kichik bir iltimos bilan murojaat qildim",
+            "Gapirishdan ko'ra ko'proq tingladim"
+          ]
+        },
+        {
+          "turi": "test",
+          "savol": "Odam bilan kelisha olmayapsiz. Freyling qoidasiga ko'ra birinchi qadam qaysi?",
+          "variantlar": [
+            "O'z dalillarimni kuchliroq keltirish",
+            "Uning ichki niyatini aniqlab, o'z niyatimni unga burish",
+            "Chekinish va mavzuni yopish",
+            "Uchinchi odamni chaqirish"
+          ],
+          "izohlar": [
+            "Bahs — kitob tilida aqlning oqim bilan urushi. Dalil qancha kuchli bo'lsa, qarshilik shuncha kuchayadi.",
+            "To'g'ri. Freylingning butun mexanizmi shu: olishdan berishga o'tish va boshqaning niyatini amalga oshirish.",
+            "Chekinish masalani hal qilmaydi, faqat kechiktiradi.",
+            "Uchinchi odam ba'zan foydali, lekin u ham sizning niyatingizni o'zgartirmaydi."
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Bugungi suhbatlarda diqqat markazi kimda edi?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Butunlay o'zimda",
+          "max_yorliq": "Butunlay suhbatdoshda"
+        }
+      ]
+    },
+    {
+      "sarlavha": "3. Koordinatsiya: ishonch labirintidan chiqish",
+      "magiz": [
+        "Ishonchsizlikning sababi — niyat energiyasining tanqisligi. Ahamiyat esa mavjud energiyani ortiqcha potensiallarni ushlab turishga sarflaydi.",
+        "O'ziga ishonch ham potensial: u ishonchsizlikning teskari belgili shakli. Shuning uchun muvozanat kuchlari ishonch devorini ham muntazam buzib turadi.",
+        "Ishonchsizlik bilan kurashish va o'zida ishonch tarbiyalash foydasiz. Ishonch tarbiyalanmaydi — ahamiyat tushganda niyat energiyasi ozod bo'ladi.",
+        "Kitobning qisqa xulosasi: menda ahamiyat bo'lmasa, himoya qiladigan ham, zabt etadigan ham narsa qolmaydi. Kurashsiz erkinlik bo'lganda ishonch umuman kerak emas.",
+        "O'z qadringizni oshirish uchun ahamiyat uchun kurashishdan voz keching. Aybdorlik hissidan qutulish uchun esa oqlanishni to'xtatish yetarli.",
+        "Kechinma energiyasini harakat energiyasiga aylantiring: qandaydir tarzda, zo'riqmasdan va talab qilmasdan harakat qilishni boshlang.",
+        "Mayatnik bilan kurashning asosiy tamoyili — kurashdan voz kechish. Mayatnik o'yinining mohiyati sizni muvozanatdan chiqarish.",
+        "Sizning vazifangiz — bu o'yinning qoidasini ongli ravishda buzish. Nomos javob berganingizda mayatnik provokatsiyaga sarflagan energiyasi sizga o'tadi.",
+        "Reaksiyangiz bilan kurashmang — munosabatni o'zgartiring. Himoya devorini qurmang, mayatnikka bo'shliq tashkil qiling va hujumga tayyorlikni bekor qiling.",
+        "Hayot chizig'i har bir hodisada ijobiy va salbiy tarmoqqa ajraladi. Hodisaga munosabatingizni bildirib, siz aynan shu ayrilishda tanlov qilasiz.",
+        "Shundan kitobning eng g'alati, lekin eng amaliy maslahati chiqadi: muvaffaqiyatsizlikdan quvonish odatini o'rgating. Salbiy ko'ringan o'zgarishni ijobiy deb qarashga niyat qilsangiz, qulay tarmoqqa tushasiz.",
+        "Soxta e'tiqod yelkani tashqi niyat shamoli bilan hech qachon to'lmaydi: agar o'zingizni ko'ndirishga majbur bo'lsangiz, demak bu ishonch emas, o'zini aldash."
+      ],
+      "tavsiyalar": [
+        "Ishonchsizlikni yengishga urinmang — o'sha vaziyatdagi ahamiyatingizni toping va pasaytiring.",
+        "Oqlanishni to'xtating: aybdorlik hissi aynan oqlanish odati bilan ushlab turiladi.",
+        "Tashvishlanish o'rniga harakat qiling, hatto eng kichik va nomukammal harakat bo'lsa ham.",
+        "Provokatsiyaga nomos javob bering: qoidani ongli ravishda buzsangiz, mayatnik energiyasi sizga o'tadi.",
+        "Yomon xabarni eshitganingizda darrov munosabat bildirmang — avval ayrilishda qaysi tarmoqni tanlayotganingizni eslang.",
+        "Muvaffaqiyatsizlikdan quvonish odatini ataylab mashq qiling, hatto bu kulgili tuyulsa ham.",
+        "Qo'rquvga qarshi sug'urta toping, tashvishga qarshi harakat qiling, xohishga qarshi mag'lubiyat bilan kelishing."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Bugun yoki kecha nima yomon bo'ldi? Uni yozing. Endi kitobning eng g'alati mashqini bajaring: shu hodisani ijobiy deb qarashga niyat qiling va yozing — bu menga qanday yangi imkoniyat ochishi mumkin? Javob sun'iy tuyulsa ham yozing; mashqning mohiyati ayrilishda tanlov qilishda."
+        },
+        {
+          "turi": "kundalik",
+          "sarlavha": "Ayrilish daftari",
+          "korsatma": "Har kuni bitta yoqimsiz hodisani yozing va yoniga ikki ustun qo'ying: birinchisiga odatiy reaksiyangiz, ikkinchisiga ongli tanlovingiz. Belgilar maydoniga reaksiya turini kiriting — bir necha haftadan keyin qaysi reaksiya sizni eng ko'p salbiy tarmoqqa olib ketayotgani ro'yxatdan ko'rinadi.",
+          "joy_matn": "Bugungi hodisa va mening ikki javobim…",
+          "belgi_matn": "Reaksiya: g'azab, xafagarchilik, oqlanish, tashvish…"
+        },
+        {
+          "turi": "test",
+          "savol": "Mayatnik sizni provokatsiya qildi. Uchinchi bosqichdagi eng kuchli javob qaysi?",
+          "variantlar": [
+            "Himoya devorini qurish",
+            "Kutilgan qoidani ongli ravishda buzish",
+            "Reaksiyani ichkarida bosish",
+            "Javob zarbasi berish"
+          ],
+          "izohlar": [
+            "Himoya devori ham kurashning bir shakli va u ham energiya beradi.",
+            "To'g'ri. Kitobda aniq: nomos javob bergan odamga provokatsiyaga sarflangan energiya o'tadi.",
+            "Ichki bosish reaksiyani yo'q qilmaydi — u shunchaki ko'rinmay qoladi.",
+            "Javob zarbasi — mayatnik kutgan yurishning aynan o'zi."
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Bugun ahamiyat darajangizni nolga qanchalik yaqin ushlay oldingiz?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Hammasi juda muhim edi",
+          "max_yorliq": "Deyarli nol edi"
+        }
+      ]
+    },
+    {
+      "sarlavha": "4. Oldinga o'tmishga: tranzaksiya va jangni to'xtatish",
+      "magiz": [
+        "Tranzaksiya uch elementdan iborat: kalitni burash, maqsad slaydini vizualizatsiya qilish va oldinga tiniq qarash. Uchalasi ketma-ket, yurgan holda bajariladi.",
+        "Birinchi element — kalitni burash: bir necha soniyada ikki markaziy oqimni tasavvur qilish. U qisqichlarni bo'shatadi va niyat energiyasini ortiqcha potensiallardan tozalaydi.",
+        "Ikkinchi element — slayd: unga rasmga qaragandek qaramang, ichida turing. Atrofni qo'l bilan teging, tovushlarni, hidlarni tasavvur qiling va bir-ikki daqiqa shu holatda qoling.",
+        "Uchinchi element — tiniq qarash: hech narsa o'ylamasdan, tahlil qilmasdan oldinga va uzoqqa qarang. Bir necha soniya ichida dekoratsiyalarning ottenkasi o'zgaradi.",
+        "Ottenka — aniq tafsilot emas: manzara o'sha-o'sha, lekin unda tushuntirib bo'lmaydigan yangi tus paydo bo'ladi. Aynan shu variantlar fazosida siljiganingizning ko'rinadigan belgisi.",
+        "Muallif texnikaning o'ziga ortiqcha ahamiyat berishni taqiqlaydi: tranzaksiyani majburan va tez-tez bajarmang, u faqat kuzatish uchun xizmat qiladi. Asosiy ish maqsad slaydi va jarayon vizualizatsiyasida qoladi.",
+        "Sizning maqsadingiz sari harakat — bu dunyoning o'z qatlamingizni yangilash. Dunyo esa oyna kabi: unga qanday qarasangiz, shunday aks ettiradi.",
+        "«Qorovul jumbog'i»ga javob juda qisqa: siz o'z jangingizni to'xtatganingizda erkin bo'lasiz. Qaramlik esa sizga tiqishtirilgan jangda qatnashishga rozi bo'lganingizdan boshlangan.",
+        "Dunyodan norozi bo'lsangiz, u sizdan yuz o'giradi; u bilan kurashsangiz, u siz bilan kurashadi; jangni to'xtatsangiz, u o'zi sizga peshvoz chiqadi.",
+        "Mayatniklar tug'ilganingizdanoq sizga dunyoqarash shablonini, o'yin qoidalarini va rolni berdi. Erkinlik esa shu shartlilik futlyaridan uyg'onish orqali qaytariladi."
+      ],
+      "tavsiyalar": [
+        "Tranzaksiyani tanish yo'lda, xotirjam yurganingizda bajaring — yangi joyda diqqat manzaraga ketadi.",
+        "Kalitni burashni kun davomida ko'p marta, tranzaksiyaning to'liq shaklini esa kamdan-kam bajaring.",
+        "Tranzaksiya natijasini talab qilmang: uning vazifasi siljishni ko'rish, maqsadga yetkazish emas.",
+        "Slaydda yashang: uni tomosha qilmang, ichida turing va sezgilarni qo'shing.",
+        "Tiniq qarash paytida tahlil qilmang — ottenka faqat fikrsiz qarashda ko'rinadi.",
+        "Dunyoga munosabatingizni tekshiring: u sizga aynan shu munosabatni qaytaradi.",
+        "Jangni to'xtating: o'zingiz bilan ham, dunyo bilan ham. Qolgani o'zi joyiga tushadi."
+      ],
+      "mashqlar": [
+        {
+          "turi": "taymer",
+          "daqiqa": 12,
+          "korsatma": "To'liq tranzaksiya. Tanish yo'lda o'n ikki daqiqa xotirjam yuring. 1) Kalitni buring: ikki oqimni tasavvur qiling, qisqichlar bo'shashsin. 2) Maqsad slaydini yoqing va uning ichida turing: teging, eshiting, hidlang — bir-ikki daqiqa. 3) Oldinga va uzoqqa tiniq qarang, hech narsani tahlil qilmang. Dekoratsiyalar ottenkasi o'zgarishini kuzating. Natijani talab qilmang."
+        },
+        {
+          "turi": "jurnal",
+          "savol": "Tranzaksiyadan keyin yozing: ottenkada nima o'zgardi? Aniq tafsilotlarni emas, tuyg'uni yozing — manzara o'sha-o'sha bo'lsa ham, unda nima boshqacha bo'ldi? Agar hech narsa sezmagan bo'lsangiz, shuni ham yozing va texnikaga ortiqcha ahamiyat bermang."
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Jangdan chiqish belgilari",
+          "bandlar": [
+            "Bugun o'zim bilan kurashmadim",
+            "Dunyodan norozilik bildirmadim",
+            "Bir vaziyatda kurashish o'rniga oqim bilan bordim",
+            "Kalitni burdim va qisqichlarni bo'shatdim",
+            "Maqsad slaydini kamida bir marta aylantirdim",
+            "Muvaffaqiyatsizlikka quvonch bilan javob berib ko'rdim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Bugun dunyo sizga qanday javob qaytardi?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Yuz o'girdi",
+          "max_yorliq": "Peshvoz chiqdi"
+        }
+      ]
+    }
+  ]
+}
