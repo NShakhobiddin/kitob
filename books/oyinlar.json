@@ -1,0 +1,486 @@
+{
+  "id": "oyinlar",
+  "nomi": "Odamlar o'ynaydigan o'yinlar",
+  "muallif": "Erik Bern",
+  "kirish": "Transaksion tahlilning asosiy kitobi. Bern odamlar orasidagi muloqotni juda oddiy birliklarga bo'ladi: har bir odamda uch «Men» holati bor — Ota, Kattalar va Bola; har bir gap almashinuvi esa transaksiya. Shu ikki tushuncha ustiga kitobning asosiy kashfiyoti quriladi: hayotimizning katta qismini biz «o'yin» deb ataladigan yashirin motivli, oldindan aytib bo'ladigan yakunli sahnalarda o'tkazamiz. Kitobning ikkinchi yarmi — o'yinlar tezaurusi: har birining tezisi, roli, maqsadi va undan chiqish yo'li (antitezis).",
+  "bolimlar": [
+    {
+      "sarlavha": "1. Uch ochlik: teginish, tan olinish va vaqt",
+      "magiz": [
+        "Uzoq vaqt jismoniy aloqadan mahrum qilingan chaqaloqlar zaiflashadi va nobud bo'ladi. Bern shundan sensor ochlik tushunchasini chiqaradi: rag'batlantirish odam uchun ovqat kabi zarur.",
+        "Kattalarda ham sensor mahrumlik vaqtinchalik psixik buzilishlarga olib kelishi mumkin. Uzoq muddatli yakka qamoq jismoniy jazoga sezgirligi past odamni ham dahshatga soladi.",
+        "Kattalikda bevosita teginish o'rnini uning ramziy ekvivalenti — tan olinish egallaydi. Bern bu birlikni «silash» deb ataydi: salom, bosh irg'ash, ism bilan murojaat — hammasi shu.",
+        "Uchinchi ochlik — tuzilma ochligi. Salomlashib bo'lgach «endi nima haqda gaplashamiz?» degan savol paydo bo'ladi va odam bo'sh vaqtni to'ldirish yo'lini qidiradi.",
+        "Guruhda vaqtni tuzilishlashning beshta usuli bor, oddiydan murakkabga: rituallar, vaqt o'tkazish, o'yinlar, yaqinlik va faoliyat. Oxirgisi qolgan to'rttasining asosi bo'lib xizmat qilishi mumkin.",
+        "Muloqotdan olinadigan yutuq to'rt narsaga tayanadi: zo'riqishni yechish, xavfli vaziyatdan qochish, «silash» olish va erishilgan muvozanatni saqlash.",
+        "Yaqinlik eng ko'p qoniqish beradi, lekin u kamdan-kam uchraydi. Aynan shu bo'shliqni o'yinlar to'ldiradi — ular zerikish bilan xavf orasidagi murosaviy yechim."
+      ],
+      "tavsiyalar": [
+        "Bugun oladigan va beradigan «silash»laringizni sanang: salom, maqtov, e'tibor, teginish. Kamligini ko'rsangiz, birinchi bo'lib bering.",
+        "Suhbatdagi noqulay sukunatni to'ldirishga shoshilmang — o'sha lahza sizning tuzilma ochligingizni ko'rsatib turadi.",
+        "Kuningizni beshta usul bo'yicha bo'lib chiqing: qancha vaqt ritualga, qancha vaqt o'tkazishga, qancha o'yinga, qancha yaqinlikka va qancha ishga ketdi?",
+        "Yaqinlik uchun kuniga hech bo'lmasa o'n daqiqa ajrating: himoyasiz, natijaga qaramaydigan suhbat.",
+        "Yolg'iz qolish tinchlik berayotgandek tuyulsa, muddatini cheklang: uzoq sensor mahrumlik holatni tiklamaydi, buzadi."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Kechagi kuningizni Bernning beshta usuli bo'yicha bo'lib yozing: ritual, vaqt o'tkazish, o'yin, yaqinlik, faoliyat. Har biriga taxminiy soatni yozing. Oxirida javob bering: qaysi ustunni kamaytirsangiz, qaysi biri o'sishi kerak edi?"
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "«Silash» hisobi — bugun",
+          "bandlar": [
+            "Birinchi bo'lib salomlashdim",
+            "Kimgadir aniq sabab bilan minnatdorchilik bildirdim",
+            "Yaqinimga sababsiz iliq gap aytdim",
+            "Kimningdir gapini oxirigacha, bo'lmasdan tingladim",
+            "Bugun kamida bitta odam bilan himoyasiz suhbatlashdim"
+          ]
+        },
+        {
+          "turi": "test",
+          "savol": "Bernga ko'ra, odamlar nima uchun o'yinlarga shunchalik ko'p vaqt sarflaydi?",
+          "variantlar": [
+            "Chunki ular yomon niyatli",
+            "Chunki yaqinlik xavfli tuyuladi, vaqt o'tkazish esa zeriktiradi",
+            "Chunki bo'sh vaqt ko'p",
+            "Chunki ularni bolalikda o'rgatishmagan"
+          ],
+          "izohlar": [
+            "Kitob axloqiy baho bermaydi: o'yin — niyat emas, tuzilma. Uni bilmagan odam ham o'ynaydi.",
+            "To'g'ri. O'yin ikki chekka orasidagi murosaviy yechim: zerikishdan qutqaradi, lekin ochilishni talab qilmaydi.",
+            "Aksincha, bo'sh vaqt tuzilma ochligini kuchaytiradi va odam uni tezroq o'yin bilan to'ldiradi.",
+            "Aslida buning teskarisi: kitobga ko'ra tarbiya — asosan qaysi o'yinni qanday o'ynashni o'rgatish."
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Bugun boshqalardan olgan e'tiboringiz sizga yetdimi?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Deyarli hech kim ko'rmadi",
+          "max_yorliq": "Yetarlicha oldim"
+        }
+      ]
+    },
+    {
+      "sarlavha": "2. Uch «Men» holati: Ota, Kattalar, Bola",
+      "magiz": [
+        "Kuzatuv oddiy: bir odamning qomati, ovozi, so'z boyligi va qarashi suhbat davomida keskin o'zgaradi. Bern bundan xulosa chiqaradi — bitta odamda bir nechta «Men» holati bor.",
+        "Ota holati — ota-onangizdan ko'chirilgan xulq-atvor to'plami. Siz shu paytda ular qanday gapirgan bo'lsa shunday gapirasiz, shunday baholaysiz, shunday jazolaysiz yoki himoya qilasiz.",
+        "Kattalar holati — vaziyatni mustaqil va xolis baholab, ehtimollarni hisoblab, xulosani qanday bo'lsa shunday aytadigan qism.",
+        "Bola holati — erta bolalikda qotib qolgan reaksiyalar. Siz shu paytda kichkina bola qanday maqsad bilan qanday javob bergan bo'lsa, xuddi shunday javob berasiz.",
+        "Bu uchtasi rol emas, psixologik haqiqat: har bir odam har lahzada shu uchtadan birida bo'ladi va birdan ikkinchisiga o'tadi.",
+        "Uchalasi ham hayot uchun zarur. Ota tarbiya va avtomatik qarorlarni yengillashtiradi, Kattalar omon qolish uchun hisob-kitob qiladi, Bola esa ijod, quvonch va o'z-o'zidan chiqadigan intilishning manbai.",
+        "Muammo holatning o'zida emas, uning noto'g'ri joyda yoqilishida: ish muzokarasida Bola, farzand bilan suhbatda tanqid qiladigan Ota, yaqinlik lahzasida esa hisob-kitob qiladigan Kattalar."
+      ],
+      "tavsiyalar": [
+        "Kun davomida bir necha marta to'xtab so'rang: hozir men kim bo'lib gapiryapman — Ota, Kattalar yoki Bola?",
+        "Ota holatini so'z boyligidan taniing: «har doim», «hech qachon», «kerak», «uyat» — bular ko'pincha o'zgalarning ovozi.",
+        "Bola holatini tanadan taniing: ovoz balandligi, yelka, «adolatsiz!» degan hissiyot to'lqini.",
+        "Kattalarni yoqish uchun bitta savolni bering: hozir menda qanday aniq dalil bor va nima faqat taxmin?",
+        "Uchala holatdan birortasini yo'q qilishga urinmang; ularni to'g'ri joyga qo'ying — Bola dam olishda, Ota chegara qo'yishda, Kattalar qarorda."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "So'nggi jiddiy suhbatingizni eslang va uni uch ustunga bo'lib yozing: qaysi gaplarim Ota edi, qaysi biri Kattalar, qaysi biri Bola? Keyin javob bering: agar o'sha suhbatni butunlay Kattalar holatida o'tkazganingizda, nima boshqacha bo'lardi?"
+        },
+        {
+          "turi": "test",
+          "savol": "Hamkasbingiz kechikdi. Sizning javobingiz: «Yana kechikdingizmi? Sizdan boshqasini kutgan edim». Bu qaysi holat?",
+          "variantlar": [
+            "Kattalar — men shunchaki faktni aytdim",
+            "Ota — men baho berdim va uyaltirdim",
+            "Bola — men xafa bo'ldim",
+            "Aralash, aniqlab bo'lmaydi"
+          ],
+          "izohlar": [
+            "Fakt «siz yigirma daqiqa kechikdingiz» bo'lardi. Qo'shilgan baho uni Kattalar holatidan chiqaradi.",
+            "To'g'ri. «Yana», «sizdan boshqasini kutgan edim» — bu tarbiyalovchi Ota ovozi va u odatda javobga Bolani chaqiradi.",
+            "Xafagarchilik Boladan chiqadi, lekin bu gapdagi ohang tepadan pastga qaratilgan.",
+            "Aniqlash mumkin: ohang va baho holatni ochiq ko'rsatib turadi."
+          ]
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Kattalarni yoqish qadamlari",
+          "bandlar": [
+            "Javob berishdan oldin uch soniya to'xtadim",
+            "Faktni bahodan ajratdim",
+            "«Har doim» va «hech qachon» so'zlarini ishlatmadim",
+            "Suhbatdoshning holatini ham nomlab qo'ydim",
+            "Qarorni his-tuyg'u tinchigach qabul qildim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Bugun Kattalar holati qarorlaringizda qanchalik ustun bo'ldi?",
+          "min": 0,
+          "max": 100,
+          "min_yorliq": "Ota yoki Bola hal qildi",
+          "max_yorliq": "Kattalar hal qildi"
+        }
+      ]
+    },
+    {
+      "sarlavha": "3. Transaksiya: to'g'ri, kesishgan va yashirin",
+      "magiz": [
+        "Muloqot birligi — transaksiya. Bir odam nimadir deydi yoki qiladi (rag'bat), ikkinchisi javob beradi (reaksiya). Tahlilning butun vazifasi — qaysi holat rag'bat berdi va qaysi holat javob qaytardi.",
+        "To'g'ri transaksiyada javob kutilgan holatdan keladi: jarroh qo'lini cho'zadi, hamshira skalpelni beradi; kasal bola suv so'raydi, ona suv olib keladi.",
+        "Muloqotning birinchi qoidasi: transaksiyalar to'g'ri bo'lib turgan ekan, suhbat silliq va cheksiz uzoq davom etishi mumkin.",
+        "Kesishgan transaksiyada javob boshqa holatdan keladi: «Ko'zoynagim qayerda?» degan Kattalar savoliga «Har doim hamma narsani men qidirib beraman!» degan Ota javobi keladi va suhbat uziladi.",
+        "Kesishgan transaksiyadan keyin muloqot to'xtaydi va uni davom ettirish uchun kamida bir odam holatini o'zgartirishi shart.",
+        "Yashirin transaksiyada bir vaqtda ikki daraja ishlaydi: ijtimoiy darajada Kattalar Kattalar bilan gaplashadi, psixologik darajada esa Bola Otaga yoki Bola Bolaga murojaat qiladi. Barcha o'yinlar aynan shu ikkiyoqlamalik ustiga quriladi.",
+        "Klassik misol: sotuvchi «bu model sizga yaqinroq, lekin qimmatroq» deydi. Ijtimoiy daraja — fakt; psixologik daraja — «sen buni ko'tara olmaysan». Bola javob beradi: «Aynan shuni olaman»."
+      ],
+      "tavsiyalar": [
+        "Suhbat to'satdan uzilsa, uni tuzatishdan oldin toping: qaysi javob kesishgan edi va u qaysi holatdan keldi?",
+        "Kesishgan javob olsangiz, javobni kesishtirmang — Kattalar holatiga qaytib, savolni qayta bering.",
+        "Gapdagi ohangni alohida eshiting: so'zlar Kattalarniki bo'lib, ohang Bolaga qaratilgan bo'lsa, siz yashirin transaksiya oldidasiz.",
+        "Sizni to'satdan qizishtirgan gapni yozib qo'ying: yashirin daraja doim aynan shu qizishda o'zini ko'rsatadi.",
+        "Muhim suhbatni faqat to'g'ri transaksiyalar bilan olib borishga harakat qiling: savolga savol, faktga fakt, iltimosga javob."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "So'nggi bir haftada uzilib qolgan bitta suhbatni yozing. Rag'bat va javobni aynan so'zma-so'z keltiring, keyin har birining yoniga holatni yozing (Ota / Kattalar / Bola). Oxirida yozing: qaysi javob kesishgan va uning o'rniga nima deyish mumkin edi?"
+        },
+        {
+          "turi": "test",
+          "savol": "«Bugun nechada qaytasan?» — «Sen meni doim nazorat qilasan!» Bu qanday transaksiya?",
+          "variantlar": [
+            "To'g'ri transaksiya",
+            "Kesishgan transaksiya: Kattalar savoliga Bola javob berdi",
+            "Yashirin transaksiya",
+            "Ritual"
+          ],
+          "izohlar": [
+            "To'g'ri bo'lganda javob ham Kattalardan kelardi: «To'qqizlarda».",
+            "To'g'ri. Rag'bat Kattalardan Kattalarga qaratilgan, javob esa Boladan Otaga ketdi — shu sababdan muloqot uziladi.",
+            "Yashirin transaksiyada ikki daraja bir vaqtda ishlaydi va tashqi tomondan hammasi joyida ko'rinadi. Bu yerda uzilish ochiq.",
+            "Ritual oldindan belgilangan almashinuv bo'lib, u uzilish bermaydi."
+          ]
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Uzilgan suhbatni tiklash",
+          "bandlar": [
+            "Javob qaytarishdan oldin to'xtadim",
+            "Qaysi holat javob berganini nomladim",
+            "O'zim Kattalar holatiga qaytdim",
+            "Savolni ayblovsiz qayta berdim",
+            "Ohangimni so'zlarimga moslashtirdim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Bugungi suhbatlaringizning qanchasi uzilishsiz o'tdi?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Deyarli hammasi uzildi",
+          "max_yorliq": "Deyarli hammasi silliq"
+        }
+      ]
+    },
+    {
+      "sarlavha": "4. Ritual va vaqt o'tkazish: o'yin oldidagi ikki bosqich",
+      "magiz": [
+        "Protsedura — Kattalar holatidagi oddiy to'g'ri transaksiyalar ketma-ketligi: samolyotni boshqarish, operatsiya qilish. U samaradorlik bilan o'lchanadi.",
+        "Ritual — oldindan belgilangan, ijtimoiy dasturlangan almashinuv. «Salom — Salom» dan tortib ko'p soatlik marosimlargacha. Ritual natija emas, xavfsizlik beradi.",
+        "Ritualning haqiqiy vazifasi — «silash»ni taqsimlash. Sakkiz bosqichli salomlashuv sakkiz «silash» degani va uni qisqartirgan odam darrov sezib qolinadi.",
+        "Vaqt o'tkazish — bitta mavzu atrofida yig'ilgan yarim-ritual transaksiyalar seriyasi: «Ota-onalar qo'mitasi», «Qaysi mashina yaxshiroq», «Bugungilar-ku».",
+        "Ziyofatdagi manzarani Bern shunday tasvirlaydi: bir burchakda bolalar tarbiyasi, ikkinchisida psixiatriya, uchinchisida bir odamning ustidan gap, to'rtinchisida mashinalar. Ismlarni almashtirsangiz, shu payt boshqa yuzta ziyofatda ham xuddi shu narsa ketyapti.",
+        "Vaqt o'tkazishning ochiq aytilmagan vazifasi — tanlov: odamlar shu paytda o'zlariga mos o'yin sherigini saralaydi va yangi tanishlarni «o'ziniki yoki begona» deb ajratadi.",
+        "Ritual ham, vaqt o'tkazish ham halol: ularda yashirin motiv yo'q. Ular zerikarli bo'lishi mumkin, lekin ular hech kimni tuzoqqa solmaydi."
+      ],
+      "tavsiyalar": [
+        "Ritualni mensimay qisqartirmang: salomlashuvni kesish odamlar uchun e'tiborsizlik signali bo'lib eshitiladi.",
+        "Vaqt o'tkazish mavzusi doim bir xil bo'lib qolganini sezsangiz, o'zingizdan so'rang: bu suhbat menga nima beryapti?",
+        "Yangi jamoada birinchi kunlari qaysi vaqt o'tkazish mavzulari hukmronligini yozib oling — bu o'sha guruh haqidagi eng tez ma'lumot.",
+        "Zerikarli vaqt o'tkazishdan chiqish uchun mavzuni emas, darajani o'zgartiring: bitta aniq savol bilan haqiqiy suhbatga o'ting.",
+        "Ish suhbatini protsedura sifatida olib boring: aniq maqsad, aniq faktlar, aniq yakun — u yerda ritualga o'rin kam."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Muntazam bo'ladigan bitta davrangizni oling — oila dasturxoni, ish tanaffusi, do'stlar guruhi. U yerdagi doimiy vaqt o'tkazish mavzularini yozing. Har birining yoniga javob bering: bu mavzu meni kuchaytiradimi yoki shunchaki vaqtni to'ldiradimi?"
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Ritual va vaqt o'tkazishni kuzatish",
+          "bandlar": [
+            "Bugungi salomlashuv ritualini oxirigacha bajardim",
+            "Kimningdir ritualni qisqartirganini sezdim",
+            "Bitta vaqt o'tkazish mavzusini nomladim",
+            "Zerikarli suhbatni haqiqiy savol bilan chuqurlashtirdim",
+            "Ish suhbatini protsedura sifatida olib bordim"
+          ]
+        },
+        {
+          "turi": "test",
+          "savol": "Ritual, vaqt o'tkazish va o'yin orasidagi asosiy farq nimada?",
+          "variantlar": [
+            "Davomiyligida",
+            "Ishtirokchilar sonida",
+            "Yashirin motiv va yutuq borligida",
+            "Mavzuning jiddiyligida"
+          ],
+          "izohlar": [
+            "Vaqt bu yerda o'lchov emas: ritual soatlab, o'yin esa bir daqiqada tugashi mumkin.",
+            "Har uchalasi ham ikki kishidan ko'p odam bilan bo'ladi. Ishtirokchi soni farqni ko'rsatmaydi.",
+            "To'g'ri. Kitobning ta'rifi bo'yicha o'yinni ikki narsa ajratadi: yashirin motiv va oxiridagi yutuq.",
+            "O'yin eng yengil mavzuda ham bo'ladi. Jiddiylik emas, yashirinlik hal qiladi."
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Kunlik muloqotingizning qanchasi haqiqiy mazmun bilan to'lgan?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Deyarli bo'sh gap",
+          "max_yorliq": "Deyarli mazmunli"
+        }
+      ]
+    },
+    {
+      "sarlavha": "5. O'yin nima: yashirin motiv va yutuq",
+      "magiz": [
+        "O'yin — yashirin motivli, ketma-ket keladigan transaksiyalar seriyasi bo'lib, uning yakuni aniq va oldindan aytib bo'ladigan. Tashqi tomondan hammasi tabiiy ko'rinadi, ichida esa tuzoq yashiringan yurishlar turadi.",
+        "Uni ikki belgi bilan taniysiz: yashirin motiv va oxiridagi yutuq. Ritual samarali bo'ladi, vaqt o'tkazish foydali bo'ladi, o'yin esa har doim kimningdir hisobiga tugaydi.",
+        "Operatsiya bilan o'yinni chalkashtirmang. Odam samimiy ravishda tasalli so'rasa va olsa — bu operatsiya. Tasalli olib, keyin uni tasalli beruvchiga qarshi ishlatsa — bu o'yin.",
+        "«Agar sen bo'lmaganingda» misoli: xonim raqsga tushishni o'rganolmasligiga erini ayblardi. Er yumshaganda ma'lum bo'ldiki, u odamlar oldida raqsga tushishdan qo'rqar ekan. Er unga aslida xizmat qilib turgan — qo'rquvini yopib bergan.",
+        "O'sha o'yinda ikkinchi yutuq ham bor edi: janjallardan keyin er aybdorlik hissi bilan sovg'alar qilardi. Erkinlik berilgach, sovg'alar ham arzonlashdi va kamaydi.",
+        "O'yinlar avloddan avlodga o'tadi: odamning sevimli o'yinini ota-onasida ham, bobo-buvisida ham, keyin farzandlarida ham kuzatish mumkin. Aralashuv bo'lmasa, zanjir besh avlodga cho'ziladi.",
+        "Tarbiyaning katta qismi — qaysi o'yinni qanday o'ynashni o'rgatish. Ota-onalar odob va marosimlarga ko'p vaqt sarflaydi, o'yinlar esa ularning e'tiborisiz, kundalik oilaviy sahnalarda o'z-o'zidan o'tadi.",
+        "O'yinlar darajalarga bo'linadi: birinchi daraja — davrada qabul qilinadigan; ikkinchisi — yashiriladigan, lekin tuzatib bo'ladigan; uchinchisi — operatsiya xonasi, sud zali yoki qabristonda tugaydigan o'yin."
+      ],
+      "tavsiyalar": [
+        "Takrorlanadigan janjallaringizni sanang: bir xil yakun bilan tugaydigan har qanday sahna — o'yin gumoni.",
+        "Har bir takrorlanuvchi sahnadan keyin bitta savolga javob bering: men bundan aslida nima oldim?",
+        "Yutuqni topishning eng oson yo'li — oxirgi tuyg'uni nomlash: haqli g'azabmi, o'zini oqlashmi, achinishmi, ustunlikmi?",
+        "Bolalikdagi oilangizda qaysi sahnalar takrorlanganini eslang va hozirgi hayotingizda ularning ko'chirmasini qidiring.",
+        "O'zingizni ayblamang: o'yin yomon niyat emas, o'rganilgan tuzilma. Uni faqat ko'rgandan keyin o'zgartirish mumkin."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "So'nggi oyda kamida ikki marta bir xil yakun bilan takrorlangan sahnani yozing. Ketma-ketlikni yurishlar bilan yozing: kim nima dedi, keyin nima bo'ldi, oxirida qanday tuyg'u qoldi. Eng oxirida bitta jumla yozing: men bu sahnadan qanday yutuq oldim?"
+        },
+        {
+          "turi": "test",
+          "savol": "Do'stingiz tasalli so'radi, siz tasalli berdingiz, u esa darrov «senga oson gapirish» dedi. Bern buni nima deb ataydi?",
+          "variantlar": [
+            "Operatsiya — u chindan yordam so'ragan",
+            "Ritual",
+            "O'yin — tasalli undan keyin sizga qarshi ishlatildi",
+            "Vaqt o'tkazish"
+          ],
+          "izohlar": [
+            "Operatsiyada iltimos samimiy bo'ladi va javob shu yerda tugaydi.",
+            "Ritualda oldindan belgilangan almashinuv bo'ladi va u hech kimni noqulay ahvolga solmaydi.",
+            "To'g'ri. Kitobdagi aniq mezon shu: olingan yordam yordam beruvchiga qarshi burilsa, oldingizda o'yin turibdi.",
+            "Vaqt o'tkazishda umumiy mavzu bo'ladi va oxirida hech kim yutmaydi."
+          ]
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "O'yinni tanib olish belgilari",
+          "bandlar": [
+            "Sahna avval ham xuddi shunday tugagan",
+            "Oxirida menda tanish tuyg'u qoldi",
+            "Suhbatda aytilgan gap bilan ohang bir-biriga mos kelmasdi",
+            "Men o'zimni haqli yoki aybdor his qildim",
+            "Bu sahnani oilamda ham ko'rganman"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Takrorlanuvchi sahnalarni boshlanishidayoq taniy olyapsizmi?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Umuman ko'rmayman",
+          "max_yorliq": "Boshlanishidayoq ko'raman"
+        }
+      ]
+    },
+    {
+      "sarlavha": "6. Tezaurus: eng ko'p uchraydigan o'yinlar",
+      "magiz": [
+        "«Nega siz... — Ha, lekin». Suhbatdosh muammo qo'yadi, davra yechim taklif qila boshlaydi va har bir yechim «ha, lekin» bilan rad etiladi. Oxirida jimlik cho'kadi. Yutuq — yechim emas, barcha maslahatchining ojiz qolgani.",
+        "«Men shunchaki sizga yordam bermoqchiman». Bu oldingi o'yinning teskarisi: bitta maslahatchi va ko'p «bemor». Maslahat beriladi, natija bo'lmaydi, maslahatchi yelkasini qisib yana urinadi va o'zini foydali his qilib turadi.",
+        "«Agar sen bo'lmaganingda». Odam o'ziga eng ko'p taqiq qo'yadigan sherikni tanlaydi va keyin o'sha taqiqdan shikoyat qiladi. Taqiq aslida uni o'z qo'rquvi bilan uchrashishdan qutqarib turadi.",
+        "«Mana, tutildingmi, badbaxt!». Shartlar oldindan kelishilgan bo'ladi, keyin kichkina bir chetlanish topiladi va unga to'plangan g'azab to'kiladi. Maqsad — adolatni tiklash emas, o'z g'azabini oqlash.",
+        "«Sen tufayli nima qilib qo'yganimni ko'r». Odam ishga kirishadi, xato qiladi va aybni chalg'itgan odamga ag'daradi. Hayotiy pozitsiya bitta jumlada: «Men hech narsaga aybdor emasman».",
+        "«Nuqson». O'yinchi Bolaning «men yaramayman» pozitsiyasidan chiqadi va uni Otaning «ular yaramaydi» pozitsiyasiga aylantiradi. Yangi odam bilan u undagi kamchilikni topmaguncha o'zini tinch his qilmaydi.",
+        "«Qo'pol mehmon». Qahva to'kiladi, mebel kuydiriladi, keyin uzr so'raladi. Yutuq — buzganlik emas, kechirim olish. Uzr so'ralmasa, o'yin ham yo'q.",
+        "«Alkogolik» beshta rolga muhtoj: Alkogolikning o'zi, Ta'qibchi, Qutqaruvchi, Soddadil va Vositachi. Kitobning kuzatuvi — ichkilikning o'zi emas, atrofdagilar bilan bo'ladigan bu sahna o'yinning mohiyati.",
+        "«Qarzdor». Bern buni butun umrga cho'ziladigan o'yin deb ataydi: qarz shunchaki majburiyat emas, hayotni tuzilishlashtiradigan va oxirigacha yopilmaydigan sahnaga aylanadi."
+      ],
+      "tavsiyalar": [
+        "Sizga muammo aytilib, har bir yechim rad etilayotganini sezsangiz, yechim taklif qilishni to'xtating.",
+        "Maslahat berishdan oldin so'rang: mendan yechim so'rashyaptimi yoki shunchaki eshitishnimi?",
+        "«Agar sen bo'lmaganingda» jumlangizni tekshiring: to'siq olib tashlansa, siz rostdan ham o'sha ishni qilarmidingiz?",
+        "Kelishuvlarni boshidayoq yozma va aniq qiling — bu «tutildingmi» o'yinini oldindan to'xtatadi.",
+        "Aybni tashqariga ag'darayotganingizni sezsangiz, bitta savolga javob bering: bu vaziyatda mening ulushim aynan nima edi?",
+        "Yangi odam bilan tanishganda undagi kamchilikni qidirayotganingizni payqasangiz, to'xtang: bu ko'pincha o'zingiz haqingizdagi shubhaning niqobi."
+      ],
+      "mashqlar": [
+        {
+          "turi": "test",
+          "savol": "Davrada bir odam muammosini aytdi, siz yechim taklif qildingiz, u «ha, lekin...» dedi. Kitobga ko'ra eng foydali javob qaysi?",
+          "variantlar": [
+            "Yana yaxshiroq yechim topishga urinish",
+            "«Bu haqiqatan qiyin masala. O'zingiz nima qilmoqchisiz?» deb so'rash",
+            "Uni tanqid qilish",
+            "Suhbatdan chiqib ketish"
+          ],
+          "izohlar": [
+            "Aynan shu o'yinni davom ettiradi: siz «yordam bermoqchiman» rolini olasiz va oxirida yana yutqazasiz.",
+            "To'g'ri. Bu Bern keltirgan antitezisning aynan o'zi: javob berish emas, mas'uliyatni egasiga qaytarish.",
+            "Tanqid Ota holatini yoqadi va o'yinni yangi bosqichga o'tkazadi.",
+            "Chiqib ketish o'yinni to'xtatadi, lekin munosabatni ham to'xtatadi. Antitezis suhbatni saqlab qoladi."
+          ]
+        },
+        {
+          "turi": "jurnal",
+          "savol": "Tezaurusdagi o'yinlardan qaysi biri sizga tanish tuyuldi? Bittasini tanlang va o'z hayotingizdan aniq misol yozing: kim ishtirok etdi, qanday yurishlar bo'ldi, oxirida qanday yutuq oldingiz. Rostini yozing — buni sizdan boshqa hech kim ko'rmaydi."
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "O'yinlarni haftalik kuzatish",
+          "bandlar": [
+            "«Ha, lekin» javobini eshitdim va yechim taklif qilishni to'xtatdim",
+            "Maslahat berishdan oldin so'radim: yechim keraksmi yoki eshitish?",
+            "«Agar sen bo'lmaganingda» jumlasini o'zimda payqadim",
+            "Kelishuvni oldindan aniq yozib qo'ydim",
+            "Aybni tashqariga ag'darish o'rniga o'z ulushimni ayirdim",
+            "Yangi odamda kamchilik qidirayotganimni sezdim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Bu hafta o'yinning boshlanish yurishini qanchalik tez ushladingiz?",
+          "min": 0,
+          "max": 10,
+          "min_yorliq": "Birortasini ham",
+          "max_yorliq": "Bir nechtasini"
+        }
+      ]
+    },
+    {
+      "sarlavha": "7. Antitezis: o'yindan qanday chiqish",
+      "magiz": [
+        "Antitezis — o'yinning kutilgan yurishini bermaslik. O'yin javobsiz qolganda tuzilma buziladi va o'yinchi darrov sezadi: uning kayfiyati o'zgaradi.",
+        "«Qo'pol mehmon»ning antitezisi kechirimni bermaslik: «Bugun kechqurun xohlaganingizni buzishingiz mumkin, lekin uzr so'ramang». Shu bilan siz kechiruvchi Otadan mas'uliyatni o'ziga oladigan Kattalarga aylanasiz.",
+        "«Mana, tutildingmi»ning antitezisi — benuqson xatti-harakat: barcha shartni oldindan batafsil kelishib olish va ularga qat'iy amal qilish. Bunday o'yinchi bilan pul masalasida ayniqsa aniq bo'ling.",
+        "«Sen tufayli nima qilib qo'yganimni ko'r»ning antitezisi — qaror qabul qilishni o'yinchining o'ziga qaytarish. Yengil darajada uni tinch qo'yish yetadi.",
+        "«Nega siz... — Ha, lekin»ning antitezisi bitta: «Men shunchaki yordam bermoqchiman» o'yiniga kirmaslik. Ikkalasi bir tanganing ikki tomoni.",
+        "Antitezisning narxi bor: o'yindan mahrum qilingan odam g'azablanishi yoki tushkunlikka tushishi mumkin. Bern buni o'yin buzilganining ishonchli belgisi deb ataydi.",
+        "Shuning uchun antitezisni ohista qo'llash kerak: vaqtni tanlash, ohangni yumshoq tutish va odamning obro'sini saqlash. Qo'pollik bilan qilingan antitezis o'yinning yangi bosqichiga aylanadi.",
+        "Antitezis maqsad emas, vosita: o'yin joyiga haqiqiy muloqot qo'yilmasa, uning o'rnini shunchaki boshqa o'yin egallaydi."
+      ],
+      "tavsiyalar": [
+        "O'yinni to'xtatishdan oldin uning o'rniga nima qo'yishingizni oldindan hal qiling.",
+        "Antitezisni g'azab paytida qo'llamang: bu antitezis emas, javob zarbasi bo'lib chiqadi.",
+        "Odamning obro'sini saqlang — kitobdagi qoida: o'yinchiga o'z qadrini yo'qotmasdan chiqish yo'lini qoldiring.",
+        "Kutilgan yurishni bermang, lekin munosabatni uzmang: «bu qiyin, o'zingiz nima qilmoqchisiz?» degan javob ikkalasini ham bajaradi.",
+        "Bir o'yinni bir necha marta to'xtating: birinchi urinishdan keyin u kuchayib qaytishi mumkin.",
+        "O'zingizning o'yiningizga antitezisni birinchi bo'lib qo'llang — bu boshqalarnikini to'xtatishdan osonroq."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "6-bo'limda yozgan o'yiningizni oling. Endi unga antitezis yozing: kutilgan yurishni qaysi so'zlar bilan bermaysiz? Javobingizni aynan qanday aytishingizni ham yozing. Oxirida yozing: bu javobdan keyin sherigingiz nima qilishi mumkin va siz nima qilasiz?"
+        },
+        {
+          "turi": "taymer",
+          "daqiqa": 4,
+          "korsatma": "Antitezisni ovoz chiqarib mashq qiling. To'rt daqiqa: yozgan javobingizni sekin, tinch ohangda bir necha marta takrorlang. Ovoz balandligini oshirmang, tezlashtirmang. Kitobning talabi shu: antitezis xushmuomala bo'lishi kerak, aks holda u o'yinning yangi yurishiga aylanadi."
+        },
+        {
+          "turi": "test",
+          "savol": "Antitezis qo'llaganingizdan keyin suhbatdosh keskin g'azablandi. Bu nimani bildiradi?",
+          "variantlar": [
+            "Men xato qildim, antitezis noto'g'ri edi",
+            "O'yin buzildi — bu uning ishonchli belgisi",
+            "U meni yomon ko'rib qolgan",
+            "Endi bu odam bilan gaplashmaslik kerak"
+          ],
+          "izohlar": [
+            "Xato bo'lishi ham mumkin, lekin faqat ohang qo'pol bo'lganda. Reaksiyaning o'zi xato belgisi emas.",
+            "To'g'ri. Kitobda bu aniq aytilgan: g'azab yoki tushkunlik — o'yin ishlamay qolganining belgisi.",
+            "Reaksiya sizga emas, yo'qolgan yutuqqa qaratilgan. Buni shaxsiy qabul qilish o'yinga qaytish demak.",
+            "Aksincha, aynan shu paytda haqiqiy suhbat imkoniyati ochiladi."
+          ]
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Antitezisni qo'llash tartibi",
+          "bandlar": [
+            "O'yinni boshlanishida tanidim",
+            "Kutilgan yurishni bermadim",
+            "Ohangimni tinch tutdim",
+            "Suhbatdoshning obro'sini saqladim",
+            "O'yin o'rniga aniq savol yoki taklif qo'ydim",
+            "Reaksiyani shaxsiy qabul qilmadim"
+          ]
+        }
+      ]
+    },
+    {
+      "sarlavha": "8. Yaxshi o'yinlar va mustaqillik",
+      "magiz": [
+        "Bern yaxshi o'yin ham borligini tan oladi: ijtimoiy hissasi motivining ikkiyoqlamaligidan ustun kelsa, o'yin yaxshi hisoblanadi. Ammo bunday o'yinni topish qiyin.",
+        "«Mehnat ta'tili»: pochtachi ta'tilga chiqib boshqa mamlakatda hamkasbiga xat tashishga yordam beradi. U ham dam oladi, ham foydali ish qiladi.",
+        "«Yordam berishdan xursandman»: odam boshqalarga muntazam yordam beradi, motivi to'liq toza bo'lmasa ham. Bern buni baribir e'tirofga loyiq deb hisoblaydi — natija real.",
+        "«Mahalliy donishmand»: tajribali odam kichik shaharga ko'chib, hammaga yordam beradigan, hech narsa da'vo qilmaydigan, lekin doim tinglashga tayyor odamga aylanadi.",
+        "«Ular meni bilganidan xursand bo'ladi»: «men ularga ko'rsataman» o'yinining munosibroq shakli. Zarar yetkazish emas, o'z ishida haqiqatan kuchli bo'lish orqali javob berish.",
+        "Kitobning yakuniy maqsadi o'yinsiz hayot: bu uch qobiliyatni uyg'otish orqali erishiladi — hozirga jalb bo'lish, o'z-o'zidan chiqish va yaqinlik.",
+        "Hozirga jalb bo'lish — narsani sizga o'rgatilganidek emas, o'zingiz ko'rgandek ko'rish. Bern misoli: bola qushlarning sayrashini zavq bilan tinglaydi, ota kelib ularning nomini o'rgata boshlaydi — va bola endi eshitmay qo'yadi.",
+        "O'z-o'zidan chiqish — uchala holatdan erkin tanlash imkoniyati: majburiyat sifatida emas, tanlov sifatida Ota, Kattalar yoki Bola bo'lish.",
+        "Yaqinlik — o'yindan xoli, ochiq munosabat. U kam uchraydi, chunki uni Ota ham, Kattalar ham, Bola ham xavfli deb biladi. Lekin aynan u eng ko'p qoniqish beradi."
+      ],
+      "tavsiyalar": [
+        "O'yinni butunlay yo'q qilishni maqsad qilmang: avval zararlisini foydalisiga almashtiring.",
+        "Sizga zavq beradigan va boshqalarga foyda keltiradigan bitta doimiy ishni toping — bu Bernning «yaxshi o'yin»i.",
+        "Har kuni bir necha daqiqa nom bermasdan qarang: daraxtni «daraxt» demasdan ko'ring, ovozni ta'riflamasdan eshiting.",
+        "Kuniga bir marta o'zingizga savol bering: hozir tanamning qayerdaligi bilan xayolimning qayerdaligi bir joydami?",
+        "Yaqinlik uchun kichik qadam qo'ying: bitta odamga o'zingiz haqingizda hech kim bilmaydigan bitta oddiy narsani ayting.",
+        "O'yinlaringizni farzandlaringizga o'tkazmaslik uchun ularni avval o'zingizda nomlang — zanjir shu yerda uziladi."
+      ],
+      "mashqlar": [
+        {
+          "turi": "taymer",
+          "daqiqa": 8,
+          "korsatma": "Hozirga jalb bo'lish mashqi. Sakkiz daqiqa tashqarida yoki deraza oldida turing. Ko'rgan va eshitgan narsangizga nom bermang: «bu chumchuq», «bu mashina» demang. Faqat rang, harakat, ovoz balandligi va tanangizdagi sezgi qolsin. Nom paydo bo'lsa, uni sekin qo'yib yuboring va yana qarashga qayting."
+        },
+        {
+          "turi": "jurnal",
+          "savol": "Uch qobiliyat bo'yicha o'zingizni yozing. 1) Hozirga jalb bo'lish: bugun qaysi lahzada butunlay shu yerda edingiz? 2) O'z-o'zidan chiqish: bugun qaysi holatni o'zingiz tanladingiz, qaysi biri sizni o'zi tutdi? 3) Yaqinlik: bugun kim bilan o'yinsiz gaplashdingiz?"
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "O'yindan mustaqillikka",
+          "bandlar": [
+            "Bugun bitta o'yinni boshlanishida to'xtatdim",
+            "Uning o'rniga to'g'ridan-to'g'ri gapirdim",
+            "Nom bermasdan qarash mashqini bajardim",
+            "Bitta holatni ongli ravishda tanladim",
+            "Bir odamga o'zim haqimda ochiq bir narsa aytdim",
+            "Boshqalarga foydali bo'lgan bitta ish qildim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Yaqin munosabatlaringizda o'zingizni himoyasiz ko'rsata olasizmi?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Doim niqob bor",
+          "max_yorliq": "Ochiq bo'la olaman"
+        }
+      ]
+    }
+  ]
+}

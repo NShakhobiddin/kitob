@@ -167,6 +167,13 @@
       "muallif": "Namuna Muallif",
       "rang": "#6b4c9a",
       "tavsif": "O'z fikrlaringizni chetdan kuzatishni o'rganish va shoshilinch reaksiyalardan xalos bo'lish haqida."
+    },
+    {
+      "id": "oyinlar",
+      "nomi": "Odamlar o'ynaydigan o'yinlar",
+      "muallif": "Erik Bern",
+      "rang": "#b8492f",
+      "tavsif": "Transaksion tahlil: Ota-Kattalar-Bola holatlari, yashirin transaksiyalar va odamlar takrorlaydigan o'yinlardan chiqish yo'llari."
     }
   ]
 }
