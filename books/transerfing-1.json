@@ -1,0 +1,315 @@
+{
+  "id": "transerfing-1",
+  "nomi": "Transerfing 1: Variantlar fazosi",
+  "muallif": "Vadim Zeland",
+  "kirish": "Transerfingning birinchi bosqichi. Zeland asosiy modelni beradi: reallikning cheksiz variantlari mavjud va odam kurash bilan emas, tanlash bilan harakat qiladi. Keyin kitobning eng amaliy tushunchasi keladi — mayatnik: odamlarning bir yo'nalishdagi fikridan tug'ilgan va ularning energiyasi bilan yashaydigan tuzilma. Bosqich muvozanat qonuni bilan yakunlanadi: har qanday to'siqning ostida ortiqcha ahamiyat turadi, uni pasaytirsangiz to'siq o'zi qulaydi.",
+  "bolimlar": [
+    {
+      "sarlavha": "1. Variantlar modeli: orzular nega ushalmaydi",
+      "magiz": [
+        "Zelandning boshlang'ich nuqtasi: dunyoning ko'p variantliligi uning birinchi tub xossasi. Har qanday model reallikning faqat bitta tomonini ko'rsatadi va shuning uchun to'liq bo'la olmaydi.",
+        "Variantlar fazosi — bo'lgan, bor va bo'ladigan hamma narsa haqidagi axborot maydoni. Undagi har bir variant ikki qismdan iborat: ssenariy va dekoratsiya.",
+        "Faza sektorlarga bo'linadi va o'xshash parametrli sektorlar hayot chiziqlariga tizilib boradi. Sektorlar orasidagi masofa qanchalik katta bo'lsa, variantlar orasidagi farq shunchalik keskin.",
+        "Fikriy energiyaning nurlanishi variantning moddiy amalga oshishini yoqadi. Nurlanish parametrlari o'zgarsa, odam boshqa hayot chizig'iga o'tadi.",
+        "Kitobning markaziy jumlasi: siz ssenariyni o'zgartira olmaysiz, lekin boshqasini tanlashga qodirsiz. Sizning tanlovingiz doim amalga oshadi — nimani tanlasangiz, shuni olasiz.",
+        "Shundan asosiy qoida chiqadi: baxt uchun kurashish shart emas, o'zingizga ko'ngilga yoqadigan variantni tanlash mumkin. Kurash esa odamni aynan kurash ko'p bo'lgan chiziqda ushlab turadi.",
+        "Odamlar orzusiga yetmasligining sababi ham shu: ular tanlash o'rniga kurashadi va kurash paytidagi nurlanish ularni aynan kurash ko'p bo'lgan chiziqlarda ushlab turadi."
+      ],
+      "tavsiyalar": [
+        "Maqsadingizni «kurashaman» tilidan «tanlayman» tiliga o'tkazing va farqni ovoz chiqarib eshiting.",
+        "Xohishingizni aniq shakllantiring: nimani xohlamasligingizni emas, aynan nimani xohlashingizni yozing.",
+        "Har qanday modelni yagona haqiqat deb qabul qilmang, shu jumladan shu kitobnikini ham — uni ishlaydigan asbob sifatida sinang.",
+        "Kunlik holatingizni kuzating: siz ko'proq qaysi chiziqda turibsiz — norozilikdami yoki qoniqishdami?",
+        "Bitta variantni tanlab, undan tez natija talab qilmang: chiziqni almashtirish uchun nurlanish parametrlari barqaror o'zgarishi kerak."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Bitta katta orzuingizni oling. Uni ikki marta yozing: birinchi marta «men buning uchun kurashaman» tilida, ikkinchi marta «men buni tanlayman» tilida. Ikkalasini o'qib chiqing va yozing: qaysi biri sizda kuchli, qaysi biri zo'riqish hosil qildi?"
+        },
+        {
+          "turi": "test",
+          "savol": "Zelandning modeliga ko'ra, odam variantni qanday «oladi»?",
+          "variantlar": [
+            "Uzoq va qattiq kurash orqali",
+            "Fikriy nurlanish parametrlarini o'sha variantga moslash orqali",
+            "Faqat omad orqali",
+            "Boshqalarni ishontirish orqali"
+          ],
+          "izohlar": [
+            "Kurash — Zeland tanqid qiladigan yo'l: u odamni aynan kurash ko'p bo'lgan chiziqda ushlab turadi.",
+            "To'g'ri. Model shunday: nurlanish parametrlari o'zgarganda hayot chizig'i o'zgaradi.",
+            "Omad tushunchasi kitobda bor, lekin u tasodif emas — qulay chiziqlar to'plami.",
+            "Boshqalar bu modelda hal qilmaydi: gap sizning nurlanishingizda."
+          ]
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Tanlash tilini o'rgatish",
+          "bandlar": [
+            "Bugun bitta maqsadni «tanlayman» tilida aytdim",
+            "Xohlamagan narsam haqida o'ylashni to'xtatdim",
+            "Xohishimni aniq va musbat shaklda yozdim",
+            "Kurash so'zini bir marta ham ishlatmadim",
+            "Kun oxirida qaysi chiziqda bo'lganimni baholadim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Bugungi fikrlaringiz ko'proq nima haqda aylandi?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Xohlamaganim haqida",
+          "max_yorliq": "Xohlaganim haqida"
+        }
+      ]
+    },
+    {
+      "sarlavha": "2. Mayatniklar: o'zingizni ijaraga bering",
+      "magiz": [
+        "Mayatnik bir yo'nalishda fikrlaydigan odamlarning energiyasidan tug'iladi. U energoinformatsion tuzilma bo'lib, yagona maqsadi bor — hokimiyatni o'rnatish va energiya olish.",
+        "Buning uchun mayatnik tarafdorning fikriy energiyasini o'z chastotasida qotirib qo'yadi. Mayatniklar orasida esa tarafdorlar uchun qattiq kurash boradi.",
+        "Destruktiv mayatnik odamga uning o'ziga begona maqsadlarni yuklaydi va uni his-tuyg'ulari orqali tarmog'iga tortadi.",
+        "Shundan kitobning eng ko'p takrorlanadigan qoidasi chiqadi: agar siz nimanidir faol xohlamasangiz, u sizning hayotingizda bo'ladi.",
+        "Olmani yomon ko'rgan odam misoli: uni e'tiborsiz qoldirish o'rniga, u har ko'rganda jirkanadi va ovoz chiqarib norozilik bildiradi. Energetik darajada bu olmani ochko'zlik bilan yeyish bilan barobar.",
+        "Shu sababdan «qochish» va «e'tiborsiz qoldirish» butunlay boshqa narsa. Qochish — hayotga kiritib, keyin undan qutulishga urinish; e'tiborsiz qoldirish — umuman javob bermaslik, demak ega bo'lmaslik.",
+        "Mayatnikni provallash — kutilgan javobni bermaslik. Muallifning shakli oddiy: muzeydagi eksponatga qaragandek qabul qiling, mavjud bo'lish huquqini tan oling va befarq o'tib keting.",
+        "Provallash iloji bo'lmasa, mayatnikni o'chirish qoladi: uning ssenariysini buzish. Ssenariyga sig'maydigan har qanday harakat mayatnikni ritmdan chiqaradi va uning energiyasi sizga o'tadi.",
+        "Ammo barcha mayatnikdan uzilgan odam «osilgan holat»ga tushadi: janjal ham, tashvish ham kamayadi, lekin yutuq ham kelmaydi. Erkinlik faqat begona mayatniklardan kerak, o'zingiznikini esa topish kerak."
+      ],
+      "tavsiyalar": [
+        "Mayatnik bilan kurashmang: qarshilikning har qanday shakli unga energiya berishdir.",
+        "Yoqmagan narsani muzeydagi eksponat sifatida qabul qiling — mavjud bo'lish huquqini tan oling va e'tiborsiz o'ting.",
+        "Qochish bilan e'tiborsiz qoldirishni ajrating: birinchisi hayotga kiritadi, ikkinchisi hayotdan chiqaradi.",
+        "Sizni tortib olayotgan janjalda o'zingizni ijaraga bering: shu rolni o'ynang, lekin ichkaridan tomoshabin bo'lib turing.",
+        "Ssenariy sizga tanish bo'lsa, unga sig'maydigan bitta harakat qiling — mayatnik shu yerda o'chadi.",
+        "Barcha mayatnikdan uzilib qolmang: begonasini tashlab, o'zingizniki bo'lgan yo'nalishni izlang."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Sizni eng ko'p tortib oladigan uchta mayatnikni nomlang — bu odam, guruh, yangilik oqimi yoki takrorlanuvchi janjal bo'lishi mumkin. Har birining yoniga yozing: u meni qaysi tuyg'u orqali ushlaydi va uning ssenariysi qanday ketadi? Oxirida bittasini tanlab, unga sig'maydigan bitta harakat yozing."
+        },
+        {
+          "turi": "test",
+          "savol": "Sizni doim gapga tortadigan odam yana provokatsiya qildi. Kitobga ko'ra eng kuchli javob qaysi?",
+          "variantlar": [
+            "Qattiq javob qaytarish — u tushunsin",
+            "Uning mavjudligini tan olib, tinch va befarq o'tib ketish",
+            "Undan doim qochib yurish",
+            "Ichimda g'azablanib, tashqi tomondan jim turish"
+          ],
+          "izohlar": [
+            "Javob zarbasi — mayatnik kutgan yurish. Siz unga aynan shu paytda energiya berasiz.",
+            "To'g'ri. Bu Zelandning «provallash» usuli: kutilgan javob berilmasa, mayatnik oziqsiz qoladi.",
+            "Qochish — mayatnikni hayotga kiritib, undan qutulishga urinish. Bu ham reaksiya, demak ham oziq.",
+            "Ichki g'azab ham nurlanishdir. Kitobda tashqi jimlik ichki reaksiyani yashira olmaydi."
+          ]
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Mayatnikni provallash amaliyoti",
+          "bandlar": [
+            "Bugun bitta provokatsiyaga javob bermadim",
+            "Yoqmagan narsani e'tiborsiz o'tkazib yubordim",
+            "Qochish o'rniga umuman qiziqmadim",
+            "O'zimni ijaraga berib, chetdan kuzatdim",
+            "Ssenariyga sig'maydigan bitta harakat qildim",
+            "Kun oxirida qancha energiya qolganini baholadim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Bugun sizni provokatsiyalar qanchalik ushlab qoldi?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Har safar ilindim",
+          "max_yorliq": "Bittasiga ham ilinmadim"
+        }
+      ]
+    },
+    {
+      "sarlavha": "3. Omad to'lqini va translyatsiya",
+      "magiz": [
+        "Omad to'lqini — variantlar fazosidagi qulay chiziqlarning to'planishi. U mayatnikning antipodi: undan hech kim energiya olmaydi.",
+        "Omad kaskadi faqat bitta shartda davom etadi: siz birinchi muvaffaqiyatga chindan singib ketishingiz kerak. Uni kichik deb e'tiborsiz qoldirsangiz, to'lqin uzilib qoladi.",
+        "Destruktiv mayatniklar odamni to'lqindan chetga olib chiqadi. Ulardan qaramlikni tashlagan odam esa tanlash erkinligini qaytarib oladi.",
+        "Bumerang qoidasi: fikringiz sizga qaytadi. Salbiy energiyani qabul qilib qayta uzatsangiz, o'zingizga do'zax quriladi; ijobiysini uzatsangiz, jannat.",
+        "Translyatsiya — bu odat: har qanday yaxshi narsani ko'rganda, o'qiganda yoki eshitganda uni fikringizda qayd etib, quvonish.",
+        "O'rmon tashbehi: u yerda ham chiroyli gullar, ham zaharli tikanlar bor. Uyingizga qaysi birini olib kelasiz? Salbiy yangilikka javob berish — zaharli guldastani vazaga qo'yish bilan barobar.",
+        "Bayram holatini saqlashning yagona yo'li — eslab turish. Mayatniklar bizni unutishga majbur qiladi va shu bilan holatni qaytarib oladi.",
+        "«Sehrli marosimlar» — bozorchining tovarga pul tekkizishi kabi odatlar — o'z-o'zidan kuchga ega emas. Ular ishlaydi, chunki odamning o'zi shu orqali muvaffaqiyat chizig'ining chastotasiga sozlanadi.",
+        "Zeland bu yerda talab qo'ymaydi: nimaga ishonish muhim emas, natija muhim. Sizni ishonchli holatga olib boradigan har qanday oddiy tartib to'lqinga sozlanish vositasi bo'la oladi."
+      ],
+      "tavsiyalar": [
+        "Har kuni kamida uchta ijobiy narsani qayd eting va ularga to'xtab quvoning — bu translyatsiya mashqi.",
+        "Yomon yangilikni yuragingizga kiritmang: uni qochib emas, qiziqmasdan o'tkazib yuboring.",
+        "Birinchi kichik muvaffaqiyatni mensimay o'tkazmang — kaskad aynan shu yerdan boshlanadi.",
+        "Hozir sizda bor narsalardan quvoning: norozilik nurlanishi sizni aynan norozilik ko'p chiziqlarda ushlab turadi.",
+        "O'zingizga bitta oddiy tartib tanlang va uni to'lqinga sozlanish uchun ishlating — kunning boshida bir daqiqalik marosim yetadi.",
+        "Eslab turish odatini mashq qiling: kun davomida bir necha marta o'zingizga «men hozir qaysi to'lqindaman?» deb savol bering."
+      ],
+      "mashqlar": [
+        {
+          "turi": "eslatma",
+          "sarlavha": "Eslab turish signali",
+          "matn": "Hozir qaysi to'lqindasiz? Bitta yaxshi narsani toping va unga to'xtang.",
+          "korsatma": "Kitobning aytishicha, bayram holati faqat eslab turish orqali saqlanadi va mayatniklar bizni aynan unutishga majbur qiladi. Eslatmani kunning uch joyiga qo'ying va odat mustahkamlanguncha o'chirmang.",
+          "vaqtlar": [
+            "10:00",
+            "14:00",
+            "19:00"
+          ]
+        },
+        {
+          "turi": "kundalik",
+          "sarlavha": "Translyatsiya daftari",
+          "korsatma": "Har kuni kamida uchta ijobiy narsani yozing: nimani ko'rdingiz, o'qidingiz yoki eshitdingiz va u sizda qanday holat uyg'otdi. Belgilar maydoniga manbani kiriting — bir necha haftadan keyin sizga eng ko'p yaxshi narsa qayerdan kelayotgani ro'yxatning o'zidan ko'rinadi.",
+          "joy_matn": "Bugungi uchta yaxshi narsa…",
+          "belgi_matn": "Manba: ish, oila, ko'cha, kitob…"
+        },
+        {
+          "turi": "test",
+          "savol": "Kichik bir yutuqqa erishdingiz. Kitobga ko'ra endi eng muhimi nima?",
+          "variantlar": [
+            "Darrov keyingi, kattaroq maqsadga o'tish",
+            "Shu yutuqqa to'liq singib, holatini ushlab qolish",
+            "Uni hech kimga aytmaslik",
+            "Uni tasodif deb hisoblash"
+          ],
+          "izohlar": [
+            "Shoshilish to'lqinni uzadi: holat mustahkamlanmasa, kaskad boshlanmaydi.",
+            "To'g'ri. Kitobdagi shart aniq: kaskad faqat birinchi muvaffaqiyatga singib ketgan odamda davom etadi.",
+            "Aytish yoki aytmaslik ahamiyatsiz. Muhimi — ichki holat.",
+            "Tasodif deb hisoblash yutuqning qiymatini pasaytiradi va to'lqindan tushiradi."
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Bugun ichingizda «bayram» holati qancha vaqt turdi?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Umuman bo'lmadi",
+          "max_yorliq": "Kun bo'yi turdi"
+        }
+      ]
+    },
+    {
+      "sarlavha": "4. Muvozanat: ortiqcha potensiallar",
+      "magiz": [
+        "Ortiqcha potensial faqat bitta shartda paydo bo'ladi: bahoga ahamiyat berilganda. Sizning bahoyingizni faqat siz uchun bo'lgan muhimlik energiya bilan to'ldiradi.",
+        "Baho haqiqatni buzsa, potensial kattalashadi. Muvozanat kuchlari esa uni yo'q qilishga qaratiladi va ko'pincha uni yaratgan niyatga qarama-qarshi ishlaydi.",
+        "Norozilik va qoralash muvozanat kuchlarini doim sizga qarshi buradi. Odatiy salbiy reaksiyani ijobiy translyatsiyaga almashtirish kerak.",
+        "Shart qo'yish va taqqoslash qaramlik munosabatlarini tug'diradi, ular esa ortiqcha potensial hosil qiladi. Shartsiz sevgi — egalik va sig'inish huquqisiz qoyil qolish.",
+        "Ideallashtirish va ortiqcha baholash doim afsonaning yemirilishi bilan tugaydi. Nafrat va manmanlik uchun ham albatta to'lanadi.",
+        "Har qanday nuqson sizga xos bo'lgan fazilatlar bilan qoplanadi. Kamchilikni yashirishga urinish esa teskari natija beradi.",
+        "Maqsadning ahamiyati qancha yuqori bo'lsa, unga erishish ehtimoli shuncha past. Ahamiyat va qaramlik potensialidan xoli istaklar esa ushaladi.",
+        "Aybdorlik hissidan voz keching va oqlanish majburiyatini tashlang. Buning uchun bitta narsa yetadi: o'zingizga o'zingiz bo'lishga ruxsat bering.",
+        "Pul maqsad emas, yo'lda hamroh bo'ladigan atribut sifatida keladi. Uni mehr va e'tibor bilan kutib oling, ajralishda esa bemalol qo'yib yuboring.",
+        "Kitobning yakuniy formulasi: to'siqni yengmang — ahamiyatni pasaytiring. To'siq muhimlik poydevoriga qurilgan; poydevordan g'isht sug'urilsa, devor o'zi qulaydi."
+      ],
+      "tavsiyalar": [
+        "Muammoga duch kelganingizda uni yengishdan oldin toping: bu yerda men nimaga ortiqcha ahamiyat berdim?",
+        "Ahamiyatni pasaytirishni his-tuyg'u bilan kurashish deb tushunmang — sabab munosabatda, tuyg'u esa faqat oqibat.",
+        "Tashqi ahamiyatni sug'urta bilan pasaytiring: doim zaxira yo'l qoldiring va hammasini bitta pallaga qo'ymang.",
+        "Ichki ahamiyatni ikki tomondan tekshiring: o'zingizni ko'kka ko'tarish ham, kamsitish ham bir xil kattalikdagi potensial.",
+        "Qoralashni bir hafta butunlay to'xtatib ko'ring va nima o'zgarishini yozib boring.",
+        "Sevgida egalik huquqidan voz keching: shartsiz qoyil qolish qaramlik potensialini yaratmaydi.",
+        "Pulni maqsad qilib qo'ymang — uni maqsad yo'lidagi hamroh sifatida ko'ring."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Hozirgi eng katta to'sig'ingizni yozing. Endi uning ostidagi poydevorni qidiring: bu vaziyatda men nimaga haddan tashqari ahamiyat beryapman — natijagami, boshqalarning fikrigami, o'z obro'yimgami? Topganingizni yozing va oxirida bitta jumla qo'shing: shu ahamiyatni pasaytirish uchun bugun nima qilaman?"
+        },
+        {
+          "turi": "test",
+          "savol": "Muhim suhbatdan oldin qattiq hayajondasiz. Kitobga ko'ra nima qilish kerak?",
+          "variantlar": [
+            "Hayajonni kuch bilan bosish",
+            "Zaxira yo'l tayyorlab, natijaning ahamiyatini pasaytirish",
+            "Ko'proq tayyorgarlik ko'rish",
+            "Suhbatni kechiktirish"
+          ],
+          "izohlar": [
+            "Tuyg'u bilan kurash oqibat bilan kurashdir. Zeland sababni — munosabatni o'zgartirishni talab qiladi.",
+            "To'g'ri. Tashqi ahamiyatni pasaytirishning yagona amaliy usuli sifatida kitob sug'urtani, ya'ni zaxira yo'lni ko'rsatadi.",
+            "Tayyorgarlik foydali, lekin u ahamiyatni ko'pincha yanada oshiradi.",
+            "Kechiktirish ahamiyatni saqlab qoladi va keyingi safar u yanada kattaroq bo'ladi."
+          ]
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Muhimlik poydevorini bo'shatish",
+          "bandlar": [
+            "Bugun birovni qoralamadim",
+            "Bir vaziyatda o'zimga zaxira yo'l tayyorladim",
+            "O'zimni ko'kka ko'tarish yoki kamsitishdan tiyildim",
+            "Aybdorlik hissiga tayanib qaror qabul qilmadim",
+            "Bitta istagimni ahamiyatidan tozaladim",
+            "Pulni kutib olishda ham, uzatishda ham xotirjam bo'ldim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Bugungi eng katta ishingizga qanchalik ortiqcha ahamiyat berdingiz?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Hayot-mamot masalasi edi",
+          "max_yorliq": "Xotirjam qaradim"
+        }
+      ]
+    },
+    {
+      "sarlavha": "5. Induksiyalangan o'tish: dunyoning o'z qatlamingiz",
+      "magiz": [
+        "Har bir odam o'zining alohida dunyo qatlamini yaratadi va aynan o'shanda yashaydi. Odamlar dunyosi esa bir-birining ustiga qo'yilgan shunday qatlamlardan tashkil topadi.",
+        "Salbiy energiya nurlatgan odam o'z qatlamini o'z qo'li bilan yomonlashtiradi. Zeland ikki keng tarqalgan chalkashlikni ko'rsatadi: agressiya kuch deb, norozilik esa normal reaksiya deb qabul qilinadi.",
+        "Salbiy hodisaga bergan javobingiz induksiyalangan o'tishni yoqadi: siz o'sha hodisa mavjud bo'lgan chiziqqa ko'chasiz va u sizning qatlamingizga kiradi.",
+        "Mayatnik voronkasi shunday ishlaydi: avval bog'lanish, keyin aylantirish, so'ng kuchayish, kulminatsiya va yechim. Barcha teleseriallar ham, yangiliklar dasturlari ham shu spiral bo'yicha qurilgan.",
+        "Odam psixikasi salbiy qo'zg'atuvchiga kuchliroq javob beradi: qo'rquv va g'azab quvonch va shodlikdan ancha kuchli. Buning ildizi omon qolish tarixida.",
+        "Shuning uchun axborot dasturlarida yaxshi yangilik kam: salbiy fakt olinadi, yangi tafsilotlar qo'shiladi, dramalashtiriladi va tomoshabin energiyasi shu spiralga tortiladi.",
+        "Sizni voronkaga tortadigan asosiy narsa — javob berish. Javob bermasangiz, spiral aylanmaydi va hodisa sizning qatlamingizga kirmaydi.",
+        "Kitobning yagona talabi shu bo'limda qat'iy: dunyoning o'z qatlamingizga hech qanday salbiy axborotni kiritmang. Kiritmaslik esa qochish emas, ataylab qiziqmaslik degani."
+      ],
+      "tavsiyalar": [
+        "Yangiliklar iste'molini o'lchang: kuniga qancha vaqt ketayotganini bir hafta yozib boring.",
+        "Salbiy xabarga fikr bildirishni to'xtating — javob bermaslik voronkani boshidayoq to'xtatadi.",
+        "Agressiyani kuch deb, norozilikni normal reaksiya deb qabul qilmang: ikkalasi ham sizning qatlamingizni buzadi.",
+        "Muhokamaga tortilganingizni sezsangiz, mavzuni davom ettirmang va boshqasiga o'ting.",
+        "Kuningizni yakunlashda tekshiring: bugun qatlamimga nimalarni kiritdim?",
+        "Qiziqmaslikni mashq qiling: bu befarqlik emas, e'tiborni tanlash."
+      ],
+      "mashqlar": [
+        {
+          "turi": "taymer",
+          "daqiqa": 12,
+          "korsatma": "Voronkani ko'rish mashqi. O'n ikki daqiqa istalgan yangiliklar oqimini ochib, hech qanday fikr bildirmasdan faqat tuzilishini kuzating: qayerda bog'lanish bo'ldi, qayerda kuchaytirildi, qayerda kulminatsiya, qayerda yechim? Sarlavhalarga emas, spiralning o'ziga qarang. Taymer tugagach, oqimni yoping va bir jumlada yozing: bu men bilan nima qilmoqchi edi?"
+        },
+        {
+          "turi": "jurnal",
+          "savol": "So'nggi bir haftada sizni ichkaridan tortib olgan bitta salbiy xabarni eslang. Uni bosqichma-bosqich yozing: birinchi turtki qanday keldi, siz nima bilan javob berdingiz, keyin nima bo'ldi, oxirida qancha vaqt va kuch ketdi? Eng oxirida yozing: qaysi bosqichda to'xtash mumkin edi?"
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Qatlamni toza tutish",
+          "bandlar": [
+            "Bugun salbiy xabarga fikr bildirmadim",
+            "Yangiliklar oqimida chegaraga rioya qildim",
+            "Salbiy muhokamani davom ettirmadim",
+            "Norozilikni «normal reaksiya» deb oqlamadim",
+            "Kun oxirida qatlamimga nima kirganini tekshirdim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Bugun qatlamingizga qancha salbiy axborot kirib ulgurdi?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Juda ko'p kirdi",
+          "max_yorliq": "Deyarli hech narsa"
+        }
+      ]
+    }
+  ]
+}

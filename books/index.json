@@ -7,6 +7,9 @@
     {
       "nomi": "Karlos Kastaneda",
       "muqova": "muqova/turkum-kastaneda.webp"
+    },
+    {
+      "nomi": "Vadim Zeland"
     }
   ],
   "kitoblar": [
@@ -174,6 +177,14 @@
       "muallif": "Erik Bern",
       "rang": "#b8492f",
       "tavsif": "Transaksion tahlil: Ota-Kattalar-Bola holatlari, yashirin transaksiyalar va odamlar takrorlaydigan o'yinlardan chiqish yo'llari."
+    },
+    {
+      "id": "transerfing-1",
+      "nomi": "Transerfing 1: Variantlar fazosi",
+      "muallif": "Vadim Zeland",
+      "turkum": "Vadim Zeland",
+      "rang": "#2f6f8a",
+      "tavsif": "Variantlar modeli, mayatniklar, omad to'lqini va muvozanat qonuni: to'siqni yengmang — ahamiyatni pasaytiring."
     }
   ]
 }
