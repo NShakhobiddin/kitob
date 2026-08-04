@@ -1,0 +1,309 @@
+{
+  "id": "hozir",
+  "nomi": "Hozirgi lahza kuchi",
+  "muallif": "Ekxart Tolle",
+  "kirish": "Tolle bitta oddiy kuzatuvdan boshlaydi: boshimizdagi ovoz to'xtamaydi va biz o'zimizni o'sha ovoz deb o'ylaymiz. Kitob shu ayniyatni bosqichma-bosqich uzadi. Uning o'zagida uch tushuncha turadi — kuzatuvchi, og'riq tanasi va psixologik vaqt. Uchalasidan bitta amaliy xulosa chiqadi: azob doim hozirgi lahzaga qarshilikdan tug'iladi, shuning uchun yechim ham faqat shu yerda — hozirda topiladi.",
+  "bolimlar": [
+    {
+      "sarlavha": "1. Siz — o'z aqlingiz emassiz",
+      "magiz": [
+        "Kitobning boshidagi masal: gado o'ttiz yildan ortiq eski quti ustida o'tirardi va uning ichiga hech qachon qaramagan edi. Quti oltinga to'la ekan. Tolle o'zini shu quti ichiga qarashni taklif qilayotgan yo'lovchi deb ataydi.",
+        "Boyning ham gado bo'lishi mumkin: tashqaridan izlayotgan, tan olinish va xavfsizlikni quvayotgan odam o'z ichidagi boylikni ochmagan bo'ladi.",
+        "Boshimizdagi ovoz to'xtamaydi: u sharhlaydi, hukm qiladi, taqqoslaydi, shikoyat qiladi. Ko'chadagi o'ziga o'zi gapiradigan odamdan farqimiz faqat shundaki, biz buni ovoz chiqarib qilmaymiz.",
+        "Bu ovoz sizniki emas — u shartlangan aqlniki, ya'ni butun o'tmishingiz va o'zlashtirgan ijtimoiy qoliplaringiz mahsuli. Shuning uchun u hozirni ham o'tmish ko'zi bilan ko'radi.",
+        "Ko'p odam boshida doimiy qiynoqchi bilan yashaydi: u tinmay hujum qiladi va jazolaydi, hayotiy kuchni sarflaydi.",
+        "Birinchi qadam oddiy: ovozni tinglashni boshlang, lekin uni baholamasdan. Baholagan zahoti siz yana o'sha ovozning ichidasiz.",
+        "Ovozni eshitayotgan qism — siz. Tolle uni «kuzatuvchi ishtiroki» deb ataydi va butun kitob shu qismni kuchaytirishga qaratilgan.",
+        "Ma'rifat — g'ayrioddiy holat emas: bu Borliq bilan birlikning tabiiy holati. Buddaning ta'rifi eng qisqasi — azobning tugashi.",
+        "Hissiyot — tananing aql holatiga javobi. Hujum haqidagi fikr tanada g'azab deb ataladigan energiyani ko'taradi, xavf haqidagi fikr esa tanani siqadi — biz buni qo'rquv deymiz.",
+        "Fikrni ko'ra olmasangiz, hissiyotdan boshlang: hissiyot har doim ko'rinadi va u orqali ostidagi fikr qolipiga chiqish mumkin."
+      ],
+      "tavsiyalar": [
+        "Kuniga bir necha marta boshingizdagi ovozni tinglang, lekin uni to'xtatishga ham, baholashga ham urinmang.",
+        "Ovozni eshitayotganingizni sezganingizda o'zingizga savol bering: kim eshityapti?",
+        "Fikringizni ushlay olmasangiz, hissiyotdan boshlang — u tanada aniq joyda o'tiradi.",
+        "Boshingizdagi qiynoqchi ovozni yozib oling: u qaysi so'zlar bilan gapiradi va kimning ovoziga o'xshaydi?",
+        "Ma'rifatni erishiladigan cho'qqi deb ko'rmang — u kelajakda emas, faqat hozirda mavjud bo'lgan holat."
+      ],
+      "mashqlar": [
+        {
+          "turi": "taymer",
+          "daqiqa": 6,
+          "korsatma": "Kuzatuvchini yoqish. Olti daqiqa tinch o'tiring va boshingizdagi ovozni eshiting. Fikrni to'xtatmang, o'zgartirmang, baholamang — faqat eshiting. Har safar «men fikrga qo'shilib ketdim» deb sezganingizda, sekin eshituvchi joyga qayting. Tolle ogohlantiradi: baholagan zahoti siz yana ovozning ichidasiz."
+        },
+        {
+          "turi": "jurnal",
+          "savol": "Bugun boshingizdagi ovoz sizga eng ko'p aytgan uchta gapni aynan yozing — so'zma-so'z. Har birining yoniga javob bering: bu gap kimning ovoziga o'xshaydi va u qachondan beri takrorlanadi? Oxirida bitta savol qo'ying: agar bu gap bugun butunlay jim tursa, kunim qanday o'tardi?"
+        },
+        {
+          "turi": "test",
+          "savol": "Tolle bo'yicha, fikringizni ushlay olmayotgan bo'lsangiz nimadan boshlash kerak?",
+          "variantlar": [
+            "Fikrni kuch bilan to'xtatish",
+            "Hissiyotdan — u tanada aniq seziladi",
+            "Ko'proq o'qish",
+            "Kutish, o'zi o'tib ketadi"
+          ],
+          "izohlar": [
+            "To'xtatishga urinish — aqlning yana bir harakati. U faqat zo'riqishni oshiradi.",
+            "To'g'ri. Hissiyot — tananing aql holatiga javobi va u orqali ostidagi fikr qolipi ochiladi.",
+            "Bilim bu yerda yordam bermaydi: gap kuzatishda, tushunishda emas.",
+            "O'tib ketgan fikr qolip bo'lib qaytadi — kuzatilmagan narsa o'zgarmaydi."
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Bugun ovoz sizni boshqardimi yoki siz uni eshitdingizmi?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Butunlay ular edim",
+          "max_yorliq": "Ularni kuzatib turdim"
+        }
+      ]
+    },
+    {
+      "sarlavha": "2. Og'riq tanasi",
+      "magiz": [
+        "Hozirni qabul qila olmagan odamda har bir yangi og'riq eskisiga qo'shiladi. To'plangan og'riq salbiy energiya maydoniga aylanadi va Tolle uni «og'riq tanasi» deb ataydi.",
+        "Uning ikki holati bor: uxlab yotgan va faol. Ko'p odamda u vaqtning to'qson foizida uxlaydi; chuqur baxtsiz odamda esa deyarli doim faol turadi.",
+        "Uni yoqish uchun katta sabab kerak emas: yaqin odamning bitta beg'araz gapi ham yetadi, agar u o'tmishdagi og'riq qolipi bilan rezonansga kirsa.",
+        "Og'riq tanasi turlicha bo'ladi: biri noliydigan bolaga o'xshaydi, boshqasi vayron qiluvchi kuchga aylanadi. Ba'zisi atrofdagilarga, ba'zisi esa egasining o'ziga hujum qiladi.",
+        "Uning oziqlanish usuli oddiy: u sizdan azob talab qiladi va shuning uchun sizni azob beradigan vaziyatlarga boshlab boradi.",
+        "Uni eritishning yagona yo'li — ishtirok. Uni ko'rgan va kuzatib turgan lahzada u oziqdan mahrum bo'ladi, chunki u faqat anglanmagan joyda yashay oladi.",
+        "Ego og'riq tanasi bilan ayniylashadi: odam «bu men» deb hisoblay boshlaydi va shuning uchun undan voz kechishga qarshilik qiladi.",
+        "Qo'rquvning ildizi ham shu yerda: ego o'zini tugallanmagan his qiladi va yo'qolib qolishdan qo'rqadi. Shuning uchun u doim biror narsa orqali to'lishga urinadi.",
+        "O'zingizdagi og'riq tanasini boshqadagisidan ko'ra ko'proq kuzatish muhim. Uni tanish uchun norozilikning eng kichik belgisini payqash yetarli."
+      ],
+      "tavsiyalar": [
+        "Og'riq tanasi uyg'onganini tanadan taniing: siqilish, qizish, og'irlik yoki to'satdan kelgan g'azab.",
+        "U uyg'onganda darrov harakat qilmang — avval unga «ha, sen bu yerdasan» deb qarab turing.",
+        "Uni yo'q qilishga urinmang: qarshilik unga qo'shimcha oziq beradi.",
+        "Kimningdir gapi sizni haddan tashqari qattiq tekkanini sezsangiz, o'sha gapni yozib qo'ying — u eski qolipga tegib ketgan.",
+        "Boshqa odamning og'riq tanasi uyg'onganda unga javob bermang: ikki og'riq tanasi bir-birini oziqlantiradi.",
+        "Norozilikning eng kichik ko'rinishini ham payqashga o'rganing — u odatda birinchi belgi."
+      ],
+      "mashqlar": [
+        {
+          "turi": "kundalik",
+          "sarlavha": "Turtki va reaksiya yozuvlari",
+          "korsatma": "Har kuni yozing: bugun og'riq tanangiz uyg'ondimi, nima uni yoqdi, tanangizda nima seziltdi va qancha davom etdi? Belgilar maydoniga turtki turini kiriting. Bir necha haftadan keyin ro'yxatga qarang — sizni yoqadigan bir necha takrorlanuvchi turtki aniq ko'rinadi.",
+          "joy_matn": "Bugun nima meni ichkaridan qizitdi…",
+          "belgi_matn": "Turtki: e'tiborsizlik, tanqid, kutish, adolatsizlik…"
+        },
+        {
+          "turi": "taymer",
+          "daqiqa": 5,
+          "korsatma": "Og'riq tanasi bilan uchrashuv. Bu mashqni ichingizda og'irlik yoki g'azab turgan paytda bajaring. Besh daqiqa hech narsa qilmang: uni bostirmang, oqlamang, kimnidir ayblamang. Diqqatni tanangizdagi sezgiga qarating — u qayerda turibdi, qanday shaklda? Tolle aytadi: kuzatilgan og'riq tanasi oziqdan mahrum bo'ladi."
+        },
+        {
+          "turi": "test",
+          "savol": "Yaqin odamingiz oddiy bir gap aytdi, siz esa keskin javob berdingiz. Kitobga ko'ra bu nimani ko'rsatadi?",
+          "variantlar": [
+            "U meni ataylab xafa qildi",
+            "Uning gapi eski og'riq qolipiga tegib ketdi",
+            "Men shunchaki charchaganman",
+            "Bu oddiy xarakter"
+          ],
+          "izohlar": [
+            "Niyat masalasi emas: bir xil gap boshqa kunda hech qanday reaksiya bermasligi mumkin.",
+            "To'g'ri. Kitobning tushuntirishi shu: rezonans bo'lsa, beg'araz gap ham og'riq tanasini yoqadi.",
+            "Charchoq uni osonlashtiradi, lekin sabab emas.",
+            "«Xarakter» — bu ko'pincha kuzatilmagan qolipning nomi."
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Bugun og'riq tanangiz qancha vaqt faol bo'ldi?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Kun bo'yi faol edi",
+          "max_yorliq": "Deyarli uyg'onmadi"
+        }
+      ]
+    },
+    {
+      "sarlavha": "3. Psixologik vaqt va soat vaqti",
+      "magiz": [
+        "Tolle vaqtni ikkiga ajratadi. Soat vaqti — amaliy vaqt: uchrashuv belgilash, safar rejalashtirish, o'tmish xatosidan saboq olish, maqsad qo'yish va unga ishlash.",
+        "Psixologik vaqt boshqa narsa: u o'tmishda yashash yoki kelajakka bog'lanib qolish. U hozirni o'zining maqsadiga erishish vositasi qilib qo'yadi.",
+        "Farqni ko'rsatadigan aniq mezon bor. O'tmishdagi xatodan saboq olsangiz — bu soat vaqti; o'sha xatoda o'zini ayblab yashasangiz, aybdorlik hissini «men»ning bir qismiga aylantirsangiz — bu psixologik vaqt.",
+        "Kechira olmaslik doim psixologik vaqtning og'ir yukini o'z ichiga oladi. U o'tmishni tirik saqlaydi va uni hozirga tortadi.",
+        "Ma'rifatli odamlar ham soat vaqtidan foydalanadi: farq shundaki, ularning asosiy diqqati doim hozirda turadi, vaqt esa chetda qoladi.",
+        "Muammolar — aqlning illyuziyasi. Vaziyatlar bor: ular bilan hozir shug'ullaniladi yoki ular shunday qoldiriladi. Muammo esa aqlda yashaydi va yashash uchun vaqtga muhtoj.",
+        "Sinov oddiy: diqqatni butunlay hozirgi lahzaga qarating va hozir, ayni shu soniyada qanday muammoyingiz borligini ayting. Javob ko'pincha topilmaydi.",
+        "Aql muammolarni yaxshi ko'radi, chunki ular unga o'zlikni beradi. «Menda muammo bor» degan jumla ko'pincha «men shu muammoman» degani.",
+        "Ikkinchi ko'rinishi ham bor: boshda yuzta bajarilishi kerak bo'lgan ish yuki bilan yurish, hozir bajarilishi mumkin bo'lgan bitta ishga jamlanish o'rniga.",
+        "Tolle taklif qiladigan tanlov qisqa: «Men o'zimga boshqa og'riq yaratmayman. Men boshqa muammo yaratmayman». Tanlov oddiy, lekin uni har kuni qayta qilish kerak."
+      ],
+      "tavsiyalar": [
+        "Kunning amaliy ishlarini soat vaqtida bajaring, tugatgach esa darrov hozirni anglashga qayting.",
+        "O'tmishdagi xatodan saboqni oling va o'sha yerdan chiqing — saboq bilan o'zini ayblashni ajrating.",
+        "Kechira olmayotgan odamingizni yozib qo'ying: bu yuk sizning psixologik vaqtingizni to'ldirib turibdi.",
+        "«Muammo» so'zini «hozir men nima qila olaman?» degan savol bilan almashtiring.",
+        "Boshda yuzta ish aylanayotganini sezsangiz, ularni qog'ozga chiqaring va faqat bittasini tanlang.",
+        "Kun boshida bir marta ayting: bugun men o'zimga qo'shimcha og'riq va muammo yaratmayman."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Hozir sizni bezovta qilayotgan uchta narsani yozing. Har birini ikki savol bilan tekshiring: 1) Bu hozir, ayni shu daqiqada mavjudmi yoki u o'tmishda va kelajakda yashayaptimi? 2) Hozir shu bo'yicha qila oladigan bitta aniq harakat bormi? Bo'lsa yozing, bo'lmasa yoniga «hozircha shunday qoldiriladi» deb yozing."
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Soat vaqti va psixologik vaqtni ajratish",
+          "bandlar": [
+            "Amaliy ishni tugatgach hozirga qaytdim",
+            "O'tmish xatosidan saboq oldim, lekin unda qolmadim",
+            "Aybdorlik hissini o'zlikning qismi qilmadim",
+            "«Muammo» so'zini aniq savolga almashtirdim",
+            "Boshdagi ro'yxatni qog'ozga chiqarib, bittasini tanladim",
+            "Kimnidir kechirishga bitta qadam qo'ydim"
+          ]
+        },
+        {
+          "turi": "test",
+          "savol": "Tolle bo'yicha, quyidagilardan qaysi biri psixologik vaqt?",
+          "variantlar": [
+            "Ertaga uchrashuv belgilash",
+            "O'tmishdagi xatoni eslab, o'zini ayblab yurish",
+            "Maqsad qo'yib, unga ishlash",
+            "Sayohat rejalashtirish"
+          ],
+          "izohlar": [
+            "Bu soat vaqti — amaliy va kerakli.",
+            "To'g'ri. Saboq olish soat vaqti, o'zini ayblab yashash esa psixologik vaqt.",
+            "Bu ham soat vaqti, agar diqqat hozirgi qadamda tursa.",
+            "Reja tuzish amaliy ish. U hozirda bajariladi."
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Ongingiz bugun ko'proq qayerda turdi — hozirdami yoki o'tmish va kelajakdami?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "O'tmish va kelajakda",
+          "max_yorliq": "Hozirgi ishimda"
+        }
+      ]
+    },
+    {
+      "sarlavha": "4. Ichki tana: hozirga eng qisqa yo'l",
+      "magiz": [
+        "Tolle nazariyadan amaliyotga o'tadigan joy shu: diqqatni tana ichiga yo'naltiring va uni ichkaridan seizng. Barmoqlaringizda hayot bormi? Qorningizda, ko'kragingizda?",
+        "Vazifa tana haqida o'ylash emas — uni his qilish. Diqqat qancha ko'p berilsa, sezgi shuncha aniq va kuchli bo'ladi.",
+        "Ichki tananing sezgisi shaklsiz va chegarasiz. Shuning uchun tasvirga emas, sezgiga tayaning: har qanday go'zal tasvir ham shaklga bog'langan va chuqurroq kirishga imkon bermaydi.",
+        "Kichkina narsadan boshlash yetarli: kaftda yoki oyoq kaftida sezilgan yengil chimchilash ham birinchi qadam uchun kifoya.",
+        "Aql juda faol bo'lganda tanaga kira olmasangiz, nafasdan boshlang. Ongli nafas o'z-o'zicha kuchli meditatsiya va u asta-sekin sizni tanaga olib keladi.",
+        "Nafasni kuzatish oddiy: havo qanday kirib chiqayotganini, qorin qanday ko'tarilib tushayotganini kuzating. Hech narsani o'zgartirmang.",
+        "Ichki tana sizning shakl bilan ayniyatingiz va haqiqiy tabiatingiz orasidagi ostonada turadi. Aloqani yo'qotmaslik kerak bo'lgan joy — aynan shu.",
+        "Ko'zni ochganingizdan keyin ham diqqatning bir qismini tanada qoldiring. Amaliyotning maqsadi alohida seans emas, kun davomida ushlanadigan fon.",
+        "Tolle ogohlantiradi: hech qanday tasvirga bog'lanib qolmang, hatto nur va yorug'lik tasviriga ham. Tasvir yordam berishi mumkin, lekin u yo'l emas."
+      ],
+      "tavsiyalar": [
+        "Kuniga bir necha marta bir necha soniya uchun diqqatni tana ichiga tushiring — uzoq seansdan tez-tez takrorlash afzal.",
+        "Tanani o'ylamang, seizng: fikr paydo bo'lsa, sekin sezgiga qayting.",
+        "Aql tinchimasa, nafasdan boshlang va uni o'zgartirmasdan kuzating.",
+        "Kun davomida ko'zingiz ochiq holda ham diqqatning kichik bir qismini tanada qoldiring.",
+        "Uyquga yotishdan oldin va uyg'ongandan keyin bir necha daqiqa ichki tanani seizng — bu eng oson ikki payt.",
+        "Tasvirga bog'lanib qolmang: yorug'lik yoki nur tasviri boshlanish uchun mumkin, lekin u maqsad emas."
+      ],
+      "mashqlar": [
+        {
+          "turi": "taymer",
+          "daqiqa": 8,
+          "korsatma": "Ichki tanaga kirish. Sakkiz daqiqa. Ko'zni yumib, diqqatni qo'llaringizga tushiring: u yerda hayot bormi? Keyin oyoqlarga, qorinning, ko'krakning ichiga. Endi butun tanani bir vaqtda bitta energiya maydoni sifatida sezishga harakat qiling. O'ylamang — seizng. Oxirgi daqiqada ko'zni oching va diqqatning bir qismini tanada qoldirib atrofga qarang."
+        },
+        {
+          "turi": "eslatma",
+          "sarlavha": "Qo'llar va nafas tekshiruvi",
+          "matn": "Bir necha soniya: qo'llaringizni ichkaridan seizng. Nafasingiz qanday kelib ketyapti?",
+          "korsatma": "Tolle uzoq seansdan ko'ra tez-tez takrorlanadigan qisqa qaytishlarni afzal ko'radi. Eslatmani kunning uch nuqtasiga qo'ying — har biri o'n soniya oladi, lekin ular kun davomidagi fonni tiklaydi.",
+          "vaqtlar": [
+            "11:00",
+            "15:00",
+            "21:00"
+          ]
+        },
+        {
+          "turi": "jurnal",
+          "savol": "Ichki tanaga kirish mashqidan keyin yozing: qaysi joyda sezgi eng aniq edi, qaysi joyda umuman his qilmadingiz? Fikringiz sizni necha marta olib ketdi va nima haqida? Oxirida bitta jumla yozing: kun davomida shu holatga qaytish uchun menga qanday belgi kerak?"
+        },
+        {
+          "turi": "slider",
+          "savol": "Ichki tanangizdagi sezgi bugun qanchalik tiniq edi?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Umuman sezmadim",
+          "max_yorliq": "Aniq va tiniq sezdim"
+        }
+      ]
+    },
+    {
+      "sarlavha": "5. Norozilikdan taslimlikka",
+      "magiz": [
+        "Taslimlik — mag'lubiyat emas. Bu hayot oqimiga qarshilik ko'rsatish o'rniga unga ergashishning oddiy, lekin chuqur donoligi.",
+        "Hayot oqimini faqat bitta joyda sezish mumkin — hozirgi lahzada. Shuning uchun taslim bo'lish hozirni hech qanday shartsiz qabul qilish degani.",
+        "Ichki qarshilik — aqlning hukmlari va hissiy salbiylik tili bilan «bor narsaga» yo'q deyish. Aqlning talabi bilan haqiqat orasidagi tafovut esa aynan og'riq oralig'i.",
+        "Shuning uchun taslimlikni ishlar «yaxshi ketayotganda» emas, aynan «yomon ketayotganda» mashq qilish kerak. Boshqa payt uning ma'nosi ochilmaydi.",
+        "Taslimlik harakatsizlik emas: siz reja tuzishdan ham, ijobiy harakatdan ham voz kechmaysiz. Faqat ichki qarshilik olib tashlanadi.",
+        "Norozilikni tekshirish oson: ichingizga qarang va qarshilikning eng kichik izini toping. Keyin uning ikki qismini alohida ko'ring — aql yaratgan fikr va tananing o'sha fikrga javobi.",
+        "Norozilik faqat sizni emas, atrofdagilarni ham ifloslantiradi. Tolle buni tashqi ekologiyaning ichki manbai deb ataydi.",
+        "Ikki yo'ldan biri tanlanadi: qilayotgan ishingizni to'xtatib, his qilayotganingizni to'liq aytish yoki aql yaratgan salbiylikni tashlash. Uchinchi yo'l — indamay g'ijinib yurish — hech narsa bermaydi.",
+        "Tanlov qobiliyati anglash bilan boshlanadi. Anglash bo'lmasa, tanlov ham yo'q: odam o'z aqli qolipi bo'yicha o'ylashga, his qilishga va harakat qilishga majbur bo'ladi.",
+        "Shuning uchun aql tanish bo'lgan narsani qayta yaratishga intiladi, hatto u og'riqli bo'lsa ham: tanish og'riq unga notanish osoyishtalikdan xavfsizroq tuyuladi.",
+        "Kitobning yakuniy amaliy jumlasi qisqa: qayerda bo'lsangiz, o'sha yerda butunlay bo'ling. Bu hozirga kirishning eng qisqa ta'rifi."
+      ],
+      "tavsiyalar": [
+        "Norozilik paydo bo'lganda ikki qismga ajrating: aql qanday fikr yaratdi va tana unga qanday javob berdi?",
+        "Uch yo'ldan birini ongli tanlang: vaziyatni o'zgartiring, undan chiqing yoki uni to'liq qabul qiling. G'ijinib yurishni tanlamang.",
+        "Ishlar yomon ketayotganda taslimlikni mashq qiling — aynan shu holatda u ishlaydi.",
+        "Kun davomida bir necha marta so'rang: men hozir «bor narsaga» yo'q deyapmanmi?",
+        "Qarshilikni to'xtatgach ham harakatdan voz kechmang: taslimlik ichki qarshilikni olib tashlaydi, rejani emas.",
+        "Takrorlanuvchi og'riqli vaziyatda o'zingizdan so'rang: aqlim bu yerda nimani tanish deb ushlab turibdi?",
+        "Qayerda bo'lsangiz, o'sha yerda butunlay bo'ling — yarim ishtirok eng ko'p charchatadigan holat."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Hozir ichingizda qarshilik turgan bitta vaziyatni yozing. Uni ikki ustunga bo'ling: chapga aqlingiz aytayotgan gaplarni, o'ngga tanangizdagi sezgini yozing. Keyin uchta yo'ldan birini ongli tanlang va yozing: o'zgartiraman, chiqaman yoki to'liq qabul qilaman. Tanlagan yo'lingiz uchun bugungi bitta qadamni ham qo'shing."
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Qarshilikni tekshirish",
+          "bandlar": [
+            "Bugun norozilikning bitta izini payqadim",
+            "Uni fikr va tana sezgisiga ajratdim",
+            "G'ijinib yurish o'rniga aniq yo'l tanladim",
+            "Bir vaziyatni shartsiz qabul qildim",
+            "Qabul qilgach ham kerakli harakatni qildim",
+            "Kun davomida bir joyda butunlay bo'lishga harakat qildim"
+          ]
+        },
+        {
+          "turi": "test",
+          "savol": "Tolle bo'yicha taslimlik nima degani?",
+          "variantlar": [
+            "Vaziyatni o'zgartirishdan voz kechish",
+            "Ichki qarshilikni tashlash, lekin kerakli harakatni qilish",
+            "Hamma narsaga rozi bo'lib yurish",
+            "Hech qanday reja tuzmaslik"
+          ],
+          "izohlar": [
+            "Kitob buni ochiq rad etadi: taslimlik passivlik emas.",
+            "To'g'ri. Faqat ichki qarshilik olib tashlanadi; reja ham, harakat ham joyida qoladi.",
+            "Rozilik va qabul qilish boshqa narsa: qabul qilish vaziyatni o'zgartirishni taqiqlamaydi.",
+            "Reja tuzish soat vaqtiga tegishli va u taslimlikka zid emas."
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Ichki qarshilik bugun kuningizni qay darajada egalladi?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Deyarli doim qarshilik qildim",
+          "max_yorliq": "Qarshiliksiz qabul qildim"
+        }
+      ]
+    }
+  ]
+}
