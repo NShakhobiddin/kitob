@@ -1,0 +1,313 @@
+{
+  "id": "transerfing-2",
+  "nomi": "Transerfing 2: Tong yulduzlari shitirlashi",
+  "muallif": "Vadim Zeland",
+  "kirish": "Ikkinchi bosqich birinchisining davomi: agar birinchi kitobda nima to'sqinlik qilishi ko'rsatilgan bo'lsa, bu yerda nima harakatga keltirishi tushuntiriladi. Uch tayanch tushuncha kiritiladi — variantlar oqimi, tashqi niyat va slayd. Kitobning eng aniq amaliy o'lchovi ham shu bosqichda beriladi: ruhiy noqulaylik. Ruh «yo'q» deganini har doim aniq bildiradi, «ha»sini esa faqat qulaylik orqali sezdiradi. Yakuniy bob esa eng qiyin savolga javob izlaydi: Sizning maqsadingiz va Sizning eshigingiz qayerda?",
+  "bolimlar": [
+    {
+      "sarlavha": "1. Variantlar oqimi: kurashmang, oqim bilan boring",
+      "magiz": [
+        "Aql axborotni o'zi o'rgangan belgilar to'plami orqali talqin qiladi va shuning uchun faqat eski g'ishtlardan nisbatan yangi uy qura oladi. Tubdan yangi kashfiyotlar amalga oshmagan sektorlardan keladi.",
+        "Ruh o'ylamaydi va gapirmaydi — u sezadi va biladi. Aynan shu sababdan u yangi axborotni talqinsiz qabul qila oladi va aql bilan yangilik orasida vositachi bo'ladi.",
+        "Axborot tuzilishi sabab-oqibat zanjirlaridan iborat va bu zanjirlar variantlar oqimini hosil qiladi. Eng kam qarshilik yo'llari alohida oqimlarga tizilgan.",
+        "Oqimlar barcha muammoning yechimini o'z ichida saqlaydi. Ichki va tashqi ahamiyat esa aqlni optimal oqimdan uloqtirib yuboradi.",
+        "Sharsharaga sizni oqim emas, aql olib boradi. Hamma narsa ko'ringanidan ancha soddaroq bajariladi va shu soddalikka taslim bo'lish kerak.",
+        "Yo'l ko'rsatkichi belgilar boshqa hayot chizig'iga o'tish paytida paydo bo'ladi va shuning uchun hushyor qiladi. Ular «nimadir noto'g'ri» degan tuyg'u bilan farqlanadi.",
+        "Belgining o'zi emas, sizning unga munosabatingiz ishlaydi. Belgini faqat yaqinlashib kelayotgan burilishning sifatiga ishora sifatida talqin qilish mumkin.",
+        "Eng aniq belgi — ruhiy noqulaylik. Agar o'zingizni ko'ndirishga majbur bo'lsangiz, demak ruh «yo'q» deyapti; ruh «ha» deganda o'zingizni ko'ndirish kerak bo'lmaydi.",
+        "Aql o'z harakatini emas, oqimning o'zini boshqarishga urinadi. Og'irlik markazini nazoratdan kuzatuvga ko'chiring — nazoratdan voz kechganingizda haqiqiy nazorat qo'lga kiradi."
+      ],
+      "tavsiyalar": [
+        "Qaror qabul qilishdan oldin ruhiy qulaylikni tekshiring: bu qarorda ichingizda nima bosib turibdi?",
+        "O'zingizni ko'ndirishga majbur bo'lgan har qanday qarordan, imkoni bo'lsa, voz keching.",
+        "Belgilarni ko'rsangiz, ularni fol deb emas, burilish sifati haqidagi ishora deb qabul qiling.",
+        "Kutilmagan hodisani ssenariyingizga kiriting: hatto rejadan chetlanishni ham qarshiliksiz qabul qiling.",
+        "Har qanday murakkab masalada eng oddiy yechimni birinchi bo'lib qidiring — u odatda yuzada yotadi.",
+        "Nazorat qilishni kuzatishga almashtiring: oqimni emas, o'z harakatingizni boshqaring."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "So'nggi paytda o'zingizni ko'ndirishga majbur bo'lgan bitta qarorni yozing. Aqlingiz qanday dalillar keltirdi va tanangizda qanday og'irlik his qilindi — ikkalasini alohida yozing. Oxirida javob bering: bu qarordan voz kechish imkoni bormi, bo'lsa nimadan boshlayman?"
+        },
+        {
+          "turi": "kundalik",
+          "sarlavha": "Belgilar va ruhiy qulaylik daftari",
+          "korsatma": "Har kuni kechqurun yozing: bugun qaysi paytda «nimadir noto'g'ri» degan tuyg'u keldi, o'shanda nima bo'layotgan edi va siz nima qildingiz? Belgilar maydoniga vaziyat turini kiriting. Bir necha haftadan keyin ro'yxatga qarang — noqulaylik ko'pincha qayerdan chiqayotgani o'zi ko'rinadi.",
+          "joy_matn": "Bugun qaysi paytda nimadir noto'g'ri tuyuldi…",
+          "belgi_matn": "Vaziyat: ish, suhbat, xarid, yo'l…"
+        },
+        {
+          "turi": "test",
+          "savol": "Yangi taklif keldi. Aqlingiz «bu foydali» deydi, lekin ichingizda og'irlik bor. Zelandning mezoni bo'yicha bu nima?",
+          "variantlar": [
+            "Oddiy hayajon — o'tib ketadi",
+            "Ruhning aniq «yo'q»i",
+            "Ruhning «ha»si, faqat qo'rquv aralashgan",
+            "Hech qanday ma'no yo'q"
+          ],
+          "izohlar": [
+            "Ruhiy bog'lanishni noqulaylik bilan chalkashtirmang: birinchisi slaydlar bilan yechiladi, ikkinchisi hech qachon.",
+            "To'g'ri. Kitobda bu aniq: ruhiy noqulaylik — yagona bir ma'noli «yo'q».",
+            "Ruhiy qulaylik bir ma'noli «ha» emas, lekin noqulaylik doim «yo'q». Bu ikkisi teng emas.",
+            "Aksincha, bu Zeland ishonadigan eng aniq ko'rsatkich."
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Bugun oqimga qarshi qanchalik eshkak eshdingiz?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Butun kun qarshi kurashdim",
+          "max_yorliq": "Oqim bilan bordim"
+        }
+      ]
+    },
+    {
+      "sarlavha": "2. Niyat: xohish emas, qaror",
+      "magiz": [
+        "Kitobning eng qisqa formulasi: xohish emas, niyat amalga oshadi. Niyat — ega bo'lish va harakat qilish qat'iyati; xohish esa maqsadning o'ziga qadalgan diqqat.",
+        "Ichki niyat — o'z harakatingiz jarayoniga qaratilgan diqqat. Tashqi niyat — maqsadning o'zi qanday amalga oshishiga qaratilgan diqqat.",
+        "Farq shunda: ichki niyat bilan maqsadga erishiladi, tashqi niyat bilan esa maqsad tanlanadi. Ichki niyat dunyoga bevosita ta'sir qilishga urinadi, tashqi niyat esa maqsadga o'zi amalga oshishi uchun yashil chiroq beradi.",
+        "Tashqi niyat ishonmaydi va mulohaza yuritmaydi — u xotirjam ravishda o'ziniki bo'lgan narsani oladi. Kitobdagi tashbeh: pochtani qutidan olgandek.",
+        "Tanlash — mulohaza yuritish, xohlash yoki so'rash emas; tanlash — ega bo'lish va harakat qilish.",
+        "Samimiy minnatdorchilik — energiya nurlanishi. Xohish va iltimosning ortiqcha potensiali esa energiyani ushlab qoladi. Harakatdagi niyat bu potensialni eritadi.",
+        "Ssenariy his-kechinma va kutilmalarga qarab tanlanadi. Salbiy kutilmada ruh va aql birlashadi, shuning uchun ular osongina amalga oshadi.",
+        "Aybdorlik hissi jazo ssenariysini yaratadi, tashqi niyat esa uni amalga oshiradi. Shuning uchun aybdorlik hissi kitobda alohida xavf sifatida ko'rsatiladi.",
+        "Har qanday o'yinda o'ynayotgan tomoshabin bo'lib qatnashish kerak: chalg'imasdan, lekin butunlay ichiga sho'ng'imasdan. Anglash — nazorat emas, kuzatish.",
+        "Maqsadga erishish uchun unga erishish xohishidan voz kechish kerak. Ahamiyatni pasaytirishning eng ishonchli yo'li esa — oldindan mag'lubiyat bilan kelishib qo'yish."
+      ],
+      "tavsiyalar": [
+        "Maqsadingizni «xohlayman» tilidan «qaror qildim va boraman» tiliga o'tkazing.",
+        "Diqqatni natijadan harakatga ko'chiring: bugun qilinadigan aniq qadamni yozing.",
+        "Iltimos va xohish o'rniga minnatdorchilikni ishlating — bu ushlab turilgan energiyani chiqaradi.",
+        "Har kuni bir necha marta o'zingizga savol bering: men hozir uxlayapmanmi yoki uyg'oqmanmi?",
+        "Muhim ishga kirishishdan oldin mag'lubiyat bilan oldindan kelishing va shundan keyin boshqa mulohaza yuritmang.",
+        "Aybdorlik hissini tekshiring: siz qaysi jazo ssenariysini o'zingiz uchun yozib qo'ygansiz?",
+        "O'yinga sho'ng'imang — o'ynayotgan tomoshabin bo'ling: e'tibor to'liq, sho'ng'ish esa yo'q."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Bitta maqsadingizni oling va uchta jumla yozing. 1) Xohish tilida: «Men buni juda xohlayman, chunki...». 2) Ichki niyat tilida: «Men bugun aynan shu qadamni qo'yaman». 3) Tashqi niyat tilida: «Bu menda bor va men uni oddiygina olaman». Uchalasini o'qib chiqib, qaysi biri ichingizda zo'riqishsiz turganini yozing."
+        },
+        {
+          "turi": "taymer",
+          "daqiqa": 10,
+          "korsatma": "Uyg'onish mashqi. O'n daqiqa davomida har bir daqiqada o'zingizga bitta savol bering: «Men hozir uxlayapmanmi?» Javob berishga urinmang — faqat atrofga, tanangizga va fikringizga hozirgi lahzada qarang. Kitobning talabi shu: reallikda uyg'onishni o'rganish tushda uyg'onishdan muhimroq."
+        },
+        {
+          "turi": "test",
+          "savol": "Muhim maqsadingizga ahamiyat berishni to'xtata olmayapsiz. Kitobga ko'ra eng ishonchli yo'l qaysi?",
+          "variantlar": [
+            "O'zini ishontirish: «bu men uchun muhim emas»",
+            "Mag'lubiyat bilan oldindan kelishib, keyin mulohazasiz yurish",
+            "Maqsadni kichraytirish",
+            "Ko'proq harakat qilish"
+          ],
+          "izohlar": [
+            "O'zini ishontirish ishlamaydi: ahamiyat shundan yo'qolmaydi, faqat yashiriladi.",
+            "To'g'ri. Kitobning aniq tavsiyasi shu: mag'lubiyat bilan kelishing, keyin boshqa o'ylamay maqsad sari yuring.",
+            "Kichraytirish ahamiyatni pasaytirmaydi — u faqat maqsadni o'zgartiradi.",
+            "Ko'proq harakat ahamiyat ustiga qo'shimcha potensial yaratadi."
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Maqsadingiz haqida o'ylaganda ichingizda qanday holat bor?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Zo'riqish va talab",
+          "max_yorliq": "Xotirjam qat'iyat"
+        }
+      ]
+    },
+    {
+      "sarlavha": "3. Slaydlar: qulaylik zonasini kengaytirish",
+      "magiz": [
+        "Slayd — sizning boshingizda bor, boshqalarda esa yo'q tasvir. U real voqelikni buzib ko'rsatadi va odam o'z slaydining proyeksiyasini atrofdagilarga ilib qo'yishga moyil.",
+        "Slaydning asosi — ahamiyat. Ahamiyat yo'qolgan zahoti slayd ham mavjud bo'lishdan to'xtaydi.",
+        "Ahamiyat plyonkasidagi salbiy slayd ruh va aqlning birlashuvini tug'diradi va tashqi niyat uni uzluksiz, bosqichma-bosqich amalga oshiradi.",
+        "Yechim o'zingiz bilan kurashish emas: diqqatni salbiydan ijobiyga ko'chirish va ruhga ham, aqlga ham yoqadigan ijobiy slayd yaratish.",
+        "Slaydni birovdan nusxa ko'chirmang. U sizniki bo'lishi shart, aks holda u sizning zonangizni emas, birovnikini kengaytiradi.",
+        "Ruhni ishontirib bo'lmaydi, uni faqat o'rgatish mumkin. Slaydni tizimli takrorlash qulaylik zonasini asta-sekin kengaytiradi.",
+        "Slaydga rasmga qaragandek qaramang — unda yashang, hech bo'lmasa virtual tarzda. Orzuingiz dunyosidan kelayotgan har qanday axborotni o'zingizga kiriting.",
+        "Eng muhim tuzatish: yakuniy natijaga qaralganda odam maqsadga siljimaydi. Sizni harakatga keltiradigan narsa — natijani tomosha qilish emas, harakat jarayonini tasavvur qilish.",
+        "Diqqat harakat jarayoniga qaratiladi, maqsad esa fon bo'lib qoladi. Bu Transerfingdagi vizualizatsiyaning oddiy vizualizatsiyadan asosiy farqi.",
+        "Maqsad uzoq bo'lsa, transfer zanjiri ishlaydi: har bir bo'g'in alohida bosqich va faqat hozirgi bo'g'inning amalga oshishini tasavvur qilish kerak. Daryoda qayiqni qirg'oqdan sudrab, burilishlarni kesib o'tib bo'lmaydi."
+      ],
+      "tavsiyalar": [
+        "Slaydingizni o'zingiz uchun yarating va unga tafsilotlar qo'shib boring, birovnikidan nusxa olmang.",
+        "Kuniga bir necha marta qisqa vaqt — bir necha daqiqadan — slaydni aylantiring; uzoq bir seansdan tez-tez qisqalari afzal.",
+        "Yakuniy natijani emas, unga qarab borish jarayonini tasavvur qiling.",
+        "Maqsad uzoq bo'lsa, faqat hozirgi bo'g'inni vizualizatsiya qiling — keyingisiga uning vaqti kelganda o'tasiz.",
+        "Orzuingiz dunyosiga oid har qanday axborotni ataylab o'zingizga kiriting: jurnal, video, joy, odam.",
+        "Salbiy slaydni topsangiz, u bilan kurashmang — diqqatni boshqa tomonga ko'chiring, ahamiyat tushgach u o'zi so'nadi.",
+        "«Menga ruxsat» degan holatni mashq qiling: eng yaxshisiga loyiqligingizni tan olmasangiz, tanlov ham bo'lmaydi."
+      ],
+      "mashqlar": [
+        {
+          "turi": "taymer",
+          "daqiqa": 5,
+          "korsatma": "Slayd seansi. Besh daqiqa: ko'zni yumib, maqsad holatining ichida yashang — rasmga qaramang, balki o'sha yerda turing. Nima ko'rasiz, nima eshitasiz, tanangizda nima seziladi? Har seansda bitta yangi tafsilot qo'shing. Kitobning talabi: uzoq bitta seans emas, qisqa va tez-tez takrorlanadigan seanslar zonani kengaytiradi."
+        },
+        {
+          "turi": "jurnal",
+          "savol": "Maqsadingizga qarab borish jarayonini yozing — natijani emas. Bugun va yaqin kunlarda o'zingizni qaysi harakatlar ichida ko'rasiz: nima o'rganasiz, kim bilan gaplashasiz, nimani mashq qilasiz? Oxirida transfer zanjirining hozirgi bo'g'inini alohida ajratib yozing."
+        },
+        {
+          "turi": "test",
+          "savol": "Boylikka erishmoqchi bo'lgan odam har kuni pulga to'la chamadonni tasavvur qiladi. Zelandga ko'ra nima bo'ladi?",
+          "variantlar": [
+            "U tez orada boyib ketadi",
+            "Hech narsa bo'lmaydi — bu maqsad ham emas, jarayon ham emas",
+            "U pulni yo'qotadi",
+            "Natija bir necha yildan keyin keladi"
+          ],
+          "izohlar": [
+            "Kitobda bu misol aynan xato sifatida keltiriladi.",
+            "To'g'ri. Ikkita xato bor: pul maqsad emas, atribut; va diqqat natijaga qaratilgan, jarayonga emas.",
+            "Zarar haqida gap yo'q — shunchaki natija bo'lmaydi.",
+            "Vaqt masalasi emas: yo'nalishning o'zi noto'g'ri tanlangan."
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Slayd ichida yashay oldingizmi yoki unga chetdan qaradingizmi?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Bu men emasman",
+          "max_yorliq": "Bu mening joyim"
+        }
+      ]
+    },
+    {
+      "sarlavha": "4. Ruh va aql: freyle va oyna",
+      "magiz": [
+        "Aqlda iroda bor, lekin u tashqi niyatni sezmaydi. Ruh tashqi niyatni sezadi, lekin unda iroda yo'q. Faqat ikkalasining birligi tashqi niyatni irodaga bo'ysundiradi.",
+        "Zelandning takrorlanadigan jumlasi: sizning ruhingiz boshqalarnikidan yomon emas. Sizda kerakli hamma narsa bor, faqat undan foydalanish qoladi.",
+        "Ruh betakror, aql esa yo'q. Har bir ruhning o'z «yulduzli» sektori bor va aql ruxsat bersa, ruh o'sha sektorni o'zi topadi.",
+        "Yulduzlar o'zi tug'iladi, lekin ularni mayatniklar yoqadi. Mayatniklarning asosiy yashirgan haqiqati shu: betakror qobiliyat har bir odamda bor.",
+        "«Men kabi qil» qoidasi umumiy stereotiplarni yaratadi. Birovning ssenariysiga taqlid qilish esa asl narsani emas, parodiyani tug'diradi.",
+        "Freyle — odam ruhining individual mohiyati. Ruhiy go'zallik esa ruh bilan aqlning munosabatidagi uyg'unlikda.",
+        "Aqlni ruhning freylesiga sozlash ichki nurni tug'diradi. Birovning standartlari ortidan quvgan aql esa o'z ruhidan tobora uzoqlashadi.",
+        "Bu yerda tashqi niyat teskari ishlaydi: o'zidan norozilik ham amalga oshadi va nomukammallikni yanada chuqurlashtiradi.",
+        "Affirmatsiya faqat mos his-tuyg'u bilan birga ishlaydi. U ijobiy, tor yo'nalgan va hozirgi zamonda bo'lishi, hamda oqibatga emas, sababga qaratilishi kerak.",
+        "Variantlar fazosiga oyna aqlning nafas rostlagan lahzasida ochiladi — uyg'onish bilan to'liq hushyorlik orasidagi qisqa oraliqda. Bunday lahzalarga e'tibor berish odati sezgini o'stiradi."
+      ],
+      "tavsiyalar": [
+        "O'zingizni o'zgartirishga chaqirgan hech kimga ishonmang — mayatniklardan yuz o'girib, o'zingizga qarang.",
+        "Ichki va tashqi ahamiyatni tashlab, o'zingizni shartsiz sevishni mashq qiling.",
+        "Betakrorligingizni izlang: sizga oson va zavq bilan beriladigan narsa qiymatga ega.",
+        "Affirmatsiyani hozirgi zamonda, ijobiy va tor shaklda tuzing va uni his-tuyg'u bilan birga ayting.",
+        "Ertalab uyg'ongan zahoti darrov turmang: ongingiz hali to'liq nazoratni olmagan bir necha daqiqaga e'tibor bering.",
+        "Boshqaning ssenariysiga taqlid qilishni to'xtating — natija asl emas, parodiya bo'ladi.",
+        "O'zingizdan norozilikni kuzating: u ham nurlanish va u ham amalga oshadi."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Sizga oson va zavq bilan beriladigan uchta narsani yozing — boshqalar buni qiyin deb hisoblaydigan narsalar. Har birining yoniga yozing: buni kim menga o'rgatgan yoki bu o'zimniki? Oxirida javob bering: shu uchtasidan qaysi biri hozir hayotimda umuman ishlatilmayapti?"
+        },
+        {
+          "turi": "eslatma",
+          "sarlavha": "Ertalabki oyna lahzasi",
+          "matn": "Turishga shoshilmang. Bir necha daqiqa shu holatda qoling va nima kelayotganini kuzating.",
+          "korsatma": "Kitobga ko'ra variantlar fazosiga oyna aqlning nafas rostlagan lahzasida ochiladi. Eslatmani odatiy uyg'onish vaqtingizga qo'ying — u sizni turishga emas, bir necha daqiqa kuzatishga chaqiradi.",
+          "vaqtlar": [
+            "06:30",
+            "07:00"
+          ]
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Aqlni freylega sozlash",
+          "bandlar": [
+            "Bugun o'zimni birov bilan taqqoslamadim",
+            "O'zimdan norozilikni payqab, uni to'xtatdim",
+            "Affirmatsiyamni his-tuyg'u bilan birga aytdim",
+            "Menga oson beriladigan bir narsani ishlatdim",
+            "Birovning ssenariysiga taqlid qilmadim",
+            "Ertalabki oyna lahzasini o'tkazib yubormadim"
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Bugun aqlingiz bilan ruhingiz bir yo'nalishda edimi?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Ular bir-biriga qarshi turdi",
+          "max_yorliq": "Ikkisi birga bordi"
+        }
+      ]
+    },
+    {
+      "sarlavha": "5. Maqsad va eshiklar: o'zingiznikini topish",
+      "magiz": [
+        "Bosqichning asosiy jumlasi: oldinda hech qanday baxt yo'q. U yo shu yerda va hozir bor, yoki umuman yo'q. Baxt Sizning maqsadingiz sari Sizning eshigingiz orqali harakat paytida keladi.",
+        "Sizning maqsadingiz — hayotdan quvonch hissini beradigan narsa. Sizning eshigingiz — o'sha maqsad yo'lidagi ilhom.",
+        "Begona maqsadning belgilari aniq: u doim o'z ustidan zo'ravonlik, majburiyat va qarzdorlik shaklida keladi. U moda va obro' niqobi ostida yuradi.",
+        "Begona maqsad yetib bo'lmasligi bilan o'ziga tortadi va sizni o'zingizga hamda hammaga nimadir isbotlashga majbur qiladi. Natijada u birovning farovonligiga xizmat qiladi.",
+        "Ruhni futlyarga tiqqan aql ichki bo'shliqni oladi va uni begona maqsadlarga xizmat qilish bilan to'ldirishga urinadi.",
+        "Aql maqsaddan ikki yo'l bilan voz kechadi: erishish imkoniga shubha qilib va vositalar haqida o'ylay boshlab. Vositalar haqidagi o'ylar uni muvaffaqiyatsizlik chizig'iga sozlaydi.",
+        "Shuning uchun tartib qat'iy: Sizning maqsadingiz aniqlanmaguncha vositalar haqida umuman o'ylamang.",
+        "Yagona ishonchli mezon — ruhiy noqulaylik. O'zingizni ko'ndirishga to'g'ri kelsa, maqsad begona; Sizniki bo'lsa, ko'ndirish kerak bo'lmaydi.",
+        "Ruhiy bog'lanishni noqulaylik bilan chalkashtirmang: bog'lanishni slaydlar bilan yechish mumkin, noqulaylikni esa hech qachon.",
+        "Maqsad va eshikni aniqlashga oylar ketishi mumkin. Bu davrda aqlning vazifasi izlash emas — butun tashqi axborotni o'zidan o'tkazib, faqat ruhiy qulaylik holatini kuzatish.",
+        "Ilhom paydo bo'lmaydi — u ahamiyat potensiali tushganda ozod bo'ladi. Uni kutish va unga tayyorgarlik ko'rishdan voz keching: u ish jarayonida ozod bo'ladi.",
+        "Sizning maqsadingizga erishish qolgan barcha xohishlarning bajarilishini o'zi bilan tortib keladi."
+      ],
+      "tavsiyalar": [
+        "Maqsad izlash paytida vositalar haqida o'ylashni butunlay taqiqlang.",
+        "Har bir yangi imkoniyatni o'zingizdan o'tkazib, faqat bitta narsani kuzating: nima meni og'irlashtiradi, nima qanot beradi?",
+        "Prestij, moda va yetib bo'lmaslik jozibasini begona maqsad belgisi sifatida taniing.",
+        "Maqsadingizni tekshiring: siz uni butun ruhingiz bilan xohlayapsizmi yoki shunchaki xohlashni xohlayapsizmi?",
+        "Maqsad va eshikni bitta kartaga qo'ymang — sug'urta toping va eski eshiklarni qattiq yopmang.",
+        "Ilhomni kutmang: ishni boshlang, u ish davomida o'zi ozod bo'ladi.",
+        "Norozilik va afsusni quvonchli hayratga almashtiring: bugun kechagidan yaxshiroq, ertaga bugungidan yaxshiroq bo'ladi."
+      ],
+      "mashqlar": [
+        {
+          "turi": "jurnal",
+          "savol": "Ikki ustun tuzing: «Meni og'irlashtiradigan maqsadlar» va «Menga qanot beradigan maqsadlar». Har biriga kamida uchtadan yozing. Endi og'ir ustunga qarab, har birining yoniga javob bering: bu maqsad menga kimdan keldi — moda, oila, atrof yoki obro'dan? Oxirida qanot beruvchi ustundan bittasini tanlab, unga qarab birinchi qadamni yozing."
+        },
+        {
+          "turi": "checklist",
+          "sarlavha": "Maqsad va eshikni qidirish tartibi",
+          "bandlar": [
+            "Vositalar haqida o'ylashni to'xtatdim",
+            "Bugun kelgan axborotni ruhiy qulaylik bo'yicha tekshirdim",
+            "Bitta begona maqsadni nomladim va undan voz kechdim",
+            "Maqsad slaydini aylantirdim",
+            "O'zimni ko'ndirishga majbur bo'lgan joyni yozib qo'ydim",
+            "Eski eshikni qattiq yopmadim"
+          ]
+        },
+        {
+          "turi": "test",
+          "savol": "Maqsad Sizniki ekanini qanday tekshirasiz?",
+          "variantlar": [
+            "Uning obro'liligi bo'yicha",
+            "O'zimni ko'ndirishga to'g'ri keladimi yoki yo'qmi",
+            "Boshqalar uni ma'qullaydimi",
+            "Unga erishish qanchalik qiyinligi bo'yicha"
+          ],
+          "izohlar": [
+            "Obro' — kitobda begona maqsadning eng keng tarqalgan niqobi.",
+            "To'g'ri. Mezon aniq: Sizniki bo'lsa, o'zingizni ko'ndirish kerak bo'lmaydi.",
+            "Boshqalarning ma'qullashi ko'pincha begona maqsadning manbai.",
+            "Qiyinlik hech narsani ko'rsatmaydi: Sizning maqsadingiz ham qiyin bo'lishi mumkin."
+          ]
+        },
+        {
+          "turi": "slider",
+          "savol": "Hozirgi asosiy maqsadingiz sizni og'irlashtiradimi yoki qanot beradimi?",
+          "min": 1,
+          "max": 10,
+          "min_yorliq": "Og'irlashtiradi",
+          "max_yorliq": "Qanot beradi"
+        }
+      ]
+    }
+  ]
+}
