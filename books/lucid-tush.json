@@ -168,12 +168,9 @@
           ]
         },
         {
-          "turi": "slider",
+          "turi": "sanagich",
           "savol": "Bugun nechta reallik tekshiruvini rostdan shubhalanib bajardingiz?",
-          "min": 0,
-          "max": 15,
-          "min_yorliq": "0",
-          "max_yorliq": "15+"
+          "korsatma": "Odat bo'lib qolgan avtomatik tekshiruv sanalmaydi. Faqat «men chindan uyg'oqmanmi?» degan haqiqiy shubha bilan qilinganini bosing."
         }
       ]
     },

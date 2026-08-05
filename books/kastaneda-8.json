@@ -32,12 +32,9 @@
           "savol": "So'nggi bir oyda e'tibor bermay o'tkazib yuborgan uchta kichik hodisani eslang — taklif, uchrashuv, fikr, taklif qilingan imkoniyat. Nima uchun o'tkazib yubordingiz?"
         },
         {
-          "turi": "slider",
-          "savol": "Ruh bugun necha marta belgi berdi va siz uni payqadingizmi?",
-          "min": 1,
-          "max": 10,
-          "min_yorliq": "Deyarli jim",
-          "max_yorliq": "To'xtovsiz shovqin"
+          "turi": "sanagich",
+          "savol": "Bugun ruhning belgisini necha marta payqadingiz?",
+          "korsatma": "Ruh kichik va sezilmas hodisalarda ko'rinadi: tasodifiy taklif, o'z-o'zidan kelgan fikr, kutilmagan uchrashuv. Har payqaganingizda bosing."
         },
         {
           "turi": "checklist",
@@ -269,12 +266,9 @@
           ]
         },
         {
-          "turi": "slider",
+          "turi": "sanagich",
           "savol": "Bugun o'z-o'ziga achinish sizni necha marta ushladi?",
-          "min": 1,
-          "max": 10,
-          "min_yorliq": "Umuman achinmayman",
-          "max_yorliq": "Doim achinaman"
+          "korsatma": "Ta'qibchining birinchi holati — shafqatsizlik, ya'ni o'ziga achinmaslik. Achinish kelganini sezsangiz, uni bosib qayd eting."
         }
       ]
     },
@@ -297,8 +291,20 @@
       ],
       "mashqlar": [
         {
-          "turi": "jurnal",
-          "savol": "Ikki ustun yozing: «men boshqara olaman» va «men boshqara olmayman». Hozirgi eng katta tashvishingizni ikkiga bo'lib joylashtiring. Ikkinchi ustunga qancha kuch sarflayotganingizni yozing."
+          "turi": "juftlik",
+          "savol": "Hozirgi eng katta tashvishingizni ikkiga bo'ling. Bo'lib bo'lgach o'zingizga savol bering: kuchimning qanchasi ikkinchi ustunga ketyapti?",
+          "ustunlar": [
+            {
+              "sarlavha": "Boshqara olaman",
+              "izoh": "Sizning qaroringizga bog'liq qismi.",
+              "joy_matn": "Masalan: qachon boshlashim…"
+            },
+            {
+              "sarlavha": "Boshqara olmayman",
+              "izoh": "Sizdan tashqaridagi qismi.",
+              "joy_matn": "Masalan: boshqaning qarori…"
+            }
+          ]
         },
         {
           "turi": "checklist",

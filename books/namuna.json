@@ -81,12 +81,9 @@
           ]
         },
         {
-          "turi": "slider",
-          "savol": "Avtomatik reaksiyani necha marta ushlab qoldingiz?",
-          "min": 1,
-          "max": 10,
-          "min_yorliq": "Butunlay avtomatik",
-          "max_yorliq": "Deyarli har safar tanladim"
+          "turi": "sanagich",
+          "savol": "Bugun avtomatik reaksiyani necha marta ushlab qoldingiz?",
+          "korsatma": "Javob og'zingizdan chiqishidan oldin uni ushlab qolgan har bir lahzani sanang."
         },
         {
           "turi": "test",

@@ -101,7 +101,12 @@
       "mashqlar": [
         {
           "turi": "jurnal",
-          "savol": "Hozir sizga muhim bo'lgan bitta odamni oling — hamkasb, rahbar, mijoz yoki yaqin kishi. Uch savolga javob yozing: 1) Uning ichki niyati nimaga qaratilgan? 2) Men xohlagan narsani u xohlagan narsa bilan qanday bog'lash mumkin? 3) Ertaga men unga qanday aniq narsani beraman? Oxirgi javob jumla emas, harakat bo'lsin."
+          "savol": "Hozir sizga muhim bo'lgan bitta odamni oling — hamkasb, rahbar, mijoz yoki yaqin kishi. Uch savolga javob yozing.",
+          "qadamlar": [
+            "Uning ichki niyati nimaga qaratilgan?",
+            "Men xohlagan narsani u xohlagan narsa bilan qanday bog'lash mumkin?",
+            "Ertaga men unga qanday aniq narsani beraman? Javob jumla emas, harakat bo'lsin."
+          ]
         },
         {
           "turi": "checklist",

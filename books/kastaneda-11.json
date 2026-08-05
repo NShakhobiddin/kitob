@@ -187,7 +187,7 @@
         },
         {
           "turi": "slider",
-          "savol": "Kuchingiz bu hafta qanday saqlandi?",
+          "savol": "Kuch teshiklaringiz bu hafta qanchalik yopiq turdi?",
           "min": 1,
           "max": 10,
           "min_yorliq": "Butunlay oqib ketdi",

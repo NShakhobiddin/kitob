@@ -84,8 +84,25 @@
       ],
       "mashqlar": [
         {
-          "turi": "jurnal",
-          "savol": "So'nggi jiddiy suhbatingizni eslang va uni uch ustunga bo'lib yozing: qaysi gaplarim Ota edi, qaysi biri Kattalar, qaysi biri Bola? Keyin javob bering: agar o'sha suhbatni butunlay Kattalar holatida o'tkazganingizda, nima boshqacha bo'lardi?"
+          "turi": "juftlik",
+          "savol": "So'nggi jiddiy suhbatingizni uch holatga ajrating: qaysi gapingiz Ota, qaysi biri Kattalar, qaysi biri Bola edi? Aynan so'zma-so'z yozing.",
+          "ustunlar": [
+            {
+              "sarlavha": "Ota",
+              "izoh": "Baho, tarbiya, «kerak», «uyat» — o'zgalardan ko'chirilgan ovoz.",
+              "joy_matn": "Masalan: yana kechikdingmi…"
+            },
+            {
+              "sarlavha": "Kattalar",
+              "izoh": "Xolis fakt va hisob-kitob.",
+              "joy_matn": "Masalan: yigirma daqiqa…"
+            },
+            {
+              "sarlavha": "Bola",
+              "izoh": "Xafagarchilik, adolatsizlik hissi, o'jarlik.",
+              "joy_matn": "Masalan: doim menga…"
+            }
+          ]
         },
         {
           "turi": "test",
@@ -344,8 +361,26 @@
           ]
         },
         {
-          "turi": "jurnal",
-          "savol": "Tezaurusdagi o'yinlardan qaysi biri sizga tanish tuyuldi? Bittasini tanlang va o'z hayotingizdan aniq misol yozing: kim ishtirok etdi, qanday yurishlar bo'ldi, oxirida qanday yutuq oldingiz. Rostini yozing — buni sizdan boshqa hech kim ko'rmaydi."
+          "turi": "saralash",
+          "savol": "Tezaurusdagi o'yinlardan o'zingizda tanigan barchasini yozing, keyin ularni siqib, hozir ustida ishlaydigan bittasini tanlang.",
+          "joy_matn": "O'yin nomi yoki sahnaning tavsifi…",
+          "bosqichlar": [
+            {
+              "nomi": "Tanigan o'yinlarim",
+              "soni": 0,
+              "izoh": "Kitobdagi tezaurusdan yoki o'z hayotingizdan — bir xil yakun bilan takrorlanadigan har qanday sahna."
+            },
+            {
+              "nomi": "Eng qimmatga tushadigani",
+              "soni": 3,
+              "izoh": "Qaysilari sizdan eng ko'p kuch va munosabat olib ketadi?"
+            },
+            {
+              "nomi": "Antitezis yozaman",
+              "soni": 1,
+              "izoh": "Bittasini tanlang: keyingi bo'limdagi mashqda unga aynan qanday javob berishingizni yozasiz."
+            }
+          ]
         },
         {
           "turi": "checklist",
@@ -360,12 +395,9 @@
           ]
         },
         {
-          "turi": "slider",
-          "savol": "Bu hafta o'yinning boshlanish yurishini qanchalik tez ushladingiz?",
-          "min": 0,
-          "max": 10,
-          "min_yorliq": "Birortasini ham",
-          "max_yorliq": "Bir nechtasini"
+          "turi": "sanagich",
+          "savol": "Bugun «ha, lekin» javobini necha marta eshitdingiz?",
+          "korsatma": "Kitobdagi eng keng tarqalgan o'yin — «Nega siz... — Ha, lekin». Har safar bu javobni eshitganingizda yoki o'zingiz aytganingizda bosing."
         }
       ]
     },
@@ -458,7 +490,12 @@
         },
         {
           "turi": "jurnal",
-          "savol": "Uch qobiliyat bo'yicha o'zingizni yozing. 1) Hozirga jalb bo'lish: bugun qaysi lahzada butunlay shu yerda edingiz? 2) O'z-o'zidan chiqish: bugun qaysi holatni o'zingiz tanladingiz, qaysi biri sizni o'zi tutdi? 3) Yaqinlik: bugun kim bilan o'yinsiz gaplashdingiz?"
+          "savol": "Uch qobiliyat bo'yicha o'zingizni yozing.",
+          "qadamlar": [
+            "Hozirga jalb bo'lish: bugun qaysi lahzada butunlay shu yerda edingiz?",
+            "O'z-o'zidan chiqish: bugun qaysi holatni o'zingiz tanladingiz, qaysi biri sizni o'zi tutdi?",
+            "Yaqinlik: bugun kim bilan o'yinsiz gaplashdingiz?"
+          ]
         },
         {
           "turi": "checklist",

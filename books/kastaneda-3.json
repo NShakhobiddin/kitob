@@ -161,12 +161,9 @@
           ]
         },
         {
-          "turi": "slider",
-          "savol": "Chap yelkangizdagi maslahatchini bugun necha marta esladingiz?",
-          "min": 1,
-          "max": 10,
-          "min_yorliq": "Deyarli vaznsiz",
-          "max_yorliq": "Juda og'ir"
+          "turi": "sanagich",
+          "savol": "Bugun chap yelkangizdagi maslahatchini necha marta esladingiz?",
+          "korsatma": "O'lim bir qadam narida turadi. Uni eslab, shu savolni bergan har bir lahzani bu yerda sanang."
         }
       ]
     },

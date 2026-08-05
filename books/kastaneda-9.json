@@ -181,12 +181,9 @@
           ]
         },
         {
-          "turi": "slider",
-          "savol": "Yolg'on uyg'onishni necha marta payqadingiz?",
-          "min": 1,
-          "max": 10,
-          "min_yorliq": "Umuman boshqara olmayman",
-          "max_yorliq": "Ko'p narsani boshqaraman"
+          "turi": "sanagich",
+          "savol": "Bugun yolg'on uyg'onishni necha marta payqadingiz?",
+          "korsatma": "Ikkinchi darvoza tushdan tushga o'tishni talab qiladi. Tushda «uyg'ondim» deb o'ylab, keyin bu ham tush ekanini bilgan har safaringizni sanang."
         }
       ]
     },

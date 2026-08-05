@@ -176,8 +176,20 @@
       ],
       "mashqlar": [
         {
-          "turi": "jurnal",
-          "savol": "Ikki ustun yozing: «meni kuchaytiradigan narsalar» va «meni zaiflashtiradigan narsalar». Har biriga kamida beshtadan yozing. Keyin ikkinchi ustunga qarang: bu hafta qaysinisidan bittasini kamaytirasiz?"
+          "turi": "juftlik",
+          "savol": "Ittifoqchi va dushmanni ajrating: nima sizni kuchaytiradi, nima kuchingizni oladi? Har biriga kamida beshtadan yozing, keyin ikkinchi ustundan bittasini bu hafta kamaytiring.",
+          "ustunlar": [
+            {
+              "sarlavha": "Kuchaytiradi",
+              "izoh": "Undan keyin o'zingizni tetik his qilasiz.",
+              "joy_matn": "Masalan: erta turish…"
+            },
+            {
+              "sarlavha": "Zaiflashtiradi",
+              "izoh": "Undan keyin bo'shashib qolasiz.",
+              "joy_matn": "Masalan: uzoq ekran…"
+            }
+          ]
         },
         {
           "turi": "checklist",
@@ -397,12 +409,9 @@
           "korsatma": "Kunni yakunlash mashqi. O'n besh daqiqa: bugungi kunni boshidan oxirigacha eslab chiqing. Qaysi lahzada aniq va kuchli edingiz? Qaysi lahzada chekinish istagiga yo'l berdingiz? Baholmang, faqat ko'ring. Oxirida ikkalasini bir jumladan yozib qo'ying."
         },
         {
-          "turi": "slider",
-          "savol": "To'rtinchi dushman bugun sizni necha marta yiqitdi?",
-          "min": 1,
-          "max": 10,
-          "min_yorliq": "Umuman boshqarmadi",
-          "max_yorliq": "Butunlay boshqardi"
+          "turi": "sanagich",
+          "savol": "Bugun charchoq sizni necha marta orqaga qaytardi?",
+          "korsatma": "To'rtinchi dushman — qarilik, ya'ni charchoq. Har safar «bugun bo'lmaydi» degan tuyg'uga yon berganingizda bosing."
         }
       ]
     }

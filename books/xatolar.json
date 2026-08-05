@@ -72,7 +72,13 @@
       "mashqlar": [
         {
           "turi": "jurnal",
-          "savol": "Kitobning asosiy uy vazifasi. Quyidagi savollarga yozma javob bering, shoshilmasdan: 1) Men uchun «to'g'ri» nima? 2) Nima uchun aynan shunday deb o'ylayman? 3) Istaklarimning ildizi qayerda — o'zimdami yoki tashqaridanmi? 4) Men nimadan qo'rqaman va bu qo'rquv kimniki?"
+          "savol": "Kitobning asosiy uy vazifasi. Quyidagi savollarga shoshilmasdan yozma javob bering.",
+          "qadamlar": [
+            "Men uchun «to'g'ri» nima?",
+            "Nima uchun aynan shunday deb o'ylayman?",
+            "Istaklarimning ildizi qayerda — o'zimdami yoki tashqaridanmi?",
+            "Men nimadan qo'rqaman va bu qo'rquv kimniki?"
+          ]
         },
         {
           "turi": "taymer",
@@ -152,8 +158,20 @@
           ]
         },
         {
-          "turi": "jurnal",
-          "savol": "O'zingizni grafit va olmos oralig'ida ko'ring. Bugun sizni «ishqalab, xira qilayotgan» narsalar nima? Va aksincha — sizga bosim berib, chiniqtirayotgan narsalar nima? Ikkala ro'yxatni yozing va oxirida bitta qaror qabul qiling."
+          "turi": "juftlik",
+          "savol": "O'zingizni grafit va olmos oralig'ida ko'ring: bugun sizni nima ishqalab xira qilyapti va nima bosim berib chiniqtiryapti? Ikkala ro'yxatni to'ldiring, keyin bitta qaror qabul qiling.",
+          "ustunlar": [
+            {
+              "sarlavha": "Ishqalaydi",
+              "izoh": "Kuchingizni sekin yeydigan muhit va odatlar.",
+              "joy_matn": "Masalan: bahsli suhbat…"
+            },
+            {
+              "sarlavha": "Chiniqtiradi",
+              "izoh": "Qiyin, lekin sizni kuchaytiradigan bosim.",
+              "joy_matn": "Masalan: erta mashq…"
+            }
+          ]
         },
         {
           "turi": "slider",

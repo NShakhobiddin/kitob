@@ -25,8 +25,21 @@
       ],
       "mashqlar": [
         {
-          "turi": "jurnal",
-          "savol": "Uy vazifasi 2: orzularingizni yozing va har birini o'nga ko'paytiring. Uyalmang, buni sizdan boshqa hech kim ko'rmaydi. Yozib bo'lgach, bittasini tanlang va ostiga yozing: buni amalga oshirish uchun bugun, ertaga va shu hafta aynan nima qilaman?"
+          "turi": "saralash",
+          "savol": "Uy vazifasi 2: eng maxfiy orzularingizni yozing va har birini o'nga ko'paytiring. Keyin bittasini tanlab, bugundan boshlanadigan qadamni belgilang.",
+          "joy_matn": "Orzuingiz — o'nga ko'paytirilgan holda…",
+          "bosqichlar": [
+            {
+              "nomi": "Orzular",
+              "soni": 0,
+              "izoh": "Uyalmang, buni sizdan boshqa hech kim ko'rmaydi. Har bir orzuni o'nga ko'paytirib yozing."
+            },
+            {
+              "nomi": "Bugun boshlanadigani",
+              "soni": 1,
+              "izoh": "Bittasini tanlang — bugun, ertaga va shu haftada aniq qadam qo'yishingiz mumkin bo'lganini."
+            }
+          ]
         },
         {
           "turi": "checklist",

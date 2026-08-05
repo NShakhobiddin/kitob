@@ -50,7 +50,7 @@
         },
         {
           "turi": "slider",
-          "savol": "Ro'yxatingizdan bu hafta nechta odamni ko'rib chiqdingiz?",
+          "savol": "Qayta ko'rish ro'yxatingizdan bu hafta qancha qismi yopildi?",
           "min": 0,
           "max": 7,
           "min_yorliq": "0 marta",

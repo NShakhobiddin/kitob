@@ -89,7 +89,12 @@
       "mashqlar": [
         {
           "turi": "jurnal",
-          "savol": "Bitta maqsadingizni oling va uchta jumla yozing. 1) Xohish tilida: «Men buni juda xohlayman, chunki...». 2) Ichki niyat tilida: «Men bugun aynan shu qadamni qo'yaman». 3) Tashqi niyat tilida: «Bu menda bor va men uni oddiygina olaman». Uchalasini o'qib chiqib, qaysi biri ichingizda zo'riqishsiz turganini yozing."
+          "savol": "Bitta maqsadingizni oling va uni uch tilda yozing. Uchalasini o'qib chiqib, qaysi biri ichingizda zo'riqishsiz turganini oxirida qayd eting.",
+          "qadamlar": [
+            "Xohish tilida: «Men buni juda xohlayman, chunki...»",
+            "Ichki niyat tilida: «Men bugun aynan shu qadamni qo'yaman»",
+            "Tashqi niyat tilida: «Bu menda bor va men uni oddiygina olaman»"
+          ]
         },
         {
           "turi": "taymer",
@@ -268,8 +273,42 @@
       ],
       "mashqlar": [
         {
-          "turi": "jurnal",
-          "savol": "Ikki ustun tuzing: «Meni og'irlashtiradigan maqsadlar» va «Menga qanot beradigan maqsadlar». Har biriga kamida uchtadan yozing. Endi og'ir ustunga qarab, har birining yoniga javob bering: bu maqsad menga kimdan keldi — moda, oila, atrof yoki obro'dan? Oxirida qanot beruvchi ustundan bittasini tanlab, unga qarab birinchi qadamni yozing."
+          "turi": "juftlik",
+          "savol": "Maqsadlaringizni ikki ustunga bo'ling. Og'ir ustundagi har bir maqsad yoniga uning kimdan kelganini eslang; qanot beruvchi ustundan esa bittasini tanlab, birinchi qadamni qo'ying.",
+          "ustunlar": [
+            {
+              "sarlavha": "Og'irlashtiradigan",
+              "izoh": "O'zingizni ko'ndirishga to'g'ri keladigan maqsadlar — begona maqsad belgisi.",
+              "joy_matn": "Masalan: lavozim…"
+            },
+            {
+              "sarlavha": "Qanot beradigan",
+              "izoh": "O'ylaganda ichingiz yorishadigan maqsadlar.",
+              "joy_matn": "Masalan: o'z ishim…"
+            }
+          ]
+        },
+        {
+          "turi": "saralash",
+          "savol": "Sizning eshigingizni qidirish. Sizga oson va zavq bilan beriladigan barcha ishni yozing, keyin ularni ruhiy qulaylik bo'yicha siqing.",
+          "joy_matn": "Menga oson beriladigan ish…",
+          "bosqichlar": [
+            {
+              "nomi": "Hammasi",
+              "soni": 0,
+              "izoh": "Boshqalarga qiyin, sizga oson bo'lgan har narsani yozing — kichigi ham hisobga olinadi."
+            },
+            {
+              "nomi": "Ilhom beradigani",
+              "soni": 5,
+              "izoh": "Qaysilarini qilganda vaqt sezilmay o'tadi?"
+            },
+            {
+              "nomi": "Sizning eshigingiz",
+              "soni": 1,
+              "izoh": "Bittasini tanlang. Muallif ogohlantiradi: o'zingizni ko'ndirishga to'g'ri kelsa, bu Sizniki emas."
+            }
+          ]
         },
         {
           "turi": "checklist",

@@ -257,8 +257,25 @@
       ],
       "mashqlar": [
         {
-          "turi": "jurnal",
-          "savol": "Uch ustunli jadval tuzing: «Bizda bor» — «Xohlardim» — «Men uchun mumkin emas». Har bir ustunga kamida uchtadan narsa yozing. Keyin o'rtadagi ustunga qarang va yozing: qaysi biri haqida sherigingizga hech qachon aytmagansiz va nega?"
+          "turi": "juftlik",
+          "savol": "Yaqinlik jadvalini uch ustunda to'ldiring. To'ldirib bo'lgach o'rtadagi ustunga qarang: undagi qaysi biri haqida sherigingizga hech qachon aytmagansiz?",
+          "ustunlar": [
+            {
+              "sarlavha": "Bizda bor",
+              "izoh": "Munosabatingizda hozir chindan mavjud bo'lgan narsalar.",
+              "joy_matn": "Masalan: birga sayr…"
+            },
+            {
+              "sarlavha": "Xohlardim",
+              "izoh": "Bo'lishini istaysiz, lekin hali yo'q.",
+              "joy_matn": "Masalan: haftada bir kechа…"
+            },
+            {
+              "sarlavha": "Menga mumkin emas",
+              "izoh": "O'zingizga taqiqlab qo'ygan narsalar.",
+              "joy_matn": "Masalan: buni so'rash…"
+            }
+          ]
         },
         {
           "turi": "checklist",
@@ -450,8 +467,26 @@
       ],
       "mashqlar": [
         {
-          "turi": "jurnal",
-          "savol": "Kitobning asosiy mashqi. 1-bosqich: hech qanday cheklovsiz yigirmata maqsad yozing. 2-bosqich: bir yilingiz qoldi deb tasavvur qiling va faqat beshtasini qoldiring. 3-bosqich: yigirma to'rt soatingiz qoldi — faqat uchtasini qoldiring. Uchtasini oxirida alohida yozib qo'ying: bu sizning hayotingizning haqiqiy maqsadi."
+          "turi": "saralash",
+          "savol": "Kitobning markaziy mashqi. Avval yigirmata hayotiy maqsad yozing, keyin «bir yil qoldi» sharti bilan beshtasini, so'ng «yigirma to'rt soat qoldi» sharti bilan uchtasini qoldiring.",
+          "joy_matn": "Yangi maqsad…",
+          "bosqichlar": [
+            {
+              "nomi": "Yigirmata",
+              "soni": 20,
+              "izoh": "Hech qanday cheklovsiz yozing. Nima xohlashingizni bilmasangiz ham yozing — muallif shuni talab qiladi."
+            },
+            {
+              "nomi": "Bir yil qoldi",
+              "soni": 5,
+              "izoh": "Shifokor sizga bir yil qolganini aytdi. Faqat beshtasini qoldiring."
+            },
+            {
+              "nomi": "24 soat qoldi",
+              "soni": 3,
+              "izoh": "Ertaga siz bo'lmaysiz. Uchtasini tanlang — muallifga ko'ra bu sizning haqiqiy maqsadingiz. Qo'rquv emas, xotirjamlik kelishi kerak."
+            }
+          ]
         },
         {
           "turi": "eslatma",

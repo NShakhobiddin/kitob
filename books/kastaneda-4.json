@@ -248,12 +248,9 @@
           ]
         },
         {
-          "turi": "slider",
-          "savol": "Tushda qo'llaringizni necha marta topdingiz?",
-          "min": 0,
-          "max": 7,
-          "min_yorliq": "0 kun",
-          "max_yorliq": "7 kun"
+          "turi": "sanagich",
+          "savol": "Bu hafta tushingizda qo'llaringizni necha marta topdingiz?",
+          "korsatma": "Tushdagi tana amaliyotining birinchi o'lchovi. Har muvaffaqiyatli topishni ertalab bosib qo'ying."
         }
       ]
     },

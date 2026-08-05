@@ -193,8 +193,20 @@
       ],
       "mashqlar": [
         {
-          "turi": "jurnal",
-          "savol": "Xohlagan o'zgarishingizni yozing. Endi ikkita ustun tuzing: «nima olaman» va «nimadan voz kechaman». Ikkinchi ustunga rostini yozing — kamida uchta band bo'lsin."
+          "turi": "juftlik",
+          "savol": "Xohlagan o'zgarishingizni oling va uning narxini hisoblang. Ikkinchi ustunga rostini yozing — kamida uchta band bo'lsin.",
+          "ustunlar": [
+            {
+              "sarlavha": "Nima olaman",
+              "izoh": "O'zgarish nima keltiradi.",
+              "joy_matn": "Masalan: erkin vaqt…"
+            },
+            {
+              "sarlavha": "Nimadan voz kechaman",
+              "izoh": "O'zgarish nimani olib ketadi.",
+              "joy_matn": "Masalan: tanish tartib…"
+            }
+          ]
         },
         {
           "turi": "slider",

@@ -87,8 +87,26 @@
       ],
       "mashqlar": [
         {
-          "turi": "jurnal",
-          "savol": "Sizni eng ko'p tortib oladigan uchta mayatnikni nomlang — bu odam, guruh, yangilik oqimi yoki takrorlanuvchi janjal bo'lishi mumkin. Har birining yoniga yozing: u meni qaysi tuyg'u orqali ushlaydi va uning ssenariysi qanday ketadi? Oxirida bittasini tanlab, unga sig'maydigan bitta harakat yozing."
+          "turi": "saralash",
+          "savol": "Sizni eng ko'p tortib oladigan mayatniklarni ro'yxatga oling — odam, guruh, yangilik oqimi yoki takrorlanuvchi janjal. Keyin bittasini tanlab, unga sig'maydigan harakat qiling.",
+          "joy_matn": "Mayatnik: kim yoki nima…",
+          "bosqichlar": [
+            {
+              "nomi": "Mayatniklar",
+              "soni": 0,
+              "izoh": "Sizni tuyg'u orqali ushlab turadigan hamma narsani yozing."
+            },
+            {
+              "nomi": "Eng kuchli uchtasi",
+              "soni": 3,
+              "izoh": "Sizdan eng ko'p energiya oladiganini tanlang."
+            },
+            {
+              "nomi": "Bugun provallayman",
+              "soni": 1,
+              "izoh": "Bittasini tanlang: bugun unga kutilgan javobni bermaysiz."
+            }
+          ]
         },
         {
           "turi": "test",
@@ -119,12 +137,9 @@
           ]
         },
         {
-          "turi": "slider",
-          "savol": "Bugun sizni provokatsiyalar qanchalik ushlab qoldi?",
-          "min": 1,
-          "max": 10,
-          "min_yorliq": "Har safar ilindim",
-          "max_yorliq": "Bittasiga ham ilinmadim"
+          "turi": "sanagich",
+          "savol": "Bugun necha marta provokatsiyaga javob bermadingiz?",
+          "korsatma": "Mayatnik kutgan yurishni bermagan har bir safaringizni sanang: kutilgan javob berilmasa, mayatnik oziqsiz qoladi."
         }
       ]
     },

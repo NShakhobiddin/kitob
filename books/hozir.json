@@ -52,12 +52,9 @@
           ]
         },
         {
-          "turi": "slider",
-          "savol": "Bugun ovoz sizni boshqardimi yoki siz uni eshitdingizmi?",
-          "min": 1,
-          "max": 10,
-          "min_yorliq": "Butunlay ular edim",
-          "max_yorliq": "Ularni kuzatib turdim"
+          "turi": "sanagich",
+          "savol": "Bugun boshingizdagi ovozni necha marta chetdan eshitdingiz?",
+          "korsatma": "Fikrga qo'shilib ketmasdan, uni eshitayotganingizni sezgan har bir lahza — bitta bosish."
         }
       ]
     },
@@ -264,8 +261,20 @@
       ],
       "mashqlar": [
         {
-          "turi": "jurnal",
-          "savol": "Hozir ichingizda qarshilik turgan bitta vaziyatni yozing. Uni ikki ustunga bo'ling: chapga aqlingiz aytayotgan gaplarni, o'ngga tanangizdagi sezgini yozing. Keyin uchta yo'ldan birini ongli tanlang va yozing: o'zgartiraman, chiqaman yoki to'liq qabul qilaman. Tanlagan yo'lingiz uchun bugungi bitta qadamni ham qo'shing."
+          "turi": "juftlik",
+          "savol": "Hozir ichingizda qarshilik turgan vaziyatni ikkiga ajrating: aql nima deyapti va tana nima sezyapti? To'ldirib bo'lgach uchta yo'ldan birini tanlang — o'zgartiraman, chiqaman yoki qabul qilaman.",
+          "ustunlar": [
+            {
+              "sarlavha": "Aql nima deyapti",
+              "izoh": "Fikrlar, hukmlar, dalillar — so'zma-so'z yozing.",
+              "joy_matn": "Masalan: bu adolatsiz…"
+            },
+            {
+              "sarlavha": "Tana nima sezyapti",
+              "izoh": "Faqat jismoniy sezgi: qayerda, qanday.",
+              "joy_matn": "Masalan: ko'krakda siqilish…"
+            }
+          ]
         },
         {
           "turi": "checklist",

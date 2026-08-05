@@ -48,12 +48,9 @@
           ]
         },
         {
-          "turi": "slider",
-          "savol": "Bugun dunyoni necha marta to'xtata oldingiz — ichki gapsiz qolgan lahzalar ko'pmi?",
-          "min": 1,
-          "max": 10,
-          "min_yorliq": "Bir soniya ham tinmaydi",
-          "max_yorliq": "Ko'pincha jim"
+          "turi": "sanagich",
+          "savol": "Bugun ichki suhbat necha marta uzildi?",
+          "korsatma": "Don Xuanning «dunyoni to'xtatish» amaliyoti. Ichki gap bir necha soniyaga ham to'xtaganini sezsangiz, darrov bosing."
         }
       ]
     },

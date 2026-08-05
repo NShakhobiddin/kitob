@@ -519,7 +519,7 @@
         },
         {
           "turi": "slider",
-          "savol": "Bugungi seansda necha foiz to'g'ri chiqdi?",
+          "savol": "Kartalar bo'yicha bugungi natijangiz necha foiz?",
           "min": 0,
           "max": 100,
           "min_yorliq": "0%",
