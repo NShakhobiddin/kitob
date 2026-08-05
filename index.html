@@ -572,6 +572,195 @@
   }
   .variant.tanlangan .harf { background: var(--asos); color: #fff; }
 
+  /* --- Amaliyot elementlari --- */
+  .izohcha-matn {
+    font-size: 12.5px; color: var(--matn-xira); line-height: 1.5;
+    margin: -4px 0 10px;
+  }
+  .mayda-tug {
+    background: none; border: none; color: var(--matn-xira);
+    font: inherit; font-size: 11.5px; cursor: pointer; padding: 4px 6px;
+    border-radius: 8px; flex: 0 0 auto;
+  }
+  .mayda-tug:hover { color: var(--asos); background: var(--asos-och); }
+  .tugmalar.chapga { justify-content: flex-start; margin-top: 12px; }
+  .bosh-holat { font-size: 13px; color: var(--matn-xira); padding: 10px 2px; }
+
+  /* Bosqichli savol maydonlari */
+  .qadam { margin-bottom: 12px; }
+  .qadam-bosh {
+    display: flex; gap: 9px; align-items: flex-start;
+    font-size: 13.5px; font-weight: 500; margin-bottom: 7px; line-height: 1.45;
+  }
+  .qadam-raqam {
+    flex: 0 0 auto; width: 19px; height: 19px; border-radius: 50%;
+    background: var(--asos-och); color: var(--asos);
+    display: grid; place-items: center; font-size: 11px; font-weight: 600;
+  }
+  .mashq-orin.ottenka-b .qadam-raqam { background: var(--asos-b-och); color: var(--asos-b); }
+  textarea.past { min-height: 68px; }
+
+  /* Eski yozuvlar */
+  .tarix { margin-top: 10px; border-top: 1px solid var(--chegara); padding-top: 10px; }
+  .tarix-yozuv + .tarix-yozuv { border-top: 1px solid var(--chegara); margin-top: 10px; padding-top: 10px; }
+  .tarix-bosh { display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px; }
+  .tarix-yozuv p { font-size: 13.5px; line-height: 1.55; margin: 3px 0; color: var(--matn-xira); }
+  .yozuv-sana { font-size: 11.5px; font-weight: 600; color: var(--asos); }
+
+  /* Kunlik panjara */
+  .panjara { display: flex; gap: 5px; margin-top: 11px; }
+  .panjara-kun {
+    flex: 1 1 0; height: 28px; border-radius: 8px;
+    display: grid; place-items: center; font-size: 10.5px; font-weight: 600;
+    background: rgba(30,58,138,.07); color: var(--matn-xira);
+  }
+  .panjara-kun.qisman { background: var(--asos-och); color: var(--asos); }
+  .panjara-kun.toliq { background: var(--asos); color: #fff; }
+  .mashq-orin.ottenka-b .panjara-kun.qisman { background: var(--asos-b-och); color: var(--asos-b); }
+  .mashq-orin.ottenka-b .panjara-kun.toliq { background: var(--asos-b); }
+
+  /* Sparkline */
+  .chizmacha { width: 100%; height: 34px; margin-top: 12px; display: block; overflow: visible; }
+  .chizmacha path { fill: none; stroke: var(--asos); stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+  .chizmacha circle { fill: var(--asos); }
+  .mashq-orin.ottenka-b .chizmacha path { stroke: var(--asos-b); }
+  .mashq-orin.ottenka-b .chizmacha circle { fill: var(--asos-b); }
+  .slider-qiymat .farq { font-size: 13px; font-weight: 600; margin-left: 8px; vertical-align: 6px; }
+  .slider-qiymat .farq.osdi { color: #2f7a63; }
+  .slider-qiymat .farq.tushdi { color: #b0512a; }
+
+  /* Sanagich */
+  .sanagich-orin { display: flex; align-items: center; justify-content: center; gap: 20px; margin: 6px 0 4px; }
+  .sanoq-son { font-size: 40px; font-weight: 700; color: var(--asos); min-width: 62px; text-align: center; line-height: 1.1; }
+  .mashq-orin.ottenka-b .sanoq-son { color: var(--asos-b); }
+  .dumaloq-tug.sanoq-kop, .dumaloq-tug.sanoq-kam {
+    width: 46px; height: 46px; font-size: 24px; font-weight: 400;
+    background: var(--karta); border: 1px solid var(--chegara); color: var(--asos);
+    box-shadow: var(--soya-past);
+  }
+  .dumaloq-tug.sanoq-kop { background: var(--asos); color: #fff; border-color: var(--asos); }
+  .mashq-orin.ottenka-b .dumaloq-tug.sanoq-kop { background: var(--asos-b); border-color: var(--asos-b); }
+  .dumaloq-tug:disabled { opacity: .4; }
+  .ustunchalar { display: flex; gap: 5px; align-items: flex-end; height: 56px; margin-top: 12px; }
+  .ustuncha { flex: 1 1 0; display: flex; flex-direction: column; align-items: center; height: 100%; justify-content: flex-end; }
+  .ustuncha i {
+    display: block; width: 100%; min-height: 3px; border-radius: 5px 5px 2px 2px;
+    background: var(--asos-och); transition: height .25s;
+  }
+  .ustuncha span { font-size: 10px; color: var(--matn-xira); margin-top: 4px; }
+  .mashq-orin.ottenka-b .ustuncha i { background: var(--asos-b-och); }
+
+  /* Baholash tugmalari (taymer oldin/keyin) */
+  .baho-qator {
+    background: var(--karta); border: 1px solid var(--chegara);
+    border-radius: 14px; padding: 11px 13px; margin-bottom: 12px;
+  }
+  .baho-qator.toliq { width: 100%; margin: 0; }
+  .baho-yorliq { display: block; font-size: 12.5px; color: var(--matn-xira); margin-bottom: 8px; }
+  .baho-tugmalar { display: flex; gap: 7px; }
+  .baho-tug {
+    flex: 1 1 0; background: var(--asos-och-2); border: 1px solid var(--chegara);
+    color: var(--asos); border-radius: 11px; padding: 9px 0;
+    font: inherit; font-size: 14px; font-weight: 600; cursor: pointer;
+    transition: all .16s;
+  }
+  .baho-tug.tanlangan { background: var(--asos); color: #fff; border-color: var(--asos); }
+  .mashq-orin.ottenka-b .baho-tug { color: var(--asos-b); }
+  .mashq-orin.ottenka-b .baho-tug.tanlangan { background: var(--asos-b); color: #fff; border-color: var(--asos-b); }
+
+  /* Bosqich / ustun tanlash */
+  .bosqich-tanlov { display: flex; gap: 7px; margin-bottom: 12px; flex-wrap: wrap; }
+  .bosqich-tug {
+    flex: 1 1 auto; background: var(--karta); border: 1px solid var(--chegara);
+    color: var(--matn-xira); border-radius: 12px; padding: 8px 11px;
+    font: inherit; font-size: 12.5px; font-weight: 500; cursor: pointer;
+    display: flex; align-items: center; justify-content: center; gap: 6px;
+    transition: all .16s;
+  }
+  .bosqich-tug.faol { border-color: var(--asos); background: var(--asos-och); color: var(--asos); font-weight: 600; }
+  .bosqich-tug.yopiq { opacity: .45; cursor: default; }
+  .bosqich-son {
+    font-size: 11px; font-weight: 700; background: var(--asos-och-2);
+    border-radius: 999px; padding: 1px 7px; color: var(--asos);
+  }
+  .bosqich-tug.faol .bosqich-son { background: #fff; }
+  .mashq-orin.ottenka-b .bosqich-tug.faol { border-color: var(--asos-b); background: var(--asos-b-och); color: var(--asos-b); }
+  .mashq-orin.ottenka-b .bosqich-son { color: var(--asos-b); }
+
+  /* Qator kiritish (saralash / juftlik) */
+  .qator-kiritish { display: flex; gap: 8px; margin-bottom: 10px; }
+  .qator-kiritish input[type=text] { flex: 1 1 auto; min-width: 0; }
+  .qator-kiritish .tug { flex: 0 0 auto; padding: 9px 15px; }
+
+  /* Saralash ro'yxati */
+  .saralash-royxat { border-top: 1px solid var(--chegara); }
+  .saralash-band { display: flex; align-items: center; gap: 4px; border-bottom: 1px solid var(--chegara); }
+  .saralash-matn {
+    flex: 1 1 auto; display: flex; gap: 11px; align-items: flex-start;
+    background: none; border: none; text-align: left; cursor: pointer;
+    padding: 10px 0; font: inherit; font-size: 14.5px; color: var(--matn);
+  }
+  .saralash-band.tanlangan .quti { background: var(--asos); border-color: var(--asos); }
+  .saralash-band.tanlangan .yorliq { font-weight: 600; color: var(--asos); }
+  .mashq-orin.ottenka-b .saralash-band.tanlangan .quti { background: var(--asos-b); border-color: var(--asos-b); }
+  .mashq-orin.ottenka-b .saralash-band.tanlangan .yorliq { color: var(--asos-b); }
+  .natija-quti {
+    margin-top: 12px; background: var(--asos-och); border-radius: var(--r-orta); padding: 12px 14px;
+  }
+  .mashq-orin.ottenka-b .natija-quti { background: var(--asos-b-och); }
+  .natija-bosh {
+    font-size: 10.5px; letter-spacing: .08em; text-transform: uppercase;
+    font-weight: 700; color: var(--asos); margin-bottom: 6px;
+  }
+  .mashq-orin.ottenka-b .natija-bosh { color: var(--asos-b); }
+  .natija-quti p { font-size: 14px; line-height: 1.55; margin: 3px 0; font-weight: 500; }
+
+  /* Juftlik ustunlari */
+  .ustunlar-orin { display: flex; gap: 8px; align-items: flex-start; }
+  .ustun-quti {
+    flex: 1 1 0; min-width: 0; background: var(--karta);
+    border: 1px solid var(--chegara); border-radius: 13px; padding: 10px 11px;
+  }
+  .ustun-quti.faol { border-color: var(--asos); }
+  .mashq-orin.ottenka-b .ustun-quti.faol { border-color: var(--asos-b); }
+  .ustun-bosh {
+    font-size: 11px; font-weight: 700; color: var(--asos);
+    margin-bottom: 7px; line-height: 1.35;
+  }
+  .mashq-orin.ottenka-b .ustun-bosh { color: var(--asos-b); }
+  .ustun-band {
+    display: flex; align-items: flex-start; gap: 3px;
+    font-size: 13px; line-height: 1.5; padding: 5px 0;
+  }
+  .ustun-band + .ustun-band { border-top: 1px solid var(--chegara); }
+  .ustun-band span { flex: 1 1 auto; min-width: 0; word-break: break-word; }
+  @media (max-width: 400px) { .ustunlar-orin { flex-direction: column; } .ustun-quti { width: 100%; } }
+
+  /* «Bugun» paneli */
+  .bugun-quti {
+    background: var(--asos); color: #fff; border-radius: var(--r-orta);
+    padding: 14px 16px; margin-bottom: var(--bo-4);
+  }
+  .bugun-bosh {
+    font-size: 10.5px; letter-spacing: .1em; text-transform: uppercase;
+    font-weight: 700; opacity: .78; margin-bottom: 9px;
+  }
+  .bugun-qator {
+    display: flex; align-items: center; gap: 9px;
+    font-size: 13.5px; padding: 6px 0; width: 100%;
+    background: none; border: none; color: #fff; text-align: left;
+    font-family: var(--sans); cursor: pointer;
+  }
+  .bugun-qator + .bugun-qator { border-top: 1px solid rgba(255,255,255,.16); }
+  .bugun-nishon {
+    flex: 0 0 auto; width: 22px; height: 22px; border-radius: 7px;
+    background: rgba(255,255,255,.18); display: grid; place-items: center; font-size: 11px;
+  }
+  .bugun-qator.tayyor { opacity: .55; }
+  .bugun-qator.tayyor .bugun-nishon { background: rgba(255,255,255,.32); }
+  .bugun-matn { flex: 1 1 auto; min-width: 0; }
+  .bugun-matn small { display: block; font-size: 11px; opacity: .7; margin-top: 1px; }
+
   /* --- Tush kundaligi --- */
   input[type=text], input[type=time] {
     background: var(--karta); color: var(--matn);
@@ -960,22 +1149,119 @@ function useSaqlash(k, standart) {
   return [qiymat, yangila, saqlandi];
 }
 
-/* ==================== Jarayon hisobi ==================== */
+/* ==================== Amaliyot yadrosi ==================== */
+/* Mashq — bir martalik javob emas, takrorlanadigan amaliyot.
+   Har bir tur {kunlar: {'YYYY-MM-DD': ...}} shaklida tarix saqlaydi.
+   Eski (bir martalik) qiymatlar o'qishda avtomatik ko'chiriladi. */
 
-/* Mashq "bajarilgan" deb hisoblanadimi — saqlangan qiymatga qarab */
-function mashqBajarilgan(m, q) {
-  if (q === null || q === undefined) return false;
-  switch (m.turi) {
-    case 'jurnal': return typeof q === 'string' && q.trim().length > 0;
-    case 'checklist': return Array.isArray(q) && (m.bandlar || []).length > 0 && q.length >= m.bandlar.length;
-    case 'slider': return typeof q === 'number';
-    case 'test': return q !== null;
-    case 'taymer': return Boolean(q && q.marta);
-    case 'kundalik': return Array.isArray(q) && q.length > 0;
-    case 'eslatma': return Boolean(q && q.yoniq);
-    default: return false;
+function bugunKalit() { return sanaKalit(new Date()); }
+
+/* Eski shakldagi qiymatni yangi {kunlar:…} shakliga keltiradi */
+function koch(turi, q) {
+  const bosh = { kunlar: {} };
+  if (q === null || q === undefined) return bosh;
+  if (q && typeof q === 'object' && q.kunlar) return q;
+
+  const kun = (q && q.oxirgi) || bugunKalit();
+  switch (turi) {
+    case 'jurnal':
+      if (typeof q === 'string' && q.trim()) {
+        return { kunlar: {}, yozuvlar: [{ sana: kun, qismlar: [q] }] };
+      }
+      return bosh;
+    case 'checklist':
+      if (Array.isArray(q)) { const k = {}; k[kun] = q; return { kunlar: k }; }
+      return bosh;
+    case 'slider':
+      if (typeof q === 'number') { const k = {}; k[kun] = q; return { kunlar: k }; }
+      return bosh;
+    case 'sanagich':
+      if (typeof q === 'number') { const k = {}; k[kun] = q; return { kunlar: k }; }
+      return bosh;
+    case 'taymer':
+      if (q && q.marta) {
+        const s = [];
+        for (let i = 0; i < q.marta; i++) s.push({ sana: kun });
+        return { kunlar: {}, seanslar: s };
+      }
+      return bosh;
+    case 'test':
+      if (typeof q === 'number') return { kunlar: {}, javoblar: [{ sana: kun, j: q }] };
+      return bosh;
+    default:
+      return bosh;
   }
 }
+
+/* Tarixdagi kunlarni yangidan eskiga qarab qaytaradi */
+function kunRoyxat(d) {
+  return Object.keys((d && d.kunlar) || {}).sort().reverse();
+}
+
+/* Ketma-ket kunlar seriyasi — bugundan yoki kechadan orqaga */
+function kunSeriya(sanalar) {
+  const bor = {};
+  sanalar.forEach(function (s) { bor[s] = true; });
+  const kun = new Date();
+  if (!bor[sanaKalit(kun)]) kun.setDate(kun.getDate() - 1);
+  let n = 0;
+  while (bor[sanaKalit(kun)]) { n++; kun.setDate(kun.getDate() - 1); }
+  return n;
+}
+
+/* Oxirgi n kunning sana kalitlari, eskidan yangiga */
+function oxirgiKunlar(n) {
+  const r = [];
+  for (let i = n - 1; i >= 0; i--) {
+    const d = new Date();
+    d.setDate(d.getDate() - i);
+    r.push(sanaKalit(d));
+  }
+  return r;
+}
+
+/* Mashq umuman boshlanganmi — jarayon foizi shundan chiqadi (orqaga qaytmaydi) */
+function mashqBajarilgan(m, xom) {
+  const q = koch(m.turi, xom);
+  switch (m.turi) {
+    case 'jurnal': return ((q.yozuvlar || []).length > 0);
+    case 'test': return ((q.javoblar || []).length > 0);
+    case 'taymer': return ((q.seanslar || []).length > 0);
+    case 'saralash': return Boolean(q.bandlar && q.bandlar.length);
+    case 'juftlik': return Boolean(q.ustunlar && q.ustunlar.some(function (u) { return (u || []).length; }));
+    case 'kundalik': return Array.isArray(xom) ? xom.length > 0 : ((q.yozuvlar || []).length > 0);
+    case 'eslatma': return Boolean(xom && xom.yoniq);
+    default: return kunRoyxat(q).length > 0;
+  }
+}
+
+/* Bu mashq bugun bajarildimi — "Bugun" paneli shu asosda quriladi */
+function mashqBugun(m, xom) {
+  const q = koch(m.turi, xom);
+  const b = bugunKalit();
+  switch (m.turi) {
+    case 'checklist': {
+      const bugun = (q.kunlar || {})[b] || [];
+      return (m.bandlar || []).length > 0 && bugun.length >= (m.bandlar || []).length;
+    }
+    case 'slider':
+    case 'sanagich':
+      return (q.kunlar || {})[b] !== undefined;
+    case 'taymer':
+      return (q.seanslar || []).some(function (s) { return s.sana === b; });
+    case 'jurnal':
+      return (q.yozuvlar || []).some(function (y) { return y.sana === b; });
+    case 'kundalik':
+      return (Array.isArray(xom) ? xom : []).some(function (y) { return y.sana === b; });
+    case 'eslatma':
+      return Boolean(xom && xom.yoniq);
+    default:
+      return mashqBajarilgan(m, xom);
+  }
+}
+
+/* Har kuni takrorlanadigan turlar — "Bugun" panelida ko'rsatiladi */
+const KUNLIK_TURLAR = { checklist: 1, slider: 1, sanagich: 1, taymer: 1, kundalik: 1 };
 
 /* Kitob bo'yicha: jami mashq, bajarilgani va foizi */
 function kitobHisob(kitob) {
@@ -1010,49 +1296,191 @@ function mashqlarniYig(barcha, turi) {
 
 /* ==================== Mashqlar ==================== */
 
-/* --- Jurnal: textarea + avtosaqlash --- */
+/* --- Sparkline: oxirgi kunlar qiymatlari --- */
+function Chizmacha(props) {
+  const nuqtalar = props.nuqtalar || [];
+  const min = props.min, max = props.max;
+  const bor = nuqtalar.filter(function (n) { return n.q !== undefined; });
+  if (bor.length < 2) return null;
+  const W = 100, H = 30, oraliq = Math.max(1, max - min);
+  const qadam = nuqtalar.length > 1 ? W / (nuqtalar.length - 1) : W;
+  let d = '', oldingi = null;
+  nuqtalar.forEach(function (n, i) {
+    if (n.q === undefined) return;
+    const x = i * qadam;
+    const y = H - ((n.q - min) / oraliq) * (H - 4) - 2;
+    d += (oldingi === null ? 'M' : 'L') + x.toFixed(1) + ' ' + y.toFixed(1) + ' ';
+    oldingi = i;
+  });
+  const oxirgi = bor[bor.length - 1];
+  const ox = nuqtalar.indexOf(oxirgi) * qadam;
+  const oy = H - ((oxirgi.q - min) / oraliq) * (H - 4) - 2;
+  return (
+    <svg className="chizmacha" viewBox={'0 0 ' + W + ' ' + H} preserveAspectRatio="none">
+      <path d={d.trim()} />
+      <circle cx={ox} cy={oy} r="2.6" />
+    </svg>
+  );
+}
+
+/* --- Kunlik panjara: oxirgi 7 kun --- */
+function Panjara(props) {
+  const kunlar = props.kunlar || [];
+  return (
+    <div className="panjara">
+      {kunlar.map(function (x, i) {
+        const t = x.ulush;
+        const daraja = t >= 1 ? 'toliq' : (t > 0 ? 'qisman' : 'bosh');
+        return (
+          <div key={i} className={'panjara-kun ' + daraja} title={x.sana}>
+            <span>{Number(String(x.sana).split('-')[2])}</span>
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
+/* --- Jurnal: bosqichli savollar + sanali yozuvlar --- */
+/* Bir savolga bir marta emas, vaqti-vaqti bilan qaytib yozish uchun */
 function Jurnal(props) {
-  const [matn, yangila, saqlandi] = useSaqlash(props.k, '');
+  const m = props.m;
+  const qadamlar = (m.qadamlar && m.qadamlar.length) ? m.qadamlar : null;
+  const nechta = qadamlar ? qadamlar.length : 1;
+  const [dala, yangila, saqlandi] = useSaqlash(props.k, null);
+  const d = koch('jurnal', dala);
+  const yozuvlar = d.yozuvlar || [];
+  const bugun = bugunKalit();
+  const bugungi = yozuvlar.filter(function (y) { return y.sana === bugun; })[0] || null;
+
+  const [qoralama, oQoralama] = useState(function () {
+    return (bugungi && bugungi.qismlar) ? bugungi.qismlar.slice() : new Array(nechta).fill('');
+  });
+  const [ochiq, oOchiq] = useState(false);
+
+  function ozgar(i, v) {
+    const y = qoralama.slice();
+    y[i] = v;
+    oQoralama(y);
+  }
+
+  function saqla() {
+    const toza = qoralama.map(function (s) { return (s || '').trim(); });
+    if (!toza.some(Boolean)) return;
+    haptic('success');
+    const qolgan = yozuvlar.filter(function (y) { return y.sana !== bugun; });
+    yangila({ kunlar: d.kunlar || {}, yozuvlar: [{ sana: bugun, qismlar: toza }].concat(qolgan) });
+  }
+
+  function ochir(sana) {
+    haptic('warning');
+    yangila({ kunlar: d.kunlar || {}, yozuvlar: yozuvlar.filter(function (y) { return y.sana !== sana; }) });
+  }
+
+  const eskilar = yozuvlar.filter(function (y) { return y.sana !== bugun; });
+  const sozlar = qoralama.join(' ').trim().split(/\s+/).filter(Boolean).length;
+  const ozgargan = !bugungi || JSON.stringify(bugungi.qismlar) !== JSON.stringify(qoralama.map(function (s) { return (s || '').trim(); }));
+
   return (
     <div className="mashq">
-      <span className="mashq-turi">✍️ Jurnal</span>
-      <div className="mashq-savol">{props.m.savol}</div>
-      <textarea
-        value={matn}
-        placeholder="Bu yerga yozing…"
-        onChange={function (e) { yangila(e.target.value); }}
-      />
+      <span className="mashq-turi">✍️ Yozuv</span>
+      <div className="mashq-savol">{m.savol}</div>
+
+      {qadamlar ? qadamlar.map(function (q, i) {
+        return (
+          <div key={i} className="qadam">
+            <div className="qadam-bosh"><span className="qadam-raqam">{i + 1}</span>{q}</div>
+            <textarea
+              className="past"
+              value={qoralama[i] || ''}
+              placeholder="Javobingiz…"
+              onChange={function (e) { ozgar(i, e.target.value); }}
+            />
+          </div>
+        );
+      }) : (
+        <textarea
+          value={qoralama[0] || ''}
+          placeholder="Bu yerga yozing…"
+          onChange={function (e) { ozgar(0, e.target.value); }}
+        />
+      )}
+
+      <div className="tugmalar chapga">
+        <button className="tug asosiy" onClick={saqla} disabled={!sozlar || !ozgargan}>
+          {bugungi ? 'Bugungi yozuvni yangilash' : 'Bugungi yozuv sifatida saqlash'}
+        </button>
+        {eskilar.length ? (
+          <button className="tug jim" onClick={function () { haptic('select'); oOchiq(!ochiq); }}>
+            {eskilar.length} ta eski yozuv {ochiq ? '▲' : '▼'}
+          </button>
+        ) : null}
+      </div>
+
+      {ochiq ? (
+        <div className="tarix">
+          {eskilar.map(function (y) {
+            return (
+              <div key={y.sana} className="tarix-yozuv">
+                <div className="tarix-bosh">
+                  <span className="yozuv-sana">{sanaChirey(y.sana)}</span>
+                  <button className="mayda-tug" onClick={function () { ochir(y.sana); }}>o'chirish</button>
+                </div>
+                {(y.qismlar || []).map(function (s, i) {
+                  return s ? <p key={i}>{qadamlar ? (i + 1) + '. ' : ''}{s}</p> : null;
+                })}
+              </div>
+            );
+          })}
+        </div>
+      ) : null}
+
       <div className={'holat' + (saqlandi ? ' saqlandi' : '')}>
-        {saqlandi ? '✓ Saqlandi' : (matn ? matn.trim().split(/\s+/).filter(Boolean).length + ' so‘z' : 'Yozganingiz shu qurilmada saqlanadi')}
+        {saqlandi ? '✓ Saqlandi'
+          : (yozuvlar.length
+            ? yozuvlar.length + ' ta yozuv · oxirgisi ' + sanaChirey(yozuvlar[0].sana)
+            : 'Shu savolga vaqti-vaqti bilan qaytib yozing — yozuvlar sana bilan saqlanadi')}
       </div>
     </div>
   );
 }
 
-/* --- Checklist: belgilar + progress --- */
+/* --- Checklist: har kuni qaytariladigan ro'yxat + 7 kunlik panjara --- */
 function Checklist(props) {
   const bandlar = props.m.bandlar || [];
-  const [belgilar, yangila] = useSaqlash(props.k, []);
-  const xavfsiz = Array.isArray(belgilar) ? belgilar : [];
+  const [dala, yangila] = useSaqlash(props.k, null);
+  const d = koch('checklist', dala);
+  const bugun = bugunKalit();
+  const bugungi = (d.kunlar || {})[bugun] || [];
 
   function almashtir(i) {
     haptic('select');
-    const yangi = xavfsiz.indexOf(i) === -1
-      ? xavfsiz.concat([i])
-      : xavfsiz.filter(function (x) { return x !== i; });
-    yangila(yangi);
+    const yangi = bugungi.indexOf(i) === -1
+      ? bugungi.concat([i])
+      : bugungi.filter(function (x) { return x !== i; });
+    const kunlar = Object.assign({}, d.kunlar);
+    if (yangi.length) kunlar[bugun] = yangi; else delete kunlar[bugun];
+    yangila({ kunlar: kunlar });
     if (yangi.length === bandlar.length && bandlar.length > 0) haptic('success');
   }
 
-  const foiz = bandlar.length ? Math.round(xavfsiz.length / bandlar.length * 100) : 0;
+  const foiz = bandlar.length ? Math.round(bugungi.length / bandlar.length * 100) : 0;
+  const toliqKunlar = kunRoyxat(d).filter(function (s) {
+    return (d.kunlar[s] || []).length >= bandlar.length;
+  });
+  const ketma = kunSeriya(toliqKunlar);
+  const panjara = oxirgiKunlar(7).map(function (s) {
+    const n = ((d.kunlar || {})[s] || []).length;
+    return { sana: s, ulush: bandlar.length ? n / bandlar.length : 0 };
+  });
 
   return (
     <div className="mashq">
-      <span className="mashq-turi">☑️ Ro'yxat</span>
+      <span className="mashq-turi">☑️ Kunlik ro'yxat</span>
       {props.m.sarlavha ? <div className="mashq-savol">{props.m.sarlavha}</div> : null}
       <div>
         {bandlar.map(function (band, i) {
-          const bor = xavfsiz.indexOf(i) !== -1;
+          const bor = bugungi.indexOf(i) !== -1;
           return (
             <div
               key={i}
@@ -1070,33 +1498,60 @@ function Checklist(props) {
         })}
       </div>
       <div className="progress-chiziq"><i style={{ width: foiz + '%' }} /></div>
-      <div className="holat">{xavfsiz.length} / {bandlar.length} bajarildi — {foiz}%</div>
+      <Panjara kunlar={panjara} />
+      <div className="holat">
+        Bugun {bugungi.length} / {bandlar.length}
+        {ketma ? ' · ' + ketma + ' kun ketma-ket to‘liq' : ' · ro‘yxat har kuni yangilanadi'}
+      </div>
     </div>
   );
 }
 
-/* --- Slider: qiymat + "O'tgan safar" --- */
+/* --- O'lchov: kunlik qiymat + 14 kunlik chizmacha --- */
 function Slider(props) {
   const min = typeof props.m.min === 'number' ? props.m.min : 1;
   const max = typeof props.m.max === 'number' ? props.m.max : 10;
-  const oldingi = useRef(oqi(props.k, null));
-  const [qiymat, yangila, saqlandi] = useSaqlash(
-    props.k,
-    oldingi.current === null ? Math.round((min + max) / 2) : oldingi.current
-  );
+  const [dala, yangila, saqlandi] = useSaqlash(props.k, null);
+  const d = koch('slider', dala);
+  const bugun = bugunKalit();
+  const bugungi = (d.kunlar || {})[bugun];
+  const [qoralama, oQoralama] = useState(function () {
+    if (bugungi !== undefined) return bugungi;
+    const kunlar = kunRoyxat(d);
+    return kunlar.length ? d.kunlar[kunlar[0]] : Math.round((min + max) / 2);
+  });
+
+  function belgila(v) {
+    oQoralama(v);
+    const kunlar = Object.assign({}, d.kunlar);
+    kunlar[bugun] = v;
+    yangila({ kunlar: kunlar });
+  }
+
+  const tarixKunlari = kunRoyxat(d);
+  const oldingiSana = tarixKunlari.filter(function (s) { return s !== bugun; })[0];
+  const oldingi = oldingiSana !== undefined ? d.kunlar[oldingiSana] : null;
+  const qiymatlar = tarixKunlari.map(function (s) { return d.kunlar[s]; });
+  const ortacha = qiymatlar.length
+    ? Math.round(qiymatlar.reduce(function (a, b) { return a + b; }, 0) / qiymatlar.length * 10) / 10 : null;
+  const nuqtalar = oxirgiKunlar(14).map(function (s) { return { sana: s, q: (d.kunlar || {})[s] }; });
+  const farq = (bugungi !== undefined && oldingi !== null) ? bugungi - oldingi : null;
 
   return (
     <div className="mashq">
-      <span className="mashq-turi">🎚 Baholash</span>
+      <span className="mashq-turi">🎚 O'lchov</span>
       <div className="mashq-savol">{props.m.savol}</div>
-      <div className="slider-qiymat">{qiymat}</div>
+      <div className="slider-qiymat">
+        {qoralama}
+        {farq ? <span className={'farq ' + (farq > 0 ? 'osdi' : 'tushdi')}>{farq > 0 ? '▲' : '▼'}{Math.abs(farq)}</span> : null}
+      </div>
       <input
         type="range"
         min={min}
         max={max}
         step={1}
-        value={qiymat}
-        onChange={function (e) { yangila(Number(e.target.value)); }}
+        value={qoralama}
+        onChange={function (e) { belgila(Number(e.target.value)); }}
         onMouseUp={function () { haptic('light'); }}
         onTouchEnd={function () { haptic('light'); }}
       />
@@ -1104,10 +1559,58 @@ function Slider(props) {
         <span>{props.m.min_yorliq || min}</span>
         <span>{props.m.max_yorliq || max}</span>
       </div>
+      <Chizmacha nuqtalar={nuqtalar} min={min} max={max} />
       <div className={'holat' + (saqlandi ? ' saqlandi' : '')}>
-        {oldingi.current !== null
-          ? 'O‘tgan safar: ' + oldingi.current
-          : (saqlandi ? '✓ Saqlandi' : 'Qiymat avtomatik saqlanadi')}
+        {tarixKunlari.length > 1
+          ? tarixKunlari.length + ' kunlik o‘lchov · o‘rtacha ' + ortacha
+          : (bugungi !== undefined ? '✓ Bugungi qiymat yozildi' : 'Har kuni bir marta belgilang — chizmacha o‘zi chiziladi')}
+      </div>
+    </div>
+  );
+}
+
+/* --- Sanagich: kun davomida necha marta sodir bo'ldi --- */
+function Sanagich(props) {
+  const [dala, yangila] = useSaqlash(props.k, null);
+  const d = koch('sanagich', dala);
+  const bugun = bugunKalit();
+  const n = (d.kunlar || {})[bugun] || 0;
+
+  function ozgart(qadam) {
+    const yangi = Math.max(0, n + qadam);
+    haptic(qadam > 0 ? 'light' : 'select');
+    const kunlar = Object.assign({}, d.kunlar);
+    if (yangi) kunlar[bugun] = yangi; else delete kunlar[bugun];
+    yangila({ kunlar: kunlar });
+  }
+
+  const hafta = oxirgiKunlar(7).map(function (s) { return { sana: s, q: (d.kunlar || {})[s] || 0 }; });
+  const eng = Math.max(1, Math.max.apply(null, hafta.map(function (x) { return x.q; })));
+  const kunlar = kunRoyxat(d);
+  const jami = kunlar.reduce(function (a, s) { return a + d.kunlar[s]; }, 0);
+
+  return (
+    <div className="mashq">
+      <span className="mashq-turi">🔢 Sanagich</span>
+      <div className="mashq-savol">{props.m.savol}</div>
+      {props.m.korsatma ? <div className="izohcha-matn">{props.m.korsatma}</div> : null}
+      <div className="sanagich-orin">
+        <button className="dumaloq-tug sanoq-kam" onClick={function () { ozgart(-1); }} disabled={!n} aria-label="Kamaytirish">−</button>
+        <div className="sanoq-son">{n}</div>
+        <button className="dumaloq-tug sanoq-kop" onClick={function () { ozgart(1); }} aria-label="Qo'shish">+</button>
+      </div>
+      <div className="ustunchalar">
+        {hafta.map(function (x, i) {
+          return (
+            <div key={i} className="ustuncha" title={x.sana + ': ' + x.q}>
+              <i style={{ height: Math.round(x.q / eng * 100) + '%' }} />
+              <span>{Number(String(x.sana).split('-')[2])}</span>
+            </div>
+          );
+        })}
+      </div>
+      <div className="holat">
+        {kunlar.length ? kunlar.length + ' kunda jami ' + jami + ' marta' : 'Har safar sezganingizda bosing'}
       </div>
     </div>
   );
@@ -1120,14 +1623,30 @@ function Taymer(props) {
   const [ketmoqda, oKetmoqda] = useState(false);
   const [tugadi, oTugadi] = useState(false);
   const [natija, yangilaNatija] = useSaqlash(props.k, null);
-  const marta = (natija && natija.marta) || 0;
+  const d = koch('taymer', natija);
+  const seanslar = d.seanslar || [];
+  const marta = seanslar.length;
+  /* Seansdan oldingi holat — tugagach "keyin" bilan solishtiriladi */
+  const [oldin, oOldin] = useState(null);
+  const [soraldi, oSoraldi] = useState(false);
 
-  /* Tugaganda hisobni oshirib saqlaydi — jarayon foizi shundan chiqadi */
+  /* Tugaganda seansni yozadi; oldin/keyin bahosi keyin qo'shiladi */
   const belgilaTugadi = useCallback(function () {
-    const eski = oqi(props.k, null);
-    const n = ((eski && eski.marta) || 0) + 1;
-    yangilaNatija({ marta: n, oxirgi: sanaKalit(new Date()) });
-  }, [props.k, yangilaNatija]);
+    const eski = koch('taymer', oqi(props.k, null));
+    const yangiSeans = { sana: sanaKalit(new Date()), daqiqa: props.m.daqiqa || 5 };
+    yangilaNatija({ kunlar: eski.kunlar || {}, seanslar: [yangiSeans].concat(eski.seanslar || []) });
+    oSoraldi(true);
+  }, [props.k, yangilaNatija, props.m.daqiqa]);
+
+  /* Seans tugagach keyingi holatni yozadi */
+  function baho(keyin) {
+    haptic('success');
+    const eski = koch('taymer', oqi(props.k, null));
+    const s = (eski.seanslar || []).slice();
+    if (s.length) s[0] = Object.assign({}, s[0], { oldin: oldin, keyin: keyin });
+    yangilaNatija({ kunlar: eski.kunlar || {}, seanslar: s });
+    oSoraldi(false);
+  }
 
   useEffect(function () {
     if (!ketmoqda) return;
@@ -1149,12 +1668,12 @@ function Taymer(props) {
 
   function boshla() {
     haptic('medium');
-    if (tugadi) { oQolgan(jami); oTugadi(false); }
+    if (tugadi) { oQolgan(jami); oTugadi(false); oSoraldi(false); }
     oKetmoqda(!ketmoqda);
   }
   function qayta() {
     haptic('light');
-    oKetmoqda(false); oTugadi(false); oQolgan(jami);
+    oKetmoqda(false); oTugadi(false); oQolgan(jami); oSoraldi(false);
   }
 
   const daq = Math.floor(qolgan / 60);
@@ -1162,11 +1681,38 @@ function Taymer(props) {
   const R = 60;
   const uzunlik = 2 * Math.PI * R;
   const ulush = qolgan / jami;
+  const boshlanmagan = qolgan === jami && !ketmoqda && !tugadi;
+
+  /* Oldin/keyin juftligi bo'lgan seanslar bo'yicha o'rtacha siljish */
+  const juftlar = seanslar.filter(function (s) { return typeof s.oldin === 'number' && typeof s.keyin === 'number'; });
+  const siljish = juftlar.length
+    ? Math.round(juftlar.reduce(function (a, s) { return a + (s.keyin - s.oldin); }, 0) / juftlar.length * 10) / 10
+    : null;
+  const jamiDaqiqa = seanslar.reduce(function (a, s) { return a + (s.daqiqa || 0); }, 0);
+  const seriyaKun = kunSeriya(seanslar.map(function (s) { return s.sana; }));
 
   return (
     <div className="mashq">
-      <span className="mashq-turi">⏳ Taymer</span>
+      <span className="mashq-turi">⏳ Seans</span>
       {props.m.korsatma ? <div className="mashq-savol">{props.m.korsatma}</div> : null}
+
+      {boshlanmagan ? (
+        <div className="baho-qator">
+          <span className="baho-yorliq">Boshlashdan oldin holatingiz</span>
+          <div className="baho-tugmalar">
+            {[1, 2, 3, 4, 5].map(function (v) {
+              return (
+                <button
+                  key={v}
+                  className={'baho-tug' + (oldin === v * 2 ? ' tanlangan' : '')}
+                  onClick={function () { haptic('select'); oOldin(v * 2); }}
+                >{v * 2}</button>
+              );
+            })}
+          </div>
+        </div>
+      ) : null}
+
       <div className="taymer-orin">
         <div className="halqa">
           <svg width="132" height="132" viewBox="0 0 132 132">
@@ -1185,26 +1731,56 @@ function Taymer(props) {
           </button>
           <button className="tug jim" onClick={qayta}>Qayta</button>
         </div>
-        {tugadi ? <div className="izoh" style={{ width: '100%' }}>🌙 Mashq tugadi. O'zingizni qanday his qilyapsiz?</div> : null}
+
+        {soraldi ? (
+          <div className="baho-qator toliq">
+            <span className="baho-yorliq">Seansdan keyin holatingiz</span>
+            <div className="baho-tugmalar">
+              {[1, 2, 3, 4, 5].map(function (v) {
+                return (
+                  <button key={v} className="baho-tug" onClick={function () { baho(v * 2); }}>{v * 2}</button>
+                );
+              })}
+            </div>
+          </div>
+        ) : (tugadi ? <div className="izoh" style={{ width: '100%' }}>🌙 Seans yozildi.</div> : null)}
       </div>
+
       <div className="holat">
-        {marta ? 'Bu mashqni ' + marta + ' marta bajardingiz' : 'Taymer tugaganda bajarilgan deb belgilanadi'}
+        {marta
+          ? marta + ' seans · ' + jamiDaqiqa + ' daqiqa'
+            + (seriyaKun > 1 ? ' · ' + seriyaKun + ' kun ketma-ket' : '')
+            + (siljish !== null ? ' · o‘rtacha siljish ' + (siljish > 0 ? '+' : '') + siljish : '')
+          : 'Boshlashdan oldin holatingizni belgilang — tugagach farqi ko‘rinadi'}
       </div>
     </div>
   );
 }
 
-/* --- Test: variant tanlanganda izoh ochiladi --- */
+/* --- Savol: variant tanlanganda izoh; javoblar tarixi saqlanadi --- */
 function Test(props) {
   const variantlar = props.m.variantlar || [];
   const izohlar = props.m.izohlar || [];
-  const [tanlov, yangila] = useSaqlash(props.k, null);
+  const [dala, yangila] = useSaqlash(props.k, null);
+  const d = koch('test', dala);
+  const javoblar = d.javoblar || [];
+  const tanlov = javoblar.length ? javoblar[0].j : null;
   const harflar = 'ABCDEFGH';
 
   function tanla(i) {
     haptic('select');
-    yangila(tanlov === i ? null : i);
+    const bugun = bugunKalit();
+    if (tanlov === i) {
+      yangila({ kunlar: d.kunlar || {}, javoblar: javoblar.slice(1) });
+      return;
+    }
+    /* Shu kunda qayta tanlansa yozuv almashadi, boshqa kunda yangi qatlam qo'shiladi */
+    const qolgan = (javoblar[0] && javoblar[0].sana === bugun) ? javoblar.slice(1) : javoblar;
+    yangila({ kunlar: d.kunlar || {}, javoblar: [{ sana: bugun, j: i }].concat(qolgan) });
   }
+
+  const eskilar = javoblar.slice(1);
+  const ozgargan = eskilar.length && eskilar[0].j !== tanlov;
 
   return (
     <div className="mashq">
@@ -1222,7 +1798,243 @@ function Test(props) {
         );
       })}
       {tanlov !== null && izohlar[tanlov] ? <div className="izoh">{izohlar[tanlov]}</div> : null}
-      <div className="holat">To'g'ri yoki noto'g'ri javob yo'q — bu o'zingizni anglash uchun.</div>
+      <div className="holat">
+        {ozgargan
+          ? 'Fikringiz o‘zgardi: ' + sanaChirey(eskilar[0].sana) + ' kuni ' + (harflar[eskilar[0].j] || '?') + ' variantini tanlagansiz'
+          : (eskilar.length
+            ? 'Bu savolga ' + javoblar.length + ' marta javob bergansiz'
+            : 'To‘g‘ri yoki noto‘g‘ri javob yo‘q — bu o‘zingizni anglash uchun')}
+      </div>
+    </div>
+  );
+}
+
+/* --- Saralash: ro'yxat tuzib, uni bosqichma-bosqich siqish --- */
+/* Zelandning 20→5→3 va Norbekovning maqsad mashqi shu shaklda ishlaydi */
+function Saralash(props) {
+  const bosqichlar = props.m.bosqichlar || [];
+  const [dala, yangila] = useSaqlash(props.k, null);
+  const d = koch('saralash', dala);
+  const bandlar = d.bandlar || [];
+  const tanlov = d.tanlov || {};
+  const [matn, oMatn] = useState('');
+  const [bosqich, oBosqich] = useState(0);
+
+  function saqla(y) { yangila(Object.assign({ kunlar: d.kunlar || {} }, y)); }
+
+  function qosh() {
+    const t = matn.trim();
+    if (!t) return;
+    haptic('light');
+    saqla({ bandlar: bandlar.concat([t]), tanlov: tanlov });
+    oMatn('');
+  }
+
+  function ochir(i) {
+    haptic('warning');
+    const yangiTanlov = {};
+    Object.keys(tanlov).forEach(function (b) {
+      yangiTanlov[b] = tanlov[b].filter(function (x) { return x !== i; })
+        .map(function (x) { return x > i ? x - 1 : x; });
+    });
+    saqla({ bandlar: bandlar.filter(function (_, j) { return j !== i; }), tanlov: yangiTanlov });
+  }
+
+  /* Bosqichda tanlanadigan bandlar — oldingi bosqich natijasidan */
+  function manba(b) {
+    if (b === 0) return bandlar.map(function (_, i) { return i; });
+    return tanlov[b - 1] || [];
+  }
+
+  function almashtir(b, i) {
+    const joriy = tanlov[b] || [];
+    const chek = (bosqichlar[b] && bosqichlar[b].soni) || 0;
+    let yangi;
+    if (joriy.indexOf(i) !== -1) yangi = joriy.filter(function (x) { return x !== i; });
+    else {
+      if (chek && joriy.length >= chek) { haptic('warning'); return; }
+      yangi = joriy.concat([i]);
+    }
+    haptic('select');
+    const t = Object.assign({}, tanlov);
+    t[b] = yangi;
+    /* Keyingi bosqichlardan chiqib qolganlarni tozalaydi */
+    for (let n = b + 1; n < bosqichlar.length; n++) {
+      t[n] = (t[n] || []).filter(function (x) { return yangi.indexOf(x) !== -1; });
+    }
+    saqla({ bandlar: bandlar, tanlov: t });
+  }
+
+  const joriyBosqich = bosqichlar[bosqich] || null;
+  const korinadi = bosqich === 0 ? bandlar.map(function (_, i) { return i; }) : manba(bosqich);
+  const tanlangan = tanlov[bosqich] || [];
+  const chek = (joriyBosqich && joriyBosqich.soni) || 0;
+  const oxirgiBosqich = bosqichlar.length - 1;
+  const natija = (tanlov[oxirgiBosqich] || []).map(function (i) { return bandlar[i]; }).filter(Boolean);
+
+  return (
+    <div className="mashq">
+      <span className="mashq-turi">🎯 Saralash</span>
+      <div className="mashq-savol">{props.m.savol}</div>
+
+      <div className="bosqich-tanlov">
+        {bosqichlar.map(function (b, i) {
+          const ochiq = i === 0 || (tanlov[i - 1] || []).length > 0;
+          return (
+            <button
+              key={i}
+              className={'bosqich-tug' + (i === bosqich ? ' faol' : '') + (ochiq ? '' : ' yopiq')}
+              onClick={function () { if (ochiq) { haptic('select'); oBosqich(i); } }}
+              disabled={!ochiq}
+            >
+              {b.nomi}
+              {b.soni ? <span className="bosqich-son">{(tanlov[i] || []).length}/{b.soni}</span> : null}
+            </button>
+          );
+        })}
+      </div>
+
+      {joriyBosqich && joriyBosqich.izoh ? <div className="izohcha-matn">{joriyBosqich.izoh}</div> : null}
+
+      {bosqich === 0 ? (
+        <div className="qator-kiritish">
+          <input
+            type="text"
+            value={matn}
+            placeholder={props.m.joy_matn || 'Yangi band…'}
+            onChange={function (e) { oMatn(e.target.value); }}
+            onKeyDown={function (e) { if (e.key === 'Enter') { e.preventDefault(); qosh(); } }}
+          />
+          <button className="tug asosiy" onClick={qosh} disabled={!matn.trim()}>Qo'shish</button>
+        </div>
+      ) : null}
+
+      <div className="saralash-royxat">
+        {korinadi.length === 0 ? (
+          <div className="bosh-holat">
+            {bosqich === 0 ? 'Hozircha bo‘sh — yuqoridan band qo‘shing' : 'Avvalgi bosqichda tanlov qiling'}
+          </div>
+        ) : korinadi.map(function (i) {
+          const bor = tanlangan.indexOf(i) !== -1;
+          return (
+            <div key={i} className={'saralash-band' + (bor ? ' tanlangan' : '')}>
+              <button
+                className="saralash-matn"
+                onClick={function () { if (bosqich > 0 || chek) almashtir(bosqich, i); }}
+              >
+                <span className="quti">{bor ? '✓' : ''}</span>
+                <span className="yorliq">{bandlar[i]}</span>
+              </button>
+              {bosqich === 0 ? (
+                <button className="mayda-tug" onClick={function () { ochir(i); }} aria-label="O'chirish">✕</button>
+              ) : null}
+            </div>
+          );
+        })}
+      </div>
+
+      {natija.length ? (
+        <div className="natija-quti">
+          <div className="natija-bosh">{bosqichlar[oxirgiBosqich].nomi}</div>
+          {natija.map(function (t, i) { return <p key={i}>{i + 1}. {t}</p>; })}
+        </div>
+      ) : null}
+
+      <div className="holat">
+        {bandlar.length
+          ? bandlar.length + ' band · ' + (chek ? 'shu bosqichda ' + tanlangan.length + '/' + chek + ' tanlandi' : 'ro‘yxatni to‘ldiring')
+          : 'Avval ro‘yxatni to‘ldiring, keyin uni bosqichma-bosqich siqasiz'}
+      </div>
+    </div>
+  );
+}
+
+/* --- Juftlik: ikki yoki uch ustunni yonma-yon to'ldirish --- */
+function Juftlik(props) {
+  const ustunlar = props.m.ustunlar || [];
+  const [dala, yangila] = useSaqlash(props.k, null);
+  const d = koch('juftlik', dala);
+  const qiymat = d.ustunlar || ustunlar.map(function () { return []; });
+  const [faol, oFaol] = useState(0);
+  const [matn, oMatn] = useState('');
+
+  function saqla(u) { yangila({ kunlar: d.kunlar || {}, ustunlar: u }); }
+
+  function qosh() {
+    const t = matn.trim();
+    if (!t) return;
+    haptic('light');
+    const u = qiymat.map(function (x) { return (x || []).slice(); });
+    while (u.length < ustunlar.length) u.push([]);
+    u[faol] = u[faol].concat([t]);
+    saqla(u);
+    oMatn('');
+  }
+
+  function ochir(ui, i) {
+    haptic('warning');
+    const u = qiymat.map(function (x) { return (x || []).slice(); });
+    u[ui] = u[ui].filter(function (_, j) { return j !== i; });
+    saqla(u);
+  }
+
+  const jami = qiymat.reduce(function (a, x) { return a + (x || []).length; }, 0);
+
+  return (
+    <div className="mashq">
+      <span className="mashq-turi">⚖️ Taqqoslash</span>
+      <div className="mashq-savol">{props.m.savol}</div>
+
+      <div className="bosqich-tanlov">
+        {ustunlar.map(function (u, i) {
+          return (
+            <button
+              key={i}
+              className={'bosqich-tug' + (i === faol ? ' faol' : '')}
+              onClick={function () { haptic('select'); oFaol(i); }}
+            >
+              {u.sarlavha}
+              <span className="bosqich-son">{(qiymat[i] || []).length}</span>
+            </button>
+          );
+        })}
+      </div>
+
+      {ustunlar[faol] && ustunlar[faol].izoh ? <div className="izohcha-matn">{ustunlar[faol].izoh}</div> : null}
+
+      <div className="qator-kiritish">
+        <input
+          type="text"
+          value={matn}
+          placeholder={(ustunlar[faol] && ustunlar[faol].joy_matn) || 'Yangi band…'}
+          onChange={function (e) { oMatn(e.target.value); }}
+          onKeyDown={function (e) { if (e.key === 'Enter') { e.preventDefault(); qosh(); } }}
+        />
+        <button className="tug asosiy" onClick={qosh} disabled={!matn.trim()}>Qo'shish</button>
+      </div>
+
+      <div className="ustunlar-orin">
+        {ustunlar.map(function (u, ui) {
+          const bandlar = qiymat[ui] || [];
+          return (
+            <div key={ui} className={'ustun-quti' + (ui === faol ? ' faol' : '')}>
+              <div className="ustun-bosh">{u.sarlavha}</div>
+              {bandlar.length === 0 ? <div className="bosh-holat">—</div> : bandlar.map(function (t, i) {
+                return (
+                  <div key={i} className="ustun-band">
+                    <span>{t}</span>
+                    <button className="mayda-tug" onClick={function () { ochir(ui, i); }} aria-label="O'chirish">✕</button>
+                  </div>
+                );
+              })}
+            </div>
+          );
+        })}
+      </div>
+
+      <div className="holat">
+        {jami ? 'Jami ' + jami + ' band · ustunlarni solishtiring' : 'Har bir ustunni to‘ldiring, keyin ularni yonma-yon o‘qing'}
+      </div>
     </div>
   );
 }
@@ -1574,8 +2386,11 @@ function Mashq(props) {
   if (m.turi === 'jurnal') ichi = <Jurnal m={m} k={k} />;
   else if (m.turi === 'checklist') ichi = <Checklist m={m} k={k} />;
   else if (m.turi === 'slider') ichi = <Slider m={m} k={k} />;
+  else if (m.turi === 'sanagich') ichi = <Sanagich m={m} k={k} />;
   else if (m.turi === 'taymer') ichi = <Taymer m={m} k={k} />;
   else if (m.turi === 'test') ichi = <Test m={m} k={k} />;
+  else if (m.turi === 'saralash') ichi = <Saralash m={m} k={k} />;
+  else if (m.turi === 'juftlik') ichi = <Juftlik m={m} k={k} />;
   else if (m.turi === 'kundalik') ichi = <Kundalik m={m} k={k} />;
   else if (m.turi === 'eslatma') ichi = <Eslatma m={m} k={k} />;
   if (!ichi) return null;
@@ -1620,9 +2435,10 @@ function Bolim(props) {
   useEffect(function () {
     if (birinchi.current) { birinchi.current = false; return; }
     if (!props.ochiq) return;
+    if (props.boshlangich) oBolimcha(props.boshlangich);
     const id = requestAnimationFrame(function () { tepaga(true); });
     return function () { cancelAnimationFrame(id); };
-  }, [props.ochiq, tepaga]);
+  }, [props.ochiq, props.boshlangich, tepaga]);
 
   function tanla(qaysi) {
     if (qaysi === bolimcha) return;
@@ -1715,11 +2531,64 @@ function Bolim(props) {
 
 /* ==================== Kitob sahifasi ==================== */
 
+/* --- «Bugun» paneli: har kuni qaytariladigan amaliyotlar --- */
+/* Kitob sahifasining tepasida turadi va bugun nima qolganini ko'rsatadi */
+function BugunPaneli(props) {
+  const YORLIQ = {
+    checklist: 'Kunlik ro\'yxat', slider: 'O\'lchov', sanagich: 'Sanagich',
+    taymer: 'Seans', kundalik: 'Kundalik'
+  };
+  const royxat = [];
+  (props.bolimlar || []).forEach(function (b, bi) {
+    (b.mashqlar || []).forEach(function (m, mi) {
+      if (!KUNLIK_TURLAR[m.turi]) return;
+      const xom = oqi(kalit(props.kitobId, bi, mi), null);
+      royxat.push({
+        bi: bi, nomi: m.savol || m.sarlavha || m.korsatma || '',
+        turi: m.turi, bolim: b.sarlavha,
+        tayyor: mashqBugun(m, xom)
+      });
+    });
+  });
+  if (!royxat.length) return null;
+
+  const qolgan = royxat.filter(function (x) { return !x.tayyor; });
+  const korinadi = (qolgan.length ? qolgan : royxat).slice(0, 4);
+
+  return (
+    <div className="bugun-quti">
+      <div className="bugun-bosh">
+        Bugungi amaliyot · {royxat.length - qolgan.length}/{royxat.length}
+      </div>
+      {korinadi.map(function (x, i) {
+        return (
+          <button
+            key={i}
+            className={'bugun-qator' + (x.tayyor ? ' tayyor' : '')}
+            onClick={function () { haptic('select'); props.och(x.bi); }}
+          >
+            <span className="bugun-nishon">{x.tayyor ? '✓' : (i + 1)}</span>
+            <span className="bugun-matn">
+              {x.nomi.length > 68 ? x.nomi.slice(0, 68) + '…' : x.nomi}
+              <small>{YORLIQ[x.turi]} · {x.bolim}</small>
+            </span>
+          </button>
+        );
+      })}
+      {qolgan.length === 0
+        ? <div className="bugun-bosh" style={{ marginTop: 8, marginBottom: 0 }}>Bugungi amaliyot to'liq bajarildi</div>
+        : (qolgan.length > 4 ? <div className="bugun-bosh" style={{ marginTop: 8, marginBottom: 0 }}>yana {qolgan.length - 4} ta</div> : null)}
+    </div>
+  );
+}
+
 function KitobSahifa(props) {
   /* Kitob allaqachon yuklangan bo'lsa — darrov ko'rsatiladi, spinner yo'q */
   const [kitob, oKitob] = useState(function () { return props.kitob || null; });
   const [xato, oXato] = useState(null);
   const [ochiq, oOchiq] = useState(0);
+  /* «Bugun» panelidan ochilganda bo'lim darrov mashqlar bo'limchasida ochiladi */
+  const [mashqqa, oMashqqa] = useState(false);
   useSaqlashVersiya();
 
   useEffect(function () {
@@ -1793,6 +2662,17 @@ function KitobSahifa(props) {
 
       {kitob.kirish ? <p className="kirish">{kitob.kirish}</p> : null}
 
+      <BugunPaneli
+        kitobId={kitob.id || props.id}
+        bolimlar={bolimlar}
+        och={function (bi) {
+          /* Ochiq bo'lsa ham qayta ochiladi — shunda bo'lim boshiga suriladi */
+          oMashqqa(true);
+          oOchiq(-1);
+          setTimeout(function () { oOchiq(bi); }, 0);
+        }}
+      />
+
       <div className="satr-bosh">
         <h3>Bo'limlar</h3>
         <span>{hisob.bajarildi} / {hisob.jami} mashq</span>
@@ -1806,8 +2686,10 @@ function KitobSahifa(props) {
             idx={i}
             kitobId={kitob.id || props.id}
             ochiq={ochiq === i}
+            boshlangich={mashqqa ? 'mashq' : null}
             almashtir={function () {
               haptic('light');
+              oMashqqa(false);
               oOchiq(ochiq === i ? -1 : i);
             }}
           />
